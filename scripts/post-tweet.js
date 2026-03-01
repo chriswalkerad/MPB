@@ -60,7 +60,7 @@ const postText = `${typeEmoji} ${event.name}
 📅 ${dateStr}
 ${event.tags?.length ? `🏷️ ${event.tags.slice(0, 2).join(', ')}` : ''}
 
-🔗 https://myprinterbroke.com/events
+🔗 https://myprinterbroke.com/events?event=${event.slug}
 
 #Cybersecurity #Infosec`;
 

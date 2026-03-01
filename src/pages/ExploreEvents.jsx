@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useLocation } from '../context/LocationContext'
 import Layout from '../components/Layout'
@@ -21,6 +21,17 @@ export default function ExploreEvents() {
   // Get filter state from URL params
   const format = searchParams.get('format') || 'all'
   const type = searchParams.get('type') || 'all'
+  const eventSlug = searchParams.get('event')
+
+  // Open drawer if event slug is in URL
+  useEffect(() => {
+    if (eventSlug) {
+      const event = events.find(e => e.slug === eventSlug)
+      if (event) {
+        setSelectedEvent(event)
+      }
+    }
+  }, [eventSlug])
 
   // Update URL params when filters change
   const handleFormatChange = (newFormat) => {
