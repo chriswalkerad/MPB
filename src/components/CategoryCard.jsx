@@ -5,8 +5,11 @@ export default function CategoryCard({ category, eventCount }) {
     <Link
       to={`/events/category/${category.slug}`}
       style={{
-        display: 'block',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
         padding: '16px',
+        height: '80px',
         background: 'rgba(255,255,255,0.03)',
         border: '1px solid rgba(255,255,255,0.08)',
         borderRadius: '10px',

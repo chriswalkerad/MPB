@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 const TYPE_COLORS = {
   conference: '#ff6b35',
   meetup: '#00d4aa',
@@ -8,92 +10,79 @@ const TYPE_COLORS = {
 }
 
 export default function FloatingCard({ event, style, delay = 0 }) {
+  const [hovered, setHovered] = useState(false)
   const color = TYPE_COLORS[event.type] || '#fff'
+  const borderColor = hovered ? color : 'rgba(255,255,255,0.15)'
 
   return (
     <div
       style={{
         ...style,
         position: 'absolute',
-        animation: `floatIn 0.8s ease-out ${delay}s both, gentleFloat 6s ease-in-out ${delay}s infinite`,
+        animation: `floatIn 0.8s ease-out ${delay}s both, gentleFloat 8s ease-in-out ${delay}s infinite`,
         pointerEvents: 'auto'
       }}
     >
       <div
         style={{
-          background: 'rgba(255,255,255,0.04)',
-          backdropFilter: 'blur(20px)',
-          WebkitBackdropFilter: 'blur(20px)',
-          border: '1px solid rgba(255,255,255,0.08)',
-          borderRadius: '16px',
-          padding: '16px 20px',
-          minWidth: '240px',
+          background: 'rgba(0,0,0,0.85)',
+          border: `1px solid ${borderColor}`,
+          padding: '12px 16px',
+          minWidth: '280px',
           cursor: 'default',
-          transition: 'all 0.3s ease'
+          transition: 'border-color 0.2s ease',
+          fontFamily: "'JetBrains Mono', monospace"
         }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.background = 'rgba(255,255,255,0.08)'
-          e.currentTarget.style.border = `1px solid ${color}33`
-          e.currentTarget.style.transform = 'scale(1.03)'
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.background = 'rgba(255,255,255,0.04)'
-          e.currentTarget.style.border = '1px solid rgba(255,255,255,0.08)'
-          e.currentTarget.style.transform = 'scale(1)'
-        }}
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
       >
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-          <div
-            style={{
-              width: '8px',
-              height: '8px',
-              borderRadius: '50%',
-              background: color,
-              boxShadow: `0 0 8px ${color}66`
-            }}
-          />
-          <span
-            style={{
-              fontSize: '11px',
-              fontWeight: 600,
-              textTransform: 'uppercase',
-              letterSpacing: '0.08em',
-              color: color,
-              fontFamily: "'JetBrains Mono', monospace"
-            }}
-          >
-            {event.type}
-          </span>
-          <span
-            style={{
-              fontSize: '11px',
-              color: 'rgba(255,255,255,0.35)',
-              marginLeft: 'auto',
-              fontFamily: "'JetBrains Mono', monospace"
-            }}
-          >
-            {event.date}
-          </span>
+        {/* Command header */}
+        <div style={{
+          fontSize: '11px',
+          color: 'rgba(255,255,255,0.4)',
+          marginBottom: '8px'
+        }}>
+          <span style={{ color: 'rgba(255,255,255,0.6)' }}>$</span>
+          {' event '}
+          <span style={{ color }}>--type={event.type}</span>
         </div>
-        <div
-          style={{
-            fontSize: '14px',
-            fontWeight: 500,
+
+        {/* Event name + date row */}
+        <div style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          marginBottom: '4px'
+        }}>
+          <span style={{
+            fontSize: '13px',
             color: 'rgba(255,255,255,0.9)',
-            marginBottom: '4px',
-            fontFamily: "'Outfit', sans-serif"
-          }}
-        >
-          {event.name}
+            fontWeight: 500
+          }}>
+            {event.name}
+          </span>
+          <span style={{
+            fontSize: '11px',
+            color: 'rgba(255,255,255,0.5)',
+            marginLeft: '12px',
+            flexShrink: 0
+          }}>
+            {event.date}
+            {hovered && (
+              <span style={{
+                marginLeft: '4px',
+                animation: 'cursorBlink 1s step-end infinite'
+              }}>█</span>
+            )}
+          </span>
         </div>
-        <div
-          style={{
-            fontSize: '12px',
-            color: 'rgba(255,255,255,0.35)',
-            fontFamily: "'Outfit', sans-serif"
-          }}
-        >
-          {event.city}
+
+        {/* Location with tree character */}
+        <div style={{
+          fontSize: '11px',
+          color: 'rgba(255,255,255,0.35)'
+        }}>
+          └─ {event.city}
         </div>
       </div>
     </div>

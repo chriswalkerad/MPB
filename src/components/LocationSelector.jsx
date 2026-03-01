@@ -172,35 +172,6 @@ export default function LocationSelector() {
             All Locations
           </button>
 
-          {/* Virtual */}
-          <button
-            onClick={handleVirtual}
-            style={{
-              width: "100%",
-              padding: "10px 16px",
-              background: isActive("virtual", null) ? "rgba(255,255,255,0.1)" : "transparent",
-              border: "none",
-              color: "white",
-              fontFamily: "Outfit, sans-serif",
-              fontSize: "14px",
-              textAlign: "left",
-              cursor: "pointer",
-              transition: "background 0.15s ease",
-            }}
-            onMouseEnter={(e) => {
-              if (!isActive("virtual", null)) {
-                e.currentTarget.style.background = "rgba(255,255,255,0.05)";
-              }
-            }}
-            onMouseLeave={(e) => {
-              if (!isActive("virtual", null)) {
-                e.currentTarget.style.background = "transparent";
-              }
-            }}
-          >
-            Virtual
-          </button>
-
           {/* Divider */}
           <div
             style={{

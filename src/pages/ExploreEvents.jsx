@@ -1,5 +1,6 @@
 import { useSearchParams } from 'react-router-dom'
 import { useLocation } from '../context/LocationContext'
+import Layout from '../components/Layout'
 import EventFilters from '../components/EventFilters'
 import EventList from '../components/EventList'
 import CategoryCard from '../components/CategoryCard'
@@ -77,12 +78,7 @@ export default function ExploreEvents() {
     .sort((a, b) => new Date(a.date) - new Date(b.date))
 
   return (
-    <div
-      style={{
-        minHeight: '100vh',
-        background: '#09090b'
-      }}
-    >
+    <Layout>
       <div
         style={{
           maxWidth: '1200px',
@@ -115,16 +111,8 @@ export default function ExploreEvents() {
           </p>
         </div>
 
-        {/* Filters */}
-        <EventFilters
-          format={format}
-          onFormatChange={handleFormatChange}
-          type={type}
-          onTypeChange={handleTypeChange}
-        />
-
         {/* Category Grid */}
-        <div style={{ marginBottom: '40px' }}>
+        <div style={{ marginBottom: '32px' }}>
           <h2
             style={{
               fontSize: '14px',
@@ -155,9 +143,19 @@ export default function ExploreEvents() {
           </div>
         </div>
 
+        {/* Filters */}
+        <EventFilters
+          format={format}
+          onFormatChange={handleFormatChange}
+          type={type}
+          onTypeChange={handleTypeChange}
+        />
+
         {/* Event List */}
-        <EventList events={filteredEvents} />
+        <div style={{ marginTop: '24px' }}>
+          <EventList events={filteredEvents} />
+        </div>
       </div>
-    </div>
+    </Layout>
   )
 }
