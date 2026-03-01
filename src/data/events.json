@@ -1,0 +1,44 @@
+[
+  {
+    "name": "BSides Los Angeles 2026",
+    "slug": "bsides-la-2026",
+    "date": "Mar 15",
+    "type": "conference",
+    "city": "Los Angeles, CA"
+  },
+  {
+    "name": "OWASP SoCal Monthly",
+    "slug": "owasp-socal-monthly",
+    "date": "Mar 4",
+    "type": "meetup",
+    "city": "Irvine, CA"
+  },
+  {
+    "name": "ISSA LA Chapter Meeting",
+    "slug": "issa-la-chapter",
+    "date": "Mar 11",
+    "type": "chapter",
+    "city": "Los Angeles, CA"
+  },
+  {
+    "name": "SecureWorld San Diego",
+    "slug": "secureworld-san-diego",
+    "date": "Mar 19-20",
+    "type": "conference",
+    "city": "San Diego, CA"
+  },
+  {
+    "name": "DEF CON Group 562",
+    "slug": "defcon-562",
+    "date": "Mar 7",
+    "type": "meetup",
+    "city": "Long Beach, CA"
+  },
+  {
+    "name": "HIPAA Security Summit",
+    "slug": "hipaa-security-summit",
+    "date": "Apr 7-10",
+    "type": "virtual",
+    "city": "Online"
+  }
+]
