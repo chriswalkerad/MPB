@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Layout from '../components/Layout'
 import EventCard from '../components/EventCard'
@@ -16,6 +16,11 @@ function getMonthKey(dateStr) {
 
 export default function PastEvents() {
   const [selectedEvent, setSelectedEvent] = useState(null)
+
+  // Scroll to top on mount
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   // Filter to only past events
   const today = new Date()

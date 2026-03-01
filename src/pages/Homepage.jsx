@@ -163,11 +163,7 @@ export default function Homepage() {
                 fontFamily: "'Outfit', sans-serif"
               }}
             >
-              Every cyber
-              <br />
-              event.
-              <br />
-              Found here.
+              Every cyber security event.
             </h1>
 
             {/* Subhead */}
