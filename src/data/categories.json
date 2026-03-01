@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Community & General",
+    "slug": "community-general",
+    "description": "BSides, DEF CON Groups, ISSA/ISACA/ISC2 chapters, general infosec meetups"
+  },
+  {
+    "name": "AI & Machine Learning",
+    "slug": "ai-machine-learning",
+    "description": "AI security, ML threats, LLM security, AI governance"
+  },
+  {
+    "name": "Compliance & GRC",
+    "slug": "compliance-grc",
+    "description": "HIPAA, CMMC, SOC 2, PCI-DSS, ISO 27001, cyber insurance"
+  },
+  {
+    "name": "Cloud Security",
+    "slug": "cloud-security",
+    "description": "AWS/Azure/GCP security, cloud-native, CNAPP, CSPM"
+  },
+  {
+    "name": "MSP & Channel",
+    "slug": "msp-channel",
+    "description": "IT Nation, DattoCon, Pax8 Beyond, MSP-focused events"
+  },
+  {
+    "name": "Threat Intelligence",
+    "slug": "threat-intelligence",
+    "description": "Threat briefings, CTI sharing, MITRE ATT&CK"
+  },
+  {
+    "name": "Incident Response",
+    "slug": "incident-response",
+    "description": "IR planning, tabletop exercises, forensics"
+  },
+  {
+    "name": "Identity & Access",
+    "slug": "identity-access",
+    "description": "Zero trust, MFA, IAM, SSO, privileged access"
+  },
+  {
+    "name": "Security Awareness",
+    "slug": "security-awareness",
+    "description": "SAT events, phishing education, human risk"
+  },
+  {
+    "name": "AppSec & DevSecOps",
+    "slug": "appsec-devsecops",
+    "description": "Application security, secure coding, SAST/DAST"
+  },
+  {
+    "name": "Networking & Career",
+    "slug": "networking-career",
+    "description": "Career events, hiring fairs, CISO roundtables"
+  }
+]
