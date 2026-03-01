@@ -1,4 +1,4 @@
-import { BskyAgent } from '@atproto/api';
+import { BskyAgent, RichText } from '@atproto/api';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
@@ -60,23 +60,9 @@ const postText = `${typeEmoji} ${event.name}
 📅 ${dateStr}
 ${event.tags?.length ? `🏷️ ${event.tags.slice(0, 2).join(', ')}` : ''}
 
-#cybersecurity #infosec`;
+🔗 ${event.url}
 
-// Create link facet for the URL
-function createLinkFacet(text, url) {
-  const linkText = '\n\n🔗 Event Link';
-  const fullText = text + linkText;
-  const byteStart = new TextEncoder().encode(text + '\n\n🔗 ').length;
-  const byteEnd = byteStart + new TextEncoder().encode('Event Link').length;
-
-  return {
-    text: fullText,
-    facets: [{
-      index: { byteStart, byteEnd },
-      features: [{ $type: 'app.bsky.richtext.facet#link', uri: url }]
-    }]
-  };
-}
+#Cybersecurity #Infosec`;
 
 // Post to Bluesky
 async function post() {
@@ -86,17 +72,19 @@ async function post() {
       password: process.env.BLUESKY_APP_PASSWORD,
     });
 
-    const { text, facets } = createLinkFacet(postText, event.url);
+    // Use RichText to automatically detect and create facets for links and hashtags
+    const rt = new RichText({ text: postText });
+    await rt.detectFacets(agent);
 
     const result = await agent.post({
-      text,
-      facets,
+      text: rt.text,
+      facets: rt.facets,
       createdAt: new Date().toISOString(),
     });
 
     console.log('Posted successfully!');
     console.log('URI:', result.uri);
-    console.log('Content:', text);
+    console.log('Content:', rt.text);
   } catch (error) {
     console.error('Error posting:', error);
     process.exit(1);
