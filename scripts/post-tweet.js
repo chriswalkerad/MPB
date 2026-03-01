@@ -1,6 +1,10 @@
-const { TwitterApi } = require('twitter-api-v2');
-const fs = require('fs');
-const path = require('path');
+import { TwitterApi } from 'twitter-api-v2';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Initialize Twitter client
 const client = new TwitterApi({
@@ -11,7 +15,7 @@ const client = new TwitterApi({
 });
 
 // Load events
-const eventsPath = path.join(__dirname, '../src/data/events.json');
+const eventsPath = join(__dirname, '../src/data/events.json');
 const events = JSON.parse(fs.readFileSync(eventsPath, 'utf-8'));
 
 // Get upcoming events (next 30 days)
