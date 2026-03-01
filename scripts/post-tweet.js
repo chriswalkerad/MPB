@@ -1,4 +1,4 @@
-import { TwitterApi } from 'twitter-api-v2';
+import { BskyAgent } from '@atproto/api';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
@@ -6,13 +6,8 @@ import { dirname, join } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// Initialize Twitter client
-const client = new TwitterApi({
-  appKey: process.env.TWITTER_API_KEY,
-  appSecret: process.env.TWITTER_API_SECRET,
-  accessToken: process.env.TWITTER_ACCESS_TOKEN,
-  accessSecret: process.env.TWITTER_ACCESS_SECRET,
-});
+// Initialize Bluesky client
+const agent = new BskyAgent({ service: 'https://bsky.social' });
 
 // Load events
 const eventsPath = join(__dirname, '../src/data/events.json');
@@ -49,7 +44,7 @@ const dateStr = eventDate.toLocaleDateString('en-US', {
 // Format location
 const location = event.format === 'virtual' ? 'Virtual' : event.city || 'TBA';
 
-// Build tweet
+// Build post text
 const typeEmoji = {
   'conference': '🎤',
   'workshop': '🛠️',
@@ -59,27 +54,53 @@ const typeEmoji = {
   'meetup': '🤝'
 }[event.type] || '📅';
 
-const tweet = `${typeEmoji} ${event.name}
+const postText = `${typeEmoji} ${event.name}
 
 📍 ${location}
 📅 ${dateStr}
 ${event.tags?.length ? `🏷️ ${event.tags.slice(0, 2).join(', ')}` : ''}
 
-${event.url}
-
 #cybersecurity #infosec`;
 
-// Post tweet
-async function postTweet() {
+// Create link facet for the URL
+function createLinkFacet(text, url) {
+  const linkText = '\n\n🔗 Event Link';
+  const fullText = text + linkText;
+  const byteStart = new TextEncoder().encode(text + '\n\n🔗 ').length;
+  const byteEnd = byteStart + new TextEncoder().encode('Event Link').length;
+
+  return {
+    text: fullText,
+    facets: [{
+      index: { byteStart, byteEnd },
+      features: [{ $type: 'app.bsky.richtext.facet#link', uri: url }]
+    }]
+  };
+}
+
+// Post to Bluesky
+async function post() {
   try {
-    const result = await client.v2.tweet(tweet);
-    console.log('Tweet posted successfully!');
-    console.log('Tweet ID:', result.data.id);
-    console.log('Content:', tweet);
+    await agent.login({
+      identifier: process.env.BLUESKY_HANDLE,
+      password: process.env.BLUESKY_APP_PASSWORD,
+    });
+
+    const { text, facets } = createLinkFacet(postText, event.url);
+
+    const result = await agent.post({
+      text,
+      facets,
+      createdAt: new Date().toISOString(),
+    });
+
+    console.log('Posted successfully!');
+    console.log('URI:', result.uri);
+    console.log('Content:', text);
   } catch (error) {
-    console.error('Error posting tweet:', error);
+    console.error('Error posting:', error);
     process.exit(1);
   }
 }
 
-postTweet();
+post();
