@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import GenerativePattern from './GenerativePattern';
 
 const TYPE_COLORS = {
   conference: '#ff6b35',
@@ -106,7 +107,7 @@ export default function EventCard({ event, onClick }) {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: image ? 'transparent' : '#1a1a1a',
+    background: 'transparent',
     fontSize: '32px',
   };
 
@@ -218,7 +219,7 @@ export default function EventCard({ event, onClick }) {
         {image ? (
           <img src={image} alt={name} style={imageStyle} />
         ) : (
-          <span>{typeIcon}</span>
+          <GenerativePattern seed={event.slug} size={100} />
         )}
       </div>
 
