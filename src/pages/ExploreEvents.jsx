@@ -1,8 +1,10 @@
+import { useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useLocation } from '../context/LocationContext'
 import Layout from '../components/Layout'
 import EventFilters from '../components/EventFilters'
 import EventList from '../components/EventList'
+import EventDetailDrawer from '../components/EventDetailDrawer'
 import CategoryCard from '../components/CategoryCard'
 import events from '../data/events.json'
 import categories from '../data/categories.json'
@@ -14,6 +16,7 @@ function countEventsForCategory(events, categoryName) {
 export default function ExploreEvents() {
   const [searchParams, setSearchParams] = useSearchParams()
   const { location } = useLocation()
+  const [selectedEvent, setSelectedEvent] = useState(null)
 
   // Get filter state from URL params
   const format = searchParams.get('format') || 'all'
@@ -81,7 +84,7 @@ export default function ExploreEvents() {
     <Layout>
       <div
         style={{
-          maxWidth: '1200px',
+          maxWidth: '800px',
           margin: '0 auto',
           padding: '40px 20px'
         }}
@@ -153,9 +156,16 @@ export default function ExploreEvents() {
 
         {/* Event List */}
         <div style={{ marginTop: '24px' }}>
-          <EventList events={filteredEvents} />
+          <EventList events={filteredEvents} onEventClick={setSelectedEvent} />
         </div>
       </div>
+
+      {/* Event Detail Drawer */}
+      <EventDetailDrawer
+        event={selectedEvent}
+        isOpen={!!selectedEvent}
+        onClose={() => setSelectedEvent(null)}
+      />
     </Layout>
   )
 }

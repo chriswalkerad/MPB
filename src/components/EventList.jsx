@@ -29,7 +29,7 @@ function groupEventsByDate(events) {
     .map(([label, { events }]) => ({ label, events }))
 }
 
-export default function EventList({ events }) {
+export default function EventList({ events, onEventClick }) {
   if (!events || events.length === 0) {
     return (
       <div style={{ textAlign: 'center', padding: '48px 0', color: 'rgba(255,255,255,0.5)' }}>
@@ -58,13 +58,17 @@ export default function EventList({ events }) {
           </h3>
           <div
             style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))',
+              display: 'flex',
+              flexDirection: 'column',
               gap: 16
             }}
           >
             {group.events.map(event => (
-              <EventCard key={event.id} event={event} />
+              <EventCard
+                key={event.slug}
+                event={event}
+                onClick={onEventClick}
+              />
             ))}
           </div>
         </div>

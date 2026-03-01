@@ -80,8 +80,6 @@ export default function EventCard({ event, onClick }) {
   const handleClick = () => {
     if (onClick) {
       onClick(event);
-    } else if (isExternal) {
-      window.open(url, '_blank', 'noopener,noreferrer');
     }
   };
 

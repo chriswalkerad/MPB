@@ -1,8 +1,9 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { useParams, useSearchParams, Link } from 'react-router-dom'
 import Layout from '../components/Layout'
 import EventFilters from '../components/EventFilters'
 import EventList from '../components/EventList'
+import EventDetailDrawer from '../components/EventDetailDrawer'
 import { useLocation } from '../context/LocationContext'
 import events from '../data/events.json'
 import categories from '../data/categories.json'
@@ -11,6 +12,7 @@ export default function CategoryPage() {
   const { slug } = useParams()
   const [searchParams, setSearchParams] = useSearchParams()
   const { location } = useLocation()
+  const [selectedEvent, setSelectedEvent] = useState(null)
 
   const category = categories.find(c => c.slug === slug)
 
@@ -60,7 +62,7 @@ export default function CategoryPage() {
   if (!category) {
     return (
       <Layout>
-        <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '40px 20px', textAlign: 'center' }}>
+        <div style={{ maxWidth: '800px', margin: '0 auto', padding: '40px 20px', textAlign: 'center' }}>
           <h1 style={{
             fontSize: '36px',
             fontWeight: 700,
@@ -88,7 +90,7 @@ export default function CategoryPage() {
 
   return (
     <Layout>
-      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '40px 20px' }}>
+      <div style={{ maxWidth: '800px', margin: '0 auto', padding: '40px 20px' }}>
         {/* Breadcrumb / Back link */}
         <Link
           to="/events"
@@ -145,9 +147,16 @@ export default function CategoryPage() {
 
         {/* Event List */}
         <div style={{ marginTop: '32px' }}>
-          <EventList events={filteredEvents} />
+          <EventList events={filteredEvents} onEventClick={setSelectedEvent} />
         </div>
       </div>
+
+      {/* Event Detail Drawer */}
+      <EventDetailDrawer
+        event={selectedEvent}
+        isOpen={!!selectedEvent}
+        onClose={() => setSelectedEvent(null)}
+      />
     </Layout>
   )
 }
