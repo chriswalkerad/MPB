@@ -163,8 +163,10 @@ export default function ExploreEvents() {
       {/* Event Detail Drawer */}
       <EventDetailDrawer
         event={selectedEvent}
+        events={filteredEvents}
         isOpen={!!selectedEvent}
         onClose={() => setSelectedEvent(null)}
+        onNavigate={setSelectedEvent}
       />
     </Layout>
   )

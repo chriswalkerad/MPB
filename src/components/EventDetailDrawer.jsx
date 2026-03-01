@@ -41,10 +41,27 @@ function formatTimeRange(startStr, endStr) {
   return `${formatTime(start)} - ${formatTime(end)} ${tz}`
 }
 
-export default function EventDetailDrawer({ event, isOpen, onClose }) {
+export default function EventDetailDrawer({ event, events = [], isOpen, onClose, onNavigate }) {
   if (!event && !isOpen) return null
 
   const typeColor = TYPE_COLORS[event?.type] || '#888'
+
+  // Find current index for navigation
+  const currentIndex = events.findIndex(e => e.slug === event?.slug)
+  const hasPrev = currentIndex > 0
+  const hasNext = currentIndex < events.length - 1 && currentIndex !== -1
+
+  const handlePrev = () => {
+    if (hasPrev && onNavigate) {
+      onNavigate(events[currentIndex - 1])
+    }
+  }
+
+  const handleNext = () => {
+    if (hasNext && onNavigate) {
+      onNavigate(events[currentIndex + 1])
+    }
+  }
 
   const handleRSVP = () => {
     if (event?.url) {
@@ -118,6 +135,56 @@ export default function EventDetailDrawer({ event, isOpen, onClose }) {
             </svg>
             Close
           </button>
+
+          {/* Navigation Arrows */}
+          {events.length > 1 && (
+            <div style={{ display: 'flex', gap: '4px' }}>
+              <button
+                onClick={handlePrev}
+                disabled={!hasPrev}
+                aria-label="Previous event"
+                style={{
+                  width: '32px',
+                  height: '32px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  background: hasPrev ? 'rgba(255,255,255,0.1)' : 'rgba(255,255,255,0.03)',
+                  border: '1px solid rgba(255,255,255,0.1)',
+                  borderRadius: '8px',
+                  color: hasPrev ? 'rgba(255,255,255,0.8)' : 'rgba(255,255,255,0.2)',
+                  cursor: hasPrev ? 'pointer' : 'not-allowed',
+                  transition: 'all 0.2s ease'
+                }}
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M18 15l-6-6-6 6" />
+                </svg>
+              </button>
+              <button
+                onClick={handleNext}
+                disabled={!hasNext}
+                aria-label="Next event"
+                style={{
+                  width: '32px',
+                  height: '32px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  background: hasNext ? 'rgba(255,255,255,0.1)' : 'rgba(255,255,255,0.03)',
+                  border: '1px solid rgba(255,255,255,0.1)',
+                  borderRadius: '8px',
+                  color: hasNext ? 'rgba(255,255,255,0.8)' : 'rgba(255,255,255,0.2)',
+                  cursor: hasNext ? 'pointer' : 'not-allowed',
+                  transition: 'all 0.2s ease'
+                }}
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Scrollable Content */}

@@ -154,8 +154,10 @@ export default function CategoryPage() {
       {/* Event Detail Drawer */}
       <EventDetailDrawer
         event={selectedEvent}
+        events={filteredEvents}
         isOpen={!!selectedEvent}
         onClose={() => setSelectedEvent(null)}
+        onNavigate={setSelectedEvent}
       />
     </Layout>
   )
