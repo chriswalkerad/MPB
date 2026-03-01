@@ -13,7 +13,7 @@ export default function Layout({ children }) {
   const isEventsPage = routerLocation.pathname.startsWith('/events')
 
   return (
-    <div style={{ minHeight: '100vh', background: '#09090b', position: 'relative' }}>
+    <div style={{ minHeight: '100vh', background: '#09090b', position: 'relative', display: 'flex', flexDirection: 'column' }}>
       {/* Red gradient at top */}
       <div
         style={{
@@ -36,15 +36,22 @@ export default function Layout({ children }) {
           left: 0,
           right: 0,
           height: NAV_HEIGHT,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          padding: '0 40px',
           zIndex: 100,
           background: 'rgba(0,0,0,0.8)',
           backdropFilter: 'blur(10px)'
         }}
       >
+        <div
+          style={{
+            maxWidth: '800px',
+            margin: '0 auto',
+            padding: '0 20px',
+            height: '100%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between'
+          }}
+        >
         {/* Left: Logo + LocationSelector */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '24px' }}>
           <Link
@@ -109,33 +116,32 @@ export default function Layout({ children }) {
           >
             Subscribe
           </button>
-          <Link
-            to="/events"
-            style={{
-              color: isEventsPage ? 'white' : 'rgba(255,255,255,0.6)',
-              textDecoration: 'none',
-              fontSize: '14px',
-              fontWeight: 500,
-              fontFamily: "'Outfit', sans-serif",
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '4px',
-              transition: 'color 0.2s ease'
-            }}
-            onMouseEnter={(e) => e.currentTarget.style.color = 'rgba(255,255,255,1)'}
-            onMouseLeave={(e) => {
-              if (!isEventsPage) {
-                e.currentTarget.style.color = 'rgba(255,255,255,0.6)'
-              }
-            }}
-          >
-            Explore Events <span style={{ fontSize: '12px' }}>↗</span>
-          </Link>
+{!isEventsPage && (
+            <Link
+              to="/events"
+              style={{
+                color: 'rgba(255,255,255,0.6)',
+                textDecoration: 'none',
+                fontSize: '14px',
+                fontWeight: 500,
+                fontFamily: "'Outfit', sans-serif",
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '4px',
+                transition: 'color 0.2s ease'
+              }}
+              onMouseEnter={(e) => e.currentTarget.style.color = 'rgba(255,255,255,1)'}
+              onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255,255,255,0.6)'}
+            >
+              Explore Events <span style={{ fontSize: '12px' }}>↗</span>
+            </Link>
+          )}
+        </div>
         </div>
       </nav>
 
       {/* Main Content */}
-      <main style={{ paddingTop: NAV_HEIGHT }}>
+      <main style={{ paddingTop: NAV_HEIGHT, flex: 1 }}>
         {children}
       </main>
 
@@ -175,6 +181,17 @@ export default function Layout({ children }) {
             }}
           >
             Submit An Event
+          </Link>
+          <Link
+            to="/events/archive"
+            style={{
+              fontFamily: "'Outfit', sans-serif",
+              fontSize: '12px',
+              color: 'rgba(255,255,255,0.5)',
+              textDecoration: 'none'
+            }}
+          >
+            Past Events
           </Link>
         </div>
 
