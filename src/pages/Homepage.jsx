@@ -179,6 +179,7 @@ export default function Homepage() {
               <br />
               event.
               <br />
+              <span style={{ color: '#FF0000' }}>Found here</span>
               <span
                 style={{
                   background: 'linear-gradient(135deg, #ff6b35, #ff8f65, #ff6b35)',
@@ -188,9 +189,7 @@ export default function Homepage() {
                   backgroundClip: 'text',
                   animation: 'shimmer 4s linear infinite'
                 }}
-              >
-                Found here.
-              </span>
+              >.</span>
             </h1>
 
             {/* Subhead */}

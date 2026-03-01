@@ -222,31 +222,10 @@ const Sun = forwardRef(function Sun(props, forwardRef) {
 
 /* Effects Component */
 function Effects() {
-  const [material, set] = useState()
-
   return (
-    <>
-      <Sun ref={set} />
-      {material && (
-        <EffectComposer multisampling={0}>
-          <GodRays
-            sun={material}
-            blendFunction={BlendFunction.Screen}
-            samples={100}
-            density={0.9}
-            decay={0.92}
-            weight={0.4}
-            exposure={0.4}
-            clampMax={1}
-            width={Resizer.AUTO_SIZE}
-            height={Resizer.AUTO_SIZE}
-            kernelSize={KernelSize.MEDIUM}
-            blur={true}
-          />
-          {defaultControls.noise && <Noise opacity={defaultControls.noiseOpacity} />}
-        </EffectComposer>
-      )}
-    </>
+    <EffectComposer multisampling={0}>
+      {defaultControls.noise && <Noise opacity={defaultControls.noiseOpacity} />}
+    </EffectComposer>
   )
 }
 
