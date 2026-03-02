@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import Homepage from './pages/Homepage'
 import Bunker from './pages/Bunker'
 import ExploreEvents from './pages/ExploreEvents'
@@ -9,6 +10,7 @@ import PastEvents from './pages/PastEvents'
 export default function App() {
   return (
     <BrowserRouter>
+      <Analytics />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/bunker" element={<Bunker />} />
