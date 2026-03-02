@@ -123,7 +123,7 @@ export default function SubscribePanel({ isOpen, onClose }) {
               textAlign: 'center'
             }}
           >
-            <div style={{ fontSize: '32px', marginBottom: '12px' }}>✓</div>
+            <div style={{ fontSize: '32px', marginBottom: '12px', color: 'white' }}>✓</div>
             <div style={{ color: '#00d4aa', fontSize: '16px', fontWeight: 600, fontFamily: "'Outfit', sans-serif", marginBottom: '8px' }}>
               You're in!
             </div>

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { useLocation } from '../context/LocationContext'
+import { useLocation, METRO_AREAS } from '../context/LocationContext'
 import Layout from '../components/Layout'
 import EventFilters from '../components/EventFilters'
 import EventList from '../components/EventList'
@@ -77,14 +77,19 @@ export default function ExploreEvents() {
       // Type filter
       if (type !== 'all' && event.type !== type) return false
 
-      // Location filter: filter by region, or city if selected
+      // Location filter
       if (location) {
         // Virtual events are always shown
         if (event.region === 'virtual') return true
 
-        // If user has a specific city selected, filter by region
-        // Events match if they're in the same region
+        // Filter by region first
         if (event.region !== location.region) return false
+
+        // If user selected a specific city, check metro area
+        if (location.city) {
+          const metroCities = METRO_AREAS[location.city] || [location.city]
+          if (!metroCities.includes(event.city)) return false
+        }
       }
 
       return true

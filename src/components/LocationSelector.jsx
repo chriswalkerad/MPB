@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { useLocation } from "../context/LocationContext";
+import { useLocation, CITY_STATES } from "../context/LocationContext";
 
 // Format region key to display label
 const formatRegionLabel = (region) => {
@@ -55,10 +55,11 @@ export default function LocationSelector() {
   };
 
   const handleCitySelect = (region, city) => {
+    const state = CITY_STATES[city] || "";
     handleSelect({
       region,
       city,
-      label: `${city}, ${formatRegionLabel(region)}`,
+      label: state ? `${city}, ${state}` : city,
     });
   };
 

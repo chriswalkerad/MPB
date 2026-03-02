@@ -2,6 +2,76 @@
 
 import { createContext, useContext, useState, useEffect } from "react";
 
+// Metro area groupings - nearby cities that should match each selectable city
+export const METRO_AREAS = {
+  // West Coast
+  "Los Angeles": ["Los Angeles", "Pasadena", "Hollywood", "Anaheim", "Irvine", "Costa Mesa", "Culver City", "Santa Monica", "Carson", "Orange County", "Carlsbad"],
+  "San Francisco": ["San Francisco", "San Francisco, CA", "Palo Alto", "Mountain View", "Santa Clara", "San Jose", "South San Francisco", "Berkeley", "Half Moon Bay", "Sunnyvale", "Oakland"],
+  "San Diego": ["San Diego", "Chula Vista"],
+  "Seattle": ["Seattle", "Bellevue", "Redmond"],
+  "Portland": ["Portland", "Portland, OR"],
+
+  // Southwest
+  "Phoenix": ["Phoenix", "Phoenix, Arizona", "Mesa", "Mesa, Arizona", "Scottsdale", "Tempe, Arizona"],
+  "Las Vegas": ["Las Vegas"],
+  "Denver": ["Denver", "Denver, CO", "Colorado Springs", "Aurora", "Boulder"],
+
+  // Midwest
+  "Chicago": ["Chicago", "Schaumburg"],
+  "Dallas": ["Dallas", "Dallas, TX", "Arlington", "Plano", "Grapevine", "Frisco"],
+  "Houston": ["Houston"],
+  "Austin": ["Austin", "College Station"],
+  "Minneapolis": ["Minneapolis", "Saint Paul", "Prior Lake"],
+
+  // Southeast
+  "Miami": ["Miami", "Miami Beach", "Fort Lauderdale", "Boca Raton", "Dania Beach", "Coral Gables", "Sunny Isles Beach"],
+  "Atlanta": ["Atlanta", "Sandy Springs"],
+  "Tampa": ["Tampa", "Clearwater", "Orlando", "Lake Buena Vista", "Winter Park"],
+  "Charlotte": ["Charlotte"],
+  "Nashville": ["Nashville"],
+
+  // Northeast
+  "New York": ["New York", "New York, NY", "Brooklyn", "Brooklyn, NY", "Queens", "Newark", "New Rochelle"],
+  "Boston": ["Boston", "Cambridge"],
+  "Philadelphia": ["Philadelphia", "Philadelphia, PA", "King of Prussia"],
+  "Washington": ["Washington", "Washington, DC", "National Harbor", "Reston", "McLean", "Tysons Corner", "Laurel", "Oxon Hill", "Arlington", "Alexandria", "Frederick"]
+};
+
+// City to state abbreviation mapping
+export const CITY_STATES = {
+  // West Coast
+  "Los Angeles": "CA",
+  "San Francisco": "CA",
+  "San Diego": "CA",
+  "Seattle": "WA",
+  "Portland": "OR",
+
+  // Southwest
+  "Phoenix": "AZ",
+  "Las Vegas": "NV",
+  "Denver": "CO",
+
+  // Midwest
+  "Chicago": "IL",
+  "Dallas": "TX",
+  "Houston": "TX",
+  "Austin": "TX",
+  "Minneapolis": "MN",
+
+  // Southeast
+  "Miami": "FL",
+  "Atlanta": "GA",
+  "Tampa": "FL",
+  "Charlotte": "NC",
+  "Nashville": "TN",
+
+  // Northeast
+  "New York": "NY",
+  "Boston": "MA",
+  "Philadelphia": "PA",
+  "Washington": "DC",
+};
+
 // Region to cities mapping
 export const REGIONS = {
   "west-coast": ["Los Angeles", "San Francisco", "San Diego", "Seattle", "Portland"],
@@ -62,10 +132,11 @@ export function LocationProvider({ children }) {
 
           if (region) {
             // City is in our supported regions
+            const state = CITY_STATES[detectedCity] || "";
             const newLocation = {
               region,
               city: detectedCity,
-              label: `${detectedCity}, ${formatRegionLabel(region)}`,
+              label: state ? `${detectedCity}, ${state}` : detectedCity,
             };
             setLocation(newLocation);
             localStorage.setItem(STORAGE_KEY, JSON.stringify(newLocation));
@@ -74,7 +145,7 @@ export function LocationProvider({ children }) {
             const defaultLocation = {
               region: "west-coast",
               city: "Los Angeles",
-              label: "Los Angeles, West Coast",
+              label: "Los Angeles, CA",
             };
             setLocation(defaultLocation);
             localStorage.setItem(STORAGE_KEY, JSON.stringify(defaultLocation));
@@ -84,7 +155,7 @@ export function LocationProvider({ children }) {
           const defaultLocation = {
             region: "west-coast",
             city: "Los Angeles",
-            label: "Los Angeles, West Coast",
+            label: "Los Angeles, CA",
           };
           setLocation(defaultLocation);
           localStorage.setItem(STORAGE_KEY, JSON.stringify(defaultLocation));
@@ -94,7 +165,7 @@ export function LocationProvider({ children }) {
         const defaultLocation = {
           region: "west-coast",
           city: "Los Angeles",
-          label: "Los Angeles, West Coast",
+          label: "Los Angeles, CA",
         };
         setLocation(defaultLocation);
         localStorage.setItem(STORAGE_KEY, JSON.stringify(defaultLocation));
