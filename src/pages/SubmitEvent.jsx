@@ -117,14 +117,41 @@ export default function SubmitEvent() {
     }
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     setStatus('loading')
 
-    // Simulate submission
-    setTimeout(() => {
-      setStatus('success')
-    }, 1500)
+    try {
+      const response = await fetch('https://formspree.io/f/xwvnjlbq', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          startDate: formData.startDate,
+          startTime: formData.startTime,
+          endDate: formData.endDate,
+          endTime: formData.endTime,
+          location: formData.location,
+          description: formData.description,
+          type: formData.type,
+          format: formData.format,
+          cost: formData.cost === 'custom' ? formData.customCost : 'Free',
+          capacity: formData.capacity === 'custom' ? formData.customCapacity : 'Unlimited',
+          categories: formData.selectedTags.join(', '),
+          timezone
+        })
+      })
+
+      if (response.ok) {
+        setStatus('success')
+      } else {
+        setStatus('error')
+      }
+    } catch (error) {
+      setStatus('error')
+    }
   }
 
   const isFormValid = () => {
