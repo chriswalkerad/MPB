@@ -1,0 +1,5 @@
+{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "myprinterbroke.com",
+  "Id": "c9fae2c5-39c5-49d9-b48a-f46e00d3e77b"
+}
