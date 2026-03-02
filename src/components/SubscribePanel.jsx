@@ -12,12 +12,29 @@ export default function SubscribePanel({ isOpen, onClose }) {
 
     setStatus('loading')
 
-    // TODO: Replace with actual Beehiiv endpoint
-    // For now, simulate success
-    setTimeout(() => {
-      setStatus('success')
-      setEmail('')
-    }, 1000)
+    try {
+      const response = await fetch('https://api.beehiiv.com/v2/publications/pub_978eb1a1-b093-4270-bd2e-56412d70e8f6/subscriptions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer GPxkI3Dl1Inkt6P6t0IeKfhCW0ZRYMLTGuqg44bRDQodnXoAJr78nXb1GE7G0Ahe'
+        },
+        body: JSON.stringify({
+          email: email,
+          reactivate_existing: true,
+          send_welcome_email: true
+        })
+      })
+
+      if (response.ok) {
+        setStatus('success')
+        setEmail('')
+      } else {
+        setStatus('error')
+      }
+    } catch (error) {
+      setStatus('error')
+    }
   }
 
   return (
