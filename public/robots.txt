@@ -1,0 +1,7 @@
+# robots.txt for myprinterbroke.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://myprinterbroke.com/sitemap.xml

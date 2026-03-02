@@ -1,0 +1,29 @@
+# My Printer Broke - llms.txt
+
+> My Printer Broke is a comprehensive directory of cybersecurity events across the United States.
+
+## About
+
+My Printer Broke helps security professionals discover conferences, meetups, workshops, and virtual events in their area. We aggregate cyber events from major metros including Los Angeles, San Francisco, New York, Chicago, Miami, Seattle, and more.
+
+## Features
+
+- Browse events by location (city/metro area)
+- Filter by format: in-person, virtual, or hybrid
+- Filter by type: conferences, meetups, workshops, training
+- Browse by category: AppSec, Cloud Security, GRC, Threat Intelligence, etc.
+- Weekly newsletter with curated events
+
+## Key Pages
+
+- Homepage: https://myprinterbroke.com/
+- Explore Events: https://myprinterbroke.com/events
+- About: https://myprinterbroke.com/about
+
+## Contact
+
+For event submissions or inquiries, visit the site and use the contact form.
+
+## Data
+
+Event data includes: name, date, location, format, type, description, registration links, and pricing information.
