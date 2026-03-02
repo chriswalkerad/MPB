@@ -116,18 +116,39 @@ export default function SubscribePanel({ isOpen, onClose }) {
         {status === 'success' ? (
           <div
             style={{
-              padding: '16px',
+              padding: '20px',
               background: 'rgba(0,212,170,0.1)',
               border: '1px solid rgba(0,212,170,0.3)',
               borderRadius: '12px',
-              color: '#00d4aa',
-              fontSize: '14px',
-              fontFamily: "'Outfit', sans-serif"
+              textAlign: 'center'
             }}
           >
-            You're in! Check your inbox to confirm.
+            <div style={{ fontSize: '32px', marginBottom: '12px' }}>✓</div>
+            <div style={{ color: '#00d4aa', fontSize: '16px', fontWeight: 600, fontFamily: "'Outfit', sans-serif", marginBottom: '8px' }}>
+              You're in!
+            </div>
+            <div style={{ color: 'rgba(255,255,255,0.6)', fontSize: '14px', fontFamily: "'Outfit', sans-serif" }}>
+              Check your inbox to confirm.
+            </div>
           </div>
-        ) : (
+        ) : status === 'error' ? (
+          <div
+            style={{
+              padding: '16px',
+              background: 'rgba(255,100,100,0.1)',
+              border: '1px solid rgba(255,100,100,0.3)',
+              borderRadius: '12px',
+              color: '#ff6464',
+              fontSize: '14px',
+              fontFamily: "'Outfit', sans-serif",
+              marginBottom: '16px'
+            }}
+          >
+            Something went wrong. Please try again.
+          </div>
+        ) : null}
+
+        {status !== 'success' && (
           <form onSubmit={handleSubmit}>
             <input
               type="email"
