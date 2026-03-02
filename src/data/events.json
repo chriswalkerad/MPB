@@ -1,43 +1,55 @@
 [
   {
-    "name": "CompTIA ChannelCon 2016",
-    "slug": "comptia-channelcon-2016-2016",
-    "date": "2016-08-01",
-    "endDate": "2016-08-03",
+    "name": "DetectCon: Live in Los Angeles",
+    "slug": "detectcon-los-angeles-2026",
+    "date": "2026-06-15T13:00:00-07:00",
+    "endDate": "2026-06-15T16:30:00-07:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Los Angeles",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": ["Threat Intelligence", "Community & General"],
+    "url": "https://www.eventbrite.com/e/detectcon-live-in-los-angeles-tickets-1981820092245",
+    "description": "Join us for DetectCon live in Los Angeles for hands-on fun, epic hacks, and tech talks! Featuring sessions on the future of AI in threat detection with hands-on training from detections.ai's team. Networking opportunities with refreshments included."
+  },
+  {
+    "name": "CompTIA ChannelCon 2026",
+    "slug": "comptia-channelcon-2026",
+    "date": "2026-08-03",
+    "endDate": "2026-08-05",
     "type": "conference",
     "format": "in-person",
     "city": "Hollywood",
     "region": "west-coast",
-    "url": "https://www.comptia.org/events/archives/channelcon/2016",
+    "url": "https://www.comptia.org/events",
     "description": "CompTIA ChannelCon at The Diplomat Resort & Spa providing education, networking, and partnering opportunities for IT channel leaders.",
     "tags": [
       "MSP & Channel",
       "Community & General"
-    ],
-    "historical": true
+    ]
   },
   {
-    "name": "CompTIA ChannelCon 2017",
-    "slug": "comptia-channelcon-2017-2017",
-    "date": "2017-07-31",
-    "endDate": "2017-08-02",
+    "name": "CompTIA ChannelCon Austin 2026",
+    "slug": "comptia-channelcon-austin-2026",
+    "date": "2026-07-20",
+    "endDate": "2026-07-22",
     "type": "conference",
     "format": "in-person",
     "city": "Austin",
     "region": "midwest",
-    "url": "https://www.comptia.org/events/archives/channelcon/2017",
+    "url": "https://www.comptia.org/events",
     "description": "CompTIA ChannelCon at the JW Marriott Austin, CompTIA's largest annual event featuring education, networking, and partnering opportunities for the IT industry.",
     "tags": [
       "MSP & Channel",
       "Community & General"
-    ],
-    "historical": true
+    ]
   },
   {
-    "name": "ASCII IT SMB Success Summit - Orange County 2018",
-    "slug": "ascii-it-smb-success-summit-orange-county-2018-2018",
-    "date": "2018-02-21",
-    "endDate": "2018-02-22",
+    "name": "ASCII IT SMB Success Summit - Orange County 2026",
+    "slug": "ascii-it-smb-success-summit-orange-county-2026",
+    "date": "2026-04-15",
+    "endDate": "2026-04-16",
     "type": "conference",
     "format": "in-person",
     "city": "Orange County",
@@ -47,42 +59,39 @@
     "tags": [
       "MSP & Channel",
       "Community & General"
-    ],
-    "historical": true
+    ]
   },
   {
-    "name": "CompTIA ChannelCon 2018",
-    "slug": "comptia-channelcon-2018-2018",
-    "date": "2018-07-31",
-    "endDate": "2018-08-02",
+    "name": "CompTIA ChannelCon DC 2026",
+    "slug": "comptia-channelcon-dc-2026",
+    "date": "2026-09-14",
+    "endDate": "2026-09-16",
     "type": "conference",
     "format": "in-person",
     "city": "Washington",
     "region": "southwest",
-    "url": "https://www.comptia.org/events/archives/channelcon/2018",
+    "url": "https://www.comptia.org/events",
     "description": "CompTIA ChannelCon at the Marriott Wardman Park in Washington D.C. with more than 150 exhibitors and CompTIA member communities.",
     "tags": [
       "MSP & Channel",
       "Community & General"
-    ],
-    "historical": true
+    ]
   },
   {
-    "name": "CompTIA ChannelCon 2019",
-    "slug": "comptia-channelcon-2019-2019",
-    "date": "2019-08-05",
-    "endDate": "2019-08-07",
+    "name": "CompTIA ChannelCon Vegas 2026",
+    "slug": "comptia-channelcon-vegas-2026",
+    "date": "2026-10-12",
+    "endDate": "2026-10-14",
     "type": "conference",
     "format": "in-person",
     "city": "Las Vegas",
     "region": "southwest",
-    "url": "https://www.comptia.org/events/archives/channelcon/2019",
+    "url": "https://www.comptia.org/events",
     "description": "CompTIA ChannelCon at The Bellagio Hotel in Las Vegas with 160 exhibitors engaged in the business of technology, featuring education, networking, and partnering.",
     "tags": [
       "MSP & Channel",
       "Community & General"
-    ],
-    "historical": true
+    ]
   },
   {
     "name": "DerbyCon 9.0 Finish Line (Final)",
