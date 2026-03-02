@@ -13,17 +13,12 @@ export default function SubscribePanel({ isOpen, onClose }) {
     setStatus('loading')
 
     try {
-      const response = await fetch('https://api.beehiiv.com/v2/publications/pub_978eb1a1-b093-4270-bd2e-56412d70e8f6/subscriptions', {
+      const response = await fetch('/api/subscribe', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
-          'Authorization': 'Bearer GPxkI3Dl1Inkt6P6t0IeKfhCW0ZRYMLTGuqg44bRDQodnXoAJr78nXb1GE7G0Ahe'
+          'Content-Type': 'application/json'
         },
-        body: JSON.stringify({
-          email: email,
-          reactivate_existing: true,
-          send_welcome_email: true
-        })
+        body: JSON.stringify({ email })
       })
 
       if (response.ok) {
