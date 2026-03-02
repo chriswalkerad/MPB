@@ -78,7 +78,7 @@ export default function ExploreEvents() {
       if (type !== 'all' && event.type !== type) return false
 
       // Location filter
-      if (location) {
+      if (location?.region) {
         // Virtual events are always shown
         if (event.region === 'virtual') return true
 
