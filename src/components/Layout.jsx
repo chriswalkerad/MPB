@@ -193,6 +193,17 @@ export default function Layout({ children }) {
           >
             Past Events
           </Link>
+          <a
+            href="mailto:newsletter@myprinterbroke.com"
+            style={{
+              fontFamily: "'Outfit', sans-serif",
+              fontSize: '12px',
+              color: 'rgba(255,255,255,0.5)',
+              textDecoration: 'none'
+            }}
+          >
+            Contact Us
+          </a>
         </div>
 
         {/* Right: social icons */}
