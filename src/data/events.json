@@ -12030,5 +12030,20 @@
       "MSP & Channel",
       "Compliance & GRC"
     ]
+  },
+  {
+    "name": "How to Use Phishing Kits in Simulated Phishing",
+    "slug": "how-to-use-phishing-kits-in-simulated-phishing-2026",
+    "date": "2026-03-31T11:30:00-07:00",
+    "endDate": "2026-03-31T12:00:00-07:00",
+    "type": "webinar",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "Free",
+    "organizer": "Kinds Security",
+    "tags": ["Security Awareness Training", "AI", "Compliance & GRC", "MSP & Channel", "Threat Intelligence", "Incident Response"],
+    "url": "https://www.linkedin.com/events/7434463433535832064/",
+    "description": "Learn how to use PhaaS (Phishing-as-a-Service) kits like Spiderman, FlowerStorm, Starkiller and many more in simulated phishing campaigns without the actual risk. Hosted by Kinds Security via Google Meet."
   }
 ]
