@@ -723,4 +723,4 @@ const GenerativePattern = ({ seed = 'default', size = 100 }) => {
   return <PatternComponent size={size} hash={hash} palette={palette} />;
 };
 
-export default GenerativePattern;
+export default React.memo(GenerativePattern);

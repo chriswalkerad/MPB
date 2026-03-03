@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useLocation, METRO_AREAS } from '../context/LocationContext'
 import Layout from '../components/Layout'
@@ -55,46 +55,48 @@ export default function ExploreEvents() {
   }
 
   // Filter events
-  const today = new Date()
-  today.setHours(0, 0, 0, 0)
+  const filteredEvents = useMemo(() => {
+    const today = new Date()
+    today.setHours(0, 0, 0, 0)
 
-  const filteredEvents = events
-    .filter(event => {
-      // Only show future events
-      const eventDate = new Date(event.date)
-      if (eventDate < today) return false
+    return events
+      .filter(event => {
+        // Only show future events
+        const eventDate = new Date(event.date)
+        if (eventDate < today) return false
 
-      // Format filter: 'all', 'in-person', 'virtual'
-      // Hybrid shows in both in-person and virtual
-      if (format !== 'all') {
-        if (format === 'in-person') {
-          if (event.format !== 'in-person' && event.format !== 'hybrid') return false
-        } else if (format === 'virtual') {
-          if (event.format !== 'virtual' && event.format !== 'hybrid') return false
+        // Format filter: 'all', 'in-person', 'virtual'
+        // Hybrid shows in both in-person and virtual
+        if (format !== 'all') {
+          if (format === 'in-person') {
+            if (event.format !== 'in-person' && event.format !== 'hybrid') return false
+          } else if (format === 'virtual') {
+            if (event.format !== 'virtual' && event.format !== 'hybrid') return false
+          }
         }
-      }
 
-      // Type filter
-      if (type !== 'all' && event.type !== type) return false
+        // Type filter
+        if (type !== 'all' && event.type !== type) return false
 
-      // Location filter
-      if (location?.region) {
-        // Virtual events are always shown
-        if (event.region === 'virtual') return true
+        // Location filter
+        if (location?.region) {
+          // Virtual events are always shown
+          if (event.region === 'virtual') return true
 
-        // Filter by region first
-        if (event.region !== location.region) return false
+          // Filter by region first
+          if (event.region !== location.region) return false
 
-        // If user selected a specific city, check metro area
-        if (location.city) {
-          const metroCities = METRO_AREAS[location.city] || [location.city]
-          if (!metroCities.includes(event.city)) return false
+          // If user selected a specific city, check metro area
+          if (location.city) {
+            const metroCities = METRO_AREAS[location.city] || [location.city]
+            if (!metroCities.includes(event.city)) return false
+          }
         }
-      }
 
-      return true
-    })
-    .sort((a, b) => new Date(a.date) - new Date(b.date))
+        return true
+      })
+      .sort((a, b) => new Date(a.date) - new Date(b.date))
+  }, [format, type, location])
 
   return (
     <Layout>

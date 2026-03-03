@@ -68,12 +68,11 @@ export default function FloatingCard({ event, style, delay = 0 }) {
             flexShrink: 0
           }}>
             {event.date}
-            {hovered && (
-              <span style={{
-                marginLeft: '4px',
-                animation: 'cursorBlink 1s step-end infinite'
-              }}>█</span>
-            )}
+            <span style={{
+              marginLeft: '4px',
+              animation: 'cursorBlink 1s step-end infinite',
+              visibility: hovered ? 'visible' : 'hidden'
+            }}>█</span>
           </span>
         </div>
 

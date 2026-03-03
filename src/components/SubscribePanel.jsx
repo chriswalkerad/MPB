@@ -1,8 +1,10 @@
 import { useState } from 'react'
+import { useIsMobile } from '../hooks/useIsMobile'
 
 const NAV_HEIGHT = 60
 
 export default function SubscribePanel({ isOpen, onClose }) {
+  const isMobile = useIsMobile()
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState('idle') // idle | loading | success | error
 
@@ -52,10 +54,11 @@ export default function SubscribePanel({ isOpen, onClose }) {
       <div
         style={{
           position: 'fixed',
-          top: NAV_HEIGHT,
+          top: isMobile ? 0 : NAV_HEIGHT,
           right: 0,
-          width: '380px',
-          height: `calc(100vh - ${NAV_HEIGHT}px)`,
+          width: isMobile ? '100%' : '380px',
+          maxWidth: '100vw',
+          height: isMobile ? '100vh' : `calc(100vh - ${NAV_HEIGHT}px)`,
           background: 'rgba(0,0,0,0.8)',
           backdropFilter: 'blur(20px)',
           WebkitBackdropFilter: 'blur(20px)',

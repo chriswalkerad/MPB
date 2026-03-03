@@ -72,15 +72,24 @@ export default function EventFilters({ format, onFormatChange, type, onTypeChang
             background: 'transparent',
             border: '1px solid rgba(255,255,255,0.2)',
             borderRadius: '6px',
-            padding: '8px 12px',
+            padding: '6px 12px',
             color: 'white',
             cursor: 'pointer',
             display: 'flex',
             alignItems: 'center',
             gap: '8px',
             fontSize: '14px',
+            fontFamily: 'Outfit, sans-serif',
             minWidth: '150px',
-            justifyContent: 'space-between'
+            justifyContent: 'space-between',
+            transition: 'border-color 0.2s ease',
+            outline: 'none'
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.borderColor = 'rgba(255,255,255,0.4)'
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.borderColor = 'rgba(255,255,255,0.2)'
           }}
         >
           <span>{selectedTypeLabel}</span>
@@ -107,16 +116,17 @@ export default function EventFilters({ format, onFormatChange, type, onTypeChang
         {isDropdownOpen && (
           <div style={{
             position: 'absolute',
-            top: '100%',
+            top: 'calc(100% + 8px)',
             right: 0,
-            marginTop: '4px',
-            background: '#1a1a2e',
+            background: 'rgba(20,20,20,0.98)',
             border: '1px solid rgba(255,255,255,0.1)',
-            borderRadius: '6px',
-            overflow: 'hidden',
+            borderRadius: '8px',
+            padding: '8px 0',
             zIndex: 100,
             minWidth: '180px',
-            boxShadow: '0 4px 12px rgba(0,0,0,0.3)'
+            maxHeight: '400px',
+            overflowY: 'auto',
+            boxShadow: '0 8px 32px rgba(0,0,0,0.4)'
           }}>
             {EVENT_TYPES.map(eventType => (
               <button
@@ -128,14 +138,15 @@ export default function EventFilters({ format, onFormatChange, type, onTypeChang
                 style={{
                   display: 'block',
                   width: '100%',
-                  padding: '10px 12px',
+                  padding: '10px 16px',
                   background: type === eventType.value ? 'rgba(255,255,255,0.1)' : 'transparent',
                   border: 'none',
                   color: 'white',
                   textAlign: 'left',
                   cursor: 'pointer',
                   fontSize: '14px',
-                  transition: 'background 0.2s'
+                  fontFamily: 'Outfit, sans-serif',
+                  transition: 'background 0.15s ease'
                 }}
                 onMouseEnter={e => {
                   if (type !== eventType.value) {

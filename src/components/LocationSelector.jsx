@@ -86,6 +86,7 @@ export default function LocationSelector() {
           alignItems: "center",
           gap: "8px",
           transition: "border-color 0.2s ease",
+          outline: "none",
         }}
         onMouseEnter={(e) => {
           e.currentTarget.style.borderColor = "rgba(255,255,255,0.4)";

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import GenerativePattern from './GenerativePattern';
 
 const TYPE_COLORS = {
@@ -58,8 +58,6 @@ function formatEventDate(startDate, endDate) {
 }
 
 export default function EventCard({ event, onClick }) {
-  const [isHovered, setIsHovered] = useState(false);
-
   const {
     name,
     type,
@@ -86,14 +84,11 @@ export default function EventCard({ event, onClick }) {
   const cardStyle = {
     display: 'flex',
     gap: '16px',
-    background: isHovered ? 'rgba(255,255,255,0.06)' : 'rgba(255,255,255,0.03)',
-    border: isHovered ? `1px solid ${typeColor}40` : '1px solid rgba(255,255,255,0.08)',
+    background: 'rgba(255,255,255,0.03)',
+    border: '1px solid rgba(255,255,255,0.08)',
     borderRadius: '12px',
     padding: '16px',
     cursor: 'pointer',
-    transition: 'all 0.2s ease',
-    transform: isHovered ? 'translateY(-2px)' : 'translateY(0)',
-    boxShadow: isHovered ? `0 4px 20px ${typeColor}20` : 'none',
   };
 
   const imageContainerStyle = {
@@ -200,10 +195,9 @@ export default function EventCard({ event, onClick }) {
 
   return (
     <div
+      className="event-card"
       style={cardStyle}
       onClick={handleClick}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
       role="button"
       tabIndex={0}
       onKeyDown={(e) => {
@@ -215,7 +209,7 @@ export default function EventCard({ event, onClick }) {
     >
       <div style={imageContainerStyle}>
         {image ? (
-          <img src={image} alt={name} style={imageStyle} />
+          <img src={image} alt={name} style={imageStyle} width={100} height={100} loading="lazy" />
         ) : (
           <GenerativePattern seed={event.slug} size={100} />
         )}

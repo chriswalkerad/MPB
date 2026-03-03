@@ -3,6 +3,7 @@ import { Link, useLocation as useRouterLocation } from 'react-router-dom'
 import { useLocation } from '../context/LocationContext'
 import SubscribePanel from './SubscribePanel'
 import LocationSelector from './LocationSelector'
+import { useIsMobile } from '../hooks/useIsMobile'
 
 const NAV_HEIGHT = 60
 
@@ -11,6 +12,7 @@ export default function Layout({ children }) {
   const [logoHovered, setLogoHovered] = useState(false)
   const routerLocation = useRouterLocation()
   const isEventsPage = routerLocation.pathname.startsWith('/events')
+  const isMobile = useIsMobile()
 
   return (
     <div style={{ minHeight: '100vh', background: '#09090b', position: 'relative', display: 'flex', flexDirection: 'column' }}>
@@ -53,52 +55,55 @@ export default function Layout({ children }) {
           }}
         >
         {/* Left: Logo + LocationSelector */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '24px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: isMobile ? '12px' : '24px' }}>
           <Link
             to="/"
             style={{
               display: 'flex',
               alignItems: 'center',
               gap: '6px',
-              textDecoration: 'none'
+              textDecoration: 'none',
+              flexShrink: 0
             }}
             onMouseEnter={() => setLogoHovered(true)}
             onMouseLeave={() => setLogoHovered(false)}
           >
             <img src="/logo.png" alt="MPB" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
-            <span
-              style={{
-                fontFamily: "'Outfit', sans-serif",
-                fontWeight: 600,
-                fontSize: '22px',
-                color: 'rgba(255,255,255,0.9)',
-                letterSpacing: '-0.02em',
-                lineHeight: 1,
-                display: 'inline-grid',
-                whiteSpace: 'nowrap'
-              }}
-            >
-              <span style={{
-                gridArea: '1 / 1',
-                transition: 'opacity 0.3s ease',
-                opacity: logoHovered ? 0 : 1
-              }}>
-                /MPB
+            {!isMobile && (
+              <span
+                style={{
+                  fontFamily: "'Outfit', sans-serif",
+                  fontWeight: 600,
+                  fontSize: '22px',
+                  color: 'rgba(255,255,255,0.9)',
+                  letterSpacing: '-0.02em',
+                  lineHeight: 1,
+                  display: 'inline-grid',
+                  whiteSpace: 'nowrap'
+                }}
+              >
+                <span style={{
+                  gridArea: '1 / 1',
+                  transition: 'opacity 0.3s ease',
+                  opacity: logoHovered ? 0 : 1
+                }}>
+                  /MPB
+                </span>
+                <span style={{
+                  gridArea: '1 / 1',
+                  transition: 'opacity 0.3s ease',
+                  opacity: logoHovered ? 1 : 0
+                }}>
+                  /My Printer Broke
+                </span>
               </span>
-              <span style={{
-                gridArea: '1 / 1',
-                transition: 'opacity 0.3s ease',
-                opacity: logoHovered ? 1 : 0
-              }}>
-                /My Printer Broke
-              </span>
-            </span>
+            )}
           </Link>
           <LocationSelector />
         </div>
 
         {/* Right: Subscribe + Explore Events */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '24px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: isMobile ? '16px' : '24px' }}>
           <button
             onClick={() => setSubscribeOpen(true)}
             style={{
@@ -116,7 +121,7 @@ export default function Layout({ children }) {
           >
             Subscribe
           </button>
-{!isEventsPage && (
+          {!isEventsPage && !isMobile && (
             <Link
               to="/events"
               style={{
@@ -149,9 +154,11 @@ export default function Layout({ children }) {
       <nav
         style={{
           display: 'flex',
+          flexDirection: isMobile ? 'column' : 'row',
           alignItems: 'center',
-          justifyContent: 'space-between',
-          padding: '20px 40px',
+          justifyContent: isMobile ? 'center' : 'space-between',
+          gap: isMobile ? '16px' : '0',
+          padding: isMobile ? '20px' : '20px 40px',
           background: 'rgba(0,0,0,0.8)',
           backdropFilter: 'blur(10px)'
         }}

@@ -4,6 +4,7 @@ import BunkerBackground from '../components/BunkerBackground'
 import FloatingCard from '../components/FloatingCard'
 import SubscribePanel from '../components/SubscribePanel'
 import events from '../data/events.json'
+import { useIsMobile } from '../hooks/useIsMobile'
 
 const NAV_HEIGHT = 60
 
@@ -20,6 +21,7 @@ const CARD_POSITIONS = [
 export default function Homepage() {
   const [subscribeOpen, setSubscribeOpen] = useState(false)
   const [logoHovered, setLogoHovered] = useState(false)
+  const isMobile = useIsMobile()
 
   return (
     <div style={{ width: '100vw', height: '100vh', overflow: 'hidden', position: 'relative' }}>
@@ -46,7 +48,7 @@ export default function Homepage() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
-            padding: '0 40px',
+            padding: isMobile ? '0 20px' : '0 40px',
             zIndex: 100,
             animation: 'navFade 1s ease-out 0.2s both',
             pointerEvents: 'auto'
@@ -63,7 +65,7 @@ export default function Homepage() {
             onMouseEnter={() => setLogoHovered(true)}
             onMouseLeave={() => setLogoHovered(false)}
           >
-            <img src="/logo.png" alt="MPB" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
+            <img src="/logo.png" alt="MPB" width="28" height="28" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
             <span
               style={{
                 fontFamily: "'Outfit', sans-serif",
@@ -93,9 +95,10 @@ export default function Homepage() {
             </span>
           </Link>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '24px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
             <button
               onClick={() => setSubscribeOpen(true)}
+              className="nav-link-hover"
               style={{
                 background: 'none',
                 border: 'none',
@@ -103,16 +106,14 @@ export default function Homepage() {
                 fontSize: '14px',
                 fontWeight: 500,
                 fontFamily: "'Outfit', sans-serif",
-                cursor: 'pointer',
-                transition: 'color 0.2s ease'
+                cursor: 'pointer'
               }}
-              onMouseEnter={(e) => e.currentTarget.style.color = 'rgba(255,255,255,1)'}
-              onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255,255,255,0.6)'}
             >
               Subscribe
             </button>
             <Link
               to="/events"
+              className="nav-link-hover"
               style={{
                 color: 'rgba(255,255,255,0.6)',
                 textDecoration: 'none',
@@ -122,10 +123,8 @@ export default function Homepage() {
                 display: 'inline-flex',
                 alignItems: 'center',
                 gap: '4px',
-                transition: 'color 0.2s ease'
+                whiteSpace: 'nowrap'
               }}
-              onMouseEnter={(e) => e.currentTarget.style.color = 'rgba(255,255,255,1)'}
-              onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255,255,255,0.6)'}
             >
               Explore Events <span style={{ fontSize: '12px' }}>↗</span>
             </Link>
@@ -137,16 +136,20 @@ export default function Homepage() {
           style={{
             height: '100%',
             display: 'flex',
+            flexDirection: isMobile ? 'column' : 'row',
             alignItems: 'center',
-            padding: '0 40px'
+            justifyContent: 'center',
+            padding: isMobile ? '0 20px' : '0 40px',
+            textAlign: isMobile ? 'center' : 'left'
           }}
         >
           {/* Left Column - Copy */}
           <div
             style={{
-              flex: '0 0 45%',
-              maxWidth: '540px',
-              paddingLeft: '20px',
+              flex: isMobile ? 'none' : '0 0 45%',
+              width: isMobile ? '100%' : 'auto',
+              maxWidth: isMobile ? '100%' : '540px',
+              paddingLeft: isMobile ? '0' : '20px',
               pointerEvents: 'auto'
             }}
           >
@@ -186,6 +189,7 @@ export default function Homepage() {
             <div style={{ animation: 'fadeUp 0.8s ease-out 0.9s both' }}>
               <Link
                 to="/events"
+                className="cta-button-hover"
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
@@ -197,16 +201,7 @@ export default function Homepage() {
                   borderRadius: '100px',
                   fontSize: '15px',
                   fontWeight: 600,
-                  fontFamily: "'Outfit', sans-serif",
-                  transition: 'all 0.3s ease'
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-2px)'
-                  e.currentTarget.style.boxShadow = '0 8px 32px rgba(255,255,255,0.15)'
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)'
-                  e.currentTarget.style.boxShadow = 'none'
+                  fontFamily: "'Outfit', sans-serif"
                 }}
               >
                 Attend Your First Event
@@ -217,23 +212,25 @@ export default function Homepage() {
             </div>
           </div>
 
-          {/* Right Column - Floating Cards */}
-          <div
-            style={{
-              flex: 1,
-              position: 'relative',
-              height: '70%'
-            }}
-          >
-            {events.slice(0, 6).map((event, i) => (
-              <FloatingCard
-                key={event.slug}
-                event={event}
-                style={CARD_POSITIONS[i]}
-                delay={0.4 + i * 0.2}
-              />
-            ))}
-          </div>
+          {/* Right Column - Floating Cards (hidden on mobile) */}
+          {!isMobile && (
+            <div
+              style={{
+                flex: 1,
+                position: 'relative',
+                height: '70%'
+              }}
+            >
+              {events.slice(0, 6).map((event, i) => (
+                <FloatingCard
+                  key={event.slug}
+                  event={event}
+                  style={CARD_POSITIONS[i]}
+                  delay={0.4 + i * 0.2}
+                />
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Bottom Nav */}
@@ -244,9 +241,11 @@ export default function Homepage() {
             left: 0,
             right: 0,
             display: 'flex',
+            flexDirection: isMobile ? 'column' : 'row',
             alignItems: 'center',
-            justifyContent: 'space-between',
-            padding: '20px 40px',
+            justifyContent: isMobile ? 'center' : 'space-between',
+            gap: isMobile ? '16px' : '0',
+            padding: isMobile ? '20px' : '20px 40px',
             zIndex: 100,
             animation: 'navFade 1s ease-out 0.4s both',
             pointerEvents: 'auto'
@@ -255,7 +254,7 @@ export default function Homepage() {
           {/* Left: logo + submit */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '24px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <img src="/logo.png" alt="MPB" style={{ width: '20px', height: '20px', objectFit: 'contain' }} />
+              <img src="/logo.png" alt="MPB" width="20" height="20" style={{ width: '20px', height: '20px', objectFit: 'contain' }} />
               <span
                 style={{
                   fontFamily: "'Outfit', sans-serif",
