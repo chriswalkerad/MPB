@@ -3,7 +3,7 @@
 The single source of truth for cybersecurity events.
 
 ## Links
-- **Domain**: mycomputerbroke.com
+- **Domain**: myprinterbroke.com
 - **Repo**: https://github.com/chriswalkerad/MPB
 
 ## Commands

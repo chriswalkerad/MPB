@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useLocation, METRO_AREAS } from '../context/LocationContext'
 import Layout from '../components/Layout'
@@ -16,22 +16,31 @@ function countEventsForCategory(events, categoryName) {
 export default function ExploreEvents() {
   const [searchParams, setSearchParams] = useSearchParams()
   const { location } = useLocation()
-  const [selectedEvent, setSelectedEvent] = useState(null)
-
   // Get filter state from URL params
   const format = searchParams.get('format') || 'all'
   const type = searchParams.get('type') || 'all'
   const eventSlug = searchParams.get('event')
 
-  // Open drawer if event slug is in URL
-  useEffect(() => {
-    if (eventSlug) {
-      const event = events.find(e => e.slug === eventSlug)
-      if (event) {
-        setSelectedEvent(event)
-      }
-    }
-  }, [eventSlug])
+  // Derive selected event from URL (single source of truth)
+  const selectedEvent = eventSlug ? events.find(e => e.slug === eventSlug) || null : null
+
+  const handleEventClick = (event) => {
+    const params = new URLSearchParams(searchParams)
+    params.set('event', event.slug)
+    setSearchParams(params)
+  }
+
+  const handleDrawerClose = () => {
+    const params = new URLSearchParams(searchParams)
+    params.delete('event')
+    setSearchParams(params)
+  }
+
+  const handleEventNavigate = (event) => {
+    const params = new URLSearchParams(searchParams)
+    params.set('event', event.slug)
+    setSearchParams(params)
+  }
 
   // Update URL params when filters change
   const handleFormatChange = (newFormat) => {
@@ -174,7 +183,7 @@ export default function ExploreEvents() {
 
         {/* Event List */}
         <div style={{ marginTop: '24px' }}>
-          <EventList events={filteredEvents} onEventClick={setSelectedEvent} />
+          <EventList events={filteredEvents} onEventClick={handleEventClick} />
         </div>
       </div>
 
@@ -183,8 +192,8 @@ export default function ExploreEvents() {
         event={selectedEvent}
         events={filteredEvents}
         isOpen={!!selectedEvent}
-        onClose={() => setSelectedEvent(null)}
-        onNavigate={setSelectedEvent}
+        onClose={handleDrawerClose}
+        onNavigate={handleEventNavigate}
       />
     </Layout>
   )
