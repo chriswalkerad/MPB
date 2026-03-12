@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import BunkerBackground from '../components/BunkerBackground'
 import FloatingCard from '../components/FloatingCard'
 import SubscribePanel from '../components/SubscribePanel'
+import MetaTags from '../components/MetaTags'
 import events from '../data/events.json'
 import { useIsMobile } from '../hooks/useIsMobile'
 
@@ -25,6 +26,7 @@ export default function Homepage() {
 
   return (
     <div style={{ width: '100vw', height: '100vh', overflow: 'hidden', position: 'relative' }}>
+      <MetaTags path="/" />
       {/* 3D Background */}
       <BunkerBackground />
 

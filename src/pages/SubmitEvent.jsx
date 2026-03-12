@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import Layout from '../components/Layout'
+import MetaTags from '../components/MetaTags'
 import categories from '../data/categories.json'
 
 const EVENT_TYPES = [
@@ -236,6 +237,11 @@ export default function SubmitEvent() {
 
   return (
     <Layout>
+      <MetaTags
+        title="Submit an Event"
+        description="Submit your cybersecurity conference, meetup, or workshop to be featured on My Printer Broke."
+        path="/submit"
+      />
       <div
         style={{
           maxWidth: '800px',

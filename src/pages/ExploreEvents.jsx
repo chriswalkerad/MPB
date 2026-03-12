@@ -6,6 +6,7 @@ import EventFilters from '../components/EventFilters'
 import EventList from '../components/EventList'
 import EventDetailDrawer from '../components/EventDetailDrawer'
 import CategoryCard from '../components/CategoryCard'
+import MetaTags from '../components/MetaTags'
 import events from '../data/events.json'
 import categories from '../data/categories.json'
 
@@ -109,6 +110,11 @@ export default function ExploreEvents() {
 
   return (
     <Layout>
+      <MetaTags
+        title="Explore Cybersecurity Events"
+        description="Browse cybersecurity conferences, meetups, workshops, and webinars. Filter by category, format, and location."
+        path="/events"
+      />
       <div
         style={{
           maxWidth: '800px',

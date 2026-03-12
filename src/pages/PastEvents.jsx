@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Layout from '../components/Layout'
 import EventCard from '../components/EventCard'
 import EventDetailDrawer from '../components/EventDetailDrawer'
+import MetaTags from '../components/MetaTags'
 import events from '../data/events.json'
 
 function getMonthKey(dateStr) {
@@ -58,6 +59,11 @@ export default function PastEvents() {
 
   return (
     <Layout>
+      <MetaTags
+        title="Past Events"
+        description="Archive of past cybersecurity events from conferences, meetups, and workshops across the US."
+        path="/events/archive"
+      />
       <div
         style={{
           maxWidth: '800px',

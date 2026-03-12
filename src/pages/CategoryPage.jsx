@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import EventFilters from '../components/EventFilters'
 import EventList from '../components/EventList'
 import EventDetailDrawer from '../components/EventDetailDrawer'
+import MetaTags from '../components/MetaTags'
 import { useLocation } from '../context/LocationContext'
 import events from '../data/events.json'
 import categories from '../data/categories.json'
@@ -90,6 +91,11 @@ export default function CategoryPage() {
 
   return (
     <Layout>
+      <MetaTags
+        title={`${category.name} Events`}
+        description={`Browse ${filteredEvents.length} cybersecurity ${category.name.toLowerCase()} events — ${category.description}`}
+        path={`/events/category/${category.slug}`}
+      />
       <div style={{ maxWidth: '800px', margin: '0 auto', padding: '40px 20px' }}>
         {/* Breadcrumb / Back link */}
         <Link
