@@ -6,6 +6,7 @@ import ExploreEvents from './pages/ExploreEvents'
 import CategoryPage from './pages/CategoryPage'
 import SubmitEvent from './pages/SubmitEvent'
 import PastEvents from './pages/PastEvents'
+import EventDetail from './pages/EventDetail'
 
 const Homepage = lazy(() => import('./pages/Homepage'))
 const Bunker = lazy(() => import('./pages/Bunker'))
@@ -21,8 +22,9 @@ export default function App() {
           <Route path="/bunker" element={<Bunker />} />
           <Route path="/events" element={<ExploreEvents />} />
           <Route path="/events/category/:slug" element={<CategoryPage />} />
-          <Route path="/submit" element={<SubmitEvent />} />
           <Route path="/events/archive" element={<PastEvents />} />
+          <Route path="/events/:slug" element={<EventDetail />} />
+          <Route path="/submit" element={<SubmitEvent />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
