@@ -24,11 +24,13 @@ const routes = [
 async function prerender() {
   console.log(`Prerendering ${routes.length} routes...`)
 
-  // Start a Vite preview server to serve the built files
+  // Start a Vite preview server to serve the built files (port 0 = random available)
   const server = await preview({
     root,
-    preview: { port: 4173, strictPort: true },
+    preview: { port: 0, strictPort: false },
   })
+  const address = server.httpServer.address()
+  const port = address.port
 
   const browser = await puppeteer.launch({ headless: true })
 
@@ -41,7 +43,7 @@ async function prerender() {
     await Promise.all(batch.map(async (route) => {
       const page = await browser.newPage()
       try {
-        await page.goto(`http://localhost:4173${route}`, { waitUntil: 'networkidle0', timeout: 15000 })
+        await page.goto(`http://localhost:${port}${route}`, { waitUntil: 'networkidle0', timeout: 15000 })
         // Wait for React to render and MetaTags to update the head
         await page.waitForFunction(() => document.title !== '', { timeout: 5000 }).catch(() => {})
 
@@ -69,7 +71,7 @@ async function prerender() {
   }
 
   await browser.close()
-  server.close()
+  server.httpServer.close()
   console.log('Prerendering complete!')
   process.exit(0)
 }
