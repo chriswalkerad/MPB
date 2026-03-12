@@ -75,12 +75,6 @@ export default function EventCard({ event, onClick }) {
   const typeIcon = TYPE_ICONS[type] || '📅';
   const isExternal = url && url.startsWith('http');
 
-  const handleClick = () => {
-    if (onClick) {
-      onClick(event);
-    }
-  };
-
   const cardStyle = {
     display: 'flex',
     gap: '16px',
@@ -194,16 +188,18 @@ export default function EventCard({ event, onClick }) {
   };
 
   return (
-    <div
+    <a
+      href={`/events/${event.slug}`}
       className="event-card"
-      style={cardStyle}
-      onClick={handleClick}
-      role="button"
-      tabIndex={0}
+      style={{ ...cardStyle, textDecoration: 'none', color: 'inherit' }}
+      onClick={(e) => {
+        e.preventDefault();
+        if (onClick) onClick(event);
+      }}
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
-          handleClick();
+          if (onClick) onClick(event);
         }
       }}
     >
@@ -233,6 +229,6 @@ export default function EventCard({ event, onClick }) {
           {category && <span style={categoryPillStyle}>{category}</span>}
         </div>
       </div>
-    </div>
+    </a>
   );
 }
