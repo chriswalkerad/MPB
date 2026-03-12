@@ -1,5 +1,22 @@
 [
   {
+    "name": "IAFCI 2026 Cyber Fraud Summit",
+    "slug": "iafci-2026-cyber-fraud-summit",
+    "date": "2026-05-28T08:00:00-05:00",
+    "endDate": "2026-05-29T15:00:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Chicago",
+    "region": "midwest",
+    "cost": "$325",
+    "tags": ["Networking & Career", "Security Awareness"],
+    "url": "https://bit.ly/4bfbYR8",
+    "source": "submission",
+    "description": "501(c)(6) International Association of Financial Crimes Investigators (IAFCI) is hosting the 2026 Cyber Fraud Summit in Chicago, IL on May 28-29, 2026. Join us for an outstanding networking and training event.",
+    "organizer": "IAFCI",
+    "capacity": "200"
+  },
+  {
     "name": "DetectCon: Live in Los Angeles",
     "slug": "detectcon-los-angeles-2026",
     "date": "2026-06-15T13:00:00-07:00",
