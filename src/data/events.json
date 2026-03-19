@@ -9,7 +9,10 @@
     "city": "San Francisco",
     "region": "west-coast",
     "cost": "Free",
-    "tags": ["Community & General", "Threat Intelligence"],
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
     "url": "https://luma.com/4vj5uiau",
     "source": "luma",
     "description": "An after-hours gathering for detection engineers during RSA Conference. No corporate pitches or product demos — just informal conversation for professionals who develop detection rules, refine detection logic, and engage in detection-related research and debate. Hosted by detections.ai.",
@@ -25,7 +28,10 @@
     "city": "San Francisco",
     "region": "west-coast",
     "cost": "Free",
-    "tags": ["Community & General", "Networking & Career"],
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
     "url": "https://web.cvent.com/event/8e2794e8-358e-4dcd-98d4-7c10d032243e/summary",
     "source": "cvent",
     "description": "Join Huntress for an informal after-hours gathering during RSA Conference. Drinks, appetizers, and casual conversation about cybersecurity — from identity access management challenges to current threat intelligence. No sales pitches, no slides. Space is limited.",
@@ -41,7 +47,10 @@
     "city": "Chicago",
     "region": "midwest",
     "cost": "$325",
-    "tags": ["Networking & Career", "Security Awareness"],
+    "tags": [
+      "Networking & Career",
+      "Security Awareness"
+    ],
     "url": "https://bit.ly/4bfbYR8",
     "source": "submission",
     "description": "501(c)(6) International Association of Financial Crimes Investigators (IAFCI) is hosting the 2026 Cyber Fraud Summit in Chicago, IL on May 28-29, 2026. Join us for an outstanding networking and training event.",
@@ -58,7 +67,10 @@
     "city": "Los Angeles",
     "region": "west-coast",
     "cost": "Free",
-    "tags": ["Threat Intelligence", "Community & General"],
+    "tags": [
+      "Threat Intelligence",
+      "Community & General"
+    ],
     "url": "https://www.eventbrite.com/e/detectcon-live-in-los-angeles-tickets-1981820092245",
     "description": "Join us for DetectCon live in Los Angeles for hands-on fun, epic hacks, and tech talks! Featuring sessions on the future of AI in threat detection with hands-on training from detections.ai's team. Networking opportunities with refreshments included."
   },
@@ -12091,8 +12103,4378 @@
     "region": "virtual",
     "cost": "Free",
     "organizer": "Kinds Security",
-    "tags": ["Security Awareness Training", "AI", "Compliance & GRC", "MSP & Channel", "Threat Intelligence", "Incident Response"],
+    "tags": [
+      "Security Awareness Training",
+      "AI",
+      "Compliance & GRC",
+      "MSP & Channel",
+      "Threat Intelligence",
+      "Incident Response"
+    ],
     "url": "https://www.linkedin.com/events/7434463433535832064/",
     "description": "Learn how to use PhaaS (Phishing-as-a-Service) kits like Spiderman, FlowerStorm, Starkiller and many more in simulated phishing campaigns without the actual risk. Hosted by Kinds Security via Google Meet."
+  },
+  {
+    "name": "Pre-RSAC with Spades: Cybersecurity for National Security",
+    "slug": "pre-rsac-with-spades-cybersecurity-for-national-security-rsac-2026",
+    "date": "2026-03-22T16:30:00-07:00",
+    "endDate": "2026-03-22T19:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.spadesinstitute.org/rsa/",
+    "source": "conferenceparties.com",
+    "description": "Private venue near Fisherman's Wharf. Private venue near Fisherman's Wharf, San Francisco. Hosted by Spades Institute & Rapidfort.",
+    "organizer": "Spades Institute & Rapidfort",
+    "image": "/images/events/pre-rsac-with-spades-cybersecurity-for-national-security-rsac-2026.jpg"
+  },
+  {
+    "name": "BSidesSF Party",
+    "slug": "bsidessf-party-rsac-2026",
+    "date": "2026-03-21T18:30:00-07:00",
+    "endDate": "2026-03-21T21:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://bsidessf2026.sched.com/event/2E1d6/party?iframe=no&w=100%&sidebar=yes&bg=no",
+    "source": "conferenceparties.com",
+    "description": "Participant Hall. Participant Hall, San Francisco. Hosted by Vega.",
+    "organizer": "Vega",
+    "image": "/images/events/bsidessf-party-rsac-2026.jpg"
+  },
+  {
+    "name": "Opening Night: Kick-off your Bsides & RSA Week",
+    "slug": "opening-night-kick-off-your-bsides-rsa-week-rsac-2026",
+    "date": "2026-03-20T18:00:00-07:00",
+    "endDate": "2026-03-20T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/60vycmao",
+    "source": "conferenceparties.com",
+    "description": "450 Pacific Ave. 450 Pacific Ave, San Francisco. Hosted by Foundr, Bain Capital Ventures, Neublock.io & Cogent.",
+    "organizer": "Foundr, Bain Capital Ventures, Neublock.io & Cogent"
+  },
+  {
+    "name": "Security Social at SPIN San Francisco",
+    "slug": "security-social-at-spin-san-francisco-rsac-2026",
+    "date": "2026-03-21T19:00:00-07:00",
+    "endDate": "2026-03-21T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/9jrv4tn1",
+    "source": "conferenceparties.com",
+    "description": "Spin SF. 690 Folsom St #100, San Francisco. Hosted by Formal, Corgea & Wolfpack Security.",
+    "organizer": "Formal, Corgea & Wolfpack Security"
+  },
+  {
+    "name": "Unofficial BSidesSF Rooftop Afterparty",
+    "slug": "unofficial-bsidessf-rooftop-afterparty-rsac-2026",
+    "date": "2026-03-21T17:00:00-07:00",
+    "endDate": "2026-03-21T19:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/rooftop-party",
+    "source": "conferenceparties.com",
+    "description": "Chotto Matte. 50 O'Farrell St, San Francisco. Hosted by Aikido, Chainguard, Sublime, Tailscale & Torq.",
+    "organizer": "Aikido, Chainguard, Sublime, Tailscale & Torq"
+  },
+  {
+    "name": "Corridor & Formal Presents: Art Gallery BSides Debrief",
+    "slug": "corridor-formal-presents-art-gallery-bsides-debrief-rsac-2026",
+    "date": "2026-03-22T18:00:00-07:00",
+    "endDate": "2026-03-22T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/attqt829",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Formal & Corridor.",
+    "organizer": "Formal & Corridor"
+  },
+  {
+    "name": "RSA Warmup",
+    "slug": "rsa-warmup-rsac-2026",
+    "date": "2026-03-20T12:00:00-07:00",
+    "endDate": "2026-03-20T15:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/2ihr50rx",
+    "source": "conferenceparties.com",
+    "description": "Norms Place. 356 Hartz Ave, San Francisco. Hosted by XPS Ventures.",
+    "organizer": "XPS Ventures"
+  },
+  {
+    "name": "Pre-RSAC Muir Woods Escape for Cybermarketers",
+    "slug": "pre-rsac-muir-woods-escape-for-cybermarketers-rsac-2026",
+    "date": "2026-03-22T08:30:00-07:00",
+    "endDate": "2026-03-22T10:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/yxpmfyz3",
+    "source": "conferenceparties.com",
+    "description": "Muir Woods National Park. Muir Woods National Park, San Francisco. Hosted by Cybermarketing Meetup.",
+    "organizer": "Cybermarketing Meetup"
+  },
+  {
+    "name": "Fundable or Dead in the AI Era",
+    "slug": "fundable-or-dead-in-the-ai-era-rsac-2026",
+    "date": "2026-03-22T17:00:00-07:00",
+    "endDate": "2026-03-22T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/pp2ki982",
+    "source": "conferenceparties.com",
+    "description": "Two blocks from Moscone. Two blocks from Moscone, San Francisco. Hosted by Cracken & Stanton House.",
+    "organizer": "Cracken & Stanton House"
+  },
+  {
+    "name": "BsidesSF 2026 Happy Hour",
+    "slug": "bsidessf-2026-happy-hour-rsac-2026",
+    "date": "2026-03-20T17:30:00-07:00",
+    "endDate": "2026-03-20T20:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/ir4sbkpx",
+    "source": "conferenceparties.com",
+    "description": "Pagan Idol. 375 Bush St, San Francisco. Hosted by Formal, Scanner & Cotool.",
+    "organizer": "Formal, Scanner & Cotool"
+  },
+  {
+    "name": "Dune Labs",
+    "slug": "dune-labs-rsac-2026",
+    "date": "2026-03-23T08:00:00-07:00",
+    "endDate": "2026-03-23T16:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.dune.security/events/dune-labs",
+    "source": "conferenceparties.com",
+    "description": "1069 Howard St. 1069 Howard St, San Francisco. Hosted by Dune Security.",
+    "organizer": "Dune Security"
+  },
+  {
+    "name": "RSAC Kick-off Happy Hour",
+    "slug": "rsac-kick-off-happy-hour-rsac-2026",
+    "date": "2026-03-22T19:00:00-07:00",
+    "endDate": "2026-03-22T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://pathlock.com/events/032226_rsac-happy-hour/",
+    "source": "conferenceparties.com",
+    "description": "Chotto Matte. 50 O'Farrell St, San Francisco. Hosted by Pathlock.",
+    "organizer": "Pathlock",
+    "image": "/images/events/rsac-kick-off-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "Global GRC Leaders Summit",
+    "slug": "global-grc-leaders-summit-rsac-2026",
+    "date": "2026-03-23T07:00:00-07:00",
+    "endDate": "2026-03-23T17:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/fvic7ser",
+    "source": "conferenceparties.com",
+    "description": "SPUR. 654 Mission St, San Francisco. Hosted by Tejas Cyber Network.",
+    "organizer": "Tejas Cyber Network"
+  },
+  {
+    "name": "13th Annual RSA Public Sector Day at RSAC",
+    "slug": "13th-annual-rsa-public-sector-day-at-rsac-rsac-2026",
+    "date": "2026-03-23T08:00:00-07:00",
+    "endDate": "2026-03-23T15:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://carahevents.carahsoft.com/PSD2026",
+    "source": "conferenceparties.com",
+    "description": "Hilton SF Union Square. 333 O'Farrell St, San Francisco. Hosted by Carahsoft.",
+    "organizer": "Carahsoft"
+  },
+  {
+    "name": "Rooftop BSideSF After Party & RSAC Opening",
+    "slug": "rooftop-bsidesf-after-party-rsac-opening-rsac-2026",
+    "date": "2026-03-22T18:00:00-07:00",
+    "endDate": "2026-03-22T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/s9qdxmxm",
+    "source": "conferenceparties.com",
+    "description": "221 Main St. 221 Main St, San Francisco. Hosted by RunReveal, cside, Keycard, Tracebit & Socket.",
+    "organizer": "RunReveal, cside, Keycard, Tracebit & Socket"
+  },
+  {
+    "name": "Pre-RSAC CISO Mastermind Dinner",
+    "slug": "pre-rsac-ciso-mastermind-dinner-rsac-2026",
+    "date": "2026-03-22T18:00:00-07:00",
+    "endDate": "2026-03-22T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/4nbbz0i2",
+    "source": "conferenceparties.com",
+    "description": "Upscale Restaurant. Close to Moscone, San Francisco. Hosted by Gigamon.",
+    "organizer": "Gigamon"
+  },
+  {
+    "name": "Calm Before the Storm",
+    "slug": "calm-before-the-storm-rsac-2026",
+    "date": "2026-03-22T18:00:00-07:00",
+    "endDate": "2026-03-22T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/wx40r9vp",
+    "source": "conferenceparties.com",
+    "description": "Local Edition. 691 Market St, San Francisco. Hosted by Aspiron Search, Nullify, Lockstep & Miscreants.",
+    "organizer": "Aspiron Search, Nullify, Lockstep & Miscreants"
+  },
+  {
+    "name": "Global CISO Summit",
+    "slug": "global-ciso-summit-rsac-2026",
+    "date": "2026-03-23T07:00:00-07:00",
+    "endDate": "2026-03-23T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/igjsj6ly",
+    "source": "conferenceparties.com",
+    "description": "SPUR. 654 Mission St, San Francisco. Hosted by Tejas Cyber Network.",
+    "organizer": "Tejas Cyber Network"
+  },
+  {
+    "name": "Cyber Lounge – Daytime Access",
+    "slug": "cyber-lounge-daytime-access-rsac-2026",
+    "date": "2026-03-23T07:30:00-07:00",
+    "endDate": "2026-03-23T15:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://mfcyber.com/sfo-2026-cyber-lounge/?utm_source=conferenceparties&utm_medium=referral&utm_campaign=cyber-lounge-sfo-2026",
+    "source": "conferenceparties.com",
+    "description": "The Cyber Lounge. 145 4th St, San Francisco. Hosted by MorganFranklin Consulting.",
+    "organizer": "MorganFranklin Consulting",
+    "image": "/images/events/cyber-lounge-daytime-access-rsac-2026.jpg"
+  },
+  {
+    "name": "SecOps Leaders Community Event",
+    "slug": "secops-leaders-community-event-rsac-2026",
+    "date": "2026-03-22T18:00:00-07:00",
+    "endDate": "2026-03-22T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.exaforce.com/event/rsac-2026-dinner",
+    "source": "conferenceparties.com",
+    "description": "Upscale Restaurant. Register to See Address, San Francisco. Hosted by Exaforce.",
+    "organizer": "Exaforce",
+    "image": "/images/events/secops-leaders-community-event-rsac-2026.jpg"
+  },
+  {
+    "name": "Cohesity Resilience Den",
+    "slug": "cohesity-resilience-den-rsac-2026",
+    "date": "2026-03-23T12:00:00-07:00",
+    "endDate": "2026-03-23T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://events.cohesity.com/cohesityresilienceden/cp",
+    "source": "conferenceparties.com",
+    "description": "Cohesity Resilience Den. 1 Yerba Buena Ln, San Francisco. Hosted by Cohesity.",
+    "organizer": "Cohesity"
+  },
+  {
+    "name": "PBC Connect - RSAC 2026",
+    "slug": "pbc-connect-rsac-2026-rsac-2026",
+    "date": "2026-03-23T11:00:00-07:00",
+    "endDate": "2026-03-23T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://thepurplebook.club/pbc-connect-rsac",
+    "source": "conferenceparties.com",
+    "description": "Details Shared Upon RSVP. Details Shared Upon RSVP, San Francisco. Hosted by ArmorCode, KPMG, Semgrep & The Purple Book Community.",
+    "organizer": "ArmorCode, KPMG, Semgrep & The Purple Book Community",
+    "image": "/images/events/pbc-connect-rsac-2026-rsac-2026.jpg"
+  },
+  {
+    "name": "Spice Things Up: A Security Social",
+    "slug": "spice-things-up-a-security-social-rsac-2026",
+    "date": "2026-03-23T12:00:00-07:00",
+    "endDate": "2026-03-23T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.rooncyber.com/events/spice-things-up-a-security-social-at-burma-love-rsac-2026",
+    "source": "conferenceparties.com",
+    "description": "Burma Love Downtown. 8 Mint Plaza, San Francisco. Hosted by RoonCyber, Beyond Identity, Armorcode, Terra Security, Upwind, Mend & GitGuardian.",
+    "organizer": "RoonCyber, Beyond Identity, Armorcode, Terra Security, Upwind, Mend & GitGuardian",
+    "image": "/images/events/spice-things-up-a-security-social-rsac-2026.jpg"
+  },
+  {
+    "name": "Canadian Cybersecurity Innovators",
+    "slug": "canadian-cybersecurity-innovators-rsac-2026",
+    "date": "2026-03-23T08:30:00-07:00",
+    "endDate": "2026-03-23T14:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/bkiyt4y6",
+    "source": "conferenceparties.com",
+    "description": "Orrick. 405 Howard St, San Francisco. Hosted by Consulate General of Canada in San Francisco/Silicon Valley.",
+    "organizer": "Consulate General of Canada in San Francisco/Silicon Valley"
+  },
+  {
+    "name": "OpenClaw or Outlaw: Test with AI Trust Score",
+    "slug": "openclaw-or-outlaw-test-with-ai-trust-score-rsac-2026",
+    "date": "2026-03-23T15:00:00-07:00",
+    "endDate": "2026-03-23T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/ds9xg9rn",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Tumeryk AI Trust Score.",
+    "organizer": "Tumeryk AI Trust Score"
+  },
+  {
+    "name": "Pre-Pour Community Meetup",
+    "slug": "pre-pour-community-meetup-rsac-2026",
+    "date": "2026-03-23T13:30:00-07:00",
+    "endDate": "2026-03-23T15:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/pev9d9bx",
+    "source": "conferenceparties.com",
+    "description": "Sextant Coffee Roasters. 201 3rd St, San Francisco. Hosted by Tailscale.",
+    "organizer": "Tailscale"
+  },
+  {
+    "name": "RSAC Exec AI Security Lunch: The Zero Day Dilemma",
+    "slug": "rsac-exec-ai-security-lunch-the-zero-day-dilemma-rsac-2026",
+    "date": "2026-03-23T11:00:00-07:00",
+    "endDate": "2026-03-23T13:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/j02yoksv",
+    "source": "conferenceparties.com",
+    "description": "The Fairmont Hotel. The Fairmont Hotel, San Francisco. Hosted by Portal26 + AWS.",
+    "organizer": "Portal26 + AWS"
+  },
+  {
+    "name": "Cybersecurity Demo Showcase & Lunch",
+    "slug": "cybersecurity-demo-showcase-lunch-rsac-2026",
+    "date": "2026-03-23T12:00:00-07:00",
+    "endDate": "2026-03-23T15:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/angellaunchmarch23cyber",
+    "source": "conferenceparties.com",
+    "description": "2 Sacramento St. 2 Sacramento St, San Francisco. Hosted by Angel Launch.",
+    "organizer": "Angel Launch"
+  },
+  {
+    "name": "The Quest for Safe Cloud Remediation",
+    "slug": "the-quest-for-safe-cloud-remediation-rsac-2026",
+    "date": "2026-03-23T08:00:00-07:00",
+    "endDate": "2026-03-23T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://tamnoon.io/tamnoon-at-rsac-2026-the-quest-for-safe-cloud-remediation",
+    "source": "conferenceparties.com",
+    "description": "Across The Cloud Realm. Across The Cloud Realm, San Francisco. Hosted by Tamnoon.",
+    "organizer": "Tamnoon",
+    "image": "/images/events/the-quest-for-safe-cloud-remediation-rsac-2026.jpg"
+  },
+  {
+    "name": "HackTheBay 3.0",
+    "slug": "hackthebay-30-rsac-2026",
+    "date": "2026-03-23T10:30:00-07:00",
+    "endDate": "2026-03-23T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.eventbrite.com/e/hackthebay-30-tickets-1980342503738",
+    "source": "conferenceparties.com",
+    "description": "Public Works. 161 Erie St, San Francisco. Hosted by Pacific Hackers Association.",
+    "organizer": "Pacific Hackers Association"
+  },
+  {
+    "name": "Night at the Mercantile",
+    "slug": "night-at-the-mercantile-rsac-2026",
+    "date": "2026-03-23T16:30:00-07:00",
+    "endDate": "2026-03-23T19:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.dune.security/events/night-at-the-mercantile",
+    "source": "conferenceparties.com",
+    "description": "The Pressroom & Mercantile The Box SF. 1069 Howard St, San Francisco. Hosted by Dune Security, Abstract Security & Reality Defender.",
+    "organizer": "Dune Security, Abstract Security & Reality Defender"
+  },
+  {
+    "name": "Cyber Lounge – Live Music & Happy Hour",
+    "slug": "cyber-lounge-live-music-happy-hour-rsac-2026",
+    "date": "2026-03-23T15:00:00-07:00",
+    "endDate": "2026-03-23T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://mfcyber.com/sfo-2026-cyber-lounge/?utm_source=conferenceparties&utm_medium=referral&utm_campaign=cyber-lounge-sfo-2026",
+    "source": "conferenceparties.com",
+    "description": "The Cyber Lounge. 145 4th St, San Francisco. Hosted by MorganFranklin Consulting.",
+    "organizer": "MorganFranklin Consulting",
+    "image": "/images/events/cyber-lounge-live-music-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "The Modern CISO: Cogent x Anthropic Fireside Chat",
+    "slug": "the-modern-ciso-cogent-x-anthropic-fireside-chat-rsac-2026",
+    "date": "2026-03-23T16:00:00-07:00",
+    "endDate": "2026-03-23T19:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/r62ovlen",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Anthropic & Cogent Security.",
+    "organizer": "Anthropic & Cogent Security"
+  },
+  {
+    "name": "The Phishbowl: Brand & Domain Protectors Happy Hour",
+    "slug": "the-phishbowl-brand-domain-protectors-happy-hour-rsac-2026",
+    "date": "2026-03-23T16:00:00-07:00",
+    "endDate": "2026-03-23T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/oxsgq4vu",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Brand & Domain Protector Community.",
+    "organizer": "Brand & Domain Protector Community"
+  },
+  {
+    "name": "CISOs & Sips",
+    "slug": "cisos-sips-rsac-2026",
+    "date": "2026-03-23T15:30:00-07:00",
+    "endDate": "2026-03-23T17:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/n9kfro9w",
+    "source": "conferenceparties.com",
+    "description": "Elements Bar & Lounge. 165 O'Farrell St, San Francisco. Hosted by Customers Bank, Canapi Ventures & Vouch Insurance.",
+    "organizer": "Customers Bank, Canapi Ventures & Vouch Insurance"
+  },
+  {
+    "name": "Canadian Cybersecurity Fireside Chat & Reception",
+    "slug": "canadian-cybersecurity-fireside-chat-reception-rsac-2026",
+    "date": "2026-03-23T15:00:00-07:00",
+    "endDate": "2026-03-23T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/CanadaCyberRSA",
+    "source": "conferenceparties.com",
+    "description": "CloudFlare. 101 Townsend St, San Francisco. Hosted by Consulate General of Canada in San Francisco/Silicon Valley.",
+    "organizer": "Consulate General of Canada in San Francisco/Silicon Valley"
+  },
+  {
+    "name": "Arctic Wolf RSAC 2026 CISO Happy Hour",
+    "slug": "arctic-wolf-rsac-2026-ciso-happy-hour-rsac-2026",
+    "date": "2026-03-23T16:30:00-07:00",
+    "endDate": "2026-03-23T18:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://cybersecurity.arcticwolf.com/TRDFY26Q426-03-24RSACCISOHappyHour_RegPage.html",
+    "source": "conferenceparties.com",
+    "description": "DECANTsf Bottle Shop & Bar. 1168 Folsom St, San Francisco. Hosted by Arctic Wolf.",
+    "organizer": "Arctic Wolf",
+    "image": "/images/events/arctic-wolf-rsac-2026-ciso-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "Launch Party: Snyk's New AI Security Innovation Hub in SF",
+    "slug": "launch-party-snyks-new-ai-security-innovation-hub-in-sf-rsac-2026",
+    "date": "2026-03-23T15:00:00-07:00",
+    "endDate": "2026-03-23T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://go.snyk.io/sf-office.html",
+    "source": "conferenceparties.com",
+    "description": "Newhall Nest. 260 California St, San Francisco. Hosted by Snyk.",
+    "organizer": "Snyk",
+    "image": "/images/events/launch-party-snyks-new-ai-security-innovation-hub-in-sf-rsac-2026.jpg"
+  },
+  {
+    "name": "RSAC CISO Panel & Reception",
+    "slug": "rsac-ciso-panel-reception-rsac-2026",
+    "date": "2026-03-23T16:30:00-07:00",
+    "endDate": "2026-03-23T18:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://events.cyberhaven.com/ciso-panel-rsac/",
+    "source": "conferenceparties.com",
+    "description": "The Vault Steakhouse. 555 California St, San Francisco. Hosted by Cyberhaven.",
+    "organizer": "Cyberhaven",
+    "image": "/images/events/rsac-ciso-panel-reception-rsac-2026.jpg"
+  },
+  {
+    "name": "Exclusive Happy Hour at The Olympic Club",
+    "slug": "exclusive-happy-hour-at-the-olympic-club-rsac-2026",
+    "date": "2026-03-23T15:00:00-07:00",
+    "endDate": "2026-03-23T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://echeloncyber.com/echelon-risk-cyber-rsa-happy-hour-2026",
+    "source": "conferenceparties.com",
+    "description": "1860 Bar The Olympic Club. 524 Post St, San Francisco. Hosted by Echelon Risk + Cyber.",
+    "organizer": "Echelon Risk + Cyber",
+    "image": "/images/events/exclusive-happy-hour-at-the-olympic-club-rsac-2026.jpg"
+  },
+  {
+    "name": "Darktrace After Dark",
+    "slug": "darktrace-after-dark-rsac-2026",
+    "date": "2026-03-23T18:00:00-07:00",
+    "endDate": "2026-03-23T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.darktrace.com/event-registration/rsac-2026-cocktail-reception",
+    "source": "conferenceparties.com",
+    "description": "Novella. 662 Mission St, San Francisco. Hosted by Darktrace.",
+    "organizer": "Darktrace",
+    "image": "/images/events/darktrace-after-dark-rsac-2026.jpg"
+  },
+  {
+    "name": "RSAC Opening Happy Hour w/ Pentera & Armis at Hidden SF Speakeasy",
+    "slug": "rsac-opening-happy-hour-w-pentera-armis-at-hidden-sf-speakeasy-rsac-2026",
+    "date": "2026-03-23T18:00:00-07:00",
+    "endDate": "2026-03-23T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://go.pentera.io/rsac-armis?utm_source=RSA &source=RSA &utm_medium=conferenceparty&medium=conferenceparty&utm_campaign=RSA Happy Hour&campaign=RSA Happy Hour",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Pentera & Armis.",
+    "organizer": "Pentera & Armis"
+  },
+  {
+    "name": "Agave After Dark: Curated Tequila & Candid Conversations",
+    "slug": "agave-after-dark-curated-tequila-candid-conversations-rsac-2026",
+    "date": "2026-03-23T18:00:00-07:00",
+    "endDate": "2026-03-23T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/9q3gdatj",
+    "source": "conferenceparties.com",
+    "description": "ZOE Cocktail Bar & Bites. 579 Howard St, San Francisco. Hosted by Rad Security.",
+    "organizer": "Rad Security"
+  },
+  {
+    "name": "A Tasting Menu of AI-Native Security",
+    "slug": "a-tasting-menu-of-ai-native-security-rsac-2026",
+    "date": "2026-03-23T17:30:00-07:00",
+    "endDate": "2026-03-23T20:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/9doop3qx",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Prime Security, Stacklet, AirMDR & Aegis AI.",
+    "organizer": "Prime Security, Stacklet, AirMDR & Aegis AI"
+  },
+  {
+    "name": "RSAC 2026 Happy Hour",
+    "slug": "rsac-2026-happy-hour-rsac-2026",
+    "date": "2026-03-23T17:30:00-07:00",
+    "endDate": "2026-03-23T19:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/bnl2vul4",
+    "source": "conferenceparties.com",
+    "description": "Fang. 660 Howard St, San Francisco. Hosted by Scanner & Monad.",
+    "organizer": "Scanner & Monad"
+  },
+  {
+    "name": "PwC's Underground Cyber Lounge at RSAC 2026",
+    "slug": "pwcs-underground-cyber-lounge-at-rsac-2026-rsac-2026",
+    "date": "2026-03-23T17:00:00-07:00",
+    "endDate": "2026-03-23T19:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://meetpwc.cventevents.com/event/PwCsUndergroundCyberLoungeAtRSAC2026/Home1",
+    "source": "conferenceparties.com",
+    "description": "Local Edition. 691 Market St, San Francisco. Hosted by PwC.",
+    "organizer": "PwC"
+  },
+  {
+    "name": "Anything-But-Bored - Game Night",
+    "slug": "anything-but-bored-game-night-rsac-2026",
+    "date": "2026-03-23T17:30:00-07:00",
+    "endDate": "2026-03-23T19:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://go.snyk.io/rsa-26-community-jam.html",
+    "source": "conferenceparties.com",
+    "description": "Sandbox VR. 767 B Market St, San Francisco. Hosted by Snyk.",
+    "organizer": "Snyk",
+    "image": "/images/events/anything-but-bored-game-night-rsac-2026.jpg"
+  },
+  {
+    "name": "Founders & Friends Happy Hour",
+    "slug": "founders-friends-happy-hour-rsac-2026",
+    "date": "2026-03-23T17:30:00-07:00",
+    "endDate": "2026-03-23T20:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/9gl2g0cb",
+    "source": "conferenceparties.com",
+    "description": "House of Shields. 39 New Montgomery St, San Francisco. Hosted by Runtime Ventures.",
+    "organizer": "Runtime Ventures"
+  },
+  {
+    "name": "Private Peruvian Dinner for CISOs & GRC Leaders",
+    "slug": "private-peruvian-dinner-for-cisos-grc-leaders-rsac-2026",
+    "date": "2026-03-23T18:00:00-07:00",
+    "endDate": "2026-03-23T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/sprinto-ciso-dinner-2026",
+    "source": "conferenceparties.com",
+    "description": "La Mar Cocina Peruana. PIER 1 1/2 The Embarcadero N, San Francisco. Hosted by Sprinto.",
+    "organizer": "Sprinto"
+  },
+  {
+    "name": "Cyber Leaders VIP Reception",
+    "slug": "cyber-leaders-vip-reception-rsac-2026",
+    "date": "2026-03-23T17:00:00-07:00",
+    "endDate": "2026-03-23T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://events.merlin.vc/rsvp/merlin-x-lightspeed-x-evolution-vip-reception-rsa-2026/merlin-ventures/register",
+    "source": "conferenceparties.com",
+    "description": "680 Folsom St. 680 Folsom St, San Francisco. Hosted by Trident, AWS, Cyberark Ventures & Davis Polk.",
+    "organizer": "Trident, AWS, Cyberark Ventures & Davis Polk",
+    "image": "/images/events/cyber-leaders-vip-reception-rsac-2026.jpg"
+  },
+  {
+    "name": "The Old Fashioned Future - Whiskey Tasting Event",
+    "slug": "the-old-fashioned-future-whiskey-tasting-event-rsac-2026",
+    "date": "2026-03-23T18:00:00-07:00",
+    "endDate": "2026-03-23T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://event.synack.com/rsac-2026-whiskey-tasting?utm_campaign=37129350-FY27-RSA&utm_source=other-sources&utm_channel=conferenceparties&utm_medium=website&utm_audience=all&utm_content=rsac-2026-where-ai-humans-meet-whiskey",
+    "source": "conferenceparties.com",
+    "description": "Fogo de Chao. 201 3rd St, San Francisco. Hosted by Synack.",
+    "organizer": "Synack",
+    "image": "/images/events/the-old-fashioned-future-whiskey-tasting-event-rsac-2026.jpg"
+  },
+  {
+    "name": "Guidepoint's RSAC Happy Hour",
+    "slug": "guidepoints-rsac-happy-hour-rsac-2026",
+    "date": "2026-03-23T18:30:00-07:00",
+    "endDate": "2026-03-23T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.guidepointsecurity.com/rsa/?utm_source=vendor&utm_medium=email&utm_campaign=2026_03_23_corp_mq_rsaparty_sanfran&utm_vendor=roon_cyber",
+    "source": "conferenceparties.com",
+    "description": "The Grand. 520 4th St, San Francisco. Hosted by Guidepoint.",
+    "organizer": "Guidepoint",
+    "image": "/images/events/guidepoints-rsac-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "The Calm Before",
+    "slug": "the-calm-before-rsac-2026",
+    "date": "2026-03-23T18:30:00-07:00",
+    "endDate": "2026-03-23T22:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.vanta.com/lp/rsa#party",
+    "source": "conferenceparties.com",
+    "description": "Temple SF. 540 Howard St, San Francisco. Hosted by Vanta.",
+    "organizer": "Vanta",
+    "image": "/images/events/the-calm-before-rsac-2026.jpg"
+  },
+  {
+    "name": "OWASP GenAI Security - RSAC'26 Kickoff Party",
+    "slug": "owasp-genai-security-rsac26-kickoff-party-rsac-2026",
+    "date": "2026-03-23T18:00:00-07:00",
+    "endDate": "2026-03-23T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/dhye6n2y",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Straiker.",
+    "organizer": "Straiker"
+  },
+  {
+    "name": "Pre-RSAC CISO Mastermind Dinner",
+    "slug": "pre-rsac-ciso-mastermind-dinner-rsac-2026",
+    "date": "2026-03-23T18:00:00-07:00",
+    "endDate": "2026-03-23T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/09dciady",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Commvault.",
+    "organizer": "Commvault"
+  },
+  {
+    "name": "RSAC Kickoff Party",
+    "slug": "rsac-kickoff-party-rsac-2026",
+    "date": "2026-03-23T18:30:00-07:00",
+    "endDate": "2026-03-23T22:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://discover.firemon.com/rsac-2026-kickoff-party?utm_campaign=rsa_partyfiremon",
+    "source": "conferenceparties.com",
+    "description": "Chotto Matte. 50 O'Farrell St, San Francisco. Hosted by FireMon, Fortinet, Illumio, Armis & Keyfactor.",
+    "organizer": "FireMon, Fortinet, Illumio, Armis & Keyfactor"
+  },
+  {
+    "name": "The Rumble After Party",
+    "slug": "the-rumble-after-party-rsac-2026",
+    "date": "2026-03-23T18:00:00-07:00",
+    "endDate": "2026-03-23T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.commvault.com/events/rsac-2026/after-party",
+    "source": "conferenceparties.com",
+    "description": "Hawthorn SF. 46 Geary St, San Francisco. Hosted by Commvault, Kyndryl & Everpure.",
+    "organizer": "Commvault, Kyndryl & Everpure",
+    "image": "/images/events/the-rumble-after-party-rsac-2026.jpg"
+  },
+  {
+    "name": "CSides San Francisco 2026",
+    "slug": "csides-san-francisco-2026-rsac-2026",
+    "date": "2026-03-23T18:00:00-07:00",
+    "endDate": "2026-03-23T01:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfZL4FnezgxKXM8ilLG3-aNfX2oVA41VUgCER6IcCaTOBDJ8w/viewform?usp=dialog",
+    "source": "conferenceparties.com",
+    "description": "LinkedIn. 222 2nd St, San Francisco. Hosted by Knostic, TachTech & Confide.",
+    "organizer": "Knostic, TachTech & Confide",
+    "image": "/images/events/csides-san-francisco-2026-rsac-2026.jpg"
+  },
+  {
+    "name": "Networking Reception at Holbrook House",
+    "slug": "networking-reception-at-holbrook-house-rsac-2026",
+    "date": "2026-03-23T18:00:00-07:00",
+    "endDate": "2026-03-23T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://events.tanium.com/rsa2026",
+    "source": "conferenceparties.com",
+    "description": "Holbrook House. 1 Sansome St, San Francisco. Hosted by Tanium.",
+    "organizer": "Tanium",
+    "image": "/images/events/networking-reception-at-holbrook-house-rsac-2026.jpg"
+  },
+  {
+    "name": "Rockin Mocktails 2026",
+    "slug": "rockin-mocktails-2026-rsac-2026",
+    "date": "2026-03-23T19:00:00-07:00",
+    "endDate": "2026-03-23T21:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.soberincyber.org/events-1/rockin-mocktails-at-rsac-2026",
+    "source": "conferenceparties.com",
+    "description": "KPMG Building. 55 2nd St, San Francisco. Hosted by Sober in Cyber.",
+    "organizer": "Sober in Cyber",
+    "image": "/images/events/rockin-mocktails-2026-rsac-2026.jpg"
+  },
+  {
+    "name": "Akamai Networking Reception",
+    "slug": "akamai-networking-reception-rsac-2026",
+    "date": "2026-03-24T17:30:00-07:00",
+    "endDate": "2026-03-24T20:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://web.cvent.com/event/90473216-4fd5-4dc1-8330-334c9ad2dcc9/regProcessStep1",
+    "source": "conferenceparties.com",
+    "description": "Hotel Zetta. 55 5th St, San Francisco. Hosted by Akamai.",
+    "organizer": "Akamai"
+  },
+  {
+    "name": "CYBERTACOS is Back for RSAC 2026",
+    "slug": "cybertacos-is-back-for-rsac-2026-rsac-2026",
+    "date": "2026-03-23T19:00:00-07:00",
+    "endDate": "2026-03-23T21:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://w2comm.com/rsac-cybertacos-2026-registration/",
+    "source": "conferenceparties.com",
+    "description": "Merkado SF. 130 Townsend St, San Francisco. Hosted by W2 Communications, NightDragon, Lasso, Carahsoft & N2K Cyberwire.",
+    "organizer": "W2 Communications, NightDragon, Lasso, Carahsoft & N2K Cyberwire"
+  },
+  {
+    "name": "Netskope Fun Run at the Golden Gate Bridge",
+    "slug": "netskope-fun-run-at-the-golden-gate-bridge-rsac-2026",
+    "date": "2026-03-24T06:15:00-07:00",
+    "endDate": "2026-03-24T08:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.netskope.com/company/events/netskope-at-rsa#vip-lounge",
+    "source": "conferenceparties.com",
+    "description": "Golden Gate Bridge Welcome Center. Coastal Trail, San Francisco. Hosted by Netskope.",
+    "organizer": "Netskope",
+    "image": "/images/events/netskope-fun-run-at-the-golden-gate-bridge-rsac-2026.jpg"
+  },
+  {
+    "name": "Raising the Bar: An Exclusive Dinner",
+    "slug": "raising-the-bar-an-exclusive-dinner-rsac-2026",
+    "date": "2026-03-23T19:30:00-07:00",
+    "endDate": "2026-03-23T21:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://cybersecurity.arcticwolf.com/EFF-FY26Q4-26-03-23-Customer-Dinner-RSAC_Reg-Page-RSAC.html",
+    "source": "conferenceparties.com",
+    "description": "Birdsong. 1085 Mission St, San Francisco. Hosted by Arctic Wolf & Databricks.",
+    "organizer": "Arctic Wolf & Databricks",
+    "image": "/images/events/raising-the-bar-an-exclusive-dinner-rsac-2026.jpg"
+  },
+  {
+    "name": "CISO Karaoke",
+    "slug": "ciso-karaoke-rsac-2026",
+    "date": "2026-03-23T21:00:00-07:00",
+    "endDate": "2026-03-23T00:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/8dvx9dwd",
+    "source": "conferenceparties.com",
+    "description": "Pandora Karaoke. 50 Mason St, San Francisco. Hosted by TRIDENT CONNECT.",
+    "organizer": "TRIDENT CONNECT"
+  },
+  {
+    "name": "The AppSec 5k Run: Escape Your Limits",
+    "slug": "the-appsec-5k-run-escape-your-limits-rsac-2026",
+    "date": "2026-03-24T06:30:00-07:00",
+    "endDate": "2026-03-24T07:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/mo0295cd",
+    "source": "conferenceparties.com",
+    "description": "Embarcadero. Embarcadero, San Francisco. Hosted by Escape.",
+    "organizer": "Escape"
+  },
+  {
+    "name": "Cybersecurity's Dirty Secret: Why Most Budgets Go To Waste",
+    "slug": "cybersecuritys-dirty-secret-why-most-budgets-go-to-waste-rsac-2026",
+    "date": "2026-03-24T07:00:00-07:00",
+    "endDate": "2026-03-24T10:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.linkedin.com/events/cybersecurity-sdirtysecret-ther7431770272384561152/",
+    "source": "conferenceparties.com",
+    "description": "Filipino Heritage Center. 814 Mission St, San Francisco. Hosted by Anvilogic.",
+    "organizer": "Anvilogic",
+    "image": "/images/events/cybersecuritys-dirty-secret-why-most-budgets-go-to-waste-rsac-2026.jpg"
+  },
+  {
+    "name": "Global AI Security Summit",
+    "slug": "global-ai-security-summit-rsac-2026",
+    "date": "2026-03-24T07:00:00-07:00",
+    "endDate": "2026-03-24T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/pz7uym7m",
+    "source": "conferenceparties.com",
+    "description": "SPUR. 654 Mission St, San Francisco. Hosted by Tejas Cyber Network.",
+    "organizer": "Tejas Cyber Network"
+  },
+  {
+    "name": "Founder-CISO Executive Breakfast",
+    "slug": "founder-ciso-executive-breakfast-rsac-2026",
+    "date": "2026-03-24T07:00:00-07:00",
+    "endDate": "2026-03-24T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/fnfrtctc",
+    "source": "conferenceparties.com",
+    "description": "Cosy Restaurant. Few blocks from Moscone, San Francisco. Hosted by BreachRx, Vega & Onyx Security.",
+    "organizer": "BreachRx, Vega & Onyx Security"
+  },
+  {
+    "name": "CISO's X Founders Speakeasy",
+    "slug": "cisos-x-founders-speakeasy-rsac-2026",
+    "date": "2026-03-23T21:00:00-07:00",
+    "endDate": "2026-03-23T23:59:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://form.typeform.com/to/uPeARkzc",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by The Founders House.",
+    "organizer": "The Founders House"
+  },
+  {
+    "name": "Breakfast Panel: Governing AI-Native Development",
+    "slug": "breakfast-panel-governing-ai-native-development-rsac-2026",
+    "date": "2026-03-24T07:30:00-07:00",
+    "endDate": "2026-03-24T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://info.legitsecurity.com/2026-rsa-conference-breakfast-panel-legit-security?utm_source=conferenceparties&utm_campaign=rsa_breakfast_panel",
+    "source": "conferenceparties.com",
+    "description": "The Conservatory. One Sansem St, San Francisco. Hosted by Legit Security.",
+    "organizer": "Legit Security"
+  },
+  {
+    "name": "Cyber Lounge – Daytime Access",
+    "slug": "cyber-lounge-daytime-access-rsac-2026",
+    "date": "2026-03-24T07:30:00-07:00",
+    "endDate": "2026-03-24T15:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://mfcyber.com/sfo-2026-cyber-lounge/?utm_source=conferenceparties&utm_medium=referral&utm_campaign=cyber-lounge-sfo-2026",
+    "source": "conferenceparties.com",
+    "description": "The Cyber Lounge. 145 4th St, San Francisco. Hosted by MorganFranklin Consulting.",
+    "organizer": "MorganFranklin Consulting",
+    "image": "/images/events/cyber-lounge-daytime-access-rsac-2026.jpg"
+  },
+  {
+    "name": "Startups as Strategic Sensors",
+    "slug": "startups-as-strategic-sensors-rsac-2026",
+    "date": "2026-03-24T08:00:00-07:00",
+    "endDate": "2026-03-24T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/vgj6hc7m",
+    "source": "conferenceparties.com",
+    "description": "InterContinental. 888 Howard St, San Francisco. Hosted by Hyperwise Ventures.",
+    "organizer": "Hyperwise Ventures"
+  },
+  {
+    "name": "AI in Cybersecurity Sales: Where the Hype Breaks Down",
+    "slug": "ai-in-cybersecurity-sales-where-the-hype-breaks-down-rsac-2026",
+    "date": "2026-03-24T07:30:00-07:00",
+    "endDate": "2026-03-24T09:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/lu4w1jq7",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Zime AI.",
+    "organizer": "Zime AI"
+  },
+  {
+    "name": "Eggs & Hash: The Boss Lady Breakfast",
+    "slug": "eggs-hash-the-boss-lady-breakfast-rsac-2026",
+    "date": "2026-03-24T07:30:00-07:00",
+    "endDate": "2026-03-24T09:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/placeholder",
+    "source": "conferenceparties.com",
+    "description": "Cohesity Resilience Den. One Yerba Buena, San Francisco. Hosted by Cohesity.",
+    "organizer": "Cohesity",
+    "image": "/images/events/eggs-hash-the-boss-lady-breakfast-rsac-2026.jpg"
+  },
+  {
+    "name": "CxO Security Forum Executive Breakfast",
+    "slug": "cxo-security-forum-executive-breakfast-rsac-2026",
+    "date": "2026-03-24T08:00:00-07:00",
+    "endDate": "2026-03-24T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://cxosecurityforum.com/rsac/",
+    "source": "conferenceparties.com",
+    "description": "Buena Vida Cantina. Buena Vida Cantina, San Francisco. Hosted by CxO Security Forum & EasyDMARC.",
+    "organizer": "CxO Security Forum & EasyDMARC",
+    "image": "/images/events/cxo-security-forum-executive-breakfast-rsac-2026.jpg"
+  },
+  {
+    "name": "RSAC Pickleball Tournament",
+    "slug": "rsac-pickleball-tournament-rsac-2026",
+    "date": "2026-03-24T08:00:00-07:00",
+    "endDate": "2026-03-24T11:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/jogs1jvk",
+    "source": "conferenceparties.com",
+    "description": "Bay Club Gateway. 370 Drumm St, San Francisco. Hosted by Validia & SkillBit.",
+    "organizer": "Validia & SkillBit"
+  },
+  {
+    "name": "Women in Cyber Executive Panel - Breakfast",
+    "slug": "women-in-cyber-executive-panel-breakfast-rsac-2026",
+    "date": "2026-03-24T08:00:00-07:00",
+    "endDate": "2026-03-24T09:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://event.synack.com/rsac-2026-women-in-cyber-breakfast-panel?utm_campaign=37129350-FY27-RSA&utm_source=other-sources&utm_channel=conferenceparties&utm_medium=website&utm_audience=all&utm_content=rsac-2026-where-ai-humans-meet-women-in-cyber-breakfast",
+    "source": "conferenceparties.com",
+    "description": "Fogo de Chao. 201 3rd St, San Francisco. Hosted by Synack & Executive Women's Forum.",
+    "organizer": "Synack & Executive Women's Forum",
+    "image": "/images/events/women-in-cyber-executive-panel-breakfast-rsac-2026.jpg"
+  },
+  {
+    "name": "Executive Connections Breakfast",
+    "slug": "executive-connections-breakfast-rsac-2026",
+    "date": "2026-03-24T08:00:00-07:00",
+    "endDate": "2026-03-24T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://astrix.security/events/rsac2026-executive-connections/",
+    "source": "conferenceparties.com",
+    "description": "The Clancy. 299 2nd St, San Francisco. Hosted by Astrix Security.",
+    "organizer": "Astrix Security",
+    "image": "/images/events/executive-connections-breakfast-rsac-2026.jpg"
+  },
+  {
+    "name": "CISO Base Breakfast",
+    "slug": "ciso-base-breakfast-rsac-2026",
+    "date": "2026-03-24T07:30:00-07:00",
+    "endDate": "2026-03-24T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.endorlabs.com/events/ciso-base-breakfast",
+    "source": "conferenceparties.com",
+    "description": "TRACE Restaurant W Hotel. 181 3rd St, San Francisco. Hosted by Endor Labs.",
+    "organizer": "Endor Labs",
+    "image": "/images/events/ciso-base-breakfast-rsac-2026.jpg"
+  },
+  {
+    "name": "The Quest for Safe Cloud Remediation",
+    "slug": "the-quest-for-safe-cloud-remediation-rsac-2026",
+    "date": "2026-03-24T08:00:00-07:00",
+    "endDate": "2026-03-24T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://tamnoon.io/tamnoon-at-rsac-2026-the-quest-for-safe-cloud-remediation",
+    "source": "conferenceparties.com",
+    "description": "Across The Cloud Realm. Across The Cloud Realm, San Francisco. Hosted by Tamnoon.",
+    "organizer": "Tamnoon",
+    "image": "/images/events/the-quest-for-safe-cloud-remediation-rsac-2026.jpg"
+  },
+  {
+    "name": "The Agentic Connection Point",
+    "slug": "the-agentic-connection-point-rsac-2026",
+    "date": "2026-03-24T08:00:00-07:00",
+    "endDate": "2026-03-24T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://astrix.security/events/rsac2026-agentic-connection-point/",
+    "source": "conferenceparties.com",
+    "description": "The Clancy. 299 2nd St, San Francisco. Hosted by Astrix Security.",
+    "organizer": "Astrix Security",
+    "image": "/images/events/the-agentic-connection-point-rsac-2026.jpg"
+  },
+  {
+    "name": "Cyber Fuel Center",
+    "slug": "cyber-fuel-center-rsac-2026",
+    "date": "2026-03-24T08:00:00-07:00",
+    "endDate": "2026-03-24T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/za2c1w7y",
+    "source": "conferenceparties.com",
+    "description": "Oasis Grill. 200 4th St, San Francisco. Hosted by Tech Meetup.",
+    "organizer": "Tech Meetup"
+  },
+  {
+    "name": "Snyk Easy: VIP Customer-only Lounge",
+    "slug": "snyk-easy-vip-customer-only-lounge-rsac-2026",
+    "date": "2026-03-24T08:00:00-07:00",
+    "endDate": "2026-03-24T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/c3n9ftwi",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Snyk.",
+    "organizer": "Snyk"
+  },
+  {
+    "name": "The Sweet Spot | Private Bakery Experience",
+    "slug": "the-sweet-spot-private-bakery-experience-rsac-2026",
+    "date": "2026-03-24T08:00:00-07:00",
+    "endDate": "2026-03-24T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://hubs.li/Q043FNC20",
+    "source": "conferenceparties.com",
+    "description": "Across the street from Moscone. Across the street from Moscone, San Francisco. Hosted by Sweet Security.",
+    "organizer": "Sweet Security"
+  },
+  {
+    "name": "AI Threat Landscape Report Launch Breakfast",
+    "slug": "ai-threat-landscape-report-launch-breakfast-rsac-2026",
+    "date": "2026-03-24T08:30:00-07:00",
+    "endDate": "2026-03-24T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/v43mruts",
+    "source": "conferenceparties.com",
+    "description": "Timbri Hotel. 33 Turk St, San Francisco. Hosted by HiddenLayer.",
+    "organizer": "HiddenLayer"
+  },
+  {
+    "name": "Agentic AI Leadership Breakfast",
+    "slug": "agentic-ai-leadership-breakfast-rsac-2026",
+    "date": "2026-03-24T08:30:00-07:00",
+    "endDate": "2026-03-24T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/xjzw9prd",
+    "source": "conferenceparties.com",
+    "description": "rtsa. rtsa, San Francisco. Hosted by Straiker & Andromeda Security.",
+    "organizer": "Straiker & Andromeda Security"
+  },
+  {
+    "name": "Tailscale's > Peer-to-Pour Coffeehouse",
+    "slug": "tailscales-peer-to-pour-coffeehouse-rsac-2026",
+    "date": "2026-03-24T08:00:00-07:00",
+    "endDate": "2026-03-24T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.tailscale.com/rsac26",
+    "source": "conferenceparties.com",
+    "description": "Sextant Coffee Roasters. 201 3rd St, San Francisco. Hosted by Tailscale.",
+    "organizer": "Tailscale",
+    "image": "/images/events/tailscales-peer-to-pour-coffeehouse-rsac-2026.jpg"
+  },
+  {
+    "name": "CISO & Security Leaders Breakfast | Before Moscone",
+    "slug": "ciso-security-leaders-breakfast-before-moscone-rsac-2026",
+    "date": "2026-03-24T08:30:00-07:00",
+    "endDate": "2026-03-24T10:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/8w21nqln",
+    "source": "conferenceparties.com",
+    "description": "Zazie's. 941 Cole St, San Francisco. Hosted by Jump Capital & Runtime Ventures.",
+    "organizer": "Jump Capital & Runtime Ventures"
+  },
+  {
+    "name": "RSAC Executive Briefing",
+    "slug": "rsac-executive-briefing-rsac-2026",
+    "date": "2026-03-24T08:30:00-07:00",
+    "endDate": "2026-03-24T11:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://hubs.la/Q041y_jk0",
+    "source": "conferenceparties.com",
+    "description": "Southside Spirit House. 575 Howard St, San Francisco. Hosted by Confidencial & Infolock.",
+    "organizer": "Confidencial & Infolock"
+  },
+  {
+    "name": "Cohesity Resilience Den",
+    "slug": "cohesity-resilience-den-rsac-2026",
+    "date": "2026-03-24T09:00:00-07:00",
+    "endDate": "2026-03-24T19:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://events.cohesity.com/cohesityresilienceden/cp",
+    "source": "conferenceparties.com",
+    "description": "Cohesity Resilience Den. 1 Yerba Buena Ln, San Francisco. Hosted by Cohesity.",
+    "organizer": "Cohesity"
+  },
+  {
+    "name": "Red vs. Blue: Laser Tag Showdown",
+    "slug": "red-vs-blue-laser-tag-showdown-rsac-2026",
+    "date": "2026-03-24T10:00:00-07:00",
+    "endDate": "2026-03-24T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.straiker.ai/events/rsac",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Straiker.",
+    "organizer": "Straiker",
+    "image": "/images/events/red-vs-blue-laser-tag-showdown-rsac-2026.jpg"
+  },
+  {
+    "name": "Exclusive Lunch Event: From Useless Reports To Portfolio Focused CyberSecurity",
+    "slug": "exclusive-lunch-event-from-useless-reports-to-portfolio-focused-cybersecurity-rsac-2026",
+    "date": "2026-03-24T13:00:00-07:00",
+    "endDate": "2026-03-24T16:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/qxpqs283",
+    "source": "conferenceparties.com",
+    "description": "InterContinental. 888 Howard St, San Francisco. Hosted by CYE.",
+    "organizer": "CYE"
+  },
+  {
+    "name": "Steak and (Human) Security",
+    "slug": "steak-and-human-security-rsac-2026",
+    "date": "2026-03-24T11:30:00-07:00",
+    "endDate": "2026-03-24T13:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/paozy6xd?tk=DQSbNx",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Fable Security.",
+    "organizer": "Fable Security"
+  },
+  {
+    "name": "Hands-On MCP Security Workshop",
+    "slug": "hands-on-mcp-security-workshop-rsac-2026",
+    "date": "2026-03-24T11:30:00-07:00",
+    "endDate": "2026-03-24T13:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://astrix.security/events/rsac2026-mcp-workshop/",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Astrix Security.",
+    "organizer": "Astrix Security",
+    "image": "/images/events/hands-on-mcp-security-workshop-rsac-2026.jpg"
+  },
+  {
+    "name": "Cyber Marketing Lunch",
+    "slug": "cyber-marketing-lunch-rsac-2026",
+    "date": "2026-03-24T12:00:00-07:00",
+    "endDate": "2026-03-24T14:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/marketinglunch",
+    "source": "conferenceparties.com",
+    "description": "The Paramount. 680 Mission St, San Francisco. Hosted by Aikido Security.",
+    "organizer": "Aikido Security"
+  },
+  {
+    "name": "Infinigate CyberLunch",
+    "slug": "infinigate-cyberlunch-rsac-2026",
+    "date": "2026-03-24T12:00:00-07:00",
+    "endDate": "2026-03-24T15:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.infinigate.com/infinigate-exclusive-gatherings-rsa-conference-san-francisco/#h-reserve-your-place",
+    "source": "conferenceparties.com",
+    "description": "Top of The Mark Intercontinental. Intercontinental, San Francisco. Hosted by Infinigate.",
+    "organizer": "Infinigate",
+    "image": "/images/events/infinigate-cyberlunch-rsac-2026.jpg"
+  },
+  {
+    "name": "Executive Roundtable: What Business Values & Risks is AI Actually Creating?",
+    "slug": "executive-roundtable-what-business-values-risks-is-ai-actually-creating-rsac-2026",
+    "date": "2026-03-24T12:00:00-07:00",
+    "endDate": "2026-03-24T15:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/06peigao",
+    "source": "conferenceparties.com",
+    "description": "Upscale Lunch Spot. Near Moscone Center, San Francisco. Hosted by The Brain Trust Tribe & Huskeys.",
+    "organizer": "The Brain Trust Tribe & Huskeys"
+  },
+  {
+    "name": "Tacos & Threats: Threat Modeling Connect RSAC 2026 Meetup",
+    "slug": "tacos-threats-threat-modeling-connect-rsac-2026-meetup-rsac-2026",
+    "date": "2026-03-24T14:00:00-07:00",
+    "endDate": "2026-03-24T16:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/elsmanm4",
+    "source": "conferenceparties.com",
+    "description": "Buena Vida Cantina. 860 Folsom St, San Francisco. Hosted by Threat Modeler + IriusRisk.",
+    "organizer": "Threat Modeler + IriusRisk"
+  },
+  {
+    "name": "Data Privacy Talk & Lunch",
+    "slug": "data-privacy-talk-lunch-rsac-2026",
+    "date": "2026-03-24T11:30:00-07:00",
+    "endDate": "2026-03-24T13:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/qg0oay87",
+    "source": "conferenceparties.com",
+    "description": "1 Montgomery St. 1 Montgomery St, San Francisco. Hosted by AegisAI Security.",
+    "organizer": "AegisAI Security"
+  },
+  {
+    "name": "Cyber Lounge – Live Music & Happy Hour",
+    "slug": "cyber-lounge-live-music-happy-hour-rsac-2026",
+    "date": "2026-03-24T15:00:00-07:00",
+    "endDate": "2026-03-24T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://mfcyber.com/sfo-2026-cyber-lounge/?utm_source=conferenceparties&utm_medium=referral&utm_campaign=cyber-lounge-sfo-2026",
+    "source": "conferenceparties.com",
+    "description": "The Cyber Lounge. 145 4th St, San Francisco. Hosted by MorganFranklin Consulting.",
+    "organizer": "MorganFranklin Consulting",
+    "image": "/images/events/cyber-lounge-live-music-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "The WOMEN IN SECURITY Documentary",
+    "slug": "the-women-in-security-documentary-rsac-2026",
+    "date": "2026-03-24T16:00:00-07:00",
+    "endDate": "2026-03-24T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "http://www.sentra.io/rsa",
+    "source": "conferenceparties.com",
+    "description": "AMC Metreon. 135 4th St #3000, San Francisco. Hosted by Sentra.io.",
+    "organizer": "Sentra.io",
+    "image": "/images/events/the-women-in-security-documentary-rsac-2026.jpg"
+  },
+  {
+    "name": "Black Kite's Signature Whiskey Tasting",
+    "slug": "black-kites-signature-whiskey-tasting-rsac-2026",
+    "date": "2026-03-24T16:00:00-07:00",
+    "endDate": "2026-03-24T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://go.blackkite.com/rsa-2026-black-kite",
+    "source": "conferenceparties.com",
+    "description": "Four Seasons SF. 757 Market St, San Francisco. Hosted by Black Kite.",
+    "organizer": "Black Kite",
+    "image": "/images/events/black-kites-signature-whiskey-tasting-rsac-2026.jpg"
+  },
+  {
+    "name": "Google Security Community User Group",
+    "slug": "google-security-community-user-group-rsac-2026",
+    "date": "2026-03-24T15:00:00-07:00",
+    "endDate": "2026-03-24T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://rsvp.withgoogle.com/events/rsac26-community-user-group",
+    "source": "conferenceparties.com",
+    "description": "SF Marriott Marquis. Level B2 Nob Hill Rm, San Francisco. Hosted by Google Security.",
+    "organizer": "Google Security"
+  },
+  {
+    "name": "Security Leaders Reception",
+    "slug": "security-leaders-reception-rsac-2026",
+    "date": "2026-03-24T17:00:00-07:00",
+    "endDate": "2026-03-24T19:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/7cugwb84",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Ballistic Ventures, Rubrik & Holly Ventures.",
+    "organizer": "Ballistic Ventures, Rubrik & Holly Ventures"
+  },
+  {
+    "name": "Bedrock Data Mixer @ RSA",
+    "slug": "bedrock-data-mixer-rsa-rsac-2026",
+    "date": "2026-03-24T17:00:00-07:00",
+    "endDate": "2026-03-24T19:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/hii55m8h",
+    "source": "conferenceparties.com",
+    "description": "Greylock. 140 New Montgomery St, San Francisco. Hosted by Bedrock Data.",
+    "organizer": "Bedrock Data"
+  },
+  {
+    "name": "CTRL+RUN: RSA March 2026 with OFFENSAI",
+    "slug": "ctrlrun-rsa-march-2026-with-offensai-rsac-2026",
+    "date": "2026-03-24T17:00:00-07:00",
+    "endDate": "2026-03-24T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/d2bhciis",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by OFFENSAI.",
+    "organizer": "OFFENSAI"
+  },
+  {
+    "name": "World Whiskey Tour @ RSAC",
+    "slug": "world-whiskey-tour-rsac-rsac-2026",
+    "date": "2026-03-24T16:00:00-07:00",
+    "endDate": "2026-03-24T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/1gkmotrq",
+    "source": "conferenceparties.com",
+    "description": "1 Montgomery St. 1 Montgomery St, San Francisco. Hosted by AegisAI Security.",
+    "organizer": "AegisAI Security"
+  },
+  {
+    "name": "Tasting Tuesday",
+    "slug": "tasting-tuesday-rsac-2026",
+    "date": "2026-03-24T17:00:00-07:00",
+    "endDate": "2026-03-24T19:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://rsvp.withgoogle.com/events/rsac26-tasting-tuesday",
+    "source": "conferenceparties.com",
+    "description": "SF Marriott Marquis. 780 Mission Street, San Francisco. Hosted by Google Cloud Security.",
+    "organizer": "Google Cloud Security"
+  },
+  {
+    "name": "Doppel Hanger Happy Hour",
+    "slug": "doppel-hanger-happy-hour-rsac-2026",
+    "date": "2026-03-24T17:00:00-07:00",
+    "endDate": "2026-03-24T19:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.doppel.com/events/rsac-2026/hanger#meetings",
+    "source": "conferenceparties.com",
+    "description": "East Brothers Brewing Rec Room. 135 4th St, San Francisco. Hosted by Doppel, BlackCloak & Filigran.",
+    "organizer": "Doppel, BlackCloak & Filigran",
+    "image": "/images/events/doppel-hanger-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "Bourbon & Blazers",
+    "slug": "bourbon-blazers-rsac-2026",
+    "date": "2026-03-24T17:00:00-07:00",
+    "endDate": "2026-03-24T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://engage.anzenna.ai/rsa-after-party",
+    "source": "conferenceparties.com",
+    "description": "Indochino. 61 Post St, San Francisco. Hosted by Anzenna.",
+    "organizer": "Anzenna"
+  },
+  {
+    "name": "Security Operations Executive Mahjong & Dinner",
+    "slug": "security-operations-executive-mahjong-dinner-rsac-2026",
+    "date": "2026-03-24T17:25:00-07:00",
+    "endDate": "2026-03-24T20:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/fot31q6w",
+    "source": "conferenceparties.com",
+    "description": "Chinatown. Register to See Address, San Francisco. Hosted by Fleak AI.",
+    "organizer": "Fleak AI"
+  },
+  {
+    "name": "Security Founders' Oasis",
+    "slug": "security-founders-oasis-rsac-2026",
+    "date": "2026-03-24T17:30:00-07:00",
+    "endDate": "2026-03-24T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/w10psfmj",
+    "source": "conferenceparties.com",
+    "description": "Fang. 660 Howard St, San Francisco. Hosted by Leen, Venture in Security, White Rabbit VC, Rain Capital & IDenovate.",
+    "organizer": "Leen, Venture in Security, White Rabbit VC, Rain Capital & IDenovate"
+  },
+  {
+    "name": "IT Pro Happy Hour",
+    "slug": "it-pro-happy-hour-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/1ttlieif",
+    "source": "conferenceparties.com",
+    "description": "E&O Kitchen & Bar. 314 Sutter St, San Francisco. Hosted by Rippling, Johanson Group & Red Sentry.",
+    "organizer": "Rippling, Johanson Group & Red Sentry"
+  },
+  {
+    "name": "Bay Area Iceberg Meetup: RSA Edition",
+    "slug": "bay-area-iceberg-meetup-rsa-edition-rsac-2026",
+    "date": "2026-03-24T17:00:00-07:00",
+    "endDate": "2026-03-24T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/rsa-iceberg",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by ClickHouse, PuppyGraph & AWS.",
+    "organizer": "ClickHouse, PuppyGraph & AWS"
+  },
+  {
+    "name": "Exclusive CISO Dinner",
+    "slug": "exclusive-ciso-dinner-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T20:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/prelude-dinner",
+    "source": "conferenceparties.com",
+    "description": "Prelude. 333 Battery St, San Francisco. Hosted by Aikido & Delve.",
+    "organizer": "Aikido & Delve"
+  },
+  {
+    "name": "Toasts to Telemetry",
+    "slug": "toasts-to-telemetry-rsac-2026",
+    "date": "2026-03-24T17:30:00-07:00",
+    "endDate": "2026-03-24T19:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://info.cribl.io/RM-FEV-FY27-Q1-03-24-RSA-Happy-Hour-SF_LP-Registration.html?utm_campaign=RM-FEV-FY27-Q1-03-24-RSA-Happy-Hour-SF&utm_medium=email&utm_source=channel-oso&utm_content=RSA-Happy-Hour-SF-FEV",
+    "source": "conferenceparties.com",
+    "description": "Cribl HQ. 22 4th St Suite 1300, San Francisco. Hosted by Cribl, Oso, Tailscale, Tines, CardinalOps, Imply, Blinkops & Axonius.",
+    "organizer": "Cribl, Oso, Tailscale, Tines, CardinalOps, Imply, Blinkops & Axonius",
+    "image": "/images/events/toasts-to-telemetry-rsac-2026.jpg"
+  },
+  {
+    "name": "Toasts to Telemetry",
+    "slug": "toasts-to-telemetry-rsac-2026",
+    "date": "2026-03-24T17:30:00-07:00",
+    "endDate": "2026-03-24T19:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://info.cribl.io/RM-FEV-FY27-Q1-03-24-RSA-Happy-Hour-SF_LP-Registration",
+    "source": "conferenceparties.com",
+    "description": "Cribl HQ. 22 4th St #1300, San Francisco. Hosted by Cribl, Tailscale, 7AI, Axonius, Imply & Tines.",
+    "organizer": "Cribl, Tailscale, 7AI, Axonius, Imply & Tines",
+    "image": "/images/events/toasts-to-telemetry-rsac-2026.jpg"
+  },
+  {
+    "name": "Security After Dark - Cocktail Party",
+    "slug": "security-after-dark-cocktail-party-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T20:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/cg0lvo3u",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Copperhelm, Above, Shift Security, Miggo, Vyper & Astrix.",
+    "organizer": "Copperhelm, Above, Shift Security, Miggo, Vyper & Astrix"
+  },
+  {
+    "name": "RSA Mixer and Meta Glasses Giveaway",
+    "slug": "rsa-mixer-and-meta-glasses-giveaway-rsac-2026",
+    "date": "2026-03-24T17:30:00-07:00",
+    "endDate": "2026-03-24T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/dogd3ez6",
+    "source": "conferenceparties.com",
+    "description": "Chotto Matte. 50 O'Farrell St, San Francisco. Hosted by Inspectiv, Scrut Automation, DuploCloud, Prime Security & Arnica.",
+    "organizer": "Inspectiv, Scrut Automation, DuploCloud, Prime Security & Arnica"
+  },
+  {
+    "name": "SF Security Leader Dinner",
+    "slug": "sf-security-leader-dinner-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.dune.security/events/sf-security-leader-dinner-with-dune-security-and-massmutual-ventures",
+    "source": "conferenceparties.com",
+    "description": "The Boulevard. 1 Mission St, San Francisco. Hosted by Dune Security & MassMutual Ventures.",
+    "organizer": "Dune Security & MassMutual Ventures"
+  },
+  {
+    "name": "BattleBots Live at RSAC 2026",
+    "slug": "battlebots-live-at-rsac-2026-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.adaptivesecurity.com/events/rsac-2026-battlebots",
+    "source": "conferenceparties.com",
+    "description": "The Pearl. 601 19th St, San Francisco. Hosted by Adaptive Security.",
+    "organizer": "Adaptive Security",
+    "image": "/images/events/battlebots-live-at-rsac-2026-rsac-2026.jpg"
+  },
+  {
+    "name": "RSA Poker Tournament",
+    "slug": "rsa-poker-tournament-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T21:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/zeropathrsa",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Zeropath.",
+    "organizer": "Zeropath"
+  },
+  {
+    "name": "RSA: Security & IT Operators Dinner",
+    "slug": "rsa-security-it-operators-dinner-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/t3g8p3jv",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Workbrew & Oso.",
+    "organizer": "Workbrew & Oso"
+  },
+  {
+    "name": "Prompted—Live Art in the Age of AI",
+    "slug": "promptedlive-art-in-the-age-of-ai-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/rtalmvpz",
+    "source": "conferenceparties.com",
+    "description": "77 O'Farrell St. 77 O'Farrell St, San Francisco. Hosted by Zaun, Code Red Partners & Sagetap.",
+    "organizer": "Zaun, Code Red Partners & Sagetap"
+  },
+  {
+    "name": "Arcade & Ales at RSAC 2026",
+    "slug": "arcade-ales-at-rsac-2026-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T21:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.vicarius.io/rsa-2026-rsvp",
+    "source": "conferenceparties.com",
+    "description": "Golden Gate Tap Room. 449 Powell St, San Francisco. Hosted by Vicarius.",
+    "organizer": "Vicarius",
+    "image": "/images/events/arcade-ales-at-rsac-2026-rsac-2026.jpg"
+  },
+  {
+    "name": "AI & All That Jazz",
+    "slug": "ai-all-that-jazz-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/9dkrjgaf?utm_source=conf_parties",
+    "source": "conferenceparties.com",
+    "description": "The Dawn Club. 10 Annie St, San Francisco. Hosted by Harmonic, Intruder, Push Security, 909Cyber & Risk Ledger.",
+    "organizer": "Harmonic, Intruder, Push Security, 909Cyber & Risk Ledger"
+  },
+  {
+    "name": "Real Conversations on Access: Post RSA Happy Hour",
+    "slug": "real-conversations-on-access-post-rsa-happy-hour-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.britive.com/resource/events/rsac-2026",
+    "source": "conferenceparties.com",
+    "description": "San Francisco, CA. San Francisco, CA, San Francisco. Hosted by Britive, Tevora, BigID, SecurEnds, KnowBe4, Drata, Fastly & Reach Security.",
+    "organizer": "Britive, Tevora, BigID, SecurEnds, KnowBe4, Drata, Fastly & Reach Security",
+    "image": "/images/events/real-conversations-on-access-post-rsa-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "Next Level Reception",
+    "slug": "next-level-reception-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://github.registration.goldcast.io/events/19f0141f-966c-4712-a763-df18cb226688?utm_source=event&utm_medium=rsa&utm_campaign=website",
+    "source": "conferenceparties.com",
+    "description": "165 Natoma Street. 165 Natoma Street, San Francisco. Hosted by GitHub & Eficode.",
+    "organizer": "GitHub & Eficode",
+    "image": "/images/events/next-level-reception-rsac-2026.jpg"
+  },
+  {
+    "name": "THE Unplugged Party",
+    "slug": "the-unplugged-party-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://armisevents.swoogo.com/unplugged26/?i=pYz58L1NvEsxTYCjODXTOLgLT5kf1pYy&ref=Armis",
+    "source": "conferenceparties.com",
+    "description": "MKT Restaurant & Bar Four Seasons. 757 Market St, San Francisco. Hosted by Armis, Fortinet & Hackerone.",
+    "organizer": "Armis, Fortinet & Hackerone"
+  },
+  {
+    "name": "Mixed Signals: an Intent-Based Mixer",
+    "slug": "mixed-signals-an-intent-based-mixer-rsac-2026",
+    "date": "2026-03-24T18:30:00-07:00",
+    "endDate": "2026-03-24T20:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://datadome.co/events/mixed-signals-rsac-2026/",
+    "source": "conferenceparties.com",
+    "description": "Southside Spirit House. 575 Howard St, San Francisco. Hosted by AWS & DataDome.",
+    "organizer": "AWS & DataDome"
+  },
+  {
+    "name": "RSAC CXO Roundtable",
+    "slug": "rsac-cxo-roundtable-rsac-2026",
+    "date": "2026-03-24T18:30:00-07:00",
+    "endDate": "2026-03-24T20:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.rubrik.com/cxo/experiences/roundtables/rsac-cxo-roundtable",
+    "source": "conferenceparties.com",
+    "description": "Chotto Matte. 50 O'Farrell St, San Francisco. Hosted by Rubrik.",
+    "organizer": "Rubrik"
+  },
+  {
+    "name": "Binary Beats Party",
+    "slug": "binary-beats-party-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://event.synack.com/rsac-2026-party?utm_campaign=37129350-FY27-RSA&utm_source=other-sources&utm_channel=sponsor-cyberproof&utm_medium=event&utm_audience=all&utm_content=rsac-2026-where-ai-humans-meet-binary-beats-party",
+    "source": "conferenceparties.com",
+    "description": "Fogo de Chao. 201 3rd St, San Francisco. Hosted by CyberProof.",
+    "organizer": "CyberProof",
+    "image": "/images/events/binary-beats-party-rsac-2026.jpg"
+  },
+  {
+    "name": "Binary Beats Party",
+    "slug": "binary-beats-party-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://event.synack.com/rsac-2026-party?utm_campaign=37129350-FY27-RSA&utm_source=other-sources&utm_channel=conferenceparties&utm_medium=website&utm_audience=all&utm_content=rsac-2026-where-ai-humans-meet-binary-beats-party",
+    "source": "conferenceparties.com",
+    "description": "Fogo de Chao. 201 3rd St, San Francisco. Hosted by Synack.",
+    "organizer": "Synack",
+    "image": "/images/events/binary-beats-party-rsac-2026.jpg"
+  },
+  {
+    "name": "Starlite Soirée: An RSAC Evening Exchange",
+    "slug": "starlite-soire-an-rsac-evening-exchange-rsac-2026",
+    "date": "2026-03-24T18:30:00-07:00",
+    "endDate": "2026-03-24T20:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://events.elastic.co/starlitesoireanrsaeveningexchange/conferenceparties",
+    "source": "conferenceparties.com",
+    "description": "Beacon Grand Hotel. 450 Powell St, San Francisco. Hosted by Elastic, AWS & Tines.",
+    "organizer": "Elastic, AWS & Tines"
+  },
+  {
+    "name": "Lace Up Your AI Strategy: An Executive Fireside Chat on AI Security",
+    "slug": "lace-up-your-ai-strategy-an-executive-fireside-chat-on-ai-security-rsac-2026",
+    "date": "2026-03-24T18:30:00-07:00",
+    "endDate": "2026-03-24T20:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.harness.io/events/rsac-vip-event?utm_source=aws&utm_medium=partner",
+    "source": "conferenceparties.com",
+    "description": "The Grove. 690 Mission St, San Francisco. Hosted by AWS, Harness & Cyera.",
+    "organizer": "AWS, Harness & Cyera",
+    "image": "/images/events/lace-up-your-ai-strategy-an-executive-fireside-chat-on-ai-security-rsac-2026.jpg"
+  },
+  {
+    "name": "Cyber Workforce in the AI Era",
+    "slug": "cyber-workforce-in-the-ai-era-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/tufcrwuj",
+    "source": "conferenceparties.com",
+    "description": "Two blocks from Moscone. Register to See Address, San Francisco. Hosted by Cracken, F3USA & Stanton House.",
+    "organizer": "Cracken, F3USA & Stanton House"
+  },
+  {
+    "name": "Zero Trust After Dark",
+    "slug": "zero-trust-after-dark-rsac-2026",
+    "date": "2026-03-24T18:30:00-07:00",
+    "endDate": "2026-03-24T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://go.levelblue.com/levelblue-zscaler-rsahappyhour",
+    "source": "conferenceparties.com",
+    "description": "Odyssey Art Collective & Gallery. 377 Geary St, San Francisco. Hosted by LevelBlue & Zscaler.",
+    "organizer": "LevelBlue & Zscaler",
+    "image": "/images/events/zero-trust-after-dark-rsac-2026.jpg"
+  },
+  {
+    "name": "Raw Logs & Sashimi",
+    "slug": "raw-logs-sashimi-rsac-2026",
+    "date": "2026-03-24T18:30:00-07:00",
+    "endDate": "2026-03-24T20:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/cprz0hv3",
+    "source": "conferenceparties.com",
+    "description": "Akikos. 430 Folsom St, San Francisco. Hosted by Scanner.",
+    "organizer": "Scanner"
+  },
+  {
+    "name": "High Stakes. Least Privilege. Poker Night",
+    "slug": "high-stakes-least-privilege-poker-night-rsac-2026",
+    "date": "2026-03-24T18:00:00-07:00",
+    "endDate": "2026-03-24T23:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/3p4gdrfq",
+    "source": "conferenceparties.com",
+    "description": "Hotel Zeppelin. 545 Post St, San Francisco. Hosted by Unosecur.",
+    "organizer": "Unosecur"
+  },
+  {
+    "name": "Awake & Unfiltered: Tales from the Breach",
+    "slug": "awake-unfiltered-tales-from-the-breach-rsac-2026",
+    "date": "2026-03-24T19:00:00-07:00",
+    "endDate": "2026-03-24T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://events.cohesity.com/rsacawakeandunfiltered/CP",
+    "source": "conferenceparties.com",
+    "description": "Cohesity Resilience Den. 1 Yerba Buena Ln, San Francisco. Hosted by Cohesity & HPE.",
+    "organizer": "Cohesity & HPE"
+  },
+  {
+    "name": "Island Reserved",
+    "slug": "island-reserved-rsac-2026",
+    "date": "2026-03-24T18:30:00-07:00",
+    "endDate": "2026-03-24T21:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://events.island.io/whiskeytastingwithisland",
+    "source": "conferenceparties.com",
+    "description": "Charmaine's Rooftop SF Proper Hotel. SF Proper Hotel, San Francisco. Hosted by Island.",
+    "organizer": "Island"
+  },
+  {
+    "name": "Beyond Reaction: Proactive Defense & The Human Firewall",
+    "slug": "beyond-reaction-proactive-defense-the-human-firewall-rsac-2026",
+    "date": "2026-03-24T19:00:00-07:00",
+    "endDate": "2026-03-24T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/pvno2qtv",
+    "source": "conferenceparties.com",
+    "description": "Kaiyo Rooftop Hyatt Place SF. 701 3rd St, San Francisco. Hosted by Zepo Intelligence, Zynap & Edgewatch.",
+    "organizer": "Zepo Intelligence, Zynap & Edgewatch"
+  },
+  {
+    "name": "Accel & depthfirst: Security Leaders Dinner",
+    "slug": "accel-depthfirst-security-leaders-dinner-rsac-2026",
+    "date": "2026-03-24T18:30:00-07:00",
+    "endDate": "2026-03-24T21:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/ft6or9hz?utm_campaign=2026Q1_rsa_dinner&utm_source=rsac_parties&utm_content=listing&utm_medium=affiliate",
+    "source": "conferenceparties.com",
+    "description": "RT Bistro. 205 Oak St, San Francisco. Hosted by depthfirst.",
+    "organizer": "depthfirst"
+  },
+  {
+    "name": "An Evening with Hasan Minhaj",
+    "slug": "an-evening-with-hasan-minhaj-rsac-2026",
+    "date": "2026-03-24T19:00:00-07:00",
+    "endDate": "2026-03-24T21:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://portal.meetings.veeam.com/register/DSJO1JLN",
+    "source": "conferenceparties.com",
+    "description": "The Fillmore. 1805 Geary Blvd, San Francisco. Hosted by Veeam & AWS.",
+    "organizer": "Veeam & AWS"
+  },
+  {
+    "name": "AfterFuse",
+    "slug": "afterfuse-rsac-2026",
+    "date": "2026-03-24T20:00:00-07:00",
+    "endDate": "2026-03-24T00:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.afterfuse.com",
+    "source": "conferenceparties.com",
+    "description": "Hawthorn. 46 Geary Street, San Francisco. Hosted by Infoblox, eSentire, Intaso, Strongdm & Tidal Cyber.",
+    "organizer": "Infoblox, eSentire, Intaso, Strongdm & Tidal Cyber",
+    "image": "/images/events/afterfuse-rsac-2026.jpg"
+  },
+  {
+    "name": "Optiv After Party",
+    "slug": "optiv-after-party-rsac-2026",
+    "date": "2026-03-24T19:00:00-07:00",
+    "endDate": "2026-03-24T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://go.optiv.com/2026-RSA-Conference.html",
+    "source": "conferenceparties.com",
+    "description": "August Hall. 420 Mason St, San Francisco. Hosted by Optiv.",
+    "organizer": "Optiv"
+  },
+  {
+    "name": "Cloudflare After Dark",
+    "slug": "cloudflare-after-dark-rsac-2026",
+    "date": "2026-03-24T19:00:00-07:00",
+    "endDate": "2026-03-24T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://fieldmarketing.www.cloudflare.com/CAD-rsac-2026?utm_medium=discovery&utm_source=google&utm_campaign=2026-q1-acq-namer-modernsec-ge-he-general-confparties",
+    "source": "conferenceparties.com",
+    "description": "Cloudflare Experience Hub SPIN SF. 690 Folsom St #100, San Francisco. Hosted by Cloudflare.",
+    "organizer": "Cloudflare"
+  },
+  {
+    "name": "Executive GTM Roundtable + Topgolf Happy Hour",
+    "slug": "executive-gtm-roundtable-topgolf-happy-hour-rsac-2026",
+    "date": "2026-03-24T18:30:00-07:00",
+    "endDate": "2026-03-24T21:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.chilipiper.com/events/predictable-pipeline-demanddrive-x-chilipiper",
+    "source": "conferenceparties.com",
+    "description": "Topgolf Burlingame. 258 Anza Blvd Burlingame, CA, San Francisco. Hosted by demandDrive & Chili Piper.",
+    "organizer": "demandDrive & Chili Piper",
+    "image": "/images/events/executive-gtm-roundtable-topgolf-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "After Dark With Busta Rhymes",
+    "slug": "after-dark-with-busta-rhymes-rsac-2026",
+    "date": "2026-03-24T20:00:00-07:00",
+    "endDate": "2026-03-24T23:59:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://abnormal.ai/rsac-party?utm_source=conferenceparties.com",
+    "source": "conferenceparties.com",
+    "description": "The Warfield. 982 Market St, San Francisco. Hosted by Abnormal AI.",
+    "organizer": "Abnormal AI"
+  },
+  {
+    "name": "Old Pharts Party Year #5 + Gadi's Birthday",
+    "slug": "old-pharts-party-year-5-gadis-birthday-rsac-2026",
+    "date": "2026-03-24T20:00:00-07:00",
+    "endDate": "2026-03-24T01:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/fur6la47",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Knostic, TachTech & Confide.",
+    "organizer": "Knostic, TachTech & Confide"
+  },
+  {
+    "name": "Final Stop: ATO Night Cap",
+    "slug": "final-stop-ato-night-cap-rsac-2026",
+    "date": "2026-03-24T21:00:00-07:00",
+    "endDate": "2026-03-24T23:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/tzk36khd",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Paramify.",
+    "organizer": "Paramify"
+  },
+  {
+    "name": "Morning Run & Breakfast - RSA Edition",
+    "slug": "morning-run-breakfast-rsa-edition-rsac-2026",
+    "date": "2026-03-25T07:30:00-07:00",
+    "endDate": "2026-03-25T08:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/bzdhcn2v",
+    "source": "conferenceparties.com",
+    "description": "Moscone Center. Moscone Center, San Francisco. Hosted by Formal & DevArmor.",
+    "organizer": "Formal & DevArmor"
+  },
+  {
+    "name": "Infinigate Golden Gate 10K Run",
+    "slug": "infinigate-golden-gate-10k-run-rsac-2026",
+    "date": "2026-03-25T07:00:00-07:00",
+    "endDate": "2026-03-25T08:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.infinigate.com/infinigate-exclusive-gatherings-rsa-conference-san-francisco/#h-reserve-your-place",
+    "source": "conferenceparties.com",
+    "description": "North Vista Point. North Vista Point, San Francisco. Hosted by Infinigate.",
+    "organizer": "Infinigate",
+    "image": "/images/events/infinigate-golden-gate-10k-run-rsac-2026.jpg"
+  },
+  {
+    "name": "RSAC Run Club with Serval",
+    "slug": "rsac-run-club-with-serval-rsac-2026",
+    "date": "2026-03-25T06:30:00-07:00",
+    "endDate": "2026-03-25T07:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/khen9xya",
+    "source": "conferenceparties.com",
+    "description": "100 Montgomery St. 100 Montgomery St, San Francisco. Hosted by Serval.",
+    "organizer": "Serval"
+  },
+  {
+    "name": "Tines Up & Running at RSA 2026",
+    "slug": "tines-up-running-at-rsa-2026-rsac-2026",
+    "date": "2026-03-25T06:30:00-07:00",
+    "endDate": "2026-03-25T08:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.tines.com/events/tines-up-running-at-rsa-2026/",
+    "source": "conferenceparties.com",
+    "description": "Little Marina Green Picnic Area. 100 Yacht Rd, San Francisco. Hosted by Tines.",
+    "organizer": "Tines",
+    "image": "/images/events/tines-up-running-at-rsa-2026-rsac-2026.jpg"
+  },
+  {
+    "name": "The Morning Burn @ Orangetheory",
+    "slug": "the-morning-burn-orangetheory-rsac-2026",
+    "date": "2026-03-25T07:00:00-07:00",
+    "endDate": "2026-03-25T08:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/qfoyf6f6",
+    "source": "conferenceparties.com",
+    "description": "Orangetheory. Register to See Address, San Francisco. Hosted by Monad, Oso Security, Surf.ai, and The Cybersecurity Pulse.",
+    "organizer": "Monad, Oso Security, Surf.ai, and The Cybersecurity Pulse"
+  },
+  {
+    "name": "Cyber Entrepreneurship Summit",
+    "slug": "cyber-entrepreneurship-summit-rsac-2026",
+    "date": "2026-03-25T07:00:00-07:00",
+    "endDate": "2026-03-25T17:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/17py6tu2",
+    "source": "conferenceparties.com",
+    "description": "SPUR. 654 Mission St, San Francisco. Hosted by Tejas Cyber Network.",
+    "organizer": "Tejas Cyber Network",
+    "image": "/images/events/cyber-entrepreneurship-summit-rsac-2026.jpg"
+  },
+  {
+    "name": "Global Privacy Leaders Summit",
+    "slug": "global-privacy-leaders-summit-rsac-2026",
+    "date": "2026-03-25T07:00:00-07:00",
+    "endDate": "2026-03-25T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/ur04ylmp",
+    "source": "conferenceparties.com",
+    "description": "SPUR. 654 Mission St, San Francisco. Hosted by Tejas Cyber Network.",
+    "organizer": "Tejas Cyber Network"
+  },
+  {
+    "name": "CISO Executive Breakfast with Michael Piacente",
+    "slug": "ciso-executive-breakfast-with-michael-piacente-rsac-2026",
+    "date": "2026-03-25T07:00:00-07:00",
+    "endDate": "2026-03-25T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/0baiss7p",
+    "source": "conferenceparties.com",
+    "description": "Awesome Venue. Steps from Moscone, San Francisco. Hosted by Acalvio.",
+    "organizer": "Acalvio"
+  },
+  {
+    "name": "The Ready Room",
+    "slug": "the-ready-room-rsac-2026",
+    "date": "2026-03-25T07:45:00-07:00",
+    "endDate": "2026-03-25T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.spadesinstitute.org/rsa/",
+    "source": "conferenceparties.com",
+    "description": "Private venue near Moscone Center. Private venue near Moscone Center, San Francisco. Hosted by Spades Institute & Military Cyber Professionals Association.",
+    "organizer": "Spades Institute & Military Cyber Professionals Association",
+    "image": "/images/events/the-ready-room-rsac-2026.jpg"
+  },
+  {
+    "name": "CISO Breakfast - Cafe de la Presse",
+    "slug": "ciso-breakfast-cafe-de-la-presse-rsac-2026",
+    "date": "2026-03-25T08:00:00-07:00",
+    "endDate": "2026-03-25T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/g7ewb99n",
+    "source": "conferenceparties.com",
+    "description": "Cafe de la Presse. 352 Grant Ave, San Francisco. Hosted by Qevlar AI & Forgepoint.",
+    "organizer": "Qevlar AI & Forgepoint",
+    "image": "/images/events/ciso-breakfast-cafe-de-la-presse-rsac-2026.jpg"
+  },
+  {
+    "name": "Cyber Lounge – Daytime Access",
+    "slug": "cyber-lounge-daytime-access-rsac-2026",
+    "date": "2026-03-25T07:30:00-07:00",
+    "endDate": "2026-03-25T15:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://mfcyber.com/sfo-2026-cyber-lounge/?utm_source=conferenceparties&utm_medium=referral&utm_campaign=cyber-lounge-sfo-2026",
+    "source": "conferenceparties.com",
+    "description": "The Cyber Lounge. 145 4th St, San Francisco. Hosted by MorganFranklin Consulting.",
+    "organizer": "MorganFranklin Consulting",
+    "image": "/images/events/cyber-lounge-daytime-access-rsac-2026.jpg"
+  },
+  {
+    "name": "Tailscale's > Peer-to-Pour Coffeehouse",
+    "slug": "tailscales-peer-to-pour-coffeehouse-rsac-2026",
+    "date": "2026-03-25T08:00:00-07:00",
+    "endDate": "2026-03-25T16:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.tailscale.com/rsac26",
+    "source": "conferenceparties.com",
+    "description": "Sextant Coffee Roasters. 201 3rd St, San Francisco. Hosted by Tailscale.",
+    "organizer": "Tailscale",
+    "image": "/images/events/tailscales-peer-to-pour-coffeehouse-rsac-2026.jpg"
+  },
+  {
+    "name": "The Quest for Safe Cloud Remediation",
+    "slug": "the-quest-for-safe-cloud-remediation-rsac-2026",
+    "date": "2026-03-25T08:00:00-07:00",
+    "endDate": "2026-03-25T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://tamnoon.io/tamnoon-at-rsac-2026-the-quest-for-safe-cloud-remediation",
+    "source": "conferenceparties.com",
+    "description": "Across The Cloud Realm. Across The Cloud Realm, San Francisco. Hosted by Tamnoon.",
+    "organizer": "Tamnoon",
+    "image": "/images/events/the-quest-for-safe-cloud-remediation-rsac-2026.jpg"
+  },
+  {
+    "name": "Trust Forward Summit by Cloudflare",
+    "slug": "trust-forward-summit-by-cloudflare-rsac-2026",
+    "date": "2026-03-25T08:00:00-07:00",
+    "endDate": "2026-03-25T12:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://fieldmarketing.www.cloudflare.com/trust-forward-rsac-2026?utm_medium=discovery&utm_source=google&utm_campaign=2026-q1-acq-namer-modernsec-ge-he-general-conferenceparties",
+    "source": "conferenceparties.com",
+    "description": "Cloudflare Experience Hub SPIN SF. 690 Folsom St, San Francisco. Hosted by Cloudflare.",
+    "organizer": "Cloudflare"
+  },
+  {
+    "name": "Executive Panel Breakfast: Cybersecurity in the Boardroom",
+    "slug": "executive-panel-breakfast-cybersecurity-in-the-boardroom-rsac-2026",
+    "date": "2026-03-25T08:00:00-07:00",
+    "endDate": "2026-03-25T09:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://securityscorecard.com/rsac-2026-executive-panel-breakfast-cybersecurity-in-the-boardroom/",
+    "source": "conferenceparties.com",
+    "description": "The W Hotel. 181 3rd St, San Francisco. Hosted by SecurityScorecard.",
+    "organizer": "SecurityScorecard",
+    "image": "/images/events/executive-panel-breakfast-cybersecurity-in-the-boardroom-rsac-2026.jpg"
+  },
+  {
+    "name": "OCSF Breakfast Event at RSAC 2026",
+    "slug": "ocsf-breakfast-event-at-rsac-2026-rsac-2026",
+    "date": "2026-03-25T07:30:00-07:00",
+    "endDate": "2026-03-25T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.ocsfevents.com/breakfast",
+    "source": "conferenceparties.com",
+    "description": "Intercontinental. Intercontinental, San Francisco. Hosted by AWS, Check Point, Cribl, Comcast Databee, Expel, Securonix, SentinelOne, Tenzir, Tines, Varonis & Wiz.",
+    "organizer": "AWS, Check Point, Cribl, Comcast Databee, Expel, Securonix, SentinelOne, Tenzir, Tines, Varonis & Wiz",
+    "image": "/images/events/ocsf-breakfast-event-at-rsac-2026-rsac-2026.jpg"
+  },
+  {
+    "name": "Synq'd Up VIP Breakfast",
+    "slug": "synqd-up-vip-breakfast-rsac-2026",
+    "date": "2026-03-25T08:00:00-07:00",
+    "endDate": "2026-03-25T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.synqly.com/rsac-2026/",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Synqly.",
+    "organizer": "Synqly",
+    "image": "/images/events/synqd-up-vip-breakfast-rsac-2026.jpg"
+  },
+  {
+    "name": "First Byte NL: Cybersecurity Morning Meetup",
+    "slug": "first-byte-nl-cybersecurity-morning-meetup-rsac-2026",
+    "date": "2026-03-25T07:30:00-07:00",
+    "endDate": "2026-03-25T09:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://events.innovationquarter.nl/FirstByteNL",
+    "source": "conferenceparties.com",
+    "description": "Consulate General of the Netherlands. 120 Kearny St, San Francisco. Hosted by Consulate General of the Netherlands, Dawnguard, Hadrian, Invictus Incident Response, ON2IT, SecureMe2 & VirtualMetric.",
+    "organizer": "Consulate General of the Netherlands, Dawnguard, Hadrian, Invictus Incident Response, ON2IT, SecureMe2 & VirtualMetric",
+    "image": "/images/events/first-byte-nl-cybersecurity-morning-meetup-rsac-2026.jpg"
+  },
+  {
+    "name": "Cohesity Resilience Den",
+    "slug": "cohesity-resilience-den-rsac-2026",
+    "date": "2026-03-25T08:00:00-07:00",
+    "endDate": "2026-03-25T19:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://events.cohesity.com/cohesityresilienceden/cp",
+    "source": "conferenceparties.com",
+    "description": "Cohesity Resilience Den. 1 Yerba Buena Ln, San Francisco. Hosted by Cohesity.",
+    "organizer": "Cohesity"
+  },
+  {
+    "name": "The Sweet Spot | Private Bakery Experience",
+    "slug": "the-sweet-spot-private-bakery-experience-rsac-2026",
+    "date": "2026-03-25T08:00:00-07:00",
+    "endDate": "2026-03-25T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://hubs.li/Q043FNC20",
+    "source": "conferenceparties.com",
+    "description": "Across the street from Moscone. Across the street from Moscone, San Francisco. Hosted by Sweet Security.",
+    "organizer": "Sweet Security"
+  },
+  {
+    "name": "Red vs. Blue: Laser Tag Showdown",
+    "slug": "red-vs-blue-laser-tag-showdown-rsac-2026",
+    "date": "2026-03-25T10:00:00-07:00",
+    "endDate": "2026-03-25T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.straiker.ai/events/rsac",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Straiker.",
+    "organizer": "Straiker",
+    "image": "/images/events/red-vs-blue-laser-tag-showdown-rsac-2026.jpg"
+  },
+  {
+    "name": "People of Product at RSAC (private)",
+    "slug": "people-of-product-at-rsac-private-rsac-2026",
+    "date": "2026-03-25T09:00:00-07:00",
+    "endDate": "2026-03-25T11:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.crema.us/rsa-meetup-people-of-product-leadership-circle",
+    "source": "conferenceparties.com",
+    "description": "Miro - SF HQ. 525 Brannan St #100, San Francisco. Hosted by Crema.",
+    "organizer": "Crema",
+    "image": "/images/events/people-of-product-at-rsac-private-rsac-2026.jpg"
+  },
+  {
+    "name": "The Agentic Connection Point",
+    "slug": "the-agentic-connection-point-rsac-2026",
+    "date": "2026-03-25T08:00:00-07:00",
+    "endDate": "2026-03-25T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://astrix.security/events/rsac2026-agentic-connection-point/",
+    "source": "conferenceparties.com",
+    "description": "The Clancy. 299 2nd St, San Francisco. Hosted by Astrix Security.",
+    "organizer": "Astrix Security",
+    "image": "/images/events/the-agentic-connection-point-rsac-2026.jpg"
+  },
+  {
+    "name": "Cybersecurity Olympics (RSA)",
+    "slug": "cybersecurity-olympics-rsa-rsac-2026",
+    "date": "2026-03-25T09:00:00-07:00",
+    "endDate": "2026-03-25T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/wjj5jxxd",
+    "source": "conferenceparties.com",
+    "description": "Moscone South. Room #207, San Francisco. Hosted by Threatcop AI Inc..",
+    "organizer": "Threatcop AI Inc.",
+    "image": "/images/events/cybersecurity-olympics-rsa-rsac-2026.jpg"
+  },
+  {
+    "name": "AI Agents & Eggs @ RSAC 2026",
+    "slug": "ai-agents-eggs-rsac-2026-rsac-2026",
+    "date": "2026-03-25T08:30:00-07:00",
+    "endDate": "2026-03-25T10:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/950ecjp7",
+    "source": "conferenceparties.com",
+    "description": "The Harlequin. 68 4th St, San Francisco. Hosted by Entro & Unixi Security.",
+    "organizer": "Entro & Unixi Security",
+    "image": "/images/events/ai-agents-eggs-rsac-2026-rsac-2026.jpg"
+  },
+  {
+    "name": "Cybersecurity Founder Bites & Headshots",
+    "slug": "cybersecurity-founder-bites-headshots-rsac-2026",
+    "date": "2026-03-25T10:00:00-07:00",
+    "endDate": "2026-03-25T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/smpxrwsj?utm_medium=digital&utm_source=partner&utm_campaign=lev-2026-03-25%20rsa%20headshots%20event%20rsa%20&utm_content=conferenceparties.com",
+    "source": "conferenceparties.com",
+    "description": "353 Sacramento St. Suite 1900, San Francisco. Hosted by Pilot.com.",
+    "organizer": "Pilot.com",
+    "image": "/images/events/cybersecurity-founder-bites-headshots-rsac-2026.jpg"
+  },
+  {
+    "name": "Women's Leadership Breakfast",
+    "slug": "womens-leadership-breakfast-rsac-2026",
+    "date": "2026-03-25T08:30:00-07:00",
+    "endDate": "2026-03-25T10:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://veeam.briefingsource.com/register/YNOSSAV4",
+    "source": "conferenceparties.com",
+    "description": "20 Yerba Buena Ln. 20 Yerba Buena Ln, San Francisco. Hosted by Veeam.",
+    "organizer": "Veeam"
+  },
+  {
+    "name": "The Dock by GitHub",
+    "slug": "the-dock-by-github-rsac-2026",
+    "date": "2026-03-25T09:00:00-07:00",
+    "endDate": "2026-03-25T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://github.registration.goldcast.io/events/d1b9b30e-cbb5-4588-916b-23d38c7ade90",
+    "source": "conferenceparties.com",
+    "description": "165 Natoma St. 165 Natoma St, San Francisco. Hosted by GitHub.",
+    "organizer": "GitHub",
+    "image": "/images/events/the-dock-by-github-rsac-2026.jpg"
+  },
+  {
+    "name": "NEWLY ADDED: Premiere CISO & Executive Drop-In Lunch Event",
+    "slug": "newly-added-premiere-ciso-executive-drop-in-lunch-event-rsac-2026",
+    "date": "2026-03-25T13:00:00-07:00",
+    "endDate": "2026-03-25T16:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/swu5e3e3",
+    "source": "conferenceparties.com",
+    "description": "Alexander's Steakhouse. 165 O'Farrell St, San Francisco. Hosted by Hilt.",
+    "organizer": "Hilt",
+    "image": "/images/events/newly-added-premiere-ciso-executive-drop-in-lunch-event-rsac-2026.jpg"
+  },
+  {
+    "name": "Hands-On MCP Security Workshop",
+    "slug": "hands-on-mcp-security-workshop-rsac-2026",
+    "date": "2026-03-24T11:30:00-07:00",
+    "endDate": "2026-03-24T13:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://astrix.security/events/rsac2026-mcp-workshop/",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Astrix Security.",
+    "organizer": "Astrix Security",
+    "image": "/images/events/hands-on-mcp-security-workshop-rsac-2026.jpg"
+  },
+  {
+    "name": "RSA Yacht Happy Hour with depthfirst",
+    "slug": "rsa-yacht-happy-hour-with-depthfirst-rsac-2026",
+    "date": "2026-03-25T12:30:00-07:00",
+    "endDate": "2026-03-25T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/i9l6gtzf",
+    "source": "conferenceparties.com",
+    "description": "Pier 40. Pier 40, San Francisco. Hosted by depthfirst.",
+    "organizer": "depthfirst",
+    "image": "/images/events/rsa-yacht-happy-hour-with-depthfirst-rsac-2026.jpg"
+  },
+  {
+    "name": "Cyber Product Managers & Builders Happy Hour",
+    "slug": "cyber-product-managers-builders-happy-hour-rsac-2026",
+    "date": "2026-03-25T15:45:00-07:00",
+    "endDate": "2026-03-25T19:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/cng8ikmp",
+    "source": "conferenceparties.com",
+    "description": "TBA. TBA, San Francisco. Hosted by Sands Capital & Return On Security.",
+    "organizer": "Sands Capital & Return On Security",
+    "image": "/images/events/cyber-product-managers-builders-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "From the trenches: The Climb to Security Leadership",
+    "slug": "from-the-trenches-the-climb-to-security-leadership-rsac-2026",
+    "date": "2026-03-25T12:00:00-07:00",
+    "endDate": "2026-03-25T14:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://radiantsecurity.ai/rsa-2026-breakout-event/",
+    "source": "conferenceparties.com",
+    "description": "Southside Spirit House. 575 Howard St, San Francisco. Hosted by Radiant Security.",
+    "organizer": "Radiant Security",
+    "image": "/images/events/from-the-trenches-the-climb-to-security-leadership-rsac-2026.jpg"
+  },
+  {
+    "name": "Executive Women's Forum 2026 Leadership Exchange Luncheon",
+    "slug": "executive-womens-forum-2026-leadership-exchange-luncheon-rsac-2026",
+    "date": "2026-03-25T12:00:00-07:00",
+    "endDate": "2026-03-25T13:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.ewfglobal.com/event-details/rsac-2026-luncheon-sponsored-by-pwc/",
+    "source": "conferenceparties.com",
+    "description": "Moscone Center. Room 306, San Francisco. Hosted by PwC.",
+    "organizer": "PwC",
+    "image": "/images/events/executive-womens-forum-2026-leadership-exchange-luncheon-rsac-2026.jpg"
+  },
+  {
+    "name": "The WOMEN IN SECURITY Documentary",
+    "slug": "the-women-in-security-documentary-rsac-2026",
+    "date": "2026-03-25T16:00:00-07:00",
+    "endDate": "2026-03-25T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "http://www.sentra.io/rsa",
+    "source": "conferenceparties.com",
+    "description": "AMC Metreon. 135 4th St #3000, San Francisco. Hosted by Sentra.io.",
+    "organizer": "Sentra.io",
+    "image": "/images/events/the-women-in-security-documentary-rsac-2026.jpg"
+  },
+  {
+    "name": "Cyber Lounge – Live Music & Happy Hour",
+    "slug": "cyber-lounge-live-music-happy-hour-rsac-2026",
+    "date": "2026-03-25T15:00:00-07:00",
+    "endDate": "2026-03-25T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://mfcyber.com/sfo-2026-cyber-lounge/?utm_source=conferenceparties&utm_medium=referral&utm_campaign=cyber-lounge-sfo-2026",
+    "source": "conferenceparties.com",
+    "description": "The Cyber Lounge. 145 4th St, San Francisco. Hosted by MorganFranklin Consulting.",
+    "organizer": "MorganFranklin Consulting",
+    "image": "/images/events/cyber-lounge-live-music-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "CIO & CISO Roundtable: Implementing & Governing AI-Driven Infrastructure",
+    "slug": "cio-ciso-roundtable-implementing-governing-ai-driven-infrastructure-rsac-2026",
+    "date": "2026-03-25T12:30:00-07:00",
+    "endDate": "2026-03-25T14:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.invigrid.com/rsa-roundtable",
+    "source": "conferenceparties.com",
+    "description": "Provided Upon Approval. Provided Upon Approval, San Francisco. Hosted by InviGrid.",
+    "organizer": "InviGrid",
+    "image": "/images/events/cio-ciso-roundtable-implementing-governing-ai-driven-infrastructure-rsac-2026.jpg"
+  },
+  {
+    "name": "Challenge the AI Guys! Pregame Session",
+    "slug": "challenge-the-ai-guys-pregame-session-rsac-2026",
+    "date": "2026-03-25T14:00:00-07:00",
+    "endDate": "2026-03-25T16:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.endorlabs.com/events/challenge-the-ai-guys-pregame-session",
+    "source": "conferenceparties.com",
+    "description": "TRACE Restaurant W Hotel. 181 3rd St, San Francisco. Hosted by Endor Labs.",
+    "organizer": "Endor Labs",
+    "image": "/images/events/challenge-the-ai-guys-pregame-session-rsac-2026.jpg"
+  },
+  {
+    "name": "Channel Partners Appreciation Night",
+    "slug": "channel-partners-appreciation-night-rsac-2026",
+    "date": "2026-03-25T17:00:00-07:00",
+    "endDate": "2026-03-25T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://super.underdefense.com/channels-partners-event-rsa2026?utm_source=conferenceparties&utm_medium=cpc&utm_campaign=Channel_Partners_Appreciation_Night",
+    "source": "conferenceparties.com",
+    "description": "Penthouse The SoMa Area. The SoMa Area, San Francisco. Hosted by UnderDefense & Cracken.",
+    "organizer": "UnderDefense & Cracken"
+  },
+  {
+    "name": "Black Kite's Signature Whiskey Tasting",
+    "slug": "black-kites-signature-whiskey-tasting-rsac-2026",
+    "date": "2026-03-25T16:00:00-07:00",
+    "endDate": "2026-03-25T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://go.blackkite.com/rsa-2026-black-kite",
+    "source": "conferenceparties.com",
+    "description": "Four Seasons SF. 757 Market St, San Francisco. Hosted by Black Kite.",
+    "organizer": "Black Kite",
+    "image": "/images/events/black-kites-signature-whiskey-tasting-rsac-2026.jpg"
+  },
+  {
+    "name": "LevelBlue's Giants Home Opener Experience",
+    "slug": "levelblues-giants-home-opener-experience-rsac-2026",
+    "date": "2026-03-25T17:00:00-07:00",
+    "endDate": "2026-03-25T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/placeholder",
+    "source": "conferenceparties.com",
+    "description": "Oracle Park. 24 Willie Mays Plaza, San Francisco. Hosted by LevelBlue.",
+    "organizer": "LevelBlue",
+    "image": "/images/events/levelblues-giants-home-opener-experience-rsac-2026.jpg"
+  },
+  {
+    "name": "Cocktails & Cloud Talk",
+    "slug": "cocktails-cloud-talk-rsac-2026",
+    "date": "2026-03-25T16:30:00-07:00",
+    "endDate": "2026-03-25T19:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/sysdig-cloudsmith-rsa",
+    "source": "conferenceparties.com",
+    "description": "Amber India Restaurant SF Marriott Marquis. Amber India Restaurant, San Francisco. Hosted by Sysdig & Cloudsmith.",
+    "organizer": "Sysdig & Cloudsmith",
+    "image": "/images/events/cocktails-cloud-talk-rsac-2026.jpg"
+  },
+  {
+    "name": "Chaos, Credentials & Comebacks",
+    "slug": "chaos-credentials-comebacks-rsac-2026",
+    "date": "2026-03-25T17:30:00-07:00",
+    "endDate": "2026-03-25T19:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.rubrik.com/cxo/experiences/roundtables/rsac-huddle-resilience",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Rubrik.",
+    "organizer": "Rubrik"
+  },
+  {
+    "name": "Party Like It's 1923! Sales & Presales Leadership Social",
+    "slug": "party-like-its-1923-sales-presales-leadership-social-rsac-2026",
+    "date": "2026-03-25T16:00:00-07:00",
+    "endDate": "2026-03-25T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/yyrc6358",
+    "source": "conferenceparties.com",
+    "description": "The Harlequin. 68 4th St, San Francisco. Hosted by Provarity.",
+    "organizer": "Provarity",
+    "image": "/images/events/party-like-its-1923-sales-presales-leadership-social-rsac-2026.jpg"
+  },
+  {
+    "name": "Yacht Executive Cocktail Reception at RSA",
+    "slug": "yacht-executive-cocktail-reception-at-rsa-rsac-2026",
+    "date": "2026-03-25T17:45:00-07:00",
+    "endDate": "2026-03-25T22:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/r9ryvdpl",
+    "source": "conferenceparties.com",
+    "description": "Luxury Yacht. 24 Willie Mays Plaza, San Francisco. Hosted by EC-Council.",
+    "organizer": "EC-Council",
+    "image": "/images/events/yacht-executive-cocktail-reception-at-rsa-rsac-2026.jpg"
+  },
+  {
+    "name": "Thales PQC Palooza 2026",
+    "slug": "thales-pqc-palooza-2026-rsac-2026",
+    "date": "2026-03-25T16:30:00-07:00",
+    "endDate": "2026-03-25T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://engage-cybersec.thalesgroup.com/2026-rsac-pqc-palooza-mar25-reg.html",
+    "source": "conferenceparties.com",
+    "description": "Hyatt Regency SOMA. 50 3rd St, San Francisco. Hosted by Thales.",
+    "organizer": "Thales"
+  },
+  {
+    "name": "Tequila & Bourbon Tasting",
+    "slug": "tequila-bourbon-tasting-rsac-2026",
+    "date": "2026-03-25T17:30:00-07:00",
+    "endDate": "2026-03-25T19:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://gbl.radware.com/LP=2629?Referrer=VIP",
+    "source": "conferenceparties.com",
+    "description": "Tequila Mockingbird. 86 2nd St, San Francisco. Hosted by Radware & Kentik.",
+    "organizer": "Radware & Kentik"
+  },
+  {
+    "name": "RSA Conference Wine Reception & Dinner Hosted by MUFG",
+    "slug": "rsa-conference-wine-reception-dinner-hosted-by-mufg-rsac-2026",
+    "date": "2026-03-25T17:30:00-07:00",
+    "endDate": "2026-03-25T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://gcib-mmtech.swoogo.com/requestrsa/waitlist?i=IMBd-I8_BXj7Zk1E7ccEIuEgPjIE5QEU",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by MUFG.",
+    "organizer": "MUFG"
+  },
+  {
+    "name": "Polygraf AI RSA Mixer",
+    "slug": "polygraf-ai-rsa-mixer-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T20:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/5a5o460f",
+    "source": "conferenceparties.com",
+    "description": "The Modernist. 139 Steuart St, San Francisco. Hosted by PolygrafAI.",
+    "organizer": "PolygrafAI",
+    "image": "/images/events/polygraf-ai-rsa-mixer-rsac-2026.jpg"
+  },
+  {
+    "name": "Secure the Night with Okta",
+    "slug": "secure-the-night-with-okta-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://regionalevents.okta.com/securethenightwithoktaatrsac",
+    "source": "conferenceparties.com",
+    "description": "Hawthorn SF. 46 Geary St, San Francisco. Hosted by Okta + Deloitte.",
+    "organizer": "Okta + Deloitte"
+  },
+  {
+    "name": "Securing Autonomous Systems: RSA Panel & Happy Hour",
+    "slug": "securing-autonomous-systems-rsa-panel-happy-hour-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/hy83h0zp",
+    "source": "conferenceparties.com",
+    "description": "Citizens Private Bank. 101 California St, San Francisco. Hosted by Vermilion Cliffs Ventures.",
+    "organizer": "Vermilion Cliffs Ventures",
+    "image": "/images/events/securing-autonomous-systems-rsa-panel-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "Security & Engineering Leaders x Agents Dinner",
+    "slug": "security-engineering-leaders-x-agents-dinner-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/jgn61mym",
+    "source": "conferenceparties.com",
+    "description": "TBD. TBD, San Francisco. Hosted by Optimal AI.",
+    "organizer": "Optimal AI",
+    "image": "/images/events/security-engineering-leaders-x-agents-dinner-rsac-2026.jpg"
+  },
+  {
+    "name": "Humans, Hackers & Hoops Happy Hour",
+    "slug": "humans-hackers-hoops-happy-hour-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://event.synack.com/rsac-2026-happy-hour?utm_campaign=37129350-FY27-RSA&utm_source=other-sources&utm_channel=conferenceparties&utm_medium=website&utm_audience=all&utm_content=rsac-2026-where-ai-humans-meet-happy-hour",
+    "source": "conferenceparties.com",
+    "description": "Fogo de Chao. 201 3rd St, San Francisco. Hosted by Synack.",
+    "organizer": "Synack",
+    "image": "/images/events/humans-hackers-hoops-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "Whiskey & Wine, Cigars & Conversations",
+    "slug": "whiskey-wine-cigars-conversations-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://pages.checkpoint.com/2026-mar-rsa-networking-party-thank-you.html?aliId=eyJpIjoibEkwVndWNDhLTFR1Q2VwSyIsInQiOiJtREF5bU1hWjdSRHM1U1g4dmhCa29RPT0ifQ%253D%253D",
+    "source": "conferenceparties.com",
+    "description": "The Cavalier Restaurant. 360 Jessie St, San Francisco. Hosted by Check Point.",
+    "organizer": "Check Point"
+  },
+  {
+    "name": "Private CISO Dinner",
+    "slug": "private-ciso-dinner-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/dinner-sf",
+    "source": "conferenceparties.com",
+    "description": "Harris' Restaurant. 2100 Van Ness Ave, San Francisco. Hosted by Mike Wilkes.",
+    "organizer": "Mike Wilkes",
+    "image": "/images/events/private-ciso-dinner-rsac-2026.jpg"
+  },
+  {
+    "name": "Tunnel to Towers Fundraising Reception",
+    "slug": "tunnel-to-towers-fundraising-reception-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://nucleussec.com/rsac-2026-t2t-reception-nucleus/",
+    "source": "conferenceparties.com",
+    "description": "Intercontinental Hotel. Intercontinental Hotel, San Francisco. Hosted by Nucleus Security, HackerOne, Carahsoft, Netrise, Dataminr & Cycode.",
+    "organizer": "Nucleus Security, HackerOne, Carahsoft, Netrise, Dataminr & Cycode",
+    "image": "/images/events/tunnel-to-towers-fundraising-reception-rsac-2026.jpg"
+  },
+  {
+    "name": "Women in AI Night Market",
+    "slug": "women-in-ai-night-market-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T20:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.endorlabs.com/events/women-in-ai-night-market",
+    "source": "conferenceparties.com",
+    "description": "TRACE Restaurant W Hotel. 181 3rd St, San Francisco. Hosted by Endor Labs.",
+    "organizer": "Endor Labs",
+    "image": "/images/events/women-in-ai-night-market-rsac-2026.jpg"
+  },
+  {
+    "name": "Join us for the Cyber Elite Sunset Voyage",
+    "slug": "join-us-for-the-cyber-elite-sunset-voyage-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://notify.eset.com/RSAC-bay-cruise",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by ESET, Stellar Cyber & Oracle.",
+    "organizer": "ESET, Stellar Cyber & Oracle"
+  },
+  {
+    "name": "Dubs & Drafts: Warriors Watch Party",
+    "slug": "dubs-drafts-warriors-watch-party-rsac-2026",
+    "date": "2026-03-25T18:30:00-07:00",
+    "endDate": "2026-03-25T21:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://events.cohesity.com/rsacdubsanddrafts/CP",
+    "source": "conferenceparties.com",
+    "description": "Cohesity Resilience Den. 1 Yerba Buena Ln, San Francisco. Hosted by Cohesity & Cisco.",
+    "organizer": "Cohesity & Cisco"
+  },
+  {
+    "name": "Speakeasy Social w/LimaCharlie & Alpha Level",
+    "slug": "speakeasy-social-wlimacharlie-alpha-level-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/rsac-speakeasy-social?utm_source=confp",
+    "source": "conferenceparties.com",
+    "description": "Bourbon & Branch. 501 Jones St, San Francisco. Hosted by LimaCharlie & Alpha Level.",
+    "organizer": "LimaCharlie & Alpha Level",
+    "image": "/images/events/speakeasy-social-wlimacharlie-alpha-level-rsac-2026.jpg"
+  },
+  {
+    "name": "Agentic Development & Enterprise Risk: A CISO Dialogue",
+    "slug": "agentic-development-enterprise-risk-a-ciso-dialogue-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T21:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/277tdqmr",
+    "source": "conferenceparties.com",
+    "description": "Premium Restaurant. San Francisco, San Francisco. Hosted by Cline.",
+    "organizer": "Cline",
+    "image": "/images/events/agentic-development-enterprise-risk-a-ciso-dialogue-rsac-2026.jpg"
+  },
+  {
+    "name": "The Warriors vs. Nets Game! with Scanner & Monad in a Premium Suite",
+    "slug": "the-warriors-vs-nets-game-with-scanner-monad-in-a-premium-suite-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/c6m53jz4",
+    "source": "conferenceparties.com",
+    "description": "Chase Center. 1 Warriors Way, San Francisco. Hosted by Scanner & Monad.",
+    "organizer": "Scanner & Monad",
+    "image": "/images/events/the-warriors-vs-nets-game-with-scanner-monad-in-a-premium-suite-rsac-2026.jpg"
+  },
+  {
+    "name": "Lockstep RSAC 2026",
+    "slug": "lockstep-rsac-2026-rsac-2026",
+    "date": "2026-03-25T18:00:00-07:00",
+    "endDate": "2026-03-25T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/LockstepRSAC2026",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Lockstep Ventures.",
+    "organizer": "Lockstep Ventures",
+    "image": "/images/events/lockstep-rsac-2026-rsac-2026.jpg"
+  },
+  {
+    "name": "Signal After Hours",
+    "slug": "signal-after-hours-rsac-2026",
+    "date": "2026-03-25T18:30:00-07:00",
+    "endDate": "2026-03-25T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.eventbrite.com/e/signal-after-hours-tickets-1983362778461",
+    "source": "conferenceparties.com",
+    "description": "The Fly Trap. 606 Folsom St, San Francisco. Hosted by Conceal.io.",
+    "organizer": "Conceal.io"
+  },
+  {
+    "name": "Dinner: Securing Agentic AI in Distributed Enterprise Architectures",
+    "slug": "dinner-securing-agentic-ai-in-distributed-enterprise-architectures-rsac-2026",
+    "date": "2026-03-25T18:30:00-07:00",
+    "endDate": "2026-03-25T21:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://info.skyflow.com/rsa2026",
+    "source": "conferenceparties.com",
+    "description": "Bombay Brasserie. 340 Stockton St, San Francisco. Hosted by Descope & Skyflow.",
+    "organizer": "Descope & Skyflow",
+    "image": "/images/events/dinner-securing-agentic-ai-in-distributed-enterprise-architectures-rsac-2026.jpg"
+  },
+  {
+    "name": "AI Security Researchers Party: [un]prompted at RSAC",
+    "slug": "ai-security-researchers-party-unprompted-at-rsac-rsac-2026",
+    "date": "2026-03-25T19:00:00-07:00",
+    "endDate": "2026-03-25T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/hagwqi0j",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Knostic & Whiterabbit.",
+    "organizer": "Knostic & Whiterabbit",
+    "image": "/images/events/ai-security-researchers-party-unprompted-at-rsac-rsac-2026.jpg"
+  },
+  {
+    "name": "CISO Supper Club",
+    "slug": "ciso-supper-club-rsac-2026",
+    "date": "2026-03-25T19:00:00-07:00",
+    "endDate": "2026-03-25T21:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/wmpmo53c",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. San Fransisco, San Francisco. Hosted by Unosecur.",
+    "organizer": "Unosecur",
+    "image": "/images/events/ciso-supper-club-rsac-2026.jpg"
+  },
+  {
+    "name": "CxO Casino Night",
+    "slug": "cxo-casino-night-rsac-2026",
+    "date": "2026-03-25T19:00:00-07:00",
+    "endDate": "2026-03-25T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://fieldmarketing.www.cloudflare.com/cxocasinonightrsac26?utm_medium=referral&utm_source=www&utm_campaign=2026-q1-acq-namer-connectivity-ge-he-general-conferenceparties",
+    "source": "conferenceparties.com",
+    "description": "Cloudflare Experience Hub SPIN SF. 690 Folsom St #100, San Francisco. Hosted by Cloudflare.",
+    "organizer": "Cloudflare",
+    "image": "/images/events/cxo-casino-night-rsac-2026.jpg"
+  },
+  {
+    "name": "Cohesity Resilience Den",
+    "slug": "cohesity-resilience-den-rsac-2026",
+    "date": "2026-03-26T08:00:00-07:00",
+    "endDate": "2026-03-26T13:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://events.cohesity.com/cohesityresilienceden/cp",
+    "source": "conferenceparties.com",
+    "description": "Cohesity Resilience Den. 1 Yerba Buena Ln, San Francisco. Hosted by Cohesity.",
+    "organizer": "Cohesity"
+  },
+  {
+    "name": "DetectCon After Dark",
+    "slug": "detectcon-after-dark-rsac-2026",
+    "date": "2026-03-25T20:30:00-07:00",
+    "endDate": "2026-03-25T23:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/v8uxohju",
+    "source": "conferenceparties.com",
+    "description": "Starlite Beacon Grand Hotel. 450 Powell St, San Francisco. Hosted by Detections.ai & Abstract.",
+    "organizer": "Detections.ai & Abstract",
+    "image": "/images/events/detectcon-after-dark-rsac-2026.jpg"
+  },
+  {
+    "name": "The Late Night Recon",
+    "slug": "the-late-night-recon-rsac-2026",
+    "date": "2026-03-25T22:00:00-07:00",
+    "endDate": "2026-03-25T02:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/ekq0z7ct",
+    "source": "conferenceparties.com",
+    "description": "1015 Folsom. 1015 Folsom, San Francisco. Hosted by Savant Solutions, Zscaler & Spin.ai.",
+    "organizer": "Savant Solutions, Zscaler & Spin.ai",
+    "image": "/images/events/the-late-night-recon-rsac-2026.jpg"
+  },
+  {
+    "name": "FedRAMP 20x, CMMC & Fine Dining",
+    "slug": "fedramp-20x-cmmc-fine-dining-rsac-2026",
+    "date": "2026-03-25T19:45:00-07:00",
+    "endDate": "2026-03-25T21:45:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/2f8y5vbx",
+    "source": "conferenceparties.com",
+    "description": "Modi. 88 Natoma St, San Francisco. Hosted by Mycroft & Prescient Security.",
+    "organizer": "Mycroft & Prescient Security",
+    "image": "/images/events/fedramp-20x-cmmc-fine-dining-rsac-2026.jpg"
+  },
+  {
+    "name": "Bourbon & Banter RSA Happy Hour",
+    "slug": "bourbon-banter-rsa-happy-hour-rsac-2026",
+    "date": "2026-03-25T19:30:00-07:00",
+    "endDate": "2026-03-25T22:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://futureconevents.com/events/bourbon-banter-2026/",
+    "source": "conferenceparties.com",
+    "description": "Chieftain Irish Pub & Restaurant. 198 5th St, San Francisco. Hosted by FutureCon, Eset, Optery & Concentric.Ai.",
+    "organizer": "FutureCon, Eset, Optery & Concentric.Ai",
+    "image": "/images/events/bourbon-banter-rsa-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "Halcyon Lounge VIP Cocktail Party @ RSA",
+    "slug": "halcyon-lounge-vip-cocktail-party-rsa-rsac-2026",
+    "date": "2026-03-25T20:00:00-07:00",
+    "endDate": "2026-03-25T23:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.eventbrite.com/e/halcyon-lounge-vip-cocktail-party-rsa-tickets-1980638656539",
+    "source": "conferenceparties.com",
+    "description": "Natoma Cabana. 90 Natoma St, San Francisco. Hosted by Halcyon.",
+    "organizer": "Halcyon"
+  },
+  {
+    "name": "A Celebration at The San Francisco Mint",
+    "slug": "a-celebration-at-the-san-francisco-mint-rsac-2026",
+    "date": "2026-03-25T19:00:00-07:00",
+    "endDate": "2026-03-25T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.crowdstrike.com/en-us/events/rsac/#networking",
+    "source": "conferenceparties.com",
+    "description": "The San Francisco Mint. 88 5th St, San Francisco. Hosted by CrowdStrike.",
+    "organizer": "CrowdStrike",
+    "image": "/images/events/a-celebration-at-the-san-francisco-mint-rsac-2026.jpg"
+  },
+  {
+    "name": "Wine Down Wednesday",
+    "slug": "wine-down-wednesday-rsac-2026",
+    "date": "2026-03-25T20:00:00-07:00",
+    "endDate": "2026-03-25T22:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://rsvp.withgoogle.com/events/rsac26-wine-down-wednesday",
+    "source": "conferenceparties.com",
+    "description": "SF Marriott Marquis. 780 Mission Street, San Francisco. Hosted by Google Cloud Security.",
+    "organizer": "Google Cloud Security"
+  },
+  {
+    "name": "The Agentic Connection Point",
+    "slug": "the-agentic-connection-point-rsac-2026",
+    "date": "2026-03-26T08:00:00-07:00",
+    "endDate": "2026-03-26T11:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://astrix.security/events/rsac2026-agentic-connection-point/",
+    "source": "conferenceparties.com",
+    "description": "The Clancy. 299 2nd St, San Francisco. Hosted by Astrix Security.",
+    "organizer": "Astrix Security",
+    "image": "/images/events/the-agentic-connection-point-rsac-2026.jpg"
+  },
+  {
+    "name": "Opening Night with A-Lign and the SF Giants",
+    "slug": "opening-night-with-a-lign-and-the-sf-giants-rsac-2026",
+    "date": "2026-03-25T20:05:00-07:00",
+    "endDate": "2026-03-25T23:35:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://align.registration.goldcast.io/events/686ab6e4-a483-4a2e-b8ef-348f8f3ebfef",
+    "source": "conferenceparties.com",
+    "description": "Oracle Park. 24 Willie Mays Plaza, San Francisco. Hosted by A-Lign.",
+    "organizer": "A-Lign",
+    "image": "/images/events/opening-night-with-a-lign-and-the-sf-giants-rsac-2026.jpg"
+  },
+  {
+    "name": "AI vs AI: Breakfast Session",
+    "slug": "ai-vs-ai-breakfast-session-rsac-2026",
+    "date": "2026-03-26T09:00:00-07:00",
+    "endDate": "2026-03-26T10:30:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/9iuq15ru",
+    "source": "conferenceparties.com",
+    "description": "1 Montgomery St. 1 Montgomery St, San Francisco. Hosted by AegisAI Security.",
+    "organizer": "AegisAI Security",
+    "image": "/images/events/ai-vs-ai-breakfast-session-rsac-2026.jpg"
+  },
+  {
+    "name": "AI Security Mixer | MEACS x AISECA",
+    "slug": "ai-security-mixer-meacs-x-aiseca-rsac-2026",
+    "date": "2026-03-26T14:00:00-07:00",
+    "endDate": "2026-03-26T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/y8si2kt6",
+    "source": "conferenceparties.com",
+    "description": "Delah Coffee. 370 4th St, San Francisco. Hosted by AI Security Alliance & MEACS.",
+    "organizer": "AI Security Alliance & MEACS",
+    "image": "/images/events/ai-security-mixer-meacs-x-aiseca-rsac-2026.jpg"
+  },
+  {
+    "name": "CISOs [un]prompted: CISOs vs. AI Hype (a CSides Event)",
+    "slug": "cisos-unprompted-cisos-vs-ai-hype-a-csides-event-rsac-2026",
+    "date": "2026-03-26T09:00:00-07:00",
+    "endDate": "2026-03-26T14:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/owl4n6jg",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Knostic, Material, TachTech & Whiterabbit.",
+    "organizer": "Knostic, Material, TachTech & Whiterabbit",
+    "image": "/images/events/cisos-unprompted-cisos-vs-ai-hype-a-csides-event-rsac-2026.jpg"
+  },
+  {
+    "name": "CyberSeed Founders Happy Hour",
+    "slug": "cyberseed-founders-happy-hour-rsac-2026",
+    "date": "2026-03-26T16:00:00-07:00",
+    "endDate": "2026-03-26T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://luma.com/q4qcgryi",
+    "source": "conferenceparties.com",
+    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Patrick Johnson (Erebor) & Lewis Hower (Orrick).",
+    "organizer": "Patrick Johnson (Erebor) & Lewis Hower (Orrick)",
+    "image": "/images/events/cyberseed-founders-happy-hour-rsac-2026.jpg"
+  },
+  {
+    "name": "The Sweet Spot | Private Bakery Experience",
+    "slug": "the-sweet-spot-private-bakery-experience-rsac-2026",
+    "date": "2026-03-26T08:00:00-07:00",
+    "endDate": "2026-03-26T18:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://hubs.li/Q043FNC20",
+    "source": "conferenceparties.com",
+    "description": "Across the street from Moscone. Across the street from Moscone, San Francisco. Hosted by Sweet Security.",
+    "organizer": "Sweet Security"
+  },
+  {
+    "name": "The Quest for Safe Cloud Remediation",
+    "slug": "the-quest-for-safe-cloud-remediation-rsac-2026",
+    "date": "2026-03-26T08:00:00-07:00",
+    "endDate": "2026-03-26T17:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://tamnoon.io/tamnoon-at-rsac-2026-the-quest-for-safe-cloud-remediation",
+    "source": "conferenceparties.com",
+    "description": "Across The Cloud Realm. Across The Cloud Realm, San Francisco. Hosted by Tamnoon.",
+    "organizer": "Tamnoon",
+    "image": "/images/events/the-quest-for-safe-cloud-remediation-rsac-2026.jpg"
   }
 ]

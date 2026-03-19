@@ -7,7 +7,8 @@ const EVENT_TYPES = [
   { value: 'workshop', label: 'Workshop' },
   { value: 'webinar', label: 'Webinar' },
   { value: 'chapter', label: 'Chapter Meeting' },
-  { value: 'ctf', label: 'CTF & Hackathon' }
+  { value: 'ctf', label: 'CTF & Hackathon' },
+  { value: 'afterparty', label: 'After Party' }
 ]
 
 const FORMAT_TABS = [

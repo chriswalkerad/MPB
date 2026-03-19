@@ -11,6 +11,7 @@ const TYPE_COLORS = {
   workshop: '#facc15',
   webinar: '#38bdf8',
   ctf: '#f472b6',
+  afterparty: '#c084fc',
 }
 
 function formatFullDate(dateStr) {

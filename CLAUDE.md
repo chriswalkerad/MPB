@@ -79,6 +79,26 @@ interface Event {
 - Homepage needs bunker as background with landing content overlay
 - Other pages not yet built
 
+## Newsletter (Beehiiv)
+
+When asked to prepare events for the newsletter, always provide **3 events** in this format:
+
+```
+**Event Name**
+
+📅 Day of week, Month Day, Year
+
+📍 City, State
+
+🏷️ Type, Format
+
+One-liner description — punchy, useful, matches our brand tone.
+
+🔗 https://www.myprinterbroke.com/events?event=event-slug
+```
+
+If the user doesn't specify which events, ask: **"What events do you want?"**
+
 ## Planning
 
 <!-- Design docs go in docs/plans/ -->
