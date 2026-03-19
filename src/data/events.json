@@ -1,5 +1,37 @@
 [
   {
+    "name": "DetectCon After Dark",
+    "slug": "detectcon-after-dark-sf-2026",
+    "date": "2026-03-25T20:30:00-07:00",
+    "endDate": "2026-03-25T23:30:00-07:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": ["Community & General", "Threat Intelligence"],
+    "url": "https://luma.com/4vj5uiau",
+    "source": "luma",
+    "description": "An after-hours gathering for detection engineers during RSA Conference. No corporate pitches or product demos — just informal conversation for professionals who develop detection rules, refine detection logic, and engage in detection-related research and debate. Hosted by detections.ai.",
+    "organizer": "detections.ai"
+  },
+  {
+    "name": "RSAC After Hours with Huntress",
+    "slug": "rsac-after-hours-huntress-sf-2026",
+    "date": "2026-03-25T20:00:00-07:00",
+    "endDate": "2026-03-25T22:00:00-07:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": ["Community & General", "Networking & Career"],
+    "url": "https://web.cvent.com/event/8e2794e8-358e-4dcd-98d4-7c10d032243e/summary",
+    "source": "cvent",
+    "description": "Join Huntress for an informal after-hours gathering during RSA Conference. Drinks, appetizers, and casual conversation about cybersecurity — from identity access management challenges to current threat intelligence. No sales pitches, no slides. Space is limited.",
+    "organizer": "Huntress"
+  },
+  {
     "name": "IAFCI 2026 Cyber Fraud Summit",
     "slug": "iafci-2026-cyber-fraud-summit",
     "date": "2026-05-28T08:00:00-05:00",
