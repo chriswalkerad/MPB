@@ -1,5 +1,22 @@
 [
   {
+    "name": "YC AI School Afterparty @ Anthropic HQ",
+    "slug": "yc-ai-school-afterparty-anthropic-hq",
+    "date": "2026-06-16T17:00:00-07:00",
+    "endDate": "2026-06-16T19:00:00-07:00",
+    "type": "afterparty",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": ["AI & Machine Learning", "Community & General"],
+    "url": "https://luma.com/anthropic",
+    "source": "luma",
+    "description": "An exclusive networking event for YC AI Startup School attendees at Anthropic HQ. Featuring an Anthropic Research Team panel on Claude models and building at the frontier of AI, plus socializing, refreshments, and API credits for founders.",
+    "organizer": "Anthropic",
+    "image": "/images/events/yc-ai-school-afterparty-anthropic-hq.jpg"
+  },
+  {
     "name": "DetectCon After Dark",
     "slug": "detectcon-after-dark-sf-2026",
     "date": "2026-03-25T20:30:00-07:00",
