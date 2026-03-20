@@ -53,5 +53,10 @@
     "name": "Networking & Career",
     "slug": "networking-career",
     "description": "Career events, hiring fairs, CISO roundtables"
+  },
+  {
+    "name": "After Party",
+    "slug": "after-party",
+    "description": "After-hours socials, happy hours, and networking parties during conferences"
   }
 ]

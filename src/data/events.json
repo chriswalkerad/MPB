@@ -9,7 +9,11 @@
     "city": "San Francisco",
     "region": "west-coast",
     "cost": "Free",
-    "tags": ["AI & Machine Learning", "Community & General"],
+    "tags": [
+      "AI & Machine Learning",
+      "Community & General",
+      "After Party"
+    ],
     "url": "https://luma.com/anthropic",
     "source": "luma",
     "description": "An exclusive networking event for YC AI Startup School attendees at Anthropic HQ. Featuring an Anthropic Research Team panel on Claude models and building at the frontier of AI, plus socializing, refreshments, and API credits for founders.",
@@ -19,6 +23,7 @@
   {
     "name": "DetectCon After Dark",
     "slug": "detectcon-after-dark-sf-2026",
+    "image": "/images/events/detectcon-after-dark.png",
     "date": "2026-03-25T20:30:00-07:00",
     "endDate": "2026-03-25T23:30:00-07:00",
     "type": "meetup",
@@ -38,6 +43,7 @@
   {
     "name": "RSAC After Hours with Huntress",
     "slug": "rsac-after-hours-huntress-sf-2026",
+    "image": "/images/events/huntress-after-hours.png",
     "date": "2026-03-25T20:00:00-07:00",
     "endDate": "2026-03-25T22:00:00-07:00",
     "type": "meetup",
@@ -12142,7 +12148,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.spadesinstitute.org/rsa/",
     "source": "conferenceparties.com",
@@ -12161,7 +12168,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://bsidessf2026.sched.com/event/2E1d6/party?iframe=no&w=100%&sidebar=yes&bg=no",
     "source": "conferenceparties.com",
@@ -12180,7 +12188,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/60vycmao",
     "source": "conferenceparties.com",
@@ -12198,7 +12207,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/9jrv4tn1",
     "source": "conferenceparties.com",
@@ -12216,7 +12226,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/rooftop-party",
     "source": "conferenceparties.com",
@@ -12234,7 +12245,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/attqt829",
     "source": "conferenceparties.com",
@@ -12252,7 +12264,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/2ihr50rx",
     "source": "conferenceparties.com",
@@ -12270,7 +12283,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/yxpmfyz3",
     "source": "conferenceparties.com",
@@ -12288,7 +12302,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/pp2ki982",
     "source": "conferenceparties.com",
@@ -12306,7 +12321,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/ir4sbkpx",
     "source": "conferenceparties.com",
@@ -12324,7 +12340,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.dune.security/events/dune-labs",
     "source": "conferenceparties.com",
@@ -12342,7 +12359,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://pathlock.com/events/032226_rsac-happy-hour/",
     "source": "conferenceparties.com",
@@ -12361,7 +12379,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/fvic7ser",
     "source": "conferenceparties.com",
@@ -12379,7 +12398,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://carahevents.carahsoft.com/PSD2026",
     "source": "conferenceparties.com",
@@ -12397,7 +12417,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/s9qdxmxm",
     "source": "conferenceparties.com",
@@ -12415,7 +12436,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/4nbbz0i2",
     "source": "conferenceparties.com",
@@ -12433,7 +12455,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/wx40r9vp",
     "source": "conferenceparties.com",
@@ -12451,7 +12474,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/igjsj6ly",
     "source": "conferenceparties.com",
@@ -12469,7 +12493,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://mfcyber.com/sfo-2026-cyber-lounge/?utm_source=conferenceparties&utm_medium=referral&utm_campaign=cyber-lounge-sfo-2026",
     "source": "conferenceparties.com",
@@ -12488,7 +12513,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.exaforce.com/event/rsac-2026-dinner",
     "source": "conferenceparties.com",
@@ -12507,7 +12533,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://events.cohesity.com/cohesityresilienceden/cp",
     "source": "conferenceparties.com",
@@ -12525,7 +12552,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://thepurplebook.club/pbc-connect-rsac",
     "source": "conferenceparties.com",
@@ -12544,7 +12572,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.rooncyber.com/events/spice-things-up-a-security-social-at-burma-love-rsac-2026",
     "source": "conferenceparties.com",
@@ -12563,7 +12592,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/bkiyt4y6",
     "source": "conferenceparties.com",
@@ -12581,7 +12611,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/ds9xg9rn",
     "source": "conferenceparties.com",
@@ -12599,7 +12630,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/pev9d9bx",
     "source": "conferenceparties.com",
@@ -12617,7 +12649,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/j02yoksv",
     "source": "conferenceparties.com",
@@ -12635,7 +12668,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/angellaunchmarch23cyber",
     "source": "conferenceparties.com",
@@ -12653,7 +12687,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://tamnoon.io/tamnoon-at-rsac-2026-the-quest-for-safe-cloud-remediation",
     "source": "conferenceparties.com",
@@ -12672,7 +12707,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.eventbrite.com/e/hackthebay-30-tickets-1980342503738",
     "source": "conferenceparties.com",
@@ -12690,7 +12726,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.dune.security/events/night-at-the-mercantile",
     "source": "conferenceparties.com",
@@ -12708,7 +12745,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://mfcyber.com/sfo-2026-cyber-lounge/?utm_source=conferenceparties&utm_medium=referral&utm_campaign=cyber-lounge-sfo-2026",
     "source": "conferenceparties.com",
@@ -12719,6 +12757,7 @@
   {
     "name": "The Modern CISO: Cogent x Anthropic Fireside Chat",
     "slug": "the-modern-ciso-cogent-x-anthropic-fireside-chat-rsac-2026",
+    "image": "/images/events/cogent-anthropic-fireside.png",
     "date": "2026-03-23T16:00:00-07:00",
     "endDate": "2026-03-23T19:00:00-07:00",
     "type": "afterparty",
@@ -12727,7 +12766,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/r62ovlen",
     "source": "conferenceparties.com",
@@ -12745,7 +12785,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/oxsgq4vu",
     "source": "conferenceparties.com",
@@ -12763,7 +12804,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/n9kfro9w",
     "source": "conferenceparties.com",
@@ -12781,7 +12823,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/CanadaCyberRSA",
     "source": "conferenceparties.com",
@@ -12799,7 +12842,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://cybersecurity.arcticwolf.com/TRDFY26Q426-03-24RSACCISOHappyHour_RegPage.html",
     "source": "conferenceparties.com",
@@ -12818,7 +12862,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://go.snyk.io/sf-office.html",
     "source": "conferenceparties.com",
@@ -12837,7 +12882,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://events.cyberhaven.com/ciso-panel-rsac/",
     "source": "conferenceparties.com",
@@ -12856,7 +12902,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://echeloncyber.com/echelon-risk-cyber-rsa-happy-hour-2026",
     "source": "conferenceparties.com",
@@ -12875,7 +12922,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.darktrace.com/event-registration/rsac-2026-cocktail-reception",
     "source": "conferenceparties.com",
@@ -12894,7 +12942,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://go.pentera.io/rsac-armis?utm_source=RSA &source=RSA &utm_medium=conferenceparty&medium=conferenceparty&utm_campaign=RSA Happy Hour&campaign=RSA Happy Hour",
     "source": "conferenceparties.com",
@@ -12912,7 +12961,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/9q3gdatj",
     "source": "conferenceparties.com",
@@ -12930,7 +12980,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/9doop3qx",
     "source": "conferenceparties.com",
@@ -12948,7 +12999,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/bnl2vul4",
     "source": "conferenceparties.com",
@@ -12966,7 +13018,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://meetpwc.cventevents.com/event/PwCsUndergroundCyberLoungeAtRSAC2026/Home1",
     "source": "conferenceparties.com",
@@ -12984,7 +13037,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://go.snyk.io/rsa-26-community-jam.html",
     "source": "conferenceparties.com",
@@ -13003,7 +13057,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/9gl2g0cb",
     "source": "conferenceparties.com",
@@ -13021,7 +13076,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/sprinto-ciso-dinner-2026",
     "source": "conferenceparties.com",
@@ -13039,7 +13095,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://events.merlin.vc/rsvp/merlin-x-lightspeed-x-evolution-vip-reception-rsa-2026/merlin-ventures/register",
     "source": "conferenceparties.com",
@@ -13058,7 +13115,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://event.synack.com/rsac-2026-whiskey-tasting?utm_campaign=37129350-FY27-RSA&utm_source=other-sources&utm_channel=conferenceparties&utm_medium=website&utm_audience=all&utm_content=rsac-2026-where-ai-humans-meet-whiskey",
     "source": "conferenceparties.com",
@@ -13077,7 +13135,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.guidepointsecurity.com/rsa/?utm_source=vendor&utm_medium=email&utm_campaign=2026_03_23_corp_mq_rsaparty_sanfran&utm_vendor=roon_cyber",
     "source": "conferenceparties.com",
@@ -13096,7 +13155,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.vanta.com/lp/rsa#party",
     "source": "conferenceparties.com",
@@ -13115,7 +13175,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/dhye6n2y",
     "source": "conferenceparties.com",
@@ -13133,7 +13194,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/09dciady",
     "source": "conferenceparties.com",
@@ -13151,7 +13213,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://discover.firemon.com/rsac-2026-kickoff-party?utm_campaign=rsa_partyfiremon",
     "source": "conferenceparties.com",
@@ -13169,7 +13232,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.commvault.com/events/rsac-2026/after-party",
     "source": "conferenceparties.com",
@@ -13188,7 +13252,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://docs.google.com/forms/d/e/1FAIpQLSfZL4FnezgxKXM8ilLG3-aNfX2oVA41VUgCER6IcCaTOBDJ8w/viewform?usp=dialog",
     "source": "conferenceparties.com",
@@ -13207,7 +13272,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://events.tanium.com/rsa2026",
     "source": "conferenceparties.com",
@@ -13226,7 +13292,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.soberincyber.org/events-1/rockin-mocktails-at-rsac-2026",
     "source": "conferenceparties.com",
@@ -13245,7 +13312,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://web.cvent.com/event/90473216-4fd5-4dc1-8330-334c9ad2dcc9/regProcessStep1",
     "source": "conferenceparties.com",
@@ -13263,7 +13331,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://w2comm.com/rsac-cybertacos-2026-registration/",
     "source": "conferenceparties.com",
@@ -13281,7 +13350,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.netskope.com/company/events/netskope-at-rsa#vip-lounge",
     "source": "conferenceparties.com",
@@ -13300,7 +13370,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://cybersecurity.arcticwolf.com/EFF-FY26Q4-26-03-23-Customer-Dinner-RSAC_Reg-Page-RSAC.html",
     "source": "conferenceparties.com",
@@ -13319,7 +13390,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/8dvx9dwd",
     "source": "conferenceparties.com",
@@ -13337,7 +13409,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/mo0295cd",
     "source": "conferenceparties.com",
@@ -13355,7 +13428,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.linkedin.com/events/cybersecurity-sdirtysecret-ther7431770272384561152/",
     "source": "conferenceparties.com",
@@ -13374,7 +13448,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/pz7uym7m",
     "source": "conferenceparties.com",
@@ -13392,7 +13467,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/fnfrtctc",
     "source": "conferenceparties.com",
@@ -13410,7 +13486,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://form.typeform.com/to/uPeARkzc",
     "source": "conferenceparties.com",
@@ -13428,7 +13505,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://info.legitsecurity.com/2026-rsa-conference-breakfast-panel-legit-security?utm_source=conferenceparties&utm_campaign=rsa_breakfast_panel",
     "source": "conferenceparties.com",
@@ -13446,7 +13524,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://mfcyber.com/sfo-2026-cyber-lounge/?utm_source=conferenceparties&utm_medium=referral&utm_campaign=cyber-lounge-sfo-2026",
     "source": "conferenceparties.com",
@@ -13465,7 +13544,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/vgj6hc7m",
     "source": "conferenceparties.com",
@@ -13483,7 +13563,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/lu4w1jq7",
     "source": "conferenceparties.com",
@@ -13501,7 +13582,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/placeholder",
     "source": "conferenceparties.com",
@@ -13520,7 +13602,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://cxosecurityforum.com/rsac/",
     "source": "conferenceparties.com",
@@ -13539,7 +13622,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/jogs1jvk",
     "source": "conferenceparties.com",
@@ -13557,7 +13641,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://event.synack.com/rsac-2026-women-in-cyber-breakfast-panel?utm_campaign=37129350-FY27-RSA&utm_source=other-sources&utm_channel=conferenceparties&utm_medium=website&utm_audience=all&utm_content=rsac-2026-where-ai-humans-meet-women-in-cyber-breakfast",
     "source": "conferenceparties.com",
@@ -13576,7 +13661,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://astrix.security/events/rsac2026-executive-connections/",
     "source": "conferenceparties.com",
@@ -13595,7 +13681,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.endorlabs.com/events/ciso-base-breakfast",
     "source": "conferenceparties.com",
@@ -13614,7 +13701,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://tamnoon.io/tamnoon-at-rsac-2026-the-quest-for-safe-cloud-remediation",
     "source": "conferenceparties.com",
@@ -13633,7 +13721,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://astrix.security/events/rsac2026-agentic-connection-point/",
     "source": "conferenceparties.com",
@@ -13652,7 +13741,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/za2c1w7y",
     "source": "conferenceparties.com",
@@ -13670,7 +13760,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/c3n9ftwi",
     "source": "conferenceparties.com",
@@ -13688,7 +13779,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://hubs.li/Q043FNC20",
     "source": "conferenceparties.com",
@@ -13706,7 +13798,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/v43mruts",
     "source": "conferenceparties.com",
@@ -13724,7 +13817,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/xjzw9prd",
     "source": "conferenceparties.com",
@@ -13742,7 +13836,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.tailscale.com/rsac26",
     "source": "conferenceparties.com",
@@ -13761,7 +13856,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/8w21nqln",
     "source": "conferenceparties.com",
@@ -13779,7 +13875,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://hubs.la/Q041y_jk0",
     "source": "conferenceparties.com",
@@ -13797,7 +13894,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://events.cohesity.com/cohesityresilienceden/cp",
     "source": "conferenceparties.com",
@@ -13815,7 +13913,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.straiker.ai/events/rsac",
     "source": "conferenceparties.com",
@@ -13834,7 +13933,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/qxpqs283",
     "source": "conferenceparties.com",
@@ -13852,7 +13952,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/paozy6xd?tk=DQSbNx",
     "source": "conferenceparties.com",
@@ -13870,7 +13971,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://astrix.security/events/rsac2026-mcp-workshop/",
     "source": "conferenceparties.com",
@@ -13889,7 +13991,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/marketinglunch",
     "source": "conferenceparties.com",
@@ -13907,7 +14010,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.infinigate.com/infinigate-exclusive-gatherings-rsa-conference-san-francisco/#h-reserve-your-place",
     "source": "conferenceparties.com",
@@ -13926,7 +14030,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/06peigao",
     "source": "conferenceparties.com",
@@ -13944,7 +14049,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/elsmanm4",
     "source": "conferenceparties.com",
@@ -13962,7 +14068,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/qg0oay87",
     "source": "conferenceparties.com",
@@ -13980,7 +14087,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://mfcyber.com/sfo-2026-cyber-lounge/?utm_source=conferenceparties&utm_medium=referral&utm_campaign=cyber-lounge-sfo-2026",
     "source": "conferenceparties.com",
@@ -13999,7 +14107,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "http://www.sentra.io/rsa",
     "source": "conferenceparties.com",
@@ -14018,7 +14127,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://go.blackkite.com/rsa-2026-black-kite",
     "source": "conferenceparties.com",
@@ -14037,7 +14147,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://rsvp.withgoogle.com/events/rsac26-community-user-group",
     "source": "conferenceparties.com",
@@ -14055,7 +14166,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/7cugwb84",
     "source": "conferenceparties.com",
@@ -14073,7 +14185,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/hii55m8h",
     "source": "conferenceparties.com",
@@ -14091,7 +14204,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/d2bhciis",
     "source": "conferenceparties.com",
@@ -14109,7 +14223,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/1gkmotrq",
     "source": "conferenceparties.com",
@@ -14127,7 +14242,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://rsvp.withgoogle.com/events/rsac26-tasting-tuesday",
     "source": "conferenceparties.com",
@@ -14145,7 +14261,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.doppel.com/events/rsac-2026/hanger#meetings",
     "source": "conferenceparties.com",
@@ -14164,7 +14281,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://engage.anzenna.ai/rsa-after-party",
     "source": "conferenceparties.com",
@@ -14182,7 +14300,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/fot31q6w",
     "source": "conferenceparties.com",
@@ -14200,7 +14319,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/w10psfmj",
     "source": "conferenceparties.com",
@@ -14218,7 +14338,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/1ttlieif",
     "source": "conferenceparties.com",
@@ -14236,7 +14357,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/rsa-iceberg",
     "source": "conferenceparties.com",
@@ -14254,7 +14376,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/prelude-dinner",
     "source": "conferenceparties.com",
@@ -14272,7 +14395,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://info.cribl.io/RM-FEV-FY27-Q1-03-24-RSA-Happy-Hour-SF_LP-Registration.html?utm_campaign=RM-FEV-FY27-Q1-03-24-RSA-Happy-Hour-SF&utm_medium=email&utm_source=channel-oso&utm_content=RSA-Happy-Hour-SF-FEV",
     "source": "conferenceparties.com",
@@ -14291,7 +14415,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://info.cribl.io/RM-FEV-FY27-Q1-03-24-RSA-Happy-Hour-SF_LP-Registration",
     "source": "conferenceparties.com",
@@ -14310,7 +14435,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/cg0lvo3u",
     "source": "conferenceparties.com",
@@ -14328,7 +14454,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/dogd3ez6",
     "source": "conferenceparties.com",
@@ -14346,7 +14473,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.dune.security/events/sf-security-leader-dinner-with-dune-security-and-massmutual-ventures",
     "source": "conferenceparties.com",
@@ -14364,7 +14492,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.adaptivesecurity.com/events/rsac-2026-battlebots",
     "source": "conferenceparties.com",
@@ -14383,7 +14512,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/zeropathrsa",
     "source": "conferenceparties.com",
@@ -14401,7 +14531,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/t3g8p3jv",
     "source": "conferenceparties.com",
@@ -14419,7 +14550,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/rtalmvpz",
     "source": "conferenceparties.com",
@@ -14437,7 +14569,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.vicarius.io/rsa-2026-rsvp",
     "source": "conferenceparties.com",
@@ -14456,7 +14589,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/9dkrjgaf?utm_source=conf_parties",
     "source": "conferenceparties.com",
@@ -14474,7 +14608,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.britive.com/resource/events/rsac-2026",
     "source": "conferenceparties.com",
@@ -14493,7 +14628,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://github.registration.goldcast.io/events/19f0141f-966c-4712-a763-df18cb226688?utm_source=event&utm_medium=rsa&utm_campaign=website",
     "source": "conferenceparties.com",
@@ -14512,7 +14648,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://armisevents.swoogo.com/unplugged26/?i=pYz58L1NvEsxTYCjODXTOLgLT5kf1pYy&ref=Armis",
     "source": "conferenceparties.com",
@@ -14530,7 +14667,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://datadome.co/events/mixed-signals-rsac-2026/",
     "source": "conferenceparties.com",
@@ -14548,7 +14686,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.rubrik.com/cxo/experiences/roundtables/rsac-cxo-roundtable",
     "source": "conferenceparties.com",
@@ -14566,7 +14705,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://event.synack.com/rsac-2026-party?utm_campaign=37129350-FY27-RSA&utm_source=other-sources&utm_channel=sponsor-cyberproof&utm_medium=event&utm_audience=all&utm_content=rsac-2026-where-ai-humans-meet-binary-beats-party",
     "source": "conferenceparties.com",
@@ -14585,7 +14725,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://event.synack.com/rsac-2026-party?utm_campaign=37129350-FY27-RSA&utm_source=other-sources&utm_channel=conferenceparties&utm_medium=website&utm_audience=all&utm_content=rsac-2026-where-ai-humans-meet-binary-beats-party",
     "source": "conferenceparties.com",
@@ -14604,7 +14745,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://events.elastic.co/starlitesoireanrsaeveningexchange/conferenceparties",
     "source": "conferenceparties.com",
@@ -14622,7 +14764,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.harness.io/events/rsac-vip-event?utm_source=aws&utm_medium=partner",
     "source": "conferenceparties.com",
@@ -14641,7 +14784,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/tufcrwuj",
     "source": "conferenceparties.com",
@@ -14659,7 +14803,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://go.levelblue.com/levelblue-zscaler-rsahappyhour",
     "source": "conferenceparties.com",
@@ -14678,7 +14823,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/cprz0hv3",
     "source": "conferenceparties.com",
@@ -14696,7 +14842,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/3p4gdrfq",
     "source": "conferenceparties.com",
@@ -14714,7 +14861,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://events.cohesity.com/rsacawakeandunfiltered/CP",
     "source": "conferenceparties.com",
@@ -14732,7 +14880,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://events.island.io/whiskeytastingwithisland",
     "source": "conferenceparties.com",
@@ -14750,7 +14899,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/pvno2qtv",
     "source": "conferenceparties.com",
@@ -14768,7 +14918,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/ft6or9hz?utm_campaign=2026Q1_rsa_dinner&utm_source=rsac_parties&utm_content=listing&utm_medium=affiliate",
     "source": "conferenceparties.com",
@@ -14786,7 +14937,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://portal.meetings.veeam.com/register/DSJO1JLN",
     "source": "conferenceparties.com",
@@ -14804,7 +14956,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.afterfuse.com",
     "source": "conferenceparties.com",
@@ -14823,7 +14976,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://go.optiv.com/2026-RSA-Conference.html",
     "source": "conferenceparties.com",
@@ -14841,7 +14995,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://fieldmarketing.www.cloudflare.com/CAD-rsac-2026?utm_medium=discovery&utm_source=google&utm_campaign=2026-q1-acq-namer-modernsec-ge-he-general-confparties",
     "source": "conferenceparties.com",
@@ -14859,7 +15014,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.chilipiper.com/events/predictable-pipeline-demanddrive-x-chilipiper",
     "source": "conferenceparties.com",
@@ -14878,7 +15034,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://abnormal.ai/rsac-party?utm_source=conferenceparties.com",
     "source": "conferenceparties.com",
@@ -14896,7 +15053,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/fur6la47",
     "source": "conferenceparties.com",
@@ -14914,7 +15072,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/tzk36khd",
     "source": "conferenceparties.com",
@@ -14932,7 +15091,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/bzdhcn2v",
     "source": "conferenceparties.com",
@@ -14950,7 +15110,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.infinigate.com/infinigate-exclusive-gatherings-rsa-conference-san-francisco/#h-reserve-your-place",
     "source": "conferenceparties.com",
@@ -14969,7 +15130,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/khen9xya",
     "source": "conferenceparties.com",
@@ -14987,7 +15149,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.tines.com/events/tines-up-running-at-rsa-2026/",
     "source": "conferenceparties.com",
@@ -15006,7 +15169,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/qfoyf6f6",
     "source": "conferenceparties.com",
@@ -15024,7 +15188,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/17py6tu2",
     "source": "conferenceparties.com",
@@ -15043,7 +15208,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/ur04ylmp",
     "source": "conferenceparties.com",
@@ -15061,7 +15227,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/0baiss7p",
     "source": "conferenceparties.com",
@@ -15079,7 +15246,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.spadesinstitute.org/rsa/",
     "source": "conferenceparties.com",
@@ -15098,7 +15266,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/g7ewb99n",
     "source": "conferenceparties.com",
@@ -15117,7 +15286,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://mfcyber.com/sfo-2026-cyber-lounge/?utm_source=conferenceparties&utm_medium=referral&utm_campaign=cyber-lounge-sfo-2026",
     "source": "conferenceparties.com",
@@ -15136,7 +15306,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.tailscale.com/rsac26",
     "source": "conferenceparties.com",
@@ -15155,7 +15326,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://tamnoon.io/tamnoon-at-rsac-2026-the-quest-for-safe-cloud-remediation",
     "source": "conferenceparties.com",
@@ -15174,7 +15346,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://fieldmarketing.www.cloudflare.com/trust-forward-rsac-2026?utm_medium=discovery&utm_source=google&utm_campaign=2026-q1-acq-namer-modernsec-ge-he-general-conferenceparties",
     "source": "conferenceparties.com",
@@ -15192,7 +15365,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://securityscorecard.com/rsac-2026-executive-panel-breakfast-cybersecurity-in-the-boardroom/",
     "source": "conferenceparties.com",
@@ -15211,7 +15385,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.ocsfevents.com/breakfast",
     "source": "conferenceparties.com",
@@ -15230,7 +15405,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.synqly.com/rsac-2026/",
     "source": "conferenceparties.com",
@@ -15249,7 +15425,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://events.innovationquarter.nl/FirstByteNL",
     "source": "conferenceparties.com",
@@ -15268,7 +15445,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://events.cohesity.com/cohesityresilienceden/cp",
     "source": "conferenceparties.com",
@@ -15286,7 +15464,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://hubs.li/Q043FNC20",
     "source": "conferenceparties.com",
@@ -15304,7 +15483,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.straiker.ai/events/rsac",
     "source": "conferenceparties.com",
@@ -15323,7 +15503,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.crema.us/rsa-meetup-people-of-product-leadership-circle",
     "source": "conferenceparties.com",
@@ -15342,7 +15523,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://astrix.security/events/rsac2026-agentic-connection-point/",
     "source": "conferenceparties.com",
@@ -15361,7 +15543,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/wjj5jxxd",
     "source": "conferenceparties.com",
@@ -15380,7 +15563,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/950ecjp7",
     "source": "conferenceparties.com",
@@ -15399,7 +15583,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/smpxrwsj?utm_medium=digital&utm_source=partner&utm_campaign=lev-2026-03-25%20rsa%20headshots%20event%20rsa%20&utm_content=conferenceparties.com",
     "source": "conferenceparties.com",
@@ -15418,7 +15603,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://veeam.briefingsource.com/register/YNOSSAV4",
     "source": "conferenceparties.com",
@@ -15436,7 +15622,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://github.registration.goldcast.io/events/d1b9b30e-cbb5-4588-916b-23d38c7ade90",
     "source": "conferenceparties.com",
@@ -15455,7 +15642,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/swu5e3e3",
     "source": "conferenceparties.com",
@@ -15474,7 +15662,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://astrix.security/events/rsac2026-mcp-workshop/",
     "source": "conferenceparties.com",
@@ -15493,7 +15682,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/i9l6gtzf",
     "source": "conferenceparties.com",
@@ -15512,7 +15702,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/cng8ikmp",
     "source": "conferenceparties.com",
@@ -15531,7 +15722,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://radiantsecurity.ai/rsa-2026-breakout-event/",
     "source": "conferenceparties.com",
@@ -15550,7 +15742,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.ewfglobal.com/event-details/rsac-2026-luncheon-sponsored-by-pwc/",
     "source": "conferenceparties.com",
@@ -15569,7 +15762,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "http://www.sentra.io/rsa",
     "source": "conferenceparties.com",
@@ -15588,7 +15782,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://mfcyber.com/sfo-2026-cyber-lounge/?utm_source=conferenceparties&utm_medium=referral&utm_campaign=cyber-lounge-sfo-2026",
     "source": "conferenceparties.com",
@@ -15607,7 +15802,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.invigrid.com/rsa-roundtable",
     "source": "conferenceparties.com",
@@ -15626,7 +15822,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.endorlabs.com/events/challenge-the-ai-guys-pregame-session",
     "source": "conferenceparties.com",
@@ -15645,7 +15842,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://super.underdefense.com/channels-partners-event-rsa2026?utm_source=conferenceparties&utm_medium=cpc&utm_campaign=Channel_Partners_Appreciation_Night",
     "source": "conferenceparties.com",
@@ -15663,7 +15861,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://go.blackkite.com/rsa-2026-black-kite",
     "source": "conferenceparties.com",
@@ -15682,7 +15881,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/placeholder",
     "source": "conferenceparties.com",
@@ -15701,7 +15901,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/sysdig-cloudsmith-rsa",
     "source": "conferenceparties.com",
@@ -15720,7 +15921,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.rubrik.com/cxo/experiences/roundtables/rsac-huddle-resilience",
     "source": "conferenceparties.com",
@@ -15738,7 +15940,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/yyrc6358",
     "source": "conferenceparties.com",
@@ -15757,7 +15960,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/r9ryvdpl",
     "source": "conferenceparties.com",
@@ -15776,7 +15980,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://engage-cybersec.thalesgroup.com/2026-rsac-pqc-palooza-mar25-reg.html",
     "source": "conferenceparties.com",
@@ -15794,7 +15999,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://gbl.radware.com/LP=2629?Referrer=VIP",
     "source": "conferenceparties.com",
@@ -15812,7 +16018,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://gcib-mmtech.swoogo.com/requestrsa/waitlist?i=IMBd-I8_BXj7Zk1E7ccEIuEgPjIE5QEU",
     "source": "conferenceparties.com",
@@ -15830,7 +16037,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/5a5o460f",
     "source": "conferenceparties.com",
@@ -15849,7 +16057,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://regionalevents.okta.com/securethenightwithoktaatrsac",
     "source": "conferenceparties.com",
@@ -15867,7 +16076,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/hy83h0zp",
     "source": "conferenceparties.com",
@@ -15886,7 +16096,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/jgn61mym",
     "source": "conferenceparties.com",
@@ -15905,7 +16116,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://event.synack.com/rsac-2026-happy-hour?utm_campaign=37129350-FY27-RSA&utm_source=other-sources&utm_channel=conferenceparties&utm_medium=website&utm_audience=all&utm_content=rsac-2026-where-ai-humans-meet-happy-hour",
     "source": "conferenceparties.com",
@@ -15924,7 +16136,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://pages.checkpoint.com/2026-mar-rsa-networking-party-thank-you.html?aliId=eyJpIjoibEkwVndWNDhLTFR1Q2VwSyIsInQiOiJtREF5bU1hWjdSRHM1U1g4dmhCa29RPT0ifQ%253D%253D",
     "source": "conferenceparties.com",
@@ -15942,7 +16155,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/dinner-sf",
     "source": "conferenceparties.com",
@@ -15961,7 +16175,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://nucleussec.com/rsac-2026-t2t-reception-nucleus/",
     "source": "conferenceparties.com",
@@ -15980,7 +16195,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.endorlabs.com/events/women-in-ai-night-market",
     "source": "conferenceparties.com",
@@ -15999,7 +16215,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://notify.eset.com/RSAC-bay-cruise",
     "source": "conferenceparties.com",
@@ -16017,7 +16234,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://events.cohesity.com/rsacdubsanddrafts/CP",
     "source": "conferenceparties.com",
@@ -16035,7 +16253,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/rsac-speakeasy-social?utm_source=confp",
     "source": "conferenceparties.com",
@@ -16054,7 +16273,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/277tdqmr",
     "source": "conferenceparties.com",
@@ -16073,7 +16293,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/c6m53jz4",
     "source": "conferenceparties.com",
@@ -16092,7 +16313,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/LockstepRSAC2026",
     "source": "conferenceparties.com",
@@ -16111,7 +16333,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.eventbrite.com/e/signal-after-hours-tickets-1983362778461",
     "source": "conferenceparties.com",
@@ -16129,7 +16352,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://info.skyflow.com/rsa2026",
     "source": "conferenceparties.com",
@@ -16148,7 +16372,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/hagwqi0j",
     "source": "conferenceparties.com",
@@ -16167,7 +16392,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/wmpmo53c",
     "source": "conferenceparties.com",
@@ -16186,7 +16412,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://fieldmarketing.www.cloudflare.com/cxocasinonightrsac26?utm_medium=referral&utm_source=www&utm_campaign=2026-q1-acq-namer-connectivity-ge-he-general-conferenceparties",
     "source": "conferenceparties.com",
@@ -16205,7 +16432,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://events.cohesity.com/cohesityresilienceden/cp",
     "source": "conferenceparties.com",
@@ -16223,7 +16451,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/v8uxohju",
     "source": "conferenceparties.com",
@@ -16242,7 +16471,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/ekq0z7ct",
     "source": "conferenceparties.com",
@@ -16261,7 +16491,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/2f8y5vbx",
     "source": "conferenceparties.com",
@@ -16280,7 +16511,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://futureconevents.com/events/bourbon-banter-2026/",
     "source": "conferenceparties.com",
@@ -16299,7 +16531,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.eventbrite.com/e/halcyon-lounge-vip-cocktail-party-rsa-tickets-1980638656539",
     "source": "conferenceparties.com",
@@ -16317,7 +16550,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://www.crowdstrike.com/en-us/events/rsac/#networking",
     "source": "conferenceparties.com",
@@ -16336,7 +16570,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://rsvp.withgoogle.com/events/rsac26-wine-down-wednesday",
     "source": "conferenceparties.com",
@@ -16354,7 +16589,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://astrix.security/events/rsac2026-agentic-connection-point/",
     "source": "conferenceparties.com",
@@ -16373,7 +16609,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://align.registration.goldcast.io/events/686ab6e4-a483-4a2e-b8ef-348f8f3ebfef",
     "source": "conferenceparties.com",
@@ -16392,7 +16629,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/9iuq15ru",
     "source": "conferenceparties.com",
@@ -16411,7 +16649,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/y8si2kt6",
     "source": "conferenceparties.com",
@@ -16430,7 +16669,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/owl4n6jg",
     "source": "conferenceparties.com",
@@ -16449,7 +16689,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://luma.com/q4qcgryi",
     "source": "conferenceparties.com",
@@ -16468,7 +16709,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://hubs.li/Q043FNC20",
     "source": "conferenceparties.com",
@@ -16486,7 +16728,8 @@
     "region": "west-coast",
     "cost": "Free",
     "tags": [
-      "Community & General"
+      "Community & General",
+      "After Party"
     ],
     "url": "https://tamnoon.io/tamnoon-at-rsac-2026-the-quest-for-safe-cloud-remediation",
     "source": "conferenceparties.com",
