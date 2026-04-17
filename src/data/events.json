@@ -37,7 +37,7 @@
     ],
     "url": "https://luma.com/4vj5uiau",
     "source": "luma",
-    "description": "An after-hours gathering for detection engineers during RSA Conference. No corporate pitches or product demos — just informal conversation for professionals who develop detection rules, refine detection logic, and engage in detection-related research and debate. Hosted by detections.ai.",
+    "description": "An after-hours gathering for detection engineers during RSA Conference. No corporate pitches or product demos \u2014 just informal conversation for professionals who develop detection rules, refine detection logic, and engage in detection-related research and debate. Hosted by detections.ai.",
     "organizer": "detections.ai"
   },
   {
@@ -57,7 +57,7 @@
     ],
     "url": "https://web.cvent.com/event/8e2794e8-358e-4dcd-98d4-7c10d032243e/summary",
     "source": "cvent",
-    "description": "Join Huntress for an informal after-hours gathering during RSA Conference. Drinks, appetizers, and casual conversation about cybersecurity — from identity access management challenges to current threat intelligence. No sales pitches, no slides. Space is limited.",
+    "description": "Join Huntress for an informal after-hours gathering during RSA Conference. Drinks, appetizers, and casual conversation about cybersecurity \u2014 from identity access management challenges to current threat intelligence. No sales pitches, no slides. Space is limited.",
     "organizer": "Huntress"
   },
   {
@@ -12483,7 +12483,7 @@
     "organizer": "Tejas Cyber Network"
   },
   {
-    "name": "Cyber Lounge – Daytime Access",
+    "name": "Cyber Lounge \u2013 Daytime Access",
     "slug": "cyber-lounge-daytime-access-rsac-2026",
     "date": "2026-03-23T07:30:00-07:00",
     "endDate": "2026-03-23T15:00:00-07:00",
@@ -12735,7 +12735,7 @@
     "organizer": "Dune Security, Abstract Security & Reality Defender"
   },
   {
-    "name": "Cyber Lounge – Live Music & Happy Hour",
+    "name": "Cyber Lounge \u2013 Live Music & Happy Hour",
     "slug": "cyber-lounge-live-music-happy-hour-rsac-2026",
     "date": "2026-03-23T15:00:00-07:00",
     "endDate": "2026-03-23T18:00:00-07:00",
@@ -13514,7 +13514,7 @@
     "organizer": "Legit Security"
   },
   {
-    "name": "Cyber Lounge – Daytime Access",
+    "name": "Cyber Lounge \u2013 Daytime Access",
     "slug": "cyber-lounge-daytime-access-rsac-2026",
     "date": "2026-03-24T07:30:00-07:00",
     "endDate": "2026-03-24T15:00:00-07:00",
@@ -14077,7 +14077,7 @@
     "organizer": "AegisAI Security"
   },
   {
-    "name": "Cyber Lounge – Live Music & Happy Hour",
+    "name": "Cyber Lounge \u2013 Live Music & Happy Hour",
     "slug": "cyber-lounge-live-music-happy-hour-rsac-2026",
     "date": "2026-03-24T15:00:00-07:00",
     "endDate": "2026-03-24T18:00:00-07:00",
@@ -14405,26 +14405,6 @@
     "image": "/images/events/toasts-to-telemetry-rsac-2026.jpg"
   },
   {
-    "name": "Toasts to Telemetry",
-    "slug": "toasts-to-telemetry-rsac-2026",
-    "date": "2026-03-24T17:30:00-07:00",
-    "endDate": "2026-03-24T19:30:00-07:00",
-    "type": "afterparty",
-    "format": "in-person",
-    "city": "San Francisco",
-    "region": "west-coast",
-    "cost": "Free",
-    "tags": [
-      "Community & General",
-      "After Party"
-    ],
-    "url": "https://info.cribl.io/RM-FEV-FY27-Q1-03-24-RSA-Happy-Hour-SF_LP-Registration",
-    "source": "conferenceparties.com",
-    "description": "Cribl HQ. 22 4th St #1300, San Francisco. Hosted by Cribl, Tailscale, 7AI, Axonius, Imply & Tines.",
-    "organizer": "Cribl, Tailscale, 7AI, Axonius, Imply & Tines",
-    "image": "/images/events/toasts-to-telemetry-rsac-2026.jpg"
-  },
-  {
     "name": "Security After Dark - Cocktail Party",
     "slug": "security-after-dark-cocktail-party-rsac-2026",
     "date": "2026-03-24T18:00:00-07:00",
@@ -14540,7 +14520,7 @@
     "organizer": "Workbrew & Oso"
   },
   {
-    "name": "Prompted—Live Art in the Age of AI",
+    "name": "Prompted\u2014Live Art in the Age of AI",
     "slug": "promptedlive-art-in-the-age-of-ai-rsac-2026",
     "date": "2026-03-24T18:00:00-07:00",
     "endDate": "2026-03-24T21:00:00-07:00",
@@ -14715,27 +14695,7 @@
     "image": "/images/events/binary-beats-party-rsac-2026.jpg"
   },
   {
-    "name": "Binary Beats Party",
-    "slug": "binary-beats-party-rsac-2026",
-    "date": "2026-03-24T18:00:00-07:00",
-    "endDate": "2026-03-24T22:00:00-07:00",
-    "type": "afterparty",
-    "format": "in-person",
-    "city": "San Francisco",
-    "region": "west-coast",
-    "cost": "Free",
-    "tags": [
-      "Community & General",
-      "After Party"
-    ],
-    "url": "https://event.synack.com/rsac-2026-party?utm_campaign=37129350-FY27-RSA&utm_source=other-sources&utm_channel=conferenceparties&utm_medium=website&utm_audience=all&utm_content=rsac-2026-where-ai-humans-meet-binary-beats-party",
-    "source": "conferenceparties.com",
-    "description": "Fogo de Chao. 201 3rd St, San Francisco. Hosted by Synack.",
-    "organizer": "Synack",
-    "image": "/images/events/binary-beats-party-rsac-2026.jpg"
-  },
-  {
-    "name": "Starlite Soirée: An RSAC Evening Exchange",
+    "name": "Starlite Soir\u00e9e: An RSAC Evening Exchange",
     "slug": "starlite-soire-an-rsac-evening-exchange-rsac-2026",
     "date": "2026-03-24T18:30:00-07:00",
     "endDate": "2026-03-24T20:30:00-07:00",
@@ -15276,7 +15236,7 @@
     "image": "/images/events/ciso-breakfast-cafe-de-la-presse-rsac-2026.jpg"
   },
   {
-    "name": "Cyber Lounge – Daytime Access",
+    "name": "Cyber Lounge \u2013 Daytime Access",
     "slug": "cyber-lounge-daytime-access-rsac-2026",
     "date": "2026-03-25T07:30:00-07:00",
     "endDate": "2026-03-25T15:00:00-07:00",
@@ -15652,26 +15612,6 @@
     "image": "/images/events/newly-added-premiere-ciso-executive-drop-in-lunch-event-rsac-2026.jpg"
   },
   {
-    "name": "Hands-On MCP Security Workshop",
-    "slug": "hands-on-mcp-security-workshop-rsac-2026",
-    "date": "2026-03-24T11:30:00-07:00",
-    "endDate": "2026-03-24T13:30:00-07:00",
-    "type": "afterparty",
-    "format": "in-person",
-    "city": "San Francisco",
-    "region": "west-coast",
-    "cost": "Free",
-    "tags": [
-      "Community & General",
-      "After Party"
-    ],
-    "url": "https://astrix.security/events/rsac2026-mcp-workshop/",
-    "source": "conferenceparties.com",
-    "description": "Register to See Address. Register to See Address, San Francisco. Hosted by Astrix Security.",
-    "organizer": "Astrix Security",
-    "image": "/images/events/hands-on-mcp-security-workshop-rsac-2026.jpg"
-  },
-  {
     "name": "RSA Yacht Happy Hour with depthfirst",
     "slug": "rsa-yacht-happy-hour-with-depthfirst-rsac-2026",
     "date": "2026-03-25T12:30:00-07:00",
@@ -15772,7 +15712,7 @@
     "image": "/images/events/the-women-in-security-documentary-rsac-2026.jpg"
   },
   {
-    "name": "Cyber Lounge – Live Music & Happy Hour",
+    "name": "Cyber Lounge \u2013 Live Music & Happy Hour",
     "slug": "cyber-lounge-live-music-happy-hour-rsac-2026",
     "date": "2026-03-25T15:00:00-07:00",
     "endDate": "2026-03-25T18:00:00-07:00",
@@ -16441,26 +16381,6 @@
     "organizer": "Cohesity"
   },
   {
-    "name": "DetectCon After Dark",
-    "slug": "detectcon-after-dark-rsac-2026",
-    "date": "2026-03-25T20:30:00-07:00",
-    "endDate": "2026-03-25T23:30:00-07:00",
-    "type": "afterparty",
-    "format": "in-person",
-    "city": "San Francisco",
-    "region": "west-coast",
-    "cost": "Free",
-    "tags": [
-      "Community & General",
-      "After Party"
-    ],
-    "url": "https://luma.com/v8uxohju",
-    "source": "conferenceparties.com",
-    "description": "Starlite Beacon Grand Hotel. 450 Powell St, San Francisco. Hosted by Detections.ai & Abstract.",
-    "organizer": "Detections.ai & Abstract",
-    "image": "/images/events/detectcon-after-dark-rsac-2026.jpg"
-  },
-  {
     "name": "The Late Night Recon",
     "slug": "the-late-night-recon-rsac-2026",
     "date": "2026-03-25T22:00:00-07:00",
@@ -16736,5 +16656,4001 @@
     "description": "Across The Cloud Realm. Across The Cloud Realm, San Francisco. Hosted by Tamnoon.",
     "organizer": "Tamnoon",
     "image": "/images/events/the-quest-for-safe-cloud-remediation-rsac-2026.jpg"
+  },
+  {
+    "name": "ISACA Philadelphia Spring Conference 2026",
+    "slug": "isaca-philadelphia-spring-conference-2026",
+    "date": "2026-04-20T07:30:00-04:00",
+    "endDate": "2026-04-22T17:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Philadelphia",
+    "region": "northeast",
+    "cost": null,
+    "tags": [
+      "Compliance & GRC",
+      "Community & General"
+    ],
+    "url": "https://engage.isaca.org/philadelphiachapter/events/eventdescription?CalendarEventKey=70a737c7-452f-4b92-a456-019cac85a058",
+    "image": null,
+    "description": "ISACA Philadelphia chapter's annual spring conference covering IT audit, cybersecurity, governance, and risk management for professionals in the Philadelphia region."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Dallas",
+    "slug": "official-cybersecurity-summit-dallas-2026",
+    "date": "2026-10-29T08:00:00-05:00",
+    "endDate": "2026-10-29T18:00:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Dallas",
+    "region": "southwest",
+    "cost": "$250",
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://cyberriskalliance.swoogo.com/dallas-oct-2026",
+    "image": "https://assets.swoogo.com/uploads/full/6104068-691ca6027a28a.png",
+    "description": "Full-day executive summit for CISOs and senior leaders featuring interactive panels, solution showcases, CPE credits, and networking at the Sheraton Dallas Hotel."
+  },
+  {
+    "name": "OWASP Los Angeles: Finding Broken Logic And Auth With AI-Powered Multimodal Detection",
+    "slug": "owasp-la-ai-detection-april-2026",
+    "date": "2026-04-23T00:30:00-07:00",
+    "endDate": "2026-04-23T03:30:00-07:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Playa Vista",
+    "region": "west-coast",
+    "cost": "free",
+    "tags": [
+      "AppSec & DevSecOps",
+      "AI & Machine Learning"
+    ],
+    "url": "https://luma.com/owaspla",
+    "image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,anim=false,background=white,quality=75,width=180,height=180/event-covers/eq/8a2f9336-ae85-4ebb-b2da-cc16c8006e08.png",
+    "description": "OWASP Los Angeles chapter meetup on using AI-powered multimodal detection to find broken logic and authentication vulnerabilities in applications."
+  },
+  {
+    "name": "CSO Cybersecurity Awards & Conference 2026",
+    "slug": "cso-cybersecurity-awards-conference-2026",
+    "date": "2026-05-11T00:00:00-05:00",
+    "endDate": "2026-05-13T23:59:59-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Nashville",
+    "region": "southeast",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://event.foundryco.com/cso-conference-awards/",
+    "image": "https://event.foundryco.com/wp-content/uploads/sites/10/2024/04/CSO_CyberAwardsConf_No-region_Color-White@2x-800x96.png.webp",
+    "description": "Annual conference for CISOs and senior security executives addressing AI-driven security, identity controls, resilience engineering, and governance challenges at Loews Nashville Hotel."
+  },
+  {
+    "name": "Secure Minnesota Conference",
+    "slug": "secure-minnesota-conference-2026",
+    "date": "2026-04-30T00:00:00-05:00",
+    "endDate": null,
+    "type": "conference",
+    "format": "in-person",
+    "city": "Minneapolis",
+    "region": "midwest",
+    "cost": "free",
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://www.hbs.net/secure-minnesota",
+    "image": "https://www.hbs.net/wp-content/uploads/2025/01/SecureMNHBS_RGB_LockedUp_Stacked_F-02.png",
+    "description": "Full-day Minnesota cybersecurity conference offering networking and continuing education in cybersecurity, physical security, and IT risk management."
+  },
+  {
+    "name": "Secure360 Conference 2026",
+    "slug": "secure360-conference-2026",
+    "date": "2026-05-13T00:00:00-05:00",
+    "endDate": "2026-05-14T23:59:59-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Prior Lake",
+    "region": "midwest",
+    "cost": null,
+    "tags": [
+      "Compliance & GRC",
+      "Community & General"
+    ],
+    "url": "https://www.secure360.org/event/2026Secure360/home",
+    "image": "https://umsafoundation.org/wp-content/uploads/2025/09/Secure360-Conf_Color-1024x296-641x186.png",
+    "description": "Comprehensive security and risk management conference covering cybersecurity, governance, compliance, business continuity, and professional development with the theme of adapting to evolving threats."
+  },
+  {
+    "name": "SecretCon 4: Hypnotized",
+    "slug": "secretcon-4-hypnotized-2026",
+    "date": "2026-06-04T00:00:00-05:00",
+    "endDate": "2026-06-05T23:59:59-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Saint Paul",
+    "region": "midwest",
+    "cost": "paid",
+    "tags": [
+      "Threat Intelligence",
+      "AI & Machine Learning"
+    ],
+    "url": "https://secretcon.com",
+    "image": "https://secretcon.com/wp-content/uploads/2026/03/st-paul1.png",
+    "description": "Minnesota's hacker and cybersecurity conference featuring keynotes, presentations, and workshops on technology, AI, security, and hacking across multiple specialized tracks."
+  },
+  {
+    "name": "OWASP Phoenix Chapter May Meeting",
+    "slug": "owasp-phoenix-may-2026",
+    "date": "2026-05-05T19:30:00-07:00",
+    "endDate": "2026-05-05T21:00:00-07:00",
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Mesa",
+    "region": "southwest",
+    "cost": "free",
+    "tags": [
+      "AppSec & DevSecOps",
+      "AI & Machine Learning"
+    ],
+    "url": "https://www.meetup.com/owasp-phoenix-chapter/events/313469387/",
+    "image": "https://secure.meetupstatic.com/photos/event/c/6/4/1/highres_519170753.jpeg",
+    "description": "OWASP Phoenix chapter meeting covering agentic AI design patterns and their security implications, including delegated identity abuse, cross-agent trust violations, and unsafe autonomy boundaries."
+  },
+  {
+    "name": "SecureWorld South Florida 2026",
+    "slug": "secureworld-south-florida-2026",
+    "date": "2026-05-21T08:00:00-04:00",
+    "endDate": "2026-05-21T17:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Hollywood",
+    "region": "southeast",
+    "cost": "paid",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://events.secureworld.io/details/south-florida-2026/",
+    "image": null,
+    "description": "Regional cybersecurity conference offering 15+ educational sessions, keynote presentations, expert panels, and vendor exhibits with 6-12 CPE credits available."
+  },
+  {
+    "name": "Cyber Leaders' Summit 2026: Miami",
+    "slug": "cyber-leaders-summit-miami-2026",
+    "date": "2026-06-16T09:00:00-04:00",
+    "endDate": "2026-06-17T17:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Miami",
+    "region": "southeast",
+    "cost": null,
+    "tags": [
+      "Networking & Career",
+      "Community & General"
+    ],
+    "url": "https://www.helpnetsecurity.com/event/cyber-leaders-summit-2026-miami/",
+    "image": null,
+    "description": "Invitation-only summit bringing together senior cybersecurity decision-makers for keynotes, panel discussions, peer roundtables, and one-on-one meetings with solution providers."
+  },
+  {
+    "name": "ISACA Chicago Chapter Monthly Meeting - June",
+    "slug": "isaca-chicago-june-2026",
+    "date": "2026-06-18T15:00:00-05:00",
+    "endDate": "2026-06-18T17:00:00-05:00",
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Chicago",
+    "region": "midwest",
+    "cost": null,
+    "tags": [
+      "Compliance & GRC"
+    ],
+    "url": "https://engage.isaca.org/chicagochapter/events/eventdescription?CalendarEventKey=2fcbef34-0c96-4032-839a-019c6e93c426&CommunityKey=6bf50355-af2c-4403-9c35-3685d3b46b2e",
+    "image": "https://higherlogicdownload.s3.amazonaws.com/ISACA/LogoImages/cc0aff67-17b8-4ff4-a563-713807865904_ISACA_logo_Chicago_RGB.png",
+    "description": "Monthly ISACA Chicago chapter gathering for IT governance, risk, and compliance professionals to network and engage with industry peers."
+  },
+  {
+    "name": "Geek Week 2026",
+    "slug": "geek-week-atlanta-2026",
+    "date": "2026-04-28T00:00:00-04:00",
+    "endDate": "2026-04-30T23:59:59-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Sandy Springs",
+    "region": "southeast",
+    "cost": null,
+    "tags": [
+      "Compliance & GRC"
+    ],
+    "url": "https://engage.isaca.org/atlantachapter/events/geek-week-2025",
+    "image": "https://higherlogicdownload.s3.amazonaws.com/ISACA/5156e152-edb6-4944-848d-43c42680dcc3/UploadedImages/Geek_Week_Logi.png",
+    "description": "Three-day ISACA Atlanta conference focused on governance, risk, compliance, and privacy, featuring multi-day interactive training, networking, and the inaugural Pilot CyberDay."
+  },
+  {
+    "name": "SecureWorld West Virtual Conference 2026",
+    "slug": "secureworld-west-virtual-2026",
+    "date": "2026-06-17T09:00:00-07:00",
+    "endDate": "2026-06-17T17:00:00-07:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Online",
+    "region": "virtual",
+    "cost": null,
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.secureworld.io/events/west-2026",
+    "image": null,
+    "description": "Virtual cybersecurity conference featuring keynote sessions, expert panels, vendor presentations, and breakout discussions with 12-18 CPE credits available."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Boston",
+    "slug": "cybersecurity-summit-boston-2026",
+    "date": "2026-05-06T08:00:00-04:00",
+    "endDate": "2026-05-06T18:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Boston",
+    "region": "northeast",
+    "cost": "$250",
+    "tags": [
+      "Networking & Career",
+      "Community & General"
+    ],
+    "url": "https://cyberriskalliance.swoogo.com/boston-2026",
+    "image": "https://assets.swoogo.com/uploads/full/3292967-6567ae01589a9.png",
+    "description": "Full-day summit for CISOs and senior security leaders featuring interactive panels on AI-driven threats, supply chain resilience, and aligning security with business outcomes."
+  },
+  {
+    "name": "OWASP Boston Chapter Meeting - May 2026",
+    "slug": "owasp-boston-may-2026",
+    "date": "2026-05-13T18:30:00-04:00",
+    "endDate": "2026-05-13T20:30:00-04:00",
+    "type": "chapter",
+    "format": "hybrid",
+    "city": "Boston",
+    "region": "northeast",
+    "cost": "Free",
+    "tags": [
+      "AppSec & DevSecOps"
+    ],
+    "url": "https://owasp.org/www-chapter-boston/",
+    "image": "https://owasp.org/assets/images/logo.png",
+    "description": "Monthly OWASP Boston chapter meeting bringing together application security professionals for presentations and community discussion on software security topics."
+  },
+  {
+    "name": "ISC2 Spotlight On Cloud Security 2026",
+    "slug": "isc2-spotlight-cloud-security-2026",
+    "date": "2026-04-28T10:00:00-04:00",
+    "endDate": "2026-04-29T23:59:59-04:00",
+    "type": "webinar",
+    "format": "virtual",
+    "city": "Online",
+    "region": "virtual",
+    "cost": "Free",
+    "tags": [
+      "Cloud Security",
+      "AI & Machine Learning"
+    ],
+    "url": "https://www.isc2.org/Insights/2026/04/ISC2-Spotlight-2026-Cloud-Security",
+    "image": "https://edge.sitecorecloud.io/internationf173-xmc4e73-prodbc0f-9660/media/Project/ISC2/Main/Media/events/EVENTS-ISC2-Spotlight-416x416.jpg",
+    "description": "Free two-day virtual conference on cloud security governance, AI-driven threats, zero trust principles, and data security posture management with up to 5.5 CPE credits."
+  },
+  {
+    "name": "SecureWorld Financial Services Virtual Conference 2026",
+    "slug": "secureworld-financial-services-2026-2",
+    "date": "2026-04-29T09:00:00-05:00",
+    "endDate": "2026-04-29T17:00:00-05:00",
+    "type": "webinar",
+    "format": "virtual",
+    "city": "Online",
+    "region": "virtual",
+    "cost": null,
+    "tags": [
+      "Compliance & GRC",
+      "Community & General"
+    ],
+    "url": "https://www.secureworld.io/events/financial-services-2026",
+    "image": null,
+    "description": "Virtual cybersecurity conference tailored for financial services IT security professionals, featuring keynotes, expert panels, and breakout sessions with 6 CPE credits available."
+  },
+  {
+    "name": "Cybersecurity, Stronger Together 2026 Conference",
+    "slug": "cybersecurity-stronger-together-2026",
+    "date": "2026-04-20T08:30:00-04:00",
+    "endDate": "2026-04-21T17:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Washington, DC",
+    "region": "northeast",
+    "cost": "$99",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.wicys.org/event/cybersecurity-stronger-together-2026-conference/",
+    "image": "https://www.wicys.org/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-1.15.14-PM.png",
+    "description": "WiCyS-supported conference at George Washington University examining the intersection of digital and physical security threats, bringing together industry leaders and cybersecurity professionals."
+  },
+  {
+    "name": "AFCEA TechNet Cyber 2026",
+    "slug": "afcea-technet-cyber-2026",
+    "date": "2026-06-02T09:00:00-04:00",
+    "endDate": "2026-06-04T17:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Washington, DC",
+    "region": "northeast",
+    "cost": "Unknown",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "url": "https://events.afcea.org/afceacyber26/Public/enter.aspx",
+    "image": "https://events.afcea.org/afceacyber26/custom/images/interface/pic1.jpg",
+    "description": "Three-day event bringing together IT and cybersecurity professionals to explore policy, architecture, and operational capabilities for protecting cyber assets and meeting global security challenges."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: South Florida",
+    "slug": "official-cybersecurity-summit-south-florida-2026",
+    "date": "2026-04-30T08:00:00-04:00",
+    "endDate": "2026-04-30T18:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Hollywood, FL",
+    "region": "southeast",
+    "cost": "$250",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cyberriskalliance.swoogo.com/s-florida-april-2026/10717764",
+    "image": "https://assets.swoogo.com/uploads/full/6250969-696107cc6488b.png",
+    "description": "6th annual summit for CISOs and senior leaders focused on strengthening resilience, reducing risk, and aligning security with business goals through panels, solution showcases, and networking."
+  },
+  {
+    "name": "BSides Tampa 2026 CTF",
+    "slug": "bsides-tampa-ctf-2026",
+    "date": "2026-05-16T09:00:00-04:00",
+    "endDate": "2026-05-16T17:00:00-04:00",
+    "type": "ctf",
+    "format": "in-person",
+    "city": "Tampa, FL",
+    "region": "southeast",
+    "cost": "Unknown",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "url": "https://bsidestampa.net/activities/ctf",
+    "image": "https://bsidestampa.net/assets/images/BSides2025EventPhotos/IMG_0636.webp",
+    "description": "Capture the Flag competition at BSides Tampa with challenges spanning web exploitation, reverse engineering, cryptography, and forensics for beginner through expert skill levels."
+  },
+  {
+    "name": "Cyber Florida CyberWorks: CompTIA Security+ Cohort",
+    "slug": "cyber-florida-cyberworks-security-plus-2026",
+    "date": "2026-05-04T00:00:00-04:00",
+    "endDate": "2026-07-25T00:00:00-04:00",
+    "type": "workshop",
+    "format": "virtual",
+    "city": "Tampa, FL",
+    "region": "southeast",
+    "cost": "Free",
+    "tags": [
+      "Networking & Career",
+      "Security Awareness"
+    ],
+    "url": "https://cyberflorida.org/cyberworks/",
+    "image": "https://cyberflorida.org/wp-content/smush-webp/ls-project-65-slide-1.jpg.webp",
+    "description": "Free 12-week accelerated training program preparing career-changers for cybersecurity roles through online coursework, live virtual sessions, hands-on labs, and a CompTIA Security+ exam voucher."
+  },
+  {
+    "name": "Tampa Cybersecurity Conference",
+    "slug": "futurecon-tampa-2026",
+    "date": "2026-06-04T08:00:00-04:00",
+    "endDate": "2026-06-04T17:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Tampa, FL",
+    "region": "southeast",
+    "cost": "Unknown",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.uscybersecurity.net/event/tampa-cybersecurity-conference/",
+    "image": "https://www.uscybersecurity.net/wp-content/uploads/2026/02/Screenshot-2026-02-11-Tampa.jpg",
+    "description": "Full-day FutureCon cybersecurity event in Tampa offering up to 10 CPE credits, with sessions on current threats, risk management, and networking with the local security community."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Minneapolis",
+    "slug": "official-cybersecurity-summit-minneapolis-2026",
+    "date": "2026-06-30T08:00:00-05:00",
+    "endDate": "2026-06-30T18:00:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Minneapolis, MN",
+    "region": "midwest",
+    "cost": "$250",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/minneapolis-2026/",
+    "image": "https://assets.swoogo.com/uploads/full/6248905-696021bb7e7f8.jpg",
+    "description": "2nd annual summit for CISOs and senior leaders featuring interactive panels, solution showcases, and networking focused on resilience and risk alignment with business goals."
+  },
+  {
+    "name": "Level Zero OT Cyber Security Conference",
+    "slug": "level-zero-ot-cybersecurity-atlanta-2026",
+    "date": "2026-04-20T08:00:00-05:00",
+    "endDate": "2026-04-22T14:00:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Atlanta, GA",
+    "region": "southeast",
+    "cost": "Meetup members: 10% discount with code LZMEETUP10",
+    "tags": [
+      "Threat Intelligence",
+      "Community & General"
+    ],
+    "url": "https://www.meetup.com/houston-cyber-security-for-control-systems/",
+    "image": "https://secure.meetupstatic.com/photos/event/b/e/8/3/highres_533148771.jpeg",
+    "description": "Multidisciplinary conference at Georgia Tech bridging IT and OT security to develop comprehensive infrastructure protection strategies for operational technology environments."
+  },
+  {
+    "name": "The IIA Cybersecurity Virtual Conference 2026",
+    "slug": "iia-cybersecurity-virtual-conference-2026",
+    "date": "2026-11-12",
+    "endDate": "2026-11-12",
+    "type": "webinar",
+    "format": "virtual",
+    "city": "Online",
+    "region": "virtual",
+    "cost": "$499 USD",
+    "tags": [
+      "Compliance & GRC"
+    ],
+    "url": "https://www.theiia.org/en/events/conference/virtual-conferences/cybersecurity-virtual-conference/",
+    "image": "https://www.theiia.org/globalassets/site/events/conferences/virtual/cybersecurity-virtual-conference/2025/2025-cybersecurity-virtual-conference.png",
+    "description": "One-day virtual conference for internal auditors and cybersecurity professionals covering data protection, privacy, threat management, compliance, and incident response."
+  },
+  {
+    "name": "ICS Lockdown Summit 2026",
+    "slug": "ics-lockdown-summit-2026",
+    "date": "2026-04-22",
+    "endDate": null,
+    "type": "webinar",
+    "format": "virtual",
+    "city": "Online",
+    "region": "virtual",
+    "cost": null,
+    "tags": [
+      "Threat Intelligence"
+    ],
+    "url": "https://register.securityweek.com/ics-lockdown",
+    "image": "https://register.securityweek.com/hs-fs/hubfs/ICS%20Lockdown%202026%20Summit%20-%20Landing%20Page%20Hero%20UPDATE.jpg?width=1940&height=500&name=ICS%20Lockdown%202026%20Summit%20-%20Landing%20Page%20Hero%20UPDATE.jpg",
+    "description": "Online summit diving deep into industrial cybersecurity, helping professionals protect operational technology environments against evolving cyber threats."
+  },
+  {
+    "name": "Cloud & Data Security Summit 2026",
+    "slug": "cloud-data-security-summit-2026",
+    "date": "2026-07-15T11:00:00",
+    "endDate": "2026-07-15T16:00:00",
+    "type": "webinar",
+    "format": "virtual",
+    "city": "Online",
+    "region": "virtual",
+    "cost": null,
+    "tags": [
+      "Cloud Security"
+    ],
+    "url": "https://www.securitysummits.com/event/cloud-security-summit/",
+    "image": "https://www.securitysummits.com/wp-content/uploads/2026/01/Cloud-Security-Summit-2026-Summits-Page-Hero.jpg",
+    "description": "Virtual summit exploring cloud attack surfaces, SaaS security, data security posture management, and AI/LLM technologies across public cloud infrastructure."
+  },
+  {
+    "name": "Infosec Anti-Summit Atlanta 2026",
+    "slug": "infosec-anti-summit-atlanta-2026",
+    "date": "2026-05-19T08:30:00-04:00",
+    "endDate": "2026-05-19T17:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Atlanta",
+    "region": "southeast",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "url": "https://www.thecisosociety.com/anti-summit-atlanta-2026",
+    "image": "https://images.squarespace-cdn.com/content/v1/604e709f9f1c0d72bbea74b1/002f2535-8aaf-419e-aa46-3efd8b7f2041/Website+Hero.png",
+    "description": "Unconventional security event featuring hands-on workshops, tabletop exercises, AI threat response scenarios, and CISO-led roundtables designed for maximum interactive engagement."
+  },
+  {
+    "name": "Charlotte ISSA April Monthly Meeting",
+    "slug": "charlotte-issa-april-2026",
+    "date": "2026-04-22T07:30:00-04:00",
+    "endDate": "2026-04-22T12:00:00-04:00",
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Charlotte",
+    "region": "southeast",
+    "cost": null,
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.charlotteissa.org/events/april-monthly-meeting",
+    "image": "https://images.squarespace-cdn.com/content/v1/63e6a55f9a59ef70e469533b/170e2fbb-92b2-41c3-9e61-eeb1698ccc1d/charlotteISSA-newwhite.png",
+    "description": "Monthly ISSA Charlotte chapter meeting featuring networking breakfast followed by three cybersecurity presentations covering endpoint security, IT consulting, and enterprise solutions."
+  },
+  {
+    "name": "DC704 Monthly Meetup",
+    "slug": "dc704-charlotte-april-2026",
+    "date": "2026-04-20T19:00:00-04:00",
+    "endDate": null,
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Charlotte",
+    "region": "southeast",
+    "cost": null,
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://defcon704.org/about",
+    "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/CZBfNiDYNFgi0E4z/daniel-weiss-aj2os9mygju-unsplash-oEZceuEtqlxH2XSJ.jpg",
+    "description": "Charlotte's independent DEF CON chapter meetup bringing together security enthusiasts, hackers, and tinkerers for discussions, presentations, CTFs, workshops, and hands-on learning."
+  },
+  {
+    "name": "Chicago CISO Community Executive Summit",
+    "slug": "chicago-ciso-executive-summit-2026",
+    "date": "2026-05-13T08:00:00-05:00",
+    "endDate": "2026-05-13T16:00:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Chicago",
+    "region": "midwest",
+    "cost": null,
+    "tags": [
+      "Networking & Career",
+      "Community & General"
+    ],
+    "url": "https://www.evanta.com/ciso/chicago/chicago-ciso-executive-summit-8446",
+    "image": "https://emt.gartnerweb.com/ngw/evanta-assets/events/26CHICISOES8446/social-CISO.png",
+    "description": "Peer-driven executive summit at Willis Tower where CISOs tackle shared challenges including cybersecurity's business value, identity management, and risk mitigation through keynotes and roundtables."
+  },
+  {
+    "name": "SANS Chicago 2026",
+    "slug": "sans-chicago-2026",
+    "date": "2026-06-08T08:30:00-05:00",
+    "endDate": "2026-06-13T17:30:00-05:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Chicago",
+    "region": "midwest",
+    "cost": "$8,260-$8,780 per course",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.sans.org/cyber-security-training-events/chicago-2026",
+    "image": "https://images.contentstack.io/v3/assets/bltabe50a4554f8e97f/bltc1d392a917946edb/6897c254f0560a5ab967f7e4/assets_hero_Chicago1_856x856.png",
+    "description": "Expert-led cybersecurity training offering 17 courses with immersive labs, real-world simulations, and a NetWars tournament for professionals seeking to advance their security skills."
+  },
+  {
+    "name": "SANS Rocky Mountain 2026",
+    "slug": "sans-rocky-mountain-2026",
+    "date": "2026-04-20T08:30:00-06:00",
+    "endDate": "2026-04-25T17:30:00-06:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Denver, CO",
+    "region": "southwest",
+    "cost": "$8,780 USD (standard 6-day course); $999 USD certification exam",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.sans.org/cyber-security-training-events/rocky-mountain-2026",
+    "image": "https://images.contentstack.io/v3/assets/bltabe50a4554f8e97f/bltc7432c729da94b52/68132271858ac9463f22dd95/assets_hero_Denver_856x856.png",
+    "description": "Advanced cyber defense and leadership training in Denver featuring 10 courses and a NetWars tournament with hands-on, expert-led instruction for immediate real-world impact."
+  },
+  {
+    "name": "ISACA Denver April Chapter Meeting (Annual General Meeting)",
+    "slug": "isaca-denver-agm-april-2026",
+    "date": "2026-04-17T08:00:00-06:00",
+    "endDate": "2026-04-17T17:00:00-06:00",
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Denver, CO",
+    "region": "southwest",
+    "cost": null,
+    "tags": [
+      "Compliance & GRC"
+    ],
+    "url": "https://engage.isaca.org/denverchapter/events/eventdescription?CalendarEventKey=de489367-32b8-4fd9-b0a0-019288673178&CommunityKey=9809e7d6-9c42-4cbb-ae66-87d804f3eb48",
+    "image": "https://higherlogicdownload.s3.amazonaws.com/ISACA/LogoImages/2139d72f-6c2e-4bb3-a540-8202cf401a75_ISACA_logo_Denver_RGB.png",
+    "description": "ISACA Denver's annual general meeting featuring sessions on compliance, cyber policy, pentest ROI, governance, and security frameworks alongside board presentations and networking."
+  },
+  {
+    "name": "Denver Cybersecurity Summit 2026 (10th Annual)",
+    "slug": "denver-cybersecurity-summit-2026",
+    "date": "2026-05-05T08:00:00-06:00",
+    "endDate": "2026-05-05T17:00:00-06:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Denver, CO",
+    "region": "southwest",
+    "cost": "$250 Standard Admission",
+    "tags": [
+      "Networking & Career",
+      "Community & General"
+    ],
+    "url": "https://cyberriskalliance.swoogo.com/denver-2026",
+    "image": "https://assets.swoogo.com/uploads/full/6242410-695ec2dab40e4.png",
+    "description": "Tenth annual summit for CISOs and senior leaders covering AI risk, supply chain security, and resilience strategies, with catered meals, networking, and CPE/CEU credits available."
+  },
+  {
+    "name": "Arizona Technology Council 13th Annual Cybersecurity Summit",
+    "slug": "arizona-tech-council-cybersecurity-summit-2026",
+    "date": "2026-05-20T10:45:00-07:00",
+    "endDate": "2026-05-20T15:30:00-07:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Phoenix",
+    "region": "southwest",
+    "cost": "$60-$75",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "url": "https://tech.aztechcouncil.org/events/details/2026-cybersecurity-summit-5380",
+    "image": "https://www.aztechcouncil.org/wp-content/uploads/2026/01/2026-Cybersecurity-Summit-1200x630-1-1024x538.jpg",
+    "description": "Annual summit bringing together government and business leaders to learn about cybersecurity threats, vulnerabilities, and data security solutions with keynote speakers, vendor showcases, and networking."
+  },
+  {
+    "name": "InfoSec Nashville Cybersecurity Conference",
+    "slug": "infosec-nashville-2026",
+    "date": "2026-09-17T09:00:00-05:00",
+    "endDate": "2026-09-18T17:00:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Nashville",
+    "region": "southeast",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://issamidtn.org/infosec-nashville-cybersecurity-conference/",
+    "image": null,
+    "description": "ISSA of Middle Tennessee's 25th anniversary cybersecurity conference bringing together technologists and security professionals for a full day of speakers and networking."
+  },
+  {
+    "name": "May 2026 ISACA Phoenix Chapter Meeting",
+    "slug": "isaca-phoenix-may-2026",
+    "date": "2026-05-14T10:30:00-07:00",
+    "endDate": "2026-05-14T15:15:00-07:00",
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Phoenix",
+    "region": "southwest",
+    "cost": null,
+    "tags": [
+      "Compliance & GRC"
+    ],
+    "url": "https://engage.isaca.org/phoenixchapter/events/eventdescription?CalendarEventKey=c74f3b28-1eba-4be7-bc7f-019bbe99bd9c",
+    "image": null,
+    "description": "ISACA Phoenix chapter meeting for IT audit, governance, risk, and cybersecurity professionals in the Phoenix area."
+  },
+  {
+    "name": "ISACA Portland Spring Training 2026",
+    "slug": "isaca-portland-spring-training-2026",
+    "date": "2026-05-13T08:00:00-07:00",
+    "endDate": "2026-05-14T17:00:00-07:00",
+    "type": "workshop",
+    "format": "in-person",
+    "city": "Portland",
+    "region": "west-coast",
+    "cost": null,
+    "tags": [
+      "Compliance & GRC"
+    ],
+    "url": "https://engage.isaca.org/portlandoregonchapter/events/calendar",
+    "image": null,
+    "description": "ISACA Portland chapter spring training event for IT audit, governance, risk, and cybersecurity professionals in the Pacific Northwest."
+  },
+  {
+    "name": "RainSec PDX - Monthly Meetup (May)",
+    "slug": "rainsec-pdx-may-2026",
+    "date": "2026-05-26T18:30:00-07:00",
+    "endDate": "2026-05-26T22:00:00-07:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Portland",
+    "region": "west-coast",
+    "cost": "free",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.meetup.com/rainsec/events/313031022/",
+    "image": "https://secure.meetupstatic.com/photos/event/2/3/a/a/highres_484329130.jpeg",
+    "description": "Informal monthly gathering of Portland-area security professionals for vendor-free networking and discussion of information security topics."
+  },
+  {
+    "name": "DEF CON 34 CTF Qualifier (Online)",
+    "slug": "def-con-34-ctf-qualifier-2026",
+    "date": "2026-05-22T21:00:00+00:00",
+    "endDate": "2026-05-24T21:00:00+00:00",
+    "type": "ctf",
+    "format": "virtual",
+    "city": "Online",
+    "region": "virtual",
+    "cost": "Free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://bbbirds.org/",
+    "image": "https://ctftime.org/media/cache/94/e9/94e9dbfeeac979015ff6fc74b5151fd8.png",
+    "description": "Open-registration online Jeopardy-style CTF qualifier for DEF CON 34, with top teams advancing to the finals at DEF CON in Las Vegas in August 2026."
+  },
+  {
+    "name": "ISACA Greater Houston Chapter Spring Conference 2026",
+    "slug": "isaca-houston-spring-conference-2026",
+    "date": "2026-05-28T08:00:00-05:00",
+    "endDate": "2026-05-28T16:30:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Houston, TX",
+    "region": "southwest",
+    "cost": null,
+    "tags": [
+      "Compliance & GRC",
+      "AI & Machine Learning"
+    ],
+    "url": "https://engage.isaca.org/greaterhoustonchapter/events/eventdescription?CalendarEventKey=6d03d3e3-144e-4e22-8d1e-019bc3c27921&CommunityKey=60fadc89-9591-440d-95ec-a45382a39195",
+    "image": "https://higherlogicdownload.s3.amazonaws.com/ISACA/LogoImages/e849e745-4ba2-42e5-9784-c4c1e6f55385_ISACA_logo_GreaterHouston_RGB.png",
+    "description": "Full-day conference exploring AI's impact on resilience, governance and controls, government risk management partnerships, and IT audit transformation through automation."
+  },
+  {
+    "name": "CyberRisk CISO Dinner: Los Angeles",
+    "slug": "cyberrisk-ciso-dinner-la-2026",
+    "date": "2026-05-06T00:00:00-07:00",
+    "endDate": null,
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Los Angeles, CA",
+    "region": "west-coast",
+    "cost": null,
+    "tags": [
+      "Networking & Career"
+    ],
+    "url": "https://www.cyberriskalliance.com/events",
+    "image": null,
+    "description": "Intimate networking dinner for senior security leaders hosted by CyberRisk Alliance's Collaborative, fostering peer discussion and relationship building."
+  },
+  {
+    "name": "DC404 - District Caucus 404",
+    "slug": "dc404-atlanta-april-2026",
+    "date": "2026-04-18T14:00:00-04:00",
+    "endDate": null,
+    "type": "meetup",
+    "format": "hybrid",
+    "city": "Atlanta, GA",
+    "region": "southeast",
+    "cost": "free",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "url": "https://dc404.org/",
+    "image": null,
+    "description": "Atlanta's monthly DEF CON group meeting at Manuel's Tavern, bringing together security professionals and hobbyist hackers for discussions on tools, techniques, and information security topics."
+  },
+  {
+    "name": "Houston Area Hackers Anonymous (HAHA) Monthly Meeting",
+    "slug": "haha-houston-may-2026",
+    "date": "2026-05-07T19:00:00-05:00",
+    "endDate": "2026-05-07T22:00:00-05:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Houston, TX",
+    "region": "southwest",
+    "cost": "Free",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.meetup.com/houston-area-hackers-association/",
+    "image": "https://secure.meetupstatic.com/photos/event/1/4/2/9/highres_518285161.jpeg",
+    "description": "Monthly gathering of hackers and security enthusiasts featuring lightning talks on pentesting, programming, and IT security topics at Capone's Oven & Bar in Houston."
+  },
+  {
+    "name": "OWASP Austin Chapter Monthly Meeting - April 2026",
+    "slug": "owasp-austin-april-2026",
+    "date": "2026-04-28T11:30:00-05:00",
+    "endDate": null,
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Austin, TX",
+    "region": "southwest",
+    "cost": "free",
+    "tags": [
+      "AppSec & DevSecOps",
+      "Community & General"
+    ],
+    "url": "https://www.eventbrite.com/e/owasp-austin-chapter-monthly-meeting-april-2026-tickets-1979576142531",
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F466744279%2F48084054642%2F1%2Foriginal.jpg?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=46ecbba8c3c2a7fe17b4fb017a1e9c61",
+    "description": "Monthly OWASP Austin chapter meeting for application security professionals to connect, learn, and share knowledge."
+  },
+  {
+    "name": "38th Annual FIRST Conference",
+    "slug": "first-conference-2026",
+    "date": "2026-06-14T08:00:00-06:00",
+    "endDate": "2026-06-19T17:00:00-06:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Denver, CO",
+    "region": "southwest",
+    "cost": null,
+    "tags": [
+      "Incident Response",
+      "Community & General"
+    ],
+    "url": "https://www.first.org/conference/2026/",
+    "image": "https://www.first.org/_/e/firstcon26/logo.svg",
+    "description": "International assembly for Computer Security and Incident Response Teams (CSIRTs) focused on incident prevention and response strategies, with participants from 100+ countries."
+  },
+  {
+    "name": "Rocky Mountain Information Security Conference (RMISC) 2026",
+    "slug": "rmisc-2026",
+    "date": "2026-06-23T08:00:00-06:00",
+    "endDate": "2026-06-25T17:00:00-06:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Denver, CO",
+    "region": "southwest",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://iplanit.swoogo.com/rmisc2026/begin",
+    "image": "https://images.squarespace-cdn.com/content/v1/65cfb7cdf23e623d71d0926a/e64a25dd-7dff-4e79-8e86-4ae650e3844d/Eric+Oneill+for+Website+2.png",
+    "description": "The largest infosec gathering in the Rocky Mountain region, offering three days of keynotes, technical sessions, and workshops with up to 7 CPEs per day at the Colorado Convention Center."
+  },
+  {
+    "name": "AI Red And Blue Teaming Summit",
+    "slug": "ai-red-blue-teaming-summit-2026",
+    "date": "2026-04-17T08:30:00-04:00",
+    "endDate": "2026-04-18T15:30:00-04:00",
+    "type": "workshop",
+    "format": "virtual",
+    "city": "Online",
+    "region": "virtual",
+    "cost": "$161.89 - $349.99",
+    "tags": [
+      "AI & Machine Learning",
+      "Threat Intelligence"
+    ],
+    "url": "https://www.eventbrite.com/e/ai-red-and-blue-teaming-summit-tickets-1984030278973",
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180304166%2F2993525660508%2F1%2Foriginal.20260320-102349",
+    "description": "Two-day hands-on training in offensive and defensive AI security, covering red team attack techniques, LLM abuse detection, prompt injection, and Zero Trust architecture."
+  },
+  {
+    "name": "Burbsec East",
+    "slug": "burbsec-east-april-2026",
+    "date": "2026-04-30T18:00:00-05:00",
+    "endDate": "2026-04-30T23:55:00-05:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Chicago, IL",
+    "region": "midwest",
+    "cost": "Free",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://burbsec.com/east/",
+    "image": "https://burbsec.com/images/east_shield.png",
+    "description": "Informal monthly gathering at Navigator Taproom for 30-70 infosec professionals and enthusiasts, from students to CISOs, with no dues or formal agenda."
+  },
+  {
+    "name": "OWASP Chicago Chapter Meeting",
+    "slug": "owasp-chicago-april-2026",
+    "date": "2026-04-17T18:30:00-05:00",
+    "endDate": "2026-04-17T21:00:00-05:00",
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Chicago, IL",
+    "region": "midwest",
+    "cost": null,
+    "tags": [
+      "AppSec & DevSecOps",
+      "Community & General"
+    ],
+    "url": "https://owasp.org/www-chapter-chicago/",
+    "image": null,
+    "description": "Application security and craft beer meetup in Glenview co-hosted with Chicagoland Cybersecurity Exchange, featuring community talks and networking."
+  },
+  {
+    "name": "DSN 2026 - IEEE/IFIP International Conference On Dependable Systems And Networks",
+    "slug": "dsn-2026",
+    "date": "2026-06-22T00:00:00-04:00",
+    "endDate": "2026-06-25T23:59:59-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Charlotte, NC",
+    "region": "southeast",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "url": "https://dsn2026.github.io/",
+    "image": null,
+    "description": "Premier academic and industry conference on building resilient, secure systems and networks, featuring research tracks, workshops, tutorials, and a doctoral forum."
+  },
+  {
+    "name": "Denver ISSA May 2026 Chapter Meeting",
+    "slug": "denver-issa-may-2026-chapter-meeting",
+    "date": "2026-05-13T11:30:00-06:00",
+    "endDate": "2026-05-13T13:00:00-06:00",
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Denver, CO",
+    "region": "southwest",
+    "cost": "Free to $28.52 USD",
+    "tags": [
+      "Incident Response",
+      "Community & General"
+    ],
+    "url": "https://www.eventbrite.com/e/denver-issa-may-2026-chapter-meeting-lunch-tickets-1987286777247",
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F964995963%2F1627157364073%2F1%2Foriginal.20250220-030847",
+    "description": "Lunch meeting featuring Backdoors & Breaches, the incident response card game, with networking and CPE credit opportunities for Denver-area security professionals."
+  },
+  {
+    "name": "Optivcon Denver 2026",
+    "slug": "optivcon-denver-2026",
+    "date": "2026-06-04T08:00:00-06:00",
+    "endDate": "2026-06-04T17:00:00-06:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Denver, CO",
+    "region": "southwest",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cvent.me/5oq1Nd",
+    "image": "https://www.optiv.com/sites/default/files/styles/list_item/public/list-item-images/OptivCon26_Denver_List%20Image_476x210.jpg",
+    "description": "Full-day cybersecurity event at the Hyatt Regency Denver with strategic sessions, networking, and insights from Optiv's security experts."
+  },
+  {
+    "name": "Denver ISSA June 2026 Chapter Meeting",
+    "slug": "denver-issa-june-2026-chapter-meeting",
+    "date": "2026-06-10T11:30:00-06:00",
+    "endDate": "2026-06-10T13:00:00-06:00",
+    "type": "chapter",
+    "format": "hybrid",
+    "city": "Denver, CO",
+    "region": "southwest",
+    "cost": "Members free; Non-members $25",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.denverissa.org/events",
+    "image": null,
+    "description": "Monthly ISSA chapter meeting with lunch and dinner sessions at two Denver locations, open to members and non-members."
+  },
+  {
+    "name": "BSides Boulder 2026",
+    "slug": "bsides-boulder-2026",
+    "date": "2026-06-13T08:00:00-06:00",
+    "endDate": "2026-06-13T18:00:00-06:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Boulder, CO",
+    "region": "southwest",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "url": "https://www.eventbrite.com/e/bsides-boulder-2026-tickets-1985483738309",
+    "image": "https://bsidesboulder.org/img/2026-wizard-logo.svg",
+    "description": "Community-driven security conference on the University of Colorado Boulder campus featuring talks, workshops, and networking for all skill levels."
+  },
+  {
+    "name": "CMMC Summit 2026",
+    "slug": "cmmc-summit-2026",
+    "date": "2026-06-03T08:30:00-04:00",
+    "endDate": "2026-06-03T14:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Washington",
+    "region": "northeast",
+    "cost": null,
+    "tags": [
+      "Compliance & GRC"
+    ],
+    "url": "https://cyber-association.glueup.com/event/174146",
+    "image": null,
+    "description": "Cybersecurity Association of Maryland summit focused on the CMMC framework, compliance updates, and best practices for defense industrial base contractors."
+  },
+  {
+    "name": "Critical Effect 2026",
+    "slug": "critical-effect-2026",
+    "date": "2026-06-17T09:00:00-04:00",
+    "endDate": "2026-06-18T17:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Washington",
+    "region": "northeast",
+    "cost": null,
+    "tags": [
+      "Threat Intelligence",
+      "Compliance & GRC"
+    ],
+    "url": "https://securityandtechnology.org/event/critical-effect-2026/",
+    "image": "https://securityandtechnology.org/wp-content/uploads/2026/01/CE-MAIN-IMAGES.png",
+    "description": "Two-day conference focused on actionable solutions for critical infrastructure resilience, featuring cross-sector discussions on national security and public safety."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: DC Metro (13th Annual)",
+    "slug": "official-cybersecurity-summit-dc-metro-2026",
+    "date": "2026-07-23T08:00:00-04:00",
+    "endDate": "2026-07-23T18:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Washington",
+    "region": "northeast",
+    "cost": "$250",
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://cyberriskalliance.swoogo.com/dc-july-2026",
+    "image": "https://assets.swoogo.com/uploads/full/4531046-670d45112ba08.jpg",
+    "description": "Full-day executive cybersecurity summit for CISOs and senior leaders featuring interactive panels, solution showcases, and high-impact networking focused on resilience and risk reduction."
+  },
+  {
+    "name": "Cyber Risk Summit San Diego 2026",
+    "slug": "cyber-risk-summit-san-diego-2026",
+    "date": "2026-05-19T09:00:00-07:00",
+    "endDate": "2026-05-20T17:00:00-07:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "San Diego",
+    "region": "west-coast",
+    "cost": null,
+    "tags": [
+      "Compliance & GRC"
+    ],
+    "url": "https://netdiligence.com/conferences/cyber-risk-summit-san-diego-2026/",
+    "image": "https://netdiligence.com/conferences/assets/images/logo-cyber-risk-summit-reversed.png",
+    "description": "Global cybersecurity and insurance conference featuring keynotes, panels, and networking for cyber insurance professionals, risk managers, and technology leaders."
+  },
+  {
+    "name": "Hackboat 2026",
+    "slug": "hackboat-2026",
+    "date": "2026-06-05T10:00:00-07:00",
+    "endDate": "2026-06-05T14:00:00-07:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Portland",
+    "region": "west-coast",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://hackboat.org/",
+    "image": null,
+    "description": "Unconference on the river with Portland's infosec community, featuring lightning talks, birds-of-a-feather discussions, networking, and security-themed tabletop games. A BSides Portland production."
+  },
+  {
+    "name": "American CIO And Cybersecurity Summit 2026",
+    "slug": "american-cio-cybersecurity-summit-2026",
+    "date": "2026-06-09T07:00:00-07:00",
+    "endDate": "2026-06-10T17:00:00-07:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "$2,495",
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://cioamerica.com/",
+    "image": "https://cioamerica.com/wp-content/uploads/sites/12/2025/11/CIO-2026-Primary-Banner.webp",
+    "description": "Two-day executive summit for CIOs, CISOs, CTOs, and IT leaders featuring 50+ speakers and 30+ solution providers covering cutting-edge cybersecurity and technology strategies."
+  },
+  {
+    "name": "San Francisco CISO Community Executive Summit",
+    "slug": "sf-ciso-executive-summit-2026",
+    "date": "2026-11-05T08:00:00-08:00",
+    "endDate": "2026-11-05T17:00:00-08:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "AI & Machine Learning"
+    ],
+    "url": "https://www.evanta.com/ciso/san-francisco/san-francisco-ciso-executive-summit-9349",
+    "image": "https://emt.gartnerweb.com/ngw/evanta-assets/events/26SFOCISOES9349/social-CISO.png",
+    "description": "C-level executive summit offering peer-driven content and discussions on cyber resilience, evolving threats, and balancing GenAI innovation with practical governance."
+  },
+  {
+    "name": "Tribeca Cybersecurity Summit 2026",
+    "slug": "tribeca-cybersecurity-summit-2026",
+    "date": "2026-04-17T09:40:00-04:00",
+    "endDate": "2026-04-17T18:15:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "New York",
+    "region": "northeast",
+    "cost": "free",
+    "tags": [
+      "Compliance & GRC",
+      "Community & General"
+    ],
+    "url": "https://www.nyls.edu/events/tribeca-cybersecurity-summit-2026/",
+    "image": "https://www.nyls.edu/wp-content/uploads/2026/04/JTI-Tribeca-Cybersecurity-Summit-Flyer-041726-v1.jpg",
+    "description": "Annual summit bringing together in-house counsel and attorneys to learn about defending organizations from cyber threats, hosted by the James Tricarico Jr. Institute at New York Law School."
+  },
+  {
+    "name": "ISC2 NYC & Long Island Chapter Meeting (April)",
+    "slug": "isc2-nyc-long-island-april-2026",
+    "date": "2026-04-28T17:00:00-04:00",
+    "endDate": "2026-04-28T20:00:00-04:00",
+    "type": "chapter",
+    "format": "hybrid",
+    "city": "New York",
+    "region": "northeast",
+    "cost": "paid",
+    "tags": [
+      "AppSec & DevSecOps",
+      "Threat Intelligence"
+    ],
+    "url": "https://isc2chapter-liny.org/events/apr2026/",
+    "image": null,
+    "description": "ISC2 NYC and Long Island chapter meeting featuring talks on API security defense strategies and threat trend analysis from 10 trillion weekly security events."
+  },
+  {
+    "name": "CISO Summit At AIAI New York 2026",
+    "slug": "ciso-summit-aiai-new-york-2026",
+    "date": "2026-06-04T09:00:00-04:00",
+    "endDate": null,
+    "type": "conference",
+    "format": "in-person",
+    "city": "New York",
+    "region": "northeast",
+    "cost": null,
+    "tags": [
+      "AI & Machine Learning",
+      "Community & General"
+    ],
+    "url": "https://world.aiacceleratorinstitute.com/location/cisonewyork/",
+    "image": null,
+    "description": "Dedicated CISO track within the AI Accelerator Institute event, featuring presentations and networking for security leaders navigating AI-era challenges."
+  },
+  {
+    "name": "OWASP Tampa: April Lunch And Learn",
+    "slug": "owasp-tampa-lunch-learn-april-2026",
+    "date": "2026-04-24T11:30:00-04:00",
+    "endDate": "2026-04-24T13:30:00-04:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Tampa",
+    "region": "southeast",
+    "cost": "free",
+    "tags": [
+      "AppSec & DevSecOps",
+      "AI & Machine Learning"
+    ],
+    "url": "https://www.meetup.com/owasp-tampa/events/314147086/",
+    "image": "https://secure.meetupstatic.com/photos/event/8/8/d/6/highres_523175030.jpeg",
+    "description": "OWASP Tampa lunch and learn on modern coding practices, AI-native security posture, and integrating security across the entire software development lifecycle."
+  },
+  {
+    "name": "GDG Tampa Bay: Finance Virtual Cybersecurity Summit",
+    "slug": "gdg-tampa-bay-cybersecurity-summit-2026",
+    "date": "2026-04-22T09:00:00-04:00",
+    "endDate": "2026-04-22T17:00:00-04:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Tampa",
+    "region": "virtual",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "url": "https://gdg.community.dev/events/details/google-gdg-tampa-bay-presents-tampa-cybersecurity-summit-1/",
+    "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_650,q_auto:good,w_2560/v1/gcs/platform-data-goog/contentbuilder/NEW%20Default%20Chapter%20banner%20%282560%20x%20650%20px%29_Wimioqr.jpg",
+    "description": "Virtual cybersecurity summit hosted by Google Developer Groups Tampa Bay, focused on tools and solutions to protect organizations from cyber attacks."
+  },
+  {
+    "name": "BSides Tampa 2026: Unlucky 13",
+    "slug": "bsides-tampa-2026-2",
+    "date": "2026-05-16T09:00:00-04:00",
+    "endDate": "2026-05-16T17:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Tampa",
+    "region": "southeast",
+    "cost": "$45",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "url": "https://bsidestampa.net/",
+    "image": "https://bsidestampa.com/assets/logos/bsides-tampa-2026-logo/bsides-tampa-13-title-only-transparent.webp",
+    "description": "Community-driven cybersecurity conference in its 13th year, featuring 50+ sessions across 7 tracks, 5 hands-on villages, and a training day focused on skill-based security education."
+  },
+  {
+    "name": "Interface Phoenix 2026",
+    "slug": "interface-phoenix-2026",
+    "date": "2026-06-18T08:30:00-07:00",
+    "endDate": "2026-06-18T16:30:00-07:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Phoenix",
+    "region": "southwest",
+    "cost": "free",
+    "tags": [
+      "Cloud Security",
+      "Community & General"
+    ],
+    "url": "https://f2fevents.com/event/phx26/",
+    "image": null,
+    "description": "IT infrastructure and information security conference featuring presentations, panels, and exhibitors covering cloud, disaster recovery, cybersecurity, and communications best practices."
+  },
+  {
+    "name": "OWASP San Diego Monthly Meetup",
+    "slug": "owasp-san-diego-may-2026",
+    "date": "2026-05-21T18:00:00-07:00",
+    "endDate": "2026-05-21T20:00:00-07:00",
+    "type": "chapter",
+    "format": "in-person",
+    "city": "San Diego",
+    "region": "west-coast",
+    "cost": "free",
+    "tags": [
+      "AppSec & DevSecOps",
+      "Community & General"
+    ],
+    "url": "https://www.meetup.com/open-web-application-security-project-san-diego-owasp-sd/events/311468332/",
+    "image": "https://secure.meetupstatic.com/photos/event/a/5/b/1/highres_444342417.jpeg",
+    "description": "Monthly OWASP San Diego chapter meeting focused on improving software security awareness and sharing knowledge about application security risks."
+  },
+  {
+    "name": "Let's Talk Privacy: Data Privacy Seminar",
+    "slug": "lets-talk-privacy-dallas-2026",
+    "date": "2026-04-23T13:00:00-05:00",
+    "endDate": "2026-04-23T17:00:00-05:00",
+    "type": "workshop",
+    "format": "in-person",
+    "city": "Dallas",
+    "region": "southwest",
+    "cost": "free",
+    "tags": [
+      "Compliance & GRC"
+    ],
+    "url": "https://www.eventbrite.com/e/lets-talk-privacy-data-privacy-seminar-tickets-1983979020658",
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178434009%2F2993332076842%2F1%2Foriginal.20260225-182541?crop=focalpoint&fit=crop&w=1880&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5",
+    "description": "Half-day data privacy seminar offering practical training, real-world strategy sessions, and professional networking for privacy practitioners and aspiring professionals."
+  },
+  {
+    "name": "Certified Ethical Hacker: Practical Ethical Hacker In Dallas, TX",
+    "slug": "ceh-bootcamp-dallas-2026",
+    "date": "2026-04-28T09:00:00-05:00",
+    "endDate": "2026-04-28T17:00:00-05:00",
+    "type": "workshop",
+    "format": "in-person",
+    "city": "Dallas",
+    "region": "southwest",
+    "cost": "$2999.00",
+    "tags": [
+      "Threat Intelligence"
+    ],
+    "url": "https://www.eventbrite.com/e/certified-ethical-hacker-practical-ethical-hacker-in-dallas-tx-tickets-1986185196389",
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180865472%2F2958041386231%2F1%2Foriginal.20260327-192954?crop=focalpoint&fit=crop&w=1880&auto=format%2Ccompress&q=75&sharp=10&fp-x=1.0&fp-y=0.487",
+    "description": "Intensive four-day ethical hacking bootcamp covering penetration testing, vulnerability analysis, and network security through hands-on labs and real-world attack simulations."
+  },
+  {
+    "name": "Dallas CISO Community Executive Summit",
+    "slug": "dallas-ciso-executive-summit-2026",
+    "date": "2026-05-14T08:00:00-05:00",
+    "endDate": "2026-05-14T16:00:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Richardson",
+    "region": "southwest",
+    "cost": null,
+    "tags": [
+      "Networking & Career",
+      "Community & General"
+    ],
+    "url": "https://www.evanta.com/ciso/dallas/dallas-ciso-executive-summit-8441",
+    "image": "https://emt.gartnerweb.com/ngw/evanta-assets/events/26DALCISOES8441/social-CISO.png",
+    "description": "Peer-driven executive summit where CISOs and senior security leaders exchange actionable insights on cybersecurity strategy and business alignment through keynotes and roundtable discussions."
+  },
+  {
+    "name": "BSides South Florida 2026",
+    "slug": "bsides-south-florida-2026",
+    "date": "2026-05-08T09:00:00-04:00",
+    "endDate": "2026-05-08T17:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Fort Lauderdale",
+    "region": "southeast",
+    "cost": "free",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://bsidessouthflorida.org/",
+    "image": "https://bsidessouthflorida.org/wp-content/uploads/2026/03/hero-1024x682.png",
+    "description": "Community-driven cybersecurity conference bringing together professionals, innovators, and leaders in South Florida for a full day of learning, networking, and collaboration."
+  },
+  {
+    "name": "CSA San Diego April Meetup",
+    "slug": "csa-san-diego-april-2026",
+    "date": "2026-04-28T17:30:00-07:00",
+    "endDate": "2026-04-28T19:30:00-07:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "San Diego",
+    "region": "west-coast",
+    "cost": "free",
+    "tags": [
+      "Cloud Security",
+      "Community & General"
+    ],
+    "url": "https://www.meetup.com/cloud-security-alliance-san-diego/events/314174929/",
+    "image": "https://secure.meetupstatic.com/photos/event/7/4/5/d/highres_478409789.jpeg",
+    "description": "Cloud Security Alliance San Diego chapter meetup featuring cloud security discussions, networking, and a sponsor presentation from Kodem."
+  },
+  {
+    "name": "Sec Nerds April 2026",
+    "slug": "sec-nerds-april-2026",
+    "date": "2026-04-29T18:00:00-07:00",
+    "endDate": "2026-04-29T21:00:00-07:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "San Francisco",
+    "region": "west-coast",
+    "cost": "free",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://luma.com/sec-nerds",
+    "image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,anim=false,background=white,quality=75,width=500,height=500/event-covers/zn/e6f4ca4d-09e8-4451-a62f-c012ce1e7d43.png",
+    "description": "Monthly San Francisco security community meetup bringing together security professionals for networking, drinks, and conversation."
+  },
+  {
+    "name": "ISSA Portland Chapter Meeting",
+    "slug": "issa-portland-may-2026",
+    "date": "2026-05-14T12:00:00-07:00",
+    "endDate": null,
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Portland",
+    "region": "west-coast",
+    "cost": "$10.00",
+    "tags": [
+      "AI & Machine Learning",
+      "Community & General"
+    ],
+    "url": "https://www.eventbrite.com/o/issa-portland-chapter-4617085937",
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F456529899%2F71772167785%2F1%2Foriginal.20210923-000257?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=20e1f2b40d1f996a79a65d83d01ff058",
+    "description": "ISSA Portland chapter meeting exploring how AI and machine learning are reshaping the cybersecurity advancement landscape."
+  },
+  {
+    "name": "DC503 - DEF CON Portland Group (April)",
+    "slug": "dc503-portland-april-2026",
+    "date": "2026-04-19T15:00:00-07:00",
+    "endDate": null,
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Portland",
+    "region": "west-coast",
+    "cost": "free",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "url": "https://forum.defcon.org/node/231467",
+    "image": null,
+    "description": "Portland DEF CON group hosting round-table style meetings where attendees present on current security work and topics in an off-the-record setting."
+  },
+  {
+    "name": "DC215 Monthly Meetup - Study Hall / Work On CTFs",
+    "slug": "dc215-ctf-study-hall-april-2026",
+    "date": "2026-04-18T10:00:00-04:00",
+    "endDate": "2026-04-18T13:00:00-04:00",
+    "type": "ctf",
+    "format": "in-person",
+    "city": "Philadelphia",
+    "region": "northeast",
+    "cost": "free",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "url": "https://www.meetup.com/dc_215/events/314025046/",
+    "image": "https://secure.meetupstatic.com/photos/event/9/f/1/d/highres_526120733.jpeg",
+    "description": "Philadelphia DEF CON group study hall for working on capture-the-flag challenges and discussing cybersecurity topics."
+  },
+  {
+    "name": "BSides South Jersey 2026",
+    "slug": "bsides-south-jersey-2026",
+    "date": "2026-04-18T09:00:00-04:00",
+    "endDate": "2026-04-18T17:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Glassboro",
+    "region": "northeast",
+    "cost": "free",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://bsidessouthjersey.org/",
+    "image": "https://www.bsidessouthjersey.org/images/bsides-logo-pine-barrens.png",
+    "description": "Regional cybersecurity conference featuring workshops, presentations, CTF, and networking for professionals and students across South Jersey, Philadelphia, and Delaware."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Salt Lake City",
+    "slug": "cybersecurity-summit-salt-lake-city-2026",
+    "date": "2026-04-23T08:00:00-06:00",
+    "endDate": "2026-04-23T18:00:00-06:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Salt Lake City, UT",
+    "region": "southwest",
+    "cost": "$250 standard admission",
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://cyberriskalliance.swoogo.com/salt-lake-city-april-2026",
+    "image": "https://assets.swoogo.com/uploads/full/6250927-6961046a9105c.png",
+    "description": "Full-day summit for CISOs and senior security leaders featuring interactive panels and solution showcases on AI/automation risks, supply chain vulnerabilities, and aligning security with business outcomes."
+  },
+  {
+    "name": "FutureCon Salt Lake City 2026",
+    "slug": "futurecon-salt-lake-city-2026",
+    "date": "2026-08-27T00:00:00-06:00",
+    "endDate": "2026-08-27T23:59:00-06:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Salt Lake City, UT",
+    "region": "southwest",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/salt-lake-city-ut-2026/",
+    "image": "https://futureconevents.com/wp-content/uploads/2024/04/SLC.png",
+    "description": "Cybersecurity conference at Hilton Salt Lake City Center featuring expert speakers, panel discussions, and up to 10 CPE credits covering the latest threat landscape developments."
+  },
+  {
+    "name": "SANS Raleigh 2026",
+    "slug": "sans-raleigh-2026",
+    "date": "2026-11-02T00:00:00-04:00",
+    "endDate": "2026-11-07T23:59:00-05:00",
+    "type": "workshop",
+    "format": "hybrid",
+    "city": "Cary, NC",
+    "region": "southeast",
+    "cost": "$5,250-$8,780 per course",
+    "tags": [
+      "Community & General",
+      "Incident Response"
+    ],
+    "url": "https://www.sans.org/cyber-security-training-events/raleigh-2026",
+    "image": null,
+    "description": "Week-long SANS training event at Embassy Suites Raleigh-Durham offering 7 hands-on courses with GIAC certification opportunities from world-class cybersecurity practitioners."
+  },
+  {
+    "name": "Carolina Cyber Network Fall 2026 Convening",
+    "slug": "carolina-cyber-network-fall-2026",
+    "date": "2026-09-30T00:00:00-04:00",
+    "endDate": "2026-10-02T23:59:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Asheboro, NC",
+    "region": "southeast",
+    "cost": null,
+    "tags": [
+      "Networking & Career",
+      "Security Awareness"
+    ],
+    "url": "https://carolinacybernetwork.net/ccn-convening/",
+    "image": "https://carolinacybernetwork.net/wp-content/uploads/2026/04/RCC-1024x576.avif",
+    "description": "Three-day gathering of education, industry, and government leaders exploring strategies for cybersecurity workforce development at Randolph Community College."
+  },
+  {
+    "name": "Central Ohio InfoSec Summit (COISSA) 2026",
+    "slug": "central-ohio-infosec-summit-2026",
+    "date": "2026-06-08T12:00:00+00:00",
+    "endDate": "2026-06-10T21:00:00+00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Columbus, OH",
+    "region": "midwest",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.infosecsummit.com/",
+    "image": null,
+    "description": "Multi-day Central Ohio ISSA summit at Hilton Columbus Downtown bringing together approximately 1,600 practitioners and vendors for security sessions, demos, and networking."
+  },
+  {
+    "name": "FutureCon Columbus 2026",
+    "slug": "futurecon-columbus-2026",
+    "date": "2026-10-15T00:00:00-04:00",
+    "endDate": "2026-10-15T23:59:00-04:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Columbus, OH",
+    "region": "midwest",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/columbus-oh-2026/",
+    "image": "https://futureconevents.com/wp-content/uploads/2023/10/Columbus.png",
+    "description": "Cybersecurity conference for C-suite executives and CISOs featuring keynote presentations, expert panels, and up to 10 CPE credits in Columbus."
+  },
+  {
+    "name": "BSidesPGH 2026",
+    "slug": "bsidespgh-2026",
+    "date": "2026-07-10T08:00:00-04:00",
+    "endDate": "2026-07-10T17:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Pittsburgh, PA",
+    "region": "northeast",
+    "cost": null,
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.bsidespgh.com/",
+    "image": "https://images.squarespace-cdn.com/content/v1/5853547f6b8f5bf3f76cea9e/95b32939-149b-4925-89f2-f1909d64362a/BSidesForever+%281%29.png",
+    "description": "Volunteer-run community information security conference in Pittsburgh featuring talks, workshops, and an after-party at Rivers Casino."
+  },
+  {
+    "name": "FutureCon Pittsburgh 2026",
+    "slug": "futurecon-pittsburgh-2026",
+    "date": "2026-05-21T00:00:00-04:00",
+    "endDate": "2026-05-21T23:59:00-04:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Pittsburgh, PA",
+    "region": "northeast",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://futureconevents.com/events/pittsburgh-pa-2026/",
+    "image": "https://futureconevents.com/wp-content/uploads/2024/04/Pittsburgh.png",
+    "description": "Cybersecurity conference at Pittsburgh Marriott City Center featuring up to 10 CPE credits, with a keynote by Dr. Luis O. Noguerol of NOAA on emerging threats and defense strategies."
+  },
+  {
+    "name": "Cyburgh PA Initiative 2026",
+    "slug": "cyburgh-pa-2026",
+    "date": "2026-05-14T00:00:00-04:00",
+    "endDate": "2026-05-14T23:59:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Pittsburgh, PA",
+    "region": "northeast",
+    "cost": "PTC Members: $250-$280; Non-Members: $500-$560",
+    "tags": [
+      "AI & Machine Learning",
+      "Identity & Access"
+    ],
+    "url": "https://www.pghtech.org/events/2026Cyburgh",
+    "image": "https://www.pghtech.org/UserFiles/Image/Event%20Logos/Cyburgh21_LogoUpdate2.png",
+    "description": "Full-day cybersecurity conference from the Pittsburgh Technology Council with panels on AI security, identity controls, third-party risk, and ransomware resilience, plus 5.5 CPE credits."
+  },
+  {
+    "name": "BSides SATX 2026",
+    "slug": "bsides-satx-2026",
+    "date": "2026-06-13T00:00:00-05:00",
+    "endDate": "2026-06-13T23:59:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "San Antonio, TX",
+    "region": "southwest",
+    "cost": "TBA",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.bsidessatx.com/",
+    "image": null,
+    "description": "Community-driven security conference at St. Mary's University in San Antonio combining security expertise from diverse platforms in a collaborative, intimate setting."
+  },
+  {
+    "name": "SANS San Antonio 2026",
+    "slug": "sans-san-antonio-2026",
+    "date": "2026-08-17T00:00:00-05:00",
+    "endDate": "2026-08-22T23:59:00-05:00",
+    "type": "workshop",
+    "format": "hybrid",
+    "city": "San Antonio, TX",
+    "region": "southwest",
+    "cost": "$5,250-$8,780 per course",
+    "tags": [
+      "Community & General",
+      "Incident Response"
+    ],
+    "url": "https://www.sans.org/cyber-security-training-events/san-antonio-2026",
+    "image": "https://images.contentstack.io/v3/assets/bltabe50a4554f8e97f/blt6ddcad954603d171/681322843501d546c4d54fdf/assets_hero_SanAntonio_856x856.png",
+    "description": "Six-course SANS training event at InterContinental San Antonio Riverwalk with hands-on labs, a Core NetWars Tournament, and exclusive bonus sessions."
+  },
+  {
+    "name": "GovRAMP Cyber Summit 2026",
+    "slug": "govramp-cyber-summit-2026",
+    "date": "2026-11-15T00:00:00-06:00",
+    "endDate": "2026-11-17T23:59:00-06:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "San Antonio, TX",
+    "region": "southwest",
+    "cost": null,
+    "tags": [
+      "Compliance & GRC",
+      "Cloud Security"
+    ],
+    "url": "https://govramp.org/2026-cyber-summit/",
+    "image": null,
+    "description": "Major annual summit at the Henry B. Gonzalez Convention Center focused on cybersecurity verification, cloud adoption standards, and risk management for government and enterprise."
+  },
+  {
+    "name": "BSidesNOLA 2026",
+    "slug": "bsidesnola-2026",
+    "date": "2026-05-12T00:00:00-05:00",
+    "endDate": "2026-05-12T23:59:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "New Orleans, LA",
+    "region": "southeast",
+    "cost": "paid",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://bsides.org/event/bsides-nola/",
+    "image": null,
+    "description": "Community security conference at InterContinental New Orleans featuring LockPick Village, Career Village, Industrial Cybersecurity talks, and a Jazz Happy Hour with custom PCB badge included."
+  },
+  {
+    "name": "SANS Security Central 2026 - New Orleans",
+    "slug": "sans-security-central-new-orleans-2026",
+    "date": "2026-05-11T00:00:00-05:00",
+    "endDate": "2026-05-16T23:59:00-05:00",
+    "type": "workshop",
+    "format": "hybrid",
+    "city": "New Orleans, LA",
+    "region": "southeast",
+    "cost": "$8,260-$8,780 per course",
+    "tags": [
+      "Community & General",
+      "Incident Response"
+    ],
+    "url": "https://www.sans.org/cyber-security-training-events/security-central-2026",
+    "image": "https://images.contentstack.io/v3/assets/bltabe50a4554f8e97f/blte693c0357d7d6c55/69aefeeac1628e0008bc55e8/Web_Security-Central-2026_856_x_856.jpg",
+    "description": "Intensive week of SANS training at Hilton New Orleans Riverside with 15 courses, a NetWars Tournament, keynote presentations, and hands-on labs from leading cybersecurity instructors."
+  },
+  {
+    "name": "SecureWorld Detroit 2026",
+    "slug": "secureworld-detroit-2026",
+    "date": "2026-09-17T00:00:00-04:00",
+    "endDate": "2026-09-18T23:59:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Detroit, MI",
+    "region": "midwest",
+    "cost": "Open Sessions Pass / Conference Pass / PLUS Pass",
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://www.secureworld.io/events/detroit-mi-2026",
+    "image": null,
+    "description": "24th annual cybersecurity conference at Suburban Collection Showplace in Novi featuring keynotes, expert panels, and breakout sessions with 12-18 CPE credits for approximately 450 attendees."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Detroit",
+    "slug": "cybersecurity-summit-detroit-2026",
+    "date": "2026-08-18T08:00:00-04:00",
+    "endDate": "2026-08-18T18:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Detroit, MI",
+    "region": "midwest",
+    "cost": "$250 standard admission",
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://cyberriskalliance.swoogo.com/detroit-august-2026",
+    "image": "https://assets.swoogo.com/uploads/full/6276064-6967ed9317ff9.png",
+    "description": "Full-day summit at Detroit Marriott Renaissance Center for CISOs and senior leaders with interactive panels and solution showcases on resilience, risk reduction, and security alignment."
+  },
+  {
+    "name": "BSidesCharm 2026",
+    "slug": "bsidescharm-2026",
+    "date": "2026-04-25T00:00:00-04:00",
+    "endDate": "2026-04-26T23:59:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Towson, MD",
+    "region": "northeast",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "url": "https://www.bsidescharm.org/",
+    "image": "https://bsidescharm.org/wp-content/uploads/2025/11/Logo-Anniversary-Edition-Carl-1-295x300.png",
+    "description": "Regional BSides conference in the Baltimore area at Sheraton Baltimore North featuring intimate networking and a keynote by Rob M. Lee, CEO of Dragos."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Baltimore",
+    "slug": "cybersecurity-summit-baltimore-2026",
+    "date": "2026-04-28T08:00:00-04:00",
+    "endDate": "2026-04-28T18:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Baltimore, MD",
+    "region": "northeast",
+    "cost": "$250 standard admission",
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://cyberriskalliance.swoogo.com/Baltimore-2026",
+    "image": "https://assets.swoogo.com/uploads/full/6097780-691b4a9d20cba.jpg",
+    "description": "Full-day summit at Baltimore Marriott Waterfront for CISOs and security leaders with interactive panels and networking focused on organizational resilience and cyber risk reduction."
+  },
+  {
+    "name": "Security Standardisation Research (SSR) Conference 2026",
+    "slug": "ssr-conference-2026",
+    "date": "2026-12-13T00:00:00-05:00",
+    "endDate": "2026-12-15T23:59:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Baltimore, MD",
+    "region": "northeast",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://ssresearch26.umbc.edu/",
+    "image": null,
+    "description": "Academic conference at UMBC addressing research challenges in security standardization including cryptographic techniques, post-quantum cryptography, and emerging domains like AI and 6G."
+  },
+  {
+    "name": "Indiana Public Sector Cybersecurity Summit 2026",
+    "slug": "indiana-public-sector-cybersecurity-summit-2026",
+    "date": "2026-06-17T08:00:00-04:00",
+    "endDate": "2026-06-17T23:59:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Noblesville, IN",
+    "region": "midwest",
+    "cost": "Free (public sector only)",
+    "tags": [
+      "Compliance & GRC",
+      "Community & General"
+    ],
+    "url": "https://events.govtech.com/Indiana-Public-Sector-Cybersecurity-Summit",
+    "image": "https://media.erepublic.com/image/GT26-Headers-Cybersecurity-Summit-IN-1800x600.jpg",
+    "description": "Free public-sector event at Embassy Suites Noblesville assembling IT security leaders and government officials to address evolving cyber threats through expert sessions and peer exchange."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Raleigh",
+    "slug": "cybersecurity-summit-raleigh-2026",
+    "date": "2026-07-15T08:00:00-04:00",
+    "endDate": "2026-07-15T18:30:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Raleigh, NC",
+    "region": "southeast",
+    "cost": "paid",
+    "tags": [
+      "Community & General",
+      "AI & Machine Learning"
+    ],
+    "url": "https://cyberriskalliance.swoogo.com/raleigh-july-2026",
+    "image": "https://assets.swoogo.com/uploads/full/6275723-6967e7479e34c.png",
+    "description": "Full-day executive summit for CISOs and senior security leaders featuring interactive panels on AI risk, supply chain vulnerabilities, and resilience strategies at the Hilton Raleigh North Hills."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: DC Metro",
+    "slug": "cybersecurity-summit-dc-metro-2026",
+    "date": "2026-07-23T08:00:00-04:00",
+    "endDate": "2026-07-23T18:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "McLean, VA",
+    "region": "northeast",
+    "cost": "paid",
+    "tags": [
+      "Community & General",
+      "Identity & Access"
+    ],
+    "url": "https://cyberriskalliance.swoogo.com/dc-july-2026",
+    "image": "https://assets.swoogo.com/uploads/full/6275980-6967ea8a09277.png",
+    "description": "13th annual DC Metro summit for CISOs featuring interactive panels on AI governance, supply chain resilience, and identity security at The Ritz-Carlton, Tysons Corner."
+  },
+  {
+    "name": "SANS New York City 2026",
+    "slug": "sans-new-york-city-2026",
+    "date": "2026-08-10T00:00:00-04:00",
+    "endDate": "2026-08-15T23:59:00-04:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "New York, NY",
+    "region": "northeast",
+    "cost": "paid",
+    "tags": [
+      "Community & General",
+      "Cloud Security"
+    ],
+    "url": "https://www.sans.org/cyber-security-training-events/new-york-city-2026",
+    "image": "https://images.contentstack.io/v3/assets/bltabe50a4554f8e97f/blt3d61196e1614a2ce/695c0231fd8a3e29d9f531b9/Event_Hero_New_York.jpg",
+    "description": "Six-day SANS training event with nine courses covering hacker tools, incident handling, cloud security, ICS/SCADA, threat intelligence, and AI/ML at The Westin New York Grand Central."
+  },
+  {
+    "name": "SecureWorld St. Louis 2026",
+    "slug": "secureworld-st-louis-2026",
+    "date": "2026-09-02T00:00:00-05:00",
+    "endDate": "2026-09-03T23:59:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "St. Louis, MO",
+    "region": "midwest",
+    "cost": "paid",
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://www.secureworld.io/events/st-louis-mo-2026",
+    "image": null,
+    "description": "Regional cybersecurity conference with keynotes, breakout sessions, expert panels, vendor exhibits, and networking opportunities offering 12-18 CPE credits."
+  },
+  {
+    "name": "SANS Network Security 2026",
+    "slug": "sans-network-security-2026",
+    "date": "2026-09-21T00:00:00-07:00",
+    "endDate": "2026-09-26T23:59:00-07:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Las Vegas, NV",
+    "region": "west-coast",
+    "cost": "paid",
+    "tags": [
+      "Community & General",
+      "Incident Response"
+    ],
+    "url": "https://www.sans.org/cyber-security-training-events/network-security-2026",
+    "image": "https://images.contentstack.io/v3/assets/bltabe50a4554f8e97f/bltb9e0ecf66defd7eb/69d545db384bf7cb31eb3c06/Las_Vegas_Caesers_Palace_856x856.png",
+    "description": "Intensive week of SANS training with 30 courses across all expertise levels and two free NetWars Tournaments at Caesars Palace."
+  },
+  {
+    "name": "National Cyber Summit 2026",
+    "slug": "national-cyber-summit-2026",
+    "date": "2026-09-22T00:00:00-05:00",
+    "endDate": "2026-09-24T23:59:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Huntsville, AL",
+    "region": "southeast",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.nationalcybersummit.com/",
+    "image": "https://eventpower-res.cloudinary.com/image/upload/c_fit,h_375,w_1500/f_auto,q_100/v1/media/National%20Cyber%20Summit/26ncs/website_asset/lx9jrtemywzasy0maklx",
+    "description": "National-scale cybersecurity event offering educational sessions, collaborative workshops, and workforce development opportunities for industry visionaries and rising leaders at the Von Braun Center."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Atlanta",
+    "slug": "cybersecurity-summit-atlanta-2026",
+    "date": "2026-09-30T08:00:00-04:00",
+    "endDate": "2026-09-30T18:00:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Atlanta, GA",
+    "region": "southeast",
+    "cost": "paid",
+    "tags": [
+      "Community & General",
+      "AI & Machine Learning"
+    ],
+    "url": "https://cyberriskalliance.swoogo.com/atlanta-2026",
+    "image": "https://assets.swoogo.com/uploads/full/4531046-670d45112ba08.jpg",
+    "description": "One-day CyberRisk Alliance summit for CISOs and senior leaders with interactive panels on AI governance, supply chain risk, and identity security at Grand Hyatt Buckhead."
+  },
+  {
+    "name": "BSides Atlanta 2026",
+    "slug": "bsides-atlanta-2026",
+    "date": "2026-10-03T00:00:00-04:00",
+    "endDate": "2026-10-03T23:59:00-04:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Atlanta, GA",
+    "region": "southeast",
+    "cost": null,
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://bsidesatl.info/",
+    "image": "https://bsidesatl.info/images/bsidesatl-light-rgb.png",
+    "description": "14th annual community security conference with 13 content areas and over 18,000 sq. ft. of space showcasing the best of Atlanta's cybersecurity community at Georgia Tech Hotel and Conference Center."
+  },
+  {
+    "name": "ISC2 Security Congress 2026",
+    "slug": "isc2-security-congress-2026-2",
+    "date": "2026-10-24T00:00:00-06:00",
+    "endDate": "2026-10-28T23:59:00-06:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Aurora, CO",
+    "region": "west-coast",
+    "cost": null,
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://events.isc2.org/conferences",
+    "image": null,
+    "description": "ISC2's flagship professional development conference with pre-conference sessions and three days of main programming, available both in-person at Gaylord Rockies Resort and virtually."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Los Angeles",
+    "slug": "cybersecurity-summit-los-angeles-2026",
+    "date": "2026-11-02T08:00:00-08:00",
+    "endDate": "2026-11-02T18:00:00-08:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Los Angeles, CA",
+    "region": "west-coast",
+    "cost": "paid",
+    "tags": [
+      "Community & General",
+      "AI & Machine Learning"
+    ],
+    "url": "https://cyberriskalliance.swoogo.com/los-angeles-nov-2026",
+    "image": "https://assets.swoogo.com/uploads/full/6277025-6968070370444.png",
+    "description": "11th annual executive summit for CISOs and security leaders covering AI, supply chain security, and third-party risk management with catered meals and networking."
+  },
+  {
+    "name": "Forrester Security and Risk Forum 2026",
+    "slug": "forrester-security-risk-forum-2026",
+    "date": "2026-11-09T00:00:00-05:00",
+    "endDate": "2026-11-10T23:59:00-05:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Washington, DC",
+    "region": "northeast",
+    "cost": null,
+    "tags": [
+      "Compliance & GRC",
+      "Threat Intelligence"
+    ],
+    "url": "https://www.forrester.com/event/security-risk/",
+    "image": null,
+    "description": "Analyst-led forum for security and risk leaders with keynotes and workshops on threat landscape evolution, Zero Trust implementation, and resilience strategies."
+  },
+  {
+    "name": "SecureWorld Twin Cities 2026",
+    "slug": "secureworld-twin-cities-2026",
+    "date": "2026-11-11T00:00:00-06:00",
+    "endDate": "2026-11-11T23:59:00-06:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Minneapolis, MN",
+    "region": "midwest",
+    "cost": "paid",
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "url": "https://www.secureworld.io/events/twin-cities-mn-2026",
+    "image": null,
+    "description": "Regional cybersecurity conference in Minneapolis with keynotes, expert panels, vendor presentations, and breakout sessions offering 12-18 CPE credits."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Houston",
+    "slug": "cybersecurity-summit-houston-2026",
+    "date": "2026-11-12T08:00:00-06:00",
+    "endDate": "2026-11-12T18:00:00-06:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Houston, TX",
+    "region": "southwest",
+    "cost": "paid",
+    "tags": [
+      "Community & General",
+      "AI & Machine Learning"
+    ],
+    "url": "https://cyberriskalliance.swoogo.com/Houston2026",
+    "image": "https://assets.swoogo.com/uploads/full/4530550-670d34abf021b.png",
+    "description": "8th annual executive summit for CISOs focused on resilience and risk reduction with interactive panels on AI governance, supply chain security, and ecosystem vulnerabilities at Westin Galleria Houston."
+  },
+  {
+    "name": "SANS Dallas 2026",
+    "slug": "sans-dallas-2026",
+    "date": "2026-12-07T00:00:00-06:00",
+    "endDate": "2026-12-12T23:59:00-06:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Richardson, TX",
+    "region": "southwest",
+    "cost": "paid",
+    "tags": [
+      "Community & General",
+      "Incident Response"
+    ],
+    "url": "https://www.sans.org/cyber-security-training-events/dallas-2026",
+    "image": "https://images.contentstack.io/v3/assets/bltabe50a4554f8e97f/blt22e60c8a9123ba68/69d545dba5b1aa7333a451b2/Dallas_TX_City_at_Night_856x856.jpg",
+    "description": "Six-day SANS training summit with 14 courses, hands-on labs, bonus workshops, and exclusive evening sessions at the Hilton Richardson Dallas."
+  },
+  {
+    "name": "SANS Cyber Defense Initiative 2026",
+    "slug": "sans-cyber-defense-initiative-2026",
+    "date": "2026-12-14T00:00:00-05:00",
+    "endDate": "2026-12-19T23:59:00-05:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Washington, DC",
+    "region": "northeast",
+    "cost": "paid",
+    "tags": [
+      "Community & General",
+      "Incident Response"
+    ],
+    "url": "https://www.sans.org/cyber-security-training-events/cyber-defense-initiative-2026",
+    "image": "https://images.contentstack.io/v3/assets/bltabe50a4554f8e97f/blte45bde6180f35621/6813228c77bfb66d1c4b8950/assets_hero_WashingtonDC2_856x856.png",
+    "description": "Intensive six-day SANS training event with 36 courses across multiple expertise levels, hands-on labs, a NetWars tournament, and keynote presentations at the Grand Hyatt Washington."
+  },
+  {
+    "name": "HackNWA 2026: Holiday in Scambodia",
+    "slug": "hacknwa-2026-holiday-in-scambodia",
+    "url": "https://www.eventbrite.com/e/hacknwa-2026-holiday-in-scambodia-tickets-1982298761959",
+    "date": "2026-04-17T08:00:00-05:00",
+    "endDate": "2026-04-17T18:00:00-05:00",
+    "city": "Bentonville, AR",
+    "format": "in-person",
+    "description": "A cybersecurity conference featuring two talking tracks, a tech village, and an impressive lineup of guest speakers and hands-on activities.",
+    "cost": "See website",
+    "organizer": "HackNWA",
+    "source": "Eventbrite",
+    "region": "southwest",
+    "type": "conference",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ]
+  },
+  {
+    "name": "SummitCTF 2026",
+    "slug": "summitctf-2026",
+    "url": "https://www.eventbrite.com/e/summitctf-2026-tickets-1982439422679",
+    "date": "2026-04-18T08:00:00-04:00",
+    "endDate": "2026-04-19T17:00:00-04:00",
+    "city": "Blacksburg, VA",
+    "format": "in-person",
+    "description": "Annual Capture the Flag competition hosted by Virginia Tech's cybersecurity club with a 24-hour 'Hack the Airport' theme featuring jeopardy-style challenges and airport red teaming.",
+    "cost": "Free-$15",
+    "organizer": "Cybersecurity Club at Virginia Tech (CyberVT)",
+    "source": "Eventbrite",
+    "region": "southeast",
+    "type": "ctf",
+    "tags": [
+      "Community & General",
+      "AppSec & DevSecOps"
+    ]
+  },
+  {
+    "name": "DEFCON Group 940 Monthly Meeting",
+    "slug": "defcon-group-940-monthly-meeting-april-2026",
+    "url": "https://www.eventbrite.com/e/defcon-group-940-monthly-meeting-tickets-1081431303139",
+    "date": "2026-04-20T18:30:00-05:00",
+    "endDate": "2026-04-20T20:30:00-05:00",
+    "city": "Denton, TX",
+    "format": "in-person",
+    "description": "Denton's longest-running monthly InfoSec meetup, part of the DEFCON Groups network, featuring presentations and networking on the third Monday of each month.",
+    "cost": "Free",
+    "organizer": "DEFCON Group 940",
+    "source": "Eventbrite",
+    "region": "southwest",
+    "type": "meetup",
+    "tags": [
+      "Community & General"
+    ]
+  },
+  {
+    "name": "Ohio Security Conference 2026",
+    "slug": "ohio-security-conference-2026",
+    "url": "https://www.eventbrite.com/e/ohio-security-conference-2026-tickets-1985066003854",
+    "date": "2026-04-23T08:30:00-04:00",
+    "endDate": "2026-04-23T17:00:00-04:00",
+    "city": "West Chester Township, OH",
+    "format": "in-person",
+    "description": "A cybersecurity conference for security professionals featuring expert insights, practical demonstrations, and an immersive live security exercise exploring emerging threats and AI's impact on security operations.",
+    "cost": "Free",
+    "organizer": "KiZAN Technologies",
+    "source": "Eventbrite",
+    "region": "midwest",
+    "type": "conference",
+    "tags": [
+      "AI & Machine Learning",
+      "Threat Intelligence"
+    ]
+  },
+  {
+    "name": "2026 Midwest OT Cybersecurity Summit",
+    "slug": "2026-midwest-ot-cybersecurity-summit",
+    "url": "https://www.eventbrite.com/e/2026-midwest-ot-cybersecurity-summit-registration-1985023781566",
+    "date": "2026-04-24T10:30:00-05:00",
+    "endDate": "2026-04-24T17:30:00-05:00",
+    "city": "Milwaukee, WI",
+    "format": "in-person",
+    "description": "Industrial cybersecurity summit at Marquette University featuring tech talks, hands-on labs, and networking for both experienced OT security professionals and newcomers to the field.",
+    "cost": "Free-$1,068.91",
+    "organizer": "Security For the Folks",
+    "source": "Eventbrite",
+    "region": "midwest",
+    "type": "conference",
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ]
+  },
+  {
+    "name": "CyberSpecialists CyberConnect Virtual Networking - Denver",
+    "slug": "cyberspecialists-cyberconnect-denver-may-2026",
+    "url": "https://www.eventbrite.com/e/cyberspecialists-spark-your-future-with-cyberconnect-virtual-networking-denver-tickets-1986435219214",
+    "date": "2026-05-07T10:00:00-06:00",
+    "endDate": "2026-05-07T12:00:00-06:00",
+    "city": "Online",
+    "format": "virtual",
+    "description": "A virtual cybersecurity networking event connecting professionals at all career stages for dynamic group chats, one-on-one video conversations, and skill-sharing opportunities.",
+    "cost": "Free",
+    "organizer": "SpecialistsClub",
+    "source": "Eventbrite",
+    "region": "virtual",
+    "type": "meetup",
+    "tags": [
+      "Networking & Career"
+    ]
+  },
+  {
+    "name": "CyberSpecialists CyberConnect Virtual Career Navigator - Raleigh",
+    "slug": "cyberspecialists-cyberconnect-raleigh-may-2026",
+    "url": "https://www.eventbrite.com/e/cyberspecialists-cyberconnectvirtual-career-navigator-for-cybersecurity-raleigh-tickets-1986435197148",
+    "date": "2026-05-07T12:00:00-04:00",
+    "endDate": "2026-05-07T14:00:00-04:00",
+    "city": "Online",
+    "format": "virtual",
+    "description": "A dynamic virtual networking event helping cybersecurity professionals clarify career paths and forge meaningful connections through interactive channels, skill-sharing, and real-time discussions.",
+    "cost": "Free",
+    "organizer": "SpecialistsClub",
+    "source": "Eventbrite",
+    "region": "virtual",
+    "type": "meetup",
+    "tags": [
+      "Networking & Career"
+    ]
+  },
+  {
+    "name": "Hack Space Con 2026",
+    "slug": "hack-space-con-2026",
+    "url": "https://www.eventbrite.com/e/hack-space-con-2026-tickets-1987398451267",
+    "date": "2026-05-08T09:00:00-04:00",
+    "endDate": "2026-05-09T17:00:00-04:00",
+    "city": "Merritt Island, FL",
+    "format": "in-person",
+    "description": "A two-day gathering at Kennedy Space Center Visitor Complex for makers, hackers, and tech lovers, featuring hands-on workshops, talks, and networking.",
+    "cost": "$28.10",
+    "organizer": "Hack Red Con",
+    "source": "Eventbrite",
+    "region": "southeast",
+    "type": "conference",
+    "tags": [
+      "Community & General"
+    ]
+  },
+  {
+    "name": "InnoTech Austin 2026",
+    "slug": "innotech-austin-2026",
+    "url": "https://www.eventbrite.com/e/innotech-austin-tickets-1983367080328",
+    "date": "2026-05-12T08:00:00-05:00",
+    "endDate": "2026-05-12T16:00:00-05:00",
+    "city": "Austin, TX",
+    "format": "in-person",
+    "description": "Technology and security conference and exposition featuring 20+ seminars from industry professionals and hands-on demonstrations from 45+ companies, with continuing education credits available.",
+    "cost": "Free",
+    "organizer": "Prospera Events",
+    "source": "Eventbrite",
+    "region": "southwest",
+    "type": "conference",
+    "tags": [
+      "Community & General",
+      "Cloud Security"
+    ]
+  },
+  {
+    "name": "Minneapolis Cyber Security Meetup",
+    "slug": "minneapolis-cyber-security-meetup-may-2026",
+    "url": "https://www.eventbrite.com/e/minneapolis-cyber-security-meetup-tickets-1984781121764",
+    "date": "2026-05-13T16:00:00-05:00",
+    "endDate": "2026-05-13T19:00:00-05:00",
+    "city": "Minneapolis, MN",
+    "format": "in-person",
+    "description": "A casual three-hour cybersecurity networking event at Punch Bowl Social welcoming both newcomers and experienced professionals to connect and share insights on security topics.",
+    "cost": "Free",
+    "organizer": "MPLS Cyber Meetup Group",
+    "source": "Eventbrite",
+    "region": "midwest",
+    "type": "meetup",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ]
+  },
+  {
+    "name": "South Texas ISSA CompTIA Security+ (SY0-701) 2026 Review",
+    "slug": "south-texas-issa-comptia-security-plus-2026-review",
+    "url": "https://www.eventbrite.com/e/south-texas-issa-comptia-security-sy0-701-2026-review-tickets-1986667573191",
+    "date": "2026-05-16T08:00:00-05:00",
+    "endDate": "2026-05-16T16:30:00-05:00",
+    "city": "Online",
+    "format": "virtual",
+    "description": "A one-day virtual CompTIA Security+ certification review equipping IT professionals with core cybersecurity knowledge, offering 8 CPE hours and discounted exam vouchers.",
+    "cost": "$95-$120",
+    "organizer": "South Texas ISSA",
+    "source": "Eventbrite",
+    "region": "virtual",
+    "type": "workshop",
+    "tags": [
+      "Security Awareness",
+      "Networking & Career"
+    ]
+  },
+  {
+    "name": "BSides Detroit 2026",
+    "slug": "bsides-detroit-2026",
+    "url": "https://www.eventbrite.com/e/bsides-detroit-tickets-1983905545893",
+    "date": "2026-05-30T08:30:00-04:00",
+    "endDate": "2026-05-30T17:00:00-04:00",
+    "city": "Detroit, MI",
+    "format": "in-person",
+    "description": "A community hacker conference at TechTown Detroit bringing together cybersecurity enthusiasts to share security hacks and insights, welcoming both experienced professionals and newcomers.",
+    "cost": "$28.52",
+    "organizer": "BSides Detroit",
+    "source": "Eventbrite",
+    "region": "midwest",
+    "type": "conference",
+    "tags": [
+      "Community & General"
+    ]
+  },
+  {
+    "name": "BSides Fort Wayne 2026",
+    "slug": "bsides-fort-wayne-2026",
+    "url": "https://www.eventbrite.com/e/bsides-fort-wayne-2026-tickets-1970303528894",
+    "date": "2026-06-06T08:00:00-04:00",
+    "endDate": "2026-06-06T17:00:00-04:00",
+    "city": "Fort Wayne, IN",
+    "format": "in-person",
+    "description": "A day-long cybersecurity conference at Walb Student Union featuring expert talks across two tracks, a Capture the Flag competition, badge hacking, lock picking, and complimentary lunch.",
+    "cost": "$30",
+    "organizer": "BSidesFW",
+    "source": "Eventbrite",
+    "region": "midwest",
+    "type": "conference",
+    "tags": [
+      "Community & General"
+    ]
+  },
+  {
+    "name": "BSides Buffalo 2026",
+    "slug": "bsides-buffalo-2026",
+    "url": "https://www.eventbrite.com/e/bsides-buffalo-2026-tickets-1981527517145",
+    "date": "2026-06-06T07:30:00-04:00",
+    "endDate": "2026-06-06T18:00:00-04:00",
+    "city": "Buffalo, NY",
+    "format": "in-person",
+    "description": "A one-day information security and technology conference for Western New York featuring multiple talk tracks, an exhibitor hall, CTF competition, soldering workshop, and free lunch.",
+    "cost": "$20",
+    "organizer": "BSides Buffalo",
+    "source": "Eventbrite",
+    "region": "northeast",
+    "type": "conference",
+    "tags": [
+      "Community & General"
+    ]
+  },
+  {
+    "name": "RVAsec 2026 Security Conference",
+    "slug": "rvasec-2026-security-conference",
+    "url": "https://www.eventbrite.com/e/rvasec-2026-security-conference-tickets-1981086561234",
+    "date": "2026-06-09T08:00:00-04:00",
+    "endDate": "2026-06-10T18:00:00-04:00",
+    "city": "Richmond, VA",
+    "format": "in-person",
+    "description": "Richmond's premier security convention featuring keynotes, 30+ speakers, hands-on CTF and lock picking contests, meals, swag, and a post-conference reception at Richmond Marriott Downtown.",
+    "cost": "$400-$650",
+    "organizer": "RVAsec",
+    "source": "Eventbrite",
+    "region": "southeast",
+    "type": "conference",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ]
+  },
+  {
+    "name": "iStart Valley Cybersecurity Training Program",
+    "slug": "istart-valley-cybersecurity-training-2026",
+    "url": "https://www.eventbrite.com/e/cybersecurity-registration-1983450569045",
+    "date": "2026-06-20T11:00:00-05:00",
+    "endDate": "2026-09-19T12:00:00-05:00",
+    "city": "Online",
+    "format": "virtual",
+    "description": "A 3-month virtual cybersecurity training covering encryption, network security, penetration testing, and real-world projects through hands-on activities and interactive simulations.",
+    "cost": "$400-$600",
+    "organizer": "iStart Valley Inc",
+    "source": "Eventbrite",
+    "region": "virtual",
+    "type": "workshop",
+    "tags": [
+      "Security Awareness",
+      "AppSec & DevSecOps"
+    ]
+  },
+  {
+    "name": "CyberPatriot Summer Camp 2026",
+    "slug": "cyberpatriot-summer-camp-2026",
+    "url": "https://www.eventbrite.com/e/cyberpatriot-summer-camp-2026-standard-tickets-1258389319329",
+    "date": "2026-06-22T08:30:00-04:00",
+    "endDate": "2026-06-26T15:00:00-04:00",
+    "city": "Augusta, GA",
+    "format": "in-person",
+    "description": "A free week-long camp at the Georgia Cyber Innovation and Training Center introducing students (ages 10-17) to cybersecurity through hands-on learning with Windows, Linux, and network security exercises.",
+    "cost": "Free",
+    "organizer": "Alliance for Fort Gordon",
+    "source": "Eventbrite",
+    "region": "southeast",
+    "type": "workshop",
+    "tags": [
+      "Security Awareness",
+      "Community & General"
+    ]
+  },
+  {
+    "name": "HSOC Cyber Adult Cyber Experience - July/August 2026",
+    "slug": "hsoc-cyber-adult-experience-july-august-2026",
+    "url": "https://www.eventbrite.com/e/hsoc-cyber-4-saturday-july-august-2026-adult-cyber-experience-tickets-1987098345643",
+    "date": "2026-07-11T10:00:00-04:00",
+    "endDate": "2026-08-01T14:00:00-04:00",
+    "city": "Online",
+    "format": "virtual",
+    "description": "A live Zoom cybersecurity workshop for adults spanning four Saturdays, covering layered security labs, implementing controls, performing reconnaissance, and threat analysis across Windows, Linux, and network systems.",
+    "cost": "$1,067.84",
+    "organizer": "Dr. Wesley Phillips / HSOC Cyber",
+    "source": "Eventbrite",
+    "region": "virtual",
+    "type": "workshop",
+    "tags": [
+      "Security Awareness",
+      "Threat Intelligence"
+    ]
+  },
+  {
+    "name": "2026 Louisville Metro InfoSec Conference",
+    "slug": "2026-louisville-metro-infosec-conference",
+    "url": "https://www.eventbrite.com/e/2026-louisville-metro-infosec-conference-tickets-1754127535679",
+    "date": "2026-09-11T08:00:00-04:00",
+    "endDate": "2026-09-11T17:00:00-04:00",
+    "city": "Louisville, KY",
+    "format": "in-person",
+    "description": "The 19th annual conference hosted by ISSA Kentuckiana featuring keynote speakers, multiple breakout tracks, and networking, with 6 CPE credits plus complimentary lunch, parking, and WiFi.",
+    "cost": "$130 (free for ISSA members)",
+    "organizer": "ISSA Kentuckiana",
+    "source": "Eventbrite",
+    "region": "southeast",
+    "type": "conference",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ]
+  },
+  {
+    "name": "GrrCON 2026",
+    "slug": "grrcon-2026",
+    "url": "https://www.eventbrite.com/e/grrcon-2026-tickets-1984922196723",
+    "date": "2026-09-24T08:00:00-04:00",
+    "endDate": "2026-09-25T18:00:00-04:00",
+    "city": "Grand Rapids, MI",
+    "format": "in-person",
+    "description": "A cybersecurity and AI conference drawing around 2,800 attendees to DeVos Place, featuring three presentation tracks, training workshops, skill villages (lock picking, car hacking), and a solutions arena.",
+    "cost": "$12.51-$444.68",
+    "organizer": "MidWest InfoSec, LLC",
+    "source": "Eventbrite",
+    "region": "midwest",
+    "type": "conference",
+    "tags": [
+      "Community & General",
+      "AI & Machine Learning"
+    ]
+  },
+  {
+    "name": "ISSA LA 2026 CISO Forum & Security Summit",
+    "slug": "issa-la-2026-ciso-forum-security-summit",
+    "url": "https://www.eventbrite.com/e/issa-los-angeles-security-summit-2026-women-in-security-forum-oct-14-tickets-883047006367",
+    "date": "2026-10-13T09:45:00-07:00",
+    "endDate": "2026-10-14T18:00:00-07:00",
+    "city": "Santa Monica, CA",
+    "format": "in-person",
+    "description": "A two-day beachfront cybersecurity event at Annenberg Community Beach House combining a CISO Forum on Day 1 with the annual Security Summit and Women in Security Forum on Day 2.",
+    "cost": "$33.85-$423.34",
+    "organizer": "Information Systems Security Association LA (ISSALA)",
+    "source": "Eventbrite",
+    "region": "west-coast",
+    "type": "conference",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ]
+  },
+  {
+    "name": "CyberFest 2026",
+    "slug": "cyberfest-2026-lahore",
+    "url": "https://lu.ma/73w5wnmw",
+    "date": "2026-04-18T09:30:00+05:00",
+    "endDate": "2026-04-19T16:00:00+05:00",
+    "city": "Lahore, Pakistan",
+    "format": "in-person",
+    "description": "Premium two-day cybersecurity and emerging tech conference featuring keynotes, live hacking demos, blockchain/Web3 security sessions, hands-on workshops, and a CTF competition.",
+    "cost": "Free",
+    "organizer": "Techierarchy",
+    "source": "Luma",
+    "region": "virtual",
+    "type": "conference",
+    "tags": [
+      "Community & General",
+      "AppSec & DevSecOps"
+    ]
+  },
+  {
+    "name": "SD ISSA InfoSec Networking Tabletop Exercise Dinner",
+    "slug": "sd-issa-infosec-tabletop-exercise-dinner",
+    "url": "https://lu.ma/sdissa",
+    "date": "2026-04-30T17:30:00-07:00",
+    "endDate": "2026-04-30T19:00:00-07:00",
+    "city": "San Diego, CA",
+    "format": "in-person",
+    "description": "San Diego ISSA chapter dinner featuring an interactive tabletop exercise for InfoSec professionals, hosted at KPMG's San Diego office.",
+    "cost": "Free",
+    "organizer": "SD ISSA",
+    "source": "Luma",
+    "region": "west-coast",
+    "type": "chapter",
+    "tags": [
+      "Incident Response",
+      "Community & General"
+    ]
+  },
+  {
+    "name": "National Cyber Resilience Summit 2026",
+    "slug": "national-cyber-resilience-summit-2026",
+    "url": "https://lu.ma/3ugvtuw7",
+    "date": "2026-07-01T09:30:00+05:30",
+    "endDate": "2026-07-01T17:30:00+05:30",
+    "city": "Delhi, India",
+    "format": "in-person",
+    "description": "Full-day summit bringing together cybersecurity leaders to explore emerging strategies, technologies, and policies shaping digital safety through keynotes, panels, and incident response workshops.",
+    "cost": "Free",
+    "organizer": "Sonu Kumar",
+    "source": "Luma",
+    "region": "virtual",
+    "type": "conference",
+    "tags": [
+      "Community & General",
+      "Incident Response"
+    ]
+  },
+  {
+    "name": "San Diego CyberCon 2026",
+    "slug": "san-diego-cybercon-2026",
+    "url": "https://lu.ma/sdissa",
+    "date": "2026-11-13T08:00:00-08:00",
+    "endDate": "2026-11-13T20:00:00-08:00",
+    "city": "San Diego, CA",
+    "format": "in-person",
+    "description": "Annual San Diego cybersecurity conference hosted at the Marriott Marquis San Diego Marina, bringing together the regional security community for a full day of sessions and networking.",
+    "cost": "TBD",
+    "organizer": "SD ISSA",
+    "source": "Luma",
+    "region": "west-coast",
+    "type": "conference",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ]
+  },
+  {
+    "name": "SREday: San Francisco",
+    "slug": "sreday-san-francisco-2026",
+    "url": "https://sreday.com/2026-san-francisco-q2/",
+    "date": "2026-04-17T08:00:00-07:00",
+    "endDate": null,
+    "city": "San Francisco",
+    "state": "CA",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Cloud Security",
+      "Community & General"
+    ],
+    "description": "Site reliability engineering conference bringing together SRE and security professionals to discuss reliability, observability, and secure infrastructure practices.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Holiday in Scambodia (HackNWA)",
+    "slug": "hacknwa-scambodia-2026",
+    "url": "https://hacknwa.org/",
+    "date": "2026-04-17T08:00:00-05:00",
+    "endDate": null,
+    "city": "Fayetteville",
+    "state": "AR",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southeast",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "description": "Northwest Arkansas hacker community event combining hands-on security challenges, talks, and community networking in a relaxed, community-driven atmosphere.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "SparkCon",
+    "slug": "sparkcon-2026",
+    "url": "https://public.walmart.com/content/sparkcon/wmeo/sparkcon-home.html",
+    "date": "2026-04-18T08:00:00-05:00",
+    "endDate": null,
+    "city": "Bentonville",
+    "state": "AR",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southeast",
+    "tags": [
+      "Community & General",
+      "AI & Machine Learning"
+    ],
+    "description": "Walmart-hosted technology and security conference bringing together industry leaders to explore cybersecurity innovation, AI, and enterprise security challenges.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "SINET Silicon Valley",
+    "slug": "sinet-silicon-valley-2026",
+    "url": "https://www.security-innovation.org/events/silicon-valley-2026/",
+    "date": "2026-04-21T08:00:00-07:00",
+    "endDate": null,
+    "city": "Mountain View",
+    "state": "CA",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "description": "Premier cybersecurity innovation showcase connecting CISOs, investors, and emerging security companies in Silicon Valley for networking and technology demonstrations.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "SREday: Seattle",
+    "slug": "sreday-seattle-2026",
+    "url": "https://sreday.com/2026-seattle-q2/",
+    "date": "2026-04-21T08:00:00-07:00",
+    "endDate": null,
+    "city": "Seattle",
+    "state": "WA",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Cloud Security",
+      "Community & General"
+    ],
+    "description": "Site reliability engineering conference in Seattle covering reliability, security, and infrastructure topics for DevOps and SRE professionals.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "PSA TEC",
+    "slug": "psa-tec-2026",
+    "url": "https://www.psasecurity.com/calendar/psa-tec-2026",
+    "date": "2026-04-21T08:00:00-06:00",
+    "endDate": "2026-04-24T17:00:00-06:00",
+    "city": "Denver",
+    "state": "CO",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Community & General",
+      "MSP & Channel"
+    ],
+    "description": "Physical security technology conference at the Gaylord Rockies Resort gathering security integrators from across North America for education, certification, and networking.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "CrowdTour: Houston",
+    "slug": "crowdtour-houston-2026",
+    "url": "https://events.crowdstrike.com/crowdtour2026houston",
+    "date": "2026-04-21T08:00:00-05:00",
+    "endDate": null,
+    "city": "Houston",
+    "state": "TX",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southwest",
+    "tags": [
+      "Threat Intelligence",
+      "Incident Response"
+    ],
+    "description": "CrowdStrike one-day event helping organizations strengthen threat detection and response, designed for SOC teams through executive leadership.",
+    "cost": "Free",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "CrowdTour: Atlanta",
+    "slug": "crowdtour-atlanta-2026",
+    "url": "https://events.crowdstrike.com/crowdtour2026atlanta",
+    "date": "2026-04-22T08:00:00-04:00",
+    "endDate": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southeast",
+    "tags": [
+      "Threat Intelligence",
+      "Incident Response"
+    ],
+    "description": "CrowdStrike one-day experience helping cybersecurity professionals improve their approach to modern threats through hands-on sessions and expert presentations.",
+    "cost": "Free",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "eMerge Americas",
+    "slug": "emerge-americas-2026",
+    "url": "https://emergeamericas.com/",
+    "date": "2026-04-22T08:00:00-04:00",
+    "endDate": null,
+    "city": "Miami",
+    "state": "FL",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southeast",
+    "tags": [
+      "Community & General",
+      "AI & Machine Learning"
+    ],
+    "description": "Miami-based technology and cybersecurity conference connecting Latin American and US tech ecosystems with sessions on AI, cybersecurity, and digital transformation.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Google Cloud Next",
+    "slug": "google-cloud-next-2026",
+    "url": "https://www.googlecloudevents.com/next-vegas",
+    "date": "2026-04-22T08:00:00-07:00",
+    "endDate": "2026-04-24T17:00:00-07:00",
+    "city": "Las Vegas",
+    "state": "NV",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Cloud Security",
+      "AI & Machine Learning"
+    ],
+    "description": "Google's flagship cloud conference covering cloud security, AI, infrastructure, and enterprise technology with hands-on labs, keynotes, and technical deep-dives.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Potomac Officers Club: Digital Transformation Summit",
+    "slug": "poc-digital-transformation-summit-2026",
+    "url": "https://www.potomacofficersclub.com/events/2026-digital-transformation-summit/",
+    "date": "2026-04-22T08:00:00-04:00",
+    "endDate": null,
+    "city": "Tysons Corner",
+    "state": "VA",
+    "type": "conference",
+    "format": "in-person",
+    "region": "northeast",
+    "tags": [
+      "Community & General",
+      "Compliance & GRC"
+    ],
+    "description": "Government-focused technology summit bringing together federal IT and cybersecurity leaders to discuss digital transformation, zero trust, and government security modernization.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "ISSA Cyber Executive Forum",
+    "slug": "issa-cyber-executive-forum-april-2026",
+    "url": "https://issa.org/event/april-cyber-executive-forum-2026/",
+    "date": "2026-04-23T08:00:00-07:00",
+    "endDate": null,
+    "city": "Scottsdale",
+    "state": "AZ",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southwest",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "description": "ISSA-organized executive forum for senior cybersecurity leaders to network, share strategies, and discuss emerging threats in an intimate setting.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Data, Technology & AI Summit New York",
+    "slug": "data-technology-ai-summit-nyc-2026",
+    "url": "https://consero.com/events/chief-data-ai-officer-executive-summit/",
+    "date": "2026-04-23T08:00:00-04:00",
+    "endDate": null,
+    "city": "New York",
+    "state": "NY",
+    "type": "conference",
+    "format": "in-person",
+    "region": "northeast",
+    "tags": [
+      "AI & Machine Learning",
+      "Community & General"
+    ],
+    "description": "Executive summit for Chief Data and AI Officers covering data strategy, AI governance, security, and technology leadership in enterprise environments.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "BSides Charm",
+    "slug": "bsides-charm-2026",
+    "url": "https://bsidescharm.org/",
+    "date": "2026-04-25T08:00:00-04:00",
+    "endDate": null,
+    "city": "Baltimore",
+    "state": "MD",
+    "type": "conference",
+    "format": "in-person",
+    "region": "northeast",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "description": "Community-driven BSides security conference in Baltimore offering technical talks, workshops, and hands-on village activities for security professionals at all levels.",
+    "cost": "Varies",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "StarEast",
+    "slug": "stareast-2026",
+    "url": "https://stareast.techwell.com/",
+    "date": "2026-04-26T08:00:00-04:00",
+    "endDate": null,
+    "city": "Orlando",
+    "state": "FL",
+    "type": "conference",
+    "format": "hybrid",
+    "region": "southeast",
+    "tags": [
+      "AppSec & DevSecOps",
+      "Community & General"
+    ],
+    "description": "Software testing conference covering security testing, quality assurance, and DevSecOps practices with tutorials, keynotes, and hands-on workshops.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Corinium: CISO Chicago",
+    "slug": "corinium-ciso-chicago-2026",
+    "url": "https://go.infosec.events/corinium-ciso-chicago-2026",
+    "date": "2026-04-28T08:00:00-05:00",
+    "endDate": null,
+    "city": "Chicago",
+    "state": "IL",
+    "type": "conference",
+    "format": "in-person",
+    "region": "midwest",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "description": "Executive-level CISO gathering in Chicago focusing on peer-to-peer knowledge sharing, emerging threats, and security leadership challenges in a curated setting.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Dragos Americas Forum: Houston",
+    "slug": "dragos-americas-forum-houston-2026",
+    "url": "https://events.dragos.com/forums",
+    "date": "2026-04-29T08:00:00-05:00",
+    "endDate": null,
+    "city": "Houston",
+    "state": "TX",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southwest",
+    "tags": [
+      "Threat Intelligence",
+      "Incident Response"
+    ],
+    "description": "Two-day regional event bringing together IT security professionals and OT cybersecurity experts to share insights on protecting critical infrastructure operations.",
+    "cost": "Varies",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "DevOpsDays: Raleigh",
+    "slug": "devopsdays-raleigh-2026",
+    "url": "https://devopsdays.org/events/2026-raleigh",
+    "date": "2026-04-30T08:00:00-04:00",
+    "endDate": null,
+    "city": "Raleigh",
+    "state": "NC",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southeast",
+    "tags": [
+      "AppSec & DevSecOps",
+      "Cloud Security"
+    ],
+    "description": "Community-organized DevOps conference in the Research Triangle covering DevSecOps, infrastructure as code, and cloud-native development practices.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "CrowdTour: Bay Area",
+    "slug": "crowdtour-bay-area-2026",
+    "url": "https://events.crowdstrike.com/crowdtour2026bayarea",
+    "date": "2026-05-05T08:00:00-07:00",
+    "endDate": null,
+    "city": "San Francisco",
+    "state": "CA",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Threat Intelligence",
+      "Incident Response"
+    ],
+    "description": "CrowdStrike one-day experience in the Bay Area for cybersecurity professionals to improve their approach to modern threats through hands-on sessions.",
+    "cost": "Free",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "ServiceNow Knowledge",
+    "slug": "servicenow-knowledge-2026",
+    "url": "https://www.servicenow.com/events/knowledge.html",
+    "date": "2026-05-05T08:00:00-07:00",
+    "endDate": null,
+    "city": "Las Vegas",
+    "state": "NV",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Cloud Security",
+      "Compliance & GRC"
+    ],
+    "description": "ServiceNow's annual user conference covering IT service management, security operations, and digital workflow automation with hands-on labs and keynotes.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "ChannelPro DEFEND: Chicago",
+    "slug": "channelpro-defend-chicago-2026",
+    "url": "https://events.channelpronetwork.com/2026-channelpro-defend-chicago/",
+    "date": "2026-05-05T08:00:00-05:00",
+    "endDate": null,
+    "city": "Chicago",
+    "state": "IL",
+    "type": "conference",
+    "format": "in-person",
+    "region": "midwest",
+    "tags": [
+      "MSP & Channel",
+      "Community & General"
+    ],
+    "description": "Channel-focused cybersecurity event helping MSPs and IT service providers strengthen their security offerings and protect their clients.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "ElevateIT: Houston Technology Summit",
+    "slug": "elevateit-houston-2026",
+    "url": "https://eitevents.com/event_pages/houston-technology-summit-2026/",
+    "date": "2026-05-06T08:00:00-05:00",
+    "endDate": null,
+    "city": "Houston",
+    "state": "TX",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southwest",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "description": "Technology leadership summit in Houston covering cybersecurity, IT strategy, and digital transformation for senior technology executives.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "FutureCon CyberSecurity Conference: Seattle",
+    "slug": "futurecon-seattle-2026-2",
+    "url": "https://futureconevents.com/events/seattle-wa-2026",
+    "date": "2026-05-07T08:00:00-07:00",
+    "endDate": null,
+    "city": "Seattle",
+    "state": "WA",
+    "type": "conference",
+    "format": "hybrid",
+    "region": "west-coast",
+    "tags": [
+      "Community & General",
+      "Cloud Security"
+    ],
+    "description": "FutureCon brings IT and security professionals together for practical sessions led by CISOs covering cloud security, identity management, and zero trust strategies.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "CIOMeet: Boston",
+    "slug": "ciomeet-boston-2026",
+    "url": "https://www.ciomeet.org/boston",
+    "date": "2026-05-07T08:00:00-04:00",
+    "endDate": null,
+    "city": "Boston",
+    "state": "MA",
+    "type": "meetup",
+    "format": "in-person",
+    "region": "northeast",
+    "tags": [
+      "Networking & Career",
+      "Community & General"
+    ],
+    "description": "Executive-level gathering bringing together senior IT and cybersecurity leaders in Boston for workshops, roundtables, and peer-to-peer networking.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Secureframe National Cybersecurity Summit",
+    "slug": "secureframe-national-cybersecurity-summit-2026",
+    "url": "https://secureframe.com/summit",
+    "date": "2026-05-11T09:00:00-04:00",
+    "endDate": "2026-05-13T17:00:00-04:00",
+    "city": "New York",
+    "state": "NY",
+    "type": "conference",
+    "format": "virtual",
+    "region": "virtual",
+    "tags": [
+      "Compliance & GRC",
+      "Cloud Security"
+    ],
+    "description": "Three-day virtual conference covering CMMC implementation, FedRAMP authorization, zero trust strategies, supply chain security, and compliance automation with expert-led sessions.",
+    "cost": "Free",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "CxO Institute: New York",
+    "slug": "cxo-institute-nyc-may-2026",
+    "url": "https://cxo-institute.com/our-events/cxo-institute-new-york-may-2026/",
+    "date": "2026-05-13T08:00:00-04:00",
+    "endDate": null,
+    "city": "New York",
+    "state": "NY",
+    "type": "conference",
+    "format": "in-person",
+    "region": "northeast",
+    "tags": [
+      "Networking & Career",
+      "Community & General"
+    ],
+    "description": "Executive-level institute bringing together CISOs, CIOs, and CTOs in New York for curated discussions on cybersecurity strategy and digital risk management.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "CrowdTour: New York City",
+    "slug": "crowdtour-nyc-2026",
+    "url": "https://events.crowdstrike.com/crowdtour2026nyc",
+    "date": "2026-05-14T08:00:00-04:00",
+    "endDate": null,
+    "city": "New York",
+    "state": "NY",
+    "type": "conference",
+    "format": "in-person",
+    "region": "northeast",
+    "tags": [
+      "Threat Intelligence",
+      "Incident Response"
+    ],
+    "description": "CrowdStrike one-day experience in NYC helping cybersecurity professionals improve their approach to modern threats with expert-led sessions and demonstrations.",
+    "cost": "Free",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "DevOpsDays: Nashville",
+    "slug": "devopsdays-nashville-2026",
+    "url": "https://devopsdays.org/events/2026-nashville",
+    "date": "2026-05-14T08:00:00-05:00",
+    "endDate": null,
+    "city": "Nashville",
+    "state": "TN",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southeast",
+    "tags": [
+      "AppSec & DevSecOps",
+      "Cloud Security"
+    ],
+    "description": "Community-organized DevOps conference in Nashville covering DevSecOps, automation, cloud-native security, and infrastructure practices.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Events 4 Sure: Global AI, Cyber & Privacy ConfEx NYC",
+    "slug": "ai-cyber-privacy-confex-nyc-2026",
+    "url": "https://www.events4sure.com/ai-cyber-privacy-nyc-may2026",
+    "date": "2026-05-19T08:00:00-04:00",
+    "endDate": null,
+    "city": "New York",
+    "state": "NY",
+    "type": "conference",
+    "format": "in-person",
+    "region": "northeast",
+    "tags": [
+      "AI & Machine Learning",
+      "Compliance & GRC"
+    ],
+    "description": "Conference and exhibition covering the intersection of AI, cybersecurity, and data privacy with expert sessions on governance, risk, and emerging technology threats.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Observability Summit North America",
+    "slug": "observability-summit-north-america-2026",
+    "url": "https://events.linuxfoundation.org/observability-summit-north-america/",
+    "date": "2026-05-21T08:00:00-05:00",
+    "endDate": null,
+    "city": "Minneapolis",
+    "state": "MN",
+    "type": "conference",
+    "format": "in-person",
+    "region": "midwest",
+    "tags": [
+      "Cloud Security",
+      "AppSec & DevSecOps"
+    ],
+    "description": "Linux Foundation event focused on observability, monitoring, and security telemetry in cloud-native environments with technical sessions and case studies.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "NaCLCon (SaltCon)",
+    "slug": "naclcon-2026",
+    "url": "https://naclcon.com/",
+    "date": "2026-05-31T08:00:00-04:00",
+    "endDate": null,
+    "city": "Carolina Beach",
+    "state": "NC",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southeast",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "description": "Hacker conference on the North Carolina coast offering technical security talks, workshops, and community networking in a laid-back beach setting.",
+    "cost": "Varies",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "QCon AI Boston",
+    "slug": "qcon-ai-boston-2026",
+    "url": "https://boston.qcon.ai/media",
+    "date": "2026-06-01T08:00:00-04:00",
+    "endDate": null,
+    "city": "Boston",
+    "state": "MA",
+    "type": "conference",
+    "format": "in-person",
+    "region": "northeast",
+    "tags": [
+      "AI & Machine Learning",
+      "Community & General"
+    ],
+    "description": "AI-focused conference in Boston covering AI security, machine learning applications in cybersecurity, and the intersection of AI and software engineering.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "CrowdTour: Boston",
+    "slug": "crowdtour-boston-2026",
+    "url": "https://events.crowdstrike.com/crowdtourboston",
+    "date": "2026-06-02T08:00:00-04:00",
+    "endDate": null,
+    "city": "Boston",
+    "state": "MA",
+    "type": "conference",
+    "format": "in-person",
+    "region": "northeast",
+    "tags": [
+      "Threat Intelligence",
+      "Incident Response"
+    ],
+    "description": "CrowdStrike one-day experience in Boston for cybersecurity professionals to engage with modern threat detection and response strategies.",
+    "cost": "Free",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "IT Security Conference Chicago",
+    "slug": "it-security-conference-chicago-2026",
+    "url": "https://www.itsecurityus.com/",
+    "date": "2026-06-04T08:00:00-05:00",
+    "endDate": null,
+    "city": "Chicago",
+    "state": "IL",
+    "type": "conference",
+    "format": "in-person",
+    "region": "midwest",
+    "tags": [
+      "Community & General",
+      "Cloud Security"
+    ],
+    "description": "IT security conference in Chicago covering enterprise security, cloud protection, identity management, and emerging threats with expert-led sessions.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Hak4Kidz",
+    "slug": "hak4kidz-2026",
+    "url": "https://www.hak4kidz.com",
+    "date": "2026-06-06T08:00:00-05:00",
+    "endDate": null,
+    "city": "Chicago",
+    "state": "IL",
+    "type": "workshop",
+    "format": "in-person",
+    "region": "midwest",
+    "tags": [
+      "Security Awareness",
+      "Community & General"
+    ],
+    "description": "Youth-focused cybersecurity event teaching kids digital literacy, ethical hacking, online safety, and STEM skills through hands-on activities and workshops.",
+    "cost": "Varies",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Rubrik Forward USA",
+    "slug": "rubrik-forward-usa-2026",
+    "url": "https://forward.rubrik.com/2026",
+    "date": "2026-06-08T08:00:00-07:00",
+    "endDate": null,
+    "city": "Las Vegas",
+    "state": "NV",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Cloud Security",
+      "Incident Response"
+    ],
+    "description": "Rubrik's annual conference covering data security, cyber recovery, ransomware resilience, and backup infrastructure for enterprise security teams.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "RVAsec",
+    "slug": "rvasec-2026",
+    "url": "https://rvasec.com/",
+    "date": "2026-06-09T08:00:00-04:00",
+    "endDate": null,
+    "city": "Richmond",
+    "state": "VA",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southeast",
+    "tags": [
+      "Community & General",
+      "AppSec & DevSecOps"
+    ],
+    "description": "Richmond's premier information security conference offering technical talks, workshops, and networking for security professionals across the mid-Atlantic region.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "ElevateIT: Minneapolis Technology Summit",
+    "slug": "elevateit-minneapolis-2026",
+    "url": "https://eitevents.com/event_pages/minneapolis-technology-summit-2026/",
+    "date": "2026-06-11T08:00:00-05:00",
+    "endDate": null,
+    "city": "Minneapolis",
+    "state": "MN",
+    "type": "conference",
+    "format": "in-person",
+    "region": "midwest",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "description": "Technology leadership summit in Minneapolis covering cybersecurity, IT strategy, and digital transformation for senior technology executives.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "CrowdTour: Columbus",
+    "slug": "crowdtour-columbus-2026",
+    "url": "https://events.crowdstrike.com/crowdtour2026columbus",
+    "date": "2026-06-16T08:00:00-04:00",
+    "endDate": null,
+    "city": "Columbus",
+    "state": "OH",
+    "type": "conference",
+    "format": "in-person",
+    "region": "midwest",
+    "tags": [
+      "Threat Intelligence",
+      "Incident Response"
+    ],
+    "description": "CrowdStrike one-day experience in Columbus designed to help cybersecurity professionals improve their approach to modern threats.",
+    "cost": "Free",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "ElevateIT: Denver Technology Summit",
+    "slug": "elevateit-denver-2026",
+    "url": "https://eitevents.com/event_pages/denver-technology-summit-2026/",
+    "date": "2026-07-22T08:00:00-06:00",
+    "endDate": null,
+    "city": "Denver",
+    "state": "CO",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "description": "Technology leadership summit in Denver covering cybersecurity, IT strategy, and digital transformation for senior technology executives.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Black Hat USA",
+    "slug": "black-hat-usa-2026-2",
+    "url": "https://www.blackhat.com/upcoming.html#usa",
+    "date": "2026-08-02T08:00:00-07:00",
+    "endDate": "2026-08-07T17:00:00-07:00",
+    "city": "Las Vegas",
+    "state": "NV",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "description": "Premier cybersecurity event convening security researchers, industry professionals, and ethical hackers for cutting-edge technical briefings, hands-on training, and original research presentations on emerging threats and defenses.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "TechMentor & Cybersecurity Live! @ Microsoft HQ",
+    "slug": "techmentor-cybersecurity-live-microsoft-hq-2026",
+    "url": "https://techmentorevents.com/microsofthq",
+    "date": "2026-08-03T08:00:00-07:00",
+    "endDate": null,
+    "city": "Redmond",
+    "state": "WA",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Cloud Security",
+      "Identity & Access"
+    ],
+    "description": "Conference at Microsoft headquarters combining IT infrastructure and cybersecurity training with sessions on cloud security, identity management, and Microsoft security technologies.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Convene: Boston - Cybersecurity & Human Risk Conference",
+    "slug": "convene-boston-cybersecurity-human-risk-2026",
+    "url": "https://www.staysafeonline.org/events/convene-boston",
+    "date": "2026-08-13T08:00:00-04:00",
+    "endDate": "2026-08-14T17:00:00-04:00",
+    "city": "Boston",
+    "state": "MA",
+    "type": "conference",
+    "format": "in-person",
+    "region": "northeast",
+    "tags": [
+      "Security Awareness",
+      "Community & General"
+    ],
+    "description": "National Cybersecurity Alliance conference exploring the human side of cybersecurity risk, covering security awareness, behavior change, and building security-first organizational cultures.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "HMG Strategy: Annual Philadelphia C-Level Technology Leadership Summit",
+    "slug": "hmg-strategy-philadelphia-2026",
+    "url": "https://hmgstrategy.com/",
+    "date": "2026-08-18T08:00:00-04:00",
+    "endDate": null,
+    "city": "Philadelphia",
+    "state": "PA",
+    "type": "conference",
+    "format": "in-person",
+    "region": "northeast",
+    "tags": [
+      "Networking & Career",
+      "Community & General"
+    ],
+    "description": "C-level technology leadership summit connecting CISOs, CIOs, and CTOs in Philadelphia for peer-to-peer discussions on cybersecurity strategy and executive risk management.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "FutureCon CyberSecurity Conference: Salt Lake City",
+    "slug": "futurecon-salt-lake-city-2026-2",
+    "url": "https://futureconevents.com/events/salt-lake-city-ut-2026",
+    "date": "2026-08-27T08:00:00-06:00",
+    "endDate": null,
+    "city": "Salt Lake City",
+    "state": "UT",
+    "type": "conference",
+    "format": "hybrid",
+    "region": "west-coast",
+    "tags": [
+      "Community & General",
+      "Cloud Security"
+    ],
+    "description": "FutureCon brings IT and security professionals together for practical CISO-led sessions on cloud security, identity management, and zero trust strategies.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "FutureCon CyberSecurity Conference: Charlotte",
+    "slug": "futurecon-charlotte-2026-2",
+    "url": "https://futureconevents.com/events/charlotte-nc-2026",
+    "date": "2026-09-10T08:00:00-04:00",
+    "endDate": null,
+    "city": "Charlotte",
+    "state": "NC",
+    "type": "conference",
+    "format": "hybrid",
+    "region": "southeast",
+    "tags": [
+      "Community & General",
+      "Cloud Security"
+    ],
+    "description": "FutureCon brings IT and security professionals together for practical CISO-led sessions on cloud security, identity management, and zero trust strategies.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "BSidesCache",
+    "slug": "bsidescache-2026",
+    "url": "https://www.bsidescache.org/",
+    "date": "2026-09-18T08:00:00-06:00",
+    "endDate": null,
+    "city": "Salt Lake City",
+    "state": "UT",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "description": "Utah's BSides community security conference offering technical talks, workshops, and hands-on activities in an inclusive, community-driven environment.",
+    "cost": "Varies",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "INTERFACE Salt Lake City",
+    "slug": "interface-salt-lake-city-2026",
+    "url": "https://f2fevents.com/event/slc26/",
+    "date": "2026-09-24T08:00:00-06:00",
+    "endDate": null,
+    "city": "Salt Lake City",
+    "state": "UT",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "description": "Technology leadership event connecting IT and security executives with solutions providers for education, networking, and strategic discussions.",
+    "cost": "Free",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Cyber Resilience Awareness Day",
+    "slug": "cyber-resilience-awareness-day-2026",
+    "url": "https://issa.org/event/cyber-resilience-awareness-day-/",
+    "date": "2026-10-15T08:00:00-05:00",
+    "endDate": null,
+    "city": "Houston",
+    "state": "TX",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southwest",
+    "tags": [
+      "Security Awareness",
+      "Incident Response"
+    ],
+    "description": "ISSA-organized event promoting cyber resilience awareness, covering incident preparedness, business continuity, and organizational resilience strategies.",
+    "cost": "Varies",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "HMG Strategy: Annual Minneapolis C-Level Technology Leadership Summit",
+    "slug": "hmg-strategy-minneapolis-2026",
+    "url": "https://hmgstrategy.com/",
+    "date": "2026-10-27T08:00:00-05:00",
+    "endDate": null,
+    "city": "Minneapolis",
+    "state": "MN",
+    "type": "conference",
+    "format": "in-person",
+    "region": "midwest",
+    "tags": [
+      "Networking & Career",
+      "Community & General"
+    ],
+    "description": "C-level technology leadership summit connecting CISOs, CIOs, and CTOs in Minneapolis for peer-to-peer discussions on cybersecurity strategy and executive risk management.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "ThreatModCon",
+    "slug": "threatmodcon-2026",
+    "url": "https://www.threatmodcon.com/",
+    "date": "2026-11-07T08:00:00-05:00",
+    "endDate": null,
+    "city": "Washington",
+    "state": "DC",
+    "type": "conference",
+    "format": "in-person",
+    "region": "northeast",
+    "tags": [
+      "AppSec & DevSecOps",
+      "Threat Intelligence"
+    ],
+    "description": "Dedicated threat modeling conference bringing together security architects and AppSec professionals to advance threat modeling practices, methodologies, and tools.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "SHIFT Nashville",
+    "slug": "shift-nashville-2026",
+    "url": "https://www.commvault.com/shift",
+    "date": "2026-11-10T08:00:00-05:00",
+    "endDate": null,
+    "city": "Nashville",
+    "state": "TN",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southeast",
+    "tags": [
+      "Cloud Security",
+      "Incident Response"
+    ],
+    "description": "Commvault-hosted conference on data protection, cyber recovery, and cloud resilience, covering ransomware defense, backup modernization, and data security strategies.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "PHREAKNIC",
+    "slug": "phreaknic-2026",
+    "url": "https://phreaknic.info/",
+    "date": "2026-11-14T08:00:00-05:00",
+    "endDate": null,
+    "city": "Murfreesboro",
+    "state": "TN",
+    "type": "conference",
+    "format": "in-person",
+    "region": "southeast",
+    "tags": [
+      "Community & General",
+      "Threat Intelligence"
+    ],
+    "description": "Long-running hacker conference in Tennessee celebrating hacker culture, phone phreaking history, and modern security research with talks, workshops, and community activities.",
+    "cost": "Varies",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "FutureCon CyberSecurity Conference: Nashville",
+    "slug": "futurecon-nashville-2026-2",
+    "url": "https://futureconevents.com/events/nashville-tn-2026",
+    "date": "2026-11-19T08:00:00-05:00",
+    "endDate": null,
+    "city": "Nashville",
+    "state": "TN",
+    "type": "conference",
+    "format": "hybrid",
+    "region": "southeast",
+    "tags": [
+      "Community & General",
+      "Cloud Security"
+    ],
+    "description": "FutureCon brings IT and security professionals together for practical CISO-led sessions on cloud security, identity management, and zero trust strategies.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "Gartner IT Infrastructure, Operations & Cloud Strategies Conference",
+    "slug": "gartner-it-infrastructure-cloud-2026",
+    "url": "https://www.gartner.com/en/conferences/na/infrastructure-operations-cloud-us",
+    "date": "2026-12-09T08:00:00-08:00",
+    "endDate": null,
+    "city": "Las Vegas",
+    "state": "NV",
+    "type": "conference",
+    "format": "in-person",
+    "region": "west-coast",
+    "tags": [
+      "Cloud Security",
+      "Community & General"
+    ],
+    "description": "Gartner conference on IT infrastructure strategy, cloud operations, and security architecture for enterprise technology leaders navigating hybrid and multi-cloud environments.",
+    "cost": "Paid",
+    "source": "infosec-conferences.com"
+  },
+  {
+    "name": "SANS Virginia Beach 2026",
+    "slug": "sans-virginia-beach-2026",
+    "url": "https://www.sans.org/cyber-security-training-events/virginia-beach-2026",
+    "date": "2026-08-24T09:00:00-04:00",
+    "endDate": "2026-09-04T17:00:00-04:00",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "type": "workshop",
+    "format": "hybrid",
+    "region": "northeast",
+    "tags": [
+      "Community & General",
+      "Incident Response",
+      "Cloud Security"
+    ],
+    "description": "Two consecutive weeks of training (19 courses) at the Hilton Virginia Beach Oceanfront. Week 1 (Aug 24-29) and Week 2 (Aug 31-Sep 4) span cyber defense, forensics, and leadership tracks.",
+    "cost": "$7,650-$8,780",
+    "source": "SANS",
+    "organizer": "SANS Institute"
+  },
+  {
+    "name": "SANS DC Metro September 2026",
+    "slug": "sans-dc-metro-september-2026",
+    "url": "https://www.sans.org/cyber-security-training-events/dc-metro-september-2026",
+    "date": "2026-09-28T09:00:00-04:00",
+    "endDate": "2026-10-03T17:00:00-04:00",
+    "city": "Bethesda",
+    "state": "MD",
+    "type": "workshop",
+    "format": "hybrid",
+    "region": "northeast",
+    "tags": [
+      "Community & General",
+      "Compliance & GRC",
+      "Incident Response"
+    ],
+    "description": "12 courses at The Bethesdan Hotel in Bethesda, MD covering security operations, compliance, and defense. Convenient DC metro area location with both in-person and virtual options.",
+    "cost": "$7,650-$8,780",
+    "source": "SANS",
+    "organizer": "SANS Institute"
+  },
+  {
+    "name": "SANS San Francisco 2026",
+    "slug": "sans-san-francisco-2026",
+    "url": "https://www.sans.org/cyber-security-training-events/san-francisco-2026",
+    "date": "2026-11-02T09:00:00-07:00",
+    "endDate": "2026-11-07T17:00:00-08:00",
+    "city": "San Francisco",
+    "state": "CA",
+    "type": "workshop",
+    "format": "hybrid",
+    "region": "west-coast",
+    "tags": [
+      "Community & General",
+      "Cloud Security",
+      "Incident Response"
+    ],
+    "description": "11 courses at the Hilton Financial District covering cloud security, incident handling, forensics, and offensive operations. Both in-person and live online formats available.",
+    "cost": "$8,260-$9,230",
+    "source": "SANS",
+    "organizer": "SANS Institute"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Nashville 2026",
+    "slug": "cybersecurity-summit-nashville-2026",
+    "url": "https://cyberriskalliance.swoogo.com/nashville-may-2026",
+    "date": "2026-05-13",
+    "endDate": "2026-05-13",
+    "city": "Nashville",
+    "region": "southeast",
+    "format": "in-person",
+    "type": "conference",
+    "description": "One-day summit connecting CISOs and senior executives with innovative solution providers. Interactive panels, expert keynotes, and networking focused on strengthening resilience and reducing risk. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Milwaukee 2026",
+    "slug": "cybersecurity-summit-milwaukee-2026",
+    "url": "https://cyberriskalliance.swoogo.com/Milwaukee-2026",
+    "date": "2026-06-02",
+    "endDate": "2026-06-02",
+    "city": "Milwaukee",
+    "region": "midwest",
+    "format": "in-person",
+    "type": "conference",
+    "description": "One-day summit for CISOs and senior security leaders in the Midwest. Interactive panels, solution showcases, and networking. Catered breakfast, lunch, and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Hartford 2026",
+    "slug": "cybersecurity-summit-hartford-2026",
+    "url": "https://cyberriskalliance.swoogo.com/hartford-june-2026",
+    "date": "2026-06-03",
+    "endDate": "2026-06-03",
+    "city": "Hartford",
+    "region": "northeast",
+    "format": "in-person",
+    "type": "conference",
+    "description": "One-day summit for CISOs and senior leaders in the Connecticut/New England region. Interactive panels, solution showcases, and strategic networking. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: St. Louis 2026",
+    "slug": "cybersecurity-summit-st-louis-2026",
+    "url": "https://cyberriskalliance.swoogo.com/st-louis-june-2026",
+    "date": "2026-06-09",
+    "endDate": "2026-06-09",
+    "city": "St. Louis",
+    "region": "midwest",
+    "format": "in-person",
+    "type": "conference",
+    "description": "Summit at Marriott St. Louis Grand. CISOs and senior leaders gather for interactive panels, solution showcases, and strategic networking on strengthening organizational resilience. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Austin 2026",
+    "slug": "cybersecurity-summit-austin-2026",
+    "url": "https://cyberriskalliance.swoogo.com/Austin-2026",
+    "date": "2026-06-11",
+    "endDate": "2026-06-11",
+    "city": "Austin",
+    "region": "southwest",
+    "format": "in-person",
+    "type": "conference",
+    "description": "Summit at JW Marriott Austin. CISOs and senior executives gather for high-impact sessions on AI governance, threat detection, and risk management. Catered breakfast, lunch, and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Pittsburgh 2026",
+    "slug": "cybersecurity-summit-pittsburgh-2026",
+    "url": "https://cyberriskalliance.swoogo.com/Pittsburgh-2026",
+    "date": "2026-06-23",
+    "endDate": "2026-06-23",
+    "city": "Pittsburgh",
+    "region": "northeast",
+    "format": "in-person",
+    "type": "conference",
+    "description": "Summit at Wyndham Grand Pittsburgh Downtown. CISOs and senior leaders focus on strengthening resilience, reducing risk, and aligning security with business goals. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Portland 2026",
+    "slug": "cybersecurity-summit-portland-2026",
+    "url": "https://cyberriskalliance.swoogo.com/portland-august-2026",
+    "date": "2026-08-19",
+    "endDate": "2026-08-19",
+    "city": "Portland",
+    "region": "west-coast",
+    "format": "in-person",
+    "type": "conference",
+    "description": "Summit at Hyatt Regency Portland. CISOs and senior leaders from the Pacific Northwest gather for interactive panels, solution showcases, and networking. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Columbus 2026",
+    "slug": "cybersecurity-summit-columbus-2026",
+    "url": "https://cyberriskalliance.swoogo.com/columbus2026",
+    "date": "2026-09-02",
+    "endDate": "2026-09-02",
+    "city": "Columbus",
+    "region": "midwest",
+    "format": "in-person",
+    "type": "conference",
+    "description": "Summit at Renaissance Columbus Downtown Hotel. CISOs and senior leaders gather for interactive panels, solution showcases, and networking on strengthening organizational resilience. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: San Diego 2026 (Fall)",
+    "slug": "cybersecurity-summit-san-diego-2026-sep",
+    "url": "https://cyberriskalliance.swoogo.com/san-diego-2026",
+    "date": "2026-09-10",
+    "endDate": "2026-09-10",
+    "city": "San Diego",
+    "region": "west-coast",
+    "format": "in-person",
+    "type": "conference",
+    "description": "Fall edition of the San Diego summit. CISOs and senior leaders gather for high-impact sessions, solution showcases, and strategic networking. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Chicago 2026 (Fall)",
+    "slug": "cybersecurity-summit-chicago-2026-sep",
+    "url": "https://cyberriskalliance.swoogo.com/chicago2026",
+    "date": "2026-09-15",
+    "endDate": "2026-09-15",
+    "city": "Chicago",
+    "region": "midwest",
+    "format": "in-person",
+    "type": "conference",
+    "description": "Fall edition of the Chicago summit. CISOs and senior executives gather for actionable insights on AI governance, threat detection, and risk management. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Philadelphia 2026",
+    "slug": "cybersecurity-summit-philadelphia-2026",
+    "url": "https://cyberriskalliance.swoogo.com/philadelphia-sept-2026",
+    "date": "2026-09-17",
+    "endDate": "2026-09-17",
+    "city": "Philadelphia",
+    "region": "northeast",
+    "format": "in-person",
+    "type": "conference",
+    "description": "One-day summit for CISOs and senior leaders in the greater Philadelphia area. Interactive panels, solution showcases, and strategic networking. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Scottsdale 2026",
+    "slug": "cybersecurity-summit-scottsdale-2026",
+    "url": "https://cyberriskalliance.swoogo.com/Scottsdale-2026",
+    "date": "2026-10-01",
+    "endDate": "2026-10-01",
+    "city": "Scottsdale",
+    "region": "southwest",
+    "format": "in-person",
+    "type": "conference",
+    "description": "One-day summit for CISOs and senior leaders in the Phoenix/Scottsdale metro. Interactive panels, solution showcases, and strategic networking. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Seattle/Bellevue 2026",
+    "slug": "cybersecurity-summit-seattle-bellevue-2026",
+    "url": "https://cyberriskalliance.swoogo.com/seattle-bellevue-oct-2026",
+    "date": "2026-10-01",
+    "endDate": "2026-10-01",
+    "city": "Seattle",
+    "region": "west-coast",
+    "format": "in-person",
+    "type": "conference",
+    "description": "One-day summit for CISOs and senior leaders in the Pacific Northwest. Interactive panels, solution showcases, and strategic networking on emerging cyber threats. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Boston 2026 (Fall)",
+    "slug": "cybersecurity-summit-boston-2026-oct",
+    "url": "https://cyberriskalliance.swoogo.com/boston-fall-2026",
+    "date": "2026-10-08",
+    "endDate": "2026-10-08",
+    "city": "Boston",
+    "region": "northeast",
+    "format": "in-person",
+    "type": "conference",
+    "description": "Fall edition of the Boston summit. CISOs and senior leaders gather for high-impact sessions on resilience, risk management, and aligning security with business goals. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Silicon Valley 2026 (Fall)",
+    "slug": "cybersecurity-summit-silicon-valley-2026-oct",
+    "url": "https://cyberriskalliance.swoogo.com/silicon-valley-sept-2026",
+    "date": "2026-10-13",
+    "endDate": "2026-10-13",
+    "city": "Silicon Valley",
+    "region": "west-coast",
+    "format": "in-person",
+    "type": "conference",
+    "description": "Fall edition of the Silicon Valley summit. CISOs and senior executives from the tech sector gather for actionable insights, solution showcases, and networking. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Charlotte 2026",
+    "slug": "cybersecurity-summit-charlotte-2026",
+    "url": "https://cyberriskalliance.swoogo.com/charlotte-oct-2026",
+    "date": "2026-10-20",
+    "endDate": "2026-10-20",
+    "city": "Charlotte",
+    "region": "southeast",
+    "format": "in-person",
+    "type": "conference",
+    "description": "One-day summit for CISOs and senior leaders in the Charlotte metro and greater Carolinas. Interactive panels, solution showcases, and strategic networking. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: New York 2026 (Fall)",
+    "slug": "cybersecurity-summit-new-york-2026-nov",
+    "url": "https://cyberriskalliance.swoogo.com/NewYork-Fall-2026",
+    "date": "2026-11-17",
+    "endDate": "2026-11-17",
+    "city": "New York",
+    "region": "northeast",
+    "format": "in-person",
+    "type": "conference",
+    "description": "Fall edition of the New York summit. C-Suite and senior executives gather for high-impact sessions on critical infrastructure protection, financial sector security, and emerging threats. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "Official Cybersecurity Summit: Jacksonville 2026",
+    "slug": "cybersecurity-summit-jacksonville-2026",
+    "url": "https://cyberriskalliance.swoogo.com/jacksonville-dec-2026",
+    "date": "2026-12-01",
+    "endDate": "2026-12-01",
+    "city": "Jacksonville",
+    "region": "southeast",
+    "format": "in-person",
+    "type": "conference",
+    "description": "One-day summit for CISOs and senior leaders in Northeast Florida. Interactive panels, solution showcases, and networking on resilience and risk management. Catered meals and cocktail reception. CPE/CEU credits.",
+    "cost": "$250",
+    "organizer": "CyberRisk Alliance",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "source": "cybersecuritysummit.com"
   }
 ]
