@@ -20652,5 +20652,79 @@
       "Networking & Career"
     ],
     "source": "cybersecuritysummit.com"
+  },
+  {
+    "name": "AI Tinkerers Seattle: Software Factory Intensive",
+    "slug": "ai-tinkerers-seattle-software-factory-intensive-apr-2026",
+    "url": "https://seattle.aitinkerers.org/",
+    "date": "2026-04-21T09:00:00-07:00",
+    "endDate": "2026-04-22T17:00:00-07:00",
+    "city": "Seattle, WA",
+    "format": "in-person",
+    "description": "Two-day practical workshop for software engineers to build an automated software factory using autonomous agentic workflows. Participants deploy a working system for their own projects.",
+    "cost": "TBD",
+    "organizer": "AI Tinkerers",
+    "source": "AI Tinkerers",
+    "region": "west-coast",
+    "type": "workshop",
+    "tags": [
+      "AI & Machine Learning"
+    ]
+  },
+  {
+    "name": "AI Tinkerers Raleigh Meetup - May 2026",
+    "slug": "ai-tinkerers-raleigh-may-2026",
+    "url": "https://raleigh.aitinkerers.org/p/ai-tinkerers-raleigh-meetup-may-6-2026",
+    "date": "2026-05-06T18:00:00-04:00",
+    "endDate": "2026-05-06T21:00:00-04:00",
+    "city": "Raleigh, NC",
+    "format": "in-person",
+    "description": "Curated coder-first meetup focused on working code and real experiments. Features short hard demos, raw workflows, and candid feedback from peers who ship AI in production. Sponsored by RaleighFounded.",
+    "cost": "Free",
+    "organizer": "AI Tinkerers",
+    "source": "AI Tinkerers",
+    "region": "southeast",
+    "type": "meetup",
+    "tags": [
+      "AI & Machine Learning",
+      "Community & General"
+    ]
+  },
+  {
+    "name": "AI Tinkerers NYC: Software Factory Intensive",
+    "slug": "ai-tinkerers-nyc-software-factory-intensive-may-2026",
+    "url": "https://nyc.aitinkerers.org/",
+    "date": "2026-05-11T09:00:00-04:00",
+    "endDate": "2026-05-12T17:00:00-04:00",
+    "city": "New York, NY",
+    "format": "in-person",
+    "description": "Two-day in-person workshop for software engineers building autonomous agentic workflows and deploying an automated software factory system for their projects.",
+    "cost": "TBD",
+    "organizer": "AI Tinkerers",
+    "source": "AI Tinkerers",
+    "region": "northeast",
+    "type": "workshop",
+    "tags": [
+      "AI & Machine Learning"
+    ]
+  },
+  {
+    "name": "AI Tinkerers Seattle: CISO & Security Leader Dinner",
+    "slug": "ai-tinkerers-seattle-ciso-security-dinner",
+    "url": "https://seattle.aitinkerers.org/p/ciso-dinner-exploring-use-cases-of-generative-ai-in-cybersecurity",
+    "date": "2026-05-01T18:00:00-07:00",
+    "endDate": "2026-05-01T21:00:00-07:00",
+    "city": "Seattle, WA",
+    "format": "in-person",
+    "description": "Exclusive breakout dinner for CISOs and security leaders exploring generative AI use cases in cybersecurity. Technical demos on threat detection, incident response, and agentic workflow automation for security operations.",
+    "cost": "Free",
+    "organizer": "AI Tinkerers",
+    "source": "AI Tinkerers",
+    "region": "west-coast",
+    "type": "meetup",
+    "tags": [
+      "AI & Machine Learning",
+      "Cloud Security"
+    ]
   }
 ]
