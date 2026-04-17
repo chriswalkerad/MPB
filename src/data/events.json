@@ -20726,5 +20726,119 @@
       "AI & Machine Learning",
       "Cloud Security"
     ]
+  },
+  {
+    "name": "AI Tinkerers Seattle: GTM Engineering \u2014 April Meetup",
+    "slug": "ai-tinkerers-seattle-gtm-engineering-apr-2026",
+    "date": "2026-04-22T18:00:00-07:00",
+    "endDate": "2026-04-22T21:00:00-07:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Seattle, WA",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "AI & Machine Learning",
+      "Community & General"
+    ],
+    "url": "https://seattle.aitinkerers.org/p/ai-tinkerers-seattle-gtm-engineering-april-meetup",
+    "source": "AI Tinkerers",
+    "description": "Curated code-first meetup convening 50 vetted builders for a GTM Engineering session focused on AI-driven growth systems, agentic workflows, and lead scoring. Sponsored by Tarka.",
+    "organizer": "AI Tinkerers"
+  },
+  {
+    "name": "AI Tinkerers NYC: Demo Day \u2014 Adaptive Software with Sky Valley and Veris",
+    "slug": "ai-tinkerers-nyc-demo-day-may-2026",
+    "date": "2026-05-13T18:00:00-04:00",
+    "endDate": "2026-05-13T21:00:00-04:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "New York, NY",
+    "region": "northeast",
+    "cost": "Free",
+    "tags": [
+      "AI & Machine Learning",
+      "Community & General"
+    ],
+    "url": "https://nyc.aitinkerers.org/p/demo-day-adaptive-software-with-sky-valley",
+    "source": "AI Tinkerers",
+    "description": "Demo Day showcasing adaptive software with Sky Valley and Veris, featuring live technical demos and community Q&A for NYC-area AI builders.",
+    "organizer": "AI Tinkerers"
+  },
+  {
+    "name": "AI Tinkerers Atlanta: Community Demos & Technical Deep Dives",
+    "slug": "ai-tinkerers-atlanta-community-demos-apr-2026",
+    "date": "2026-04-21T16:30:00-04:00",
+    "endDate": "2026-04-21T19:30:00-04:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Atlanta, GA",
+    "region": "southeast",
+    "cost": "Free",
+    "tags": [
+      "AI & Machine Learning",
+      "Community & General"
+    ],
+    "url": "https://atlanta.aitinkerers.org/p/ai-tinkerers-atlanta-community-demos-technical-deep-dives",
+    "source": "AI Tinkerers",
+    "description": "In-person meetup featuring community demos, technical deep dives, and a science fair for engineers and researchers building with foundation models.",
+    "organizer": "AI Tinkerers"
+  },
+  {
+    "name": "AI Tinkerers Portland: Go-to-Market AI Toolkits",
+    "slug": "ai-tinkerers-portland-gtm-ai-toolkits-may-2026",
+    "date": "2026-05-15T11:00:00-07:00",
+    "endDate": "2026-05-15T14:00:00-07:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Portland, OR",
+    "region": "west-coast",
+    "cost": "Free",
+    "tags": [
+      "AI & Machine Learning",
+      "Community & General"
+    ],
+    "url": "https://portland.aitinkerers.org/p/ai-tinkerers-portland-go-to-market-ai-toolkits",
+    "source": "AI Tinkerers",
+    "description": "Builder-only session on the technical implementation of AI in go-to-market strategies, covering the actual code, prompt chains, and agentic workflows driving lead generation, segmentation, and sales automation.",
+    "organizer": "AI Tinkerers"
+  },
+  {
+    "name": "AI Tinkerers Minneapolis-Saint Paul \u2014 May 6, 2026",
+    "slug": "ai-tinkerers-minneapolis-saint-paul-may-2026",
+    "date": "2026-05-06T17:45:00-05:00",
+    "endDate": "2026-05-06T20:00:00-05:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Minneapolis, MN",
+    "region": "midwest",
+    "cost": "Free",
+    "tags": [
+      "AI & Machine Learning",
+      "Community & General"
+    ],
+    "url": "https://minneapolis-saint-paul.aitinkerers.org/p/ai-tinkerers-minneapolis-saint-paul-may-6-2026",
+    "source": "AI Tinkerers",
+    "description": "In-person technical meetup for builders featuring live demos and a networking session. Sponsored by AWS.",
+    "organizer": "AI Tinkerers"
+  },
+  {
+    "name": "AI Tinkerers Columbus: May Meetup",
+    "slug": "ai-tinkerers-columbus-may-2026",
+    "date": "2026-05-04T17:30:00-04:00",
+    "endDate": "2026-05-04T20:00:00-04:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Columbus, OH",
+    "region": "midwest",
+    "cost": "Free",
+    "tags": [
+      "AI & Machine Learning",
+      "Community & General"
+    ],
+    "url": "https://columbus.aitinkerers.org/p/ai-tinkerers-columbus-may-meetup",
+    "source": "AI Tinkerers",
+    "description": "Practitioner-only, in-person meetup focused on LLM demonstrations and technical discussions among engineers shipping AI in production.",
+    "organizer": "AI Tinkerers"
   }
 ]
