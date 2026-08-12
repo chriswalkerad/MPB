@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
+import { useIsMobile } from '../hooks/useIsMobile'
 
 const CATEGORY_TABS = [
   { value: 'all', label: 'All' },
@@ -13,6 +14,7 @@ const CATEGORY_TABS = [
 export default function NewsFilters({ category, onCategoryChange, source, onSourceChange, sources }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const dropdownRef = useRef(null)
+  const isMobile = useIsMobile()
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -31,14 +33,20 @@ export default function NewsFilters({ category, onCategoryChange, source, onSour
   return (
     <div style={{
       display: 'flex',
+      flexDirection: isMobile ? 'column' : 'row',
       justifyContent: 'space-between',
-      alignItems: 'center',
-      flexWrap: 'wrap',
+      alignItems: isMobile ? 'stretch' : 'center',
       gap: '12px',
       marginBottom: '24px'
     }}>
-      {/* Category Tabs */}
-      <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
+      {/* Category Tabs: horizontal scroll on mobile instead of wrapping */}
+      <div style={{
+        display: 'flex',
+        gap: '20px',
+        overflowX: isMobile ? 'auto' : 'visible',
+        whiteSpace: 'nowrap',
+        scrollbarWidth: 'none'
+      }}>
         {CATEGORY_TABS.map(tab => (
           <button
             key={tab.value}
@@ -52,6 +60,7 @@ export default function NewsFilters({ category, onCategoryChange, source, onSour
               cursor: 'pointer',
               fontSize: '14px',
               fontWeight: 500,
+              flexShrink: 0,
               transition: 'color 0.2s, border-color 0.2s'
             }}
           >

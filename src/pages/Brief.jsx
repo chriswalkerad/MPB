@@ -81,15 +81,26 @@ export default function Brief() {
           {brief.intro}
         </p>
 
-        {/* Items */}
+        {/* Items: whole section links to the original article */}
         {brief.items.map(item => (
-          <div
+          <a
             key={item.storySlug}
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
-              marginBottom: '32px',
-              paddingLeft: '16px',
+              display: 'block',
+              marginBottom: '20px',
+              padding: '16px',
               borderLeft: `2px solid ${CATEGORY_COLORS[item.category] || 'rgba(255,255,255,0.2)'}`,
+              borderRadius: '0 12px 12px 0',
+              background: 'transparent',
+              textDecoration: 'none',
+              cursor: 'pointer',
+              transition: 'background 0.2s ease',
             }}
+            onMouseEnter={(e) => { e.currentTarget.style.background = 'rgba(255,255,255,0.05)' }}
+            onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent' }}
           >
             <h2 style={{ fontSize: '19px', fontWeight: 600, color: 'white', margin: '0 0 8px 0', lineHeight: 1.3 }}>
               {item.heading}
@@ -97,23 +108,16 @@ export default function Brief() {
             <p style={{ fontSize: '15px', color: 'rgba(255,255,255,0.7)', margin: '0 0 8px 0', lineHeight: 1.7 }}>
               {item.body}
             </p>
-            <a
-              href={item.url}
-              target="_blank"
-              rel="noopener noreferrer"
+            <span
               style={{
                 fontSize: '13px',
                 color: 'rgba(255,255,255,0.5)',
-                textDecoration: 'none',
                 fontFamily: '"JetBrains Mono", monospace',
-                transition: 'color 0.2s ease',
               }}
-              onMouseEnter={(e) => e.currentTarget.style.color = 'rgba(255,255,255,0.9)'}
-              onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255,255,255,0.5)'}
             >
               Read at {item.source} ↗
-            </a>
-          </div>
+            </span>
+          </a>
         ))}
 
         {/* Sign-off */}
