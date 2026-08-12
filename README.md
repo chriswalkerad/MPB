@@ -1,0 +1,40 @@
+# My Printer Broke
+
+cybersecurity news + events for MSP owners, IT admins, and security pros. live at [myprinterbroke.com](https://myprinterbroke.com).
+
+## what's on the site
+
+- **events** (`/events`): curated directory of cybersecurity conferences, meetups, workshops, and virtual events across the US, filterable by location, format, type, and category
+- **news** (`/news`): automated link-out news feed. rss from 13 hand-picked sources is curated by claude every 6 hours: it selects the stories that matter to this audience, merges duplicate coverage, and writes headlines and one-line summaries in mpb voice. cards link to the original article
+- **daily brief** (`/brief`): original mpb-authored morning digest of the day's curated stories, generated daily at 9:17am ET
+- **submit** (`/submit`): event submission form for organizers
+
+## stack
+
+react + vite spa, no database (data lives in committed json under `src/data/`), react-three-fiber for the 3d bunker, hosted on vercel, beehiiv newsletter, formspree forms.
+
+## commands
+
+```bash
+npm install
+npm run dev      # vite dev server
+npm run build    # production build + sitemap
+npm run preview  # preview production build
+```
+
+## automation
+
+| workflow | schedule | what it does |
+|---|---|---|
+| `fetch-news.yml` | every 6h | rss -> claude curation -> commits `src/data/news.json` |
+| `daily-brief.yml` | daily 13:17 utc | curated stories -> claude digest -> commits `src/data/briefs.json` |
+| `daily-tweet.yml` | daily 14:00 utc | posts an upcoming event to bluesky |
+
+the news workflows need an `ANTHROPIC_API_KEY` repo secret. commits from the workflows trigger vercel redeploys. local dry run:
+
+```bash
+ANTHROPIC_API_KEY=... node scripts/fetch-news.js --dry-run
+ANTHROPIC_API_KEY=... node scripts/generate-brief.js --dry-run
+```
+
+full pipeline design: [docs/plans/2026-08-12-news-aggregator-design.md](docs/plans/2026-08-12-news-aggregator-design.md)
