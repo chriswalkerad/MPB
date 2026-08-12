@@ -7,6 +7,7 @@ const root = join(__dirname, '..')
 
 const events = JSON.parse(readFileSync(join(root, 'src/data/events.json'), 'utf-8'))
 const categories = JSON.parse(readFileSync(join(root, 'src/data/categories.json'), 'utf-8'))
+const briefs = JSON.parse(readFileSync(join(root, 'src/data/briefs.json'), 'utf-8'))
 
 const BASE_URL = 'https://myprinterbroke.com'
 const today = new Date().toISOString().split('T')[0]
@@ -15,6 +16,7 @@ const urls = [
   { loc: '/', changefreq: 'daily', priority: '1.0' },
   { loc: '/events', changefreq: 'daily', priority: '0.9' },
   { loc: '/news', changefreq: 'hourly', priority: '0.8' },
+  { loc: '/brief', changefreq: 'daily', priority: '0.8' },
   { loc: '/submit', changefreq: 'monthly', priority: '0.5' },
   { loc: '/events/archive', changefreq: 'weekly', priority: '0.4' },
 ]
@@ -22,6 +24,11 @@ const urls = [
 // Category pages
 categories.forEach(cat => {
   urls.push({ loc: `/events/category/${cat.slug}`, changefreq: 'daily', priority: '0.7' })
+})
+
+// Brief pages
+briefs.forEach(brief => {
+  urls.push({ loc: `/brief/${brief.slug}`, changefreq: 'monthly', priority: '0.6' })
 })
 
 // Event pages

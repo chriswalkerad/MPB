@@ -57,6 +57,15 @@ To add a source: append to `SOURCES` in `fetch-news.js`, run `--dry-run` to conf
 - Homepage: last 2 floating cards show newest stories via `FloatingNewsCard` (`$ news --source=...`); falls back to events while news.json is empty.
 - Nav: "News" in Layout top nav (hidden on /news) and bottom nav. Sitemap + llms.txt updated. `prerender.js` not updated (not in default build).
 
+## Daily Brief (added same day)
+
+One MPB-authored digest per day: original prose synthesizing the day's curated stories, the site's first owned content. Legally clean (commentary/synthesis with links out, no republishing); doubles as future newsletter body.
+
+- `scripts/generate-brief.js`: reads news.json stories from the last 36h (min 2, max 8; skips otherwise), one Claude call (same model/output pattern as fetch-news) producing `{ title, intro, items: [{ slug, heading, body }], signOff }`. Items are joined back to stories by slug (hallucinated slugs dropped); the brief stores each item's url/source/category from the real story record. Idempotent: exits if today's brief exists.
+- `src/data/briefs.json`: newest first, last 30 retained (older briefs live in git history). Brief slug = date (`2026-08-12`), so URLs are `/brief/2026-08-12`.
+- `.github/workflows/daily-brief.yml`: daily `17 13 * * *` UTC (9:17am ET), one hour after the 12:17 UTC news refresh so stories are fresh. Same commit-back pattern, `briefs.json` only.
+- Frontend: `/brief` renders the latest, `/brief/:slug` a specific day; prev/next navigation; category-colored left borders per item; `Read at {source} ↗` links. The News page shows a banner card linking to the latest brief. Brief pages are in the sitemap (original content, worth indexing).
+
 ## Operations
 
 - Secret: `ANTHROPIC_API_KEY` (repo secret; also needed locally for full runs).

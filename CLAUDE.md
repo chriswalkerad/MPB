@@ -24,8 +24,9 @@ Standalone brand, separate from Kinds Security (not publicly associated). Newsle
 1. **Homepage** (`/`) — Hero with 3D bunker background, headline, email subscribe (Beehiiv), floating event + news cards preview
 2. **Explore Events** (`/events`) — Filterable grid of events. Filters: region, type, date. Cards link to detail pages.
 3. **News** (`/news`) — Curated news feed, filterable by category and source. Cards link out to the original article (no detail pages).
-4. **Submit Event** (`/submit`) — Formspree form (endpoint: formspree.io/f/xwvnjlbq) for organizers
-5. **Event Detail** (`/events/[slug]`) — Full event info + editorial note + outbound link
+4. **Daily Brief** (`/brief`, `/brief/[date]`) — Original MPB-authored morning digest of the day's curated stories, with links out. `/brief` shows the latest.
+5. **Submit Event** (`/submit`) — Formspree form (endpoint: formspree.io/f/xwvnjlbq) for organizers
+6. **Event Detail** (`/events/[slug]`) — Full event info + editorial note + outbound link
 
 ## Technical Stack
 
@@ -89,6 +90,7 @@ interface NewsItem {
 - Retention: 14 days / floor of 50 items in news.json; seen-urls pruned at 30 days.
 - Feed failures are logged and skipped, the run continues. A curation refusal exits 0 (self-heals next run); only real errors fail the workflow.
 - Add a source: append to `SOURCES` in the script, verify with `--dry-run`. Some feeds (MSSP Alert, ChannelE2E) need the custom User-Agent already set there.
+- **Daily brief:** `scripts/generate-brief.js` runs daily at 13:17 UTC via `.github/workflows/daily-brief.yml`, one hour after the 12:17 UTC news refresh. Reads stories from the last 36h in news.json (needs at least 2, else skips), writes an original MPB-voice digest to `src/data/briefs.json` (last 30 retained). Idempotent per day. Same secret, same refusal-skip semantics. Local test: `ANTHROPIC_API_KEY=... node scripts/generate-brief.js --dry-run`.
 - Full design: `docs/plans/2026-08-12-news-aggregator-design.md`.
 
 ## Brand & Tone

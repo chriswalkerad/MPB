@@ -1,10 +1,17 @@
 import { useMemo } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import Layout from '../components/Layout'
 import NewsFilters from '../components/NewsFilters'
 import NewsList from '../components/NewsList'
 import MetaTags from '../components/MetaTags'
 import news from '../data/news.json'
+import briefs from '../data/briefs.json'
+
+function formatBriefDate(dateStr) {
+  const today = new Date().toISOString().slice(0, 10)
+  if (dateStr === today) return "Today's"
+  return new Date(`${dateStr}T12:00:00Z`).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) + "'s"
+}
 
 export default function News() {
   const [searchParams, setSearchParams] = useSearchParams()
@@ -84,6 +91,57 @@ export default function News() {
             The security stories worth your time, curated for MSPs and IT pros
           </p>
         </div>
+
+        {/* Latest Brief Banner */}
+        {briefs.length > 0 && (
+          <Link
+            to={`/brief/${briefs[0].slug}`}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '12px',
+              background: 'rgba(255,255,255,0.03)',
+              border: '1px solid rgba(255,255,255,0.08)',
+              borderRadius: '12px',
+              padding: '14px 16px',
+              marginBottom: '24px',
+              textDecoration: 'none',
+              transition: 'border-color 0.2s ease'
+            }}
+            onMouseEnter={(e) => e.currentTarget.style.borderColor = 'rgba(255,255,255,0.25)'}
+            onMouseLeave={(e) => e.currentTarget.style.borderColor = 'rgba(255,255,255,0.08)'}
+          >
+            <span
+              style={{
+                padding: '3px 8px',
+                borderRadius: '4px',
+                fontSize: '11px',
+                fontFamily: '"JetBrains Mono", monospace',
+                fontWeight: 500,
+                textTransform: 'uppercase',
+                background: 'rgba(255,255,255,0.1)',
+                color: 'rgba(255,255,255,0.9)',
+                flexShrink: 0
+              }}
+            >
+              {formatBriefDate(briefs[0].date)} Brief
+            </span>
+            <span
+              style={{
+                fontSize: '14px',
+                color: 'rgba(255,255,255,0.8)',
+                fontWeight: 500,
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                whiteSpace: 'nowrap',
+                flex: 1
+              }}
+            >
+              {briefs[0].title}
+            </span>
+            <span style={{ color: 'rgba(255,255,255,0.5)', fontSize: '14px', flexShrink: 0 }}>→</span>
+          </Link>
+        )}
 
         {/* Filters */}
         <NewsFilters
