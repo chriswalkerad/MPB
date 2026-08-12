@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import ExploreEvents from './pages/ExploreEvents'
+import News from './pages/News'
 import CategoryPage from './pages/CategoryPage'
 import SubmitEvent from './pages/SubmitEvent'
 import PastEvents from './pages/PastEvents'
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/bunker" element={<Bunker />} />
           <Route path="/events" element={<ExploreEvents />} />
+          <Route path="/news" element={<News />} />
           <Route path="/events/category/:slug" element={<CategoryPage />} />
           <Route path="/events/archive" element={<PastEvents />} />
           <Route path="/events/:slug" element={<EventDetail />} />

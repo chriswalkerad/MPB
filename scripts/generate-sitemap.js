@@ -14,6 +14,7 @@ const today = new Date().toISOString().split('T')[0]
 const urls = [
   { loc: '/', changefreq: 'daily', priority: '1.0' },
   { loc: '/events', changefreq: 'daily', priority: '0.9' },
+  { loc: '/news', changefreq: 'hourly', priority: '0.8' },
   { loc: '/submit', changefreq: 'monthly', priority: '0.5' },
   { loc: '/events/archive', changefreq: 'weekly', priority: '0.4' },
 ]

@@ -15,16 +15,17 @@ npm run preview  # Preview production build
 
 ## What Is This?
 
-A cybersecurity events aggregator — the Luma discover page, but exclusively for cybersecurity. We aggregate events from Eventbrite, Meetup, Luma, ISSA chapters, OWASP chapters, BSides, vendor conferences, and present them in one curated feed with editorial voice.
+A cybersecurity news + events site. Events: the Luma discover page, but exclusively for cybersecurity, aggregated from Eventbrite, Meetup, Luma, ISSA chapters, OWASP chapters, BSides, vendor conferences, presented in one curated feed with editorial voice. News: an automated link-out aggregator (headline + MPB-voice summary + link to the original article) curated from hand-picked sources for MSP owners, IT admins, and security pros; covers cybersecurity plus AI through the security lens.
 
 Standalone brand, separate from Kinds Security (not publicly associated). Newsletter via Beehiiv.
 
 ## MVP Pages
 
-1. **Homepage** (`/`) — Hero with 3D bunker background, headline, email subscribe (Beehiiv), floating event cards preview
+1. **Homepage** (`/`) — Hero with 3D bunker background, headline, email subscribe (Beehiiv), floating event + news cards preview
 2. **Explore Events** (`/events`) — Filterable grid of events. Filters: region, type, date. Cards link to detail pages.
-3. **Submit Event** (`/submit`) — Formspree form (endpoint: formspree.io/f/xwvnjlbq) for organizers
-4. **Event Detail** (`/events/[slug]`) — Full event info + editorial note + outbound link
+3. **News** (`/news`) — Curated news feed, filterable by category and source. Cards link out to the original article (no detail pages).
+4. **Submit Event** (`/submit`) — Formspree form (endpoint: formspree.io/f/xwvnjlbq) for organizers
+5. **Event Detail** (`/events/[slug]`) — Full event info + editorial note + outbound link
 
 ## Technical Stack
 
@@ -62,6 +63,34 @@ interface Event {
 }
 ```
 
+## News Data Model
+
+```typescript
+interface NewsItem {
+  slug: string;            // slugified headline + -YYYY-MM-DD, collision-guarded
+  title: string;           // MPB-voice headline (displayed)
+  originalTitle: string;   // source headline
+  summary: string;         // one sentence, MPB voice
+  url: string;             // canonical article, normalized
+  source: { name: string };
+  altSources: { name: string; url: string }[]; // merged duplicate coverage
+  category: 'threats' | 'vulnerabilities' | 'msp-channel' | 'ai-security' | 'defense' | 'industry';
+  publishedAt: string;
+  fetchedAt: string;
+}
+```
+
+## News Pipeline
+
+`scripts/fetch-news.js` runs every 6 hours via `.github/workflows/fetch-news.yml` (also `workflow_dispatch`): fetches RSS from the `SOURCES` list, sends new candidates to Claude (`claude-opus-5`) for selection/dedup/copywriting, writes `src/data/news.json` + `scripts/news-seen.json`, and the workflow commits both back (Vercel redeploys on push).
+
+- Requires `ANTHROPIC_API_KEY` (repo secret in CI; env var locally).
+- Local test: `ANTHROPIC_API_KEY=... node scripts/fetch-news.js --dry-run` (prints selection, writes nothing).
+- Retention: 14 days / floor of 50 items in news.json; seen-urls pruned at 30 days.
+- Feed failures are logged and skipped, the run continues. A curation refusal exits 0 (self-heals next run); only real errors fail the workflow.
+- Add a source: append to `SOURCES` in the script, verify with `--dry-run`. Some feeds (MSSP Alert, ChannelE2E) need the custom User-Agent already set there.
+- Full design: `docs/plans/2026-08-12-news-aggregator-design.md`.
+
 ## Brand & Tone
 
 "My computer broke" is intentionally disarming. Our audience (MSP owners, IT admins, security pros) hears this phrase daily. Tone: useful, direct, occasionally funny, never salesy.
@@ -69,7 +98,7 @@ interface Event {
 ## Navigation (all pages)
 
 - Top left: logo (links home)
-- Top right: "Explore Events"
+- Top right: "News" + "Explore Events"
 - Bottom left: logo + "Submit An Event"
 - Bottom right: LinkedIn, X, Instagram
 

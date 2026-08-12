@@ -1,0 +1,48 @@
+name: Fetch News
+
+on:
+  schedule:
+    # every 6 hours, offset from top of hour to dodge cron congestion
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-news
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: 'true'
+
+      - name: Fetch and curate news
+        run: node scripts/fetch-news.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/news.json scripts/news-seen.json
+          if git diff --cached --quiet; then
+            echo "No news changes; skipping commit."
+          else
+            git pull --rebase --autostash
+            git commit -m "chore(news): refresh curated news $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

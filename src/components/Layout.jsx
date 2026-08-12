@@ -12,6 +12,7 @@ export default function Layout({ children }) {
   const [logoHovered, setLogoHovered] = useState(false)
   const routerLocation = useRouterLocation()
   const isEventsPage = routerLocation.pathname.startsWith('/events')
+  const isNewsPage = routerLocation.pathname.startsWith('/news')
   const isMobile = useIsMobile()
 
   return (
@@ -121,6 +122,23 @@ export default function Layout({ children }) {
           >
             Subscribe
           </button>
+          {!isNewsPage && !isMobile && (
+            <Link
+              to="/news"
+              style={{
+                color: 'rgba(255,255,255,0.6)',
+                textDecoration: 'none',
+                fontSize: '14px',
+                fontWeight: 500,
+                fontFamily: "'Outfit', sans-serif",
+                transition: 'color 0.2s ease'
+              }}
+              onMouseEnter={(e) => e.currentTarget.style.color = 'rgba(255,255,255,1)'}
+              onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255,255,255,0.6)'}
+            >
+              News
+            </Link>
+          )}
           {!isEventsPage && !isMobile && (
             <Link
               to="/events"
@@ -188,6 +206,17 @@ export default function Layout({ children }) {
             }}
           >
             Submit An Event
+          </Link>
+          <Link
+            to="/news"
+            style={{
+              fontFamily: "'Outfit', sans-serif",
+              fontSize: '12px',
+              color: 'rgba(255,255,255,0.5)',
+              textDecoration: 'none'
+            }}
+          >
+            News
           </Link>
           <Link
             to="/events/archive"
