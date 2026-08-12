@@ -116,6 +116,20 @@ export default function Homepage() {
               Subscribe
             </button>
             <Link
+              to="/news"
+              className="nav-link-hover"
+              style={{
+                color: 'rgba(255,255,255,0.6)',
+                textDecoration: 'none',
+                fontSize: '14px',
+                fontWeight: 500,
+                fontFamily: "'Outfit', sans-serif",
+                whiteSpace: 'nowrap'
+              }}
+            >
+              News
+            </Link>
+            <Link
               to="/events"
               className="nav-link-hover"
               style={{
