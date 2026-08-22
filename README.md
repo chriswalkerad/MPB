@@ -17,10 +17,20 @@ react + vite spa, no database (data lives in committed json under `src/data/`), 
 
 ```bash
 npm install
-npm run dev      # vite dev server
-npm run build    # production build + sitemap
-npm run preview  # preview production build
+npm run dev              # vite dev server
+npm run build            # production build + sitemap
+npm run build:prerender  # what vercel runs: build + sitemap + static html for every route
+npm run preview          # preview production build
 ```
+
+## seo / discoverability
+
+production builds prerender every route (~1,250 pages) to static html via headless chrome, so crawlers that don't execute js — googlebot's first pass, GPTBot, ClaudeBot, PerplexityBot — see full content, unique meta tags, and json-ld on every page. the react spa hydrates on top at runtime.
+
+- `scripts/prerender.js` renders `/`, `/events`, `/news`, `/brief/*`, every `/events/[slug]`, category, and city page. a route that fails to render (after one retry) fails the build — otherwise it would ship as an empty spa shell
+- city landing pages (`/events/city/[slug]`) exist for the 28 metros with 8+ events; city name normalization lives in `src/lib/cities.js`
+- `scripts/generate-sitemap.js` emits `sitemap.xml` with every url; `public/robots.txt` explicitly allows ai crawlers; `public/llms.txt` describes the site for llms
+- canonical urls use `https://www.myprinterbroke.com` (the bare domain redirects to www)
 
 ## automation
 
