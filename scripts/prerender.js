@@ -10,14 +10,18 @@ const distDir = join(root, 'dist')
 
 const events = JSON.parse(readFileSync(join(root, 'src/data/events.json'), 'utf-8'))
 const categories = JSON.parse(readFileSync(join(root, 'src/data/categories.json'), 'utf-8'))
+const briefs = JSON.parse(readFileSync(join(root, 'src/data/briefs.json'), 'utf-8'))
 
 // Collect all routes to prerender
 const routes = [
   '/',
   '/events',
+  '/news',
+  '/brief',
   '/submit',
   '/events/archive',
   ...categories.map(c => `/events/category/${c.slug}`),
+  ...briefs.map(b => `/brief/${b.slug}`),
   ...events.map(e => `/events/${e.slug}`),
 ]
 
@@ -32,11 +36,16 @@ async function prerender() {
   const address = server.httpServer.address()
   const port = address.port
 
-  const browser = await puppeteer.launch({ headless: true })
+  const browser = await puppeteer.launch({
+    headless: true,
+    // Required to run inside CI build containers (e.g. Vercel)
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu', '--disable-dev-shm-usage'],
+  })
 
   // Process in batches to avoid overwhelming the browser
   const BATCH_SIZE = 20
   let completed = 0
+  const failed = []
 
   for (let i = 0; i < routes.length; i += BATCH_SIZE) {
     const batch = routes.slice(i, i + BATCH_SIZE)
@@ -63,6 +72,7 @@ async function prerender() {
           console.log(`  ${completed}/${routes.length} routes prerendered`)
         }
       } catch (err) {
+        failed.push(route)
         console.error(`  Failed: ${route} - ${err.message}`)
       } finally {
         await page.close()
@@ -72,6 +82,14 @@ async function prerender() {
 
   await browser.close()
   server.httpServer.close()
+
+  // A failed route would ship as an empty SPA shell — invisible to crawlers.
+  if (failed.length > 0) {
+    console.error(`Prerender failed for ${failed.length} route(s):`)
+    failed.forEach(r => console.error(`  ${r}`))
+    process.exit(1)
+  }
+
   console.log('Prerendering complete!')
   process.exit(0)
 }

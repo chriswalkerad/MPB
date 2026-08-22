@@ -22,7 +22,8 @@ My Printer Broke helps security professionals discover conferences, meetups, wor
 - Explore Events: https://myprinterbroke.com/events
 - News: https://myprinterbroke.com/news
 - Daily Brief: https://myprinterbroke.com/brief
-- About: https://myprinterbroke.com/about
+- Submit an Event: https://myprinterbroke.com/submit
+- Full sitemap: https://myprinterbroke.com/sitemap.xml (every event has a dedicated page at /events/[slug])
 
 ## Contact
 

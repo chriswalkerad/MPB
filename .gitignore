@@ -23,3 +23,5 @@ Thumbs.db
 # Security audit artifacts
 static_analysis_semgrep_1/
 .supply-chain-risk-auditor/
+.vercel
+.env.local
