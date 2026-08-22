@@ -56,6 +56,28 @@ async function prerender() {
     })
   }
 
+  async function renderRoute(route, { waitUntil, timeout }) {
+    const page = await browser.newPage()
+    try {
+      await page.goto(`http://localhost:${port}${route}`, { waitUntil, timeout })
+      // Wait for React to render and MetaTags to update the head
+      await page.waitForFunction(() => document.title !== '', { timeout: 5000 }).catch(() => {})
+
+      const html = await page.content()
+
+      // Determine output path
+      const filePath = route === '/'
+        ? join(distDir, 'index.html')
+        : join(distDir, route, 'index.html')
+
+      const dir = dirname(filePath)
+      if (!existsSync(dir)) mkdirSync(dir, { recursive: true })
+      writeFileSync(filePath, html)
+    } finally {
+      await page.close()
+    }
+  }
+
   // Process in batches to avoid overwhelming the browser
   const BATCH_SIZE = 20
   let completed = 0
@@ -64,23 +86,8 @@ async function prerender() {
   for (let i = 0; i < routes.length; i += BATCH_SIZE) {
     const batch = routes.slice(i, i + BATCH_SIZE)
     await Promise.all(batch.map(async (route) => {
-      const page = await browser.newPage()
       try {
-        await page.goto(`http://localhost:${port}${route}`, { waitUntil: 'networkidle0', timeout: 15000 })
-        // Wait for React to render and MetaTags to update the head
-        await page.waitForFunction(() => document.title !== '', { timeout: 5000 }).catch(() => {})
-
-        const html = await page.content()
-
-        // Determine output path
-        const filePath = route === '/'
-          ? join(distDir, 'index.html')
-          : join(distDir, route, 'index.html')
-
-        const dir = dirname(filePath)
-        if (!existsSync(dir)) mkdirSync(dir, { recursive: true })
-        writeFileSync(filePath, html)
-
+        await renderRoute(route, { waitUntil: 'networkidle0', timeout: 15000 })
         completed++
         if (completed % 50 === 0 || completed === routes.length) {
           console.log(`  ${completed}/${routes.length} routes prerendered`)
@@ -88,19 +95,30 @@ async function prerender() {
       } catch (err) {
         failed.push(route)
         console.error(`  Failed: ${route} - ${err.message}`)
-      } finally {
-        await page.close()
       }
     }))
+  }
+
+  // Retry failures one at a time with a longer timeout — a slow external
+  // resource can trip networkidle0 under batch load.
+  const stillFailed = []
+  for (const route of failed) {
+    try {
+      await renderRoute(route, { waitUntil: 'networkidle2', timeout: 45000 })
+      console.log(`  Retry succeeded: ${route}`)
+    } catch (err) {
+      stillFailed.push(route)
+      console.error(`  Retry failed: ${route} - ${err.message}`)
+    }
   }
 
   await browser.close()
   server.httpServer.close()
 
   // A failed route would ship as an empty SPA shell — invisible to crawlers.
-  if (failed.length > 0) {
-    console.error(`Prerender failed for ${failed.length} route(s):`)
-    failed.forEach(r => console.error(`  ${r}`))
+  if (stillFailed.length > 0) {
+    console.error(`Prerender failed for ${stillFailed.length} route(s):`)
+    stillFailed.forEach(r => console.error(`  ${r}`))
     process.exit(1)
   }
 
