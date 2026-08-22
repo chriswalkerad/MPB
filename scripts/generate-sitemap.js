@@ -9,7 +9,7 @@ const events = JSON.parse(readFileSync(join(root, 'src/data/events.json'), 'utf-
 const categories = JSON.parse(readFileSync(join(root, 'src/data/categories.json'), 'utf-8'))
 const briefs = JSON.parse(readFileSync(join(root, 'src/data/briefs.json'), 'utf-8'))
 
-const BASE_URL = 'https://myprinterbroke.com'
+const BASE_URL = 'https://www.myprinterbroke.com'
 const today = new Date().toISOString().split('T')[0]
 
 const urls = [

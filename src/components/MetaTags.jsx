@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 
 const SITE_NAME = 'My Printer Broke'
 const DEFAULT_DESCRIPTION = 'Discover cybersecurity conferences, meetups, and workshops near you. Find in-person and virtual cyber events across the US.'
-const BASE_URL = 'https://myprinterbroke.com'
+const BASE_URL = 'https://www.myprinterbroke.com'
 
 export default function MetaTags({ title, description, path, image, type = 'website', jsonLd }) {
   const fullTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} | Every Cyber Event Near You`

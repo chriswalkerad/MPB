@@ -18,12 +18,12 @@ My Printer Broke helps security professionals discover conferences, meetups, wor
 
 ## Key Pages
 
-- Homepage: https://myprinterbroke.com/
-- Explore Events: https://myprinterbroke.com/events
-- News: https://myprinterbroke.com/news
-- Daily Brief: https://myprinterbroke.com/brief
-- Submit an Event: https://myprinterbroke.com/submit
-- Full sitemap: https://myprinterbroke.com/sitemap.xml (every event has a dedicated page at /events/[slug])
+- Homepage: https://www.myprinterbroke.com/
+- Explore Events: https://www.myprinterbroke.com/events
+- News: https://www.myprinterbroke.com/news
+- Daily Brief: https://www.myprinterbroke.com/brief
+- Submit an Event: https://www.myprinterbroke.com/submit
+- Full sitemap: https://www.myprinterbroke.com/sitemap.xml (every event has a dedicated page at /events/[slug])
 
 ## Contact
 
