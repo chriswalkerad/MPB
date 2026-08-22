@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from 'fs'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
+import { getCities } from '../src/lib/cities.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = join(__dirname, '..')
@@ -24,6 +25,11 @@ const urls = [
 // Category pages
 categories.forEach(cat => {
   urls.push({ loc: `/events/category/${cat.slug}`, changefreq: 'daily', priority: '0.7' })
+})
+
+// City pages
+getCities(events).forEach(city => {
+  urls.push({ loc: `/events/city/${city.slug}`, changefreq: 'daily', priority: '0.8' })
 })
 
 // Brief pages

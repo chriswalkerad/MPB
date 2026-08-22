@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, Link as RouterLink } from 'react-router-dom'
 import { useLocation, METRO_AREAS } from '../context/LocationContext'
 import Layout from '../components/Layout'
 import EventFilters from '../components/EventFilters'
@@ -9,6 +9,9 @@ import CategoryCard from '../components/CategoryCard'
 import MetaTags from '../components/MetaTags'
 import events from '../data/events.json'
 import categories from '../data/categories.json'
+import { getCities } from '../lib/cities'
+
+const cities = getCities(events)
 
 function countEventsForCategory(events, categoryName) {
   return events.filter(e => e.tags?.includes(categoryName)).length
@@ -175,6 +178,42 @@ export default function ExploreEvents() {
                 category={category}
                 eventCount={countEventsForCategory(filteredEvents, category.name)}
               />
+            ))}
+          </div>
+        </div>
+
+        {/* City Links */}
+        <div style={{ marginBottom: '32px' }}>
+          <h2
+            style={{
+              fontSize: '14px',
+              fontWeight: 600,
+              color: 'rgba(255,255,255,0.5)',
+              textTransform: 'uppercase',
+              letterSpacing: '0.05em',
+              marginBottom: '16px',
+              fontFamily: "'Outfit', sans-serif"
+            }}
+          >
+            Browse by City
+          </h2>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+            {cities.map(city => (
+              <RouterLink
+                key={city.slug}
+                to={`/events/city/${city.slug}`}
+                style={{
+                  fontSize: '13px',
+                  color: 'rgba(255,255,255,0.7)',
+                  textDecoration: 'none',
+                  fontFamily: "'Outfit', sans-serif",
+                  padding: '6px 12px',
+                  border: '1px solid rgba(255,255,255,0.15)',
+                  borderRadius: '999px'
+                }}
+              >
+                {city.name}
+              </RouterLink>
             ))}
           </div>
         </div>

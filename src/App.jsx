@@ -6,6 +6,7 @@ import ExploreEvents from './pages/ExploreEvents'
 import News from './pages/News'
 import Brief from './pages/Brief'
 import CategoryPage from './pages/CategoryPage'
+import CityPage from './pages/CityPage'
 import SubmitEvent from './pages/SubmitEvent'
 import PastEvents from './pages/PastEvents'
 import EventDetail from './pages/EventDetail'
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/brief" element={<Brief />} />
           <Route path="/brief/:slug" element={<Brief />} />
           <Route path="/events/category/:slug" element={<CategoryPage />} />
+          <Route path="/events/city/:slug" element={<CityPage />} />
           <Route path="/events/archive" element={<PastEvents />} />
           <Route path="/events/:slug" element={<EventDetail />} />
           <Route path="/submit" element={<SubmitEvent />} />

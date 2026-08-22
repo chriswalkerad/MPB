@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
 import { preview } from 'vite'
+import { getCities } from '../src/lib/cities.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = join(__dirname, '..')
@@ -20,6 +21,7 @@ const routes = [
   '/submit',
   '/events/archive',
   ...categories.map(c => `/events/category/${c.slug}`),
+  ...getCities(events).map(c => `/events/city/${c.slug}`),
   ...briefs.map(b => `/brief/${b.slug}`),
   ...events.map(e => `/events/${e.slug}`),
 ]
