@@ -1,4 +1,3 @@
-import puppeteer from 'puppeteer'
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
@@ -36,11 +35,24 @@ async function prerender() {
   const address = server.httpServer.address()
   const port = address.port
 
-  const browser = await puppeteer.launch({
-    headless: true,
-    // Required to run inside CI build containers (e.g. Vercel)
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu', '--disable-dev-shm-usage'],
-  })
+  // Vercel's build image lacks Chrome's shared system libraries, so use
+  // @sparticuz/chromium (self-contained build) there and regular puppeteer locally.
+  let browser
+  if (process.env.VERCEL) {
+    const { default: chromium } = await import('@sparticuz/chromium')
+    const { default: puppeteerCore } = await import('puppeteer-core')
+    browser = await puppeteerCore.launch({
+      args: chromium.args,
+      executablePath: await chromium.executablePath(),
+      headless: true,
+    })
+  } else {
+    const { default: puppeteer } = await import('puppeteer')
+    browser = await puppeteer.launch({
+      headless: true,
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu', '--disable-dev-shm-usage'],
+    })
+  }
 
   // Process in batches to avoid overwhelming the browser
   const BATCH_SIZE = 20
