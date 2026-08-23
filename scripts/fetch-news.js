@@ -76,6 +76,13 @@ const OUTPUT_SCHEMA = {
   },
 }
 
+// models ignore the no-em-dash style rule often enough that we enforce it in code
+function stripDashes(text) {
+  return String(text)
+    .replace(/(\d)\s?[—–]\s?(\d)/g, '$1-$2')
+    .replace(/\s*[—–]\s*/g, ', ')
+}
+
 function normalizeUrl(raw) {
   try {
     const u = new URL(raw)
@@ -212,9 +219,9 @@ async function main() {
     }
     newItems.push({
       slug: slugify(story.headline, canonical.publishedAt, existingSlugs),
-      title: story.headline,
+      title: stripDashes(story.headline),
       originalTitle: canonical.title,
-      summary: story.summary,
+      summary: stripDashes(story.summary),
       url: canonical.url,
       source: { name: canonical.source },
       altSources,
