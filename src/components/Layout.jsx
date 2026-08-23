@@ -13,6 +13,7 @@ export default function Layout({ children }) {
   const routerLocation = useRouterLocation()
   const isEventsPage = routerLocation.pathname.startsWith('/events')
   const isNewsPage = routerLocation.pathname.startsWith('/news')
+  const isBriefPage = routerLocation.pathname.startsWith('/brief')
   const isMobile = useIsMobile()
 
   return (
@@ -100,7 +101,8 @@ export default function Layout({ children }) {
               </span>
             )}
           </Link>
-          <LocationSelector />
+          {/* location filters events only, hide it on news surfaces */}
+          {!isNewsPage && !isBriefPage && <LocationSelector />}
         </div>
 
         {/* Right: Subscribe + Explore Events */}
