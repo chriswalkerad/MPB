@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "slug": "toxicpanda-android-malware-now-blocks-google-play-via-vpn-ab-2026-08-23",
+    "title": "ToxicPanda Android malware now blocks Google Play via VPN abuse",
+    "originalTitle": "ToxicPanda Android malware uses VPN permissions to block Google Play",
+    "summary": "Audit managed Android devices and block sideloading; ToxicPanda now targets 349 apps and abuses VPN permissions to disable Google Play protections while executing 167 remote commands.",
+    "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-23T14:23:46.000Z",
+    "fetchedAt": "2026-08-23T21:02:50.516Z"
+  },
+  {
+    "slug": "android-car-head-units-hijacked-via-malicious-update-app-2026-08-22",
+    "title": "Android car head units hijacked via malicious update app",
+    "originalTitle": "Hackers infect Android car head units with proxy botnet malware",
+    "summary": "Lock down update channels and verify firmware signatures on Android head units—trojanized device-update apps are conscripting them into proxy botnets and ad fraud via a supply-chain attack.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-22T14:14:24.000Z",
+    "fetchedAt": "2026-08-23T21:02:50.516Z"
+  },
+  {
+    "slug": "lock-down-windows-named-pipes-before-attackers-do-2026-08-22",
+    "title": "Lock down Windows named pipes before attackers do",
+    "originalTitle": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
+    "summary": "Review named pipe ACLs and service exposure on Windows endpoints—weak IPC lets untrusted processes poke privileged services; implement endpoint verification, command authorization, strict input validation, and least-privilege.",
+    "url": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-22T13:00:09.000Z",
+    "fetchedAt": "2026-08-23T21:02:50.516Z"
+  },
+  {
+    "slug": "banking-trojans-surge-manic-grandoreiro-toxicpanda-2-0-2026-08-22",
+    "title": "Banking trojans surge: Manic, Grandoreiro, ToxicPanda 2.0",
+    "originalTitle": "Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight",
+    "summary": "Strengthen email filtering and browser protections—active banking trojans Manic, Grandoreiro, and ToxicPanda 2.0 target SMBs for credential theft; monitor banking sessions and enforce MFA.",
+    "url": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-22T08:30:00.000Z",
+    "fetchedAt": "2026-08-23T21:02:50.516Z"
+  }
+]
