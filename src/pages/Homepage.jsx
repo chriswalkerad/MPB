@@ -284,7 +284,13 @@ export default function Homepage() {
               {(() => {
                 // last 2 slots show the newest news stories, events fill the rest
                 const newsItems = news.slice(0, 2)
-                const eventItems = events.slice(0, 6 - newsItems.length)
+                // soonest upcoming events, not file order (file order goes stale)
+                const today = new Date()
+                today.setHours(0, 0, 0, 0)
+                const eventItems = events
+                  .filter(event => new Date(event.date) >= today)
+                  .sort((a, b) => new Date(a.date) - new Date(b.date))
+                  .slice(0, 6 - newsItems.length)
                 return [
                   ...eventItems.map((event, i) => (
                     <FloatingCard
