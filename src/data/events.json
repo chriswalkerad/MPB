@@ -37,7 +37,7 @@
     ],
     "url": "https://luma.com/4vj5uiau",
     "source": "luma",
-    "description": "An after-hours gathering for detection engineers during RSA Conference. No corporate pitches or product demos \u2014 just informal conversation for professionals who develop detection rules, refine detection logic, and engage in detection-related research and debate. Hosted by detections.ai.",
+    "description": "An after-hours gathering for detection engineers during RSA Conference. No corporate pitches or product demos — just informal conversation for professionals who develop detection rules, refine detection logic, and engage in detection-related research and debate. Hosted by detections.ai.",
     "organizer": "detections.ai"
   },
   {
@@ -57,7 +57,7 @@
     ],
     "url": "https://web.cvent.com/event/8e2794e8-358e-4dcd-98d4-7c10d032243e/summary",
     "source": "cvent",
-    "description": "Join Huntress for an informal after-hours gathering during RSA Conference. Drinks, appetizers, and casual conversation about cybersecurity \u2014 from identity access management challenges to current threat intelligence. No sales pitches, no slides. Space is limited.",
+    "description": "Join Huntress for an informal after-hours gathering during RSA Conference. Drinks, appetizers, and casual conversation about cybersecurity — from identity access management challenges to current threat intelligence. No sales pitches, no slides. Space is limited.",
     "organizer": "Huntress"
   },
   {
@@ -12483,7 +12483,7 @@
     "organizer": "Tejas Cyber Network"
   },
   {
-    "name": "Cyber Lounge \u2013 Daytime Access",
+    "name": "Cyber Lounge – Daytime Access",
     "slug": "cyber-lounge-daytime-access-rsac-2026",
     "date": "2026-03-23T07:30:00-07:00",
     "endDate": "2026-03-23T15:00:00-07:00",
@@ -12735,7 +12735,7 @@
     "organizer": "Dune Security, Abstract Security & Reality Defender"
   },
   {
-    "name": "Cyber Lounge \u2013 Live Music & Happy Hour",
+    "name": "Cyber Lounge – Live Music & Happy Hour",
     "slug": "cyber-lounge-live-music-happy-hour-rsac-2026",
     "date": "2026-03-23T15:00:00-07:00",
     "endDate": "2026-03-23T18:00:00-07:00",
@@ -13514,7 +13514,7 @@
     "organizer": "Legit Security"
   },
   {
-    "name": "Cyber Lounge \u2013 Daytime Access",
+    "name": "Cyber Lounge – Daytime Access",
     "slug": "cyber-lounge-daytime-access-rsac-2026",
     "date": "2026-03-24T07:30:00-07:00",
     "endDate": "2026-03-24T15:00:00-07:00",
@@ -14077,7 +14077,7 @@
     "organizer": "AegisAI Security"
   },
   {
-    "name": "Cyber Lounge \u2013 Live Music & Happy Hour",
+    "name": "Cyber Lounge – Live Music & Happy Hour",
     "slug": "cyber-lounge-live-music-happy-hour-rsac-2026",
     "date": "2026-03-24T15:00:00-07:00",
     "endDate": "2026-03-24T18:00:00-07:00",
@@ -14520,7 +14520,7 @@
     "organizer": "Workbrew & Oso"
   },
   {
-    "name": "Prompted\u2014Live Art in the Age of AI",
+    "name": "Prompted—Live Art in the Age of AI",
     "slug": "promptedlive-art-in-the-age-of-ai-rsac-2026",
     "date": "2026-03-24T18:00:00-07:00",
     "endDate": "2026-03-24T21:00:00-07:00",
@@ -14695,7 +14695,7 @@
     "image": "/images/events/binary-beats-party-rsac-2026.jpg"
   },
   {
-    "name": "Starlite Soir\u00e9e: An RSAC Evening Exchange",
+    "name": "Starlite Soirée: An RSAC Evening Exchange",
     "slug": "starlite-soire-an-rsac-evening-exchange-rsac-2026",
     "date": "2026-03-24T18:30:00-07:00",
     "endDate": "2026-03-24T20:30:00-07:00",
@@ -15236,7 +15236,7 @@
     "image": "/images/events/ciso-breakfast-cafe-de-la-presse-rsac-2026.jpg"
   },
   {
-    "name": "Cyber Lounge \u2013 Daytime Access",
+    "name": "Cyber Lounge – Daytime Access",
     "slug": "cyber-lounge-daytime-access-rsac-2026",
     "date": "2026-03-25T07:30:00-07:00",
     "endDate": "2026-03-25T15:00:00-07:00",
@@ -15712,7 +15712,7 @@
     "image": "/images/events/the-women-in-security-documentary-rsac-2026.jpg"
   },
   {
-    "name": "Cyber Lounge \u2013 Live Music & Happy Hour",
+    "name": "Cyber Lounge – Live Music & Happy Hour",
     "slug": "cyber-lounge-live-music-happy-hour-rsac-2026",
     "date": "2026-03-25T15:00:00-07:00",
     "endDate": "2026-03-25T18:00:00-07:00",
@@ -20728,7 +20728,7 @@
     ]
   },
   {
-    "name": "AI Tinkerers Seattle: GTM Engineering \u2014 April Meetup",
+    "name": "AI Tinkerers Seattle: GTM Engineering — April Meetup",
     "slug": "ai-tinkerers-seattle-gtm-engineering-apr-2026",
     "date": "2026-04-22T18:00:00-07:00",
     "endDate": "2026-04-22T21:00:00-07:00",
@@ -20747,7 +20747,7 @@
     "organizer": "AI Tinkerers"
   },
   {
-    "name": "AI Tinkerers NYC: Demo Day \u2014 Adaptive Software with Sky Valley and Veris",
+    "name": "AI Tinkerers NYC: Demo Day — Adaptive Software with Sky Valley and Veris",
     "slug": "ai-tinkerers-nyc-demo-day-may-2026",
     "date": "2026-05-13T18:00:00-04:00",
     "endDate": "2026-05-13T21:00:00-04:00",
@@ -20804,7 +20804,7 @@
     "organizer": "AI Tinkerers"
   },
   {
-    "name": "AI Tinkerers Minneapolis-Saint Paul \u2014 May 6, 2026",
+    "name": "AI Tinkerers Minneapolis-Saint Paul — May 6, 2026",
     "slug": "ai-tinkerers-minneapolis-saint-paul-may-2026",
     "date": "2026-05-06T17:45:00-05:00",
     "endDate": "2026-05-06T20:00:00-05:00",
@@ -20840,5 +20840,355 @@
     "source": "AI Tinkerers",
     "description": "Practitioner-only, in-person meetup focused on LLM demonstrations and technical discussions among engineers shipping AI in production.",
     "organizer": "AI Tinkerers"
+  },
+  {
+    "name": "Dallas Hackers Association: 2026.09.02/0x008E",
+    "slug": "dallas-hackers-association-2026-09-02-0x008e",
+    "date": "2026-09-02T19:00:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Dallas",
+    "state": "TX",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.meetup.com/dallas-hackers-association/events/316160625/",
+    "source": "Dallas Hackers Association (Meetup)",
+    "description": "Monthly DHA firetalks and community show-and-tell, no vendor pitches just practical hacker talk. Bring a 10-minute topic or come learn and meet the local crew."
+  },
+  {
+    "name": "Threat Defense 2026",
+    "slug": "threat-defense-2026",
+    "date": "2026-10-21T09:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Incident Response"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld’s virtual program on threat defense brings practitioner-led talks focused on detection, response, and resilience. Solid content without the travel budget."
+  },
+  {
+    "name": "East 2026",
+    "slug": "east-2026",
+    "date": "2026-11-18T09:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld East goes online so you can tap regional insights from your desk. Expect timely keynotes, panels, and CPE-ready sessions."
+  },
+  {
+    "name": "Government & Critical Infrastructure 2026",
+    "slug": "government-critical-infrastructure-2026",
+    "date": "2026-12-09T09:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Compliance & GRC"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "A SecureWorld virtual focused on public sector and critical infrastructure security, compliance, and risk. Good signal for defenders in regulated environments."
+  },
+  {
+    "name": "Quantum Cryptography 2026",
+    "slug": "quantum-cryptography-2026",
+    "date": "2026-09-23T09:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld’s quantum crypto session dives into post-quantum readiness and crypto agility. If you own PKI or care about future-proofing, this is worth a listen."
+  },
+  {
+    "name": "FutureCon Oklahoma City 2026",
+    "slug": "futurecon-oklahoma-city-2026",
+    "date": "2026-09-03T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "MSP & Channel"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "FutureCon lands in OKC with a hybrid day of talks, panels, and networking for security leaders. Practical content you can bring back to the team."
+  },
+  {
+    "name": "FutureCon Denver 2026",
+    "slug": "futurecon-denver-2026",
+    "date": "2026-09-24T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Denver",
+    "state": "CO",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "MSP & Channel"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "A hybrid FutureCon stop in Denver with actionable sessions and peer networking. Good mix of strategy and hands-on."
+  },
+  {
+    "name": "FutureCon Phoenix 2026",
+    "slug": "futurecon-phoenix-2026",
+    "date": "2026-10-29T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Phoenix",
+    "state": "AZ",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "MSP & Channel"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "FutureCon brings the Phoenix community together for a hybrid day of security talks and hallway wisdom. Strong content without the fluff."
+  },
+  {
+    "name": "FutureCon San Diego 2026",
+    "slug": "futurecon-san-diego-2026",
+    "date": "2026-11-05T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "San Diego",
+    "state": "CA",
+    "region": "west-coast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "MSP & Channel"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "Hybrid FutureCon in San Diego, covering what works now in enterprise security and what to plan for next. Sun, surf, and solid CPEs."
+  },
+  {
+    "name": "FutureCon Boston 2026",
+    "slug": "futurecon-boston-2026",
+    "date": "2026-11-19T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Boston",
+    "state": "MA",
+    "region": "northeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "MSP & Channel"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "FutureCon hits Boston with a hybrid program for security pros and leaders. Tight agenda, useful takeaways, and local networking."
+  },
+  {
+    "name": "FutureCon Austin 2026",
+    "slug": "futurecon-austin-2026",
+    "date": "2026-12-10T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Austin",
+    "state": "TX",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "MSP & Channel"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "FutureCon wraps the year in Austin with a hybrid day of real-world security lessons and peer connections. Come for the content, stay for the community."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Threat Intelligence",
+    "slug": "the-official-cybersecurity-summit-threat-intelligence-2026",
+    "date": "2026-08-26T11:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Threat Intelligence"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "A half-day virtual summit on turning threat intel into action. Good for teams building detection maps and intel workflows."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Attack Surface Management",
+    "slug": "the-official-cybersecurity-summit-attack-surface-management-2026",
+    "date": "2026-09-16T11:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "AppSec & DevSecOps"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Practical sessions on discovering and shrinking your external attack surface. Useful for asset owners and AppSec leads."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Identity",
+    "slug": "the-official-cybersecurity-summit-identity-2026",
+    "date": "2026-09-30T11:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Identity & Access"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Identity security and access control updates in one virtual hit. Expect content on zero trust, MFA, and governance."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: FinSec",
+    "slug": "the-official-cybersecurity-summit-finsec-2026",
+    "date": "2026-10-14T11:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Compliance & GRC"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Security trends and controls for financial services, compliance heavy and outcome focused. Bring your risk register."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: AI Exposure Summit",
+    "slug": "the-official-cybersecurity-summit-ai-exposure-summit-2026",
+    "date": "2026-10-21T11:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "AI & Machine Learning"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "A virtual dive into reducing AI exposure and model risk in the enterprise. Good mix of policy and hands-on controls."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Network Security",
+    "slug": "the-official-cybersecurity-summit-network-security-2026",
+    "date": "2026-10-28T11:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Latest tactics in network defense, segmentation, and monitoring. Short, sharp, and worth the CPEs."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: CSS Mega-Summit",
+    "slug": "the-official-cybersecurity-summit-css-mega-summit-2026",
+    "date": "2026-11-04T11:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Community & General"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Their year-end virtual mega-summit brings cross-topic sessions for security leaders. A fast way to catch what you missed this year."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Government Security",
+    "slug": "the-official-cybersecurity-summit-government-security-2026",
+    "date": "2026-11-18T11:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Compliance & GRC"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Public sector and gov-adjacent security focus, with compliance and mission risk front and center. Bring questions for policy talk."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Cloud Security",
+    "slug": "the-official-cybersecurity-summit-cloud-security-2026",
+    "date": "2026-12-02T11:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Cloud Security"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "A virtual tour of cloud-native controls, posture management, and real-world patterns. Good for teams wrangling multi-cloud."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: AI’s Next Generation Summit",
+    "slug": "the-official-cybersecurity-summit-ai-s-next-generation-summi-2026",
+    "date": "2026-12-16T11:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "AI & Machine Learning"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Next-gen AI security risks, controls, and governance in a concentrated virtual format. Useful if your org is shipping or buying AI."
   }
 ]
