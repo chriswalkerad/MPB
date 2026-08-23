@@ -115,6 +115,7 @@ export default function Homepage() {
             >
               Subscribe
             </button>
+            {!isMobile && (
             <Link
               to="/news"
               className="nav-link-hover"
@@ -129,6 +130,8 @@ export default function Homepage() {
             >
               News
             </Link>
+            )}
+            {!isMobile && (
             <Link
               to="/events"
               className="nav-link-hover"
@@ -146,6 +149,7 @@ export default function Homepage() {
             >
               Explore Events <span style={{ fontSize: '12px' }}>↗</span>
             </Link>
+            )}
           </div>
         </nav>
 
