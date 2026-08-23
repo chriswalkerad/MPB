@@ -100,6 +100,13 @@ const OUTPUT_SCHEMA = {
   },
 }
 
+// models ignore the no-em-dash style rule often enough that we enforce it in code
+function stripDashes(text) {
+  return String(text)
+    .replace(/(\d)\s?[—–]\s?(\d)/g, '$1-$2')
+    .replace(/\s*[—–]\s*/g, ', ')
+}
+
 function normalizeUrl(raw) {
   try {
     const u = new URL(raw)
@@ -298,7 +305,7 @@ async function main() {
     }
     existingKeys.add(eventKey(candidate.name, candidate.date))
     newEvents.push({
-      name: candidate.name,
+      name: stripDashes(candidate.name),
       slug: slugify(candidate.name, candidate.date, existingSlugs),
       date: candidate.date,
       ...(candidate.endDate ? { endDate: candidate.endDate } : {}),
@@ -311,7 +318,7 @@ async function main() {
       tags: candidate.tags.filter((t) => categoryNames.includes(t)),
       url: candidate.url,
       source: candidate.sourceName,
-      description: candidate.description,
+      description: stripDashes(candidate.description),
     })
   }
 

@@ -59,6 +59,13 @@ const BRIEF_SCHEMA = {
   },
 }
 
+// models ignore the no-em-dash style rule often enough that we enforce it in code
+function stripDashes(text) {
+  return String(text)
+    .replace(/(\d)\s?[—–]\s?(\d)/g, '$1-$2')
+    .replace(/\s*[—–]\s*/g, ', ')
+}
+
 async function main() {
   const news = JSON.parse(readFileSync(NEWS_PATH, 'utf8'))
   const briefs = JSON.parse(readFileSync(BRIEFS_PATH, 'utf8'))
@@ -106,8 +113,8 @@ async function main() {
     .map((item) => {
       const story = storyBySlug.get(item.slug)
       return {
-        heading: item.heading,
-        body: item.body,
+        heading: stripDashes(item.heading),
+        body: stripDashes(item.body),
         url: story.url,
         source: story.source.name,
         category: story.category,
@@ -119,10 +126,10 @@ async function main() {
   const brief = {
     slug: today,
     date: today,
-    title: draft.title,
-    intro: draft.intro,
+    title: stripDashes(draft.title),
+    intro: stripDashes(draft.intro),
     items,
-    signOff: draft.signOff,
+    signOff: stripDashes(draft.signOff),
     generatedAt: new Date().toISOString(),
   }
 
