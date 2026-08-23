@@ -115,6 +115,7 @@ export default function Homepage() {
             >
               Subscribe
             </button>
+            {!isMobile && (
             <Link
               to="/news"
               className="nav-link-hover"
@@ -129,6 +130,8 @@ export default function Homepage() {
             >
               News
             </Link>
+            )}
+            {!isMobile && (
             <Link
               to="/events"
               className="nav-link-hover"
@@ -146,6 +149,7 @@ export default function Homepage() {
             >
               Explore Events <span style={{ fontSize: '12px' }}>↗</span>
             </Link>
+            )}
           </div>
         </nav>
 
@@ -203,14 +207,23 @@ export default function Homepage() {
               Conferences, meetups, and workshops — curated weekly so you never miss what matters.
             </p>
 
-            {/* CTA */}
-            <div style={{ animation: 'fadeUp 0.8s ease-out 0.9s both' }}>
+            {/* CTAs */}
+            <div
+              style={{
+                animation: 'fadeUp 0.8s ease-out 0.9s both',
+                display: 'flex',
+                flexDirection: isMobile ? 'column' : 'row',
+                alignItems: isMobile ? 'stretch' : 'center',
+                gap: '12px'
+              }}
+            >
               <Link
                 to="/events"
                 className="cta-button-hover"
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
+                  justifyContent: 'center',
                   gap: '8px',
                   padding: '14px 32px',
                   background: 'white',
@@ -226,6 +239,35 @@ export default function Homepage() {
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                   <path d="M6 3L11 8L6 13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
+              </Link>
+              <Link
+                to="/news"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '8px',
+                  padding: '14px 32px',
+                  background: 'transparent',
+                  color: 'white',
+                  border: '1px solid rgba(255,255,255,0.35)',
+                  textDecoration: 'none',
+                  borderRadius: '100px',
+                  fontSize: '15px',
+                  fontWeight: 600,
+                  fontFamily: "'Outfit', sans-serif",
+                  transition: 'border-color 0.2s ease, background 0.2s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = 'rgba(255,255,255,0.8)'
+                  e.currentTarget.style.background = 'rgba(255,255,255,0.06)'
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = 'rgba(255,255,255,0.35)'
+                  e.currentTarget.style.background = 'transparent'
+                }}
+              >
+                See What's Happening
               </Link>
             </div>
           </div>
