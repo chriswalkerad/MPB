@@ -1,0 +1,54 @@
+name: Fetch Events
+
+on:
+  schedule:
+    # weekly, monday 14:17 UTC
+    - cron: '17 14 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: fetch-events
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: 'true'
+
+      - name: Discover and curate events
+        run: node scripts/fetch-events.js
+        env:
+          AZURE_AI_API_KEY: ${{ secrets.AZURE_AI_API_KEY }}
+
+      # events land as a weekly PR for human review, unlike news which commits directly
+      - name: Open PR if changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/events-refresh
+          base: main
+          title: 'weekly events refresh'
+          commit-message: 'chore(events): weekly automated events refresh'
+          body: |
+            automated weekly event discovery: ics feeds (meetup groups), the infosec-conferences.com feed, and conference circuit schedule pages, curated and normalized by the pipeline.
+
+            review checklist: dates look right, cities/regions correct, no duplicates of existing events, descriptions sound like us.
+
+            merging deploys the new events. closing without merging just skips this week's batch (urls stay marked as seen).
+          add-paths: |
+            src/data/events.json
+            scripts/events-seen.json

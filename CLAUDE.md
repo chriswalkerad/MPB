@@ -91,6 +91,7 @@ interface NewsItem {
 - Feed failures are logged and skipped, the run continues. A curation refusal exits 0 (self-heals next run); only real errors fail the workflow.
 - Add a source: append to `SOURCES` in the script, verify with `--dry-run`. Some feeds (MSSP Alert, ChannelE2E) need the custom User-Agent already set there.
 - **Daily brief:** `scripts/generate-brief.js` runs daily at 13:17 UTC via `.github/workflows/daily-brief.yml`, one hour after the 12:17 UTC news refresh. Reads stories from the last 36h in news.json (needs at least 2, else skips), writes an original MPB-voice digest to `src/data/briefs.json` (last 30 retained). Idempotent per day. Same secret, same refusal-skip semantics. Local test: `AZURE_AI_API_KEY=... node scripts/generate-brief.js --dry-run`.
+- **Events discovery:** `scripts/fetch-events.js` runs weekly (mondays 14:17 UTC) via `.github/workflows/fetch-events.yml`. Ingests ICS feeds (Meetup groups), the infosec-conferences.com RSS feed, and conference circuit schedule pages (AI text extraction), curates/normalizes into the Event schema, validates in code (dates, regions, dedup), and opens a weekly PR (`auto/events-refresh`) for human review instead of committing directly. Same `AZURE_AI_API_KEY` secret. Requires the repo setting "Allow GitHub Actions to create and approve pull requests". Local test: `AZURE_AI_API_KEY=... node scripts/fetch-events.js --dry-run`. Design: `docs/plans/2026-08-24-events-pipeline-design.md`.
 - Full design: `docs/plans/2026-08-12-news-aggregator-design.md`.
 
 ## Brand & Tone
