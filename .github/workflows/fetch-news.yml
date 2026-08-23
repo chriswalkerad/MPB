@@ -32,7 +32,7 @@ jobs:
       - name: Fetch and curate news
         run: node scripts/fetch-news.js
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AZURE_AI_API_KEY: ${{ secrets.AZURE_AI_API_KEY }}
 
       - name: Commit and push if changed
         run: |

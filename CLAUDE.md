@@ -83,14 +83,14 @@ interface NewsItem {
 
 ## News Pipeline
 
-`scripts/fetch-news.js` runs every 6 hours via `.github/workflows/fetch-news.yml` (also `workflow_dispatch`): fetches RSS from the `SOURCES` list, sends new candidates to Claude (`claude-opus-5`) for selection/dedup/copywriting, writes `src/data/news.json` + `scripts/news-seen.json`, and the workflow commits both back (Vercel redeploys on push).
+`scripts/fetch-news.js` runs every 6 hours via `.github/workflows/fetch-news.yml` (also `workflow_dispatch`): fetches RSS from the `SOURCES` list, sends new candidates to GPT-5 on Microsoft Foundry for selection/dedup/copywriting, writes `src/data/news.json` + `scripts/news-seen.json`, and the workflow commits both back (Vercel redeploys on push).
 
-- Requires `ANTHROPIC_API_KEY` (repo secret in CI; env var locally).
-- Local test: `ANTHROPIC_API_KEY=... node scripts/fetch-news.js --dry-run` (prints selection, writes nothing).
+- Requires `AZURE_AI_API_KEY` (repo secret in CI; env var locally).
+- Local test: `AZURE_AI_API_KEY=... node scripts/fetch-news.js --dry-run` (prints selection, writes nothing).
 - Retention: 14 days / floor of 50 items in news.json; seen-urls pruned at 30 days.
 - Feed failures are logged and skipped, the run continues. A curation refusal exits 0 (self-heals next run); only real errors fail the workflow.
 - Add a source: append to `SOURCES` in the script, verify with `--dry-run`. Some feeds (MSSP Alert, ChannelE2E) need the custom User-Agent already set there.
-- **Daily brief:** `scripts/generate-brief.js` runs daily at 13:17 UTC via `.github/workflows/daily-brief.yml`, one hour after the 12:17 UTC news refresh. Reads stories from the last 36h in news.json (needs at least 2, else skips), writes an original MPB-voice digest to `src/data/briefs.json` (last 30 retained). Idempotent per day. Same secret, same refusal-skip semantics. Local test: `ANTHROPIC_API_KEY=... node scripts/generate-brief.js --dry-run`.
+- **Daily brief:** `scripts/generate-brief.js` runs daily at 13:17 UTC via `.github/workflows/daily-brief.yml`, one hour after the 12:17 UTC news refresh. Reads stories from the last 36h in news.json (needs at least 2, else skips), writes an original MPB-voice digest to `src/data/briefs.json` (last 30 retained). Idempotent per day. Same secret, same refusal-skip semantics. Local test: `AZURE_AI_API_KEY=... node scripts/generate-brief.js --dry-run`.
 - Full design: `docs/plans/2026-08-12-news-aggregator-design.md`.
 
 ## Brand & Tone

@@ -1,11 +1,14 @@
-// fetches curated news: RSS feeds -> Claude curation -> src/data/news.json
+// fetches curated news: RSS feeds -> AI curation -> src/data/news.json
 // usage: node scripts/fetch-news.js [--dry-run]
-// requires ANTHROPIC_API_KEY (GitHub secret in CI)
+// requires AZURE_AI_API_KEY (GitHub secret in CI); model runs on Microsoft Foundry
 import { readFileSync, writeFileSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
 import Parser from 'rss-parser'
-import Anthropic from '@anthropic-ai/sdk'
+import OpenAI from 'openai'
+
+const AZURE_AI_ENDPOINT = process.env.AZURE_AI_ENDPOINT || 'https://kindsai-prod.services.ai.azure.com/openai/v1/'
+const AZURE_AI_DEPLOYMENT = process.env.AZURE_AI_DEPLOYMENT || 'gpt-5'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const NEWS_PATH = join(__dirname, '../src/data/news.json')
@@ -137,22 +140,27 @@ async function fetchFeeds() {
 }
 
 async function curate(candidates) {
-  const client = new Anthropic()
+  const client = new OpenAI({ baseURL: AZURE_AI_ENDPOINT, apiKey: process.env.AZURE_AI_API_KEY })
   const payload = candidates.map(({ id, title, source, publishedAt, snippet }) => ({ id, title, source, publishedAt, snippet }))
-  const response = await client.messages.create({
-    model: 'claude-opus-5',
-    max_tokens: 16000,
-    system: CURATION_SYSTEM_PROMPT,
-    output_config: { format: { type: 'json_schema', schema: OUTPUT_SCHEMA } },
-    messages: [{ role: 'user', content: JSON.stringify(payload) }],
+  const response = await client.chat.completions.create({
+    model: AZURE_AI_DEPLOYMENT,
+    max_completion_tokens: 16000,
+    messages: [
+      { role: 'system', content: CURATION_SYSTEM_PROMPT },
+      { role: 'user', content: JSON.stringify(payload) },
+    ],
+    response_format: {
+      type: 'json_schema',
+      json_schema: { name: 'curation', strict: true, schema: OUTPUT_SCHEMA },
+    },
   })
-  if (response.stop_reason === 'refusal') {
-    console.warn('curation request refused, skipping run', response.stop_details)
+  const message = response.choices?.[0]?.message
+  if (message?.refusal) {
+    console.warn('curation request refused, skipping run', message.refusal)
     process.exit(0)
   }
-  const text = response.content.find((b) => b.type === 'text')?.text
-  if (!text) throw new Error('no text block in curation response')
-  return JSON.parse(text).stories
+  if (!message?.content) throw new Error('no content in curation response')
+  return JSON.parse(message.content).stories
 }
 
 async function main() {

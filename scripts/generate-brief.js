@@ -1,10 +1,13 @@
 // generates the MPB daily brief from already-curated stories in news.json
 // usage: node scripts/generate-brief.js [--dry-run]
-// requires ANTHROPIC_API_KEY (GitHub secret in CI)
+// requires AZURE_AI_API_KEY (GitHub secret in CI); model runs on Microsoft Foundry
 import { readFileSync, writeFileSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
-import Anthropic from '@anthropic-ai/sdk'
+import OpenAI from 'openai'
+
+const AZURE_AI_ENDPOINT = process.env.AZURE_AI_ENDPOINT || 'https://kindsai-prod.services.ai.azure.com/openai/v1/'
+const AZURE_AI_DEPLOYMENT = process.env.AZURE_AI_DEPLOYMENT || 'gpt-5'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const NEWS_PATH = join(__dirname, '../src/data/news.json')
@@ -75,22 +78,27 @@ async function main() {
     process.exit(0)
   }
 
-  const client = new Anthropic()
+  const client = new OpenAI({ baseURL: AZURE_AI_ENDPOINT, apiKey: process.env.AZURE_AI_API_KEY })
   const payload = stories.map(({ slug, title, summary, source, category }) => ({ slug, title, summary, source: source.name, category }))
-  const response = await client.messages.create({
-    model: 'claude-opus-5',
-    max_tokens: 16000,
-    system: BRIEF_SYSTEM_PROMPT,
-    output_config: { format: { type: 'json_schema', schema: BRIEF_SCHEMA } },
-    messages: [{ role: 'user', content: JSON.stringify(payload) }],
+  const response = await client.chat.completions.create({
+    model: AZURE_AI_DEPLOYMENT,
+    max_completion_tokens: 16000,
+    messages: [
+      { role: 'system', content: BRIEF_SYSTEM_PROMPT },
+      { role: 'user', content: JSON.stringify(payload) },
+    ],
+    response_format: {
+      type: 'json_schema',
+      json_schema: { name: 'daily_brief', strict: true, schema: BRIEF_SCHEMA },
+    },
   })
-  if (response.stop_reason === 'refusal') {
-    console.warn('brief request refused, skipping run', response.stop_details)
+  const message = response.choices?.[0]?.message
+  if (message?.refusal) {
+    console.warn('brief request refused, skipping run', message.refusal)
     process.exit(0)
   }
-  const text = response.content.find((b) => b.type === 'text')?.text
-  if (!text) throw new Error('no text block in brief response')
-  const draft = JSON.parse(text)
+  if (!message?.content) throw new Error('no content in brief response')
+  const draft = JSON.parse(message.content)
 
   const storyBySlug = new Map(stories.map((s) => [s.slug, s]))
   const items = draft.items
