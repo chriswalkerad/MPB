@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import BunkerBackground from '../components/BunkerBackground'
 import FloatingCard from '../components/FloatingCard'
+import FloatingNewsCard from '../components/FloatingNewsCard'
+import news from '../data/news.json'
 import SubscribePanel from '../components/SubscribePanel'
 import MetaTags from '../components/MetaTags'
 import events from '../data/events.json'
@@ -114,6 +116,20 @@ export default function Homepage() {
               Subscribe
             </button>
             <Link
+              to="/news"
+              className="nav-link-hover"
+              style={{
+                color: 'rgba(255,255,255,0.6)',
+                textDecoration: 'none',
+                fontSize: '14px',
+                fontWeight: 500,
+                fontFamily: "'Outfit', sans-serif",
+                whiteSpace: 'nowrap'
+              }}
+            >
+              News
+            </Link>
+            <Link
               to="/events"
               className="nav-link-hover"
               style={{
@@ -223,14 +239,29 @@ export default function Homepage() {
                 height: '70%'
               }}
             >
-              {events.slice(0, 6).map((event, i) => (
-                <FloatingCard
-                  key={event.slug}
-                  event={event}
-                  style={CARD_POSITIONS[i]}
-                  delay={0.4 + i * 0.2}
-                />
-              ))}
+              {(() => {
+                // last 2 slots show the newest news stories, events fill the rest
+                const newsItems = news.slice(0, 2)
+                const eventItems = events.slice(0, 6 - newsItems.length)
+                return [
+                  ...eventItems.map((event, i) => (
+                    <FloatingCard
+                      key={event.slug}
+                      event={event}
+                      style={CARD_POSITIONS[i]}
+                      delay={0.4 + i * 0.2}
+                    />
+                  )),
+                  ...newsItems.map((item, i) => (
+                    <FloatingNewsCard
+                      key={item.slug}
+                      item={item}
+                      style={CARD_POSITIONS[eventItems.length + i]}
+                      delay={0.4 + (eventItems.length + i) * 0.2}
+                    />
+                  ))
+                ]
+              })()}
             </div>
           )}
         </div>

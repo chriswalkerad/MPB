@@ -1,0 +1,48 @@
+name: Daily Brief
+
+on:
+  schedule:
+    # 13:17 UTC daily (9:17am ET), one hour after the 12:17 UTC news refresh
+    - cron: '17 13 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: 'true'
+
+      - name: Generate daily brief
+        run: node scripts/generate-brief.js
+        env:
+          AZURE_AI_API_KEY: ${{ secrets.AZURE_AI_API_KEY }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/briefs.json
+          if git diff --cached --quiet; then
+            echo "No brief changes; skipping commit."
+          else
+            git pull --rebase --autostash
+            git commit -m "chore(news): daily brief $(date -u '+%Y-%m-%d')"
+            git push
+          fi
