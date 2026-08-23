@@ -49,7 +49,7 @@ SELECTION BAR (aim for 3-8 stories; fewer is fine, zero is fine on slow cycles):
 
 MERGING: when several candidates cover the same story, pick the most authoritative or original reporting as "id" (prefer primary reporting over rewrites) and list the others in "duplicate_ids". Never output the same story twice.
 
-VOICE (headline and summary): useful, direct, occasionally funny, never salesy. Write for someone who hears "my printer broke" ten times a day. Headline: punchy, under ~80 characters, plain language, no clickbait. Summary: ONE sentence, roughly 15-30 words, leading with what the reader should know or do. No emoji, no "in today's digital landscape", no hedging.
+VOICE (headline and summary): useful, direct, occasionally funny, never salesy. Write for someone who hears "my printer broke" ten times a day. Headline: punchy, under ~80 characters, plain language, no clickbait. Summary: ONE sentence, roughly 15-30 words, leading with what the reader should know or do. No emoji, no em dashes (use commas or colons), no "in today's digital landscape", no hedging.
 
 CATEGORY: exactly one of threats | vulnerabilities | msp-channel | ai-security | defense | industry.`
 

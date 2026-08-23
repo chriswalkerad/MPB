@@ -28,6 +28,7 @@ npm run preview  # preview production build
 |---|---|---|
 | `fetch-news.yml` | every 6h | rss -> ai curation -> commits `src/data/news.json` |
 | `daily-brief.yml` | daily 13:17 utc | curated stories -> ai digest -> commits `src/data/briefs.json` |
+| `fetch-events.yml` | weekly mon 14:17 utc | ics/rss/schedule pages -> ai curation -> opens a review pr with new events |
 | `daily-tweet.yml` | daily 14:00 utc | posts an upcoming event to bluesky |
 
 the news workflows need an `AZURE_AI_API_KEY` repo secret. commits from the workflows trigger vercel redeploys. local dry run:
