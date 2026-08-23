@@ -38,4 +38,13 @@ AZURE_AI_API_KEY=... node scripts/fetch-news.js --dry-run
 AZURE_AI_API_KEY=... node scripts/generate-brief.js --dry-run
 ```
 
+## branching and merge order
+
+- `main` is production. vercel deploys every push to it.
+- `dev` is the integration branch. feature branches come off `dev` and pr back into `dev`.
+- shipping = a promotion pr from `dev` to `main`, merged after the feature prs land.
+- the bots commit straight to `main` (news every 6h, brief daily), so `main` is usually a few data commits ahead of `dev`. before merging a promotion pr, hit "update branch" on it to refresh `dev` from `main` first. this is hygiene, not conflict resolution: the bots only touch `src/data/*.json` and `scripts/*-seen.json`, which feature branches should never edit.
+- the weekly events pr (`auto/events-refresh`) targets `main` directly and is independent of everything else. review it before merging: dates and cities correct, no duplicates, descriptions in our voice.
+- data files (`news.json`, `briefs.json`, `events.json`, the seen files) are owned by the pipelines. don't hand-edit them on feature branches or the next bot commit will bury your change.
+
 full pipeline design: [docs/plans/2026-08-12-news-aggregator-design.md](docs/plans/2026-08-12-news-aggregator-design.md)
