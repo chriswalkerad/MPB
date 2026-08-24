@@ -53,7 +53,8 @@ async function prerender() {
     if (process.env.VERCEL) {
       const { default: chromium } = await import('@sparticuz/chromium')
       const { default: puppeteerCore } = await import('puppeteer-core')
-      chromium.setGraphicsMode = false
+      // Graphics stay ON: the homepage's three.js bunker needs a WebGL
+      // context, which sparticuz's swiftshader provides in headless.
       return puppeteerCore.launch({
         args: chromium.args,
         executablePath: await chromium.executablePath(),
