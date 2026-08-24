@@ -1,1 +1,76 @@
-[]
+[
+  {
+    "slug": "2026-08-24",
+    "date": "2026-08-24",
+    "title": "Patches, print breaks, and takeover risks",
+    "intro": "Busy morning: a .NET update is breaking WPF printing while critical bugs in Keycloak and Zimbra need immediate attention. Add fresh server and phishing threats, plus guidance to tighten logging and AI hygiene.",
+    "items": [
+      {
+        "heading": "WPF printing and PDF export broken by August .NET updates",
+        "body": "Hold or roll back the August .NET Framework updates on WPF endpoints that print or export PDFs. Microsoft acknowledged the issue and published temporary mitigations, so pause deployment on print reliant systems and test before reintroducing the updates.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "august-net-updates-break-printing-and-pdf-export-in-wpf-apps-2026-08-24"
+      },
+      {
+        "heading": "Keycloak password reset bug enables account takeovers",
+        "body": "A 9.1 CVSS flaw lets attackers trigger password resets and seize any account, including admins. Patch Keycloak to the fixed releases immediately, limit public exposure where possible, and consider disabling self service resets until you are updated.",
+        "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "critical-keycloak-bug-allows-unauthenticated-account-takeove-2026-08-24"
+      },
+      {
+        "heading": "Zimbra flaw added to KEV, patch within 3 days",
+        "body": "CISA says an actively exploited Zimbra bug is now on the KEV list and federal agencies have three days to remediate. If you manage Zimbra, patch now and monitor for signs of compromise while you validate the fix.",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-patch-actively-exploited-zimbra-bug-within-3-days-2026-08-24"
+      },
+      {
+        "heading": "Spring patches 91 flaws, update dependencies now",
+        "body": "A large batch of vulnerabilities across Spring components raises risk for Java apps common in SMB stacks. Bring dependencies to current versions and run regression tests, and use your dependency scanner to make sure transitive libraries are covered.",
+        "url": "https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "spring-framework-ships-fixes-for-91-flaws-update-dependencie-2026-08-24"
+      },
+      {
+        "heading": "AI powered crew mass exploits servers, drops rootkit",
+        "body": "Researchers report a Chinese speaking group automating exploitation of internet facing Windows and Linux servers, deploying EDR bypassing malware and a Linux rootkit. Lock down management ports, patch exposed services, enforce MFA where you can, and watch for persistence on both OS families.",
+        "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "criminal-group-uses-ai-to-scale-server-attacks-deploys-rootk-2026-08-24"
+      },
+      {
+        "heading": "Cloaked fake bank sites steal credentials via SEO",
+        "body": "Attackers are using SEO poisoning and cloaked phishing pages that hide from scanners, then harvesting banking logins from victims who land via search results. Push users to type known URLs or use password managers, and backstop with DNS filtering and safe browsing policies.",
+        "url": "https://www.helpnetsecurity.com/2026/08/24/chameleon-seo-poisoning-fake-banking-websites-phishing/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "cloaked-fake-bank-sites-evade-scanners-steal-credentials-2026-08-24"
+      },
+      {
+        "heading": "CISA's logging blueprint, sized for SMBs",
+        "body": "CISA’s new Logging Reference Architecture can help you prioritize actionable telemetry, align storage and retention, and ensure you can reconstruct incidents. Map the guidance to your stack, set retention you can afford, and test that you can actually trace a real incident end to end.",
+        "url": "https://www.helpnetsecurity.com/2026/08/24/cybersecurity-logging-guidelines-strategy/",
+        "source": "Help Net Security",
+        "category": "defense",
+        "storySlug": "cisa-s-logging-blueprint-works-for-smbs-too-2026-08-24"
+      },
+      {
+        "heading": "Test what your AI chats reveal",
+        "body": "A new tool audits exported AI chats to show what personal or sensitive data can be inferred from them. Use it to set usage policies, remind staff that chat logs persist and can leak, and require org accounts or disable history where possible.",
+        "url": "https://www.helpnetsecurity.com/2026/08/24/product-showcase-ai-paper-trail/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "tool-shows-what-your-ai-chats-reveal-2026-08-24"
+      }
+    ],
+    "signOff": "Back to tickets, and may your print jobs land on paper.",
+    "generatedAt": "2026-08-24T14:05:11.771Z"
+  }
+]
