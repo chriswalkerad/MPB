@@ -1,5 +1,71 @@
 [
   {
+    "slug": "reliaquest-says-phishers-briefly-accessed-internal-dashboard-2026-08-24",
+    "title": "ReliaQuest says phishers briefly accessed internal dashboard",
+    "originalTitle": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+    "summary": "Enable out-of-band verification for internal requests, enforce phishing resistant MFA, and lock down dashboard permissions after ReliaQuest said a social engineering phish briefly exposed an internal tool.",
+    "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-08-24T15:17:16.000Z",
+    "fetchedAt": "2026-08-24T18:58:30.373Z"
+  },
+  {
+    "slug": "new-synkloader-steals-windows-passwords-preps-ransomware-2026-08-24",
+    "title": "New SynkLoader steals Windows passwords, preps ransomware",
+    "originalTitle": "Tricky 'SynkLoader' Multitool May Herald Ransomware",
+    "summary": "Block LNK and shortcut attachments, restrict script interpreters, and update EDR detections as SynkLoader steals Windows passwords via screen hijacking and likely brokers access to ransomware operators.",
+    "url": "https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-08-24T15:02:32.000Z",
+    "fetchedAt": "2026-08-24T18:58:30.373Z"
+  },
+  {
+    "slug": "toxicpanda-android-trojan-moves-into-enterprise-apps-2026-08-24",
+    "title": "ToxicPanda Android trojan moves into enterprise apps",
+    "originalTitle": "ToxicPanda Banking Trojan Matures Into Enterprise Threat",
+    "summary": "Tighten mobile device management, block sideloading, and audit enterprise Android app access because ToxicPanda now steals credentials and controls devices beyond banking targets.",
+    "url": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-24T14:34:59.000Z",
+    "fetchedAt": "2026-08-24T18:58:30.373Z"
+  },
+  {
+    "slug": "teams-adds-setting-to-block-external-bots-in-meetings-2026-08-24",
+    "title": "Teams adds setting to block external bots in meetings",
+    "originalTitle": "Microsoft Teams now lets admins block external bots from meetings",
+    "summary": "Turn on Teams' new meeting protection policy to block external bots by default, then review tenant allow lists and app permissions to prevent unwanted bot access.",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-24T14:00:19.000Z",
+    "fetchedAt": "2026-08-24T18:58:30.373Z"
+  },
+  {
     "slug": "august-net-updates-break-printing-and-pdf-export-in-wpf-apps-2026-08-24",
     "title": "August .NET updates break printing and PDF export in WPF apps",
     "originalTitle": "Microsoft: August updates break printing, PDF export in WPF apps",
