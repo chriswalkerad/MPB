@@ -1,5 +1,61 @@
 [
   {
+    "slug": "tool-shows-what-your-ai-chats-reveal-2026-08-24",
+    "title": "Tool shows what your AI chats reveal",
+    "originalTitle": "Product showcase: AI Paper Trail shows the privacy cost of talking to AI",
+    "summary": "Audit exported AI chats to see what personal or sensitive data can be inferred, then set usage policies and remind staff that chat logs persist and can leak.",
+    "url": "https://www.helpnetsecurity.com/2026/08/24/product-showcase-ai-paper-trail/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-24T05:30:33.000Z",
+    "fetchedAt": "2026-08-24T07:19:05.779Z"
+  },
+  {
+    "slug": "cloaked-fake-bank-sites-evade-scanners-steal-credentials-2026-08-24",
+    "title": "Cloaked fake bank sites evade scanners, steal credentials",
+    "originalTitle": "Fake bank websites play dead to evade security scanners",
+    "summary": "Watch for SEO poisoning and cloaked phishing pages, attackers are hiding fake banking sites from scanners and luring users via manipulated search results to steal credentials.",
+    "url": "https://www.helpnetsecurity.com/2026/08/24/chameleon-seo-poisoning-fake-banking-websites-phishing/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-24T05:00:18.000Z",
+    "fetchedAt": "2026-08-24T07:19:05.779Z"
+  },
+  {
+    "slug": "ransomware-crews-target-mid-market-companies-2026-08-24",
+    "title": "Ransomware crews target mid-market companies",
+    "originalTitle": "Ransomware attackers are zeroing in on mid-market companies",
+    "summary": "Mid-sized firms account for 73% of recent ransomware and data extortion incidents, tighten backups, MFA on remote access, vendor risk checks and response plans to reduce exposure.",
+    "url": "https://www.helpnetsecurity.com/2026/08/24/black-kite-mid-market-ransomware-risk-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-24T04:30:08.000Z",
+    "fetchedAt": "2026-08-24T07:19:05.779Z"
+  },
+  {
+    "slug": "aws-network-firewall-adds-rule-hit-counts-2026-08-24",
+    "title": "AWS Network Firewall adds rule hit counts",
+    "originalTitle": "AWS makes it easier to spot firewall rules that have gone quiet",
+    "summary": "Use new rule hit counts to find unused or redundant stateful rules, validate control coverage and clean up AWS Network Firewall policies, note stateless rules are not covered.",
+    "url": "https://www.helpnetsecurity.com/2026/08/24/aws-network-firewall-rule-hit-count-capability/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-24T04:00:25.000Z",
+    "fetchedAt": "2026-08-24T07:19:05.779Z"
+  },
+  {
     "slug": "toxicpanda-android-malware-now-blocks-google-play-via-vpn-ab-2026-08-23",
     "title": "ToxicPanda Android malware now blocks Google Play via VPN abuse",
     "originalTitle": "ToxicPanda Android malware uses VPN permissions to block Google Play",
