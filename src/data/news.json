@@ -1,5 +1,89 @@
 [
   {
+    "slug": "august-net-updates-break-printing-and-pdf-export-in-wpf-apps-2026-08-24",
+    "title": "August .NET updates break printing and PDF export in WPF apps",
+    "originalTitle": "Microsoft: August updates break printing, PDF export in WPF apps",
+    "summary": "Hold or roll back the August .NET Framework updates on WPF endpoints that print or export PDFs, Microsoft acknowledged the issue and posted temporary mitigations.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-24T12:40:21.000Z",
+    "fetchedAt": "2026-08-24T13:11:52.494Z"
+  },
+  {
+    "slug": "spring-framework-ships-fixes-for-91-flaws-update-dependencie-2026-08-24",
+    "title": "Spring framework ships fixes for 91 flaws, update dependencies",
+    "originalTitle": "91 Vulnerabilities Patched in Spring Application Framework",
+    "summary": "Upgrade Spring components to current versions and run regression tests, a large batch of vulnerabilities were patched this year raising exposure for Java apps common in SMB stacks.",
+    "url": "https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T11:58:28.000Z",
+    "fetchedAt": "2026-08-24T13:11:52.494Z"
+  },
+  {
+    "slug": "critical-keycloak-bug-allows-unauthenticated-account-takeove-2026-08-24",
+    "title": "Critical Keycloak bug allows unauthenticated account takeovers",
+    "originalTitle": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
+    "summary": "Update Keycloak to patched releases immediately, a 9.1 CVSS password reset flaw lets attackers trigger resets and seize any account including admins.",
+    "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T11:56:34.000Z",
+    "fetchedAt": "2026-08-24T13:11:52.494Z"
+  },
+  {
+    "slug": "cisa-s-logging-blueprint-works-for-smbs-too-2026-08-24",
+    "title": "CISA’s logging blueprint works for SMBs too",
+    "originalTitle": "CISA’s logging guidance works beyond government",
+    "summary": "Borrow CISA’s new Logging Reference Architecture to prioritize actionable telemetry, align storage and retention, and ensure you can reconstruct incidents when it counts.",
+    "url": "https://www.helpnetsecurity.com/2026/08/24/cybersecurity-logging-guidelines-strategy/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-24T10:56:44.000Z",
+    "fetchedAt": "2026-08-24T13:11:52.494Z"
+  },
+  {
+    "slug": "cisa-patch-actively-exploited-zimbra-bug-within-3-days-2026-08-24",
+    "title": "CISA: Patch actively exploited Zimbra bug within 3 days",
+    "originalTitle": "CISA orders urgent patching of actively exploited Zimbra flaw",
+    "summary": "Patch Zimbra Collaboration Suite now, actively exploited flaw added to KEV, federal agencies have 3 days, MSPs should expedite and monitor for compromise.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T10:45:12.000Z",
+    "fetchedAt": "2026-08-24T13:11:52.494Z"
+  },
+  {
+    "slug": "criminal-group-uses-ai-to-scale-server-attacks-deploys-rootk-2026-08-24",
+    "title": "Criminal group uses AI to scale server attacks, deploys rootkit",
+    "originalTitle": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+    "summary": "Lock down internet-facing Windows and Linux servers, a Chinese-speaking crew is automating mass exploitation and dropping EDR-bypassing malware and a Linux rootkit.",
+    "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-24T08:08:31.000Z",
+    "fetchedAt": "2026-08-24T13:11:52.494Z"
+  },
+  {
     "slug": "tool-shows-what-your-ai-chats-reveal-2026-08-24",
     "title": "Tool shows what your AI chats reveal",
     "originalTitle": "Product showcase: AI Paper Trail shows the privacy cost of talking to AI",
