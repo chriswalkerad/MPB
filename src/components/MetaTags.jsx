@@ -1,14 +1,14 @@
 import { useEffect } from 'react'
+import { SITE_ORIGIN } from '../lib/site'
 
 const SITE_NAME = 'My Printer Broke'
 const DEFAULT_DESCRIPTION = 'Discover cybersecurity conferences, meetups, and workshops near you. Find in-person and virtual cyber events across the US.'
-const BASE_URL = 'https://www.myprinterbroke.com'
 
 export default function MetaTags({ title, description, path, image, type = 'website', jsonLd }) {
   const fullTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} | Every Cyber Event Near You`
   const desc = description || DEFAULT_DESCRIPTION
-  const url = `${BASE_URL}${path || ''}`
-  const img = image || `${BASE_URL}/logo.png`
+  const url = `${SITE_ORIGIN}${path || ''}`
+  const img = image || `${SITE_ORIGIN}/logo.png`
 
   useEffect(() => {
     document.title = fullTitle
@@ -41,6 +41,10 @@ export default function MetaTags({ title, description, path, image, type = 'webs
       document.head.appendChild(canonical)
     }
     canonical.setAttribute('href', url)
+    // data-app marks the canonical as set by the app post-commit; the static
+    // shell canonical in index.html never carries it, so the prerenderer can
+    // tell a committed route from the shell (or a Suspense fallback).
+    canonical.setAttribute('data-app', 'true')
 
     // JSON-LD structured data
     let scriptEl = document.querySelector('script[data-meta-jsonld]')

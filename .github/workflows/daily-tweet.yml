@@ -18,6 +18,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install @atproto/api
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: 'true'
 
       - name: Post to Bluesky
         env:

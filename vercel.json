@@ -1,10 +1,19 @@
 {
-  "buildCommand": "npm run build:prerender",
+  "buildCommand": "npm install --no-save @sparticuz/chromium@^149.0.0 puppeteer-core@^25.8.0 && npm run build:prerender",
+  "trailingSlash": false,
   "build": {
     "env": {
       "PUPPETEER_SKIP_DOWNLOAD": "true"
     }
   },
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "myprinterbroke.com" }],
+      "destination": "https://www.myprinterbroke.com/$1",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ],

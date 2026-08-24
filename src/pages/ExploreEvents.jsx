@@ -10,6 +10,7 @@ import MetaTags from '../components/MetaTags'
 import events from '../data/events.json'
 import categories from '../data/categories.json'
 import { getCities } from '../lib/cities'
+import { todayCutoff, isUpcoming, matchesFormat, matchesType } from '../lib/filterEvents'
 
 const cities = getCities(events)
 
@@ -69,27 +70,13 @@ export default function ExploreEvents() {
 
   // Filter events
   const filteredEvents = useMemo(() => {
-    const today = new Date()
-    today.setHours(0, 0, 0, 0)
+    const cutoff = todayCutoff()
 
     return events
       .filter(event => {
-        // Only show future events
-        const eventDate = new Date(event.date)
-        if (eventDate < today) return false
-
-        // Format filter: 'all', 'in-person', 'virtual'
-        // Hybrid shows in both in-person and virtual
-        if (format !== 'all') {
-          if (format === 'in-person') {
-            if (event.format !== 'in-person' && event.format !== 'hybrid') return false
-          } else if (format === 'virtual') {
-            if (event.format !== 'virtual' && event.format !== 'hybrid') return false
-          }
-        }
-
-        // Type filter
-        if (type !== 'all' && event.type !== type) return false
+        if (!isUpcoming(event, cutoff)) return false
+        if (!matchesFormat(event, format)) return false
+        if (!matchesType(event, type)) return false
 
         // Location filter
         if (location?.region) {

@@ -2,6 +2,7 @@ import { BskyAgent, RichText } from '@atproto/api';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import { SITE_ORIGIN } from '../src/lib/site.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -60,7 +61,7 @@ const postText = `${typeEmoji} ${event.name}
 📅 ${dateStr}
 ${event.tags?.length ? `🏷️ ${event.tags.slice(0, 2).join(', ')}` : ''}
 
-🔗 https://www.myprinterbroke.com/events?event=${event.slug}
+🔗 ${SITE_ORIGIN}/events/${event.slug}
 
 #Cybersecurity #Infosec`;
 

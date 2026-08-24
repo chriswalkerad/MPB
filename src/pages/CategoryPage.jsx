@@ -8,6 +8,7 @@ import MetaTags from '../components/MetaTags'
 import { useLocation } from '../context/LocationContext'
 import events from '../data/events.json'
 import categories from '../data/categories.json'
+import { todayCutoff, isUpcoming, matchesFormat, matchesType } from '../lib/filterEvents'
 
 export default function CategoryPage() {
   const { slug } = useParams()
@@ -35,26 +36,20 @@ export default function CategoryPage() {
   }
 
   const filteredEvents = useMemo(() => {
+    const cutoff = todayCutoff()
     return events
       .filter(e => {
         // Category filter - match events that have this category in their tags
         if (!e.tags?.includes(category?.name)) return false
-        // Format filter
-        if (format !== 'all') {
-          if (format === 'in-person' && e.format !== 'in-person' && e.format !== 'hybrid') return false
-          if (format === 'virtual' && e.format !== 'virtual' && e.format !== 'hybrid') return false
-        }
-        // Type filter
-        if (type !== 'all' && e.type !== type) return false
+        if (!matchesFormat(e, format)) return false
+        if (!matchesType(e, type)) return false
         // Location filter
         if (location?.region && location.region !== 'all') {
           if (location.region === 'virtual' && e.format !== 'virtual') return false
           if (location.region !== 'virtual' && e.region !== location.region) return false
           if (location.city && !e.city?.toLowerCase().includes(location.city.toLowerCase())) return false
         }
-        // Only future events
-        if (new Date(e.date) < new Date()) return false
-        return true
+        return isUpcoming(e, cutoff)
       })
       .sort((a, b) => new Date(a.date) - new Date(b.date))
   }, [category, format, type, location])
@@ -63,6 +58,7 @@ export default function CategoryPage() {
   if (!category) {
     return (
       <Layout>
+        <MetaTags title="Category Not Found" path={`/events/category/${slug}`} />
         <div style={{ maxWidth: '800px', margin: '0 auto', padding: '40px 20px', textAlign: 'center' }}>
           <h1 style={{
             fontSize: '36px',

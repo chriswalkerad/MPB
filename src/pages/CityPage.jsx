@@ -7,6 +7,8 @@ import EventDetailDrawer from '../components/EventDetailDrawer'
 import MetaTags from '../components/MetaTags'
 import events from '../data/events.json'
 import { getCities, eventsForCity } from '../lib/cities'
+import { todayCutoff, isUpcoming, matchesFormat, matchesType } from '../lib/filterEvents'
+import { SITE_ORIGIN } from '../lib/site'
 
 const cities = getCities(events)
 
@@ -34,38 +36,39 @@ export default function CityPage() {
     setSearchParams(params)
   }
 
-  const filteredEvents = useMemo(() => {
-    return eventsForCity(events, slug)
-      .filter(e => {
-        if (format !== 'all') {
-          if (format === 'in-person' && e.format !== 'in-person' && e.format !== 'hybrid') return false
-          if (format === 'virtual' && e.format !== 'virtual' && e.format !== 'hybrid') return false
-        }
-        if (type !== 'all' && e.type !== type) return false
-        if (new Date(e.date) < new Date()) return false
-        return true
-      })
-      .sort((a, b) => new Date(a.date) - new Date(b.date))
+  const { upcomingEvents, pastEvents } = useMemo(() => {
+    const cutoff = todayCutoff()
+    const matching = eventsForCity(events, slug)
+      .filter(e => matchesFormat(e, format) && matchesType(e, type))
+    return {
+      upcomingEvents: matching
+        .filter(e => isUpcoming(e, cutoff))
+        .sort((a, b) => new Date(a.date) - new Date(b.date)),
+      pastEvents: matching
+        .filter(e => !isUpcoming(e, cutoff))
+        .sort((a, b) => new Date(b.date) - new Date(a.date)),
+    }
   }, [slug, format, type])
 
   const jsonLd = useMemo(() => {
-    if (!city || filteredEvents.length === 0) return null
+    if (!city || upcomingEvents.length === 0) return null
     return {
       '@context': 'https://schema.org',
       '@type': 'ItemList',
       name: `Cybersecurity Events in ${city.name}`,
-      itemListElement: filteredEvents.slice(0, 30).map((e, i) => ({
+      itemListElement: upcomingEvents.slice(0, 30).map((e, i) => ({
         '@type': 'ListItem',
         position: i + 1,
         name: e.name,
-        url: `https://www.myprinterbroke.com/events/${e.slug}`,
+        url: `${SITE_ORIGIN}/events/${e.slug}`,
       })),
     }
-  }, [city, filteredEvents])
+  }, [city, upcomingEvents])
 
   if (!city) {
     return (
       <Layout>
+        <MetaTags title="City Not Found" path={`/events/city/${slug}`} />
         <div style={{ maxWidth: '800px', margin: '0 auto', padding: '40px 20px', textAlign: 'center' }}>
           <h1 style={{
             fontSize: '36px',
@@ -92,11 +95,15 @@ export default function CityPage() {
     )
   }
 
+  const description = upcomingEvents.length > 0
+    ? `${upcomingEvents.length} upcoming cybersecurity conferences, meetups, and workshops in ${city.name}. Dates, venues, and registration links, curated weekly.`
+    : `Cybersecurity events in ${city.name} — past conferences and meetups, with new events added as they're announced.`
+
   return (
     <Layout>
       <MetaTags
         title={`Cybersecurity Events in ${city.name}`}
-        description={`${filteredEvents.length} upcoming cybersecurity conferences, meetups, and workshops in ${city.name}. Dates, venues, and registration links, curated weekly.`}
+        description={description}
         path={`/events/city/${city.slug}`}
         jsonLd={jsonLd}
       />
@@ -143,7 +150,7 @@ export default function CityPage() {
             fontFamily: "'Outfit', sans-serif",
             margin: '8px 0 0'
           }}>
-            {filteredEvents.length} Upcoming Events
+            {upcomingEvents.length} Upcoming Events
           </p>
         </div>
 
@@ -155,16 +162,34 @@ export default function CityPage() {
           onTypeChange={setType}
         />
 
-        {/* Event List */}
+        {/* Upcoming Events */}
         <div style={{ marginTop: '32px' }}>
-          <EventList events={filteredEvents} onEventClick={setSelectedEvent} />
+          <EventList events={upcomingEvents} onEventClick={setSelectedEvent} />
         </div>
+
+        {/* Past Events */}
+        {pastEvents.length > 0 && (
+          <div style={{ marginTop: '48px' }}>
+            <h2 style={{
+              fontSize: '14px',
+              fontWeight: 600,
+              color: 'rgba(255,255,255,0.5)',
+              textTransform: 'uppercase',
+              letterSpacing: '0.05em',
+              marginBottom: '16px',
+              fontFamily: "'Outfit', sans-serif"
+            }}>
+              Past Events in {city.name}
+            </h2>
+            <EventList events={pastEvents} onEventClick={setSelectedEvent} />
+          </div>
+        )}
       </div>
 
       {/* Event Detail Drawer */}
       <EventDetailDrawer
         event={selectedEvent}
-        events={filteredEvents}
+        events={[...upcomingEvents, ...pastEvents]}
         isOpen={!!selectedEvent}
         onClose={() => setSelectedEvent(null)}
         onNavigate={setSelectedEvent}
