@@ -54,7 +54,7 @@ export default function Brief() {
       <MetaTags
         title={`MPB Daily Brief, ${formatBriefDate(brief.date)}: ${brief.title}`}
         description={brief.intro}
-        path={`/brief/${brief.slug}`}
+        path={slug ? `/brief/${brief.slug}` : '/brief'}
         type="article"
       />
       <div style={{ maxWidth: '680px', margin: '0 auto', padding: '40px 20px', fontFamily: "'Outfit', sans-serif" }}>

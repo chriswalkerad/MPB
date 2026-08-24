@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install --no-save @sparticuz/chromium@^149.0.0 puppeteer-core@^25.8.0 && npm run build:prerender",
+  "buildCommand": "npm install --no-save @sparticuz/chromium@149.0.0 puppeteer-core@25.8.0 && npm run build:prerender",
   "trailingSlash": false,
   "build": {
     "env": {

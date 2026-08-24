@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, useContext, useState, useEffect } from "react";
+import { LOCATION_STORAGE_KEY as STORAGE_KEY } from "../lib/location";
 
 // Metro area groupings - nearby cities that should match each selectable city
 export const METRO_AREAS = {
@@ -96,8 +97,6 @@ const formatRegionLabel = (region) => {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 };
-
-const STORAGE_KEY = "mpb-location";
 
 const LocationContext = createContext(null);
 

@@ -3,6 +3,7 @@ import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
 import { preview } from 'vite'
 import { buildRoutes } from '../src/lib/routes.js'
+import { LOCATION_STORAGE_KEY, ALL_LOCATIONS } from '../src/lib/location.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = join(__dirname, '..')
@@ -12,26 +13,24 @@ const events = JSON.parse(readFileSync(join(root, 'src/data/events.json'), 'utf-
 const categories = JSON.parse(readFileSync(join(root, 'src/data/categories.json'), 'utf-8'))
 const briefs = JSON.parse(readFileSync(join(root, 'src/data/briefs.json'), 'utf-8'))
 
-let { routes } = buildRoutes({ events, categories, briefs })
+let { routes: routeDefs } = buildRoutes({ events, categories, briefs })
 
 // PRERENDER_LIMIT=25 slices the route list for smoke tests
 if (process.env.PRERENDER_LIMIT) {
-  routes = routes.slice(0, parseInt(process.env.PRERENDER_LIMIT, 10) || routes.length)
+  routeDefs = routeDefs.slice(0, parseInt(process.env.PRERENDER_LIMIT, 10) || routeDefs.length)
 }
+
+const routes = routeDefs.map(d => d.path)
 
 // Crawlers must see the unfiltered national view. Seeding the app's
 // "All Locations" state stops LocationProvider from geolocating the build
 // machine and baking one metro's filtered view into every static page.
-const NEUTRAL_LOCATION = JSON.stringify({ region: null, city: null, label: 'All Locations' })
+const NEUTRAL_LOCATION = JSON.stringify(ALL_LOCATIONS)
 
-// Routes whose failure must fail the build; other routes fall back to the
+// A critical route's failure fails the build; other routes fall back to the
 // SPA shell and are dropped from the sitemap instead.
-const isCritical = (route) =>
-  route === '/' ||
-  route === '/events' ||
-  route === '/news' ||
-  route.startsWith('/events/city/') ||
-  route.startsWith('/events/category/')
+const criticalRoutes = new Set(routeDefs.filter(d => d.critical).map(d => d.path))
+const isCritical = (route) => criticalRoutes.has(route)
 
 const FAILURE_BUDGET = 0.02
 const MAX_RETRIES = Math.min(20, routes.length)
@@ -94,9 +93,9 @@ async function prerender() {
     const b = await ensureBrowser()
     const page = await b.newPage()
     try {
-      await page.evaluateOnNewDocument((value) => {
-        try { localStorage.setItem('mpb-location', value) } catch (e) { /* ignore */ }
-      }, NEUTRAL_LOCATION)
+      await page.evaluateOnNewDocument((key, value) => {
+        try { localStorage.setItem(key, value) } catch (e) { /* ignore */ }
+      }, LOCATION_STORAGE_KEY, NEUTRAL_LOCATION)
 
       // Only the local preview server may be fetched: third-party images,
       // fonts, analytics, and ip-api.com would make networkidle0
@@ -143,6 +142,10 @@ async function prerender() {
     }
   }
 
+  // The '/' render overwrites dist/index.html; keep the neutral shell so
+  // within-budget failed routes can serve it instead of baked homepage HTML.
+  const shellHtml = readFileSync(join(distDir, 'index.html'), 'utf-8')
+
   let completed = 0
   const failed = []
 
@@ -164,7 +167,9 @@ async function prerender() {
 
   // Retry failures one at a time with a longer timeout — a busy CPU can
   // starve renders under batch load. Capped so a systemic failure can't
-  // run the build into Vercel's 45-minute limit.
+  // run the build into Vercel's 45-minute limit; critical routes get
+  // retry slots first since their failure aborts the build.
+  failed.sort((a, b) => (isCritical(b) ? 1 : 0) - (isCritical(a) ? 1 : 0))
   const stillFailed = failed.slice(MAX_RETRIES)
   for (const route of failed.slice(0, MAX_RETRIES)) {
     try {
@@ -183,6 +188,20 @@ async function prerender() {
   // The sitemap generator runs next and drops these routes.
   if (!existsSync(distDir)) mkdirSync(distDir, { recursive: true })
   writeFileSync(join(distDir, '.prerender-failures.json'), JSON.stringify(stillFailed, null, 2))
+
+  // Without a file at its path, a failed route would fall through the
+  // catch-all rewrite to the prerendered homepage — full homepage HTML and
+  // canonical on the wrong URL. Serve the neutral shell there instead,
+  // minus the shell's homepage canonical/og:url.
+  const fallbackShell = shellHtml
+    .replace(/^\s*<link rel="canonical"[^>]*>\n?/m, '')
+    .replace(/^\s*<meta property="og:url"[^>]*>\n?/m, '')
+  for (const route of stillFailed) {
+    if (isCritical(route)) continue
+    const dir = join(distDir, route)
+    if (!existsSync(dir)) mkdirSync(dir, { recursive: true })
+    writeFileSync(join(dir, 'index.html'), fallbackShell)
+  }
 
   const criticalFailed = stillFailed.filter(isCritical)
   const budget = Math.floor(routes.length * FAILURE_BUDGET)

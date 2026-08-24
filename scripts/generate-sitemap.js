@@ -29,33 +29,18 @@ if (existsSync(failuresPath)) {
 }
 const failed = new Set(failedRoutes)
 
-function metaFor(route) {
-  if (route === '/') return { changefreq: 'daily', priority: '1.0' }
-  if (route === '/events') return { changefreq: 'daily', priority: '0.9' }
-  if (route === '/news') return { changefreq: 'hourly', priority: '0.8' }
-  if (route === '/brief') return { changefreq: 'daily', priority: '0.8' }
-  if (route === '/submit') return { changefreq: 'monthly', priority: '0.5' }
-  if (route === '/events/archive') return { changefreq: 'weekly', priority: '0.4' }
-  if (route.startsWith('/events/category/')) return { changefreq: 'daily', priority: '0.7' }
-  if (route.startsWith('/events/city/')) return { changefreq: 'daily', priority: '0.8' }
-  if (route.startsWith('/brief/')) return { changefreq: 'monthly', priority: '0.6' }
-  return { changefreq: 'weekly', priority: '0.6' }
-}
-
 // No <lastmod>: there are no per-URL modification dates, and a uniform fake
-// date would train crawlers to ignore the signal entirely.
-const urls = routes.filter(r => !failed.has(r))
+// date would train crawlers to ignore the signal entirely. changefreq and
+// priority come from the route defs so this file cannot drift from them.
+const urls = routes.filter(r => !failed.has(r.path))
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls.map(route => {
-  const { changefreq, priority } = metaFor(route)
-  return `  <url>
-    <loc>${SITE_ORIGIN}${route}</loc>
+${urls.map(({ path, changefreq, priority }) => `  <url>
+    <loc>${SITE_ORIGIN}${path}</loc>
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
-  </url>`
-}).join('\n')}
+  </url>`).join('\n')}
 </urlset>
 `
 
