@@ -21190,5 +21190,581 @@
     "url": "https://cybersecuritysummit.com/summits/",
     "source": "Cybersecurity Summit",
     "description": "Next-gen AI security risks, controls, and governance in a concentrated virtual format. Useful if your org is shipping or buying AI."
+  },
+  {
+    "name": "FutureCon Chicago 2027",
+    "slug": "futurecon-chicago-2027",
+    "date": "2027-01-14T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Chicago",
+    "state": "IL",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Chicago. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Dallas 2027",
+    "slug": "futurecon-dallas-2027",
+    "date": "2027-01-20T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Dallas",
+    "state": "TX",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Dallas. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Orlando 2027",
+    "slug": "futurecon-orlando-2027",
+    "date": "2027-01-28T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Orlando",
+    "state": "FL",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Orlando. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Baltimore 2027",
+    "slug": "futurecon-baltimore-2027",
+    "date": "2027-02-11T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Baltimore",
+    "state": "MD",
+    "region": "northeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Baltimore. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon St. Louis 2027",
+    "slug": "futurecon-st-louis-2027",
+    "date": "2027-02-25T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "St. Louis",
+    "state": "MO",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in St. Louis. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Minneapolis 2027",
+    "slug": "futurecon-minneapolis-2027",
+    "date": "2027-03-11T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Minneapolis",
+    "state": "MN",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Minneapolis. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Philadelphia 2027",
+    "slug": "futurecon-philadelphia-2027",
+    "date": "2027-03-18T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Philadelphia",
+    "state": "PA",
+    "region": "northeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Philadelphia. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Los Angeles 2027",
+    "slug": "futurecon-los-angeles-2027",
+    "date": "2027-03-31T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Los Angeles",
+    "state": "CA",
+    "region": "west-coast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Los Angeles. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Detroit 2027",
+    "slug": "futurecon-detroit-2027",
+    "date": "2027-04-15T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Detroit",
+    "state": "MI",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Detroit. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Seattle 2027",
+    "slug": "futurecon-seattle-2027",
+    "date": "2027-05-13T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Seattle",
+    "state": "WA",
+    "region": "west-coast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Seattle. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Milwaukee 2027",
+    "slug": "futurecon-milwaukee-2027",
+    "date": "2027-05-20T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Milwaukee",
+    "state": "WI",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Milwaukee. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Pittsburgh 2027",
+    "slug": "futurecon-pittsburgh-2027",
+    "date": "2027-06-03T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "region": "northeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Pittsburgh. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Kansas City 2027",
+    "slug": "futurecon-kansas-city-2027",
+    "date": "2027-06-10T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Kansas City",
+    "state": "KS",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Kansas City. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Chicago 2027",
+    "slug": "futurecon-chicago-2027-2",
+    "date": "2027-06-24T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Chicago",
+    "state": "IL",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Chicago. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Tampa 2027",
+    "slug": "futurecon-tampa-2027",
+    "date": "2027-07-08T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Tampa",
+    "state": "FL",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Tampa. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Indianapolis 2027",
+    "slug": "futurecon-indianapolis-2027",
+    "date": "2027-07-15T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Indianapolis",
+    "state": "IN",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Indianapolis. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Orange County 2027",
+    "slug": "futurecon-orange-county-2027",
+    "date": "2027-07-28T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Orange County",
+    "state": "CA",
+    "region": "west-coast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Orange County. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Omaha 2027",
+    "slug": "futurecon-omaha-2027",
+    "date": "2027-08-12T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Omaha",
+    "state": "NE",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Omaha. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Salt Lake City 2027",
+    "slug": "futurecon-salt-lake-city-2027",
+    "date": "2027-08-26T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Salt Lake City. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Charlotte 2027",
+    "slug": "futurecon-charlotte-2027",
+    "date": "2027-09-01T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Charlotte",
+    "state": "NC",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Charlotte. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Denver 2027",
+    "slug": "futurecon-denver-2027",
+    "date": "2027-09-16T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Denver",
+    "state": "CO",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Denver. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Nashville 2027",
+    "slug": "futurecon-nashville-2027",
+    "date": "2027-09-30T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Nashville",
+    "state": "TN",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Nashville. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Columbus 2027",
+    "slug": "futurecon-columbus-2027",
+    "date": "2027-10-07T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Columbus",
+    "state": "OH",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Columbus. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Phoenix 2027",
+    "slug": "futurecon-phoenix-2027",
+    "date": "2027-10-28T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Phoenix",
+    "state": "AZ",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Phoenix. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Boston 2027",
+    "slug": "futurecon-boston-2027",
+    "date": "2027-11-11T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Boston",
+    "state": "MA",
+    "region": "northeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Boston. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon San Diego 2027",
+    "slug": "futurecon-san-diego-2027",
+    "date": "2027-11-18T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "San Diego",
+    "state": "CA",
+    "region": "west-coast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in San Diego. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Atlanta 2027",
+    "slug": "futurecon-atlanta-2027",
+    "date": "2027-12-02T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Atlanta",
+    "state": "GA",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Atlanta. Attend in person or virtually."
+  },
+  {
+    "name": "FutureCon Austin 2027",
+    "slug": "futurecon-austin-2027",
+    "date": "2027-12-09T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Austin",
+    "state": "TX",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "One-day hybrid cybersecurity conference from FutureCon in Austin. Attend in person or virtually."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Tampa 2027",
+    "slug": "the-official-cybersecurity-summit-tampa-2027",
+    "date": "2027-02-02T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Tampa",
+    "state": "FL",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "One-day in-person summit for security leaders in Tampa, connect with peers and leading solution providers."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Atlanta 2027",
+    "slug": "the-official-cybersecurity-summit-atlanta-2027",
+    "date": "2027-02-04T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Atlanta",
+    "state": "GA",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "One-day in-person summit for security leaders in Atlanta, connect with peers and leading solution providers."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: San Diego 2027",
+    "slug": "the-official-cybersecurity-summit-san-diego-2027",
+    "date": "2027-02-18T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "San Diego",
+    "state": "CA",
+    "region": "west-coast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "One-day in-person summit for security leaders in San Diego, connect with peers and leading solution providers."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: New York 2027",
+    "slug": "the-official-cybersecurity-summit-new-york-2027",
+    "date": "2027-02-23T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "New York",
+    "state": "NY",
+    "region": "northeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "One-day in-person summit for security leaders in New York, connect with peers and leading solution providers."
   }
 ]
