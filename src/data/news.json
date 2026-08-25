@@ -1,5 +1,99 @@
 [
   {
+    "slug": "whatsapp-adds-multi-passkey-support-and-stronger-2sv-2026-08-25",
+    "title": "WhatsApp adds multi-passkey support and stronger 2SV",
+    "originalTitle": "WhatsApp adds stronger two-step verification, multiple passkeys",
+    "summary": "Encourage users to switch to passkeys and tighten two-step verification, WhatsApp is rolling out multiple passkeys per account plus improved 2SV options.",
+    "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/whatsapp-adds-multiple-passkeys-and-stronger-2sv-in-account-security-update/"
+      }
+    ],
+    "category": "defense",
+    "publishedAt": "2026-08-25T13:00:00.000Z",
+    "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
+    "slug": "fake-openai-codex-download-plants-macos-malware-via-terminal-2026-08-25",
+    "title": "Fake OpenAI Codex download plants macOS malware via Terminal",
+    "originalTitle": "Fake OpenAI Codex download tricks macOS users into installing malware",
+    "summary": "Block malicious ads and warn developers, a sponsored ad leads to a fake Codex site that convinces macOS users to paste a Terminal command installing malware.",
+    "url": "https://www.helpnetsecurity.com/2026/08/25/fake-openai-codex-download-macos-users/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-25T12:40:44.000Z",
+    "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
+    "slug": "zimbra-rce-exploited-270-servers-breached-2026-08-25",
+    "title": "Zimbra RCE exploited, 270+ servers breached",
+    "originalTitle": "Hackers breached over 270 Zimbra servers in ongoing attacks",
+    "summary": "Patch CVE-2026-73570 immediately and hunt for webshells, attackers are mass exploiting unpatched Zimbra Collaboration servers and have already compromised at least 270 instances.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-25T12:04:02.000Z",
+    "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
+    "slug": "mirage2fa-phishing-blitz-abuses-m365-login-bypasses-mfa-2026-08-25",
+    "title": "Mirage2FA phishing blitz abuses M365 login, bypasses MFA",
+    "originalTitle": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+    "summary": "Enforce phishing-resistant MFA and Conditional Access, a large PaaS campaign is stealing Microsoft 365 credentials by relaying legitimate login flows to sidestep 2FA.",
+    "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-25T11:56:15.000Z",
+    "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
+    "slug": "wordpress-sso-plugin-flaws-let-attackers-log-in-as-admins-2026-08-25",
+    "title": "WordPress SSO plugin flaws let attackers log in as admins",
+    "originalTitle": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+    "summary": "Update or disable vulnerable miniOrange SAML 2.0 SSO versions and review logs, unauthenticated bugs let attackers authenticate as any user including administrators.",
+    "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-25T08:34:07.000Z",
+    "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
+    "slug": "cisa-oracle-weblogic-flaw-under-attack-patch-now-2026-08-25",
+    "title": "CISA: Oracle WebLogic flaw under attack, patch now",
+    "originalTitle": "CISA Warns of Exploited Oracle WebLogic Vulnerability",
+    "summary": "Apply Oracle's July 2026 patch for CVE-2026-21962 and limit WebLogic exposure, CISA reports widespread exploitation against internet-facing servers.",
+    "url": "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-25T07:46:34.000Z",
+    "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
     "slug": "patch-now-cisa-flags-oracle-weblogic-flaw-under-active-attac-2026-08-25",
     "title": "Patch now: CISA flags Oracle WebLogic flaw under active attack",
     "originalTitle": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
