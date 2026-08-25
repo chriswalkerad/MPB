@@ -1,5 +1,61 @@
 [
   {
+    "slug": "patch-now-cisa-flags-oracle-weblogic-flaw-under-active-attac-2026-08-25",
+    "title": "Patch now: CISA flags Oracle WebLogic flaw under active attack",
+    "originalTitle": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+    "summary": "CVE-2026-21962 in Oracle WebLogic and Oracle HTTP Server is on CISA’s KEV list, unauthenticated attackers can access critical data, patch or mitigate immediately.",
+    "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-25T06:12:35.000Z",
+    "fetchedAt": "2026-08-25T07:07:17.039Z"
+  },
+  {
+    "slug": "secure-ai-supply-chains-by-starting-with-your-dev-pipelines-2026-08-25",
+    "title": "Secure AI supply chains by starting with your dev pipelines",
+    "originalTitle": "AI supply chain risk is showing up in developer workflows first",
+    "summary": "AI supply chain risk is hitting developer workflows first, so lock down CI and package sources, segment access, and avoid self-hosted models you cannot isolate properly.",
+    "url": "https://www.helpnetsecurity.com/2026/08/25/jaushin-lee-ai-zentera-systems-supply-chain-risk/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-25T06:00:50.000Z",
+    "fetchedAt": "2026-08-25T07:07:17.039Z"
+  },
+  {
+    "slug": "free-tool-hol-guard-pauses-risky-ai-agent-actions-locally-2026-08-25",
+    "title": "Free tool HOL Guard pauses risky AI agent actions locally",
+    "originalTitle": "HOL Guard: Open-source antivirus for AI agents",
+    "summary": "If you are testing AI agents on endpoints, HOL Guard runs locally to intercept risky commands and prompts for approval, reducing blast radius without internet or cloud reliance.",
+    "url": "https://www.helpnetsecurity.com/2026/08/25/hol-guard-open-source-antivirus-ai-agents/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-25T05:30:35.000Z",
+    "fetchedAt": "2026-08-25T07:07:17.039Z"
+  },
+  {
+    "slug": "tcg-publishes-buyer-test-rules-for-quantum-ready-tpms-2026-08-25",
+    "title": "TCG publishes buyer test rules for quantum-ready TPMs",
+    "originalTitle": "New TCG guidance gives buyers a way to test PQC-ready TPM claims",
+    "summary": "Trusted Computing Group now defines requirements for PQC-ready TPMs, so buyers can demand evidence from vendors and start aligning hardware purchases with post-quantum roadmaps.",
+    "url": "https://www.helpnetsecurity.com/2026/08/25/trusted-computing-group-pqc-ready-tpm/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-25T04:30:42.000Z",
+    "fetchedAt": "2026-08-25T07:07:17.039Z"
+  },
+  {
     "slug": "zimbra-exploit-in-the-wild-patch-within-3-days-2026-08-24",
     "title": "Zimbra exploit in the wild, patch within 3 days",
     "originalTitle": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
