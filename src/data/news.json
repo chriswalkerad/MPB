@@ -1,5 +1,431 @@
 [
   {
+    "slug": "whatsapp-adds-multi-passkey-support-and-stronger-2sv-2026-08-25",
+    "title": "WhatsApp adds multi-passkey support and stronger 2SV",
+    "originalTitle": "WhatsApp adds stronger two-step verification, multiple passkeys",
+    "summary": "Encourage users to switch to passkeys and tighten two-step verification, WhatsApp is rolling out multiple passkeys per account plus improved 2SV options.",
+    "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/whatsapp-adds-multiple-passkeys-and-stronger-2sv-in-account-security-update/"
+      }
+    ],
+    "category": "defense",
+    "publishedAt": "2026-08-25T13:00:00.000Z",
+    "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
+    "slug": "fake-openai-codex-download-plants-macos-malware-via-terminal-2026-08-25",
+    "title": "Fake OpenAI Codex download plants macOS malware via Terminal",
+    "originalTitle": "Fake OpenAI Codex download tricks macOS users into installing malware",
+    "summary": "Block malicious ads and warn developers, a sponsored ad leads to a fake Codex site that convinces macOS users to paste a Terminal command installing malware.",
+    "url": "https://www.helpnetsecurity.com/2026/08/25/fake-openai-codex-download-macos-users/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-25T12:40:44.000Z",
+    "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
+    "slug": "zimbra-rce-exploited-270-servers-breached-2026-08-25",
+    "title": "Zimbra RCE exploited, 270+ servers breached",
+    "originalTitle": "Hackers breached over 270 Zimbra servers in ongoing attacks",
+    "summary": "Patch CVE-2026-73570 immediately and hunt for webshells, attackers are mass exploiting unpatched Zimbra Collaboration servers and have already compromised at least 270 instances.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-25T12:04:02.000Z",
+    "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
+    "slug": "mirage2fa-phishing-blitz-abuses-m365-login-bypasses-mfa-2026-08-25",
+    "title": "Mirage2FA phishing blitz abuses M365 login, bypasses MFA",
+    "originalTitle": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+    "summary": "Enforce phishing-resistant MFA and Conditional Access, a large PaaS campaign is stealing Microsoft 365 credentials by relaying legitimate login flows to sidestep 2FA.",
+    "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-25T11:56:15.000Z",
+    "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
+    "slug": "wordpress-sso-plugin-flaws-let-attackers-log-in-as-admins-2026-08-25",
+    "title": "WordPress SSO plugin flaws let attackers log in as admins",
+    "originalTitle": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+    "summary": "Update or disable vulnerable miniOrange SAML 2.0 SSO versions and review logs, unauthenticated bugs let attackers authenticate as any user including administrators.",
+    "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-25T08:34:07.000Z",
+    "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
+    "slug": "cisa-oracle-weblogic-flaw-under-attack-patch-now-2026-08-25",
+    "title": "CISA: Oracle WebLogic flaw under attack, patch now",
+    "originalTitle": "CISA Warns of Exploited Oracle WebLogic Vulnerability",
+    "summary": "Apply Oracle's July 2026 patch for CVE-2026-21962 and limit WebLogic exposure, CISA reports widespread exploitation against internet-facing servers.",
+    "url": "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-25T07:46:34.000Z",
+    "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
+    "slug": "patch-now-cisa-flags-oracle-weblogic-flaw-under-active-attac-2026-08-25",
+    "title": "Patch now: CISA flags Oracle WebLogic flaw under active attack",
+    "originalTitle": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+    "summary": "CVE-2026-21962 in Oracle WebLogic and Oracle HTTP Server is on CISA’s KEV list, unauthenticated attackers can access critical data, patch or mitigate immediately.",
+    "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-25T06:12:35.000Z",
+    "fetchedAt": "2026-08-25T07:07:17.039Z"
+  },
+  {
+    "slug": "secure-ai-supply-chains-by-starting-with-your-dev-pipelines-2026-08-25",
+    "title": "Secure AI supply chains by starting with your dev pipelines",
+    "originalTitle": "AI supply chain risk is showing up in developer workflows first",
+    "summary": "AI supply chain risk is hitting developer workflows first, so lock down CI and package sources, segment access, and avoid self-hosted models you cannot isolate properly.",
+    "url": "https://www.helpnetsecurity.com/2026/08/25/jaushin-lee-ai-zentera-systems-supply-chain-risk/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-25T06:00:50.000Z",
+    "fetchedAt": "2026-08-25T07:07:17.039Z"
+  },
+  {
+    "slug": "free-tool-hol-guard-pauses-risky-ai-agent-actions-locally-2026-08-25",
+    "title": "Free tool HOL Guard pauses risky AI agent actions locally",
+    "originalTitle": "HOL Guard: Open-source antivirus for AI agents",
+    "summary": "If you are testing AI agents on endpoints, HOL Guard runs locally to intercept risky commands and prompts for approval, reducing blast radius without internet or cloud reliance.",
+    "url": "https://www.helpnetsecurity.com/2026/08/25/hol-guard-open-source-antivirus-ai-agents/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-25T05:30:35.000Z",
+    "fetchedAt": "2026-08-25T07:07:17.039Z"
+  },
+  {
+    "slug": "tcg-publishes-buyer-test-rules-for-quantum-ready-tpms-2026-08-25",
+    "title": "TCG publishes buyer test rules for quantum-ready TPMs",
+    "originalTitle": "New TCG guidance gives buyers a way to test PQC-ready TPM claims",
+    "summary": "Trusted Computing Group now defines requirements for PQC-ready TPMs, so buyers can demand evidence from vendors and start aligning hardware purchases with post-quantum roadmaps.",
+    "url": "https://www.helpnetsecurity.com/2026/08/25/trusted-computing-group-pqc-ready-tpm/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-25T04:30:42.000Z",
+    "fetchedAt": "2026-08-25T07:07:17.039Z"
+  },
+  {
+    "slug": "zimbra-exploit-in-the-wild-patch-within-3-days-2026-08-24",
+    "title": "Zimbra exploit in the wild, patch within 3 days",
+    "originalTitle": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
+    "summary": "Patch Zimbra CVE-2026-73570 within three days, CISA says attackers are actively exploiting it to take over user email and communications.",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T21:46:55.000Z",
+    "fetchedAt": "2026-08-25T01:51:09.810Z"
+  },
+  {
+    "slug": "unpatched-calix-gs7-bug-exposes-internal-devices-2026-08-24",
+    "title": "Unpatched Calix GS7 bug exposes internal devices",
+    "originalTitle": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
+    "summary": "Lock down Calix GS7 XGS routers now, a remote unauthenticated flaw lets attackers create port forwarding rules that expose internal devices and there is no patch yet.",
+    "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T21:14:30.000Z",
+    "fetchedAt": "2026-08-25T01:51:09.810Z"
+  },
+  {
+    "slug": "malware-disguised-as-wordlists-delivers-amatera-infostealer-2026-08-24",
+    "title": "Malware disguised as wordlists delivers Amatera infostealer",
+    "originalTitle": "Foul Language: WordlistLoader Disguises Malware as Ordinary Text",
+    "summary": "Warn users and block suspicious text downloads, a new WordlistLoader trick is delivering the Amatera info stealer by hiding malware in ordinary looking wordlists.",
+    "url": "https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-24T20:51:27.000Z",
+    "fetchedAt": "2026-08-25T01:51:09.810Z"
+  },
+  {
+    "slug": "attackers-exploit-miniorange-saml-sso-to-hijack-wordpress-ad-2026-08-24",
+    "title": "Attackers exploit miniOrange SAML SSO to hijack WordPress admins",
+    "originalTitle": "Hackers target WordPress sites in miniOrange auth bypass attacks",
+    "summary": "Update or disable the miniOrange SAML 2.0 SSO plugin immediately, attackers are exploiting critical auth bypass bugs to forge SAML responses and log in as administrators.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T19:26:32.000Z",
+    "fetchedAt": "2026-08-25T01:51:09.810Z"
+  },
+  {
+    "slug": "reliaquest-says-phishers-briefly-accessed-internal-dashboard-2026-08-24",
+    "title": "ReliaQuest says phishers briefly accessed internal dashboard",
+    "originalTitle": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+    "summary": "Enable out-of-band verification for internal requests, enforce phishing resistant MFA, and lock down dashboard permissions after ReliaQuest said a social engineering phish briefly exposed an internal tool.",
+    "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-08-24T15:17:16.000Z",
+    "fetchedAt": "2026-08-24T18:58:30.373Z"
+  },
+  {
+    "slug": "new-synkloader-steals-windows-passwords-preps-ransomware-2026-08-24",
+    "title": "New SynkLoader steals Windows passwords, preps ransomware",
+    "originalTitle": "Tricky 'SynkLoader' Multitool May Herald Ransomware",
+    "summary": "Block LNK and shortcut attachments, restrict script interpreters, and update EDR detections as SynkLoader steals Windows passwords via screen hijacking and likely brokers access to ransomware operators.",
+    "url": "https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-08-24T15:02:32.000Z",
+    "fetchedAt": "2026-08-24T18:58:30.373Z"
+  },
+  {
+    "slug": "toxicpanda-android-trojan-moves-into-enterprise-apps-2026-08-24",
+    "title": "ToxicPanda Android trojan moves into enterprise apps",
+    "originalTitle": "ToxicPanda Banking Trojan Matures Into Enterprise Threat",
+    "summary": "Tighten mobile device management, block sideloading, and audit enterprise Android app access because ToxicPanda now steals credentials and controls devices beyond banking targets.",
+    "url": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-24T14:34:59.000Z",
+    "fetchedAt": "2026-08-24T18:58:30.373Z"
+  },
+  {
+    "slug": "teams-adds-setting-to-block-external-bots-in-meetings-2026-08-24",
+    "title": "Teams adds setting to block external bots in meetings",
+    "originalTitle": "Microsoft Teams now lets admins block external bots from meetings",
+    "summary": "Turn on Teams' new meeting protection policy to block external bots by default, then review tenant allow lists and app permissions to prevent unwanted bot access.",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-24T14:00:19.000Z",
+    "fetchedAt": "2026-08-24T18:58:30.373Z"
+  },
+  {
+    "slug": "august-net-updates-break-printing-and-pdf-export-in-wpf-apps-2026-08-24",
+    "title": "August .NET updates break printing and PDF export in WPF apps",
+    "originalTitle": "Microsoft: August updates break printing, PDF export in WPF apps",
+    "summary": "Hold or roll back the August .NET Framework updates on WPF endpoints that print or export PDFs, Microsoft acknowledged the issue and posted temporary mitigations.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-24T12:40:21.000Z",
+    "fetchedAt": "2026-08-24T13:11:52.494Z"
+  },
+  {
+    "slug": "cisa-adds-oracle-proxy-plug-in-bug-to-kev-patch-now-2026-08-24",
+    "title": "CISA adds Oracle proxy plug-in bug to KEV, patch now",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "Patch CVE-2026-21962 in Oracle HTTP Server and WebLogic proxy plug-in now, CISA added it to the KEV after evidence of active exploitation.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T12:00:00.000Z",
+    "fetchedAt": "2026-08-25T01:51:09.810Z"
+  },
+  {
+    "slug": "spring-framework-ships-fixes-for-91-flaws-update-dependencie-2026-08-24",
+    "title": "Spring framework ships fixes for 91 flaws, update dependencies",
+    "originalTitle": "91 Vulnerabilities Patched in Spring Application Framework",
+    "summary": "Upgrade Spring components to current versions and run regression tests, a large batch of vulnerabilities were patched this year raising exposure for Java apps common in SMB stacks.",
+    "url": "https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T11:58:28.000Z",
+    "fetchedAt": "2026-08-24T13:11:52.494Z"
+  },
+  {
+    "slug": "critical-keycloak-bug-allows-unauthenticated-account-takeove-2026-08-24",
+    "title": "Critical Keycloak bug allows unauthenticated account takeovers",
+    "originalTitle": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
+    "summary": "Update Keycloak to patched releases immediately, a 9.1 CVSS password reset flaw lets attackers trigger resets and seize any account including admins.",
+    "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T11:56:34.000Z",
+    "fetchedAt": "2026-08-24T13:11:52.494Z"
+  },
+  {
+    "slug": "cisa-s-logging-blueprint-works-for-smbs-too-2026-08-24",
+    "title": "CISA’s logging blueprint works for SMBs too",
+    "originalTitle": "CISA’s logging guidance works beyond government",
+    "summary": "Borrow CISA’s new Logging Reference Architecture to prioritize actionable telemetry, align storage and retention, and ensure you can reconstruct incidents when it counts.",
+    "url": "https://www.helpnetsecurity.com/2026/08/24/cybersecurity-logging-guidelines-strategy/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-24T10:56:44.000Z",
+    "fetchedAt": "2026-08-24T13:11:52.494Z"
+  },
+  {
+    "slug": "cisa-patch-actively-exploited-zimbra-bug-within-3-days-2026-08-24",
+    "title": "CISA: Patch actively exploited Zimbra bug within 3 days",
+    "originalTitle": "CISA orders urgent patching of actively exploited Zimbra flaw",
+    "summary": "Patch Zimbra Collaboration Suite now, actively exploited flaw added to KEV, federal agencies have 3 days, MSPs should expedite and monitor for compromise.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T10:45:12.000Z",
+    "fetchedAt": "2026-08-24T13:11:52.494Z"
+  },
+  {
+    "slug": "criminal-group-uses-ai-to-scale-server-attacks-deploys-rootk-2026-08-24",
+    "title": "Criminal group uses AI to scale server attacks, deploys rootkit",
+    "originalTitle": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+    "summary": "Lock down internet-facing Windows and Linux servers, a Chinese-speaking crew is automating mass exploitation and dropping EDR-bypassing malware and a Linux rootkit.",
+    "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-24T08:08:31.000Z",
+    "fetchedAt": "2026-08-24T13:11:52.494Z"
+  },
+  {
+    "slug": "tool-shows-what-your-ai-chats-reveal-2026-08-24",
+    "title": "Tool shows what your AI chats reveal",
+    "originalTitle": "Product showcase: AI Paper Trail shows the privacy cost of talking to AI",
+    "summary": "Audit exported AI chats to see what personal or sensitive data can be inferred, then set usage policies and remind staff that chat logs persist and can leak.",
+    "url": "https://www.helpnetsecurity.com/2026/08/24/product-showcase-ai-paper-trail/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-24T05:30:33.000Z",
+    "fetchedAt": "2026-08-24T07:19:05.779Z"
+  },
+  {
+    "slug": "cloaked-fake-bank-sites-evade-scanners-steal-credentials-2026-08-24",
+    "title": "Cloaked fake bank sites evade scanners, steal credentials",
+    "originalTitle": "Fake bank websites play dead to evade security scanners",
+    "summary": "Watch for SEO poisoning and cloaked phishing pages, attackers are hiding fake banking sites from scanners and luring users via manipulated search results to steal credentials.",
+    "url": "https://www.helpnetsecurity.com/2026/08/24/chameleon-seo-poisoning-fake-banking-websites-phishing/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-24T05:00:18.000Z",
+    "fetchedAt": "2026-08-24T07:19:05.779Z"
+  },
+  {
+    "slug": "ransomware-crews-target-mid-market-companies-2026-08-24",
+    "title": "Ransomware crews target mid-market companies",
+    "originalTitle": "Ransomware attackers are zeroing in on mid-market companies",
+    "summary": "Mid-sized firms account for 73% of recent ransomware and data extortion incidents, tighten backups, MFA on remote access, vendor risk checks and response plans to reduce exposure.",
+    "url": "https://www.helpnetsecurity.com/2026/08/24/black-kite-mid-market-ransomware-risk-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-24T04:30:08.000Z",
+    "fetchedAt": "2026-08-24T07:19:05.779Z"
+  },
+  {
+    "slug": "aws-network-firewall-adds-rule-hit-counts-2026-08-24",
+    "title": "AWS Network Firewall adds rule hit counts",
+    "originalTitle": "AWS makes it easier to spot firewall rules that have gone quiet",
+    "summary": "Use new rule hit counts to find unused or redundant stateful rules, validate control coverage and clean up AWS Network Firewall policies, note stateless rules are not covered.",
+    "url": "https://www.helpnetsecurity.com/2026/08/24/aws-network-firewall-rule-hit-count-capability/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-24T04:00:25.000Z",
+    "fetchedAt": "2026-08-24T07:19:05.779Z"
+  },
+  {
     "slug": "toxicpanda-android-malware-now-blocks-google-play-via-vpn-ab-2026-08-23",
     "title": "ToxicPanda Android malware now blocks Google Play via VPN abuse",
     "originalTitle": "ToxicPanda Android malware uses VPN permissions to block Google Play",

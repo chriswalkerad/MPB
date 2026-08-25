@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "slug": "2026-08-25",
+    "date": "2026-08-25",
+    "title": "Active exploits, MFA relays, and a fake Codex trap",
+    "intro": "Two major server bugs are getting hammered and a big phishing platform is relaying Microsoft 365 logins. Also on deck, a sneaky macOS adware trick, WordPress SSO flaws, and a few defenses worth turning on.",
+    "items": [
+      {
+        "heading": "Zimbra RCE under mass exploitation",
+        "body": "Attackers are mass exploiting CVE-2026-73570 in Zimbra Collaboration, with at least 270 servers already compromised. If you run Zimbra, patch immediately and hunt for webshells. Treat this as a full incident if you were exposed, check for lateral movement and unusual mail flows.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "zimbra-rce-exploited-270-servers-breached-2026-08-25"
+      },
+      {
+        "heading": "CISA adds Oracle WebLogic bug to KEV, attacks underway",
+        "body": "CVE-2026-21962 in Oracle WebLogic and Oracle HTTP Server is on CISA’s Known Exploited list and is under active attack. The bug lets unauthenticated attackers access critical data. Patch or apply mitigations now, and verify no internet-facing instances are lagging.",
+        "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "patch-now-cisa-flags-oracle-weblogic-flaw-under-active-attac-2026-08-25"
+      },
+      {
+        "heading": "Mirage2FA relays Microsoft 365 logins to bypass MFA",
+        "body": "A large PaaS campaign is stealing Microsoft 365 credentials by relaying legitimate login flows, sidestepping 2FA in the process. If phish-prone MFA is all you have, this will work against you. Enforce phishing-resistant MFA and Conditional Access, and watch sign-in logs for unusual session origins.",
+        "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "mirage2fa-phishing-blitz-abuses-m365-login-bypasses-mfa-2026-08-25"
+      },
+      {
+        "heading": "WordPress SSO bugs allow admin logins",
+        "body": "Unauthenticated flaws in the miniOrange SAML 2.0 SSO plugin let attackers authenticate as any user, including administrators. Update to a fixed version or disable the plugin, then review logs for odd SSO events. If compromise is suspected, rotate admin creds and API keys.",
+        "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "wordpress-sso-plugin-flaws-let-attackers-log-in-as-admins-2026-08-25"
+      },
+      {
+        "heading": "Fake Codex ad pushes macOS malware via Terminal",
+        "body": "A sponsored ad leads to a phony OpenAI Codex site that convinces macOS users to paste a Terminal command that installs malware. Block shady ads at the gateway and warn developers. Remind teams not to paste commands from random sites, and monitor for new unsigned binaries on dev Macs.",
+        "url": "https://www.helpnetsecurity.com/2026/08/25/fake-openai-codex-download-macos-users/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "fake-openai-codex-download-plants-macos-malware-via-terminal-2026-08-25"
+      },
+      {
+        "heading": "WhatsApp gets multi-passkeys and tougher 2SV",
+        "body": "WhatsApp is rolling out multiple passkeys per account plus improved two-step verification. That makes it easier to move users off passwords and harden high-risk accounts. Encourage passkey adoption in your org and require 2SV for admins and VIPs.",
+        "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "whatsapp-adds-multi-passkey-support-and-stronger-2sv-2026-08-25"
+      },
+      {
+        "heading": "Start AI supply chain security in your dev pipeline",
+        "body": "AI supply chain risk is hitting developer workflows first. Lock down CI and package sources, segment access, and avoid self-hosted models you cannot isolate properly. Treat model weights, prompts, and build artifacts like high-value code and audit who and what can touch them.",
+        "url": "https://www.helpnetsecurity.com/2026/08/25/jaushin-lee-ai-zentera-systems-supply-chain-risk/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "secure-ai-supply-chains-by-starting-with-your-dev-pipelines-2026-08-25"
+      }
+    ],
+    "signOff": "Patch the loud stuff now, then pour coffee and check your logs.",
+    "generatedAt": "2026-08-25T14:06:49.558Z"
+  },
+  {
+    "slug": "2026-08-24",
+    "date": "2026-08-24",
+    "title": "Patches, print breaks, and takeover risks",
+    "intro": "Busy morning: a .NET update is breaking WPF printing while critical bugs in Keycloak and Zimbra need immediate attention. Add fresh server and phishing threats, plus guidance to tighten logging and AI hygiene.",
+    "items": [
+      {
+        "heading": "WPF printing and PDF export broken by August .NET updates",
+        "body": "Hold or roll back the August .NET Framework updates on WPF endpoints that print or export PDFs. Microsoft acknowledged the issue and published temporary mitigations, so pause deployment on print reliant systems and test before reintroducing the updates.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "august-net-updates-break-printing-and-pdf-export-in-wpf-apps-2026-08-24"
+      },
+      {
+        "heading": "Keycloak password reset bug enables account takeovers",
+        "body": "A 9.1 CVSS flaw lets attackers trigger password resets and seize any account, including admins. Patch Keycloak to the fixed releases immediately, limit public exposure where possible, and consider disabling self service resets until you are updated.",
+        "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "critical-keycloak-bug-allows-unauthenticated-account-takeove-2026-08-24"
+      },
+      {
+        "heading": "Zimbra flaw added to KEV, patch within 3 days",
+        "body": "CISA says an actively exploited Zimbra bug is now on the KEV list and federal agencies have three days to remediate. If you manage Zimbra, patch now and monitor for signs of compromise while you validate the fix.",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-patch-actively-exploited-zimbra-bug-within-3-days-2026-08-24"
+      },
+      {
+        "heading": "Spring patches 91 flaws, update dependencies now",
+        "body": "A large batch of vulnerabilities across Spring components raises risk for Java apps common in SMB stacks. Bring dependencies to current versions and run regression tests, and use your dependency scanner to make sure transitive libraries are covered.",
+        "url": "https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "spring-framework-ships-fixes-for-91-flaws-update-dependencie-2026-08-24"
+      },
+      {
+        "heading": "AI powered crew mass exploits servers, drops rootkit",
+        "body": "Researchers report a Chinese speaking group automating exploitation of internet facing Windows and Linux servers, deploying EDR bypassing malware and a Linux rootkit. Lock down management ports, patch exposed services, enforce MFA where you can, and watch for persistence on both OS families.",
+        "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "criminal-group-uses-ai-to-scale-server-attacks-deploys-rootk-2026-08-24"
+      },
+      {
+        "heading": "Cloaked fake bank sites steal credentials via SEO",
+        "body": "Attackers are using SEO poisoning and cloaked phishing pages that hide from scanners, then harvesting banking logins from victims who land via search results. Push users to type known URLs or use password managers, and backstop with DNS filtering and safe browsing policies.",
+        "url": "https://www.helpnetsecurity.com/2026/08/24/chameleon-seo-poisoning-fake-banking-websites-phishing/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "cloaked-fake-bank-sites-evade-scanners-steal-credentials-2026-08-24"
+      },
+      {
+        "heading": "CISA's logging blueprint, sized for SMBs",
+        "body": "CISA’s new Logging Reference Architecture can help you prioritize actionable telemetry, align storage and retention, and ensure you can reconstruct incidents. Map the guidance to your stack, set retention you can afford, and test that you can actually trace a real incident end to end.",
+        "url": "https://www.helpnetsecurity.com/2026/08/24/cybersecurity-logging-guidelines-strategy/",
+        "source": "Help Net Security",
+        "category": "defense",
+        "storySlug": "cisa-s-logging-blueprint-works-for-smbs-too-2026-08-24"
+      },
+      {
+        "heading": "Test what your AI chats reveal",
+        "body": "A new tool audits exported AI chats to show what personal or sensitive data can be inferred from them. Use it to set usage policies, remind staff that chat logs persist and can leak, and require org accounts or disable history where possible.",
+        "url": "https://www.helpnetsecurity.com/2026/08/24/product-showcase-ai-paper-trail/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "tool-shows-what-your-ai-chats-reveal-2026-08-24"
+      }
+    ],
+    "signOff": "Back to tickets, and may your print jobs land on paper.",
+    "generatedAt": "2026-08-24T14:05:11.771Z"
+  }
+]
