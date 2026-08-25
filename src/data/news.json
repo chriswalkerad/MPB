@@ -1,5 +1,61 @@
 [
   {
+    "slug": "zimbra-exploit-in-the-wild-patch-within-3-days-2026-08-24",
+    "title": "Zimbra exploit in the wild, patch within 3 days",
+    "originalTitle": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
+    "summary": "Patch Zimbra CVE-2026-73570 within three days, CISA says attackers are actively exploiting it to take over user email and communications.",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T21:46:55.000Z",
+    "fetchedAt": "2026-08-25T01:51:09.810Z"
+  },
+  {
+    "slug": "unpatched-calix-gs7-bug-exposes-internal-devices-2026-08-24",
+    "title": "Unpatched Calix GS7 bug exposes internal devices",
+    "originalTitle": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
+    "summary": "Lock down Calix GS7 XGS routers now, a remote unauthenticated flaw lets attackers create port forwarding rules that expose internal devices and there is no patch yet.",
+    "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T21:14:30.000Z",
+    "fetchedAt": "2026-08-25T01:51:09.810Z"
+  },
+  {
+    "slug": "malware-disguised-as-wordlists-delivers-amatera-infostealer-2026-08-24",
+    "title": "Malware disguised as wordlists delivers Amatera infostealer",
+    "originalTitle": "Foul Language: WordlistLoader Disguises Malware as Ordinary Text",
+    "summary": "Warn users and block suspicious text downloads, a new WordlistLoader trick is delivering the Amatera info stealer by hiding malware in ordinary looking wordlists.",
+    "url": "https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-24T20:51:27.000Z",
+    "fetchedAt": "2026-08-25T01:51:09.810Z"
+  },
+  {
+    "slug": "attackers-exploit-miniorange-saml-sso-to-hijack-wordpress-ad-2026-08-24",
+    "title": "Attackers exploit miniOrange SAML SSO to hijack WordPress admins",
+    "originalTitle": "Hackers target WordPress sites in miniOrange auth bypass attacks",
+    "summary": "Update or disable the miniOrange SAML 2.0 SSO plugin immediately, attackers are exploiting critical auth bypass bugs to forge SAML responses and log in as administrators.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T19:26:32.000Z",
+    "fetchedAt": "2026-08-25T01:51:09.810Z"
+  },
+  {
     "slug": "reliaquest-says-phishers-briefly-accessed-internal-dashboard-2026-08-24",
     "title": "ReliaQuest says phishers briefly accessed internal dashboard",
     "originalTitle": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
@@ -78,6 +134,20 @@
     "category": "defense",
     "publishedAt": "2026-08-24T12:40:21.000Z",
     "fetchedAt": "2026-08-24T13:11:52.494Z"
+  },
+  {
+    "slug": "cisa-adds-oracle-proxy-plug-in-bug-to-kev-patch-now-2026-08-24",
+    "title": "CISA adds Oracle proxy plug-in bug to KEV, patch now",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "Patch CVE-2026-21962 in Oracle HTTP Server and WebLogic proxy plug-in now, CISA added it to the KEV after evidence of active exploitation.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-24T12:00:00.000Z",
+    "fetchedAt": "2026-08-25T01:51:09.810Z"
   },
   {
     "slug": "spring-framework-ships-fixes-for-91-flaws-update-dependencie-2026-08-24",
