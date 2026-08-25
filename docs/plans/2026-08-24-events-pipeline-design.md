@@ -23,11 +23,9 @@ Three source adapter types in `scripts/fetch-events.js`:
 
 `--dry-run` prints what would be added, writes nothing. Refusal from the model exits 0 (self-heals next week); real errors exit 1.
 
-## Publish mode: weekly PR, not direct commit
+## Publish mode: direct commit (same as news)
 
-`.github/workflows/fetch-events.yml` runs mondays 14:17 UTC and opens a PR (`auto/events-refresh` -> main) via peter-evans/create-pull-request, instead of committing directly like news. Rationale: wrong dates/cities on events are worse than a bland news headline, so batches get a 2-minute human review. Flip to direct commit later by replacing the PR step with the news workflow's commit step.
-
-Requires the repo setting "Allow GitHub Actions to create and approve pull requests" (Settings -> Actions -> General).
+`.github/workflows/fetch-events.yml` runs mondays 14:17 UTC and commits new events directly to main, same pattern as the news workflow. v1 opened review PRs instead (`auto/events-refresh` branch via peter-evans/create-pull-request); after two clean batches (21 + 32 events, dates and cities spot-verified against sources) Chris opted out of reviews on 2026-08-25 and the workflow was switched to direct commit. The code-level validation layer (date/region/url/dedupe checks) is the remaining guardrail; git history is the rollback path if a bad batch ever lands.
 
 ## First live dry-run (2026-08-24)
 

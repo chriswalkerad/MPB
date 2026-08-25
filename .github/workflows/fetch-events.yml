@@ -8,7 +8,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
   group: fetch-events
@@ -35,20 +34,15 @@ jobs:
         env:
           AZURE_AI_API_KEY: ${{ secrets.AZURE_AI_API_KEY }}
 
-      # events land as a weekly PR for human review, unlike news which commits directly
-      - name: Open PR if changed
-        uses: peter-evans/create-pull-request@v7
-        with:
-          branch: auto/events-refresh
-          base: main
-          title: 'weekly events refresh'
-          commit-message: 'chore(events): weekly automated events refresh'
-          body: |
-            automated weekly event discovery: ics feeds (meetup groups), the infosec-conferences.com feed, and conference circuit schedule pages, curated and normalized by the pipeline.
-
-            review checklist: dates look right, cities/regions correct, no duplicates of existing events, descriptions sound like us.
-
-            merging deploys the new events. closing without merging just skips this week's batch (urls stay marked as seen).
-          add-paths: |
-            src/data/events.json
-            scripts/events-seen.json
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/events.json scripts/events-seen.json
+          if git diff --cached --quiet; then
+            echo "No event changes; skipping commit."
+          else
+            git pull --rebase --autostash
+            git commit -m "chore(events): weekly automated events refresh $(date -u '+%Y-%m-%d')"
+            git push
+          fi
