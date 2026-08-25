@@ -1,5 +1,71 @@
 [
   {
+    "slug": "2026-08-25",
+    "date": "2026-08-25",
+    "title": "Active exploits, MFA relays, and a fake Codex trap",
+    "intro": "Two major server bugs are getting hammered and a big phishing platform is relaying Microsoft 365 logins. Also on deck, a sneaky macOS adware trick, WordPress SSO flaws, and a few defenses worth turning on.",
+    "items": [
+      {
+        "heading": "Zimbra RCE under mass exploitation",
+        "body": "Attackers are mass exploiting CVE-2026-73570 in Zimbra Collaboration, with at least 270 servers already compromised. If you run Zimbra, patch immediately and hunt for webshells. Treat this as a full incident if you were exposed, check for lateral movement and unusual mail flows.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "zimbra-rce-exploited-270-servers-breached-2026-08-25"
+      },
+      {
+        "heading": "CISA adds Oracle WebLogic bug to KEV, attacks underway",
+        "body": "CVE-2026-21962 in Oracle WebLogic and Oracle HTTP Server is on CISA’s Known Exploited list and is under active attack. The bug lets unauthenticated attackers access critical data. Patch or apply mitigations now, and verify no internet-facing instances are lagging.",
+        "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "patch-now-cisa-flags-oracle-weblogic-flaw-under-active-attac-2026-08-25"
+      },
+      {
+        "heading": "Mirage2FA relays Microsoft 365 logins to bypass MFA",
+        "body": "A large PaaS campaign is stealing Microsoft 365 credentials by relaying legitimate login flows, sidestepping 2FA in the process. If phish-prone MFA is all you have, this will work against you. Enforce phishing-resistant MFA and Conditional Access, and watch sign-in logs for unusual session origins.",
+        "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "mirage2fa-phishing-blitz-abuses-m365-login-bypasses-mfa-2026-08-25"
+      },
+      {
+        "heading": "WordPress SSO bugs allow admin logins",
+        "body": "Unauthenticated flaws in the miniOrange SAML 2.0 SSO plugin let attackers authenticate as any user, including administrators. Update to a fixed version or disable the plugin, then review logs for odd SSO events. If compromise is suspected, rotate admin creds and API keys.",
+        "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "wordpress-sso-plugin-flaws-let-attackers-log-in-as-admins-2026-08-25"
+      },
+      {
+        "heading": "Fake Codex ad pushes macOS malware via Terminal",
+        "body": "A sponsored ad leads to a phony OpenAI Codex site that convinces macOS users to paste a Terminal command that installs malware. Block shady ads at the gateway and warn developers. Remind teams not to paste commands from random sites, and monitor for new unsigned binaries on dev Macs.",
+        "url": "https://www.helpnetsecurity.com/2026/08/25/fake-openai-codex-download-macos-users/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "fake-openai-codex-download-plants-macos-malware-via-terminal-2026-08-25"
+      },
+      {
+        "heading": "WhatsApp gets multi-passkeys and tougher 2SV",
+        "body": "WhatsApp is rolling out multiple passkeys per account plus improved two-step verification. That makes it easier to move users off passwords and harden high-risk accounts. Encourage passkey adoption in your org and require 2SV for admins and VIPs.",
+        "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "whatsapp-adds-multi-passkey-support-and-stronger-2sv-2026-08-25"
+      },
+      {
+        "heading": "Start AI supply chain security in your dev pipeline",
+        "body": "AI supply chain risk is hitting developer workflows first. Lock down CI and package sources, segment access, and avoid self-hosted models you cannot isolate properly. Treat model weights, prompts, and build artifacts like high-value code and audit who and what can touch them.",
+        "url": "https://www.helpnetsecurity.com/2026/08/25/jaushin-lee-ai-zentera-systems-supply-chain-risk/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "secure-ai-supply-chains-by-starting-with-your-dev-pipelines-2026-08-25"
+      }
+    ],
+    "signOff": "Patch the loud stuff now, then pour coffee and check your logs.",
+    "generatedAt": "2026-08-25T14:06:49.558Z"
+  },
+  {
     "slug": "2026-08-24",
     "date": "2026-08-24",
     "title": "Patches, print breaks, and takeover risks",
