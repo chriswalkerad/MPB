@@ -1,5 +1,61 @@
 [
   {
+    "slug": "linux-foundation-adopts-trace-for-ai-runtime-attestation-2026-08-25",
+    "title": "Linux Foundation adopts TRACE for AI runtime attestation",
+    "originalTitle": "Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation",
+    "summary": "Track TRACE adoption with your AI vendors, this Linux Foundation standard from AMD Intel and Microsoft aims to attest AI runtimes at execution, improving supply chain trust and oversight.",
+    "url": "https://www.securityweek.com/linux-foundation-to-govern-trace-an-open-standard-for-ai-runtime-attestation/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-25T16:23:45.000Z",
+    "fetchedAt": "2026-08-25T18:56:22.112Z"
+  },
+  {
+    "slug": "attackers-bypass-ssrf-filters-using-hostnames-2026-08-25",
+    "title": "Attackers bypass SSRF filters using hostnames",
+    "originalTitle": "Obfuscating IP Addresses as Hostnames, (Tue, Aug 25th)",
+    "summary": "Audit SSRF defenses now, attackers bypass IP-based filters by using hostnames to reach 169.254.169.254, enforce DNS controls and outbound allowlists instead of brittle string matches.",
+    "url": "https://isc.sans.edu/diary/rss/33280",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-25T15:03:33.000Z",
+    "fetchedAt": "2026-08-25T18:56:22.112Z"
+  },
+  {
+    "slug": "nvidia-nemoclaw-bug-lets-webpages-hijack-local-ai-agents-2026-08-25",
+    "title": "NVIDIA NemoClaw bug lets webpages hijack local AI agents",
+    "originalTitle": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+    "summary": "Lock down or update NemoClaw and local Ollama agents, a malicious webpage can take unauthenticated control and plant hidden instructions, exposing users to persistent model compromise.",
+    "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-25T14:07:37.000Z",
+    "fetchedAt": "2026-08-25T18:56:22.112Z"
+  },
+  {
+    "slug": "miniorange-saml-sso-auth-bypass-hits-wordpress-sites-2026-08-25",
+    "title": "MiniOrange SAML SSO auth bypass hits WordPress sites",
+    "originalTitle": "WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities",
+    "summary": "Disable or patch the MiniOrange SAML 2.0 SSO plugin now, CVE-2026-61979 and CVE-2026-15981 allow authentication bypass and attackers are actively targeting WordPress sites.",
+    "url": "https://www.securityweek.com/wordpress-websites-targeted-via-miniorange-plugin-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-25T13:33:12.000Z",
+    "fetchedAt": "2026-08-25T18:56:22.112Z"
+  },
+  {
     "slug": "whatsapp-adds-multi-passkey-support-and-stronger-2sv-2026-08-25",
     "title": "WhatsApp adds multi-passkey support and stronger 2SV",
     "originalTitle": "WhatsApp adds stronger two-step verification, multiple passkeys",
@@ -50,6 +106,34 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-08-25T12:04:02.000Z",
     "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
+    "slug": "patch-gitea-now-cisa-adds-code-injection-bug-to-kev-2026-08-25",
+    "title": "Patch Gitea now, CISA adds code injection bug to KEV",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "Patch or disable Gitea immediately, CISA added CVE-2026-60004 to the Known Exploited list indicating active exploitation, expect mass scanning against exposed code hosting servers.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/08/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "fetchedAt": "2026-08-25T18:56:22.112Z"
+  },
+  {
+    "slug": "cisa-tale-of-two-socs-offers-hard-lessons-for-defenders-2026-08-25",
+    "title": "CISA Tale of Two SOCs offers hard lessons for defenders",
+    "originalTitle": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
+    "summary": "Read and apply CISA guidance, two simultaneous red team ops achieved domain compromise but stronger telemetry, segmentation and rapid response drastically limited impact at one organization.",
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "fetchedAt": "2026-08-25T18:56:22.112Z"
   },
   {
     "slug": "mirage2fa-phishing-blitz-abuses-m365-login-bypasses-mfa-2026-08-25",
