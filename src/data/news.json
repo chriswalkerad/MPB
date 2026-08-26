@@ -1,5 +1,122 @@
 [
   {
+    "slug": "boston-scientific-cyberattack-disrupts-global-operations-2026-08-26",
+    "title": "Boston Scientific cyberattack disrupts global operations",
+    "originalTitle": "Medical device firm Boston Scientific says cyberattack has disrupted shipment processes",
+    "summary": "If you support healthcare clients expect supply chain impacts, the medical device maker reported an incident disrupting IT systems and shipment processes worldwide.",
+    "url": "https://therecord.media/boston-scientific-cyberattack-disrupts-shipment-processes",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-08-26T19:10:00.000Z",
+    "fetchedAt": "2026-08-26T20:02:28.577Z"
+  },
+  {
+    "slug": "fbi-disrupts-chinese-proxy-network-used-in-us-intrusions-2026-08-26",
+    "title": "FBI disrupts Chinese proxy network used in US intrusions",
+    "originalTitle": "US takes down alleged Chinese hacking tools used against Federal Reserve, DOJ and Senate",
+    "summary": "Review exposure of IoT and SOHO gear and apply updates, DOJ says it dismantled platforms used to scan and route attacks into federal and industry networks.",
+    "url": "https://therecord.media/qscan-qtrouter-us-takedown-alleged-china-hacking-tools",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-08-26T16:25:00.000Z",
+    "fetchedAt": "2026-08-26T20:02:28.577Z"
+  },
+  {
+    "slug": "patch-sharepoint-now-rce-chain-under-active-targeting-2026-08-26",
+    "title": "Patch SharePoint now, RCE chain under active targeting",
+    "originalTitle": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
+    "summary": "Admins should urgently patch affected SharePoint servers, a public exploit chain enables remote code execution on unpatched systems and attackers are already probing targets.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-26T14:47:51.000Z",
+    "fetchedAt": "2026-08-26T20:02:28.577Z"
+  },
+  {
+    "slug": "snowflake-kills-service-account-passwords-migration-required-2026-08-26",
+    "title": "Snowflake kills service-account passwords, migration required",
+    "originalTitle": "Snowflake ends service-account passwords. Now comes the hard part",
+    "summary": "Inventory automations and plan a cutover, Snowflake is deprecating legacy service-account passwords so you must move to tokens or keys and rightsize access.",
+    "url": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-26T14:01:11.000Z",
+    "fetchedAt": "2026-08-26T20:02:28.577Z"
+  },
+  {
+    "slug": "new-novacookies-kit-steals-microsoft-365-sessions-2026-08-26",
+    "title": "New 'NovaCookies' kit steals Microsoft 365 sessions",
+    "originalTitle": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+    "summary": "Harden M365 sign-in and conditional access, an adversary-in-the-middle phishing service proxies logins to capture session cookies and bypass MFA for $320 per month.",
+    "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-08-26T13:44:31.000Z",
+    "fetchedAt": "2026-08-26T20:02:28.577Z"
+  },
+  {
+    "slug": "ubiquiti-fixes-three-critical-preauth-bugs-update-now-2026-08-26",
+    "title": "Ubiquiti fixes three critical preauth bugs, update now",
+    "originalTitle": "Ubiquiti patches three max severity security vulnerabilities",
+    "summary": "Update affected Ubiquiti products immediately, three maximum severity flaws allow remote unauthenticated exploitation that could hand attackers control of network devices.",
+    "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-26T13:17:54.000Z",
+    "fetchedAt": "2026-08-26T20:02:28.577Z"
+  },
+  {
+    "slug": "two-critical-orgs-pwned-one-failed-to-detect-cisa-red-team-2026-08-26",
+    "title": "Two critical orgs pwned, one failed to detect CISA red team",
+    "originalTitle": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
+    "summary": "Use CISA’s findings as a checklist, both tests hit full domain compromise and exposed gaps in logging, identity hardening, segmentation, and egress controls.",
+    "url": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-26T13:07:02.000Z",
+    "fetchedAt": "2026-08-26T20:02:28.577Z"
+  },
+  {
     "slug": "adobe-and-nvidia-ship-critical-fixes-update-endpoints-2026-08-26",
     "title": "Adobe and Nvidia ship critical fixes, update endpoints",
     "originalTitle": "Adobe and Nvidia Patch Dozens of Vulnerabilities",
@@ -12,6 +129,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-08-26T12:39:38.000Z",
     "fetchedAt": "2026-08-26T13:15:01.245Z"
+  },
+  {
+    "slug": "cisa-adds-six-actively-exploited-bugs-to-kev-list-2026-08-26",
+    "title": "CISA adds six actively exploited bugs to KEV list",
+    "originalTitle": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+    "summary": "Prioritize patching or mitigation for the newly listed KEV CVEs, including issues in legacy Red Hat components, Microsoft SQL Server, and Ajax.NET Professional that are being exploited in the wild.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-26T12:00:00.000Z",
+    "fetchedAt": "2026-08-26T20:02:28.577Z"
   },
   {
     "slug": "unpatched-kaltura-mwembed-bugs-allow-file-read-and-rce-2026-08-26",
