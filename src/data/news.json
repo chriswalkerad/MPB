@@ -1,5 +1,75 @@
 [
   {
+    "slug": "attackers-use-npm-mirrors-for-captcha-phishing-redirects-2026-08-25",
+    "title": "Attackers use npm mirrors for CAPTCHA phishing redirects",
+    "originalTitle": "Hackers abuse npm mirrors to host phishing redirect pages",
+    "summary": "Block access to malicious npm mirrors and train users to spot fake Cloudflare CAPTCHA pages, attackers are hosting redirectors that send victims to credential phishing sites.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-25T21:39:01.000Z",
+    "fetchedAt": "2026-08-26T01:57:41.998Z"
+  },
+  {
+    "slug": "invisible-html-can-hijack-ai-email-summarizers-2026-08-25",
+    "title": "Invisible HTML can hijack AI email summarizers",
+    "originalTitle": "Hidden Prompts Trick AI Into False Email Summaries",
+    "summary": "Disable or harden AI email summaries, hidden HTML prompts can manipulate automated recaps to mislead users and amplify phishing, ask vendors to strip or sanitize invisible content.",
+    "url": "https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-25T21:08:55.000Z",
+    "fetchedAt": "2026-08-26T01:57:41.998Z"
+  },
+  {
+    "slug": "voice-bots-steal-iphone-passcodes-bypass-activation-lock-2026-08-25",
+    "title": "Voice bots steal iPhone passcodes, bypass Activation Lock",
+    "originalTitle": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
+    "summary": "Warn staff never to share Apple passcodes over calls and enforce fast remote lock via MDM, a new PhaaS uses AI voice agents to defeat Activation Lock on stolen devices.",
+    "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-25T20:25:26.000Z",
+    "fetchedAt": "2026-08-26T01:57:41.998Z"
+  },
+  {
+    "slug": "openclaw-bug-exposes-ollama-api-risks-llm-poisoning-2026-08-25",
+    "title": "OpenClaw bug exposes Ollama API, risks LLM poisoning",
+    "originalTitle": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
+    "summary": "Restrict and authenticate access to local Ollama APIs and apply fixes, a networking flaw in NVIDIA OpenClaw lets attackers reach model servers and poison AI agents persistently.",
+    "url": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-25T19:50:16.000Z",
+    "fetchedAt": "2026-08-26T01:57:41.998Z"
+  },
+  {
+    "slug": "paylogix-breach-exposes-financial-and-health-data-2026-08-25",
+    "title": "Paylogix breach exposes financial and health data",
+    "originalTitle": "Employee benefits platform Paylogix says hackers stole financial and health data",
+    "summary": "Check if your org or brokers use Paylogix, attackers stole sensitive benefits data on tens of thousands, start fraud monitoring, rotate credentials, and review regulatory and notification obligations.",
+    "url": "https://therecord.media/paylogix-cyberattack-akira-ransomware",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-25T18:45:00.000Z",
+    "fetchedAt": "2026-08-26T01:57:41.998Z"
+  },
+  {
     "slug": "linux-foundation-adopts-trace-for-ai-runtime-attestation-2026-08-25",
     "title": "Linux Foundation adopts TRACE for AI runtime attestation",
     "originalTitle": "Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation",
@@ -106,6 +176,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-08-25T12:04:02.000Z",
     "fetchedAt": "2026-08-25T13:10:35.590Z"
+  },
+  {
+    "slug": "cisa-zoneminder-rce-patch-now-2026-08-25",
+    "title": "CISA: ZoneMinder RCE, patch now",
+    "originalTitle": "Zoneminder",
+    "summary": "Update ZoneMinder to a fixed version and block Internet exposure, command injection in 1.37.48 and 1.38.3 allows remote code execution as the web server user.",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-02",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "fetchedAt": "2026-08-26T01:57:41.998Z"
   },
   {
     "slug": "patch-gitea-now-cisa-adds-code-injection-bug-to-kev-2026-08-25",
