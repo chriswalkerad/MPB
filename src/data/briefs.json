@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-08-26",
+    "date": "2026-08-26",
+    "title": "Patch Pileup and Phishing Stunts",
+    "intro": "Big update day and clever scams in the wild. Get the patches out, then brief users before the inbox and robocalls start.",
+    "items": [
+      {
+        "heading": "Chrome 152, over 300 fixes",
+        "body": "Chrome 152 ships with fixes for more than 300 issues across Windows, macOS and Linux. Roll it out now and force a browser restart so the protections actually land, and consider blocking old builds via policy to keep stragglers off your network.",
+        "url": "https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "chrome-152-fixes-300-bugs-push-the-update-today-2026-08-26"
+      },
+      {
+        "heading": "Gitea RCE actively exploited",
+        "body": "CVE-2026-60004 lets repository writers execute shell commands on Gitea servers and CISA put it on the Known Exploited list. Update Gitea to 1.27.1 or newer immediately, audit repos and tighten write permissions while you review for suspicious activity.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "gitea-rce-under-active-exploit-patch-now-to-1-27-1-2026-08-26"
+      },
+      {
+        "heading": "Adobe and Nvidia ship critical fixes",
+        "body": "Critical flaws in Adobe products and Nvidia drivers or SDKs need attention now. Prioritize creative workstations and systems with GPUs used for AI workloads, then patch the rest as you can to reduce risk from endpoints that often carry elevated privileges.",
+        "url": "https://www.securityweek.com/adobe-and-nvidia-patch-dozens-of-vulnerabilities/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "adobe-and-nvidia-ship-critical-fixes-update-endpoints-2026-08-26"
+      },
+      {
+        "heading": "Unpatched Kaltura mwEmbed bugs",
+        "body": "CERT/CC flagged unsafe deserialization in mwEmbedLoader.php that can enable file read and remote code execution. If you run Kaltura, restrict or disable that endpoint, block internet access to it, and monitor for a vendor patch.",
+        "url": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "unpatched-kaltura-mwembed-bugs-allow-file-read-and-rce-2026-08-26"
+      },
+      {
+        "heading": "Fake recruiters use mobile BitB",
+        "body": "Attackers are luring candidates to interview scheduling links that use mobile browser in the browser tricks to steal corporate logins. Train staff to avoid opening these links on mobile, favor managed browsers, enforce phishing resistant MFA, and block unknown OAuth app approvals in your IdP.",
+        "url": "https://www.helpnetsecurity.com/2026/08/26/recruitment-scam-corporate-passwords-mobile/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "fake-recruiters-use-mobile-bitb-to-steal-corporate-logins-2026-08-26"
+      },
+      {
+        "heading": "npm mirror redirects to CAPTCHA phish",
+        "body": "Malicious redirectors on npm mirrors are sending users to credential phishing pages dressed up as Cloudflare CAPTCHA checks. Block access to suspicious npm mirror domains and coach users to spot fake CAPTCHA flows before they enter credentials.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "attackers-use-npm-mirrors-for-captcha-phishing-redirects-2026-08-25"
+      },
+      {
+        "heading": "AI voice phish targets iPhone passcodes",
+        "body": "Robocallers posing as Apple Support are tricking theft victims into giving device passcodes and 2FA codes to defeat Activation Lock. Remind users Apple will not ask for these and ensure Apple IDs are locked down with strong authentication.",
+        "url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "ai-voice-phish-steals-iphone-passcodes-to-defeat-activation-2026-08-26"
+      },
+      {
+        "heading": "WhatsApp beefs up 2SV and passkeys",
+        "body": "If your teams use WhatsApp, turn on the new two step verification controls and add multiple passkeys per account to cut takeover risk. Encourage users to check caller info for unknown numbers to avoid social engineering hooks.",
+        "url": "https://www.helpnetsecurity.com/2026/08/26/meta-whatsapp-security-enhancements/",
+        "source": "Help Net Security",
+        "category": "defense",
+        "storySlug": "whatsapp-adds-stronger-2-step-verification-and-passkeys-2026-08-26"
+      }
+    ],
+    "signOff": "Patch now, brief users, then grab that coffee.",
+    "generatedAt": "2026-08-26T14:06:42.093Z"
+  },
+  {
     "slug": "2026-08-25",
     "date": "2026-08-25",
     "title": "Active exploits, MFA relays, and a fake Codex trap",
