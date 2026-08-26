@@ -1,5 +1,121 @@
 [
   {
+    "slug": "adobe-and-nvidia-ship-critical-fixes-update-endpoints-2026-08-26",
+    "title": "Adobe and Nvidia ship critical fixes, update endpoints",
+    "originalTitle": "Adobe and Nvidia Patch Dozens of Vulnerabilities",
+    "summary": "Patch Adobe products and Nvidia drivers or SDKs as soon as possible, several critical flaws are addressed, prioritize creative workstations and GPUs used for AI workloads.",
+    "url": "https://www.securityweek.com/adobe-and-nvidia-patch-dozens-of-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-26T12:39:38.000Z",
+    "fetchedAt": "2026-08-26T13:15:01.245Z"
+  },
+  {
+    "slug": "unpatched-kaltura-mwembed-bugs-allow-file-read-and-rce-2026-08-26",
+    "title": "Unpatched Kaltura mwEmbed bugs allow file read and RCE",
+    "originalTitle": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
+    "summary": "CERT/CC disclosed unsafe deserialization in mwEmbedLoader.php, restrict or disable the endpoint, block internet access to it and watch for patches from Kaltura.",
+    "url": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-26T11:55:00.000Z",
+    "fetchedAt": "2026-08-26T13:15:01.245Z"
+  },
+  {
+    "slug": "gitea-rce-under-active-exploit-patch-now-to-1-27-1-2026-08-26",
+    "title": "Gitea RCE under active exploit, patch now to 1.27.1+",
+    "originalTitle": "Hackers now exploit critical Gitea flaw in code injection attacks",
+    "summary": "CVE-2026-60004 lets repo writers run shell commands on servers, CISA added it to KEV, update Gitea to 1.27.1+, audit repos and restrict write access.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/08/26/gitea-cve-2026-60004-exploited-in-the-wild/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-26T11:07:48.000Z",
+    "fetchedAt": "2026-08-26T13:15:01.245Z"
+  },
+  {
+    "slug": "fake-recruiters-use-mobile-bitb-to-steal-corporate-logins-2026-08-26",
+    "title": "Fake recruiters use mobile BitB to steal corporate logins",
+    "originalTitle": "Bogus recruiters go after high-value corporate credentials on mobile",
+    "summary": "Train staff to avoid interview scheduling links on mobile, favor managed browsers, enforce phishing-resistant MFA, and block unknown OAuth app approvals in IdPs.",
+    "url": "https://www.helpnetsecurity.com/2026/08/26/recruitment-scam-corporate-passwords-mobile/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-26T10:05:55.000Z",
+    "fetchedAt": "2026-08-26T13:15:01.245Z"
+  },
+  {
+    "slug": "chrome-152-fixes-300-bugs-push-the-update-today-2026-08-26",
+    "title": "Chrome 152 fixes 300+ bugs, push the update today",
+    "originalTitle": "Chrome 152 Patches Over 300 Vulnerabilities",
+    "summary": "Roll out Chrome 152 across Windows, macOS and Linux, over 300 vulnerabilities are patched, require a browser restart and consider disabling old Chrome versions via policy.",
+    "url": "https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-26T09:50:34.000Z",
+    "fetchedAt": "2026-08-26T13:15:01.245Z"
+  },
+  {
+    "slug": "whatsapp-adds-stronger-2-step-verification-and-passkeys-2026-08-26",
+    "title": "WhatsApp adds stronger 2-step verification and passkeys",
+    "originalTitle": "Meta adds three new features to keep WhatsApp accounts secure",
+    "summary": "If your teams use WhatsApp, enable the new 2SV controls, review caller info for unknown numbers and add multiple passkeys per account to cut takeover risk.",
+    "url": "https://www.helpnetsecurity.com/2026/08/26/meta-whatsapp-security-enhancements/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-26T07:52:05.000Z",
+    "fetchedAt": "2026-08-26T13:15:01.245Z"
+  },
+  {
+    "slug": "ai-voice-phish-steals-iphone-passcodes-to-defeat-activation-2026-08-26",
+    "title": "AI voice phish steals iPhone passcodes to defeat Activation Lock",
+    "originalTitle": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+    "summary": "Criminals are robocalling theft victims as fake Apple Support to collect device passcodes and 2FA codes, remind users Apple never asks for them and lock down Apple IDs.",
+    "url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/08/26/anonymouskit-phishing-stolen-iphone/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-08-26T05:47:28.000Z",
+    "fetchedAt": "2026-08-26T13:15:01.245Z"
+  },
+  {
     "slug": "attackers-use-npm-mirrors-for-captcha-phishing-redirects-2026-08-25",
     "title": "Attackers use npm mirrors for CAPTCHA phishing redirects",
     "originalTitle": "Hackers abuse npm mirrors to host phishing redirect pages",
