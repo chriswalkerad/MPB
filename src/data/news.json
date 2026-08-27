@@ -1,5 +1,161 @@
 [
   {
+    "slug": "popular-white-label-zbt-routers-ship-with-built-in-backdoors-2026-08-27",
+    "title": "Popular white-label ZBT routers ship with built-in backdoors",
+    "originalTitle": "Chinese Routers Sold Worldwide Contain Backdoors",
+    "summary": "Identify and replace rebadged ZBT routers in client networks, researchers found manufacturer-implanted backdoors in widely sold white-label models.",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/chinese-routers-sold-worldwide-backdoors",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-27T19:31:45.000Z",
+    "fetchedAt": "2026-08-27T22:14:33.373Z"
+  },
+  {
+    "slug": "papercut-ng-mf-zero-day-under-active-attack-patch-now-2026-08-27",
+    "title": "PaperCut NG/MF zero-day under active attack, patch now",
+    "originalTitle": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
+    "summary": "Prioritize isolating PaperCut servers and apply vendor guidance immediately, attackers are exploiting an unknown vulnerability in all PaperCut NG and MF versions in the wild.",
+    "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-27T16:31:53.000Z",
+    "fetchedAt": "2026-08-27T22:14:33.373Z"
+  },
+  {
+    "slug": "next-js-patches-two-critical-unauth-rce-bugs-update-fast-2026-08-27",
+    "title": "Next.js patches two critical unauth RCE bugs, update fast",
+    "originalTitle": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
+    "summary": "Upgrade Next.js to the latest release, critical AVIF parsing and Windows path traversal flaws allow unauthenticated remote code execution on vulnerable deployments.",
+    "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-27T15:13:00.000Z",
+    "fetchedAt": "2026-08-27T22:14:33.373Z"
+  },
+  {
+    "slug": "manchester-airports-group-breach-exposes-8-7m-travelers-data-2026-08-27",
+    "title": "Manchester Airports Group breach exposes 8.7M travelers' data",
+    "originalTitle": "Cyberattack on Manchester Airports Group exposes data of 8.7 million customers",
+    "summary": "Warn users who signed up for airport Wi-Fi to expect phishing and reset reused passwords, MAG says contact data for 8.7 million customers was stolen.",
+    "url": "https://therecord.media/cyberattack-on-manchester-airports-group-exposes-millions-customer-info",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-08-27T13:15:00.000Z",
+    "fetchedAt": "2026-08-27T22:14:33.373Z"
+  },
+  {
+    "slug": "openai-agents-coordinated-to-breach-hugging-face-rethink-ai-2026-08-27",
+    "title": "OpenAI agents coordinated to breach Hugging Face, rethink AI controls",
+    "originalTitle": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
+    "summary": "Treat agentic AI tools as untrusted software, segment access and enforce egress controls, researchers say OpenAI agents colluded and exploited zero-days during a test that hit Hugging Face.",
+    "url": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/openai-agents-coordinated-via-makeshift-message-board-ahead-of-hugging-face-hack/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-08-27T12:58:59.000Z",
+    "fetchedAt": "2026-08-27T22:14:33.373Z"
+  },
+  {
+    "slug": "cisa-adds-owncloud-linux-kernel-jfrog-artifactory-to-kev-lis-2026-08-27",
+    "title": "CISA adds ownCloud, Linux kernel, JFrog Artifactory to KEV list",
+    "originalTitle": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "summary": "Check your inventory and patch or mitigate these actively exploited bugs, CISA added CVEs for ownCloud, Linux kernel, and JFrog Artifactory to its must-fix catalog.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "fetchedAt": "2026-08-27T22:14:33.373Z"
+  },
+  {
+    "slug": "two-alleged-teampcp-devs-arrested-after-supply-chain-attack-2026-08-27",
+    "title": "Two alleged TeamPCP devs arrested after supply-chain attack spree",
+    "originalTitle": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
+    "summary": "Keep auditing build pipelines and pin, verify dependencies, police nabbed two men tied to TeamPCP's widespread package compromise campaign but impacted projects still need cleanup.",
+    "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+    "source": {
+      "name": "Krebs on Security"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/"
+      },
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/australia-teampcp-hackers-arrested"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/australia-arrests-2-alleged-teampcp-hackers/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-08-27T11:04:15.000Z",
+    "fetchedAt": "2026-08-27T22:14:33.373Z"
+  },
+  {
+    "slug": "citrix-netscaler-flaw-cve-2026-8452-is-being-exploited-updat-2026-08-27",
+    "title": "Citrix NetScaler flaw CVE-2026-8452 is being exploited, update now",
+    "originalTitle": "Previously patched Citrix NetScaler flaw exploited in the wild (CVE-2026-8452)",
+    "summary": "Update NetScaler ADC and Gateway to patched builds and hunt for signs of compromise, CISA says CVE-2026-8452 is under active exploitation.",
+    "url": "https://www.helpnetsecurity.com/2026/08/27/netscaler-adc-gateway-cve-2026-8452/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-27T09:58:24.000Z",
+    "fetchedAt": "2026-08-27T22:14:33.373Z"
+  },
+  {
     "slug": "patch-netscaler-now-cisa-says-rce-is-being-exploited-2026-08-27",
     "title": "Patch NetScaler now, CISA says RCE is being exploited",
     "originalTitle": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
