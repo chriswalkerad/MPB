@@ -1,5 +1,56 @@
 [
   {
+    "slug": "patch-netscaler-now-cisa-says-rce-is-being-exploited-2026-08-27",
+    "title": "Patch NetScaler now, CISA says RCE is being exploited",
+    "originalTitle": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
+    "summary": "Running Citrix NetScaler ADC or Gateway, patch now, CISA says an RCE is actively exploited and agencies face a Saturday deadline, prioritize internet exposed appliances and apply vendor mitigations.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/recent-citrix-netscaler-vulnerability-exploited-in-the-wild/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-27T09:16:50.000Z",
+    "fetchedAt": "2026-08-27T09:43:42.583Z"
+  },
+  {
+    "slug": "critical-avada-wordpress-theme-bug-allows-zero-click-rce-pat-2026-08-26",
+    "title": "Critical Avada WordPress theme bug allows zero click RCE, patch now",
+    "originalTitle": "Critical Avada WordPress theme flaw enables zero-click RCE",
+    "summary": "If you manage WordPress sites using the Avada theme or Fusion plugins, update immediately, a critical bug chain lets unauthenticated attackers execute PHP on the server.",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-26T21:33:20.000Z",
+    "fetchedAt": "2026-08-27T09:43:42.583Z"
+  },
+  {
+    "slug": "how-to-spot-fake-north-korean-it-contractors-2026-08-26",
+    "title": "How to spot fake North Korean IT contractors",
+    "originalTitle": "Red Flags That Expose Fake North Korean IT Workers",
+    "summary": "Tighten contractor vetting, researchers outline practical red flags for DPRK operatives posing as remote IT workers, from resume patterns and time zones to code reuse and payment behavior.",
+    "url": "https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-26T19:21:24.000Z",
+    "fetchedAt": "2026-08-27T09:43:42.583Z"
+  },
+  {
     "slug": "boston-scientific-cyberattack-disrupts-global-operations-2026-08-26",
     "title": "Boston Scientific cyberattack disrupts global operations",
     "originalTitle": "Medical device firm Boston Scientific says cyberattack has disrupted shipment processes",
