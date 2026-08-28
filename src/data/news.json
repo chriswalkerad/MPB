@@ -1,5 +1,80 @@
 [
   {
+    "slug": "ai-model-origin-labels-hide-risk-check-lineage-and-dependenc-2026-08-28",
+    "title": "AI model origin labels hide risk, check lineage and dependencies",
+    "originalTitle": "Think You’ve Eliminated Chinese AI? Check the Model’s Lineage, Cisco Says",
+    "summary": "Cisco warns downstream models inherit unsafe behaviors from upstream sources, so demand lineage disclosures, scan for embedded weights and red-team models before rolling them to users.",
+    "url": "https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-28T10:30:00.000Z",
+    "fetchedAt": "2026-08-28T11:20:14.535Z"
+  },
+  {
+    "slug": "servicenow-fixes-three-max-severity-ai-platform-flaws-2026-08-28",
+    "title": "ServiceNow fixes three max severity AI Platform flaws",
+    "originalTitle": "ServiceNow warns of three max severity security vulnerabilities",
+    "summary": "Update immediately, the bugs enable code injection, SQL injection and privilege escalation in ServiceNow AI Platform and could let attackers pivot across your instance.",
+    "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-28T10:29:42.000Z",
+    "fetchedAt": "2026-08-28T11:20:14.535Z"
+  },
+  {
+    "slug": "cpanel-bug-let-one-tenant-root-the-whole-server-patch-now-2026-08-28",
+    "title": "cPanel bug let one tenant root the whole server, patch now",
+    "originalTitle": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+    "summary": "A critical flaw in cPanel and WHM domain features allows root-level code execution on shared hosts, so patch quickly and audit tenant isolation on any co-hosted boxes.",
+    "url": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-28T09:45:15.000Z",
+    "fetchedAt": "2026-08-28T11:20:14.535Z"
+  },
+  {
+    "slug": "papercut-zero-day-under-active-attack-patch-ng-mf-now-2026-08-28",
+    "title": "PaperCut zero-day under active attack, patch NG/MF now",
+    "originalTitle": "PaperCut Releases Emergency Patch for Exploited Zero-Day",
+    "summary": "Attackers are exploiting a new PaperCut flaw across all NG and MF versions, so install the emergency v25 and v26 patches, apply mitigations on older builds and lock down admin access.",
+    "url": "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-28T08:40:36.000Z",
+    "fetchedAt": "2026-08-28T11:20:14.535Z"
+  },
+  {
+    "slug": "manchester-airports-breach-expect-travel-themed-phishing-lur-2026-08-28",
+    "title": "Manchester Airports breach, expect travel-themed phishing lures",
+    "originalTitle": "Manchester Airports Group breached, millions of customers’ data stolen",
+    "summary": "Attackers stole customer data from three UK airports, so brief users to spot fake itinerary emails and tighten mail filters for lookalike domains and QR scams.",
+    "url": "https://www.helpnetsecurity.com/2026/08/28/manchester-airports-group-data-breach/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-28T07:56:17.000Z",
+    "fetchedAt": "2026-08-28T11:20:14.535Z"
+  },
+  {
     "slug": "popular-white-label-zbt-routers-ship-with-built-in-backdoors-2026-08-27",
     "title": "Popular white-label ZBT routers ship with built-in backdoors",
     "originalTitle": "Chinese Routers Sold Worldwide Contain Backdoors",
