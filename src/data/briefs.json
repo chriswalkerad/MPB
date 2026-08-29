@@ -1,5 +1,55 @@
 [
   {
+    "slug": "2026-08-29",
+    "date": "2026-08-29",
+    "title": "Patch sprint: PaperCut under fire, ServiceNow and cPanel",
+    "intro": "Busy patch day. Active exploitation, platform root escapes, and AI model supply chain headaches, plus fresh phishing bait from a UK airport breach.",
+    "items": [
+      {
+        "heading": "PaperCut zero-day under active attack",
+        "body": "Attackers are exploiting a new flaw across all NG and MF versions. Install the emergency v25 and v26 patches now, apply the recommended mitigations on older builds, and lock down admin access to cut risk.",
+        "url": "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "papercut-zero-day-under-active-attack-patch-ng-mf-now-2026-08-28"
+      },
+      {
+        "heading": "ServiceNow AI Platform max severity flaws",
+        "body": "Three bugs in ServiceNow AI Platform allow code injection, SQL injection, and privilege escalation, which could let attackers pivot across your instance. Update immediately on any instance using these features to keep access from cascading.",
+        "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "servicenow-fixes-three-max-severity-ai-platform-flaws-2026-08-28"
+      },
+      {
+        "heading": "cPanel bug could root the whole server",
+        "body": "A critical issue in cPanel and WHM domain features lets a single tenant execute code as root on shared hosts. Patch without delay and audit tenant isolation on any co-hosted boxes you manage.",
+        "url": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "cpanel-bug-let-one-tenant-root-the-whole-server-patch-now-2026-08-28"
+      },
+      {
+        "heading": "AI model origin labels hide risk",
+        "body": "Cisco says downstream models inherit unsafe behaviors from their upstream sources. Require lineage disclosures from vendors, scan for embedded weights, and red-team models before you roll them to users.",
+        "url": "https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says/",
+        "source": "SecurityWeek",
+        "category": "ai-security",
+        "storySlug": "ai-model-origin-labels-hide-risk-check-lineage-and-dependenc-2026-08-28"
+      },
+      {
+        "heading": "UK airports breach fuels travel phishing",
+        "body": "Attackers stole customer data from three Manchester Airports Group airports. Brief users to spot fake itinerary emails and tighten mail filters for lookalike domains and QR code scams.",
+        "url": "https://www.helpnetsecurity.com/2026/08/28/manchester-airports-group-data-breach/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "manchester-airports-breach-expect-travel-themed-phishing-lur-2026-08-28"
+      }
+    ],
+    "signOff": "Back to the queue: patch, brief, repeat.",
+    "generatedAt": "2026-08-29T17:13:25.419Z"
+  },
+  {
     "slug": "2026-08-28",
     "date": "2026-08-28",
     "title": "Active PaperCut exploits, urgent patches, sneaky backdoors",
