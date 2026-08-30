@@ -1,5 +1,71 @@
 [
   {
+    "slug": "2026-08-30",
+    "date": "2026-08-30",
+    "title": "Patch now, lock sessions, and clean up extensions",
+    "intro": "Exploits are live and scammers are creative. Prioritize Zimbra and WordPress fixes, clamp down on session theft and extension sprawl.",
+    "items": [
+      {
+        "heading": "Zimbra CVE under active exploit",
+        "body": "Shadowserver reports at least 274 internet-facing Zimbra servers compromised due to unpatched CVE-2026-73570. Treat exposed systems as potentially breached, patch immediately, and pull instances off the internet if you cannot patch today. Hunt for signs of compromise and persistence, review logs, and rotate credentials.",
+        "url": "https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "zimbra-cve-2026-73570-exploited-at-least-274-servers-comprom-2026-08-30"
+      },
+      {
+        "heading": "WordPress plugins allow site takeover",
+        "body": "Critical flaws in WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP enable unauthenticated account takeover and remote code execution. Update these plugins across all client sites now. If you cannot patch immediately, disable affected plugins, check for unexpected admin accounts, and scan for file changes.",
+        "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "critical-wordpress-plugin-flaws-enable-takeover-patch-now-2026-08-29"
+      },
+      {
+        "heading": "Infostealers hijack Claude sessions",
+        "body": "Infostealer malware can capture browser sessions for Claude and drain credits or access data. Sanitize endpoints, revoke active sessions, rotate API keys, and enforce MFA. Separate admin keys from user keys and monitor for unusual usage or new integrations.",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "infostealers-are-hijacking-claude-sessions-draining-usage-2026-08-30"
+      },
+      {
+        "heading": "Malicious Chrome extensions stealing data",
+        "body": "Chrome Web Store add-ons were caught delivering malware that steals credentials and crypto, injects lures, and exfiltrates browsing data. Audit installed extensions and enforce an allowlist via policy. Remove anything unapproved, reset exposed credentials, and watch for suspicious sign-ins.",
+        "url": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "malicious-chrome-extensions-steal-crypto-and-browser-data-2026-08-30"
+      },
+      {
+        "heading": "Fake Cloudflare CAPTCHA drops backdoor",
+        "body": "Attackers are using bogus Cloudflare CAPTCHA prompts to trick users into pasting commands that install a backdoor via Windows Terminal. Train users to avoid copy paste from prompts, restrict PowerShell for non admins, and alert on reverse tunnels or Terminal spawned processes. Block unknown scripts by policy and review EDR detections.",
+        "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "terminalfix-uses-fake-cloudflare-captcha-to-push-backdoor-2026-08-30"
+      },
+      {
+        "heading": "Manchester Airports Group data theft claim",
+        "body": "A group claims to have stolen 86 GB from Manchester Airports Group, increasing the risk of travel themed phishing. Assume traveler data exposure and expect targeted lures. Advise staff to monitor accounts, reset reused passwords, and be wary of itinerary or baggage emails.",
+        "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "hackers-claim-86-gb-theft-from-manchester-airports-group-2026-08-30"
+      },
+      {
+        "heading": "YARA-X 1.20.0 ships with fixes and upgrades",
+        "body": "The new YARA-X release delivers 14 improvements and 13 bug fixes aimed at stability and detection quality. Upgrade in your detection pipelines and CI, then rerun rule tests to validate behavior. Expect smoother runs and fewer false alarms.",
+        "url": "https://isc.sans.edu/diary/rss/33288",
+        "source": "SANS ISC",
+        "category": "defense",
+        "storySlug": "yara-x-1-20-0-brings-14-improvements-and-13-fixes-2026-08-30"
+      }
+    ],
+    "signOff": "Patch first, coffee second.",
+    "generatedAt": "2026-08-30T17:32:56.349Z"
+  },
+  {
     "slug": "2026-08-29",
     "date": "2026-08-29",
     "title": "Patch sprint: PaperCut under fire, ServiceNow and cPanel",
