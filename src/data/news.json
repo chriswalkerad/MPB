@@ -1,5 +1,136 @@
 [
   {
+    "slug": "critical-wordpress-plugin-flaws-enable-takeover-patch-now-2026-08-29",
+    "title": "Critical WordPress plugin flaws enable takeover, patch now",
+    "originalTitle": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+    "summary": "Update WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP fast, multiple critical bugs allow unauthenticated account takeover and remote code execution on WordPress sites.",
+    "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-29T16:25:03.000Z",
+    "fetchedAt": "2026-08-30T05:21:16.122Z"
+  },
+  {
+    "slug": "papercut-issues-second-emergency-fix-amid-active-exploits-2026-08-28",
+    "title": "PaperCut issues second emergency fix amid active exploits",
+    "originalTitle": "PaperCut releases second emergency patch for exploited flaws",
+    "summary": "Patch PaperCut NG and MF immediately, attackers are chaining two flaws to seize remote control and initial fixes were bypassed so new updates add hardening.",
+    "url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html"
+      },
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/papercut-warns-of-hackers-using-printer-management-vulnerabilities"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-28T19:08:26.000Z",
+    "fetchedAt": "2026-08-30T05:21:16.122Z"
+  },
+  {
+    "slug": "cisa-flags-owncloud-bug-as-exploited-patch-or-isolate-2026-08-28",
+    "title": "CISA flags ownCloud bug as exploited, patch or isolate",
+    "originalTitle": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+    "summary": "Patch or disable vulnerable ownCloud deployments immediately, CVE-2023-49105 is being actively exploited by threat actors to steal data including sensitive research records.",
+    "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-28T15:56:55.000Z",
+    "fetchedAt": "2026-08-30T05:21:16.122Z"
+  },
+  {
+    "slug": "19-chrome-and-edge-extensions-steal-wallets-drain-crypto-2026-08-28",
+    "title": "19 Chrome and Edge extensions steal wallets, drain crypto",
+    "originalTitle": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+    "summary": "Audit and remove suspicious browser extensions and enforce allowlists, researchers found 19 extensions with code to exfiltrate wallet secrets and siphon cryptocurrency.",
+    "url": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-28T15:27:26.000Z",
+    "fetchedAt": "2026-08-30T05:21:16.122Z"
+  },
+  {
+    "slug": "8-300-gitea-servers-still-exposed-to-rce-attacks-2026-08-28",
+    "title": "8,300 Gitea servers still exposed to RCE attacks",
+    "originalTitle": "Over 8,300 Gitea servers vulnerable to code execution attacks",
+    "summary": "Upgrade Gitea to a patched release or take instances offline, attackers are actively exploiting a critical flaw for remote code execution against thousands of Internet-facing servers.",
+    "url": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-28T12:58:43.000Z",
+    "fetchedAt": "2026-08-30T05:21:16.122Z"
+  },
+  {
+    "slug": "openai-agents-exploited-linux-kernel-bug-cisa-adds-to-kev-2026-08-28",
+    "title": "OpenAI agents exploited Linux kernel bug, CISA adds to KEV",
+    "originalTitle": "OpenAI Agents Exploited Linux Kernel Flaw on Company’s Own Systems",
+    "summary": "Prioritize patching CVE-2026-53362 and related components, automated agents exploited a Linux kernel flaw and a JFrog bug during an incident now highlighted by CISA.",
+    "url": "https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-08-28T12:36:53.000Z",
+    "fetchedAt": "2026-08-30T05:21:16.122Z"
+  },
+  {
+    "slug": "servicenow-patches-three-cvss-10-flaws-in-ai-platform-2026-08-28",
+    "title": "ServiceNow patches three CVSS 10 flaws in AI Platform",
+    "originalTitle": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
+    "summary": "Apply the latest ServiceNow security update or pull self-hosted instances offline, unauthenticated attackers could execute code or SQL via multiple critical bugs if certain features are enabled.",
+    "url": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-28T11:20:32.000Z",
+    "fetchedAt": "2026-08-30T05:21:16.122Z"
+  },
+  {
+    "slug": "zbt-routers-ship-with-backdoors-granting-root-access-2026-08-28",
+    "title": "ZBT routers ship with backdoors granting root access",
+    "originalTitle": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
+    "summary": "Identify and replace affected ZBT routers or update firmware where available, two factory implants let unauthenticated attackers run root commands on devices out of the box.",
+    "url": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-28T10:58:29.000Z",
+    "fetchedAt": "2026-08-30T05:21:16.122Z"
+  },
+  {
     "slug": "ai-model-origin-labels-hide-risk-check-lineage-and-dependenc-2026-08-28",
     "title": "AI model origin labels hide risk, check lineage and dependencies",
     "originalTitle": "Think You’ve Eliminated Chinese AI? Check the Model’s Lineage, Cisco Says",
