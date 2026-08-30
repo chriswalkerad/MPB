@@ -144,7 +144,8 @@ async function main() {
   console.log(`wrote brief for ${today} (${items.length} items), ${merged.length} briefs retained`)
 }
 
-main().catch((err) => {
+// explicit exit: lingering keepalive sockets can keep node alive for hours in CI
+main().then(() => process.exit(0)).catch((err) => {
   console.error(err)
   process.exit(1)
 })

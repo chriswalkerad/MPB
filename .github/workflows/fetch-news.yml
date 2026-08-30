@@ -16,8 +16,14 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+
+      # scheduled runs pin the checkout to the SHA at run creation; a queued
+      # run can otherwise execute against a stale tree and redo finished work
+      - name: Sync to latest
+        run: git pull
 
       - uses: actions/setup-node@v4
         with:
@@ -42,7 +48,11 @@ jobs:
           if git diff --cached --quiet; then
             echo "No news changes; skipping commit."
           else
-            git pull --rebase --autostash
+            if ! git pull --rebase --autostash; then
+              git rebase --abort 2>/dev/null || true
+              echo "concurrent update conflict; skipping this run (next run self-heals)"
+              exit 0
+            fi
             git commit -m "chore(news): refresh curated news $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push
           fi
