@@ -1,5 +1,47 @@
 [
   {
+    "slug": "hackers-claim-86-gb-theft-from-manchester-airports-group-2026-08-30",
+    "title": "Hackers claim 86 GB theft from Manchester Airports Group",
+    "originalTitle": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
+    "summary": "Assume traveler data exposure and expect targeted phishing, and advise affected staff to monitor accounts, reset reused passwords, and be cautious with travel-related emails.",
+    "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-30T15:00:21.000Z",
+    "fetchedAt": "2026-08-30T16:39:13.126Z"
+  },
+  {
+    "slug": "infostealers-are-hijacking-claude-sessions-draining-usage-2026-08-30",
+    "title": "Infostealers are hijacking Claude sessions, draining usage",
+    "originalTitle": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
+    "summary": "Lock down Claude accounts, as infostealer malware can hijack browser sessions and burn credits, so sanitize endpoints, revoke active sessions, rotate API keys, and enforce MFA.",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-30T14:30:25.000Z",
+    "fetchedAt": "2026-08-30T16:39:13.126Z"
+  },
+  {
+    "slug": "malicious-chrome-extensions-steal-crypto-and-browser-data-2026-08-30",
+    "title": "Malicious Chrome extensions steal crypto and browser data",
+    "originalTitle": "Chrome Web Store extensions caught stealing crypto, browser data",
+    "summary": "Audit and restrict extensions, as Chrome Web Store add-ons were caught delivering malware modules that steal credentials and crypto, inject lures, and exfiltrate browsing data.",
+    "url": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-30T14:17:44.000Z",
+    "fetchedAt": "2026-08-30T16:39:13.126Z"
+  },
+  {
     "slug": "zimbra-cve-2026-73570-exploited-at-least-274-servers-comprom-2026-08-30",
     "title": "Zimbra CVE-2026-73570 exploited, at least 274 servers compromised",
     "originalTitle": "Week in review: Compromised Zimbra servers, previously patched Citrix NetScaler flaw exploited",
