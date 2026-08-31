@@ -1,5 +1,94 @@
 [
   {
+    "slug": "infostealers-hijack-claude-sessions-mfa-bypass-via-stolen-to-2026-08-31",
+    "title": "Infostealers hijack Claude sessions, MFA bypass via stolen tokens",
+    "originalTitle": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
+    "summary": "Treat AI account cookies like credentials, enforce device hygiene and revocation of active sessions, and use conditional access to limit session theft that bypasses MFA on Anthropic accounts.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-31T21:08:46.000Z",
+    "fetchedAt": "2026-08-31T22:49:05.750Z"
+  },
+  {
+    "slug": "free-llm-endpoints-may-be-malicious-agents-leaked-tools-and-2026-08-31",
+    "title": "Free LLM endpoints may be malicious, agents leaked tools and data",
+    "originalTitle": "The Coding-Agent Trap: When a \"Free\" LLM Endpoint Is the Adversary, (Mon, Aug 31st)",
+    "summary": "Do not wire coding agents to unknown or free LLM backends, run them in sandboxes with strict egress controls, and monitor for data exfiltration.",
+    "url": "https://isc.sans.edu/diary/rss/33298",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-31T20:00:34.000Z",
+    "fetchedAt": "2026-08-31T22:49:05.750Z"
+  },
+  {
+    "slug": "terminalfix-lures-users-into-powershell-opens-reverse-tunnel-2026-08-31",
+    "title": "TerminalFix lures users into PowerShell, opens reverse tunnels",
+    "originalTitle": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
+    "summary": "Block malicious popups and PowerShell prompts, disable Windows Terminal protocol handlers, and monitor for unexpected reverse tunnels as TerminalFix spreads via fake Cloudflare CAPTCHA pages.",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-08-31T18:51:04.000Z",
+    "fetchedAt": "2026-08-31T22:49:05.750Z"
+  },
+  {
+    "slug": "exchange-online-outage-causes-auth-errors-and-email-delays-2026-08-31",
+    "title": "Exchange Online outage causes auth errors and email delays",
+    "originalTitle": "Microsoft Exchange Online outage causes email failures, auth issues",
+    "summary": "Expect sign-in failures and email delays, monitor Microsoft 365 Service Health for EX and MO outages, and avoid heavy mailbox migrations or changes until service stabilizes.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-08-31T16:56:57.000Z",
+    "fetchedAt": "2026-08-31T22:49:05.750Z"
+  },
+  {
+    "slug": "attackers-mimic-ai-crawlers-to-find-exposed-creds-on-your-si-2026-08-31",
+    "title": "Attackers mimic AI crawlers to find exposed creds on your site",
+    "originalTitle": "Threat actors are posing as AI crawlers to hunt for exposed credentials",
+    "summary": "Verify user-agent claims against source IPs, block suspicious scanners, and remove secrets from web roots as actors spoof OpenAI and Google bots to harvest configuration files.",
+    "url": "https://www.helpnetsecurity.com/2026/08/31/ai-crawlers-scan-exposed-credentials/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-31T14:39:22.000Z",
+    "fetchedAt": "2026-08-31T22:49:05.750Z"
+  },
+  {
+    "slug": "servicenow-fixes-three-critical-code-injection-bugs-patch-no-2026-08-31",
+    "title": "ServiceNow fixes three critical code injection bugs, patch now",
+    "originalTitle": "ServiceNow Patches 3 Critical Code Injection Vulnerabilities",
+    "summary": "Update ServiceNow instances promptly to block arbitrary code execution and data tampering, and review access logs for unusual activity if patching was delayed.",
+    "url": "https://www.securityweek.com/servicenow-patches-3-critical-code-injection-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-31T13:59:19.000Z",
+    "fetchedAt": "2026-08-31T22:49:05.750Z"
+  },
+  {
     "slug": "mckesson-breach-tied-to-third-party-app-outages-and-data-the-2026-08-31",
     "title": "McKesson breach tied to third-party app, outages and data theft claims",
     "originalTitle": "Pharmaceutical giant McKesson warns of 'service degradation' following cyberattack",
@@ -54,6 +143,25 @@
     "category": "ai-security",
     "publishedAt": "2026-08-31T12:11:58.000Z",
     "fetchedAt": "2026-08-31T13:43:39.205Z"
+  },
+  {
+    "slug": "patch-papercut-now-attackers-planting-remote-access-tools-2026-08-31",
+    "title": "Patch PaperCut now, attackers planting remote access tools",
+    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "summary": "Patch PaperCut NG/MF immediately for two KEV-listed flaws, restrict internet exposure, and sweep compromised servers for newly installed remote access tools reported in active exploitation.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/08/31/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/08/31/papercut-attack-remote-access-tools/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "fetchedAt": "2026-08-31T22:49:05.750Z"
   },
   {
     "slug": "aws-console-private-access-can-lock-out-personal-aws-logins-2026-08-31",
