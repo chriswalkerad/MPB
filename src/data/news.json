@@ -1,5 +1,131 @@
 [
   {
+    "slug": "mckesson-breach-tied-to-third-party-app-outages-and-data-the-2026-08-31",
+    "title": "McKesson breach tied to third-party app, outages and data theft claims",
+    "originalTitle": "Pharmaceutical giant McKesson warns of 'service degradation' following cyberattack",
+    "summary": "Expect pharmacy supply delays and targeted phishing, McKesson is probing a third-party compromise as ShinyHunters claims 284 million records, so warn healthcare clients and monitor for misuse.",
+    "url": "https://therecord.media/mckesson-cyberattack-ransomware-pharma",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/08/31/healthcare-company-mckesson-data-breach/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-08-31T12:45:00.000Z",
+    "fetchedAt": "2026-08-31T13:43:39.205Z"
+  },
+  {
+    "slug": "valleyrat-hides-in-signed-adware-users-add-to-av-exclusions-2026-08-31",
+    "title": "ValleyRAT hides in signed adware users add to AV exclusions",
+    "originalTitle": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
+    "summary": "Remove junkware like QN Wallpaper and audit antivirus exclusions, attackers are abusing signed adware to run RATs under trusted processes and evade endpoint protection.",
+    "url": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-31T12:14:00.000Z",
+    "fetchedAt": "2026-08-31T13:43:39.205Z"
+  },
+  {
+    "slug": "anthropic-logs-out-claude-users-after-infostealer-hijacks-se-2026-08-31",
+    "title": "Anthropic logs out Claude users after infostealer hijacks sessions",
+    "originalTitle": "Anthropic Warns Claude Users of Infostealer Malware Infections",
+    "summary": "If users access Claude from infected machines, wipe endpoints, rotate credentials, and enforce MFA, Anthropic is logging out accounts and clearing payment data to block abuse.",
+    "url": "https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/08/31/claude-accounts-compromised-through-infostealer/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-08-31T12:11:58.000Z",
+    "fetchedAt": "2026-08-31T13:43:39.205Z"
+  },
+  {
+    "slug": "aws-console-private-access-can-lock-out-personal-aws-logins-2026-08-31",
+    "title": "AWS Console Private Access can lock out personal AWS logins",
+    "originalTitle": "AWS Console Private Access can block sign-ins to personal accounts",
+    "summary": "Test this feature in a lab and plan exceptions, Console Private Access routes the AWS console over private networks and can block sign-ins to personal accounts on corporate networks.",
+    "url": "https://www.helpnetsecurity.com/2026/08/31/amazon-aws-console-private-access/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-31T11:57:21.000Z",
+    "fetchedAt": "2026-08-31T13:43:39.205Z"
+  },
+  {
+    "slug": "critical-ruby-on-rails-flaw-abused-to-read-files-and-run-cod-2026-08-31",
+    "title": "Critical Ruby on Rails flaw abused to read files and run code",
+    "originalTitle": "Critical Ruby on Rails Vulnerability in Attackers’ Crosshairs",
+    "summary": "Patch supported Rails versions now and rotate exposed secrets, attackers are exploiting an arbitrary file read bug to extract credentials and achieve remote code execution.",
+    "url": "https://www.securityweek.com/critical-ruby-on-rails-vulnerability-in-attackers-crosshairs/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-31T11:24:17.000Z",
+    "fetchedAt": "2026-08-31T13:43:39.205Z"
+  },
+  {
+    "slug": "china-linked-fire-ant-hijacks-cisco-routers-and-tacacs-serve-2026-08-31",
+    "title": "China-linked Fire Ant hijacks Cisco routers and TACACS servers",
+    "originalTitle": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
+    "summary": "Audit IOS XR routers and TACACS infrastructure for tampering, attackers are stealing credentials and wiping logs by pivoting through network management gear and Linux hosts.",
+    "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-08-31T09:04:55.000Z",
+    "fetchedAt": "2026-08-31T13:43:39.205Z"
+  },
+  {
+    "slug": "microsoft-defender-bug-triggers-false-av-is-turned-off-alert-2026-08-31",
+    "title": "Microsoft Defender bug triggers false 'AV is turned off' alerts",
+    "originalTitle": "Microsoft asks users to ignore 'Antivirus is turned off' errors",
+    "summary": "Suppress noisy alerts in RMM and dashboards, Microsoft says to ignore Defender status warnings after recent updates until it resolves the issue to avoid needless troubleshooting.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-08-31T08:29:42.000Z",
+    "fetchedAt": "2026-08-31T13:43:39.205Z"
+  },
+  {
+    "slug": "papercut-issues-second-emergency-patch-for-exploited-bugs-2026-08-31",
+    "title": "PaperCut issues second emergency patch for exploited bugs",
+    "originalTitle": "More Details Emerge on Exploited PaperCut Vulnerabilities",
+    "summary": "Apply the new PaperCut NG/MF updates immediately, two exploited vulnerabilities CVE-2026-82078 and CVE-2026-81578 are under active attack and expose print servers to compromise.",
+    "url": "https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-08-31T06:51:31.000Z",
+    "fetchedAt": "2026-08-31T13:43:39.205Z"
+  },
+  {
     "slug": "ai-appsec-tools-agree-on-5-of-findings-verify-before-you-fix-2026-08-31",
     "title": "AI AppSec tools agree on 5% of findings, verify before you fix",
     "originalTitle": "AI AppSec tools agree on just 5% of security findings",
