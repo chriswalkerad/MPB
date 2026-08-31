@@ -1,5 +1,33 @@
 [
   {
+    "slug": "ai-appsec-tools-agree-on-5-of-findings-verify-before-you-fix-2026-08-31",
+    "title": "AI AppSec tools agree on 5% of findings, verify before you fix",
+    "originalTitle": "AI AppSec tools agree on just 5% of security findings",
+    "summary": "Do not rely on one AppSec tool, a new report found AI-driven scanners overlap on just 5 percent of issues and attackers increasingly exploit fresh flaws within hours.",
+    "url": "https://www.helpnetsecurity.com/2026/08/31/contrast-security-ai-appsec-tools-security-findings-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-31T05:00:47.000Z",
+    "fetchedAt": "2026-08-31T05:29:29.872Z"
+  },
+  {
+    "slug": "chatgpt-free-now-shows-ads-based-on-your-prompt-2026-08-31",
+    "title": "ChatGPT Free now shows ads based on your prompt",
+    "originalTitle": "Free ChatGPT users get ads picked from whatever they just asked about",
+    "summary": "Update AI use policies, OpenAI will target ads to free ChatGPT users using their current prompt, location and device, so do not paste sensitive data into free chats.",
+    "url": "https://www.helpnetsecurity.com/2026/08/31/chatgpt-ads-privacy-policy/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-08-31T04:30:35.000Z",
+    "fetchedAt": "2026-08-31T05:29:29.872Z"
+  },
+  {
     "slug": "hackers-claim-86-gb-theft-from-manchester-airports-group-2026-08-30",
     "title": "Hackers claim 86 GB theft from Manchester Airports Group",
     "originalTitle": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
