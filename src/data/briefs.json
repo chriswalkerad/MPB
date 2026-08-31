@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-08-31",
+    "date": "2026-08-31",
+    "title": "Supply chain wobbles, sneaky RATs, and patch-now alerts",
+    "intro": "Busy day: a pharma giant probes a third-party hit, multiple actively exploited bugs need attention, and a noisy Defender bug might page you at 3 a.m. Prioritize the real fires, mute the false alarms.",
+    "items": [
+      {
+        "heading": "McKesson probes third-party breach, data theft claims",
+        "body": "McKesson is investigating a third-party compromise while ShinyHunters claims 284 million records, which could slow pharmacy supply chains and fuel targeted phishing. Expect delays and opportunistic emails that look legit. Warn healthcare clients, tighten vendor access, and monitor for credential misuse and mailbox rule changes.",
+        "url": "https://therecord.media/mckesson-cyberattack-ransomware-pharma",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "mckesson-breach-tied-to-third-party-app-outages-and-data-the-2026-08-31"
+      },
+      {
+        "heading": "PaperCut ships second emergency fix, active exploitation",
+        "body": "Two new PaperCut NG/MF vulnerabilities, CVE-2026-82078 and CVE-2026-81578, are under active attack and expose print servers to compromise. Apply the updates immediately on all print controllers. After patching, review admin accounts and logs for signs of abuse and keep these systems off the public internet.",
+        "url": "https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "papercut-issues-second-emergency-patch-for-exploited-bugs-2026-08-31"
+      },
+      {
+        "heading": "Rails bug exploited for file reads and RCE",
+        "body": "Attackers are abusing an arbitrary file read flaw in Ruby on Rails to pull credentials then pivot to remote code execution. Patch supported Rails versions now and rotate any secrets that may be exposed. If you host client Rails apps, inventory versions and prioritize internet facing services.",
+        "url": "https://www.securityweek.com/critical-ruby-on-rails-vulnerability-in-attackers-crosshairs/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "critical-ruby-on-rails-flaw-abused-to-read-files-and-run-cod-2026-08-31"
+      },
+      {
+        "heading": "Fire Ant targets routers and TACACS for stealth pivots",
+        "body": "A China linked group dubbed Fire Ant is hijacking Cisco IOS XR routers and TACACS servers, stealing credentials and wiping logs while pivoting through network management gear and Linux hosts. This hits where visibility is weakest and trust is highest. Audit router configs and TACACS infrastructure for tampering, verify admin accounts, and lock down management planes.",
+        "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "china-linked-fire-ant-hijacks-cisco-routers-and-tacacs-serve-2026-08-31"
+      },
+      {
+        "heading": "ValleyRAT rides along with signed adware",
+        "body": "Attackers are tucking ValleyRAT inside signed adware that users add to antivirus exclusions, letting it run under trusted processes and evade controls. Remove junkware like QN Wallpaper and audit AV exclusion lists. Tighten software allowlists and block signed adware installers from user writable paths.",
+        "url": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "valleyrat-hides-in-signed-adware-users-add-to-av-exclusions-2026-08-31"
+      },
+      {
+        "heading": "AWS Console Private Access gotcha: personal logins blocked",
+        "body": "AWS Console Private Access routes the management console over private networks, and on corporate networks it can block sign ins to personal AWS accounts. That is great for control, bad for surprise lockouts. Test in a lab, plan exceptions, and communicate the change before rollout.",
+        "url": "https://www.helpnetsecurity.com/2026/08/31/amazon-aws-console-private-access/",
+        "source": "Help Net Security",
+        "category": "defense",
+        "storySlug": "aws-console-private-access-can-lock-out-personal-aws-logins-2026-08-31"
+      },
+      {
+        "heading": "Defender bug floods dashboards with false AV alerts",
+        "body": "Recent updates are triggering bogus Microsoft Defender warnings that antivirus is turned off. Microsoft says to ignore these status alerts until a fix lands. Suppress the noise in your RMM and dashboards to avoid wasted troubleshooting time.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "microsoft-defender-bug-triggers-false-av-is-turned-off-alert-2026-08-31"
+      },
+      {
+        "heading": "Anthropic logs out Claude users after session theft",
+        "body": "Infostealer malware hijacked user sessions, so Anthropic is logging accounts out and clearing payment data to block abuse. If anyone accessed Claude from an infected machine, wipe the endpoint, rotate credentials, and enforce MFA. Treat saved tokens and browser sessions as compromised until proven clean.",
+        "url": "https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections/",
+        "source": "SecurityWeek",
+        "category": "ai-security",
+        "storySlug": "anthropic-logs-out-claude-users-after-infostealer-hijacks-se-2026-08-31"
+      }
+    ],
+    "signOff": "Patch what matters, mute what does not, then grab that coffee.",
+    "generatedAt": "2026-08-31T19:31:56.794Z"
+  },
+  {
     "slug": "2026-08-30",
     "date": "2026-08-30",
     "title": "Patch now, lock sessions, and clean up extensions",
