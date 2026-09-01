@@ -1,5 +1,108 @@
 [
   {
+    "slug": "patch-now-jfrog-artifactory-auth-bypass-under-attack-2026-09-01",
+    "title": "Patch now: JFrog Artifactory auth bypass under attack",
+    "originalTitle": "Critical JFrog Artifactory Vulnerability Reportedly Exploited in the Wild",
+    "summary": "If you run JFrog Artifactory, apply the fix for CVE-2026-82329 immediately, attackers are already exploiting this auth bypass to access repositories and pipelines.",
+    "url": "https://www.securityweek.com/critical-jfrog-artifactory-vulnerability-reportedly-exploited-in-the-wild/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-01T09:59:44.000Z",
+    "fetchedAt": "2026-09-01T11:36:35.345Z"
+  },
+  {
+    "slug": "9-5m-patients-hit-in-aesto-health-aws-breach-2026-09-01",
+    "title": "9.5M patients hit in Aesto Health AWS breach",
+    "originalTitle": "9.5 Million Impacted by Aesto Health Data Breach",
+    "summary": "Review vendor access and cloud security for healthcare clients, attackers stole PHI from Aesto Health’s AWS environment affecting 9.5 million individuals.",
+    "url": "https://www.securityweek.com/9-5-million-impacted-by-aesto-health-data-breach/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-01T09:09:34.000Z",
+    "fetchedAt": "2026-09-01T11:36:35.345Z"
+  },
+  {
+    "slug": "stolen-api-key-burns-600k-in-ai-credits-at-metr-2026-09-01",
+    "title": "Stolen API key burns $600k in AI credits at METR",
+    "originalTitle": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+    "summary": "Lock down and rotate API keys, enable org-level limits and alerts, attackers used a compromised METR key to rack up roughly $600,000 in AI compute charges.",
+    "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-01T09:05:30.000Z",
+    "fetchedAt": "2026-09-01T11:36:35.345Z"
+  },
+  {
+    "slug": "watchguard-fixes-critical-fireware-rce-bugs-patch-now-2026-09-01",
+    "title": "WatchGuard fixes critical Fireware RCE bugs, patch now",
+    "originalTitle": "WatchGuard Patches Critical Vulnerabilities",
+    "summary": "Update Firebox appliances to the latest Fireware, three critical iked flaws allow unauthenticated remote code execution that could lead to takeover of perimeter firewalls.",
+    "url": "https://www.securityweek.com/watchguard-patches-critical-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-01T08:50:04.000Z",
+    "fetchedAt": "2026-09-01T11:36:35.345Z"
+  },
+  {
+    "slug": "papercut-ng-mf-zero-days-now-exploited-update-fast-2026-09-01",
+    "title": "PaperCut NG/MF zero-days now exploited, update fast",
+    "originalTitle": "Recently patched PaperCut zero-days used in data theft attacks",
+    "summary": "Upgrade PaperCut servers and isolate exposed instances, attackers are abusing CVE-2026-82078 and CVE-2026-81578 for data theft and CISA added them to KEV.",
+    "url": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/papercut-exploitation-escalates-to-active-intrusions/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-01T07:48:24.000Z",
+    "fetchedAt": "2026-09-01T11:36:35.345Z"
+  },
+  {
+    "slug": "active-exploitation-hits-langflow-and-ruby-on-rails-bugs-2026-09-01",
+    "title": "Active exploitation hits Langflow and Ruby on Rails bugs",
+    "originalTitle": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+    "summary": "Patch Langflow CVE-2026-0768 and Rails CVE-2026-66066 now, VulnCheck observed credential probing and C2 activity with code execution against unpatched apps.",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-01T07:22:30.000Z",
+    "fetchedAt": "2026-09-01T11:36:35.345Z"
+  },
+  {
+    "slug": "crowdsec-1-8-adds-bot-detection-and-dos-hardening-2026-09-01",
+    "title": "CrowdSec 1.8 adds bot detection and DoS hardening",
+    "originalTitle": "Bot detection arrives in CrowdSec 1.8.0, along with two DoS fixes",
+    "summary": "Consider upgrading to CrowdSec 1.8, the open source IPS now detects bots and fixes two DoS issues while improving community blocklist curation.",
+    "url": "https://www.helpnetsecurity.com/2026/09/01/crowdsec-1-8-0-bot-detection/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-01T05:04:35.000Z",
+    "fetchedAt": "2026-09-01T11:36:35.345Z"
+  },
+  {
     "slug": "nis2-compliance-fix-iam-and-access-control-now-2026-09-01",
     "title": "NIS2 compliance, fix IAM and access control now",
     "originalTitle": "NIS2 compliance: Fixing IAM and access control before the 2026 audit",
