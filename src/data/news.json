@@ -1,5 +1,75 @@
 [
   {
+    "slug": "attackers-abuse-faronics-deploy-to-install-screenconnect-2026-09-01",
+    "title": "Attackers abuse Faronics Deploy to install ScreenConnect",
+    "originalTitle": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
+    "summary": "Audit Faronics Deploy tasks and lock down admin access, attackers are using the tool to push ScreenConnect for remote control, so enforce MFA, rotate creds, and alert on new agents.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-01T20:53:23.000Z",
+    "fetchedAt": "2026-09-01T21:00:38.615Z"
+  },
+  {
+    "slug": "credential-theft-burns-600k-in-ai-credits-at-metr-2026-09-01",
+    "title": "Credential theft burns $600k in AI credits at METR",
+    "originalTitle": "AI Model Evaluator METR Hit by Credential Theft, Probing",
+    "summary": "Treat AI API keys like production secrets, restrict usage by IP and budget, rotate and revoke quickly, and monitor for spikes, attackers abused one leaked key to burn $600,000.",
+    "url": "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-01T20:13:09.000Z",
+    "fetchedAt": "2026-09-01T21:00:38.615Z"
+  },
+  {
+    "slug": "aesto-health-breach-exposes-data-of-9-5m-patients-2026-09-01",
+    "title": "Aesto Health breach exposes data of 9.5M patients",
+    "originalTitle": "Aesto Health says data breach affects over 9.5 million patients",
+    "summary": "Confirm whether your practice or clients use Aesto services and prepare breach notifications, the vendor reports over 9.5 million patients affected so review BAAs and tighten vendor access.",
+    "url": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-01T19:28:17.000Z",
+    "fetchedAt": "2026-09-01T21:00:38.615Z"
+  },
+  {
+    "slug": "langflow-rce-exploited-keys-stolen-from-ai-apps-2026-09-01",
+    "title": "Langflow RCE exploited, keys stolen from AI apps",
+    "originalTitle": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+    "summary": "Patch or disable vulnerable Langflow instances now, CVE-2026-0768 allows unauthenticated RCE and attackers are stealing OpenAI and cloud credentials, rotate keys and check logs for compromise.",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-01T17:54:22.000Z",
+    "fetchedAt": "2026-09-01T21:00:38.615Z"
+  },
+  {
+    "slug": "artifactory-auth-bypass-exploited-admin-tokens-minted-2026-09-01",
+    "title": "Artifactory auth bypass exploited, admin tokens minted",
+    "originalTitle": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+    "summary": "Patch CVE-2026-82329 immediately and invalidate tokens, attackers are already exploiting default configurations to gain admin in JFrog Artifactory, review audit logs and SSO settings.",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-01T17:53:11.000Z",
+    "fetchedAt": "2026-09-01T21:00:38.615Z"
+  },
+  {
     "slug": "bgp-hijack-pushed-malicious-virtualizor-updates-2026-09-01",
     "title": "BGP hijack pushed malicious Virtualizor updates",
     "originalTitle": "Hackers push malicious Virtualizor update in BGP hijacking attack",
