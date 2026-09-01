@@ -1,5 +1,94 @@
 [
   {
+    "slug": "bgp-hijack-pushed-malicious-virtualizor-updates-2026-09-01",
+    "title": "BGP hijack pushed malicious Virtualizor updates",
+    "originalTitle": "Hackers push malicious Virtualizor update in BGP hijacking attack",
+    "summary": "Pause updates, verify signatures, and audit servers for compromise after attackers hijacked Virtualizor’s update channel via BGP to deliver malware through poisoned packages.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-01T14:45:06.000Z",
+    "fetchedAt": "2026-09-01T16:37:25.118Z"
+  },
+  {
+    "slug": "teams-vishing-uses-fake-it-support-to-land-malware-2026-09-01",
+    "title": "Teams vishing uses fake IT support to land malware",
+    "originalTitle": "Vishing campaign abuses Microsoft Teams to give attackers a foothold in company networks",
+    "summary": "Train users to distrust unsolicited Teams calls, restrict local admin, and monitor for remote tools after Spring Ring targeted 150+ employees at more than 10 companies.",
+    "url": "https://www.helpnetsecurity.com/2026/09/01/spring-ring-vishing-campaign-microsoft-teams/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-01T14:07:16.000Z",
+    "fetchedAt": "2026-09-01T16:37:25.118Z"
+  },
+  {
+    "slug": "clickfix-phish-uses-blockchain-c2-compromises-31-orgs-2026-09-01",
+    "title": "ClickFix phish uses blockchain C2, compromises 31 orgs",
+    "originalTitle": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
+    "summary": "Block clipboard-based 'prove you are human' prompts, lock down terminal access, and filter blockchain-hosted EtherHiding indicators as ClickFix used Polygon to rotate command servers and compromised 31 organizations.",
+    "url": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-01T13:56:42.000Z",
+    "fetchedAt": "2026-09-01T16:37:25.118Z"
+  },
+  {
+    "slug": "22-000-exchange-servers-still-open-to-mailbox-hijack-2026-09-01",
+    "title": "22,000 Exchange servers still open to mailbox hijack",
+    "originalTitle": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
+    "summary": "Patch the latest Exchange auth bypass now, disable exposed OWA and ECP where possible, and check for mailbox takeovers on any Internet-facing servers.",
+    "url": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-01T12:38:35.000Z",
+    "fetchedAt": "2026-09-01T16:37:25.118Z"
+  },
+  {
+    "slug": "fake-claude-opus-5-app-steals-creds-via-revstealer-2026-09-01",
+    "title": "Fake Claude Opus 5 app steals creds via RevStealer",
+    "originalTitle": "Fake Claude Opus 5 app delivers malware and wipes its own tracks",
+    "summary": "Block and hunt for RevStealer, warn staff against free AI apps from GitHub, and only distribute AI tools via managed software channels to prevent credential theft.",
+    "url": "https://www.helpnetsecurity.com/2026/09/01/revstealer-malware-claude-opus-5-github/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-01T12:21:35.000Z",
+    "fetchedAt": "2026-09-01T16:37:25.118Z"
+  },
+  {
+    "slug": "langflow-rce-under-active-exploit-patch-now-2026-09-01",
+    "title": "Langflow RCE under active exploit, patch now",
+    "originalTitle": "Hackers Start Exploiting Critical Langflow Vulnerability",
+    "summary": "If you run Langflow, update immediately or isolate instances because attackers are exploiting CVE-2026-0768 to execute arbitrary Python code without authentication.",
+    "url": "https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-01T12:07:54.000Z",
+    "fetchedAt": "2026-09-01T16:37:25.118Z"
+  },
+  {
     "slug": "patch-now-jfrog-artifactory-auth-bypass-under-attack-2026-09-01",
     "title": "Patch now: JFrog Artifactory auth bypass under attack",
     "originalTitle": "Critical JFrog Artifactory Vulnerability Reportedly Exploited in the Wild",
