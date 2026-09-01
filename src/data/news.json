@@ -1,5 +1,33 @@
 [
   {
+    "slug": "nis2-compliance-fix-iam-and-access-control-now-2026-09-01",
+    "title": "NIS2 compliance, fix IAM and access control now",
+    "originalTitle": "NIS2 compliance: Fixing IAM and access control before the 2026 audit",
+    "summary": "Tighten identity governance, least privilege, MFA, and access reviews now to meet NIS2 enforcement timelines, as EU states move to enforcement and start audits in October.",
+    "url": "https://www.helpnetsecurity.com/2026/09/01/nis2-credential-compliance-before-audit/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-01T05:00:08.000Z",
+    "fetchedAt": "2026-09-01T05:03:39.125Z"
+  },
+  {
+    "slug": "guildma-astaroth-trojan-spreading-via-portuguese-phishing-2026-09-01",
+    "title": "Guildma/Astaroth trojan spreading via Portuguese phishing",
+    "originalTitle": "Guildma (Astaroth) malware infection from Brazilian Portuguese email, (Tue, Sep 1st)",
+    "summary": "Stop Guildma/Astaroth with tightened mail filtering, attachment controls, and LOLBin restrictions, and watch for Portuguese-language phishing lures targeting banking and corporate credentials.",
+    "url": "https://isc.sans.edu/diary/rss/33300",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-01T00:33:21.000Z",
+    "fetchedAt": "2026-09-01T05:03:39.125Z"
+  },
+  {
     "slug": "infostealers-hijack-claude-sessions-mfa-bypass-via-stolen-to-2026-08-31",
     "title": "Infostealers hijack Claude sessions, MFA bypass via stolen tokens",
     "originalTitle": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
