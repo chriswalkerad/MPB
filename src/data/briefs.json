@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-01",
+    "date": "2026-09-01",
+    "title": "Supply chain hits, auth bypasses, and phish on the prowl",
+    "intro": "Busy morning: a BGP hijack poisoned an update channel, multiple dev tools need emergency patches, and attackers are playing help desk on Teams.",
+    "items": [
+      {
+        "heading": "Virtualizor update channel hijacked via BGP",
+        "body": "Attackers briefly rerouted traffic and pushed malware through Virtualizor’s update path, so assume recent packages could be tainted. Pause updates, verify signatures against a known good source, and audit instances for suspicious binaries or outbound connections. If you host or manage Virtualizor, isolate until you are confident in integrity.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "bgp-hijack-pushed-malicious-virtualizor-updates-2026-09-01"
+      },
+      {
+        "heading": "JFrog Artifactory auth bypass under active exploit",
+        "body": "An auth bypass in Artifactory, CVE-2026-82329, is being exploited to reach repos and pipelines. Patch immediately, then review audit logs, tokens, and service accounts for unusual access. Lock down external exposure and enforce MFA on admin paths.",
+        "url": "https://www.securityweek.com/critical-jfrog-artifactory-vulnerability-reportedly-exploited-in-the-wild/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "patch-now-jfrog-artifactory-auth-bypass-under-attack-2026-09-01"
+      },
+      {
+        "heading": "Unpatched Exchange servers ripe for mailbox takeover",
+        "body": "About 22,000 Exchange servers remain exposed to a mailbox hijack via an auth bypass. Apply the latest Exchange fix, disable Internet-facing OWA and ECP where you can, and hunt for rule changes or forwarding that could indicate takeover. If you cannot patch today, put compensating controls at the edge.",
+        "url": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "22-000-exchange-servers-still-open-to-mailbox-hijack-2026-09-01"
+      },
+      {
+        "heading": "Teams vishing: fake IT support dropping malware",
+        "body": "The Spring Ring crew used unsolicited Teams calls posing as IT to infect targets, hitting 150 plus employees across more than 10 companies. Train staff to hang up and verify through known channels, restrict local admin so a call cannot become a compromise, and watch for remote tooling installs. Consider blocking external Teams calls for high risk groups.",
+        "url": "https://www.helpnetsecurity.com/2026/09/01/spring-ring-vishing-campaign-microsoft-teams/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "teams-vishing-uses-fake-it-support-to-land-malware-2026-09-01"
+      },
+      {
+        "heading": "ClickFix phish uses Polygon as rotating C2",
+        "body": "ClickFix abused blockchain infrastructure on Polygon to rotate command servers and compromised 31 organizations. Stop clipboard based prompts like “prove you are human,” lock down terminal access on user machines, and filter indicators tied to EtherHiding style hosting. Review endpoint telemetry for paste and shell activity following suspicious web prompts.",
+        "url": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
+        "source": "Dark Reading",
+        "category": "threats",
+        "storySlug": "clickfix-phish-uses-blockchain-c2-compromises-31-orgs-2026-09-01"
+      },
+      {
+        "heading": "Langflow RCE: CVE-2026-0768 under active exploit",
+        "body": "Attackers can execute arbitrary Python code on Langflow without authentication. If you run it, update now or pull instances off the network, then check for unexpected processes, files, or modules. Keep Langflow behind auth and restrict egress from its host.",
+        "url": "https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "langflow-rce-under-active-exploit-patch-now-2026-09-01"
+      },
+      {
+        "heading": "Fake Claude app hides RevStealer to grab credentials",
+        "body": "A bogus “Claude Opus 5” app is spreading from GitHub and carrying RevStealer to lift credentials. Block and hunt for RevStealer, warn users to avoid free AI apps outside approved catalogs, and only distribute AI tools through managed software channels. Pull any unvetted AI binaries you find and rotate affected passwords.",
+        "url": "https://www.helpnetsecurity.com/2026/09/01/revstealer-malware-claude-opus-5-github/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "fake-claude-opus-5-app-steals-creds-via-revstealer-2026-09-01"
+      },
+      {
+        "heading": "Aesto Health AWS breach exposes 9.5M patients",
+        "body": "Attackers stole PHI from Aesto Health’s AWS environment affecting 9.5 million individuals. For healthcare clients, review vendor access, least privilege, and cloud guardrails, then validate logging and key rotation. Confirm BAAs and incident notification paths are current.",
+        "url": "https://www.securityweek.com/9-5-million-impacted-by-aesto-health-data-breach/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "9-5m-patients-hit-in-aesto-health-aws-breach-2026-09-01"
+      }
+    ],
+    "signOff": "Patch first, verify twice, then tackle the tickets.",
+    "generatedAt": "2026-09-01T17:21:03.779Z"
+  },
+  {
     "slug": "2026-08-31",
     "date": "2026-08-31",
     "title": "Supply chain wobbles, sneaky RATs, and patch-now alerts",
