@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-02",
+    "date": "2026-09-02",
+    "title": "Active exploits and hijacked updates, patch like you mean it",
+    "intro": "Live exploits, supply chain shenanigans, and a reminder to lock down the basics. Patch, rotate, and watch your logs.",
+    "items": [
+      {
+        "heading": "Artifactory admin token forgery under active attack",
+        "body": "Attackers are forging admin tokens to take over Artifactory servers. Patch CVE-2026-82329 now, revoke and rotate access tokens and credentials, and comb logs for abuse. A compromised artifact repo means poisoned builds and easy lateral movement.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "jfrog-artifactory-flaw-under-attack-patch-and-revoke-tokens-2026-09-02"
+      },
+      {
+        "heading": "BGP hijack seeded backdoored Virtualizor update",
+        "body": "A BGP hijack pushed a malicious Virtualizor update carrying a root backdoor. If you pulled packages on Aug 28-29, verify hashes, rebuild any compromised hosts, rotate keys, restrict update paths, and watch for persistence. Treat this as a full breach until proven otherwise.",
+        "url": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/",
+        "source": "Ars Technica",
+        "category": "threats",
+        "storySlug": "bgp-hijack-pushed-malicious-virtualizor-update-with-root-bac-2026-09-02"
+      },
+      {
+        "heading": "22,000 Exchange servers still open to auth bypass",
+        "body": "Roughly 22,000 on-prem Exchange servers remain exposed to a critical auth bypass, CVE-2026-62911. Patch immediately and take internet-facing boxes offline until updated, then monitor for anomalous logons and replay attempts. If you babysit Exchange, this is your priority today.",
+        "url": "https://www.helpnetsecurity.com/2026/09/02/microsoft-exchange-cve-2026-62911-critical-authentication-bypass-flaw/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "22-000-exchange-servers-still-exposed-to-critical-auth-bypas-2026-09-02"
+      },
+      {
+        "heading": "Sangoma Switchvox SQLi exploited in the wild",
+        "body": "Internet-exposed Switchvox systems are being popped via CVE-2026-9586 SQL injection. Patch now, review web logs, reset credentials, and remove any rogue admin accounts. Voice systems are soft entry points that carry creds and call data.",
+        "url": "https://www.helpnetsecurity.com/2026/09/02/exploitation-of-sangoma-switchvox-flaw-underway-cve-2026-9586/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "active-attacks-hit-sangoma-switchvox-check-for-compromise-no-2026-09-02"
+      },
+      {
+        "heading": "Cleo Harmony auth bypass exploit released",
+        "body": "Public exploit code is out for an authentication bypass in Cleo Harmony. Update immediately, lock down MFT portals by IP or VPN where possible, and review transfer logs for suspicious activity. An abused MFT means fast, quiet data exfil.",
+        "url": "https://www.securityweek.com/exploit-published-for-fresh-cleo-harmony-vulnerability/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "exploit-released-for-cleo-harmony-auth-bypass-patch-now-2026-09-02"
+      },
+      {
+        "heading": "Dropbox accounts hit via Lenovo verification gap",
+        "body": "Attackers abused a Lenovo email verification loophole to get into some Dropbox accounts. Alert users to phishing, audit linked apps, enable MFA, reset affected passwords, and review sign-in history. Treat third party identity flows as brittle until you verify controls.",
+        "url": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "dropbox-accounts-breached-via-lenovo-id-verification-loophol-2026-09-02"
+      },
+      {
+        "heading": "Malicious .git configs can hijack AI coding agents",
+        "body": "Booby-trapped .git/config files can trigger auto-run behaviors in AI coding agents like Claude, Codex, and Cursor. Update or disable those features, treat repos as untrusted, inspect .git/config before you run anything, and sandbox agents to block code execution. These tools will happily run what you feed them.",
+        "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "booby-trapped-git-configs-can-hijack-ai-coding-agents-2026-09-02"
+      },
+      {
+        "heading": "CISA outage comms playbook for providers",
+        "body": "CISA published an outage communications playbook for service providers. Grab it, prebuild roles, templates, and channels, and rehearse so you can ship clear status updates during cyber incidents and OT or IT outages. Good comms buy you time while you fix the mess.",
+        "url": "https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers",
+        "source": "CISA Advisories",
+        "category": "defense",
+        "storySlug": "cisa-s-outage-comms-playbook-for-service-providers-2026-09-02"
+      }
+    ],
+    "signOff": "Alright, back to the ticket queue.",
+    "generatedAt": "2026-09-02T17:12:01.677Z"
+  },
+  {
     "slug": "2026-09-01",
     "date": "2026-09-01",
     "title": "Supply chain hits, auth bypasses, and phish on the prowl",
