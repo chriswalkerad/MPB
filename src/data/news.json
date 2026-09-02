@@ -1,5 +1,126 @@
 [
   {
+    "slug": "jfrog-artifactory-flaw-under-attack-patch-and-revoke-tokens-2026-09-02",
+    "title": "JFrog Artifactory flaw under attack, patch and revoke tokens",
+    "originalTitle": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
+    "summary": "Patch CVE-2026-82329 immediately, attackers are forging admin tokens to take over Artifactory servers, audit access tokens and logs and rotate credentials now.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-02T15:47:08.000Z",
+    "fetchedAt": "2026-09-02T16:33:02.339Z"
+  },
+  {
+    "slug": "booby-trapped-git-configs-can-hijack-ai-coding-agents-2026-09-02",
+    "title": "Booby-trapped .git configs can hijack AI coding agents",
+    "originalTitle": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+    "summary": "Update or disable auto-run behaviors in Claude, Codex, Cursor and similar agents, treat repos as untrusted, inspect .git/config and run agents in sandboxes to block code execution.",
+    "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-02T14:06:59.000Z",
+    "fetchedAt": "2026-09-02T16:33:02.339Z"
+  },
+  {
+    "slug": "22-000-exchange-servers-still-exposed-to-critical-auth-bypas-2026-09-02",
+    "title": "22,000 Exchange servers still exposed to critical auth bypass",
+    "originalTitle": "Nearly 22,000 Microsoft Exchange servers remain exposed to critical security flaw (CVE-2026-62911)",
+    "summary": "If you have on-prem Exchange, patch CVE-2026-62911 now and take internet-exposed servers offline until updated, then monitor for anomalous logons and replay attempts.",
+    "url": "https://www.helpnetsecurity.com/2026/09/02/microsoft-exchange-cve-2026-62911-critical-authentication-bypass-flaw/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-02T13:24:09.000Z",
+    "fetchedAt": "2026-09-02T16:33:02.339Z"
+  },
+  {
+    "slug": "active-attacks-hit-sangoma-switchvox-check-for-compromise-no-2026-09-02",
+    "title": "Active attacks hit Sangoma Switchvox, check for compromise now",
+    "originalTitle": "Exploitation of Sangoma Switchvox flaw is underway (CVE-2026-9586)",
+    "summary": "Internet-exposed Switchvox systems are being exploited via CVE-2026-9586 SQL injection, patch now, review web logs, reset credentials and remove any rogue admin users.",
+    "url": "https://www.helpnetsecurity.com/2026/09/02/exploitation-of-sangoma-switchvox-flaw-underway-cve-2026-9586/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-02T12:42:26.000Z",
+    "fetchedAt": "2026-09-02T16:33:02.339Z"
+  },
+  {
+    "slug": "dropbox-accounts-breached-via-lenovo-id-verification-loophol-2026-09-02",
+    "title": "Dropbox accounts breached via Lenovo ID verification loophole",
+    "originalTitle": "Dropbox accounts breached through Lenovo email verification flaw",
+    "summary": "Alert users to phishing and audit Dropbox linked apps, enable MFA, reset affected passwords and review sign-ins after attackers abused Lenovo email verification to access accounts.",
+    "url": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-02T12:30:22.000Z",
+    "fetchedAt": "2026-09-02T16:33:02.339Z"
+  },
+  {
+    "slug": "exploit-released-for-cleo-harmony-auth-bypass-patch-now-2026-09-02",
+    "title": "Exploit released for Cleo Harmony auth bypass, patch now",
+    "originalTitle": "Exploit Published for Fresh Cleo Harmony Vulnerability",
+    "summary": "Public exploit code for a new Cleo Harmony flaw enables remote auth bypass, update immediately, restrict access to MFT portals and review logs for suspicious transfers.",
+    "url": "https://www.securityweek.com/exploit-published-for-fresh-cleo-harmony-vulnerability/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-02T12:18:15.000Z",
+    "fetchedAt": "2026-09-02T16:33:02.339Z"
+  },
+  {
+    "slug": "cisa-s-outage-comms-playbook-for-service-providers-2026-09-02",
+    "title": "CISA’s outage comms playbook for service providers",
+    "originalTitle": "Communicating Under Pressure: Best Practices for Service Providers",
+    "summary": "Download CISA’s guidance and prebuild roles, templates and channels so you can deliver clear, timely updates during cyber incidents and OT or IT outages.",
+    "url": "https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-02T12:00:00.000Z",
+    "fetchedAt": "2026-09-02T16:33:02.339Z"
+  },
+  {
+    "slug": "bgp-hijack-pushed-malicious-virtualizor-update-with-root-bac-2026-09-02",
+    "title": "BGP hijack pushed malicious Virtualizor update with root backdoor",
+    "originalTitle": "BGP hijack infecting networks caused by a comedy of errors that’s not funny at all",
+    "summary": "If you run Virtualizor, verify packages from Aug 28-29, compare hashes, rebuild compromised hosts, rotate keys and restrict update paths while monitoring for persistence.",
+    "url": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/malicious-virtualizor-update-served-via-bgp-hijacking/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-02T11:00:43.000Z",
+    "fetchedAt": "2026-09-02T16:33:02.339Z"
+  },
+  {
     "slug": "fbi-warns-of-oauth-consent-phishing-against-execs-and-famili-2026-09-02",
     "title": "FBI warns of OAuth consent phishing against execs and families",
     "originalTitle": "Attackers are going after prominent individuals through OAuth phishing, FBI warns",
