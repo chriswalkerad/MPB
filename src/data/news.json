@@ -1,5 +1,75 @@
 [
   {
+    "slug": "bots-now-crack-spin-image-captchas-in-milliseconds-2026-09-02",
+    "title": "Bots now crack spin-image CAPTCHAs in milliseconds",
+    "originalTitle": "An AI CAPTCHA solver talked itself out of the right answer",
+    "summary": "Do not treat CAPTCHAs as a security control, use layered bot defenses like rate limits, behavior analysis, device fingerprinting, and server-side validation.",
+    "url": "https://www.helpnetsecurity.com/2026/09/02/ai-captcha-solver-research/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-02T04:00:48.000Z",
+    "fetchedAt": "2026-09-02T04:28:32.246Z"
+  },
+  {
+    "slug": "unpatched-owncloud-led-to-major-breach-patch-or-isolate-now-2026-09-02",
+    "title": "Unpatched ownCloud led to major breach, patch or isolate now",
+    "originalTitle": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
+    "summary": "Attackers used old ownCloud flaws to steal data and credentials, so update immediately, disable risky apps, and rotate passwords stored or synced there.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-02T01:00:00.000Z",
+    "fetchedAt": "2026-09-02T04:28:32.246Z"
+  },
+  {
+    "slug": "153m-driver-s-license-scans-for-sale-fbi-investigating-2026-09-01",
+    "title": "153M driver’s license scans for sale, FBI investigating",
+    "originalTitle": "FBI Probes Service Selling 153M+ Drivers Licenses",
+    "summary": "Prepare clients for identity fraud spikes, enable identity protection and MFA, watch for account takeovers, and avoid relying on knowledge-based verification.",
+    "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+    "source": {
+      "name": "Krebs on Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-01T22:40:28.000Z",
+    "fetchedAt": "2026-09-02T04:28:32.246Z"
+  },
+  {
+    "slug": "jfrog-artifactory-auth-bypass-under-attack-patch-now-2026-09-01",
+    "title": "JFrog Artifactory auth bypass under attack, patch now",
+    "originalTitle": "Attackers Pounce on Critical Artifactory Flaw Following Disclosure",
+    "summary": "Attackers are exploiting a critical auth bypass to gain admin access, so update Artifactory immediately, restrict internet exposure, and check logs for unauthorized changes.",
+    "url": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-01T21:05:53.000Z",
+    "fetchedAt": "2026-09-02T04:28:32.246Z"
+  },
+  {
+    "slug": "ransomware-crews-recruiting-insiders-tighten-access-and-offb-2026-09-01",
+    "title": "Ransomware crews recruiting insiders, tighten access and offboarding",
+    "originalTitle": "Stronger Security Drives Ransomware Groups to Recruit From Within",
+    "summary": "Expect more insider-enabled intrusions, enforce least privilege and privileged monitoring, accelerate offboarding, and add incentives and reporting channels.",
+    "url": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-01T21:03:19.000Z",
+    "fetchedAt": "2026-09-02T04:28:32.246Z"
+  },
+  {
     "slug": "attackers-abuse-faronics-deploy-to-install-screenconnect-2026-09-01",
     "title": "Attackers abuse Faronics Deploy to install ScreenConnect",
     "originalTitle": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
@@ -12,6 +82,20 @@
     "category": "threats",
     "publishedAt": "2026-09-01T20:53:23.000Z",
     "fetchedAt": "2026-09-01T21:00:38.615Z"
+  },
+  {
+    "slug": "attacks-target-critical-langflow-bug-update-and-rotate-secre-2026-09-01",
+    "title": "Attacks target critical Langflow bug, update and rotate secrets",
+    "originalTitle": "Critical Langflow Flaw Exploited as Attacks on AI Platform Rise",
+    "summary": "Active exploitation of CVE-2026-0768 in the low-code AI platform can expose projects and keys, so patch fast, revoke tokens, and limit external access.",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-01T20:48:52.000Z",
+    "fetchedAt": "2026-09-02T04:28:32.246Z"
   },
   {
     "slug": "credential-theft-burns-600k-in-ai-credits-at-metr-2026-09-01",
