@@ -1,5 +1,75 @@
 [
   {
+    "slug": "sonicwall-sma-1000-zero-days-enable-unauthenticated-rce-2026-09-02",
+    "title": "SonicWall SMA 1000 zero-days enable unauthenticated RCE",
+    "originalTitle": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
+    "summary": "Assume perimeter devices are at risk, review SonicWall advisories now, restrict management exposure, enable MFA, monitor for anomalies, and be ready to apply emergency fixes.",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-02T20:43:59.000Z",
+    "fetchedAt": "2026-09-02T21:00:58.200Z"
+  },
+  {
+    "slug": "openleash-adds-human-checks-to-risky-ai-agent-actions-2026-09-02",
+    "title": "OpenLeash adds human checks to risky AI agent actions",
+    "originalTitle": "OpenLeash Adds a Human Check to Risky AI Agent Actions",
+    "summary": "If you are piloting AI agents, add guardrails with human approval for sensitive tools, log actions centrally, and restrict credentials to least privilege.",
+    "url": "https://www.securityweek.com/openleash-adds-a-human-check-to-risky-ai-agent-actions/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-02T19:30:00.000Z",
+    "fetchedAt": "2026-09-02T21:00:58.200Z"
+  },
+  {
+    "slug": "wordpress-backup-plugin-bug-allows-full-site-takeover-2026-09-02",
+    "title": "WordPress backup plugin bug allows full site takeover",
+    "originalTitle": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
+    "summary": "Update or temporarily disable All-in-One WP Migration and Backup, block unauthenticated access, and audit for rogue admins, webshells, or suspicious backups on hosted sites.",
+    "url": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-02T19:28:46.000Z",
+    "fetchedAt": "2026-09-02T21:00:58.200Z"
+  },
+  {
+    "slug": "teams-vishing-campaign-targets-microsoft-365-users-2026-09-02",
+    "title": "Teams vishing campaign targets Microsoft 365 users",
+    "originalTitle": "Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users",
+    "summary": "Tighten external access and guest policies, enforce MFA and conditional access, train users to verify unexpected calls, and watch for malicious consent and session hijack attempts.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/threat-gang-springs-vishing-attacks-microsoft-teams-users",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-02T16:51:21.000Z",
+    "fetchedAt": "2026-09-02T21:00:58.200Z"
+  },
+  {
+    "slug": "fake-installers-disable-windows-update-and-weaken-defender-2026-09-02",
+    "title": "Fake installers disable Windows Update and weaken Defender",
+    "originalTitle": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
+    "summary": "Block shady download sites, use application control and allowlists, enable Defender Tamper Protection, and alert on services stopped or Windows Update suddenly paused on endpoints.",
+    "url": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-02T16:41:06.000Z",
+    "fetchedAt": "2026-09-02T21:00:58.200Z"
+  },
+  {
     "slug": "jfrog-artifactory-flaw-under-attack-patch-and-revoke-tokens-2026-09-02",
     "title": "JFrog Artifactory flaw under attack, patch and revoke tokens",
     "originalTitle": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
@@ -82,6 +152,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-02T12:18:15.000Z",
     "fetchedAt": "2026-09-02T16:33:02.339Z"
+  },
+  {
+    "slug": "cisa-adds-seven-actively-exploited-bugs-to-kev-2026-09-02",
+    "title": "CISA adds seven actively exploited bugs to KEV",
+    "originalTitle": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
+    "summary": "Prioritize patching for Switchvox, Starlette, Kestra, and LiteLLM, track KEV deadlines, and harden exposed services since exploitation is confirmed in the wild.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-02T12:00:00.000Z",
+    "fetchedAt": "2026-09-02T21:00:58.200Z"
   },
   {
     "slug": "cisa-s-outage-comms-playbook-for-service-providers-2026-09-02",
