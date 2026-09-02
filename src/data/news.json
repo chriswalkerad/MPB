@@ -1,5 +1,116 @@
 [
   {
+    "slug": "fbi-warns-of-oauth-consent-phishing-against-execs-and-famili-2026-09-02",
+    "title": "FBI warns of OAuth consent phishing against execs and families",
+    "originalTitle": "Attackers are going after prominent individuals through OAuth phishing, FBI warns",
+    "summary": "Audit OAuth app consents and tighten admin consent policies, attackers are using consent phishing to gain persistent access to email and cloud files of high‑profile targets.",
+    "url": "https://www.helpnetsecurity.com/2026/09/02/oauth-consent-phishing-fbi-warning/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-02T10:58:22.000Z",
+    "fetchedAt": "2026-09-02T11:14:22.879Z"
+  },
+  {
+    "slug": "openai-astra-can-autonomously-find-and-exploit-zero-days-2026-09-02",
+    "title": "OpenAI Astra can autonomously find and exploit zero-days",
+    "originalTitle": "OpenAI’s Astra Becomes First Model to Cross Critical Cybersecurity Threshold",
+    "summary": "Prepare for client questions and revisit AI risk controls, Astra reportedly crosses a threshold in autonomous exploit discovery against hardened systems, raising the stakes for defenders.",
+    "url": "https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-02T10:38:13.000Z",
+    "fetchedAt": "2026-09-02T11:14:22.879Z"
+  },
+  {
+    "slug": "defender-for-office-365-misflags-google-links-as-malicious-2026-09-02",
+    "title": "Defender for Office 365 misflags Google links as malicious",
+    "originalTitle": "Microsoft Defender flags legitimate Google search links as malicious",
+    "summary": "Expect false positives on Google search links in Defender for Office 365, Microsoft is investigating so adjust policies and communicate with users until it is resolved.",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-09-02T10:29:39.000Z",
+    "fetchedAt": "2026-09-02T11:14:22.879Z"
+  },
+  {
+    "slug": "chrome-and-firefox-patch-dozens-of-flaws-update-today-2026-09-02",
+    "title": "Chrome and Firefox patch dozens of flaws, update today",
+    "originalTitle": "Chrome and Firefox Updates Patch Dozens of Vulnerabilities",
+    "summary": "Push the latest Chrome and Firefox releases across endpoints now, multiple use-after-free, sandbox escape, and privilege escalation bugs are fixed.",
+    "url": "https://www.securityweek.com/chrome-and-firefox-updates-patch-dozens-of-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-02T09:12:29.000Z",
+    "fetchedAt": "2026-09-02T11:14:22.879Z"
+  },
+  {
+    "slug": "claude-helps-port-plc-rce-exploit-between-devices-2026-09-02",
+    "title": "Claude helps port PLC RCE exploit between devices",
+    "originalTitle": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+    "summary": "Plan for LLM-assisted offense in your threat model, researchers used Claude to adapt a pre-auth RCE for WAGO PLCs and execute attacker-supplied shellcode on live hardware.",
+    "url": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-02T07:47:13.000Z",
+    "fetchedAt": "2026-09-02T11:14:22.879Z"
+  },
+  {
+    "slug": "attackers-hit-sangoma-switchvox-with-unauth-rce-patch-now-2026-09-02",
+    "title": "Attackers hit Sangoma Switchvox with unauth RCE, patch now",
+    "originalTitle": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+    "summary": "Patch Sangoma Switchvox SMB Edition 8.3 and restrict exposure, threat actors are exploiting a critical unauthenticated SQL injection to deploy reverse shells.",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-02T07:08:50.000Z",
+    "fetchedAt": "2026-09-02T11:14:22.879Z"
+  },
+  {
+    "slug": "sonicwall-sma-1000-zero-days-exploited-update-now-2026-09-02",
+    "title": "SonicWall SMA 1000 zero-days exploited, update now",
+    "originalTitle": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
+    "summary": "Install SonicWall SMA 1000 updates or apply mitigations immediately, attackers are chaining two zero-days for unauthenticated remote code execution on exposed VPN appliances.",
+    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/02/sonicwall-sma-1000-cve-2026-83548-cve-2026-83549-zero-day-attacks/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-02T06:39:29.000Z",
+    "fetchedAt": "2026-09-02T11:14:22.879Z"
+  },
+  {
     "slug": "bots-now-crack-spin-image-captchas-in-milliseconds-2026-09-02",
     "title": "Bots now crack spin-image CAPTCHAs in milliseconds",
     "originalTitle": "An AI CAPTCHA solver talked itself out of the right answer",
