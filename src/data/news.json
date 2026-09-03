@@ -1,5 +1,99 @@
 [
   {
+    "slug": "elementor-pro-bug-exploited-to-hijack-wordpress-patch-now-2026-09-03",
+    "title": "Elementor Pro bug exploited to hijack WordPress, patch now",
+    "originalTitle": "Critical Elementor Pro flaw exploited to take over WordPress sites",
+    "summary": "Patch Elementor Pro immediately and scan for webshells, attackers are exploiting CVE-2026-32475 to take over WordPress sites and run commands.",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-03T14:52:20.000Z",
+    "fetchedAt": "2026-09-03T16:23:56.622Z"
+  },
+  {
+    "slug": "google-ships-gemini-3-8-flash-adds-security-focused-flash-cy-2026-09-03",
+    "title": "Google ships Gemini 3.8 Flash, adds security-focused Flash Cyber",
+    "originalTitle": "Google’s Gemini 3.8 Flash takes on bigger AI models at a lower cost",
+    "summary": "Prepare for client questions on cheaper, faster AI, Google released Gemini 3.8 Flash and a gated Flash Cyber edition aimed at vetted security teams.",
+    "url": "https://www.helpnetsecurity.com/2026/09/03/google-gemini-3-8-flash/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-03T13:34:07.000Z",
+    "fetchedAt": "2026-09-03T16:23:56.622Z"
+  },
+  {
+    "slug": "windows-11-preview-update-resets-settings-pause-rollout-2026-09-03",
+    "title": "Windows 11 preview update resets settings, pause rollout",
+    "originalTitle": "Microsoft says KB5120998 Windows update resets desktop settings",
+    "summary": "Delay KB5120998 on managed fleets, Microsoft confirmed the August Windows 11 preview update can reset desktop and mouse settings on some systems, especially non-English builds.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/"
+      }
+    ],
+    "category": "defense",
+    "publishedAt": "2026-09-03T12:16:32.000Z",
+    "fetchedAt": "2026-09-03T16:23:56.622Z"
+  },
+  {
+    "slug": "thomson-reuters-breach-exposes-us-and-canadian-court-records-2026-09-03",
+    "title": "Thomson Reuters breach exposes US and Canadian court records",
+    "originalTitle": "US and Canadian court data exposed in Thomson Reuters breach",
+    "summary": "If you support courts or law firms, expect notifications and monitor accounts, as C-Track exposed sealed records and sensitive PII across multiple US states and Canada.",
+    "url": "https://therecord.media/thomson-reuters-cyberattack-data",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/03/thomson-reuters-reveals-breach-that-exposed-u-s-and-canadian-court-records/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "fetchedAt": "2026-09-03T16:23:56.622Z"
+  },
+  {
+    "slug": "cisa-g7-urge-agencies-and-businesses-to-start-pqc-migration-2026-09-03",
+    "title": "CISA, G7 urge agencies and businesses to start PQC migration",
+    "originalTitle": "Preparing for the Post-Quantum Era: A Call to Action",
+    "summary": "Start a PQC program now, inventory cryptography and long-lived data, and plan migrations to protect against harvest-now, decrypt-later risk.",
+    "url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "fetchedAt": "2026-09-03T16:23:56.622Z"
+  },
+  {
+    "slug": "global-phishing-push-installs-rmm-tools-us-most-targeted-2026-09-03",
+    "title": "Global phishing push installs RMM tools, US most targeted",
+    "originalTitle": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
+    "summary": "Train users and block unsigned RMM installers, a 46-country phishing campaign using tax lures is dropping remote management tools for hands-on access, with the US most targeted.",
+    "url": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-03T11:58:00.000Z",
+    "fetchedAt": "2026-09-03T16:23:56.622Z"
+  },
+  {
     "slug": "plex-pushes-urgent-updates-for-desktop-apps-and-media-server-2026-09-03",
     "title": "Plex pushes urgent updates for desktop apps and media servers",
     "originalTitle": "Plex warns users to patch security vulnerabilities immediately",
@@ -12,6 +106,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-03T11:02:22.000Z",
     "fetchedAt": "2026-09-03T11:10:37.067Z"
+  },
+  {
+    "slug": "attackers-abuse-node-js-runtime-to-hide-malware-delivery-2026-09-03",
+    "title": "Attackers abuse Node.js runtime to hide malware delivery",
+    "originalTitle": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
+    "summary": "Add detections for suspicious node.exe execution and child processes, attackers are abusing the trusted Node.js runtime to deliver payloads in targeted intrusions.",
+    "url": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-03T10:43:01.000Z",
+    "fetchedAt": "2026-09-03T16:23:56.622Z"
   },
   {
     "slug": "sqli-to-rce-bug-in-popular-wordpress-migration-plugin-update-2026-09-03",
