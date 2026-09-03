@@ -1,5 +1,19 @@
 [
   {
+    "slug": "ai-vulnerability-surge-may-be-manageable-focus-on-basics-2026-09-02",
+    "title": "AI vulnerability surge may be manageable, focus on basics",
+    "originalTitle": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
+    "summary": "Inventory AI apps and dependencies, secure model endpoints, and apply standard vuln management to LLM tooling as new research suggests the AI patch queue will not be overwhelming.",
+    "url": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-02T21:14:06.000Z",
+    "fetchedAt": "2026-09-03T04:19:45.566Z"
+  },
+  {
     "slug": "sonicwall-sma-1000-zero-days-enable-unauthenticated-rce-2026-09-02",
     "title": "SonicWall SMA 1000 zero-days enable unauthenticated RCE",
     "originalTitle": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
@@ -12,6 +26,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-02T20:43:59.000Z",
     "fetchedAt": "2026-09-02T21:00:58.200Z"
+  },
+  {
+    "slug": "car-rental-data-breach-puts-driver-s-licenses-up-for-sale-2026-09-02",
+    "title": "Car rental data breach puts driver’s licenses up for sale",
+    "originalTitle": "I rented a car, and within hours, my driver's license was for sale",
+    "summary": "Treat license data as compromised, advise affected staff and clients to monitor for identity theft and review vendor data practices as FBI probes a massive rental-car breach.",
+    "url": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-02T20:32:02.000Z",
+    "fetchedAt": "2026-09-03T04:19:45.566Z"
   },
   {
     "slug": "openleash-adds-human-checks-to-risky-ai-agent-actions-2026-09-02",
