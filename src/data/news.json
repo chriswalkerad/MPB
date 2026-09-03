@@ -1,5 +1,61 @@
 [
   {
+    "slug": "coder-registry-hack-pushed-malicious-terraform-modules-2026-09-03",
+    "title": "Coder registry hack pushed malicious Terraform modules",
+    "originalTitle": "Coder's registry infrastructure compromised to push malicious modules",
+    "summary": "Audit and replace any Terraform modules sourced from Coder's registry, rotate any credentials exposed in pipelines, and review build logs after attackers inserted credential-stealing code via compromised infrastructure.",
+    "url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-03T20:04:24.000Z",
+    "fetchedAt": "2026-09-03T21:00:05.702Z"
+  },
+  {
+    "slug": "patch-now-critical-rce-in-hpe-arubaos-cx-2026-09-03",
+    "title": "Patch now: critical RCE in HPE ArubaOS-CX",
+    "originalTitle": "HPE patches critical ArubaOS-CX remote code execution flaw",
+    "summary": "Update ArubaOS-CX switches to the latest release and restrict management interfaces, a critical flaw allows remote code execution that could let attackers take over network gear.",
+    "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-03T18:28:12.000Z",
+    "fetchedAt": "2026-09-03T21:00:05.702Z"
+  },
+  {
+    "slug": "cisco-nexus-9000-bug-allows-unauthenticated-root-rce-2026-09-03",
+    "title": "Cisco Nexus 9000 bug allows unauthenticated root RCE",
+    "originalTitle": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+    "summary": "If you run Silicon One-based Nexus 9000 switches, apply Cisco's fixes now and limit exposure, a 9.8 flaw lets remote attackers execute code as root.",
+    "url": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-03T15:52:07.000Z",
+    "fetchedAt": "2026-09-03T21:00:05.702Z"
+  },
+  {
+    "slug": "new-brazetsu-toolkit-monetizes-compromised-windows-hosts-2026-09-03",
+    "title": "New BraZetsu toolkit monetizes compromised Windows hosts",
+    "originalTitle": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
+    "summary": "Hunt for Python-based BraZetsu infections and tighten egress controls, the framework turns compromised Windows machines into marketplace inventory for brokers and bundles stealers, RATs, and persistence.",
+    "url": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-03T15:26:47.000Z",
+    "fetchedAt": "2026-09-03T21:00:05.702Z"
+  },
+  {
     "slug": "elementor-pro-bug-exploited-to-hijack-wordpress-patch-now-2026-09-03",
     "title": "Elementor Pro bug exploited to hijack WordPress, patch now",
     "originalTitle": "Critical Elementor Pro flaw exploited to take over WordPress sites",
@@ -12,6 +68,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-03T14:52:20.000Z",
     "fetchedAt": "2026-09-03T16:23:56.622Z"
+  },
+  {
+    "slug": "thomson-reuters-c-track-breach-may-expose-ssns-and-sealed-da-2026-09-03",
+    "title": "Thomson Reuters C-Track breach may expose SSNs and sealed data",
+    "originalTitle": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
+    "summary": "Alert legal clients and check data-sharing practices, an intrusion into C-Track case management accessed files across multiple states and Ontario that may include SSNs and confidential court records.",
+    "url": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-03T14:39:05.000Z",
+    "fetchedAt": "2026-09-03T21:00:05.702Z"
   },
   {
     "slug": "google-ships-gemini-3-8-flash-adds-security-focused-flash-cy-2026-09-03",
@@ -45,6 +115,20 @@
     "category": "defense",
     "publishedAt": "2026-09-03T12:16:32.000Z",
     "fetchedAt": "2026-09-03T16:23:56.622Z"
+  },
+  {
+    "slug": "cisa-ixon-vpn-client-rce-update-to-1-4-7-2026-09-03",
+    "title": "CISA: IXON VPN Client RCE, update to 1.4.7",
+    "originalTitle": "IXON VPN Client",
+    "summary": "Push the IXON VPN Client 1.4.7 update to all endpoints and restrict untrusted links, a CRLF injection bug can lead to elevated-privilege remote code execution.",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "fetchedAt": "2026-09-03T21:00:05.702Z"
   },
   {
     "slug": "thomson-reuters-breach-exposes-us-and-canadian-court-records-2026-09-03",
