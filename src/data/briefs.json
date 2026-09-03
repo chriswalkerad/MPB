@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-03",
+    "date": "2026-09-03",
+    "title": "Active exploits, flaky updates, and RMM-laced phish",
+    "intro": "WordPress sites are getting hijacked, a Windows preview patch is misbehaving, and phishers are dropping remote tools. A few quick moves will keep clients out of trouble.",
+    "items": [
+      {
+        "heading": "Elementor Pro exploit hijacks WordPress",
+        "body": "Attackers are exploiting CVE-2026-32475 in Elementor Pro to take over WordPress sites and run commands. Patch Elementor Pro now, then scan for webshells and unusual admin activity. Lock down admin access and verify backups in case you need to roll back.",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "elementor-pro-bug-exploited-to-hijack-wordpress-patch-now-2026-09-03"
+      },
+      {
+        "heading": "Pause KB5120998 preview update",
+        "body": "Microsoft confirmed the August Windows 11 preview update can reset desktop and mouse settings on some systems, especially non English builds. Hold KB5120998 on managed fleets and test in a small ring before wider rollout. Prep a quick helpdesk script for restoring user UI preferences.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "windows-11-preview-update-resets-settings-pause-rollout-2026-09-03"
+      },
+      {
+        "heading": "Tax phish dropping RMM tools worldwide",
+        "body": "A 46 country phishing push is using tax lures to install remote management tools for hands on access, with the US most targeted. Train users and block unsigned RMM installers. Alert on new RMM processes or services from endpoints that do not usually run them.",
+        "url": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "global-phishing-push-installs-rmm-tools-us-most-targeted-2026-09-03"
+      },
+      {
+        "heading": "Plex pushes urgent server and desktop fixes",
+        "body": "Plex shipped fixes for multiple vulnerabilities affecting Media Server and desktop apps. Internet exposed Plex servers are frequent targets for botnets, so update everything now and restrict remote access to trusted networks. If it is not needed on the internet, close it.",
+        "url": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "plex-pushes-urgent-updates-for-desktop-apps-and-media-server-2026-09-03"
+      },
+      {
+        "heading": "TR C-Track breach exposes court records",
+        "body": "A breach in Thomson Reuters C Track exposed sealed records and sensitive PII across multiple US states and Canada. If you support courts or law firms, expect notifications and questions, and monitor impacted accounts for misuse. Review what data your clients shared with the platform and update any overlapping passwords or keys.",
+        "url": "https://therecord.media/thomson-reuters-cyberattack-data",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "thomson-reuters-breach-exposes-us-and-canadian-court-records-2026-09-03"
+      },
+      {
+        "heading": "Attackers hide behind Node.js runtime",
+        "body": "Threat actors are abusing the trusted Node.js runtime to deliver payloads during targeted intrusions. Add detections for suspicious node.exe execution and risky child processes, like script runners or downloaders. Consider application allowlisting where Node is not expected to run from temp or user paths.",
+        "url": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "attackers-abuse-node-js-runtime-to-hide-malware-delivery-2026-09-03"
+      },
+      {
+        "heading": "CISA and G7: start PQC migration now",
+        "body": "CISA and G7 partners are urging agencies and businesses to begin post quantum cryptography programs. Inventory where you use cryptography, identify long lived data, and plan migrations to blunt harvest now decrypt later risk. Put an owner and a timeline on it so it does not stall.",
+        "url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
+        "source": "CISA Advisories",
+        "category": "defense",
+        "storySlug": "cisa-g7-urge-agencies-and-businesses-to-start-pqc-migration-2026-09-03"
+      },
+      {
+        "heading": "Google ships Gemini 3.8 Flash and Flash Cyber",
+        "body": "Google released Gemini 3.8 Flash and a gated Flash Cyber edition aimed at vetted security teams. Expect client questions about cheaper, faster AI options. Keep your AI use policy tight and test before wiring these models into anything sensitive.",
+        "url": "https://www.helpnetsecurity.com/2026/09/03/google-gemini-3-8-flash/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "google-ships-gemini-3-8-flash-adds-security-focused-flash-cy-2026-09-03"
+      }
+    ],
+    "signOff": "Alright, back to tickets.",
+    "generatedAt": "2026-09-03T17:04:34.929Z"
+  },
+  {
     "slug": "2026-09-02",
     "date": "2026-09-02",
     "title": "Active exploits and hijacked updates, patch like you mean it",
