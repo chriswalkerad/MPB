@@ -1,5 +1,103 @@
 [
   {
+    "slug": "plex-pushes-urgent-updates-for-desktop-apps-and-media-server-2026-09-03",
+    "title": "Plex pushes urgent updates for desktop apps and media servers",
+    "originalTitle": "Plex warns users to patch security vulnerabilities immediately",
+    "summary": "Update Plex Media Server and all desktop clients right away, multiple vulnerabilities are fixed and internet-exposed servers are frequent targets for botnets and opportunistic attackers.",
+    "url": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-03T11:02:22.000Z",
+    "fetchedAt": "2026-09-03T11:10:37.067Z"
+  },
+  {
+    "slug": "sqli-to-rce-bug-in-popular-wordpress-migration-plugin-update-2026-09-03",
+    "title": "SQLi-to-RCE bug in popular WordPress migration plugin, update",
+    "originalTitle": "Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability",
+    "summary": "Update the affected migration plugin immediately or disable it, the unauthenticated SQL injection CVE-2026-19949 can lead to remote code execution on millions of WordPress sites.",
+    "url": "https://www.securityweek.com/over-3-million-wordpress-sites-affected-by-migration-plugin-vulnerability/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-03T10:40:00.000Z",
+    "fetchedAt": "2026-09-03T11:10:37.067Z"
+  },
+  {
+    "slug": "cisco-patches-critical-switch-flaws-warns-s-mime-email-leaks-2026-09-03",
+    "title": "Cisco patches critical switch flaws, warns S/MIME email leaks remain",
+    "originalTitle": "Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities",
+    "summary": "Patch Cisco IOS XR and Nexus gear now, and review guidance for unpatched S/MIME issues that could expose encrypted email content in Cisco Secure Email deployments.",
+    "url": "https://www.securityweek.com/cisco-warns-of-unpatched-secure-email-flaws-patches-critical-switch-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-03T10:30:00.000Z",
+    "fetchedAt": "2026-09-03T11:10:37.067Z"
+  },
+  {
+    "slug": "your-ai-agent-s-prompt-is-not-access-control-2026-09-03",
+    "title": "Your AI agent’s prompt is not access control",
+    "originalTitle": "Your AI agent’s system prompt is not a security control",
+    "summary": "Do not rely on system prompts for authorization, enforce RBAC or ABAC at retrieval and tool layers so agents only access data a user is actually allowed to see.",
+    "url": "https://www.helpnetsecurity.com/2026/09/03/sans-aws-agentic-ai-security/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-03T07:53:58.000Z",
+    "fetchedAt": "2026-09-03T11:10:37.067Z"
+  },
+  {
+    "slug": "researcher-drops-crowdstrike-falcon-privilege-escalation-poc-2026-09-03",
+    "title": "Researcher drops CrowdStrike Falcon privilege escalation PoC",
+    "originalTitle": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
+    "summary": "Treat this as a potential zero-day in Falcon, monitor CrowdStrike advisories, tighten macro and sensor policies, and restrict local privilege escalation paths until fixes or mitigations land.",
+    "url": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-03T06:26:59.000Z",
+    "fetchedAt": "2026-09-03T11:10:37.067Z"
+  },
+  {
+    "slug": "cisa-adds-seven-actively-exploited-bugs-to-kev-patch-now-2026-09-03",
+    "title": "CISA adds seven actively exploited bugs to KEV, patch now",
+    "originalTitle": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
+    "summary": "Prioritize patching newly added KEV flaws, especially the SonicWall SMA 1000 SSRF, as attackers are using them to drop reverse shells and crypto miners across exposed systems.",
+    "url": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-03T05:19:04.000Z",
+    "fetchedAt": "2026-09-03T11:10:37.067Z"
+  },
+  {
+    "slug": "windows-will-auto-enable-memory-integrity-and-vbs-in-oct-202-2026-09-03",
+    "title": "Windows will auto-enable memory integrity and VBS in Oct 2026",
+    "originalTitle": "Windows memory integrity switches on automatically for eligible devices in October 2026",
+    "summary": "Prepare for Windows to enable memory integrity and VBS by default in October 2026, test drivers now and replace incompatible ones to avoid blue screens and performance hits.",
+    "url": "https://www.helpnetsecurity.com/2026/09/03/windows-memory-integrity-update/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-03T04:30:32.000Z",
+    "fetchedAt": "2026-09-03T11:10:37.067Z"
+  },
+  {
     "slug": "ai-vulnerability-surge-may-be-manageable-focus-on-basics-2026-09-02",
     "title": "AI vulnerability surge may be manageable, focus on basics",
     "originalTitle": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
