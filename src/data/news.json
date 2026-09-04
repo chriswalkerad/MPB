@@ -1,5 +1,112 @@
 [
   {
+    "slug": "hpe-patches-critical-aos-cx-rce-update-aruba-switches-now-2026-09-04",
+    "title": "HPE patches critical AOS-CX RCE, update Aruba switches now",
+    "originalTitle": "HPE Patches Critical RCE Vulnerabilities in AOS-CX",
+    "summary": "Patch HPE Aruba OS-CX switches immediately, a 9.8 CVSS flaw tracked as CVE-2026-73749 enables remote code execution and nearly two dozen issues are fixed.",
+    "url": "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-04T16:11:06.000Z",
+    "fetchedAt": "2026-09-04T16:19:50.470Z"
+  },
+  {
+    "slug": "phishers-use-invisible-unicode-to-dodge-filters-tune-defense-2026-09-04",
+    "title": "Phishers use invisible Unicode to dodge filters, tune defenses",
+    "originalTitle": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+    "summary": "Review mail filters and educate users, Microsoft warns of a massive campaign splitting lure keywords with invisible Unicode tags to bypass detection and deliver financial scams.",
+    "url": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-04T15:57:15.000Z",
+    "fetchedAt": "2026-09-04T16:19:50.470Z"
+  },
+  {
+    "slug": "citrix-netscaler-auth-bypass-exploited-patch-and-check-now-2026-09-04",
+    "title": "Citrix NetScaler auth bypass exploited, patch and check now",
+    "originalTitle": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+    "summary": "Apply fixes for CVE-2026-19490 and hunt for abuse, attackers are exploiting a critical authentication bypass in NetScaler appliances to gain access.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-04T15:25:59.000Z",
+    "fetchedAt": "2026-09-04T16:19:50.470Z"
+  },
+  {
+    "slug": "sangoma-switchvox-exploited-in-the-wild-patch-pbxs-now-2026-09-04",
+    "title": "Sangoma Switchvox exploited in the wild, patch PBXs now",
+    "originalTitle": "Sangoma Switchvox Vulnerabilities Exploited in the Wild",
+    "summary": "If you run Switchvox, apply updates and restrict admin exposure, CVE-2026-9586 allows unauthenticated SQL injection leading to remote code execution and is being exploited.",
+    "url": "https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-04T13:23:12.000Z",
+    "fetchedAt": "2026-09-04T16:19:50.470Z"
+  },
+  {
+    "slug": "crowdstrike-falconflank-zero-day-grants-system-privileges-2026-09-04",
+    "title": "CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
+    "originalTitle": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
+    "summary": "Prepare mitigations and monitor vendor guidance, a released exploit abuses a Falcon component to escalate to SYSTEM on fully patched Windows endpoints.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-04T13:22:01.000Z",
+    "fetchedAt": "2026-09-04T16:19:50.470Z"
+  },
+  {
+    "slug": "chrome-zero-day-exploited-update-chrome-now-2026-09-04",
+    "title": "Chrome zero-day exploited, update Chrome now",
+    "originalTitle": "Google warns of new Chrome zero-day flaw exploited in attacks",
+    "summary": "Update Chrome across Windows, macOS and Linux today, Google fixed high severity V8 bug CVE-2026-85046 already exploited in the wild.",
+    "url": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-04T11:48:17.000Z",
+    "fetchedAt": "2026-09-04T16:19:50.470Z"
+  },
+  {
+    "slug": "patch-vmware-workstation-and-fusion-to-prevent-host-escape-2026-09-04",
+    "title": "Patch VMware Workstation and Fusion to prevent host escape",
+    "originalTitle": "VMware Workstation and Fusion Updates Patch Critical Vulnerability",
+    "summary": "Update Workstation and Fusion promptly, flaws could let attackers with admin rights inside a VM execute code on the host affecting developer and lab machines.",
+    "url": "https://www.securityweek.com/vmware-workstation-and-fusion-updates-patch-critical-vulnerability/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-04T11:42:55.000Z",
+    "fetchedAt": "2026-09-04T16:19:50.470Z"
+  },
+  {
     "slug": "wordpress-super-forms-and-elementor-pro-flaws-under-active-a-2026-09-04",
     "title": "WordPress Super Forms and Elementor Pro flaws under active attack",
     "originalTitle": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
