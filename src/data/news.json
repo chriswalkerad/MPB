@@ -1,5 +1,19 @@
 [
   {
+    "slug": "french-hospital-fined-500k-after-breach-exposed-727k-records-2026-09-03",
+    "title": "French hospital fined €500k after breach exposed 727k records",
+    "originalTitle": "French hospital fined €500,000 after breach exposes data of 727,000",
+    "summary": "Audit access controls and logging now, France's CNIL fined Hôpital privé de la Loire €500,000 after a breach exposed data of 727,000 patients and relatives.",
+    "url": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-03T22:01:37.000Z",
+    "fetchedAt": "2026-09-04T04:30:28.338Z"
+  },
+  {
     "slug": "coder-registry-hack-pushed-malicious-terraform-modules-2026-09-03",
     "title": "Coder registry hack pushed malicious Terraform modules",
     "originalTitle": "Coder's registry infrastructure compromised to push malicious modules",
