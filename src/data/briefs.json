@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-04",
+    "date": "2026-09-04",
+    "title": "Edge boxes burned, browsers and switches need patches",
+    "intro": "Active exploits on the edge and fresh zero days on desktops. Prioritize appliances, then move to endpoints and labs.",
+    "items": [
+      {
+        "heading": "NetScaler auth bypass under attack",
+        "body": "Attackers are exploiting a critical authentication bypass in Citrix NetScaler appliances, tracked as CVE-2026-19490. If you run NetScaler, apply the vendor fix immediately, review logs for unusual sessions or configuration changes, and rotate credentials. If exposure was possible, invalidate active sessions and tighten access to the management interface.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "citrix-netscaler-auth-bypass-exploited-patch-and-check-now-2026-09-04"
+      },
+      {
+        "heading": "Chrome zero day already exploited",
+        "body": "Google patched a high severity V8 bug, CVE-2026-85046, that is being exploited in the wild. Push the latest Chrome update on Windows, macOS and Linux, and make sure users relaunch the browser. Enforce updates via policy where possible and prioritize high risk users first.",
+        "url": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "chrome-zero-day-exploited-update-chrome-now-2026-09-04"
+      },
+      {
+        "heading": "Aruba AOS-CX RCE, patch your switches",
+        "body": "HPE fixed a critical remote code execution flaw in Aruba OS-CX, CVE-2026-73749, with a 9.8 CVSS score and nearly two dozen additional issues. Update affected switches to the latest AOS-CX release as soon as your change window allows. Limit management access and monitor for anomalies until updates are complete.",
+        "url": "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "hpe-patches-critical-aos-cx-rce-update-aruba-switches-now-2026-09-04"
+      },
+      {
+        "heading": "WordPress plugins under mass exploitation",
+        "body": "Attackers are actively exploiting file upload and remote code execution bugs in the Super Forms and Elementor Pro plugins. Patch these plugins immediately or disable them if no fix is available. Add WAF rules, audit for unexpected files or admins, and lock down admin access.",
+        "url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "wordpress-super-forms-and-elementor-pro-flaws-under-active-a-2026-09-04"
+      },
+      {
+        "heading": "Switchvox PBXs getting popped",
+        "body": "An unauthenticated SQL injection, CVE-2026-9586, can lead to remote code execution on Sangoma Switchvox and is being exploited. Patch now and make sure admin interfaces are not exposed to the internet. Segment voice systems and watch for unusual calls or config changes.",
+        "url": "https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "sangoma-switchvox-exploited-in-the-wild-patch-pbxs-now-2026-09-04"
+      },
+      {
+        "heading": "VMware Workstation and Fusion host escape fixed",
+        "body": "VMware patched flaws that could let an attacker with admin rights inside a VM execute code on the host, a risk for developer and lab machines. Update Workstation and Fusion promptly. Until then, avoid untrusted VMs and disable convenience features like shared clipboard and drag-and-drop.",
+        "url": "https://www.securityweek.com/vmware-workstation-and-fusion-updates-patch-critical-vulnerability/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "patch-vmware-workstation-and-fusion-to-prevent-host-escape-2026-09-04"
+      },
+      {
+        "heading": "FalconFlank Windows privilege escalation",
+        "body": "A released exploit abuses a CrowdStrike Falcon component to escalate to SYSTEM on fully patched Windows endpoints. Follow vendor guidance for mitigations and keep an eye on sensor updates. Tighten local admin use and monitor for unusual process behavior on protected hosts.",
+        "url": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "crowdstrike-falconflank-zero-day-grants-system-privileges-2026-09-04"
+      },
+      {
+        "heading": "Invisible Unicode evades mail filters",
+        "body": "Microsoft warned of a large phishing campaign that inserts invisible Unicode tags to split lure keywords, slipping past some detections and pushing financial scams. Tune mail filters to normalize or strip zero width characters and test rules against obfuscated keywords. Remind users to report odd spacing or broken text in emails.",
+        "url": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "phishers-use-invisible-unicode-to-dodge-filters-tune-defense-2026-09-04"
+      }
+    ],
+    "signOff": "Time to patch, then back to the queue.",
+    "generatedAt": "2026-09-04T16:53:42.551Z"
+  },
+  {
     "slug": "2026-09-03",
     "date": "2026-09-03",
     "title": "Active exploits, flaky updates, and RMM-laced phish",
