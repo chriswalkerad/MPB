@@ -1,5 +1,33 @@
 [
   {
+    "slug": "jetbrains-cadence-hacked-via-unpatched-teamcity-rotate-crede-2026-09-05",
+    "title": "JetBrains Cadence hacked via unpatched TeamCity, rotate credentials now",
+    "originalTitle": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+    "summary": "Cadence users should immediately revoke and rotate all credentials and secrets used in Cadence, patch vulnerable TeamCity servers, and review AWS activity for possible misuse.",
+    "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-05T16:52:33.000Z",
+    "fetchedAt": "2026-09-05T20:18:12.501Z"
+  },
+  {
+    "slug": "patch-vmware-workstation-and-fusion-critical-guest-to-host-c-2026-09-05",
+    "title": "Patch VMware Workstation and Fusion, critical guest-to-host code execution fixed",
+    "originalTitle": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+    "summary": "Update Workstation and Fusion to Broadcom’s latest releases to fix CVE-2026-59346, which lets a privileged guest execute code on the host, and restrict untrusted VMs.",
+    "url": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-05T16:05:08.000Z",
+    "fetchedAt": "2026-09-05T20:18:12.501Z"
+  },
+  {
     "slug": "5-400-hacked-sites-push-on-chain-clickfix-malware-via-bnb-ch-2026-09-05",
     "title": "5,400 hacked sites push on-chain ClickFix malware via BNB Chain",
     "originalTitle": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
