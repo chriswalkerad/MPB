@@ -1,5 +1,33 @@
 [
   {
+    "slug": "mikrotik-routers-hijacked-via-internet-exposed-ssh-without-a-2026-09-06",
+    "title": "MikroTik routers hijacked via internet-exposed SSH without authentication",
+    "originalTitle": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+    "summary": "If you manage MikroTik, disable SSH from WAN, update RouterOS, and restrict management IPs now, attackers are taking full control through unauthenticated internet-exposed SSH.",
+    "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-06T09:32:38.000Z",
+    "fetchedAt": "2026-09-06T10:52:15.263Z"
+  },
+  {
+    "slug": "revstealer-modules-disable-defender-and-windows-update-to-mi-2026-09-06",
+    "title": "REVSTEALER modules disable Defender and Windows Update to mine crypto",
+    "originalTitle": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+    "summary": "Check endpoints for ProManager, WinUpdate, SoftManager, and related binaries, these REVSTEALER remnants disable Defender and Windows Update to run a miner, so re-enable protections and fully remediate.",
+    "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-06T08:34:20.000Z",
+    "fetchedAt": "2026-09-06T10:52:15.263Z"
+  },
+  {
     "slug": "gpt-6-astra-lands-set-ai-guardrails-before-users-do-2026-09-05",
     "title": "GPT-6 Astra lands, set AI guardrails before users do",
     "originalTitle": "Introducing GPT-6 Astra for developers",
