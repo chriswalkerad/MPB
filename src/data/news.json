@@ -1,5 +1,33 @@
 [
   {
+    "slug": "gpt-6-astra-lands-set-ai-guardrails-before-users-do-2026-09-05",
+    "title": "GPT-6 Astra lands, set AI guardrails before users do",
+    "originalTitle": "Introducing GPT-6 Astra for developers",
+    "summary": "Expect clients to try GPT-6 Astra immediately, set clear AI use policies, restrict sensitive data sharing, and pilot with security reviews before enabling broader adoption.",
+    "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+    "source": {
+      "name": "Simon Willison"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-05T23:27:48.000Z",
+    "fetchedAt": "2026-09-06T04:34:06.488Z"
+  },
+  {
+    "slug": "magento-adobe-commerce-zero-day-exploited-no-patch-yet-2026-09-05",
+    "title": "Magento, Adobe Commerce zero day exploited, no patch yet",
+    "originalTitle": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+    "summary": "Actively exploited zero day in Magento and Adobe Commerce lets attackers backdoor stores, so audit for compromises and apply Sansec mitigations while awaiting an official fix.",
+    "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-05T20:14:47.000Z",
+    "fetchedAt": "2026-09-06T04:34:06.488Z"
+  },
+  {
     "slug": "jetbrains-cadence-hacked-via-unpatched-teamcity-rotate-crede-2026-09-05",
     "title": "JetBrains Cadence hacked via unpatched TeamCity, rotate credentials now",
     "originalTitle": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
