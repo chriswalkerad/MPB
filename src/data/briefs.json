@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-06",
+    "date": "2026-09-06",
+    "title": "Routers popped, stores backdoored, patch and lock down",
+    "intro": "Active exploits are hitting network gear and e-commerce, with fresh tricks in phishing and crypto-mining on endpoints. Grab coffee, then start closing doors.",
+    "items": [
+      {
+        "heading": "MikroTik routers hijacked via unauthenticated SSH",
+        "body": "Attackers are taking full control of MikroTik routers where SSH is exposed to the internet without authentication. If you manage MikroTik, disable SSH from WAN, update RouterOS, and restrict management to known IPs now. Audit devices for signs of unauthorized access.",
+        "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "mikrotik-routers-hijacked-via-internet-exposed-ssh-without-a-2026-09-06"
+      },
+      {
+        "heading": "Magento, Adobe Commerce zero day exploited, no patch yet",
+        "body": "An actively exploited zero day is letting attackers backdoor Magento and Adobe Commerce stores. Audit your storefronts for compromise and apply Sansec’s recommended mitigations while you wait for an official fix. Lock down admin access and increase monitoring in the meantime.",
+        "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "magento-adobe-commerce-zero-day-exploited-no-patch-yet-2026-09-05"
+      },
+      {
+        "heading": "Critical guest-to-host escape in VMware Workstation and Fusion",
+        "body": "Broadcom patched CVE-2026-59346, a flaw that lets a privileged guest execute code on the host. Update Workstation and Fusion to the latest releases and restrict untrusted or high-privilege VMs until everything is patched. Prioritize any shared lab or laptop hosts.",
+        "url": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "patch-vmware-workstation-and-fusion-critical-guest-to-host-c-2026-09-05"
+      },
+      {
+        "heading": "JetBrains Cadence breach tied to unpatched TeamCity",
+        "body": "An unpatched TeamCity instance was the path into JetBrains Cadence. If you use Cadence, revoke and rotate all credentials and secrets used there, patch vulnerable TeamCity servers, and review AWS activity for possible misuse. Treat anything that touched Cadence as potentially exposed.",
+        "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "jetbrains-cadence-hacked-via-unpatched-teamcity-rotate-crede-2026-09-05"
+      },
+      {
+        "heading": "Phishers use invisible Unicode to dodge filters",
+        "body": "Attackers are hiding lures behind zero width characters and ASCII smuggling to slip past email gateways. Normalize Unicode in your filtering stack and tune detections for mismatched links, odd spacing, and obfuscated text. Remind users that weird-looking messages are red flags.",
+        "url": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "phishers-hide-lures-with-invisible-unicode-to-bypass-email-f-2026-09-06"
+      },
+      {
+        "heading": "REVSTEALER kills Defender and Updates to mine crypto",
+        "body": "REVSTEALER modules like ProManager, WinUpdate, and SoftManager disable Microsoft Defender and Windows Update so a miner can run. Hunt endpoints for those binaries, re-enable protections, and fully remediate any affected systems. Verify protections stay on after cleanup.",
+        "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "revstealer-modules-disable-defender-and-windows-update-to-mi-2026-09-06"
+      },
+      {
+        "heading": "5,400 hacked sites push on-chain ClickFix malware",
+        "body": "Thousands of compromised sites are delivering ClickFix malware with payloads hosted on-chain via BNB Smart Chain. Audit client sites for tampering and block BNB Smart Chain gateways and known contract URLs at the network edge. Assume visitors may have been exposed and scan accordingly.",
+        "url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "5-400-hacked-sites-push-on-chain-clickfix-malware-via-bnb-ch-2026-09-05"
+      },
+      {
+        "heading": "GPT-6 Astra is here, set guardrails now",
+        "body": "Users will try GPT-6 Astra before your policy catches up. Set clear AI use rules, restrict sensitive data sharing, and pilot with security reviews before wider rollout. Make it safe before you make it easy.",
+        "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+        "source": "Simon Willison",
+        "category": "ai-security",
+        "storySlug": "gpt-6-astra-lands-set-ai-guardrails-before-users-do-2026-09-05"
+      }
+    ],
+    "signOff": "Good hunting, and may your patches reboot cleanly.",
+    "generatedAt": "2026-09-06T16:19:46.932Z"
+  },
+  {
     "slug": "2026-09-05",
     "date": "2026-09-05",
     "title": "Patch now: PaperCut, WordPress hit, rogue AI agents",
