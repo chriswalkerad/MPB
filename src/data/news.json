@@ -1,5 +1,19 @@
 [
   {
+    "slug": "phishers-hide-lures-with-invisible-unicode-to-bypass-email-f-2026-09-06",
+    "title": "Phishers hide lures with invisible Unicode to bypass email filters",
+    "originalTitle": "Attackers conceal phishing lures using invisible Unicode characters",
+    "summary": "Attackers are using zero width characters and ASCII smuggling to sneak phishing emails past gateways, so normalize Unicode in filters and train users to spot weird spacing and links.",
+    "url": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-06T14:23:46.000Z",
+    "fetchedAt": "2026-09-06T15:26:02.887Z"
+  },
+  {
     "slug": "mikrotik-routers-hijacked-via-internet-exposed-ssh-without-a-2026-09-06",
     "title": "MikroTik routers hijacked via internet-exposed SSH without authentication",
     "originalTitle": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
@@ -3077,19 +3091,5 @@
     "category": "defense",
     "publishedAt": "2026-08-24T04:00:25.000Z",
     "fetchedAt": "2026-08-24T07:19:05.779Z"
-  },
-  {
-    "slug": "toxicpanda-android-malware-now-blocks-google-play-via-vpn-ab-2026-08-23",
-    "title": "ToxicPanda Android malware now blocks Google Play via VPN abuse",
-    "originalTitle": "ToxicPanda Android malware uses VPN permissions to block Google Play",
-    "summary": "Audit managed Android devices and block sideloading; ToxicPanda now targets 349 apps and abuses VPN permissions to disable Google Play protections while executing 167 remote commands.",
-    "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-23T14:23:46.000Z",
-    "fetchedAt": "2026-08-23T21:02:50.516Z"
   }
 ]
