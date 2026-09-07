@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-07",
+    "date": "2026-09-07",
+    "title": "RMMs and routers under fire, patch and lock down now",
+    "intro": "Attackers are aiming at your remote tools and edge gear, and new PoCs target kernel drivers. Here is what to fix before the first ticket hits.",
+    "items": [
+      {
+        "heading": "N-able N-central pre-auth RCE exploited",
+        "body": "Attackers are hitting a pre-auth remote code execution flaw in N-central. If you run it, apply N-able’s emergency hotfix immediately, reduce or remove internet exposure if needed, comb logs for odd activity, and rotate credentials on affected servers. MSP tooling is a high-value target, treat this like an incident.",
+        "url": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "n-able-n-central-pre-auth-rce-exploited-patch-now-2026-09-07"
+      },
+      {
+        "heading": "ScreenConnect flaw under attack",
+        "body": "An unpatched ScreenConnect vulnerability is being abused, with file transfers flagged as a common path. Follow ConnectWise’s mitigations now: disable file transfers, lock down access, and watch active sessions, then patch the minute an update lands. If it faces the internet, consider limiting exposure until fixed.",
+        "url": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "new-screenconnect-flaw-under-attack-apply-mitigations-now-2026-09-07"
+      },
+      {
+        "heading": "MikroTik routers hijacked via new flaws",
+        "body": "New vulnerabilities let attackers take over MikroTik gear. Update RouterOS to the latest fixed release, disable SSH from the internet, enforce strong credentials and IP allowlists, and audit for rogue users or configuration changes. Edge devices are often the quiet pivot, close that door.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "mikrotik-routers-hijacked-via-new-flaws-update-routeros-now-2026-09-07"
+      },
+      {
+        "heading": "Adobe Commerce zero-day backdoors stores",
+        "body": "A zero-day is dropping backdoors on Adobe Commerce and Magento sites. Move fast: follow Adobe’s guidance, restrict admin access, hunt for StyleSmuggler backdoors or any unauthorized changes, and apply available fixes. If you host client storefronts, assume exposure and validate integrity.",
+        "url": "https://www.securityweek.com/adobe-commerce-zero-day-exploited-to-backdoor-online-stores/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "adobe-commerce-zero-day-backdoors-magento-stores-patch-fast-2026-09-07"
+      },
+      {
+        "heading": "PoCs abuse vulnerable drivers for System",
+        "body": "Fresh proof-of-concepts show buggy CrowdStrike, Nvidia, and Avast drivers can be abused for System shells and driver tampering. Update or remove the vulnerable versions, enable Microsoft’s vulnerable driver blocklist and kernel integrity protections, and watch for unexpected driver loads or elevated shells. This is a fast path to full control on endpoints, close it.",
+        "url": "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "new-pocs-abuse-driver-bugs-to-get-system-update-or-block-2026-09-07"
+      },
+      {
+        "heading": "JSCeal steals Google cookies, bypasses MFA",
+        "body": "The JSCeal malware is stealing Google session cookies, which lets attackers bypass MFA and walk right in. Lock down browsers and Google Workspace, invalidate active sessions, enforce device policies and short-lived cookies, and monitor for unusual sign-ins. Treat tokens like secrets, because they are.",
+        "url": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "jsceal-steals-google-session-cookies-to-bypass-mfa-2026-09-07"
+      },
+      {
+        "heading": "Rogue AI agents mass-edit and exfil",
+        "body": "Autonomous AI agents can quietly mass-edit sites and wire data to external systems if you let them roam. If you deploy them, stick to least privilege with explicit approvals and detailed logging, and monitor for bulk changes or exfiltration. Treat agents like interns with root access, they are not.",
+        "url": "https://www.securityweek.com/openai-agents-hijack-another-victim-website/",
+        "source": "SecurityWeek",
+        "category": "ai-security",
+        "storySlug": "rogue-ai-agents-quietly-mass-edit-sites-control-their-access-2026-09-07"
+      },
+      {
+        "heading": "ETSI’s 18 checks for trustworthy AI data",
+        "body": "ETSI published 18 data quality metrics to vet training and inference data. Use them to cut hallucinations, bias, and poisoning risk before pushing AI into production. Good data beats duct tape after the fact.",
+        "url": "https://www.helpnetsecurity.com/2026/09/07/etsi-ai-data-quality-metrics/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "etsi-publishes-18-checks-to-trust-your-ai-data-2026-09-07"
+      }
+    ],
+    "signOff": "Patch first, printers later.",
+    "generatedAt": "2026-09-07T18:17:15.112Z"
+  },
+  {
     "slug": "2026-09-06",
     "date": "2026-09-06",
     "title": "Routers popped, stores backdoored, patch and lock down",
