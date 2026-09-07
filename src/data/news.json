@@ -1,5 +1,52 @@
 [
   {
+    "slug": "magento-zero-day-stylesmuggler-exploited-to-plant-linux-back-2026-09-07",
+    "title": "Magento zero-day StyleSmuggler exploited to plant Linux backdoor",
+    "originalTitle": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
+    "summary": "Apply Adobe's mitigations and harden admin access now, attackers are exploiting the StyleSmuggler zero day in Magento and Adobe Commerce to drop a persistent Linux backdoor.",
+    "url": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-07T16:50:29.000Z",
+    "fetchedAt": "2026-09-07T21:29:32.964Z"
+  },
+  {
+    "slug": "bigbear-phishing-as-a-service-bypasses-mfa-at-258-orgs-2026-09-07",
+    "title": "BigBear phishing-as-a-service bypasses MFA at 258 orgs",
+    "originalTitle": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
+    "summary": "Harden Microsoft 365 against AitM and vishing, enforce phishing resistant MFA, conditional access, and token protections, as BigBear 2.0 stole 5,000 credentials across 258 organizations.",
+    "url": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-07T15:39:51.000Z",
+    "fetchedAt": "2026-09-07T21:29:32.964Z"
+  },
+  {
+    "slug": "mikrotik-routeros-hijacked-via-unauth-chain-patch-now-2026-09-07",
+    "title": "MikroTik RouterOS hijacked via unauth chain, patch now",
+    "originalTitle": "Hackers exploit RouterOS flaws to hijack MikroTik devices without authentication",
+    "summary": "Update RouterOS to fixed versions, close SSH to the internet, and rotate credentials and keys, because attackers are exploiting a chain that enables full takeover of exposed devices.",
+    "url": "https://www.helpnetsecurity.com/2026/09/07/mikrotik-routeros-ssh-vulnerabilities-exploited/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-07T14:07:20.000Z",
+    "fetchedAt": "2026-09-07T21:29:32.964Z"
+  },
+  {
     "slug": "new-pocs-abuse-driver-bugs-to-get-system-update-or-block-2026-09-07",
     "title": "New PoCs abuse driver bugs to get System, update or block",
     "originalTitle": "Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits",
@@ -40,6 +87,34 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-07T11:58:37.000Z",
     "fetchedAt": "2026-09-07T12:26:31.375Z"
+  },
+  {
+    "slug": "rogue-screenconnect-clients-push-vbscript-to-new-connections-2026-09-07",
+    "title": "Rogue ScreenConnect clients push VBScript to new connections",
+    "originalTitle": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+    "summary": "Audit ScreenConnect deployments and purge unknown clients, disable auto connect and scripts, and monitor for four stage VBScript chains spreading via Quick Assist scams and phishing delivered installers.",
+    "url": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-07T11:36:39.000Z",
+    "fetchedAt": "2026-09-07T21:29:32.964Z"
+  },
+  {
+    "slug": "public-exploit-turns-telerik-ui-bug-into-unauth-rce-2026-09-07",
+    "title": "Public exploit turns Telerik UI bug into unauth RCE",
+    "originalTitle": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+    "summary": "Patch Progress Telerik UI for ASP.NET AJAX to July releases and disable insecure configurations, as a new public exploit chains a padding oracle into unauthenticated remote code execution.",
+    "url": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-07T11:20:14.000Z",
+    "fetchedAt": "2026-09-07T21:29:32.964Z"
   },
   {
     "slug": "mikrotik-routers-hijacked-via-new-flaws-update-routeros-now-2026-09-07",
@@ -2987,127 +3062,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-08-24T21:46:55.000Z",
     "fetchedAt": "2026-08-25T01:51:09.810Z"
-  },
-  {
-    "slug": "unpatched-calix-gs7-bug-exposes-internal-devices-2026-08-24",
-    "title": "Unpatched Calix GS7 bug exposes internal devices",
-    "originalTitle": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
-    "summary": "Lock down Calix GS7 XGS routers now, a remote unauthenticated flaw lets attackers create port forwarding rules that expose internal devices and there is no patch yet.",
-    "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-24T21:14:30.000Z",
-    "fetchedAt": "2026-08-25T01:51:09.810Z"
-  },
-  {
-    "slug": "malware-disguised-as-wordlists-delivers-amatera-infostealer-2026-08-24",
-    "title": "Malware disguised as wordlists delivers Amatera infostealer",
-    "originalTitle": "Foul Language: WordlistLoader Disguises Malware as Ordinary Text",
-    "summary": "Warn users and block suspicious text downloads, a new WordlistLoader trick is delivering the Amatera info stealer by hiding malware in ordinary looking wordlists.",
-    "url": "https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-24T20:51:27.000Z",
-    "fetchedAt": "2026-08-25T01:51:09.810Z"
-  },
-  {
-    "slug": "attackers-exploit-miniorange-saml-sso-to-hijack-wordpress-ad-2026-08-24",
-    "title": "Attackers exploit miniOrange SAML SSO to hijack WordPress admins",
-    "originalTitle": "Hackers target WordPress sites in miniOrange auth bypass attacks",
-    "summary": "Update or disable the miniOrange SAML 2.0 SSO plugin immediately, attackers are exploiting critical auth bypass bugs to forge SAML responses and log in as administrators.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-24T19:26:32.000Z",
-    "fetchedAt": "2026-08-25T01:51:09.810Z"
-  },
-  {
-    "slug": "reliaquest-says-phishers-briefly-accessed-internal-dashboard-2026-08-24",
-    "title": "ReliaQuest says phishers briefly accessed internal dashboard",
-    "originalTitle": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-    "summary": "Enable out-of-band verification for internal requests, enforce phishing resistant MFA, and lock down dashboard permissions after ReliaQuest said a social engineering phish briefly exposed an internal tool.",
-    "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-08-24T15:17:16.000Z",
-    "fetchedAt": "2026-08-24T18:58:30.373Z"
-  },
-  {
-    "slug": "new-synkloader-steals-windows-passwords-preps-ransomware-2026-08-24",
-    "title": "New SynkLoader steals Windows passwords, preps ransomware",
-    "originalTitle": "Tricky 'SynkLoader' Multitool May Herald Ransomware",
-    "summary": "Block LNK and shortcut attachments, restrict script interpreters, and update EDR detections as SynkLoader steals Windows passwords via screen hijacking and likely brokers access to ransomware operators.",
-    "url": "https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-08-24T15:02:32.000Z",
-    "fetchedAt": "2026-08-24T18:58:30.373Z"
-  },
-  {
-    "slug": "toxicpanda-android-trojan-moves-into-enterprise-apps-2026-08-24",
-    "title": "ToxicPanda Android trojan moves into enterprise apps",
-    "originalTitle": "ToxicPanda Banking Trojan Matures Into Enterprise Threat",
-    "summary": "Tighten mobile device management, block sideloading, and audit enterprise Android app access because ToxicPanda now steals credentials and controls devices beyond banking targets.",
-    "url": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-24T14:34:59.000Z",
-    "fetchedAt": "2026-08-24T18:58:30.373Z"
-  },
-  {
-    "slug": "teams-adds-setting-to-block-external-bots-in-meetings-2026-08-24",
-    "title": "Teams adds setting to block external bots in meetings",
-    "originalTitle": "Microsoft Teams now lets admins block external bots from meetings",
-    "summary": "Turn on Teams' new meeting protection policy to block external bots by default, then review tenant allow lists and app permissions to prevent unwanted bot access.",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-08-24T14:00:19.000Z",
-    "fetchedAt": "2026-08-24T18:58:30.373Z"
-  },
-  {
-    "slug": "august-net-updates-break-printing-and-pdf-export-in-wpf-apps-2026-08-24",
-    "title": "August .NET updates break printing and PDF export in WPF apps",
-    "originalTitle": "Microsoft: August updates break printing, PDF export in WPF apps",
-    "summary": "Hold or roll back the August .NET Framework updates on WPF endpoints that print or export PDFs, Microsoft acknowledged the issue and posted temporary mitigations.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-08-24T12:40:21.000Z",
-    "fetchedAt": "2026-08-24T13:11:52.494Z"
   }
 ]
