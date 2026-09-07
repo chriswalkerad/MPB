@@ -1,5 +1,47 @@
 [
   {
+    "slug": "etsi-publishes-18-checks-to-trust-your-ai-data-2026-09-07",
+    "title": "ETSI publishes 18 checks to trust your AI data",
+    "originalTitle": "18 ways to check whether data can be trusted for AI",
+    "summary": "Use ETSI's 18 data quality metrics to vet training and inference data, reducing hallucinations, bias, and data poisoning risks before rolling AI into production.",
+    "url": "https://www.helpnetsecurity.com/2026/09/07/etsi-ai-data-quality-metrics/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-07T04:30:27.000Z",
+    "fetchedAt": "2026-09-07T04:35:19.304Z"
+  },
+  {
+    "slug": "chatgpt-astra-hits-plus-update-your-ai-policies-2026-09-07",
+    "title": "ChatGPT Astra hits Plus, update your AI policies",
+    "originalTitle": "ChatGPT Astra is now rolling out to $20 Plus subscription",
+    "summary": "Expect users to adopt Astra fast, update AI usage policies, disable sensitive data uploads, review logging and retention, and test guardrails before enabling it in tenant workflows.",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-07T01:15:43.000Z",
+    "fetchedAt": "2026-09-07T04:35:19.304Z"
+  },
+  {
+    "slug": "mikrotik-ssh-auth-bypass-patch-now-and-check-for-backdoors-2026-09-06",
+    "title": "MikroTik SSH auth bypass, patch now and check for backdoors",
+    "originalTitle": "Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)",
+    "summary": "Patch affected MikroTik routers immediately, assume compromise, audit for rogue accounts, rotate credentials, and update firmware to close an actively exploited SSH authentication bypass.",
+    "url": "https://isc.sans.edu/diary/rss/33314",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-06T21:43:17.000Z",
+    "fetchedAt": "2026-09-07T04:35:19.304Z"
+  },
+  {
     "slug": "phishers-hide-lures-with-invisible-unicode-to-bypass-email-f-2026-09-06",
     "title": "Phishers hide lures with invisible Unicode to bypass email filters",
     "originalTitle": "Attackers conceal phishing lures using invisible Unicode characters",
@@ -3062,34 +3104,6 @@
     "altSources": [],
     "category": "threats",
     "publishedAt": "2026-08-24T05:00:18.000Z",
-    "fetchedAt": "2026-08-24T07:19:05.779Z"
-  },
-  {
-    "slug": "ransomware-crews-target-mid-market-companies-2026-08-24",
-    "title": "Ransomware crews target mid-market companies",
-    "originalTitle": "Ransomware attackers are zeroing in on mid-market companies",
-    "summary": "Mid-sized firms account for 73% of recent ransomware and data extortion incidents, tighten backups, MFA on remote access, vendor risk checks and response plans to reduce exposure.",
-    "url": "https://www.helpnetsecurity.com/2026/08/24/black-kite-mid-market-ransomware-risk-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-24T04:30:08.000Z",
-    "fetchedAt": "2026-08-24T07:19:05.779Z"
-  },
-  {
-    "slug": "aws-network-firewall-adds-rule-hit-counts-2026-08-24",
-    "title": "AWS Network Firewall adds rule hit counts",
-    "originalTitle": "AWS makes it easier to spot firewall rules that have gone quiet",
-    "summary": "Use new rule hit counts to find unused or redundant stateful rules, validate control coverage and clean up AWS Network Firewall policies, note stateless rules are not covered.",
-    "url": "https://www.helpnetsecurity.com/2026/08/24/aws-network-firewall-rule-hit-count-capability/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-08-24T04:00:25.000Z",
     "fetchedAt": "2026-08-24T07:19:05.779Z"
   }
 ]
