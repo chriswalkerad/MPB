@@ -21766,5 +21766,23 @@
     "url": "https://cybersecuritysummit.com/summits/",
     "source": "Cybersecurity Summit",
     "description": "One-day in-person summit for security leaders in New York, connect with peers and leading solution providers."
+  },
+  {
+    "name": "Social Media AppSec: ID & Defend Against Coordinated Campaigns",
+    "slug": "social-media-appsec-id-defend-against-coordinated-campaigns-2026",
+    "date": "2026-09-24T18:00:00",
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Atlanta",
+    "state": "GA",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "AppSec & DevSecOps",
+      "Threat Intelligence"
+    ],
+    "url": "https://www.meetup.com/owasp-atlanta/events/316380434/",
+    "source": "OWASP Atlanta (Meetup)",
+    "description": "OWASP Atlanta digs into how to spot and counter coordinated influence campaigns across social platforms, from shifting tactics to multilingual content. Expect practical takeaways from building a cross-platform detection pipeline."
   }
 ]
