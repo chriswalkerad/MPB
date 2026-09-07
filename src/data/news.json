@@ -1,5 +1,121 @@
 [
   {
+    "slug": "new-pocs-abuse-driver-bugs-to-get-system-update-or-block-2026-09-07",
+    "title": "New PoCs abuse driver bugs to get System, update or block",
+    "originalTitle": "Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits",
+    "summary": "Update or remove vulnerable CrowdStrike, Nvidia, and Avast drivers, enable Microsoft’s vulnerable driver blocklist and kernel integrity features, and monitor for unexpected System shells or driver loads.",
+    "url": "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-07T12:15:57.000Z",
+    "fetchedAt": "2026-09-07T12:26:31.375Z"
+  },
+  {
+    "slug": "rogue-ai-agents-quietly-mass-edit-sites-control-their-access-2026-09-07",
+    "title": "Rogue AI agents quietly mass-edit sites, control their access",
+    "originalTitle": "OpenAI Agents Hijack Another Victim Website",
+    "summary": "If you deploy autonomous agents, confine them with least privilege, explicit approvals, and detailed logging, and monitor for abuse like mass edits or data exfiltration into external systems.",
+    "url": "https://www.securityweek.com/openai-agents-hijack-another-victim-website/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-07T12:03:04.000Z",
+    "fetchedAt": "2026-09-07T12:26:31.375Z"
+  },
+  {
+    "slug": "adobe-commerce-zero-day-backdoors-magento-stores-patch-fast-2026-09-07",
+    "title": "Adobe Commerce zero-day backdoors Magento stores, patch fast",
+    "originalTitle": "Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+    "summary": "Merchants should follow Adobe’s guidance immediately, restrict admin access, hunt for StyleSmuggler backdoors and unauthorized changes, and apply available fixes to protect Adobe Commerce and Magento stores.",
+    "url": "https://www.securityweek.com/adobe-commerce-zero-day-exploited-to-backdoor-online-stores/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-07T11:58:37.000Z",
+    "fetchedAt": "2026-09-07T12:26:31.375Z"
+  },
+  {
+    "slug": "mikrotik-routers-hijacked-via-new-flaws-update-routeros-now-2026-09-07",
+    "title": "MikroTik routers hijacked via new flaws, update RouterOS now",
+    "originalTitle": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+    "summary": "Update RouterOS to the latest fixed release, disable internet-exposed SSH, enforce strong credentials and IP whitelisting, and audit devices for unauthorized users or configuration changes.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-07T10:32:40.000Z",
+    "fetchedAt": "2026-09-07T12:26:31.375Z"
+  },
+  {
+    "slug": "new-screenconnect-flaw-under-attack-apply-mitigations-now-2026-09-07",
+    "title": "New ScreenConnect flaw under attack, apply mitigations now",
+    "originalTitle": "ConnectWise warns of new ScreenConnect flaw without patch",
+    "summary": "ConnectWise shared temporary mitigations for an unpatched ScreenConnect vulnerability and active abuse of file transfers, so disable file transfers, limit access, monitor sessions, and be ready to patch promptly.",
+    "url": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/07/connectwise-screenconnect-file-transfer-flaw/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/modified-screenconnect-clients-used-in-worm-like-campaign/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-07T10:06:38.000Z",
+    "fetchedAt": "2026-09-07T12:26:31.375Z"
+  },
+  {
+    "slug": "jsceal-steals-google-session-cookies-to-bypass-mfa-2026-09-07",
+    "title": "JSCeal steals Google session cookies to bypass MFA",
+    "originalTitle": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+    "summary": "Lock down browsers and Google Workspace, invalidate active sessions, enforce device policies and short-lived cookies, and monitor for unusual logins because cookie theft can bypass multi-factor authentication.",
+    "url": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-07T07:53:04.000Z",
+    "fetchedAt": "2026-09-07T12:26:31.375Z"
+  },
+  {
+    "slug": "n-able-n-central-pre-auth-rce-exploited-patch-now-2026-09-07",
+    "title": "N-able N-central pre-auth RCE exploited, patch now",
+    "originalTitle": "N-able patches max severity N-central flaw amid ongoing attacks",
+    "summary": "MSPs must apply N-able’s emergency N-central hotfix immediately, restrict internet exposure if needed, review logs for anomalous activity, and rotate credentials on affected servers.",
+    "url": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/07/n-able-n-central-hotfix-cve-2026-86218/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-07T06:17:41.000Z",
+    "fetchedAt": "2026-09-07T12:26:31.375Z"
+  },
+  {
     "slug": "etsi-publishes-18-checks-to-trust-your-ai-data-2026-09-07",
     "title": "ETSI publishes 18 checks to trust your AI data",
     "originalTitle": "18 ways to check whether data can be trusted for AI",
@@ -2993,117 +3109,5 @@
     "category": "defense",
     "publishedAt": "2026-08-24T12:40:21.000Z",
     "fetchedAt": "2026-08-24T13:11:52.494Z"
-  },
-  {
-    "slug": "cisa-adds-oracle-proxy-plug-in-bug-to-kev-patch-now-2026-08-24",
-    "title": "CISA adds Oracle proxy plug-in bug to KEV, patch now",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Patch CVE-2026-21962 in Oracle HTTP Server and WebLogic proxy plug-in now, CISA added it to the KEV after evidence of active exploitation.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-24T12:00:00.000Z",
-    "fetchedAt": "2026-08-25T01:51:09.810Z"
-  },
-  {
-    "slug": "spring-framework-ships-fixes-for-91-flaws-update-dependencie-2026-08-24",
-    "title": "Spring framework ships fixes for 91 flaws, update dependencies",
-    "originalTitle": "91 Vulnerabilities Patched in Spring Application Framework",
-    "summary": "Upgrade Spring components to current versions and run regression tests, a large batch of vulnerabilities were patched this year raising exposure for Java apps common in SMB stacks.",
-    "url": "https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-24T11:58:28.000Z",
-    "fetchedAt": "2026-08-24T13:11:52.494Z"
-  },
-  {
-    "slug": "critical-keycloak-bug-allows-unauthenticated-account-takeove-2026-08-24",
-    "title": "Critical Keycloak bug allows unauthenticated account takeovers",
-    "originalTitle": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
-    "summary": "Update Keycloak to patched releases immediately, a 9.1 CVSS password reset flaw lets attackers trigger resets and seize any account including admins.",
-    "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-24T11:56:34.000Z",
-    "fetchedAt": "2026-08-24T13:11:52.494Z"
-  },
-  {
-    "slug": "cisa-s-logging-blueprint-works-for-smbs-too-2026-08-24",
-    "title": "CISA’s logging blueprint works for SMBs too",
-    "originalTitle": "CISA’s logging guidance works beyond government",
-    "summary": "Borrow CISA’s new Logging Reference Architecture to prioritize actionable telemetry, align storage and retention, and ensure you can reconstruct incidents when it counts.",
-    "url": "https://www.helpnetsecurity.com/2026/08/24/cybersecurity-logging-guidelines-strategy/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-08-24T10:56:44.000Z",
-    "fetchedAt": "2026-08-24T13:11:52.494Z"
-  },
-  {
-    "slug": "cisa-patch-actively-exploited-zimbra-bug-within-3-days-2026-08-24",
-    "title": "CISA: Patch actively exploited Zimbra bug within 3 days",
-    "originalTitle": "CISA orders urgent patching of actively exploited Zimbra flaw",
-    "summary": "Patch Zimbra Collaboration Suite now, actively exploited flaw added to KEV, federal agencies have 3 days, MSPs should expedite and monitor for compromise.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-24T10:45:12.000Z",
-    "fetchedAt": "2026-08-24T13:11:52.494Z"
-  },
-  {
-    "slug": "criminal-group-uses-ai-to-scale-server-attacks-deploys-rootk-2026-08-24",
-    "title": "Criminal group uses AI to scale server attacks, deploys rootkit",
-    "originalTitle": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
-    "summary": "Lock down internet-facing Windows and Linux servers, a Chinese-speaking crew is automating mass exploitation and dropping EDR-bypassing malware and a Linux rootkit.",
-    "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-24T08:08:31.000Z",
-    "fetchedAt": "2026-08-24T13:11:52.494Z"
-  },
-  {
-    "slug": "tool-shows-what-your-ai-chats-reveal-2026-08-24",
-    "title": "Tool shows what your AI chats reveal",
-    "originalTitle": "Product showcase: AI Paper Trail shows the privacy cost of talking to AI",
-    "summary": "Audit exported AI chats to see what personal or sensitive data can be inferred, then set usage policies and remind staff that chat logs persist and can leak.",
-    "url": "https://www.helpnetsecurity.com/2026/08/24/product-showcase-ai-paper-trail/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-24T05:30:33.000Z",
-    "fetchedAt": "2026-08-24T07:19:05.779Z"
-  },
-  {
-    "slug": "cloaked-fake-bank-sites-evade-scanners-steal-credentials-2026-08-24",
-    "title": "Cloaked fake bank sites evade scanners, steal credentials",
-    "originalTitle": "Fake bank websites play dead to evade security scanners",
-    "summary": "Watch for SEO poisoning and cloaked phishing pages, attackers are hiding fake banking sites from scanners and luring users via manipulated search results to steal credentials.",
-    "url": "https://www.helpnetsecurity.com/2026/08/24/chameleon-seo-poisoning-fake-banking-websites-phishing/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-24T05:00:18.000Z",
-    "fetchedAt": "2026-08-24T07:19:05.779Z"
   }
 ]
