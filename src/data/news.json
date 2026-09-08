@@ -1,5 +1,92 @@
 [
   {
+    "slug": "attackers-plant-fileless-web-shells-on-f5-big-ip-apm-via-roo-2026-09-08",
+    "title": "Attackers plant fileless web shells on F5 BIG-IP APM via rootkit",
+    "originalTitle": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
+    "summary": "Check F5 BIG-IP APM appliances for compromise and patch, attackers are deploying a Linux rootkit that hooks PHP loading to inject a fileless web shell directly into memory.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-08T20:08:55.000Z",
+    "fetchedAt": "2026-09-08T21:07:53.538Z"
+  },
+  {
+    "slug": "microsoft-ships-record-patch-tuesday-two-zero-days-exploited-2026-09-08",
+    "title": "Microsoft ships record Patch Tuesday, two zero-days exploited",
+    "originalTitle": "September 2026 Microsoft Patch Tuesday, (Tue, Sep 8th)",
+    "summary": "Prioritize deploying September Microsoft updates across Windows and server products, two privilege escalation zero-days are being exploited amid a record number of critical fixes.",
+    "url": "https://isc.sans.edu/diary/rss/33320",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/microsoft-patches-record-974-vulnerabilities-including-two-exploited-zero-days/"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-08T19:20:30.000Z",
+    "fetchedAt": "2026-09-08T21:07:53.538Z"
+  },
+  {
+    "slug": "adobe-fixes-170-flaws-commerce-zero-day-already-exploited-2026-09-08",
+    "title": "Adobe fixes 170+ flaws, Commerce zero-day already exploited",
+    "originalTitle": "Adobe Patches Over 170 Vulnerabilities, Including Commerce Zero-Day",
+    "summary": "Patch Adobe Commerce and Magento immediately, CVE-2026-75650 is exploited for unauthenticated code execution, and update Acrobat, Reader, and other Adobe apps to close high severity bugs.",
+    "url": "https://www.securityweek.com/adobe-patches-over-170-vulnerabilities-including-commerce-zero-day/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-08T18:37:17.000Z",
+    "fetchedAt": "2026-09-08T21:07:53.538Z"
+  },
+  {
+    "slug": "clickfix-phishing-abuses-legit-services-for-persistence-and-2026-09-08",
+    "title": "ClickFix phishing abuses legit services for persistence and fraud",
+    "originalTitle": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
+    "summary": "Prepare users and controls for ClickFix-style social engineering, attackers abuse legitimate services to persist and steal, tighten OAuth and automation rules, monitor consent and rule changes, block risky domains.",
+    "url": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-08T17:25:37.000Z",
+    "fetchedAt": "2026-09-08T21:07:53.538Z"
+  },
+  {
+    "slug": "hidden-prompts-can-hijack-ai-agents-trigger-unsafe-actions-2026-09-08",
+    "title": "Hidden prompts can hijack AI agents, trigger unsafe actions",
+    "originalTitle": "The Hidden Instructions That Can Hijack AI Agents",
+    "summary": "Harden autonomous AI agents you deploy, hidden prompts in files and metadata can steer agents into dangerous actions, sanitize inputs, constrain permissions, and require human approval for sensitive tasks.",
+    "url": "https://www.securityweek.com/the-hidden-instructions-that-can-hijack-ai-agents/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-08T17:00:00.000Z",
+    "fetchedAt": "2026-09-08T21:07:53.538Z"
+  },
+  {
     "slug": "sap-ships-fix-for-max-severity-kernel-bug-deploy-quickly-2026-09-08",
     "title": "SAP ships fix for max-severity kernel bug, deploy quickly",
     "originalTitle": "SAP Patches Critical Extended Passport Processing Vulnerability",
@@ -68,6 +155,34 @@
     "category": "ai-security",
     "publishedAt": "2026-09-08T12:03:03.000Z",
     "fetchedAt": "2026-09-08T16:36:48.432Z"
+  },
+  {
+    "slug": "cisa-adds-adobe-commerce-and-windows-bugs-to-kev-patch-fast-2026-09-08",
+    "title": "CISA adds Adobe Commerce and Windows bugs to KEV, patch fast",
+    "originalTitle": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "summary": "Treat these newly added KEV flaws as must patch, Adobe Commerce CVE-2026-75650 and Windows vulnerabilities are under active exploitation, set remediation deadlines and verify coverage across environments.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "fetchedAt": "2026-09-08T21:07:53.538Z"
+  },
+  {
+    "slug": "cisa-china-ai-firms-mass-scraping-models-via-knowledge-disti-2026-09-08",
+    "title": "CISA: China AI firms mass-scraping models via knowledge distillation",
+    "originalTitle": "China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies",
+    "summary": "Lock down your AI model endpoints, CISA warns China-based firms are systematically distilling proprietary capabilities from U.S. models, enforce auth, rate limits, anomaly detection, and contract controls to prevent extraction.",
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "fetchedAt": "2026-09-08T21:07:53.538Z"
   },
   {
     "slug": "cisa-carecam-pro-ip-cams-have-hardcoded-creds-replace-or-iso-2026-09-08",
@@ -2958,48 +3073,6 @@
     "altSources": [],
     "category": "ai-security",
     "publishedAt": "2026-08-25T21:08:55.000Z",
-    "fetchedAt": "2026-08-26T01:57:41.998Z"
-  },
-  {
-    "slug": "voice-bots-steal-iphone-passcodes-bypass-activation-lock-2026-08-25",
-    "title": "Voice bots steal iPhone passcodes, bypass Activation Lock",
-    "originalTitle": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
-    "summary": "Warn staff never to share Apple passcodes over calls and enforce fast remote lock via MDM, a new PhaaS uses AI voice agents to defeat Activation Lock on stolen devices.",
-    "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-25T20:25:26.000Z",
-    "fetchedAt": "2026-08-26T01:57:41.998Z"
-  },
-  {
-    "slug": "openclaw-bug-exposes-ollama-api-risks-llm-poisoning-2026-08-25",
-    "title": "OpenClaw bug exposes Ollama API, risks LLM poisoning",
-    "originalTitle": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
-    "summary": "Restrict and authenticate access to local Ollama APIs and apply fixes, a networking flaw in NVIDIA OpenClaw lets attackers reach model servers and poison AI agents persistently.",
-    "url": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-25T19:50:16.000Z",
-    "fetchedAt": "2026-08-26T01:57:41.998Z"
-  },
-  {
-    "slug": "paylogix-breach-exposes-financial-and-health-data-2026-08-25",
-    "title": "Paylogix breach exposes financial and health data",
-    "originalTitle": "Employee benefits platform Paylogix says hackers stole financial and health data",
-    "summary": "Check if your org or brokers use Paylogix, attackers stole sensitive benefits data on tens of thousands, start fraud monitoring, rotate credentials, and review regulatory and notification obligations.",
-    "url": "https://therecord.media/paylogix-cyberattack-akira-ransomware",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-25T18:45:00.000Z",
     "fetchedAt": "2026-08-26T01:57:41.998Z"
   }
 ]
