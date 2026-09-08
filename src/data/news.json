@@ -1,5 +1,80 @@
 [
   {
+    "slug": "metabase-flaw-leads-to-mathspace-breach-of-1m-records-2026-09-08",
+    "title": "Metabase flaw leads to Mathspace breach of 1M+ records",
+    "originalTitle": "Mathspace Data Breach Exposes Over 1 Million People",
+    "summary": "If you self-host Metabase, patch and lock down admin access, attackers abused an unpatched instance to steal student, parent, and staff data from Mathspace.",
+    "url": "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/08/mathspace-data-breach-metabase-vulnerability/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-08T10:47:36.000Z",
+    "fetchedAt": "2026-09-08T11:13:56.088Z"
+  },
+  {
+    "slug": "n-able-n-central-zero-day-patched-check-for-rogue-accounts-2026-09-08",
+    "title": "N-able N-central zero-day patched, check for rogue accounts",
+    "originalTitle": "N-able Patches Critical Zero-Day in N-central",
+    "summary": "Patch N-central immediately and audit for unexpected user accounts, a critical zero-day is being exploited to create rogue logins on managed environments.",
+    "url": "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-08T10:37:58.000Z",
+    "fetchedAt": "2026-09-08T11:13:56.088Z"
+  },
+  {
+    "slug": "patch-magento-now-zero-day-exploited-to-drop-backdoors-2026-09-08",
+    "title": "Patch Magento now, zero-day exploited to drop backdoors",
+    "originalTitle": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
+    "summary": "Update Adobe Commerce and Magento Open Source to fix CVE-2026-75650, attackers are actively planting Rust backdoors and PHP web shells via StyleSmuggler.",
+    "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-08T09:13:47.000Z",
+    "fetchedAt": "2026-09-08T11:13:56.088Z"
+  },
+  {
+    "slug": "bing-seo-poisoning-pushes-malware-and-fake-support-scams-2026-09-08",
+    "title": "Bing SEO poisoning pushes malware and fake support scams",
+    "originalTitle": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
+    "summary": "Block suspicious search results and tighten browser protections, a long-running BengalSEO campaign is hijacking Bing rankings to deliver MayaBot loaders and tech support fraud.",
+    "url": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-08T08:43:51.000Z",
+    "fetchedAt": "2026-09-08T11:13:56.088Z"
+  },
+  {
+    "slug": "microsoft-brings-30b-parameter-local-ai-to-windows-dev-pcs-2026-09-08",
+    "title": "Microsoft brings 30B-parameter local AI to Windows dev PCs",
+    "originalTitle": "Microsoft’s Project Zenith puts large AI models directly on developer PCs",
+    "summary": "Expect clients to ask about on-device LLMs, Project Zenith runs large models locally which can reduce data leakage risks but increases endpoint performance, policy, and update management needs.",
+    "url": "https://www.helpnetsecurity.com/2026/09/08/microsoft-project-zenith-windows-11-experience/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-08T04:30:33.000Z",
+    "fetchedAt": "2026-09-08T11:13:56.088Z"
+  },
+  {
     "slug": "magento-zero-day-stylesmuggler-exploited-to-plant-linux-back-2026-09-07",
     "title": "Magento zero-day StyleSmuggler exploited to plant Linux backdoor",
     "originalTitle": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
@@ -2964,75 +3039,5 @@
     "category": "threats",
     "publishedAt": "2026-08-25T11:56:15.000Z",
     "fetchedAt": "2026-08-25T13:10:35.590Z"
-  },
-  {
-    "slug": "wordpress-sso-plugin-flaws-let-attackers-log-in-as-admins-2026-08-25",
-    "title": "WordPress SSO plugin flaws let attackers log in as admins",
-    "originalTitle": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
-    "summary": "Update or disable vulnerable miniOrange SAML 2.0 SSO versions and review logs, unauthenticated bugs let attackers authenticate as any user including administrators.",
-    "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-25T08:34:07.000Z",
-    "fetchedAt": "2026-08-25T13:10:35.590Z"
-  },
-  {
-    "slug": "cisa-oracle-weblogic-flaw-under-attack-patch-now-2026-08-25",
-    "title": "CISA: Oracle WebLogic flaw under attack, patch now",
-    "originalTitle": "CISA Warns of Exploited Oracle WebLogic Vulnerability",
-    "summary": "Apply Oracle's July 2026 patch for CVE-2026-21962 and limit WebLogic exposure, CISA reports widespread exploitation against internet-facing servers.",
-    "url": "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-25T07:46:34.000Z",
-    "fetchedAt": "2026-08-25T13:10:35.590Z"
-  },
-  {
-    "slug": "patch-now-cisa-flags-oracle-weblogic-flaw-under-active-attac-2026-08-25",
-    "title": "Patch now: CISA flags Oracle WebLogic flaw under active attack",
-    "originalTitle": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
-    "summary": "CVE-2026-21962 in Oracle WebLogic and Oracle HTTP Server is on CISA’s KEV list, unauthenticated attackers can access critical data, patch or mitigate immediately.",
-    "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-25T06:12:35.000Z",
-    "fetchedAt": "2026-08-25T07:07:17.039Z"
-  },
-  {
-    "slug": "secure-ai-supply-chains-by-starting-with-your-dev-pipelines-2026-08-25",
-    "title": "Secure AI supply chains by starting with your dev pipelines",
-    "originalTitle": "AI supply chain risk is showing up in developer workflows first",
-    "summary": "AI supply chain risk is hitting developer workflows first, so lock down CI and package sources, segment access, and avoid self-hosted models you cannot isolate properly.",
-    "url": "https://www.helpnetsecurity.com/2026/08/25/jaushin-lee-ai-zentera-systems-supply-chain-risk/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-25T06:00:50.000Z",
-    "fetchedAt": "2026-08-25T07:07:17.039Z"
-  },
-  {
-    "slug": "free-tool-hol-guard-pauses-risky-ai-agent-actions-locally-2026-08-25",
-    "title": "Free tool HOL Guard pauses risky AI agent actions locally",
-    "originalTitle": "HOL Guard: Open-source antivirus for AI agents",
-    "summary": "If you are testing AI agents on endpoints, HOL Guard runs locally to intercept risky commands and prompts for approval, reducing blast radius without internet or cloud reliance.",
-    "url": "https://www.helpnetsecurity.com/2026/08/25/hol-guard-open-source-antivirus-ai-agents/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-25T05:30:35.000Z",
-    "fetchedAt": "2026-08-25T07:07:17.039Z"
   }
 ]
