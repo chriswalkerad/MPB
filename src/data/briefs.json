@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-08",
+    "date": "2026-09-08",
+    "title": "Patch sprint for SAP, FreeIPA, Magento, and MikroTik",
+    "intro": "Busy day: multiple high impact fixes, one zero day already in play. Tighten identity workflows and risky integrations while you patch.",
+    "items": [
+      {
+        "heading": "SAP ships fix for kernel RCE, apply now",
+        "body": "SAP’s September updates include a maximum severity kernel bug that enables unauthenticated remote command execution, secret access, and data tampering across affected systems. If you run SAP anywhere, treat this as urgent. Patch immediately, restrict network exposure, and watch logs for odd processes or changed accounts.",
+        "url": "https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "sap-ships-fix-for-max-severity-kernel-bug-deploy-quickly-2026-09-08"
+      },
+      {
+        "heading": "FreeIPA bug chain gives instant domain admin",
+        "body": "A two flaw chain lets unauthenticated clients create chosen Kerberos identities that land in the administrators group, granting full domain control. Linux estates using FreeIPA and 389 Directory Server are at high risk. Update both now, audit for unexpected principals or admin group changes, and rotate keys if anything looks off.",
+        "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "freeipa-flaw-chain-lets-anyone-mint-admin-creds-patch-now-2026-09-08"
+      },
+      {
+        "heading": "Magento zero day is being used to backdoor stores",
+        "body": "CVE-2026-75650 is under active attack against Adobe Commerce and Magento to implant backdoors, which can end in full site takeover. If you support e commerce clients, assume attackers are scanning already. Patch right away, restrict admin access to trusted networks, add WAF rules, and hunt for unfamiliar files or users.",
+        "url": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "patch-now-magento-zero-day-actively-exploited-to-backdoor-st-2026-09-08"
+      },
+      {
+        "heading": "MikroTik router flaws chained for takeover",
+        "body": "New RouterOS fixes address a chain that can bypass authentication and overwrite configurations, giving attackers full control of MikroTik devices. Edge gear is a favorite foothold. Upgrade now, pull management off the internet, limit admin to VPN or allow lists, and review configs for unauthorized changes.",
+        "url": "https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "mikrotik-patches-router-flaws-chained-for-takeover-update-fa-2026-09-08"
+      },
+      {
+        "heading": "CISA flags CareCam Pro cameras with hardcoded creds",
+        "body": "CareCam Pro IP cameras include hardcoded credentials that allow full device takeover. Treat them as compromised by design. Isolate them from the internet, segment from production networks, and plan to replace them as soon as possible.",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01",
+        "source": "CISA Advisories",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-carecam-pro-ip-cams-have-hardcoded-creds-replace-or-iso-2026-09-08"
+      },
+      {
+        "heading": "Help desk vishing stealing M365 session tokens",
+        "body": "Attackers are impersonating IT, coercing support workflows, and using residential proxies to reuse stolen session tokens to raid Microsoft 365 and other SaaS data. The weak link is often verification at the help desk. Train staff, require strong identity checks, restrict help desk powers to reset MFA or issue tokens, and revoke active sessions when fraud is suspected.",
+        "url": "https://www.helpnetsecurity.com/2026/09/08/vishing-microsoft-365-data-theft-extortion/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "help-desk-vishing-is-stealing-m365-tokens-and-data-lock-it-d-2026-09-08"
+      },
+      {
+        "heading": "Threat actors use AI agents to scale credential theft",
+        "body": "Google reports adversaries adopting multi agent frameworks to automate phishing, scanning, and troubleshooting, which speeds up credential theft and persistence. Expect faster, noisier campaigns. Push phishing resistant MFA, tighten anomaly detection, and shorten token lifetimes with regular rotation.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "attackers-roll-out-ai-agents-to-harvest-creds-at-scale-2026-09-08"
+      },
+      {
+        "heading": "Prompt injection in ChatGPT leaked Gmail via integrations",
+        "body": "A hidden prompt was able to read data from a user’s linked Gmail and exfiltrate it to another account without obvious signs. If you connect AI tools to mailboxes or SaaS, assume prompts can be abused. Review and restrict ChatGPT integrations, minimize scopes, disable Gmail connectors where not needed, and regularly audit third party access tokens.",
+        "url": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "prompt-injection-in-chatgpt-leaked-gmail-from-connected-acco-2026-09-08"
+      }
+    ],
+    "signOff": "Good luck, patches wait for no one.",
+    "generatedAt": "2026-09-08T17:16:59.358Z"
+  },
+  {
     "slug": "2026-09-07",
     "date": "2026-09-07",
     "title": "RMMs and routers under fire, patch and lock down now",
