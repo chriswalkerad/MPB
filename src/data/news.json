@@ -3034,33 +3034,5 @@
     "category": "ai-security",
     "publishedAt": "2026-08-25T05:30:35.000Z",
     "fetchedAt": "2026-08-25T07:07:17.039Z"
-  },
-  {
-    "slug": "tcg-publishes-buyer-test-rules-for-quantum-ready-tpms-2026-08-25",
-    "title": "TCG publishes buyer test rules for quantum-ready TPMs",
-    "originalTitle": "New TCG guidance gives buyers a way to test PQC-ready TPM claims",
-    "summary": "Trusted Computing Group now defines requirements for PQC-ready TPMs, so buyers can demand evidence from vendors and start aligning hardware purchases with post-quantum roadmaps.",
-    "url": "https://www.helpnetsecurity.com/2026/08/25/trusted-computing-group-pqc-ready-tpm/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-08-25T04:30:42.000Z",
-    "fetchedAt": "2026-08-25T07:07:17.039Z"
-  },
-  {
-    "slug": "zimbra-exploit-in-the-wild-patch-within-3-days-2026-08-24",
-    "title": "Zimbra exploit in the wild, patch within 3 days",
-    "originalTitle": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
-    "summary": "Patch Zimbra CVE-2026-73570 within three days, CISA says attackers are actively exploiting it to take over user email and communications.",
-    "url": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-24T21:46:55.000Z",
-    "fetchedAt": "2026-08-25T01:51:09.810Z"
   }
 ]
