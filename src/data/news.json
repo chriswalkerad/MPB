@@ -1,5 +1,131 @@
 [
   {
+    "slug": "sap-ships-fix-for-max-severity-kernel-bug-deploy-quickly-2026-09-08",
+    "title": "SAP ships fix for max-severity kernel bug, deploy quickly",
+    "originalTitle": "SAP Patches Critical Extended Passport Processing Vulnerability",
+    "summary": "Apply SAP’s September updates now, a critical kernel flaw allows unauthenticated remote command execution, secret theft, and data tampering across impacted SAP systems.",
+    "url": "https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-08T14:55:06.000Z",
+    "fetchedAt": "2026-09-08T16:36:48.432Z"
+  },
+  {
+    "slug": "prompt-injection-in-chatgpt-leaked-gmail-from-connected-acco-2026-09-08",
+    "title": "Prompt injection in ChatGPT leaked Gmail from connected accounts",
+    "originalTitle": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
+    "summary": "Review and restrict ChatGPT integrations, Check Point showed a hidden prompt could read data from a user’s linked Gmail and exfiltrate it to another account without obvious signs.",
+    "url": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-08T14:19:17.000Z",
+    "fetchedAt": "2026-09-08T16:36:48.432Z"
+  },
+  {
+    "slug": "patch-now-magento-zero-day-actively-exploited-to-backdoor-st-2026-09-08",
+    "title": "Patch now: Magento zero-day actively exploited to backdoor stores",
+    "originalTitle": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
+    "summary": "Update Adobe Commerce and Magento immediately, CVE-2026-75650 is under active attack to plant backdoors on e-commerce servers and can lead to full site compromise.",
+    "url": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-08T13:34:47.000Z",
+    "fetchedAt": "2026-09-08T16:36:48.432Z"
+  },
+  {
+    "slug": "attackers-roll-out-ai-agents-to-harvest-creds-at-scale-2026-09-08",
+    "title": "Attackers roll out AI agents to harvest creds at scale",
+    "originalTitle": "Hackers build AI frameworks for widescale credential theft",
+    "summary": "Expect faster phishing and scanning, Google reports threat actors using multi-agent frameworks to automate credential theft and troubleshooting, so boost MFA, anomaly detection, and token hygiene.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/08/ai-agents-cyberattacks-automation-google-research/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-08T12:03:03.000Z",
+    "fetchedAt": "2026-09-08T16:36:48.432Z"
+  },
+  {
+    "slug": "cisa-carecam-pro-ip-cams-have-hardcoded-creds-replace-or-iso-2026-09-08",
+    "title": "CISA: CareCam Pro IP cams have hardcoded creds, replace or isolate",
+    "originalTitle": "CareCam Pro IP Cameras",
+    "summary": "If you manage CareCam Pro cameras, treat them as compromised by design, hardcoded credentials allow full device takeover so segment, restrict internet access, and plan to swap them out.",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "fetchedAt": "2026-09-08T16:36:48.432Z"
+  },
+  {
+    "slug": "freeipa-flaw-chain-lets-anyone-mint-admin-creds-patch-now-2026-09-08",
+    "title": "FreeIPA flaw chain lets anyone mint admin creds, patch now",
+    "originalTitle": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
+    "summary": "Update FreeIPA and 389 Directory Server promptly, a two-bug chain lets unauthenticated clients create chosen Kerberos identities that land in the administrators group, enabling full domain control.",
+    "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-08T11:22:07.000Z",
+    "fetchedAt": "2026-09-08T16:36:48.432Z"
+  },
+  {
+    "slug": "help-desk-vishing-is-stealing-m365-tokens-and-data-lock-it-d-2026-09-08",
+    "title": "Help-desk vishing is stealing M365 tokens and data, lock it down",
+    "originalTitle": "IT help-desk vishing tricks executives into handing over Microsoft 365 access",
+    "summary": "Train staff and tighten support workflows now, attackers impersonate IT, hijack help-desk flows, and use stolen session tokens via residential proxies to loot Microsoft 365 and SaaS accounts.",
+    "url": "https://www.helpnetsecurity.com/2026/09/08/vishing-microsoft-365-data-theft-extortion/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-08T11:17:28.000Z",
+    "fetchedAt": "2026-09-08T16:36:48.432Z"
+  },
+  {
+    "slug": "mikrotik-patches-router-flaws-chained-for-takeover-update-fa-2026-09-08",
+    "title": "MikroTik patches router flaws chained for takeover, update fast",
+    "originalTitle": "MikroTik Patches Critical Flaws Chained to Hack Routers",
+    "summary": "Upgrade RouterOS and block internet-exposed management, the MikroTrick bug chain lets attackers bypass auth and overwrite configs to seize control of MikroTik devices.",
+    "url": "https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-08T11:15:00.000Z",
+    "fetchedAt": "2026-09-08T16:36:48.432Z"
+  },
+  {
     "slug": "metabase-flaw-leads-to-mathspace-breach-of-1m-records-2026-09-08",
     "title": "Metabase flaw leads to Mathspace breach of 1M+ records",
     "originalTitle": "Mathspace Data Breach Exposes Over 1 Million People",
@@ -2875,169 +3001,5 @@
     "category": "threats",
     "publishedAt": "2026-08-25T18:45:00.000Z",
     "fetchedAt": "2026-08-26T01:57:41.998Z"
-  },
-  {
-    "slug": "linux-foundation-adopts-trace-for-ai-runtime-attestation-2026-08-25",
-    "title": "Linux Foundation adopts TRACE for AI runtime attestation",
-    "originalTitle": "Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation",
-    "summary": "Track TRACE adoption with your AI vendors, this Linux Foundation standard from AMD Intel and Microsoft aims to attest AI runtimes at execution, improving supply chain trust and oversight.",
-    "url": "https://www.securityweek.com/linux-foundation-to-govern-trace-an-open-standard-for-ai-runtime-attestation/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-25T16:23:45.000Z",
-    "fetchedAt": "2026-08-25T18:56:22.112Z"
-  },
-  {
-    "slug": "attackers-bypass-ssrf-filters-using-hostnames-2026-08-25",
-    "title": "Attackers bypass SSRF filters using hostnames",
-    "originalTitle": "Obfuscating IP Addresses as Hostnames, (Tue, Aug 25th)",
-    "summary": "Audit SSRF defenses now, attackers bypass IP-based filters by using hostnames to reach 169.254.169.254, enforce DNS controls and outbound allowlists instead of brittle string matches.",
-    "url": "https://isc.sans.edu/diary/rss/33280",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-08-25T15:03:33.000Z",
-    "fetchedAt": "2026-08-25T18:56:22.112Z"
-  },
-  {
-    "slug": "nvidia-nemoclaw-bug-lets-webpages-hijack-local-ai-agents-2026-08-25",
-    "title": "NVIDIA NemoClaw bug lets webpages hijack local AI agents",
-    "originalTitle": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
-    "summary": "Lock down or update NemoClaw and local Ollama agents, a malicious webpage can take unauthenticated control and plant hidden instructions, exposing users to persistent model compromise.",
-    "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-25T14:07:37.000Z",
-    "fetchedAt": "2026-08-25T18:56:22.112Z"
-  },
-  {
-    "slug": "miniorange-saml-sso-auth-bypass-hits-wordpress-sites-2026-08-25",
-    "title": "MiniOrange SAML SSO auth bypass hits WordPress sites",
-    "originalTitle": "WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities",
-    "summary": "Disable or patch the MiniOrange SAML 2.0 SSO plugin now, CVE-2026-61979 and CVE-2026-15981 allow authentication bypass and attackers are actively targeting WordPress sites.",
-    "url": "https://www.securityweek.com/wordpress-websites-targeted-via-miniorange-plugin-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-25T13:33:12.000Z",
-    "fetchedAt": "2026-08-25T18:56:22.112Z"
-  },
-  {
-    "slug": "whatsapp-adds-multi-passkey-support-and-stronger-2sv-2026-08-25",
-    "title": "WhatsApp adds multi-passkey support and stronger 2SV",
-    "originalTitle": "WhatsApp adds stronger two-step verification, multiple passkeys",
-    "summary": "Encourage users to switch to passkeys and tighten two-step verification, WhatsApp is rolling out multiple passkeys per account plus improved 2SV options.",
-    "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/whatsapp-adds-multiple-passkeys-and-stronger-2sv-in-account-security-update/"
-      }
-    ],
-    "category": "defense",
-    "publishedAt": "2026-08-25T13:00:00.000Z",
-    "fetchedAt": "2026-08-25T13:10:35.590Z"
-  },
-  {
-    "slug": "fake-openai-codex-download-plants-macos-malware-via-terminal-2026-08-25",
-    "title": "Fake OpenAI Codex download plants macOS malware via Terminal",
-    "originalTitle": "Fake OpenAI Codex download tricks macOS users into installing malware",
-    "summary": "Block malicious ads and warn developers, a sponsored ad leads to a fake Codex site that convinces macOS users to paste a Terminal command installing malware.",
-    "url": "https://www.helpnetsecurity.com/2026/08/25/fake-openai-codex-download-macos-users/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-25T12:40:44.000Z",
-    "fetchedAt": "2026-08-25T13:10:35.590Z"
-  },
-  {
-    "slug": "zimbra-rce-exploited-270-servers-breached-2026-08-25",
-    "title": "Zimbra RCE exploited, 270+ servers breached",
-    "originalTitle": "Hackers breached over 270 Zimbra servers in ongoing attacks",
-    "summary": "Patch CVE-2026-73570 immediately and hunt for webshells, attackers are mass exploiting unpatched Zimbra Collaboration servers and have already compromised at least 270 instances.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-25T12:04:02.000Z",
-    "fetchedAt": "2026-08-25T13:10:35.590Z"
-  },
-  {
-    "slug": "cisa-zoneminder-rce-patch-now-2026-08-25",
-    "title": "CISA: ZoneMinder RCE, patch now",
-    "originalTitle": "Zoneminder",
-    "summary": "Update ZoneMinder to a fixed version and block Internet exposure, command injection in 1.37.48 and 1.38.3 allows remote code execution as the web server user.",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-02",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-25T12:00:00.000Z",
-    "fetchedAt": "2026-08-26T01:57:41.998Z"
-  },
-  {
-    "slug": "patch-gitea-now-cisa-adds-code-injection-bug-to-kev-2026-08-25",
-    "title": "Patch Gitea now, CISA adds code injection bug to KEV",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Patch or disable Gitea immediately, CISA added CVE-2026-60004 to the Known Exploited list indicating active exploitation, expect mass scanning against exposed code hosting servers.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/08/25/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-25T12:00:00.000Z",
-    "fetchedAt": "2026-08-25T18:56:22.112Z"
-  },
-  {
-    "slug": "cisa-tale-of-two-socs-offers-hard-lessons-for-defenders-2026-08-25",
-    "title": "CISA Tale of Two SOCs offers hard lessons for defenders",
-    "originalTitle": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
-    "summary": "Read and apply CISA guidance, two simultaneous red team ops achieved domain compromise but stronger telemetry, segmentation and rapid response drastically limited impact at one organization.",
-    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-08-25T12:00:00.000Z",
-    "fetchedAt": "2026-08-25T18:56:22.112Z"
-  },
-  {
-    "slug": "mirage2fa-phishing-blitz-abuses-m365-login-bypasses-mfa-2026-08-25",
-    "title": "Mirage2FA phishing blitz abuses M365 login, bypasses MFA",
-    "originalTitle": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
-    "summary": "Enforce phishing-resistant MFA and Conditional Access, a large PaaS campaign is stealing Microsoft 365 credentials by relaying legitimate login flows to sidestep 2FA.",
-    "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-25T11:56:15.000Z",
-    "fetchedAt": "2026-08-25T13:10:35.590Z"
   }
 ]
