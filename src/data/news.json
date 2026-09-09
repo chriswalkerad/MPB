@@ -1,5 +1,112 @@
 [
   {
+    "slug": "ivanti-patches-critical-rces-in-neurons-itsm-epmm-and-sentry-2026-09-09",
+    "title": "Ivanti patches critical RCEs in Neurons ITSM, EPMM and Sentry",
+    "originalTitle": "Ivanti Patches Critical Flaws Across Enterprise Security Products",
+    "summary": "Update Ivanti Neurons for ITSM, Sentry, and EPMM now, multiple critical bugs enable RCE and auth bypass, and internet-facing Ivanti gear has a history of rapid exploitation.",
+    "url": "https://www.securityweek.com/ivanti-patches-critical-flaws-across-enterprise-security-products/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-09T10:28:34.000Z",
+    "fetchedAt": "2026-09-09T11:19:13.349Z"
+  },
+  {
+    "slug": "new-phishing-trick-builds-malicious-pages-inside-the-browser-2026-09-09",
+    "title": "New phishing trick builds malicious pages inside the browser",
+    "originalTitle": "New Phishing Attack Creates Malicious Pages Inside the Victim’s Browser",
+    "summary": "Expect phishing that spawns malicious pages inside the victim browser via blob URLs and Microsoft services, so rely on MFA, Conditional Access, and user coaching rather than simple URL blocking.",
+    "url": "https://www.securityweek.com/new-phishing-attack-creates-malicious-pages-inside-the-victims-browser/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-09T10:00:00.000Z",
+    "fetchedAt": "2026-09-09T11:19:13.349Z"
+  },
+  {
+    "slug": "chrome-153-fixes-actively-exploited-v8-zero-day-update-now-2026-09-09",
+    "title": "Chrome 153 fixes actively exploited V8 zero-day, update now",
+    "originalTitle": "Chrome 153 Patches Seventh Zero-Day of 2026",
+    "summary": "Push Chrome 153 to all endpoints today, it fixes an actively exploited V8 zero-day (CVE-2026-87491) among 230 bugs, so restart browsers and verify version 153.0.8010.36 or newer.",
+    "url": "https://www.securityweek.com/chrome-153-patches-seventh-zero-day-of-2026/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/09/google-chrome-cve-2026-87491-zero-day-flaw/"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-09T09:45:00.000Z",
+    "fetchedAt": "2026-09-09T11:19:13.349Z"
+  },
+  {
+    "slug": "cpanel-bug-lets-mail-user-run-code-as-root-update-fast-2026-09-09",
+    "title": "cPanel bug lets mail user run code as root, update fast",
+    "originalTitle": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+    "summary": "Patch all supported cPanel and WHM versions quickly, a flaw lets an authenticated mail account write files and execute code as root via EmailTrack.",
+    "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-09T08:19:32.000Z",
+    "fetchedAt": "2026-09-09T11:19:13.349Z"
+  },
+  {
+    "slug": "new-microsoft-defender-zero-day-poc-grants-system-no-patch-y-2026-09-09",
+    "title": "New Microsoft Defender zero-day PoC grants SYSTEM, no patch yet",
+    "originalTitle": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+    "summary": "Treat Microsoft Defender ShieldCrash as high risk, a new PoC grants SYSTEM by bypassing last month’s fix, so monitor for Defender crashes and await guidance while limiting local admin rights.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-09T07:30:15.000Z",
+    "fetchedAt": "2026-09-09T11:19:13.349Z"
+  },
+  {
+    "slug": "microsoft-ships-record-974-fixes-two-zero-days-exploited-2026-09-09",
+    "title": "Microsoft ships record 974 fixes, two zero-days exploited",
+    "originalTitle": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
+    "summary": "Prioritize September Patch Tuesday, Microsoft fixed a record 974 flaws including two exploited zero-days, so fast-track Windows and Office updates and schedule maintenance for critical servers.",
+    "url": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/09/september-2026-patch-tuesday-zero-days-sigred-successor/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-09T04:41:29.000Z",
+    "fetchedAt": "2026-09-09T11:19:13.349Z"
+  },
+  {
     "slug": "bleachbit-fixes-windows-secure-wipe-bug-update-and-re-shred-2026-09-09",
     "title": "BleachBit fixes Windows secure wipe bug, update and re-shred",
     "originalTitle": "BleachBit 6.0.4 fixes secure wiping that skipped clusters on Windows",
@@ -12,6 +119,20 @@
     "category": "defense",
     "publishedAt": "2026-09-09T04:35:38.000Z",
     "fetchedAt": "2026-09-09T04:37:59.014Z"
+  },
+  {
+    "slug": "n-able-n-central-pre-auth-rce-exploited-patch-now-2026-09-09",
+    "title": "N-able N-central pre-auth RCE exploited, patch now",
+    "originalTitle": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+    "summary": "Patch N-able N-central now, a pre-auth RCE (CVE-2026-86218) is exploited in the wild and CISA put it on KEV, so fix or isolate exposed servers immediately.",
+    "url": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-09T04:27:51.000Z",
+    "fetchedAt": "2026-09-09T11:19:13.349Z"
   },
   {
     "slug": "record-patch-tuesday-two-exploited-microsoft-bugs-2026-09-08",
@@ -3012,94 +3133,6 @@
     "altSources": [],
     "category": "vulnerabilities",
     "publishedAt": "2026-08-26T11:55:00.000Z",
-    "fetchedAt": "2026-08-26T13:15:01.245Z"
-  },
-  {
-    "slug": "gitea-rce-under-active-exploit-patch-now-to-1-27-1-2026-08-26",
-    "title": "Gitea RCE under active exploit, patch now to 1.27.1+",
-    "originalTitle": "Hackers now exploit critical Gitea flaw in code injection attacks",
-    "summary": "CVE-2026-60004 lets repo writers run shell commands on servers, CISA added it to KEV, update Gitea to 1.27.1+, audit repos and restrict write access.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/08/26/gitea-cve-2026-60004-exploited-in-the-wild/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-26T11:07:48.000Z",
-    "fetchedAt": "2026-08-26T13:15:01.245Z"
-  },
-  {
-    "slug": "fake-recruiters-use-mobile-bitb-to-steal-corporate-logins-2026-08-26",
-    "title": "Fake recruiters use mobile BitB to steal corporate logins",
-    "originalTitle": "Bogus recruiters go after high-value corporate credentials on mobile",
-    "summary": "Train staff to avoid interview scheduling links on mobile, favor managed browsers, enforce phishing-resistant MFA, and block unknown OAuth app approvals in IdPs.",
-    "url": "https://www.helpnetsecurity.com/2026/08/26/recruitment-scam-corporate-passwords-mobile/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-26T10:05:55.000Z",
-    "fetchedAt": "2026-08-26T13:15:01.245Z"
-  },
-  {
-    "slug": "chrome-152-fixes-300-bugs-push-the-update-today-2026-08-26",
-    "title": "Chrome 152 fixes 300+ bugs, push the update today",
-    "originalTitle": "Chrome 152 Patches Over 300 Vulnerabilities",
-    "summary": "Roll out Chrome 152 across Windows, macOS and Linux, over 300 vulnerabilities are patched, require a browser restart and consider disabling old Chrome versions via policy.",
-    "url": "https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-26T09:50:34.000Z",
-    "fetchedAt": "2026-08-26T13:15:01.245Z"
-  },
-  {
-    "slug": "whatsapp-adds-stronger-2-step-verification-and-passkeys-2026-08-26",
-    "title": "WhatsApp adds stronger 2-step verification and passkeys",
-    "originalTitle": "Meta adds three new features to keep WhatsApp accounts secure",
-    "summary": "If your teams use WhatsApp, enable the new 2SV controls, review caller info for unknown numbers and add multiple passkeys per account to cut takeover risk.",
-    "url": "https://www.helpnetsecurity.com/2026/08/26/meta-whatsapp-security-enhancements/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-08-26T07:52:05.000Z",
-    "fetchedAt": "2026-08-26T13:15:01.245Z"
-  },
-  {
-    "slug": "ai-voice-phish-steals-iphone-passcodes-to-defeat-activation-2026-08-26",
-    "title": "AI voice phish steals iPhone passcodes to defeat Activation Lock",
-    "originalTitle": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
-    "summary": "Criminals are robocalling theft victims as fake Apple Support to collect device passcodes and 2FA codes, remind users Apple never asks for them and lock down Apple IDs.",
-    "url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/08/26/anonymouskit-phishing-stolen-iphone/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-08-26T05:47:28.000Z",
     "fetchedAt": "2026-08-26T13:15:01.245Z"
   }
 ]
