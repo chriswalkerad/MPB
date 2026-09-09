@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-09",
+    "date": "2026-09-09",
+    "title": "Patch Pileup, Help Desk Hustles, and AI Key Risk",
+    "intro": "Big patch load and fresh social engineering angles. Plan your updates, tighten identity recovery, and watch those API keys.",
+    "items": [
+      {
+        "heading": "Ivanti ships critical fixes across Neurons, EPMM, Sentry",
+        "body": "Update Ivanti Neurons for ITSM, EPMM, and Sentry immediately, multiple critical issues allow remote code execution and auth bypass. Internet exposed Ivanti gear gets targeted fast, reduce exposure until patched and follow the vendor advisory. Patch, then review logs and access controls for any odd admin or system activity.",
+        "url": "https://www.securityweek.com/ivanti-patches-critical-flaws-across-enterprise-security-products/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "ivanti-patches-critical-rces-in-neurons-itsm-epmm-and-sentry-2026-09-09"
+      },
+      {
+        "heading": "FortiMonitorOnSight and extension auth bypass",
+        "body": "Fortinet fixed unauthenticated flaws in FortiMonitorOnSight and a Chrome extension that can bypass logins and proxy user browser traffic. Patch now and audit which clients installed the extension, restrict or remove it via policy until you are certain it is updated. If the appliance is reachable from the internet, limit access and check for suspicious sessions.",
+        "url": "https://www.securityweek.com/fortinet-patches-critical-vulnerabilities-in-fortimonitoronsight-chrome-extension/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "fortinet-fixes-critical-auth-bypass-in-fortimonitoronsight-e-2026-09-09"
+      },
+      {
+        "heading": "Android September update: 180 fixes",
+        "body": "Google’s September Android updates resolve a large set of issues across Framework, System, and Kernel components. Push updates through your MDM, enforce a minimum patch level, and stage rollout to frontline and shared devices first. Hold back only if a critical line of business app breaks, otherwise move fast.",
+        "url": "https://www.securityweek.com/androids-september-2026-updates-patch-180-vulnerabilities/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "android-september-update-fixes-180-bugs-patch-your-fleet-2026-09-09"
+      },
+      {
+        "heading": "Nvidia, AMD, Arm push driver and SDK patches",
+        "body": "Vulnerabilities in GPU drivers, toolchains, and chipset software got vendor fixes from Nvidia, AMD, and Arm. Inventory where these stacks run, from workstations to GPU servers, and apply the latest drivers and SDKs. Expect reboots and image rebuilds, so schedule maintenance windows and update golden images.",
+        "url": "https://www.securityweek.com/chipmaker-patch-tuesday-nvidia-amd-arm-issue-security-advisories/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "nvidia-amd-arm-ship-security-fixes-update-drivers-and-sdks-2026-09-09"
+      },
+      {
+        "heading": "Help desks targeted via account recovery",
+        "body": "Attackers are working the password reset and MFA change process to turn recovery into account takeover. Lock down service desk procedures, require strong verification and call backs to known numbers, and add approvals for high privilege users. Alert on frequent recovery attempts and record interactions for audit.",
+        "url": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "attackers-target-account-recovery-tighten-service-desk-check-2026-09-09"
+      },
+      {
+        "heading": "Phish builds pages inside the browser",
+        "body": "A new tactic spawns malicious pages inside the victim’s browser using blob URLs and Microsoft services, so basic URL filters miss it. Do not rely on link blocking alone, lean on MFA, Conditional Access, and user coaching on consent prompts and unexpected sign ins. Tune detections for risky sign in events and device posture.",
+        "url": "https://www.securityweek.com/new-phishing-attack-creates-malicious-pages-inside-the-victims-browser/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "new-phishing-trick-builds-malicious-pages-inside-the-browser-2026-09-09"
+      },
+      {
+        "heading": "Stolen AI tokens bypass MFA",
+        "body": "Infostealer logs are yielding reusable AI API keys and session tokens for services like Google and Anthropic, letting attackers step around MFA. Treat these like passwords, rotate often, scope narrowly, and store them in a secrets manager. Monitor for unusual token use and revoke fast when anything leaks.",
+        "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "stolen-ai-tokens-let-attackers-bypass-mfa-rotate-keys-now-2026-09-09"
+      },
+      {
+        "heading": "Meta’s Muse AI agent lands, plan guardrails",
+        "body": "Meta announced Muse, an agent that runs in a dedicated VM alongside user data, which will raise security and privacy questions. Before clients pilot it, set policy on data handling, permissions, and logging, and isolate trials in a controlled environment. Decide now if it is allowed, blocked, or conditionally approved with DLP in place.",
+        "url": "https://www.securityweek.com/meta-launches-personal-ai-agent-muse-emphasizes-safety-and-privacy/",
+        "source": "SecurityWeek",
+        "category": "ai-security",
+        "storySlug": "meta-debuts-muse-ai-agent-expect-security-and-data-questions-2026-09-09"
+      }
+    ],
+    "signOff": "Good hunting. Patch quick, verify access changes, and keep your keys tight.",
+    "generatedAt": "2026-09-09T17:11:12.413Z"
+  },
+  {
     "slug": "2026-09-08",
     "date": "2026-09-08",
     "title": "Patch sprint for SAP, FreeIPA, Magento, and MikroTik",
