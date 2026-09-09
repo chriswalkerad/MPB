@@ -1,5 +1,71 @@
 [
   {
+    "slug": "us-disrupts-xinbi-scam-marketplace-freezes-52-8m-in-crypto-2026-09-09",
+    "title": "US disrupts Xinbi scam marketplace, freezes $52.8M in crypto",
+    "originalTitle": "US disrupts Xinbi Guarantee marketplace fueling the cyber scam economy",
+    "summary": "Expect scam crews to rebrand and shift platforms, brief users on pig-butchering and Telegram broker scams and tighten crypto withdrawal controls on business accounts to reduce losses.",
+    "url": "https://therecord.media/us-disrupts-xinbi-guarantee-marketplace-cybercrime",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-09T19:54:00.000Z",
+    "fetchedAt": "2026-09-09T20:54:34.292Z"
+  },
+  {
+    "slug": "us-chinese-firms-distilled-frontier-ai-models-at-massive-sca-2026-09-09",
+    "title": "US: Chinese firms distilled frontier AI models at massive scale",
+    "originalTitle": "US Government Accuses Chinese AI Firms of Distilling Frontier Models",
+    "summary": "Prepare for cheaper, more capable AI-driven phishing and tooling, agencies say Chinese companies distilled billions of tokens from OpenAI, Anthropic, Gemini, and Grok to slash model training costs.",
+    "url": "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-09T19:47:50.000Z",
+    "fetchedAt": "2026-09-09T20:54:34.292Z"
+  },
+  {
+    "slug": "scans-spike-for-old-proxmox-ve-7-flaw-upgrade-to-8-now-2026-09-09",
+    "title": "Scans spike for old Proxmox VE 7 flaw, upgrade to 8 now",
+    "originalTitle": "Scans for Proxmox Servers, (Wed, Sep 9th)",
+    "summary": "If any hosts still run end-of-life Proxmox VE 7, upgrade to 8 and lock down admin interfaces, ISC reports rising Internet scans probing this vulnerability.",
+    "url": "https://isc.sans.edu/diary/rss/33324",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-09T17:46:24.000Z",
+    "fetchedAt": "2026-09-09T20:54:34.292Z"
+  },
+  {
+    "slug": "veradigm-reports-ehr-data-theft-via-interface-check-affected-2026-09-09",
+    "title": "Veradigm reports EHR data theft via interface, check affected clients",
+    "originalTitle": "Electronic health record company says customer data stolen in breach",
+    "summary": "Healthcare MSPs should inventory customers using Veradigm and ready notifications, the vendor says attackers stole data through a specific interface without disrupting networks, servers, or databases.",
+    "url": "https://therecord.media/electronic-health-record-company-says-customer-data-stolen-in-breach",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-09T17:03:00.000Z",
+    "fetchedAt": "2026-09-09T20:54:34.292Z"
+  },
+  {
     "slug": "android-september-update-fixes-180-bugs-patch-your-fleet-2026-09-09",
     "title": "Android September update fixes 180 bugs, patch your fleet",
     "originalTitle": "Android’s September 2026 Updates Patch 180 Vulnerabilities",
@@ -12,6 +78,25 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-09T16:30:40.000Z",
     "fetchedAt": "2026-09-09T16:36:23.374Z"
+  },
+  {
+    "slug": "chrome-zero-day-reused-by-four-spy-groups-patch-browsers-now-2026-09-09",
+    "title": "Chrome zero-day reused by four spy groups, patch browsers now",
+    "originalTitle": "Multiple Chinese hacking groups seen using identical Chrome zero-day exploit",
+    "summary": "Update Chrome and Edge across fleets today, an August zero-day was reused by multiple China-linked actors and chained with Windows bugs for fast, stealthy compromise.",
+    "url": "https://therecord.media/china-hackers-chrome-browser-zero-day-multiple-groups",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-09T16:30:00.000Z",
+    "fetchedAt": "2026-09-09T20:54:34.292Z"
   },
   {
     "slug": "nvidia-amd-arm-ship-security-fixes-update-drivers-and-sdks-2026-09-09",
@@ -68,6 +153,20 @@
     "category": "defense",
     "publishedAt": "2026-09-09T14:01:11.000Z",
     "fetchedAt": "2026-09-09T16:36:23.374Z"
+  },
+  {
+    "slug": "cisa-adds-fortinet-netscaler-chrome-bugs-to-kev-patch-now-2026-09-09",
+    "title": "CISA adds Fortinet, NetScaler, Chrome bugs to KEV, patch now",
+    "originalTitle": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "summary": "Prioritize patching Fortinet appliances, Citrix NetScaler, and Chromium-based browsers, CISA added these exploited flaws to KEV which signals ongoing attacks and requires accelerated remediation timelines.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-09T12:00:00.000Z",
+    "fetchedAt": "2026-09-09T20:54:34.292Z"
   },
   {
     "slug": "meta-debuts-muse-ai-agent-expect-security-and-data-questions-2026-09-09",
@@ -3059,38 +3158,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-08-26T21:33:20.000Z",
     "fetchedAt": "2026-08-27T09:43:42.583Z"
-  },
-  {
-    "slug": "how-to-spot-fake-north-korean-it-contractors-2026-08-26",
-    "title": "How to spot fake North Korean IT contractors",
-    "originalTitle": "Red Flags That Expose Fake North Korean IT Workers",
-    "summary": "Tighten contractor vetting, researchers outline practical red flags for DPRK operatives posing as remote IT workers, from resume patterns and time zones to code reuse and payment behavior.",
-    "url": "https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-08-26T19:21:24.000Z",
-    "fetchedAt": "2026-08-27T09:43:42.583Z"
-  },
-  {
-    "slug": "boston-scientific-cyberattack-disrupts-global-operations-2026-08-26",
-    "title": "Boston Scientific cyberattack disrupts global operations",
-    "originalTitle": "Medical device firm Boston Scientific says cyberattack has disrupted shipment processes",
-    "summary": "If you support healthcare clients expect supply chain impacts, the medical device maker reported an incident disrupting IT systems and shipment processes worldwide.",
-    "url": "https://therecord.media/boston-scientific-cyberattack-disrupts-shipment-processes",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-08-26T19:10:00.000Z",
-    "fetchedAt": "2026-08-26T20:02:28.577Z"
   }
 ]
