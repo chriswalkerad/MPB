@@ -1,5 +1,60 @@
 [
   {
+    "slug": "bleachbit-fixes-windows-secure-wipe-bug-update-and-re-shred-2026-09-09",
+    "title": "BleachBit fixes Windows secure wipe bug, update and re-shred",
+    "originalTitle": "BleachBit 6.0.4 fixes secure wiping that skipped clusters on Windows",
+    "summary": "If you used BleachBit to securely delete files on Windows, upgrade to 6.0.4 and securely wipe again because earlier versions left file fragments behind.",
+    "url": "https://www.helpnetsecurity.com/2026/09/09/bleachbit-6-0-4-released/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-09T04:35:38.000Z",
+    "fetchedAt": "2026-09-09T04:37:59.014Z"
+  },
+  {
+    "slug": "record-patch-tuesday-two-exploited-microsoft-bugs-2026-09-08",
+    "title": "Record Patch Tuesday, two exploited Microsoft bugs",
+    "originalTitle": "Microsoft Plugs Nearly 1,000 Security Holes",
+    "summary": "Push this month's Microsoft updates fast, prioritize the two exploited vulnerabilities and other likely-to-be-exploited criticals, then schedule testing to cover nearly 1,000 fixes.",
+    "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+    "source": {
+      "name": "Krebs on Security"
+    },
+    "altSources": [
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/microsoft-patch-tuesday-september-2026"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves"
+      },
+      {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-08T21:44:22.000Z",
+    "fetchedAt": "2026-09-09T04:37:59.014Z"
+  },
+  {
+    "slug": "phishers-abuse-google-redirects-to-steal-creds-install-scree-2026-09-08",
+    "title": "Phishers abuse Google redirects to steal creds, install ScreenConnect",
+    "originalTitle": "Attackers Use Multi-Hop Google Redirects for Phishing Campaign",
+    "summary": "Tighten URL filtering and OAuth app controls, train users that google.com redirects can be malicious, and monitor for unauthorized ScreenConnect installs or unexpected remote tools.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-08T21:03:46.000Z",
+    "fetchedAt": "2026-09-09T04:37:59.014Z"
+  },
+  {
     "slug": "attackers-plant-fileless-web-shells-on-f5-big-ip-apm-via-roo-2026-09-08",
     "title": "Attackers plant fileless web shells on F5 BIG-IP APM via rootkit",
     "originalTitle": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
@@ -3046,33 +3101,5 @@
     "category": "threats",
     "publishedAt": "2026-08-26T05:47:28.000Z",
     "fetchedAt": "2026-08-26T13:15:01.245Z"
-  },
-  {
-    "slug": "attackers-use-npm-mirrors-for-captcha-phishing-redirects-2026-08-25",
-    "title": "Attackers use npm mirrors for CAPTCHA phishing redirects",
-    "originalTitle": "Hackers abuse npm mirrors to host phishing redirect pages",
-    "summary": "Block access to malicious npm mirrors and train users to spot fake Cloudflare CAPTCHA pages, attackers are hosting redirectors that send victims to credential phishing sites.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-25T21:39:01.000Z",
-    "fetchedAt": "2026-08-26T01:57:41.998Z"
-  },
-  {
-    "slug": "invisible-html-can-hijack-ai-email-summarizers-2026-08-25",
-    "title": "Invisible HTML can hijack AI email summarizers",
-    "originalTitle": "Hidden Prompts Trick AI Into False Email Summaries",
-    "summary": "Disable or harden AI email summaries, hidden HTML prompts can manipulate automated recaps to mislead users and amplify phishing, ask vendors to strip or sanitize invisible content.",
-    "url": "https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-25T21:08:55.000Z",
-    "fetchedAt": "2026-08-26T01:57:41.998Z"
   }
 ]
