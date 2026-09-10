@@ -1,5 +1,47 @@
 [
   {
+    "slug": "september-windows-server-patches-break-remote-desktop-servic-2026-09-10",
+    "title": "September Windows Server patches break Remote Desktop Services",
+    "originalTitle": "September Windows Server updates break Remote Desktop Services",
+    "summary": "Delay September Windows Server updates on RDS hosts, admins report patches break Remote Desktop Services on 2019, 2022, and 2025 servers, sometimes requiring hard resets to restore connectivity.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/september-windows-server-updates-break-remote-desktop-services/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-10T20:34:37.000Z",
+    "fetchedAt": "2026-09-10T20:50:04.817Z"
+  },
+  {
+    "slug": "excel-update-kb5002914-breaks-copy-and-paste-2026-09-10",
+    "title": "Excel update KB5002914 breaks copy and paste",
+    "originalTitle": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
+    "summary": "Pause or roll back Office update KB5002914 if users lose copy paste or drag fill in Excel, uninstalling the patch restores functionality while Microsoft works on a fix.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-10T19:07:33.000Z",
+    "fetchedAt": "2026-09-10T20:50:04.817Z"
+  },
+  {
+    "slug": "idscan-breach-153m-driver-s-license-scans-allegedly-for-sale-2026-09-10",
+    "title": "IDScan breach, 153M driver's license scans allegedly for sale",
+    "originalTitle": "IDScan confirms breach after hackers offer 153 million driver’s license scans for sale",
+    "summary": "Prepare for exposure of ID documents, IDScan confirmed a breach after attackers advertised 153 million driver’s license scans, review retention policies and notify impacted customers if you used the service.",
+    "url": "https://therecord.media/idscan-data-breach-notice-drivers-licenses",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-10T18:55:00.000Z",
+    "fetchedAt": "2026-09-10T20:50:04.817Z"
+  },
+  {
     "slug": "ai-driven-papercut-attacks-hit-hundreds-of-servers-2026-09-10",
     "title": "AI-driven PaperCut attacks hit hundreds of servers",
     "originalTitle": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
@@ -78,6 +120,20 @@
     "category": "threats",
     "publishedAt": "2026-09-10T13:26:23.000Z",
     "fetchedAt": "2026-09-10T16:22:48.988Z"
+  },
+  {
+    "slug": "cisa-actively-exploited-mikrotik-routeros-flaws-patch-now-2026-09-10",
+    "title": "CISA: Actively exploited MikroTik RouterOS flaws, patch now",
+    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "summary": "Patch MikroTik RouterOS now or disable exposed services, CISA added CVE-2026-67277 and CVE-2026-86060 to KEV due to active exploitation of Internet-facing routers.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-10T12:00:00.000Z",
+    "fetchedAt": "2026-09-10T20:50:04.817Z"
   },
   {
     "slug": "critical-check-point-vpn-cert-bugs-allow-unauthenticated-rce-2026-09-10",
@@ -3255,38 +3311,5 @@
     "category": "threats",
     "publishedAt": "2026-08-28T07:56:17.000Z",
     "fetchedAt": "2026-08-28T11:20:14.535Z"
-  },
-  {
-    "slug": "popular-white-label-zbt-routers-ship-with-built-in-backdoors-2026-08-27",
-    "title": "Popular white-label ZBT routers ship with built-in backdoors",
-    "originalTitle": "Chinese Routers Sold Worldwide Contain Backdoors",
-    "summary": "Identify and replace rebadged ZBT routers in client networks, researchers found manufacturer-implanted backdoors in widely sold white-label models.",
-    "url": "https://www.darkreading.com/vulnerabilities-threats/chinese-routers-sold-worldwide-backdoors",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-27T19:31:45.000Z",
-    "fetchedAt": "2026-08-27T22:14:33.373Z"
-  },
-  {
-    "slug": "papercut-ng-mf-zero-day-under-active-attack-patch-now-2026-08-27",
-    "title": "PaperCut NG/MF zero-day under active attack, patch now",
-    "originalTitle": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
-    "summary": "Prioritize isolating PaperCut servers and apply vendor guidance immediately, attackers are exploiting an unknown vulnerability in all PaperCut NG and MF versions in the wild.",
-    "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-27T16:31:53.000Z",
-    "fetchedAt": "2026-08-27T22:14:33.373Z"
   }
 ]
