@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-10",
+    "date": "2026-09-10",
+    "title": "Patches, phones, and phish: fix gear and train humans",
+    "intro": "Attackers are mixing zero days, AI, and old fashioned phone calls. Get the patches rolling and tighten the human layer before the tickets start piling up.",
+    "items": [
+      {
+        "heading": "Check Point VPN cert bugs allow unauthenticated RCE",
+        "body": "Two certificate handling flaws rated 9.8 can allow code execution without auth in certain configurations. Update Security Gateways and management components immediately and review access to management interfaces. After patching, scan logs for odd processes or changes and consider rotating sensitive certs and admin creds.",
+        "url": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "critical-check-point-vpn-cert-bugs-allow-unauthenticated-rce-2026-09-10"
+      },
+      {
+        "heading": "CISA adds exploited Cisco, Citrix, Fortinet bugs, Sept 12 deadline",
+        "body": "CISA put in-the-wild issues for Cisco Secure Firewall Management Center, Citrix NetScaler, and Fortinet devices on the KEV list and set a September 12 patch deadline. Prioritize upgrades and schedule maintenance now, especially for internet exposed gear. Cross check inventory against KEV and document exceptions with compensating controls.",
+        "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-adds-exploited-cisco-citrix-fortinet-bugs-patch-by-sept-2026-09-10"
+      },
+      {
+        "heading": "AI powered PaperCut exploits hit exposed servers",
+        "body": "A threat actor used automated AI agents to abuse known PaperCut NG and MF bugs and compromised hundreds of publicly reachable instances. If you run PaperCut, update to a fixed build, pull audit logs, and look for suspicious admin actions or new accounts. Remove direct internet exposure and rotate credentials if you find anything off.",
+        "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "ai-driven-papercut-attacks-hit-hundreds-of-servers-2026-09-10"
+      },
+      {
+        "heading": "BlueMoon exploit kit weaponizes recent Windows and Chrome fixes",
+        "body": "Multiple espionage groups leveraged a new kit against Windows and Chrome flaws that were only recently patched. Make sure your fleet is on current Windows and Chrome versions and verify browsers are auto updating. If you were lagging on patches, hunt for signs of compromise on endpoints that ran outdated builds.",
+        "url": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "bluemoon-exploit-kit-used-windows-and-chrome-zero-days-2026-09-10"
+      },
+      {
+        "heading": "Phone based social engineering for Microsoft 365 access",
+        "body": "Attackers called and texted personal phones to steal Microsoft 365 access, then quietly siphoned data. Train users to verify IT requests and lock down helpdesk resets with callbacks and approved channels. Enforce phishing resistant MFA, or at minimum use number matching and device context to blunt push fatigue and consent theft.",
+        "url": "https://www.helpnetsecurity.com/2026/09/10/microsoft-365-social-engineering-personal-phones/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "phone-based-social-engineering-targeting-microsoft-365-accou-2026-09-10"
+      },
+      {
+        "heading": "IDScan breach exposes 153M driver’s license scans",
+        "body": "IDScan confirmed attackers accessed customer data tied to more than 153 million driver’s license images. Expect increased identity fraud attempts and watch for credential reuse attacks against your clients. Tighten identity verification workflows and alert any customers who may rely on IDScan data.",
+        "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "idscan-breach-exposes-massive-trove-of-driver-s-license-scan-2026-09-10"
+      },
+      {
+        "heading": "Fake reward apps hide in Google Play Early Access",
+        "body": "Scammers are pushing deceptive apps that promise money or content while dodging full reviews by sitting in the Early Access program. On managed Android fleets, block Early Access installations and allowlist only approved apps. Brief users that free gift apps are not free and will not make it past your MDM.",
+        "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "scammers-abuse-google-play-early-access-to-push-fake-reward-2026-09-10"
+      },
+      {
+        "heading": "WordPress to auto block risky plugin releases",
+        "body": "WordPress is adding automated checks that can hold back plugin updates deemed risky. Expect some updates to be delayed and plan to vet changes in a staging environment. Review your site wide auto update settings so you do not ship a breaking or unsafe plugin without testing.",
+        "url": "https://www.helpnetsecurity.com/2026/09/10/wordpress-automated-plugin-security-review/",
+        "source": "Help Net Security",
+        "category": "defense",
+        "storySlug": "wordpress-will-auto-block-risky-plugin-releases-2026-09-10"
+      }
+    ],
+    "signOff": "Patch what you can, train who you must, and keep an eye on the logs.",
+    "generatedAt": "2026-09-10T17:01:58.558Z"
+  },
+  {
     "slug": "2026-09-09",
     "date": "2026-09-09",
     "title": "Patch Pileup, Help Desk Hustles, and AI Key Risk",
