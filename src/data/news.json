@@ -1,5 +1,117 @@
 [
   {
+    "slug": "wordpress-will-auto-block-risky-plugin-releases-2026-09-10",
+    "title": "WordPress will auto-block risky plugin releases",
+    "originalTitle": "WordPress adds automated security checks to block risky plugin releases",
+    "summary": "Expect some plugin updates to be withheld as WordPress adds automated security checks, so keep a staging environment and review plugin changes before enabling site-wide auto-updates.",
+    "url": "https://www.helpnetsecurity.com/2026/09/10/wordpress-automated-plugin-security-review/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-10T10:06:31.000Z",
+    "fetchedAt": "2026-09-10T11:15:25.330Z"
+  },
+  {
+    "slug": "active-exploits-hit-cisco-secure-fmc-patch-immediately-2026-09-10",
+    "title": "Active exploits hit Cisco Secure FMC, patch immediately",
+    "originalTitle": "Organizations Warned of Cisco Secure FMC Exploitation",
+    "summary": "Update Cisco Secure Firewall Management Center to fix CVE-2026-20079, with Cisco and CISA reporting in-the-wild exploitation against unpatched systems.",
+    "url": "https://www.securityweek.com/organizations-warned-of-cisco-secure-fmc-exploitation/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-10T10:06:20.000Z",
+    "fetchedAt": "2026-09-10T11:15:25.330Z"
+  },
+  {
+    "slug": "ransomware-crews-are-exploiting-a-watchguard-firewall-rce-2026-09-10",
+    "title": "Ransomware crews are exploiting a WatchGuard firewall RCE",
+    "originalTitle": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
+    "summary": "Patch affected WatchGuard Firebox devices now and lock down management interfaces, CISA warns ransomware operators are actively abusing this critical remote code execution flaw.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-10T09:10:20.000Z",
+    "fetchedAt": "2026-09-10T11:15:25.330Z"
+  },
+  {
+    "slug": "many-litellm-gateways-accepted-the-example-admin-key-2026-09-10",
+    "title": "Many LiteLLM gateways accepted the example admin key",
+    "originalTitle": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+    "summary": "Audit any internet-facing LiteLLM deployments now, rotate admin credentials, disable default keys and restrict exposure, as Wiz found nearly 10 percent accepted the sk-1234 example key.",
+    "url": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-10T07:12:55.000Z",
+    "fetchedAt": "2026-09-10T11:15:25.330Z"
+  },
+  {
+    "slug": "new-shieldcrash-zero-day-targets-microsoft-defender-2026-09-10",
+    "title": "New ShieldCrash zero day targets Microsoft Defender",
+    "originalTitle": "New ‘ShieldCrash’ Zero-Day Exploit Targets Microsoft Defender",
+    "summary": "Monitor for guidance and apply Defender updates promptly, a ShieldCrash exploit reportedly grants full System privileges on fully patched Windows, increasing the risk of rapid privilege escalation.",
+    "url": "https://www.securityweek.com/new-shieldcrash-zero-day-exploit-targets-microsoft-defender/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-10T07:09:36.000Z",
+    "fetchedAt": "2026-09-10T11:15:25.330Z"
+  },
+  {
+    "slug": "eu-cyber-resilience-act-adds-24-hour-incident-reporting-2026-09-10",
+    "title": "EU Cyber Resilience Act adds 24-hour incident reporting",
+    "originalTitle": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
+    "summary": "If you sell connected products in the EU, update your incident response to notify authorities within 24 hours of serious security incidents starting this week.",
+    "url": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-09-10T07:00:00.000Z",
+    "fetchedAt": "2026-09-10T11:15:25.330Z"
+  },
+  {
+    "slug": "fortinet-code-execution-bug-exploited-to-deploy-pivotc2-2026-09-10",
+    "title": "Fortinet code execution bug exploited to deploy PivotC2",
+    "originalTitle": "Fortinet Code Execution Flaw Exploited in PivotC2 RAT Attacks",
+    "summary": "Upgrade affected Fortinet devices to versions patched in January 2026 and hunt for PivotC2 activity, as attackers are leveraging CVE-2025-25249 for unauthenticated code execution.",
+    "url": "https://www.securityweek.com/fortinet-code-execution-flaw-exploited-in-pivotc2-rat-attacks/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-10T06:33:36.000Z",
+    "fetchedAt": "2026-09-10T11:15:25.330Z"
+  },
+  {
+    "slug": "phishing-kits-build-fake-logins-inside-the-victim-s-browser-2026-09-10",
+    "title": "Phishing kits build fake logins inside the victim's browser",
+    "originalTitle": "Cybercriminals are building phishing pages that exist only inside victims’ browsers",
+    "summary": "Attackers route targets through Microsoft OAuth and Teams then use blob URLs to assemble phishing pages locally, so tighten OAuth consent controls and train users to distrust odd links.",
+    "url": "https://www.helpnetsecurity.com/2026/09/10/browser-based-phishing-blob-urls-microsoft-oauth/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-10T05:00:14.000Z",
+    "fetchedAt": "2026-09-10T11:15:25.330Z"
+  },
+  {
     "slug": "openssl-4-1-0-alpha-adds-dtls-1-3-and-faster-post-quantum-cr-2026-09-09",
     "title": "OpenSSL 4.1.0 alpha adds DTLS 1.3 and faster post-quantum crypto",
     "originalTitle": "OpenSSL’s new alpha build speeds up post-quantum crypto",
@@ -3142,77 +3254,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-08-27T12:00:00.000Z",
     "fetchedAt": "2026-08-27T22:14:33.373Z"
-  },
-  {
-    "slug": "two-alleged-teampcp-devs-arrested-after-supply-chain-attack-2026-08-27",
-    "title": "Two alleged TeamPCP devs arrested after supply-chain attack spree",
-    "originalTitle": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
-    "summary": "Keep auditing build pipelines and pin, verify dependencies, police nabbed two men tied to TeamPCP's widespread package compromise campaign but impacted projects still need cleanup.",
-    "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-    "source": {
-      "name": "Krebs on Security"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/"
-      },
-      {
-        "name": "The Record",
-        "url": "https://therecord.media/australia-teampcp-hackers-arrested"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/australia-arrests-2-alleged-teampcp-hackers/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-08-27T11:04:15.000Z",
-    "fetchedAt": "2026-08-27T22:14:33.373Z"
-  },
-  {
-    "slug": "citrix-netscaler-flaw-cve-2026-8452-is-being-exploited-updat-2026-08-27",
-    "title": "Citrix NetScaler flaw CVE-2026-8452 is being exploited, update now",
-    "originalTitle": "Previously patched Citrix NetScaler flaw exploited in the wild (CVE-2026-8452)",
-    "summary": "Update NetScaler ADC and Gateway to patched builds and hunt for signs of compromise, CISA says CVE-2026-8452 is under active exploitation.",
-    "url": "https://www.helpnetsecurity.com/2026/08/27/netscaler-adc-gateway-cve-2026-8452/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-27T09:58:24.000Z",
-    "fetchedAt": "2026-08-27T22:14:33.373Z"
-  },
-  {
-    "slug": "patch-netscaler-now-cisa-says-rce-is-being-exploited-2026-08-27",
-    "title": "Patch NetScaler now, CISA says RCE is being exploited",
-    "originalTitle": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
-    "summary": "Running Citrix NetScaler ADC or Gateway, patch now, CISA says an RCE is actively exploited and agencies face a Saturday deadline, prioritize internet exposed appliances and apply vendor mitigations.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/recent-citrix-netscaler-vulnerability-exploited-in-the-wild/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-27T09:16:50.000Z",
-    "fetchedAt": "2026-08-27T09:43:42.583Z"
   }
 ]
