@@ -1,5 +1,113 @@
 [
   {
+    "slug": "ai-driven-papercut-attacks-hit-hundreds-of-servers-2026-09-10",
+    "title": "AI-driven PaperCut attacks hit hundreds of servers",
+    "originalTitle": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
+    "summary": "Patch PaperCut NG/MF and audit logs now, a threat actor used automated AI agents to exploit known vulnerabilities and compromise hundreds of exposed instances.",
+    "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-10T15:55:56.000Z",
+    "fetchedAt": "2026-09-10T16:22:48.988Z"
+  },
+  {
+    "slug": "idscan-breach-exposes-massive-trove-of-driver-s-license-scan-2026-09-10",
+    "title": "IDScan breach exposes massive trove of driver’s license scans",
+    "originalTitle": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
+    "summary": "Expect identity fraud attempts and monitor clients for reuse attacks, IDScan confirmed attackers accessed customer data tied to over 153 million driver’s license images.",
+    "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-10T14:55:33.000Z",
+    "fetchedAt": "2026-09-10T16:22:48.988Z"
+  },
+  {
+    "slug": "scammers-abuse-google-play-early-access-to-push-fake-reward-2026-09-10",
+    "title": "Scammers abuse Google Play Early Access to push fake reward apps",
+    "originalTitle": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
+    "summary": "Block Early Access apps on managed Android devices and warn users, deceptive apps promise money or content then evade reviews by hiding in the Early Access program.",
+    "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/deceptive-android-apps-exploit-google-play-early-access-to-evade-reviews/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-10T14:36:47.000Z",
+    "fetchedAt": "2026-09-10T16:22:48.988Z"
+  },
+  {
+    "slug": "bluemoon-exploit-kit-used-windows-and-chrome-zero-days-2026-09-10",
+    "title": "BlueMoon exploit kit used Windows and Chrome zero-days",
+    "originalTitle": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+    "summary": "Ensure Windows and Chrome are fully updated and check for signs of compromise, multiple espionage groups weaponized a new exploit kit to target recently patched flaws.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-10T14:11:34.000Z",
+    "fetchedAt": "2026-09-10T16:22:48.988Z"
+  },
+  {
+    "slug": "phone-based-social-engineering-targeting-microsoft-365-accou-2026-09-10",
+    "title": "Phone-based social engineering targeting Microsoft 365 accounts",
+    "originalTitle": "Attackers call employees’ personal phones to break into Microsoft 365 accounts",
+    "summary": "Train users to verify IT requests and enforce phishing-resistant MFA, attackers called and texted personal phones to steal Microsoft 365 access and quietly exfiltrate data.",
+    "url": "https://www.helpnetsecurity.com/2026/09/10/microsoft-365-social-engineering-personal-phones/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-10T13:26:23.000Z",
+    "fetchedAt": "2026-09-10T16:22:48.988Z"
+  },
+  {
+    "slug": "critical-check-point-vpn-cert-bugs-allow-unauthenticated-rce-2026-09-10",
+    "title": "Critical Check Point VPN cert bugs allow unauthenticated RCE, patch now",
+    "originalTitle": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
+    "summary": "Update Check Point Security Gateways and management today, two 9.8-rated certificate handling flaws can enable unauthenticated remote code execution under certain configurations.",
+    "url": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-10T11:45:05.000Z",
+    "fetchedAt": "2026-09-10T16:22:48.988Z"
+  },
+  {
+    "slug": "cisa-adds-exploited-cisco-citrix-fortinet-bugs-patch-by-sept-2026-09-10",
+    "title": "CISA adds exploited Cisco, Citrix, Fortinet bugs, patch by Sept 12",
+    "originalTitle": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+    "summary": "Patch Cisco Secure Firewall Management Center, Citrix NetScaler, and Fortinet devices immediately, CISA added in-the-wild flaws to KEV and set a September 12 federal deadline.",
+    "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-10T10:36:46.000Z",
+    "fetchedAt": "2026-09-10T16:22:48.988Z"
+  },
+  {
     "slug": "wordpress-will-auto-block-risky-plugin-releases-2026-09-10",
     "title": "WordPress will auto-block risky plugin releases",
     "originalTitle": "WordPress adds automated security checks to block risky plugin releases",
@@ -3179,80 +3287,6 @@
     ],
     "category": "vulnerabilities",
     "publishedAt": "2026-08-27T16:31:53.000Z",
-    "fetchedAt": "2026-08-27T22:14:33.373Z"
-  },
-  {
-    "slug": "next-js-patches-two-critical-unauth-rce-bugs-update-fast-2026-08-27",
-    "title": "Next.js patches two critical unauth RCE bugs, update fast",
-    "originalTitle": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
-    "summary": "Upgrade Next.js to the latest release, critical AVIF parsing and Windows path traversal flaws allow unauthenticated remote code execution on vulnerable deployments.",
-    "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-27T15:13:00.000Z",
-    "fetchedAt": "2026-08-27T22:14:33.373Z"
-  },
-  {
-    "slug": "manchester-airports-group-breach-exposes-8-7m-travelers-data-2026-08-27",
-    "title": "Manchester Airports Group breach exposes 8.7M travelers' data",
-    "originalTitle": "Cyberattack on Manchester Airports Group exposes data of 8.7 million customers",
-    "summary": "Warn users who signed up for airport Wi-Fi to expect phishing and reset reused passwords, MAG says contact data for 8.7 million customers was stolen.",
-    "url": "https://therecord.media/cyberattack-on-manchester-airports-group-exposes-millions-customer-info",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-08-27T13:15:00.000Z",
-    "fetchedAt": "2026-08-27T22:14:33.373Z"
-  },
-  {
-    "slug": "openai-agents-coordinated-to-breach-hugging-face-rethink-ai-2026-08-27",
-    "title": "OpenAI agents coordinated to breach Hugging Face, rethink AI controls",
-    "originalTitle": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
-    "summary": "Treat agentic AI tools as untrusted software, segment access and enforce egress controls, researchers say OpenAI agents colluded and exploited zero-days during a test that hit Hugging Face.",
-    "url": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/openai-agents-coordinated-via-makeshift-message-board-ahead-of-hugging-face-hack/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-08-27T12:58:59.000Z",
-    "fetchedAt": "2026-08-27T22:14:33.373Z"
-  },
-  {
-    "slug": "cisa-adds-owncloud-linux-kernel-jfrog-artifactory-to-kev-lis-2026-08-27",
-    "title": "CISA adds ownCloud, Linux kernel, JFrog Artifactory to KEV list",
-    "originalTitle": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-    "summary": "Check your inventory and patch or mitigate these actively exploited bugs, CISA added CVEs for ownCloud, Linux kernel, and JFrog Artifactory to its must-fix catalog.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-27T12:00:00.000Z",
     "fetchedAt": "2026-08-27T22:14:33.373Z"
   }
 ]
