@@ -1,5 +1,75 @@
 [
   {
+    "slug": "openssl-4-1-0-alpha-adds-dtls-1-3-and-faster-post-quantum-cr-2026-09-09",
+    "title": "OpenSSL 4.1.0 alpha adds DTLS 1.3 and faster post-quantum crypto",
+    "originalTitle": "OpenSSL’s new alpha build speeds up post-quantum crypto",
+    "summary": "Test in labs not production, the first OpenSSL 4.1.0 alpha brings DTLS 1.3 support and improved post-quantum performance for more resilient encrypted communications.",
+    "url": "https://www.helpnetsecurity.com/2026/09/10/openssl-4-1-0-alpha1-released/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-09T22:15:28.000Z",
+    "fetchedAt": "2026-09-10T04:38:04.035Z"
+  },
+  {
+    "slug": "cisco-secure-fmc-auth-bypass-is-being-exploited-patch-now-2026-09-09",
+    "title": "Cisco Secure FMC auth bypass is being exploited, patch now",
+    "originalTitle": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
+    "summary": "Patch Cisco Secure Firewall Management Center immediately, Cisco confirmed active exploitation of CVE-2026-20079 that allows authentication bypass in affected versions.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-09T21:40:44.000Z",
+    "fetchedAt": "2026-09-10T04:38:04.035Z"
+  },
+  {
+    "slug": "adapthealth-says-4-1m-records-exposed-in-july-cyberattack-2026-09-09",
+    "title": "AdaptHealth says 4.1M records exposed in July cyberattack",
+    "originalTitle": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
+    "summary": "Healthcare MSPs should review client incident response and vendor access, AdaptHealth reports a July breach attributed to ShinyHunters exposed data on 4.1 million people.",
+    "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-09T21:30:36.000Z",
+    "fetchedAt": "2026-09-10T04:38:04.035Z"
+  },
+  {
+    "slug": "skullcandy-dime-3-earbuds-vulnerable-to-bluetooth-hijacking-2026-09-09",
+    "title": "Skullcandy Dime 3 earbuds vulnerable to Bluetooth hijacking",
+    "originalTitle": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
+    "summary": "Block or discourage these earbuds in offices and check for firmware updates, CERT/CC warns they auto accept Bluetooth pairing letting nearby attackers hijack audio and controls.",
+    "url": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-09T21:02:14.000Z",
+    "fetchedAt": "2026-09-10T04:38:04.035Z"
+  },
+  {
+    "slug": "four-groups-reuse-chrome-and-windows-exploits-update-now-2026-09-09",
+    "title": "Four groups reuse Chrome and Windows exploits, update now",
+    "originalTitle": "4 groups caught using the same Chrome and Windows exploit kit",
+    "summary": "Update Chrome and Windows immediately and tighten patch timelines, researchers report four separate groups are using the same exploit kit to gain code execution.",
+    "url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-09T20:55:02.000Z",
+    "fetchedAt": "2026-09-10T04:38:04.035Z"
+  },
+  {
     "slug": "us-disrupts-xinbi-scam-marketplace-freezes-52-8m-in-crypto-2026-09-09",
     "title": "US disrupts Xinbi scam marketplace, freezes $52.8M in crypto",
     "originalTitle": "US disrupts Xinbi Guarantee marketplace fueling the cyber scam economy",
@@ -3143,20 +3213,6 @@
     ],
     "category": "vulnerabilities",
     "publishedAt": "2026-08-27T09:16:50.000Z",
-    "fetchedAt": "2026-08-27T09:43:42.583Z"
-  },
-  {
-    "slug": "critical-avada-wordpress-theme-bug-allows-zero-click-rce-pat-2026-08-26",
-    "title": "Critical Avada WordPress theme bug allows zero click RCE, patch now",
-    "originalTitle": "Critical Avada WordPress theme flaw enables zero-click RCE",
-    "summary": "If you manage WordPress sites using the Avada theme or Fusion plugins, update immediately, a critical bug chain lets unauthenticated attackers execute PHP on the server.",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-26T21:33:20.000Z",
     "fetchedAt": "2026-08-27T09:43:42.583Z"
   }
 ]
