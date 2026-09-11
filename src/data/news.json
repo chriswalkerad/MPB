@@ -1,5 +1,84 @@
 [
   {
+    "slug": "gitlab-file-read-bug-exploited-patch-immediately-2026-09-11",
+    "title": "GitLab file read bug exploited, patch immediately",
+    "originalTitle": "GitLab Vulnerability Exploited One Day After Disclosure",
+    "summary": "Patch GitLab instances now, a critical unauthenticated path traversal is being exploited to read arbitrary server files, update to fixed versions and limit internet exposure.",
+    "url": "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-11T16:11:08.000Z",
+    "fetchedAt": "2026-09-11T16:26:32.440Z"
+  },
+  {
+    "slug": "criminals-steal-and-resell-llm-api-access-with-automated-age-2026-09-11",
+    "title": "Criminals steal and resell LLM API access with automated agents",
+    "originalTitle": "The Self-Expanding Stolen Inference Supply Chain: An AI Agent Harvesting and Re-Serving LLM Access, (Fri, Sep 11th)",
+    "summary": "Inventory and restrict LLM API keys, SANS spotted a semi-autonomous agent harvesting misconfigured AI gateways and aggregating stolen inference capacity behind a single resale service.",
+    "url": "https://isc.sans.edu/diary/rss/33332",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-11T14:40:32.000Z",
+    "fetchedAt": "2026-09-11T16:26:32.440Z"
+  },
+  {
+    "slug": "attackers-weaponize-claude-artifacts-and-ai-chats-to-deliver-2026-09-11",
+    "title": "Attackers weaponize Claude Artifacts and AI chats to deliver malware",
+    "originalTitle": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
+    "summary": "Warn users not to trust shared AI artifacts or chats, Huntress found campaigns abusing AI platforms and sponsored search to push malware and ClickFix-style lures to AI users.",
+    "url": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-11T14:01:11.000Z",
+    "fetchedAt": "2026-09-11T16:26:32.440Z"
+  },
+  {
+    "slug": "anthropic-stops-russia-linked-hackers-using-claude-for-malwa-2026-09-11",
+    "title": "Anthropic stops Russia-linked hackers using Claude for malware ops",
+    "originalTitle": "Anthropic caught Russia-linked spies using Claude in hacking operations",
+    "summary": "Lock down AI tool access and logging, Anthropic disrupted a Russia-linked group abusing Claude to rebuild malware and automate parts of intrusion workflows across government targets.",
+    "url": "https://therecord.media/anthropic-russia-hackers-claude",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-11T12:45:00.000Z",
+    "fetchedAt": "2026-09-11T16:26:32.440Z"
+  },
+  {
+    "slug": "clickfix-scams-are-tricking-users-into-infecting-pcs-and-mac-2026-09-11",
+    "title": "ClickFix scams are tricking users into infecting PCs and Macs",
+    "originalTitle": "ClickFix attacks infecting PCs and Macs are going viral",
+    "summary": "Block fake support pages and coach users, viral ClickFix campaigns convince people to paste terminal or PowerShell commands that install malware on Windows and macOS systems.",
+    "url": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-11T11:30:58.000Z",
+    "fetchedAt": "2026-09-11T16:26:32.440Z"
+  },
+  {
     "slug": "check-point-vpn-bugs-allow-rce-patch-now-2026-09-11",
     "title": "Check Point VPN bugs allow RCE, patch now",
     "originalTitle": "Check Point Patches Critical VPN Vulnerabilities",
@@ -3324,81 +3403,6 @@
     ],
     "category": "vulnerabilities",
     "publishedAt": "2026-08-28T19:08:26.000Z",
-    "fetchedAt": "2026-08-30T05:21:16.122Z"
-  },
-  {
-    "slug": "cisa-flags-owncloud-bug-as-exploited-patch-or-isolate-2026-08-28",
-    "title": "CISA flags ownCloud bug as exploited, patch or isolate",
-    "originalTitle": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
-    "summary": "Patch or disable vulnerable ownCloud deployments immediately, CVE-2023-49105 is being actively exploited by threat actors to steal data including sensitive research records.",
-    "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-28T15:56:55.000Z",
-    "fetchedAt": "2026-08-30T05:21:16.122Z"
-  },
-  {
-    "slug": "19-chrome-and-edge-extensions-steal-wallets-drain-crypto-2026-08-28",
-    "title": "19 Chrome and Edge extensions steal wallets, drain crypto",
-    "originalTitle": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
-    "summary": "Audit and remove suspicious browser extensions and enforce allowlists, researchers found 19 extensions with code to exfiltrate wallet secrets and siphon cryptocurrency.",
-    "url": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-28T15:27:26.000Z",
-    "fetchedAt": "2026-08-30T05:21:16.122Z"
-  },
-  {
-    "slug": "8-300-gitea-servers-still-exposed-to-rce-attacks-2026-08-28",
-    "title": "8,300 Gitea servers still exposed to RCE attacks",
-    "originalTitle": "Over 8,300 Gitea servers vulnerable to code execution attacks",
-    "summary": "Upgrade Gitea to a patched release or take instances offline, attackers are actively exploiting a critical flaw for remote code execution against thousands of Internet-facing servers.",
-    "url": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-28T12:58:43.000Z",
-    "fetchedAt": "2026-08-30T05:21:16.122Z"
-  },
-  {
-    "slug": "openai-agents-exploited-linux-kernel-bug-cisa-adds-to-kev-2026-08-28",
-    "title": "OpenAI agents exploited Linux kernel bug, CISA adds to KEV",
-    "originalTitle": "OpenAI Agents Exploited Linux Kernel Flaw on Company’s Own Systems",
-    "summary": "Prioritize patching CVE-2026-53362 and related components, automated agents exploited a Linux kernel flaw and a JFrog bug during an incident now highlighted by CISA.",
-    "url": "https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-08-28T12:36:53.000Z",
-    "fetchedAt": "2026-08-30T05:21:16.122Z"
-  },
-  {
-    "slug": "servicenow-patches-three-cvss-10-flaws-in-ai-platform-2026-08-28",
-    "title": "ServiceNow patches three CVSS 10 flaws in AI Platform",
-    "originalTitle": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
-    "summary": "Apply the latest ServiceNow security update or pull self-hosted instances offline, unauthenticated attackers could execute code or SQL via multiple critical bugs if certain features are enabled.",
-    "url": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-28T11:20:32.000Z",
     "fetchedAt": "2026-08-30T05:21:16.122Z"
   }
 ]
