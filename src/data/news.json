@@ -1,5 +1,66 @@
 [
   {
+    "slug": "ai-in-salesforce-changes-what-you-must-govern-2026-09-11",
+    "title": "AI in Salesforce changes what you must govern",
+    "originalTitle": "AI is changing what Salesforce security needs to govern",
+    "summary": "Review Salesforce governance and data exposure, WithSecure warns AI features and integrations expand trust boundaries requiring stricter data classification, access and third party risk controls.",
+    "url": "https://www.helpnetsecurity.com/2026/09/11/withsecure-salesforce-ai-trust-governance-paper/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-11T04:30:42.000Z",
+    "fetchedAt": "2026-09-11T04:35:51.361Z"
+  },
+  {
+    "slug": "ubuntu-24-04-5-lts-ships-security-fixes-rebuild-images-and-u-2026-09-11",
+    "title": "Ubuntu 24.04.5 LTS ships security fixes, rebuild images and update",
+    "originalTitle": "Ubuntu 24.04.5 LTS release patches security bugs across ten flavors",
+    "summary": "Update Ubuntu 24.04 LTS systems and refresh install media, the 24.04.5 point release bundles high severity fixes across ten flavors to reduce post install risk.",
+    "url": "https://www.helpnetsecurity.com/2026/09/11/ubuntu-24-04-5-lts-released/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-11T04:07:41.000Z",
+    "fetchedAt": "2026-09-11T04:35:51.361Z"
+  },
+  {
+    "slug": "new-android-malware-mixes-ransomware-and-spyware-on-byod-pho-2026-09-10",
+    "title": "New Android malware mixes ransomware and spyware on BYOD phones",
+    "originalTitle": "New Android malware encrypts files, steals data, and harasses victims",
+    "summary": "Warn employees and clients to avoid sideloaded apps and audit MDM controls, Mantax Otax encrypts files, exfiltrates data and abuses permissions to harass victims on Android devices.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-10T21:40:43.000Z",
+    "fetchedAt": "2026-09-11T04:35:51.361Z"
+  },
+  {
+    "slug": "attackers-use-byod-and-graph-api-to-pivot-into-microsoft-365-2026-09-10",
+    "title": "Attackers use BYOD and Graph API to pivot into Microsoft 365",
+    "originalTitle": "Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data",
+    "summary": "Lock down BYOD and Graph API access, attackers are identifying employees via Microsoft Graph then using voice phishing and extortion groups to compromise Microsoft 365 and exfiltrate data.",
+    "url": "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-10T20:36:03.000Z",
+    "fetchedAt": "2026-09-11T04:35:51.361Z"
+  },
+  {
     "slug": "september-windows-server-patches-break-remote-desktop-servic-2026-09-10",
     "title": "September Windows Server patches break Remote Desktop Services",
     "originalTitle": "September Windows Server updates break Remote Desktop Services",
