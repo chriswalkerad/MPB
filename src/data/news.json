@@ -1,5 +1,122 @@
 [
   {
+    "slug": "check-point-vpn-bugs-allow-rce-patch-now-2026-09-11",
+    "title": "Check Point VPN bugs allow RCE, patch now",
+    "originalTitle": "Check Point Patches Critical VPN Vulnerabilities",
+    "summary": "Patch Check Point gateways immediately, two critical VPN flaws CVE-2026-85102 and CVE-2026-85103 allow unauthenticated remote code execution on internet-exposed devices, mitigations are available.",
+    "url": "https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-11T11:10:02.000Z",
+    "fetchedAt": "2026-09-11T11:17:08.423Z"
+  },
+  {
+    "slug": "ai-agents-exploit-papercut-to-hack-hundreds-2026-09-11",
+    "title": "AI agents exploit PaperCut to hack hundreds",
+    "originalTitle": "AI agents exploited PaperCut flaws to breach 395 organizations",
+    "summary": "Assume PaperCut instances are targets, GreyNoise reports AI agents exploited known flaws to breach 395 organizations worldwide, upgrade to current releases and lock down exposure.",
+    "url": "https://www.helpnetsecurity.com/2026/09/11/ai-agents-papercut-ng-mf-attack-campaign/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/papercut-flaws-exploited-in-ai-powered-attacks/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-11T10:05:32.000Z",
+    "fetchedAt": "2026-09-11T11:17:08.423Z"
+  },
+  {
+    "slug": "hackers-used-claude-to-automate-malware-evasion-2026-09-11",
+    "title": "Hackers used Claude to automate malware evasion",
+    "originalTitle": "Anthropic Says Russian Hackers Used Claude AI to Automate Malware Evasion",
+    "summary": "Expect adversaries to weaponize commercial AI, Anthropic says Russian hackers used Claude to automate malware evasion and probed AI vendor infrastructure including a pre-release model theft attempt.",
+    "url": "https://www.securityweek.com/anthropic-says-russian-hackers-used-claude-ai-to-automate-malware-evasion/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-11T08:47:07.000Z",
+    "fetchedAt": "2026-09-11T11:17:08.423Z"
+  },
+  {
+    "slug": "idscan-breach-leaks-153m-driver-s-licenses-2026-09-11",
+    "title": "IDScan breach leaks 153M driver's licenses",
+    "originalTitle": "IDScan confirms breach after 153 million driver’s licenses leak on dark web",
+    "summary": "If you rely on IDScan or similar KYC services, prepare for fallout as 153 million driver’s license scans surfaced on the dark web after a confirmed cloud breach.",
+    "url": "https://www.helpnetsecurity.com/2026/09/11/idscan-net-data-breach-153-million-drivers-licenses/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-11T08:39:33.000Z",
+    "fetchedAt": "2026-09-11T11:17:08.423Z"
+  },
+  {
+    "slug": "trezor-users-hit-by-phishing-after-brevo-breach-2026-09-11",
+    "title": "Trezor users hit by phishing after Brevo breach",
+    "originalTitle": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
+    "summary": "Warn customers about Trezor-themed emails, 347,000 addresses were targeted and 2,500 users clicked links after the Brevo breach, remind them to use passphrases and never enter seed phrases.",
+    "url": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-11T07:55:15.000Z",
+    "fetchedAt": "2026-09-11T11:17:08.423Z"
+  },
+  {
+    "slug": "jfrog-artifactory-bugs-chained-to-admin-takeover-2026-09-11",
+    "title": "JFrog Artifactory bugs chained to admin takeover",
+    "originalTitle": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+    "summary": "Patch self-hosted JFrog Artifactory servers and audit for backdoors, attackers chained two already fixed flaws to gain admin control on unpatched instances in mid-August.",
+    "url": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-11T07:31:05.000Z",
+    "fetchedAt": "2026-09-11T11:17:08.423Z"
+  },
+  {
+    "slug": "cisco-fmc-auth-bypass-exploited-for-qilin-ransomware-2026-09-11",
+    "title": "Cisco FMC auth bypass exploited for Qilin ransomware",
+    "originalTitle": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+    "summary": "Update Cisco Secure Firewall Management Center now, CVE-2026-20079 authentication bypass is being exploited to steal credentials and push Qilin ransomware, restrict and monitor FMC web access.",
+    "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-11T06:19:59.000Z",
+    "fetchedAt": "2026-09-11T11:17:08.423Z"
+  },
+  {
+    "slug": "build-your-ransomware-decision-tree-now-2026-09-11",
+    "title": "Build your ransomware decision tree now",
+    "originalTitle": "Building a ransomware decision tree before the call comes in",
+    "summary": "Do the planning now, build a ransomware decision tree that sets containment actions, extortion policy, communication plans, and restoration priorities before attackers force rushed choices.",
+    "url": "https://www.helpnetsecurity.com/2026/09/11/ransomware-decision-tree-video/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-11T05:30:53.000Z",
+    "fetchedAt": "2026-09-11T11:17:08.423Z"
+  },
+  {
     "slug": "ai-in-salesforce-changes-what-you-must-govern-2026-09-11",
     "title": "AI in Salesforce changes what you must govern",
     "originalTitle": "AI is changing what Salesforce security needs to govern",
@@ -3283,94 +3400,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-08-28T11:20:32.000Z",
     "fetchedAt": "2026-08-30T05:21:16.122Z"
-  },
-  {
-    "slug": "zbt-routers-ship-with-backdoors-granting-root-access-2026-08-28",
-    "title": "ZBT routers ship with backdoors granting root access",
-    "originalTitle": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
-    "summary": "Identify and replace affected ZBT routers or update firmware where available, two factory implants let unauthenticated attackers run root commands on devices out of the box.",
-    "url": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-28T10:58:29.000Z",
-    "fetchedAt": "2026-08-30T05:21:16.122Z"
-  },
-  {
-    "slug": "ai-model-origin-labels-hide-risk-check-lineage-and-dependenc-2026-08-28",
-    "title": "AI model origin labels hide risk, check lineage and dependencies",
-    "originalTitle": "Think You’ve Eliminated Chinese AI? Check the Model’s Lineage, Cisco Says",
-    "summary": "Cisco warns downstream models inherit unsafe behaviors from upstream sources, so demand lineage disclosures, scan for embedded weights and red-team models before rolling them to users.",
-    "url": "https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-28T10:30:00.000Z",
-    "fetchedAt": "2026-08-28T11:20:14.535Z"
-  },
-  {
-    "slug": "servicenow-fixes-three-max-severity-ai-platform-flaws-2026-08-28",
-    "title": "ServiceNow fixes three max severity AI Platform flaws",
-    "originalTitle": "ServiceNow warns of three max severity security vulnerabilities",
-    "summary": "Update immediately, the bugs enable code injection, SQL injection and privilege escalation in ServiceNow AI Platform and could let attackers pivot across your instance.",
-    "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-28T10:29:42.000Z",
-    "fetchedAt": "2026-08-28T11:20:14.535Z"
-  },
-  {
-    "slug": "cpanel-bug-let-one-tenant-root-the-whole-server-patch-now-2026-08-28",
-    "title": "cPanel bug let one tenant root the whole server, patch now",
-    "originalTitle": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
-    "summary": "A critical flaw in cPanel and WHM domain features allows root-level code execution on shared hosts, so patch quickly and audit tenant isolation on any co-hosted boxes.",
-    "url": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-28T09:45:15.000Z",
-    "fetchedAt": "2026-08-28T11:20:14.535Z"
-  },
-  {
-    "slug": "papercut-zero-day-under-active-attack-patch-ng-mf-now-2026-08-28",
-    "title": "PaperCut zero-day under active attack, patch NG/MF now",
-    "originalTitle": "PaperCut Releases Emergency Patch for Exploited Zero-Day",
-    "summary": "Attackers are exploiting a new PaperCut flaw across all NG and MF versions, so install the emergency v25 and v26 patches, apply mitigations on older builds and lock down admin access.",
-    "url": "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-28T08:40:36.000Z",
-    "fetchedAt": "2026-08-28T11:20:14.535Z"
-  },
-  {
-    "slug": "manchester-airports-breach-expect-travel-themed-phishing-lur-2026-08-28",
-    "title": "Manchester Airports breach, expect travel-themed phishing lures",
-    "originalTitle": "Manchester Airports Group breached, millions of customers’ data stolen",
-    "summary": "Attackers stole customer data from three UK airports, so brief users to spot fake itinerary emails and tighten mail filters for lookalike domains and QR scams.",
-    "url": "https://www.helpnetsecurity.com/2026/08/28/manchester-airports-group-data-breach/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-28T07:56:17.000Z",
-    "fetchedAt": "2026-08-28T11:20:14.535Z"
   }
 ]
