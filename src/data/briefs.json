@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-11",
+    "date": "2026-09-11",
+    "title": "Patch the edge, attackers weaponize AI",
+    "intro": "Busy morning: perimeter gear needs urgent fixes, and attackers are leaning on AI for malware, theft, and scams. Prioritize the patches, then tighten AI and user controls.",
+    "items": [
+      {
+        "heading": "Check Point VPN RCE, patch now",
+        "body": "Two critical VPN flaws, CVE-2026-85102 and CVE-2026-85103, allow unauthenticated remote code execution on internet-exposed gateways. If you run Check Point, patch immediately or apply the vendor mitigations, restrict exposure, and watch for signs of compromise.",
+        "url": "https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "check-point-vpn-bugs-allow-rce-patch-now-2026-09-11"
+      },
+      {
+        "heading": "GitLab file read bug is being exploited",
+        "body": "A critical unauthenticated path traversal is being exploited to read arbitrary files on GitLab servers. Update to fixed versions now, limit internet exposure, and rotate any secrets that might live on disk.",
+        "url": "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "gitlab-file-read-bug-exploited-patch-immediately-2026-09-11"
+      },
+      {
+        "heading": "AI agents exploited PaperCut at scale",
+        "body": "GreyNoise says AI agents exploited known PaperCut flaws to breach 395 organizations worldwide. Assume any exposed PaperCut is a target, upgrade to current releases, and lock down access.",
+        "url": "https://www.helpnetsecurity.com/2026/09/11/ai-agents-papercut-ng-mf-attack-campaign/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "ai-agents-exploit-papercut-to-hack-hundreds-2026-09-11"
+      },
+      {
+        "heading": "Stolen LLM API capacity resold",
+        "body": "SANS spotted a semi autonomous agent harvesting misconfigured AI gateways and bundling stolen LLM API capacity into a single resale service. Inventory your AI endpoints and keys, restrict where they can be used, rotate anything exposed, and set spend alerts.",
+        "url": "https://isc.sans.edu/diary/rss/33332",
+        "source": "SANS ISC",
+        "category": "ai-security",
+        "storySlug": "criminals-steal-and-resell-llm-api-access-with-automated-age-2026-09-11"
+      },
+      {
+        "heading": "Malware via AI artifacts and chats",
+        "body": "Huntress found campaigns abusing AI platforms and sponsored search to deliver malware and ClickFix style lures via shared artifacts and chats. Tell users not to trust files or projects shared through AI tools by default, tighten browser protections and application control, and verify downloads.",
+        "url": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "attackers-weaponize-claude-artifacts-and-ai-chats-to-deliver-2026-09-11"
+      },
+      {
+        "heading": "ClickFix copy paste scams hit Windows and macOS",
+        "body": "Viral ClickFix campaigns are convincing users to paste terminal or PowerShell commands that install malware. Block fake support pages where possible, coach users to stop at the paste step, and reduce admin rights that make this trick effective.",
+        "url": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
+        "source": "Ars Technica",
+        "category": "threats",
+        "storySlug": "clickfix-scams-are-tricking-users-into-infecting-pcs-and-mac-2026-09-11"
+      },
+      {
+        "heading": "Anthropic disrupts Russia-linked Claude misuse",
+        "body": "Anthropic disrupted a Russia-linked group abusing Claude to rebuild malware and automate parts of intrusion workflows against government targets. Lock down AI tool access and logging, and review how your org uses LLMs so you can spot misuse.",
+        "url": "https://therecord.media/anthropic-russia-hackers-claude",
+        "source": "The Record",
+        "category": "ai-security",
+        "storySlug": "anthropic-stops-russia-linked-hackers-using-claude-for-malwa-2026-09-11"
+      },
+      {
+        "heading": "Hackers used Claude for evasion, probed AI vendors",
+        "body": "Anthropic says Russian hackers used Claude to automate malware evasion and probed AI vendor infrastructure, including a pre release model theft attempt. Expect adversaries to weaponize commercial AI, and track AI related activity like any other third party service in your threat model.",
+        "url": "https://www.securityweek.com/anthropic-says-russian-hackers-used-claude-ai-to-automate-malware-evasion/",
+        "source": "SecurityWeek",
+        "category": "ai-security",
+        "storySlug": "hackers-used-claude-to-automate-malware-evasion-2026-09-11"
+      }
+    ],
+    "signOff": "Ship the patches, then brief the users.",
+    "generatedAt": "2026-09-11T17:03:10.731Z"
+  },
+  {
     "slug": "2026-09-10",
     "date": "2026-09-10",
     "title": "Patches, phones, and phish: fix gear and train humans",
