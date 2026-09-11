@@ -1,5 +1,71 @@
 [
   {
+    "slug": "attackers-used-claude-to-rip-secrets-from-1-8m-android-apps-2026-09-11",
+    "title": "Attackers used Claude to rip secrets from 1.8M Android apps",
+    "originalTitle": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+    "summary": "Audit apps and repos for hardcoded keys, Anthropic reports threat groups abused Claude to mine secrets from 1.8M Android apps which attackers can reuse across supply chains.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-11T20:19:09.000Z",
+    "fetchedAt": "2026-09-11T20:56:48.405Z"
+  },
+  {
+    "slug": "florida-dmv-data-breached-via-creds-on-a-personal-device-2026-09-11",
+    "title": "Florida DMV data breached via creds on a personal device",
+    "originalTitle": "Florida says motor vehicle data breach tied to credentials stolen from officer’s personal device",
+    "summary": "Lock down credential storage and personal device access, a stolen login from a police officer’s device let attackers access Florida’s driver database and exfiltrate motor vehicle records.",
+    "url": "https://therecord.media/florida-shiny-hunters-motor-vehicle",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-11T20:00:00.000Z",
+    "fetchedAt": "2026-09-11T20:56:48.405Z"
+  },
+  {
+    "slug": "invoice-scam-emails-get-smarter-with-layered-tricks-and-ai-2026-09-11",
+    "title": "Invoice-scam emails get smarter with layered tricks and AI",
+    "originalTitle": "Microsoft sees some new wrinkles in invoice-scam emails",
+    "summary": "Reinforce payment verification and mailbox protections, Microsoft warns invoice scammers are stacking lookalike domains, live chat, and AI polish to improve business email compromise success.",
+    "url": "https://therecord.media/invoice-scam-emails-new-features-microsoft-researchers",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-11T18:40:00.000Z",
+    "fetchedAt": "2026-09-11T20:56:48.405Z"
+  },
+  {
+    "slug": "passkey-themed-phishing-is-stealing-microsoft-365-data-2026-09-11",
+    "title": "Passkey-themed phishing is stealing Microsoft 365 data",
+    "originalTitle": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
+    "summary": "Train users and tighten MFA policies, attackers are spoofing passkey and SSO prompts to hijack Microsoft accounts and loot SharePoint, OneDrive, and email.",
+    "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-11T17:26:50.000Z",
+    "fetchedAt": "2026-09-11T20:56:48.405Z"
+  },
+  {
     "slug": "gitlab-file-read-bug-exploited-patch-immediately-2026-09-11",
     "title": "GitLab file read bug exploited, patch immediately",
     "originalTitle": "GitLab Vulnerability Exploited One Day After Disclosure",
@@ -63,6 +129,44 @@
     "category": "ai-security",
     "publishedAt": "2026-09-11T12:45:00.000Z",
     "fetchedAt": "2026-09-11T16:26:32.440Z"
+  },
+  {
+    "slug": "patch-now-artifactory-and-screenconnect-added-to-cisa-kev-2026-09-11",
+    "title": "Patch now: Artifactory and ScreenConnect added to CISA KEV",
+    "originalTitle": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "summary": "Patch JFrog Artifactory and ConnectWise ScreenConnect immediately, CISA says both are under active exploitation and pose serious risk to dev pipelines and remote support environments.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-11T12:00:00.000Z",
+    "fetchedAt": "2026-09-11T20:56:48.405Z"
+  },
+  {
+    "slug": "gitlab-cvss-10-file-read-flaw-hits-cisa-kev-block-probes-2026-09-11",
+    "title": "GitLab CVSS 10 file-read flaw hits CISA KEV, block probes",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "Update GitLab CE and EE now, a critical unauthenticated path traversal is being probed in the wild and allows arbitrary file reads from the server.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-11T12:00:00.000Z",
+    "fetchedAt": "2026-09-11T20:56:48.405Z"
   },
   {
     "slug": "clickfix-scams-are-tricking-users-into-infecting-pcs-and-mac-2026-09-11",
@@ -3380,29 +3484,6 @@
     ],
     "category": "vulnerabilities",
     "publishedAt": "2026-08-29T16:25:03.000Z",
-    "fetchedAt": "2026-08-30T05:21:16.122Z"
-  },
-  {
-    "slug": "papercut-issues-second-emergency-fix-amid-active-exploits-2026-08-28",
-    "title": "PaperCut issues second emergency fix amid active exploits",
-    "originalTitle": "PaperCut releases second emergency patch for exploited flaws",
-    "summary": "Patch PaperCut NG and MF immediately, attackers are chaining two flaws to seize remote control and initial fixes were bypassed so new updates add hardening.",
-    "url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html"
-      },
-      {
-        "name": "The Record",
-        "url": "https://therecord.media/papercut-warns-of-hackers-using-printer-management-vulnerabilities"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-28T19:08:26.000Z",
     "fetchedAt": "2026-08-30T05:21:16.122Z"
   }
 ]
