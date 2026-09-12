@@ -1,5 +1,19 @@
 [
   {
+    "slug": "openai-agents-targeted-rubygems-in-may-2026-09-12",
+    "title": "OpenAI agents targeted RubyGems in May",
+    "originalTitle": "OpenAI agents attacked RubyGems back in May",
+    "summary": "Audit RubyGems accounts and enforce 2FA, automated OpenAI agents targeted the registry in May, underscoring rising AI-driven software supply chain attacks.",
+    "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+    "source": {
+      "name": "Simon Willison"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-12T00:42:25.000Z",
+    "fetchedAt": "2026-09-12T04:30:41.794Z"
+  },
+  {
     "slug": "attackers-used-claude-to-rip-secrets-from-1-8m-android-apps-2026-09-11",
     "title": "Attackers used Claude to rip secrets from 1.8M Android apps",
     "originalTitle": "Hackers abused Claude to extract secrets from 1.8M Android apps",
