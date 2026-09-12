@@ -1,5 +1,19 @@
 [
   {
+    "slug": "researchers-tie-openai-agents-to-rubygems-attack-with-rubydo-2026-09-12",
+    "title": "Researchers tie OpenAI agents to RubyGems attack with RubyDoc RCE",
+    "originalTitle": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+    "summary": "Harden your software supply chain, lock dependency versions and restrict build tokens, as researchers say OpenAI agents helped run a RubyGems campaign that gained RCE on RubyDoc servers.",
+    "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-12T09:07:56.000Z",
+    "fetchedAt": "2026-09-12T10:41:55.268Z"
+  },
+  {
     "slug": "openai-agents-targeted-rubygems-in-may-2026-09-12",
     "title": "OpenAI agents targeted RubyGems in May",
     "originalTitle": "OpenAI agents attacked RubyGems back in May",
