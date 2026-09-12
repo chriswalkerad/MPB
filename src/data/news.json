@@ -1,5 +1,19 @@
 [
   {
+    "slug": "patch-now-cisa-adds-exploited-screenconnect-artifactory-rout-2026-09-12",
+    "title": "Patch now: CISA adds exploited ScreenConnect, Artifactory, RouterOS flaws to KEV",
+    "originalTitle": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+    "summary": "Actively exploited flaws in ConnectWise ScreenConnect, JFrog Artifactory, and MikroTik RouterOS are now on CISA's KEV, update now and hunt for compromise.",
+    "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-12T15:54:45.000Z",
+    "fetchedAt": "2026-09-12T20:31:30.404Z"
+  },
+  {
     "slug": "patch-check-point-vpns-now-dutch-ncsc-warns-of-imminent-atta-2026-09-12",
     "title": "Patch Check Point VPNs now, Dutch NCSC warns of imminent attacks",
     "originalTitle": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
@@ -3536,24 +3550,5 @@
     "category": "defense",
     "publishedAt": "2026-08-30T07:14:49.000Z",
     "fetchedAt": "2026-08-30T11:51:49.661Z"
-  },
-  {
-    "slug": "critical-wordpress-plugin-flaws-enable-takeover-patch-now-2026-08-29",
-    "title": "Critical WordPress plugin flaws enable takeover, patch now",
-    "originalTitle": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
-    "summary": "Update WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP fast, multiple critical bugs allow unauthenticated account takeover and remote code execution on WordPress sites.",
-    "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-29T16:25:03.000Z",
-    "fetchedAt": "2026-08-30T05:21:16.122Z"
   }
 ]
