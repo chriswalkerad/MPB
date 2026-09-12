@@ -1,5 +1,47 @@
 [
   {
+    "slug": "patch-check-point-vpns-now-dutch-ncsc-warns-of-imminent-atta-2026-09-12",
+    "title": "Patch Check Point VPNs now, Dutch NCSC warns of imminent attacks",
+    "originalTitle": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+    "summary": "Exploit attempts on CVE-2026-85102 and CVE-2026-85103 are expected shortly, update affected VPN appliances fast, restrict remote access, and check for unusual VPN logins.",
+    "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-12T14:14:32.000Z",
+    "fetchedAt": "2026-09-12T15:29:48.241Z"
+  },
+  {
+    "slug": "bluemoon-exploit-kit-chains-recent-chrome-and-windows-zero-d-2026-09-12",
+    "title": "BlueMoon exploit kit chains recent Chrome and Windows zero-days",
+    "originalTitle": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
+    "summary": "Drive-by attacks are using BlueMoon across multiple actors, so force-update Chrome and Windows, block legacy plugins, and watch for suspicious browser crashes and new processes.",
+    "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-12T11:10:00.000Z",
+    "fetchedAt": "2026-09-12T15:29:48.241Z"
+  },
+  {
+    "slug": "ai-use-is-flooding-soc-alerts-set-guardrails-now-2026-09-12",
+    "title": "AI use is flooding SOC alerts, set guardrails now",
+    "originalTitle": "When the Whole Company Adopts AI: What It Does to Your SOC",
+    "summary": "As staff adopt AI agents and tools, baseline and inventory their usage, tighten access and logging, and write detection rules to separate normal AI traffic from abuse.",
+    "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-12T10:24:44.000Z",
+    "fetchedAt": "2026-09-12T15:29:48.241Z"
+  },
+  {
     "slug": "researchers-tie-openai-agents-to-rubygems-attack-with-rubydo-2026-09-12",
     "title": "Researchers tie OpenAI agents to RubyGems attack with RubyDoc RCE",
     "originalTitle": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
