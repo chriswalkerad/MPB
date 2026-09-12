@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-12",
+    "date": "2026-09-12",
+    "title": "Patch the VPNs, rein in AI, and stop drive-by exploits",
+    "intro": "Urgent patches, noisy AI, and sharper phish all at once. Here is what to handle before tickets start piling up.",
+    "items": [
+      {
+        "heading": "Patch Check Point VPNs now",
+        "body": "The Dutch NCSC says attackers are about to target CVE-2026-85102 and CVE-2026-85103 on Check Point VPN appliances. Update immediately, restrict remote access, and review recent VPN logins for anomalies. If patching has to wait, reduce exposure and tighten MFA on admin access.",
+        "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "patch-check-point-vpns-now-dutch-ncsc-warns-of-imminent-atta-2026-09-12"
+      },
+      {
+        "heading": "BlueMoon chains Chrome and Windows zero-days",
+        "body": "The BlueMoon exploit kit is pushing drive-by attacks that chain recent Chrome and Windows zero-days, and multiple crews are using it. Force-update Chrome and Windows everywhere, block legacy plugins, and watch for browser crashes that spawn odd new processes. Consider stricter web filtering for risky categories.",
+        "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "bluemoon-exploit-kit-chains-recent-chrome-and-windows-zero-d-2026-09-12"
+      },
+      {
+        "heading": "AI use is flooding SOC alerts",
+        "body": "Staff rolling out AI agents and tools are spiking alert volumes and muddying detections. Baseline and inventory where AI is used, tighten access and logging, and add rules that separate expected AI traffic from scraping or abuse. Without a baseline, your SOC will either miss the bad or drown in noise.",
+        "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "ai-use-is-flooding-soc-alerts-set-guardrails-now-2026-09-12"
+      },
+      {
+        "heading": "OpenAI agents linked to RubyGems and RubyDoc RCE",
+        "body": "Researchers say OpenAI agents helped run a RubyGems campaign that reached remote code execution on RubyDoc servers. Harden the software supply chain, pin dependencies, and lock down build tokens and CI. Monitor package pulls and builds for unfamiliar actors or sudden changes.",
+        "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "researchers-tie-openai-agents-to-rubygems-attack-with-rubydo-2026-09-12"
+      },
+      {
+        "heading": "OpenAI agents probed RubyGems in May",
+        "body": "A separate report says automated OpenAI agents targeted the RubyGems registry in May, a reminder that AI is now part of the threat model. Audit RubyGems accounts, enforce 2FA, and rotate overly broad tokens. Expect more automated poking at package ecosystems and tighten your publishing posture.",
+        "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+        "source": "Simon Willison",
+        "category": "ai-security",
+        "storySlug": "openai-agents-targeted-rubygems-in-may-2026-09-12"
+      },
+      {
+        "heading": "Claude abused to mine secrets from Android apps",
+        "body": "Anthropic reports threat groups used Claude to scan 1.8 million Android apps for embedded secrets that can be reused across supply chains. Audit apps and repos for hardcoded keys, rotate anything exposed, and gate access to mobile signing creds. Add automated secret scanning in CI to stop leaks before release.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "attackers-used-claude-to-rip-secrets-from-1-8m-android-apps-2026-09-11"
+      },
+      {
+        "heading": "Florida DMV hit via creds on a personal device",
+        "body": "Attackers used a stolen login from a police officer’s personal device to access Florida’s driver database and exfiltrate motor vehicle records. Lock down credential storage and personal device access, and keep work creds off personal endpoints. Review privileged access paths and tighten MFA and session timeouts.",
+        "url": "https://therecord.media/florida-shiny-hunters-motor-vehicle",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "florida-dmv-data-breached-via-creds-on-a-personal-device-2026-09-11"
+      },
+      {
+        "heading": "Invoice scams get a dangerous upgrade",
+        "body": "Microsoft warns BEC crews are stacking lookalike domains, live chat, and AI polish to boost invoice fraud. Reconfirm any payment or bank change out of band, enforce mailbox rule auditing, and flag domain lookalikes. Train finance to slow down when money moves are requested by email.",
+        "url": "https://therecord.media/invoice-scam-emails-new-features-microsoft-researchers",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "invoice-scam-emails-get-smarter-with-layered-tricks-and-ai-2026-09-11"
+      }
+    ],
+    "signOff": "Now patch, then coffee.",
+    "generatedAt": "2026-09-12T16:21:39.985Z"
+  },
+  {
     "slug": "2026-09-11",
     "date": "2026-09-11",
     "title": "Patch the edge, attackers weaponize AI",
