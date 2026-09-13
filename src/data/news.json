@@ -1,5 +1,19 @@
 [
   {
+    "slug": "passkey-phishing-hijacks-microsoft-cloud-accounts-2026-09-13",
+    "title": "Passkey phishing hijacks Microsoft cloud accounts",
+    "originalTitle": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+    "summary": "Attackers are using passkey-themed lures and third-party email blasts to hijack Microsoft cloud accounts and steal data, so lock down MFA method enrollment, enforce conditional access, and audit sign-ins and device registrations.",
+    "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-13T10:11:48.000Z",
+    "fetchedAt": "2026-09-13T11:47:25.818Z"
+  },
+  {
     "slug": "patch-now-cisa-adds-exploited-screenconnect-artifactory-rout-2026-09-12",
     "title": "Patch now: CISA adds exploited ScreenConnect, Artifactory, RouterOS flaws to KEV",
     "originalTitle": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
@@ -3508,47 +3522,5 @@
     "category": "threats",
     "publishedAt": "2026-08-30T14:17:44.000Z",
     "fetchedAt": "2026-08-30T16:39:13.126Z"
-  },
-  {
-    "slug": "zimbra-cve-2026-73570-exploited-at-least-274-servers-comprom-2026-08-30",
-    "title": "Zimbra CVE-2026-73570 exploited, at least 274 servers compromised",
-    "originalTitle": "Week in review: Compromised Zimbra servers, previously patched Citrix NetScaler flaw exploited",
-    "summary": "Patch Zimbra CVE-2026-73570 immediately and hunt for compromise, Shadowserver reports at least 274 internet-facing servers already breached due to unpatched systems.",
-    "url": "https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-30T08:00:48.000Z",
-    "fetchedAt": "2026-08-30T11:51:49.661Z"
-  },
-  {
-    "slug": "terminalfix-uses-fake-cloudflare-captcha-to-push-backdoor-2026-08-30",
-    "title": "TerminalFix uses fake Cloudflare CAPTCHA to push backdoor",
-    "originalTitle": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
-    "summary": "Train users not to paste commands from web prompts, lock down PowerShell for non-admins, and alert on reverse-tunnel processes abusing Windows Terminal via fake Cloudflare CAPTCHAs.",
-    "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-30T07:36:33.000Z",
-    "fetchedAt": "2026-08-30T11:51:49.661Z"
-  },
-  {
-    "slug": "yara-x-1-20-0-brings-14-improvements-and-13-fixes-2026-08-30",
-    "title": "YARA-X 1.20.0 brings 14 improvements and 13 fixes",
-    "originalTitle": "YARA-X 1.20.0 Release, (Sun, Aug 30th)",
-    "summary": "Upgrade YARA-X to 1.20.0 to improve stability and detection quality, the release delivers 14 enhancements and 13 bug fixes for defenders using YARA in pipelines.",
-    "url": "https://isc.sans.edu/diary/rss/33288",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-08-30T07:14:49.000Z",
-    "fetchedAt": "2026-08-30T11:51:49.661Z"
   }
 ]
