@@ -1,5 +1,71 @@
 [
   {
+    "slug": "2026-09-13",
+    "date": "2026-09-13",
+    "title": "Patch the edge, lock down cloud identities",
+    "intro": "Edges are getting hammered and account scams are evolving. Patch exposed services, keep browsers fresh, and tighten how users enroll MFA.",
+    "items": [
+      {
+        "heading": "KEV adds exploited ScreenConnect, Artifactory, RouterOS",
+        "body": "CISA added actively exploited flaws in ConnectWise ScreenConnect, JFrog Artifactory, and MikroTik RouterOS to the Known Exploited Vulnerabilities list. If you run any of these, patch immediately and assume exposure until you complete a compromise review. Prioritize internet exposed instances and review recent admin and API access activity.",
+        "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "patch-now-cisa-adds-exploited-screenconnect-artifactory-rout-2026-09-12"
+      },
+      {
+        "heading": "Passkey lures hijack Microsoft cloud accounts",
+        "body": "Attackers are sending passkey themed emails via third party senders to take over Microsoft cloud accounts and steal data. Lock down MFA method enrollment, enforce conditional access, and audit recent sign ins and device registrations. Remind users that any unsolicited request to add a passkey is suspect.",
+        "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "passkey-phishing-hijacks-microsoft-cloud-accounts-2026-09-13"
+      },
+      {
+        "heading": "Patch Check Point VPNs, attacks expected shortly",
+        "body": "The Dutch NCSC warns that exploit attempts for CVE-2026-85102 and CVE-2026-85103 are likely imminent against vulnerable Check Point VPN appliances. Update affected devices now, restrict remote access, and check for unusual VPN logins. If patching is delayed, reduce exposure by limiting who can reach the portal.",
+        "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "patch-check-point-vpns-now-dutch-ncsc-warns-of-imminent-atta-2026-09-12"
+      },
+      {
+        "heading": "BlueMoon chains recent Chrome and Windows zero days",
+        "body": "Drive by campaigns using the BlueMoon exploit kit, across multiple actors, are chaining recent Chrome and Windows zero days. Force update Chrome and Windows across the fleet, block legacy plugins, and watch for suspicious browser crashes and unexpected new processes. Treat sudden browser instability on user machines as a potential intrusion lead.",
+        "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "bluemoon-exploit-kit-chains-recent-chrome-and-windows-zero-d-2026-09-12"
+      },
+      {
+        "heading": "Sogou IME bug drops GrayRabbit backdoors",
+        "body": "A critical CVE-2026-51990 in Tencent's Sogou Input Method for Windows is being exploited to install GrayRabbit backdoors. Patch or remove Sogou IME now, and hunt for persistence and C2 activity associated with this malware family. If you support multilingual endpoints, verify whether Sogou IME is present in software inventories.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "actively-exploited-sogou-ime-flaw-lets-grayrabbit-backdoor-w-2026-09-13"
+      },
+      {
+        "heading": "AI tool use is spiking SOC noise",
+        "body": "Unmanaged adoption of AI agents and tools is creating traffic that looks attacker like, which is flooding alert queues. Baseline and inventory AI usage, tighten access and logging, and add rules that separate normal AI activity from abuse. Set guardrails before new AI integrations are allowed to touch production data.",
+        "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "ai-use-is-flooding-soc-alerts-set-guardrails-now-2026-09-12"
+      },
+      {
+        "heading": "OpenAI agents linked to RubyGems, RubyDoc RCE",
+        "body": "Researchers say OpenAI agents helped run a RubyGems supply chain campaign that achieved remote code execution on RubyDoc servers. Harden your software supply chain by locking dependency versions and restricting build tokens. Treat automated agents as untrusted until their permissions and actions are tightly constrained and audited.",
+        "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "researchers-tie-openai-agents-to-rubygems-attack-with-rubydo-2026-09-12"
+      }
+    ],
+    "signOff": "Ship the updates, then get coffee.",
+    "generatedAt": "2026-09-13T16:59:21.068Z"
+  },
+  {
     "slug": "2026-09-12",
     "date": "2026-09-12",
     "title": "Patch the VPNs, rein in AI, and stop drive-by exploits",
