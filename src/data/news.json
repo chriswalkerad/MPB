@@ -1,5 +1,19 @@
 [
   {
+    "slug": "actively-exploited-sogou-ime-flaw-lets-grayrabbit-backdoor-w-2026-09-13",
+    "title": "Actively exploited Sogou IME flaw lets GrayRabbit backdoor Windows",
+    "originalTitle": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+    "summary": "Patch or remove Tencent's Sogou Input Method for Windows now, a critical CVE-2026-51990 is being exploited to drop GrayRabbit backdoors, and hunt for related persistence and C2 activity.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-13T14:26:32.000Z",
+    "fetchedAt": "2026-09-13T16:14:14.381Z"
+  },
+  {
     "slug": "passkey-phishing-hijacks-microsoft-cloud-accounts-2026-09-13",
     "title": "Passkey phishing hijacks Microsoft cloud accounts",
     "originalTitle": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
@@ -3480,47 +3494,5 @@
     "category": "ai-security",
     "publishedAt": "2026-08-31T04:30:35.000Z",
     "fetchedAt": "2026-08-31T05:29:29.872Z"
-  },
-  {
-    "slug": "hackers-claim-86-gb-theft-from-manchester-airports-group-2026-08-30",
-    "title": "Hackers claim 86 GB theft from Manchester Airports Group",
-    "originalTitle": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
-    "summary": "Assume traveler data exposure and expect targeted phishing, and advise affected staff to monitor accounts, reset reused passwords, and be cautious with travel-related emails.",
-    "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-30T15:00:21.000Z",
-    "fetchedAt": "2026-08-30T16:39:13.126Z"
-  },
-  {
-    "slug": "infostealers-are-hijacking-claude-sessions-draining-usage-2026-08-30",
-    "title": "Infostealers are hijacking Claude sessions, draining usage",
-    "originalTitle": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
-    "summary": "Lock down Claude accounts, as infostealer malware can hijack browser sessions and burn credits, so sanitize endpoints, revoke active sessions, rotate API keys, and enforce MFA.",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-30T14:30:25.000Z",
-    "fetchedAt": "2026-08-30T16:39:13.126Z"
-  },
-  {
-    "slug": "malicious-chrome-extensions-steal-crypto-and-browser-data-2026-08-30",
-    "title": "Malicious Chrome extensions steal crypto and browser data",
-    "originalTitle": "Chrome Web Store extensions caught stealing crypto, browser data",
-    "summary": "Audit and restrict extensions, as Chrome Web Store add-ons were caught delivering malware modules that steal credentials and crypto, inject lures, and exfiltrate browsing data.",
-    "url": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-30T14:17:44.000Z",
-    "fetchedAt": "2026-08-30T16:39:13.126Z"
   }
 ]
