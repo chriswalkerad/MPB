@@ -1,5 +1,98 @@
 [
   {
+    "slug": "revolut-sent-customer-data-to-fraudsters-posing-as-governmen-2026-09-14",
+    "title": "Revolut sent customer data to fraudsters posing as government",
+    "originalTitle": "Revolut handed customer data to fraudsters using government email account",
+    "summary": "Review and tighten your law enforcement data request process, Revolut says it disclosed customer data to scammers using a legitimate government email account impersoninating an emergency request.",
+    "url": "https://therecord.media/revolut-scam-crypto-impersonation",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/14/revolut-data-breach-privacy/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "fetchedAt": "2026-09-14T12:40:50.254Z"
+  },
+  {
+    "slug": "telus-warns-of-account-breaches-using-stolen-credentials-2026-09-14",
+    "title": "Telus warns of account breaches using stolen credentials",
+    "originalTitle": "Telus Warns Customers of Account Breaches",
+    "summary": "Enable MFA and reset reused passwords, Telus says attackers used stolen credentials over several months to access customer data and billing records across multiple accounts.",
+    "url": "https://www.securityweek.com/telus-warns-customers-of-account-breaches/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-14T09:56:57.000Z",
+    "fetchedAt": "2026-09-14T12:40:50.254Z"
+  },
+  {
+    "slug": "september-windows-updates-break-remote-desktop-on-servers-2026-09-14",
+    "title": "September Windows updates break Remote Desktop on servers",
+    "originalTitle": "Microsoft: September updates cause RDS failures on Windows Server",
+    "summary": "Hold or roll back September Windows Server updates on affected hosts, Microsoft confirmed Remote Desktop Services failures after Patch Tuesday and is working on mitigations and a fix.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-14T09:50:25.000Z",
+    "fetchedAt": "2026-09-14T12:40:50.254Z"
+  },
+  {
+    "slug": "jfrog-artifactory-flaws-exploited-to-plant-backdoors-2026-09-14",
+    "title": "JFrog Artifactory flaws exploited to plant backdoors",
+    "originalTitle": "Three JFrog Artifactory Flaws Exploited for Backdoor Deployment",
+    "summary": "Patch Artifactory and audit admin users and tokens, attackers are exploiting three flaws to bypass authentication and escalate privileges then deploy persistent backdoors.",
+    "url": "https://www.securityweek.com/three-jfrog-artifactory-flaws-exploited-for-backdoor-deployment/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-14T09:27:29.000Z",
+    "fetchedAt": "2026-09-14T12:40:50.254Z"
+  },
+  {
+    "slug": "screenconnect-bug-exploited-in-worm-like-attacks-patch-now-2026-09-14",
+    "title": "ScreenConnect bug exploited in worm-like attacks, patch now",
+    "originalTitle": "ConnectWise Patches ScreenConnect Vulnerability Exploited in Worm-Like Attacks",
+    "summary": "Update ScreenConnect immediately, a new flaw lets attackers send and execute files without authorization via active sessions and is already being exploited in worm-like attacks.",
+    "url": "https://www.securityweek.com/connectwise-patches-screenconnect-vulnerability-exploited-in-worm-like-attacks/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-14T08:25:14.000Z",
+    "fetchedAt": "2026-09-14T12:40:50.254Z"
+  },
+  {
+    "slug": "cisa-critical-gitlab-flaw-now-exploited-patch-immediately-2026-09-14",
+    "title": "CISA: Critical GitLab flaw now exploited, patch immediately",
+    "originalTitle": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+    "summary": "Upgrade GitLab to the fixed releases now, CISA says attackers are exploiting a maximum severity vulnerability for project takeover and has added it to the Known Exploited list.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-14T07:06:27.000Z",
+    "fetchedAt": "2026-09-14T12:40:50.254Z"
+  },
+  {
     "slug": "shorter-tls-cert-lifetimes-mean-automate-renewals-now-2026-09-14",
     "title": "Shorter TLS cert lifetimes mean automate renewals now",
     "originalTitle": "Certificate failures can cost firms over $250,000",
@@ -3372,141 +3465,5 @@
     "category": "threats",
     "publishedAt": "2026-08-31T12:45:00.000Z",
     "fetchedAt": "2026-08-31T13:43:39.205Z"
-  },
-  {
-    "slug": "valleyrat-hides-in-signed-adware-users-add-to-av-exclusions-2026-08-31",
-    "title": "ValleyRAT hides in signed adware users add to AV exclusions",
-    "originalTitle": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
-    "summary": "Remove junkware like QN Wallpaper and audit antivirus exclusions, attackers are abusing signed adware to run RATs under trusted processes and evade endpoint protection.",
-    "url": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-31T12:14:00.000Z",
-    "fetchedAt": "2026-08-31T13:43:39.205Z"
-  },
-  {
-    "slug": "anthropic-logs-out-claude-users-after-infostealer-hijacks-se-2026-08-31",
-    "title": "Anthropic logs out Claude users after infostealer hijacks sessions",
-    "originalTitle": "Anthropic Warns Claude Users of Infostealer Malware Infections",
-    "summary": "If users access Claude from infected machines, wipe endpoints, rotate credentials, and enforce MFA, Anthropic is logging out accounts and clearing payment data to block abuse.",
-    "url": "https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/08/31/claude-accounts-compromised-through-infostealer/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-08-31T12:11:58.000Z",
-    "fetchedAt": "2026-08-31T13:43:39.205Z"
-  },
-  {
-    "slug": "patch-papercut-now-attackers-planting-remote-access-tools-2026-08-31",
-    "title": "Patch PaperCut now, attackers planting remote access tools",
-    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "summary": "Patch PaperCut NG/MF immediately for two KEV-listed flaws, restrict internet exposure, and sweep compromised servers for newly installed remote access tools reported in active exploitation.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/08/31/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/08/31/papercut-attack-remote-access-tools/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-31T12:00:00.000Z",
-    "fetchedAt": "2026-08-31T22:49:05.750Z"
-  },
-  {
-    "slug": "aws-console-private-access-can-lock-out-personal-aws-logins-2026-08-31",
-    "title": "AWS Console Private Access can lock out personal AWS logins",
-    "originalTitle": "AWS Console Private Access can block sign-ins to personal accounts",
-    "summary": "Test this feature in a lab and plan exceptions, Console Private Access routes the AWS console over private networks and can block sign-ins to personal accounts on corporate networks.",
-    "url": "https://www.helpnetsecurity.com/2026/08/31/amazon-aws-console-private-access/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-08-31T11:57:21.000Z",
-    "fetchedAt": "2026-08-31T13:43:39.205Z"
-  },
-  {
-    "slug": "critical-ruby-on-rails-flaw-abused-to-read-files-and-run-cod-2026-08-31",
-    "title": "Critical Ruby on Rails flaw abused to read files and run code",
-    "originalTitle": "Critical Ruby on Rails Vulnerability in Attackers’ Crosshairs",
-    "summary": "Patch supported Rails versions now and rotate exposed secrets, attackers are exploiting an arbitrary file read bug to extract credentials and achieve remote code execution.",
-    "url": "https://www.securityweek.com/critical-ruby-on-rails-vulnerability-in-attackers-crosshairs/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-31T11:24:17.000Z",
-    "fetchedAt": "2026-08-31T13:43:39.205Z"
-  },
-  {
-    "slug": "china-linked-fire-ant-hijacks-cisco-routers-and-tacacs-serve-2026-08-31",
-    "title": "China-linked Fire Ant hijacks Cisco routers and TACACS servers",
-    "originalTitle": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
-    "summary": "Audit IOS XR routers and TACACS infrastructure for tampering, attackers are stealing credentials and wiping logs by pivoting through network management gear and Linux hosts.",
-    "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-08-31T09:04:55.000Z",
-    "fetchedAt": "2026-08-31T13:43:39.205Z"
-  },
-  {
-    "slug": "microsoft-defender-bug-triggers-false-av-is-turned-off-alert-2026-08-31",
-    "title": "Microsoft Defender bug triggers false 'AV is turned off' alerts",
-    "originalTitle": "Microsoft asks users to ignore 'Antivirus is turned off' errors",
-    "summary": "Suppress noisy alerts in RMM and dashboards, Microsoft says to ignore Defender status warnings after recent updates until it resolves the issue to avoid needless troubleshooting.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-08-31T08:29:42.000Z",
-    "fetchedAt": "2026-08-31T13:43:39.205Z"
-  },
-  {
-    "slug": "papercut-issues-second-emergency-patch-for-exploited-bugs-2026-08-31",
-    "title": "PaperCut issues second emergency patch for exploited bugs",
-    "originalTitle": "More Details Emerge on Exploited PaperCut Vulnerabilities",
-    "summary": "Apply the new PaperCut NG/MF updates immediately, two exploited vulnerabilities CVE-2026-82078 and CVE-2026-81578 are under active attack and expose print servers to compromise.",
-    "url": "https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-31T06:51:31.000Z",
-    "fetchedAt": "2026-08-31T13:43:39.205Z"
-  },
-  {
-    "slug": "ai-appsec-tools-agree-on-5-of-findings-verify-before-you-fix-2026-08-31",
-    "title": "AI AppSec tools agree on 5% of findings, verify before you fix",
-    "originalTitle": "AI AppSec tools agree on just 5% of security findings",
-    "summary": "Do not rely on one AppSec tool, a new report found AI-driven scanners overlap on just 5 percent of issues and attackers increasingly exploit fresh flaws within hours.",
-    "url": "https://www.helpnetsecurity.com/2026/08/31/contrast-security-ai-appsec-tools-security-findings-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-31T05:00:47.000Z",
-    "fetchedAt": "2026-08-31T05:29:29.872Z"
   }
 ]
