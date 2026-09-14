@@ -1,5 +1,103 @@
 [
   {
+    "slug": "microsoft-issues-out-of-band-fix-for-broken-remote-desktop-s-2026-09-14",
+    "title": "Microsoft issues out-of-band fix for broken Remote Desktop Services",
+    "originalTitle": "Microsoft releases emergency Windows updates to fix RDS failures",
+    "summary": "Install Microsoft's emergency updates to restore Remote Desktop Services and address Hyper-V and USB audio issues introduced by this month’s patches, test on rings before broad deployment.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-14T20:52:18.000Z",
+    "fetchedAt": "2026-09-14T21:48:19.988Z"
+  },
+  {
+    "slug": "critical-gitlab-cve-2026-85706-cvss-10-path-traversal-patch-2026-09-14",
+    "title": "Critical GitLab CVE-2026-85706, CVSS 10 path traversal, patch now",
+    "originalTitle": "Maximum Severity GitLab Flaw Puts Supply Chains at Risk",
+    "summary": "Update GitLab CE and EE immediately, a maximum severity path traversal bug enables file reads and supply chain compromise on self-hosted instances.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-14T20:19:22.000Z",
+    "fetchedAt": "2026-09-14T21:48:19.988Z"
+  },
+  {
+    "slug": "apple-ships-massive-updates-261-security-fixes-across-ios-an-2026-09-14",
+    "title": "Apple ships massive updates, 261 security fixes across iOS and macOS",
+    "originalTitle": "Apple Updates Everything, (Mon, Sep 14th)",
+    "summary": "Deploy the latest Apple updates for iOS, iPadOS, macOS, watchOS and tvOS quickly, they include 261 security patches including multiple critical bugs and WebKit fixes.",
+    "url": "https://isc.sans.edu/diary/rss/33336",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-14T18:33:44.000Z",
+    "fetchedAt": "2026-09-14T21:48:19.988Z"
+  },
+  {
+    "slug": "isp-breach-used-meshcentral-backdoor-for-persistent-admin-ac-2026-09-14",
+    "title": "ISP breach used MeshCentral backdoor for persistent admin access",
+    "originalTitle": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+    "summary": "Audit and secure your remote management tools, attackers in 3BB’s network abused MeshCentral to maintain root access and target subscriber credentials via legitimate admin channels.",
+    "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-14T18:01:49.000Z",
+    "fetchedAt": "2026-09-14T21:48:19.988Z"
+  },
+  {
+    "slug": "gitea-rce-exploited-fast-red-heron-breached-13-orgs-across-s-2026-09-14",
+    "title": "Gitea RCE exploited fast, Red Heron breached 13 orgs across six countries",
+    "originalTitle": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+    "summary": "Patch or isolate Gitea instances now, a recently disclosed RCE is being mass scanned and used to take over internet-facing repositories and developer infrastructure.",
+    "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-14T16:56:30.000Z",
+    "fetchedAt": "2026-09-14T21:48:19.988Z"
+  },
+  {
+    "slug": "attackers-scan-vite-dev-servers-to-steal-aws-and-azure-secre-2026-09-14",
+    "title": "Attackers scan Vite dev servers to steal AWS and Azure secrets",
+    "originalTitle": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
+    "summary": "Lock down or remove internet-exposed Vite dev servers, attackers are mass scraping configs and environment variables to harvest cloud credentials and pivot into production.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-14T16:15:58.000Z",
+    "fetchedAt": "2026-09-14T21:48:19.988Z"
+  },
+  {
+    "slug": "cisco-secure-email-gateway-sqli-added-to-cisa-kev-patch-now-2026-09-14",
+    "title": "Cisco Secure Email Gateway SQLi added to CISA KEV, patch now",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "Patch Cisco Secure Email Gateway CVE-2026-76461 immediately, CISA says the SQL injection flaw is being exploited and poses significant risk to email gateways.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/14/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "fetchedAt": "2026-09-14T21:48:19.988Z"
+  },
+  {
     "slug": "revolut-sent-customer-data-to-fraudsters-posing-as-governmen-2026-09-14",
     "title": "Revolut sent customer data to fraudsters posing as government",
     "originalTitle": "Revolut handed customer data to fraudsters using government email account",
@@ -3353,117 +3451,5 @@
     "category": "threats",
     "publishedAt": "2026-09-01T00:33:21.000Z",
     "fetchedAt": "2026-09-01T05:03:39.125Z"
-  },
-  {
-    "slug": "infostealers-hijack-claude-sessions-mfa-bypass-via-stolen-to-2026-08-31",
-    "title": "Infostealers hijack Claude sessions, MFA bypass via stolen tokens",
-    "originalTitle": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
-    "summary": "Treat AI account cookies like credentials, enforce device hygiene and revocation of active sessions, and use conditional access to limit session theft that bypasses MFA on Anthropic accounts.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-31T21:08:46.000Z",
-    "fetchedAt": "2026-08-31T22:49:05.750Z"
-  },
-  {
-    "slug": "free-llm-endpoints-may-be-malicious-agents-leaked-tools-and-2026-08-31",
-    "title": "Free LLM endpoints may be malicious, agents leaked tools and data",
-    "originalTitle": "The Coding-Agent Trap: When a \"Free\" LLM Endpoint Is the Adversary, (Mon, Aug 31st)",
-    "summary": "Do not wire coding agents to unknown or free LLM backends, run them in sandboxes with strict egress controls, and monitor for data exfiltration.",
-    "url": "https://isc.sans.edu/diary/rss/33298",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-31T20:00:34.000Z",
-    "fetchedAt": "2026-08-31T22:49:05.750Z"
-  },
-  {
-    "slug": "terminalfix-lures-users-into-powershell-opens-reverse-tunnel-2026-08-31",
-    "title": "TerminalFix lures users into PowerShell, opens reverse tunnels",
-    "originalTitle": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
-    "summary": "Block malicious popups and PowerShell prompts, disable Windows Terminal protocol handlers, and monitor for unexpected reverse tunnels as TerminalFix spreads via fake Cloudflare CAPTCHA pages.",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-08-31T18:51:04.000Z",
-    "fetchedAt": "2026-08-31T22:49:05.750Z"
-  },
-  {
-    "slug": "exchange-online-outage-causes-auth-errors-and-email-delays-2026-08-31",
-    "title": "Exchange Online outage causes auth errors and email delays",
-    "originalTitle": "Microsoft Exchange Online outage causes email failures, auth issues",
-    "summary": "Expect sign-in failures and email delays, monitor Microsoft 365 Service Health for EX and MO outages, and avoid heavy mailbox migrations or changes until service stabilizes.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-08-31T16:56:57.000Z",
-    "fetchedAt": "2026-08-31T22:49:05.750Z"
-  },
-  {
-    "slug": "attackers-mimic-ai-crawlers-to-find-exposed-creds-on-your-si-2026-08-31",
-    "title": "Attackers mimic AI crawlers to find exposed creds on your site",
-    "originalTitle": "Threat actors are posing as AI crawlers to hunt for exposed credentials",
-    "summary": "Verify user-agent claims against source IPs, block suspicious scanners, and remove secrets from web roots as actors spoof OpenAI and Google bots to harvest configuration files.",
-    "url": "https://www.helpnetsecurity.com/2026/08/31/ai-crawlers-scan-exposed-credentials/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-31T14:39:22.000Z",
-    "fetchedAt": "2026-08-31T22:49:05.750Z"
-  },
-  {
-    "slug": "servicenow-fixes-three-critical-code-injection-bugs-patch-no-2026-08-31",
-    "title": "ServiceNow fixes three critical code injection bugs, patch now",
-    "originalTitle": "ServiceNow Patches 3 Critical Code Injection Vulnerabilities",
-    "summary": "Update ServiceNow instances promptly to block arbitrary code execution and data tampering, and review access logs for unusual activity if patching was delayed.",
-    "url": "https://www.securityweek.com/servicenow-patches-3-critical-code-injection-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-08-31T13:59:19.000Z",
-    "fetchedAt": "2026-08-31T22:49:05.750Z"
-  },
-  {
-    "slug": "mckesson-breach-tied-to-third-party-app-outages-and-data-the-2026-08-31",
-    "title": "McKesson breach tied to third-party app, outages and data theft claims",
-    "originalTitle": "Pharmaceutical giant McKesson warns of 'service degradation' following cyberattack",
-    "summary": "Expect pharmacy supply delays and targeted phishing, McKesson is probing a third-party compromise as ShinyHunters claims 284 million records, so warn healthcare clients and monitor for misuse.",
-    "url": "https://therecord.media/mckesson-cyberattack-ransomware-pharma",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/08/31/healthcare-company-mckesson-data-breach/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-08-31T12:45:00.000Z",
-    "fetchedAt": "2026-08-31T13:43:39.205Z"
   }
 ]
