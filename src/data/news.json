@@ -1,5 +1,33 @@
 [
   {
+    "slug": "shorter-tls-cert-lifetimes-mean-automate-renewals-now-2026-09-14",
+    "title": "Shorter TLS cert lifetimes mean automate renewals now",
+    "originalTitle": "Certificate failures can cost firms over $250,000",
+    "summary": "Automate TLS certificate issuance, renewal, and inventory, shorter lifetimes will multiply renewals over the next few years and outages are expensive and avoidable.",
+    "url": "https://www.helpnetsecurity.com/2026/09/14/digicert-certificate-management-automation-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-14T04:30:38.000Z",
+    "fetchedAt": "2026-09-14T04:51:15.009Z"
+  },
+  {
+    "slug": "aws-benchmark-shows-ai-vuln-scanners-overflag-code-2026-09-14",
+    "title": "AWS benchmark shows AI vuln scanners overflag code",
+    "originalTitle": "AWS puts AI vulnerability detection to the test, and false positives pile up",
+    "summary": "Validate any AI code security tool against AWS's Deception Benchmark, current models mislabel safe patterns as vulnerabilities and can waste triage time.",
+    "url": "https://www.helpnetsecurity.com/2026/09/14/aws-deception-benchmark-security-vulnerabilities/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-14T04:00:14.000Z",
+    "fetchedAt": "2026-09-14T04:51:15.009Z"
+  },
+  {
     "slug": "actively-exploited-sogou-ime-flaw-lets-grayrabbit-backdoor-w-2026-09-13",
     "title": "Actively exploited Sogou IME flaw lets GrayRabbit backdoor Windows",
     "originalTitle": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
@@ -3479,20 +3507,6 @@
     "altSources": [],
     "category": "ai-security",
     "publishedAt": "2026-08-31T05:00:47.000Z",
-    "fetchedAt": "2026-08-31T05:29:29.872Z"
-  },
-  {
-    "slug": "chatgpt-free-now-shows-ads-based-on-your-prompt-2026-08-31",
-    "title": "ChatGPT Free now shows ads based on your prompt",
-    "originalTitle": "Free ChatGPT users get ads picked from whatever they just asked about",
-    "summary": "Update AI use policies, OpenAI will target ads to free ChatGPT users using their current prompt, location and device, so do not paste sensitive data into free chats.",
-    "url": "https://www.helpnetsecurity.com/2026/08/31/chatgpt-ads-privacy-policy/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-08-31T04:30:35.000Z",
     "fetchedAt": "2026-08-31T05:29:29.872Z"
   }
 ]
