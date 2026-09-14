@@ -21784,5 +21784,23 @@
     "url": "https://www.meetup.com/owasp-atlanta/events/316380434/",
     "source": "OWASP Atlanta (Meetup)",
     "description": "OWASP Atlanta digs into how to spot and counter coordinated influence campaigns across social platforms, from shifting tactics to multilingual content. Expect practical takeaways from building a cross-platform detection pipeline."
+  },
+  {
+    "name": "2026.10.07/0x008F",
+    "slug": "2026-10-07-0x008f",
+    "date": "2026-10-07T19:00:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Dallas",
+    "state": "TX",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.meetup.com/dallas-hackers-association/events/316533256/",
+    "source": "Dallas Hackers Association (Meetup)",
+    "description": "Monthly DHA meetup with fast Firetalks, bring a 10-minute topic or just listen and learn. No vendor pitches, just community sharing what works and what fails so you can harden your stack."
   }
 ]
