@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-14",
+    "date": "2026-09-14",
+    "title": "Active exploits and a Windows RDP pothole",
+    "intro": "Attackers are riding fresh bugs in popular tools while this month's Windows updates trip Remote Desktop. Patch, hold, and tighten the processes that keep you out of the ditch.",
+    "items": [
+      {
+        "heading": "ScreenConnect flaw abused in worm-like attacks",
+        "body": "A new ScreenConnect issue lets attackers push and execute files through active sessions without authorization, and it is already being used in worm-like campaigns. If you rely on ScreenConnect, update immediately and audit recent sessions for unexpected file transfers. Restrict exposure until patched and watch for rapid lateral movement.",
+        "url": "https://www.securityweek.com/connectwise-patches-screenconnect-vulnerability-exploited-in-worm-like-attacks/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "screenconnect-bug-exploited-in-worm-like-attacks-patch-now-2026-09-14"
+      },
+      {
+        "heading": "September Windows updates break Remote Desktop",
+        "body": "Microsoft confirmed Remote Desktop Services failures on some Windows Server hosts after this Patch Tuesday. If RDP is mission critical, hold or roll back the September updates on affected servers and track Microsoft for mitigations and a fix. Test patches in staging before broad rollout.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "september-windows-updates-break-remote-desktop-on-servers-2026-09-14"
+      },
+      {
+        "heading": "CISA flags exploited GitLab bug, patch now",
+        "body": "Attackers are exploiting a maximum severity GitLab vulnerability for project takeover, and CISA added it to the Known Exploited list. Upgrade to the fixed releases now and review tokens, project memberships, and logs for unauthorized changes. Prioritize any internet exposed instances.",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-critical-gitlab-flaw-now-exploited-patch-immediately-2026-09-14"
+      },
+      {
+        "heading": "Artifactory flaws used to plant backdoors",
+        "body": "Threat actors are abusing three JFrog Artifactory bugs to bypass authentication, escalate privileges, and drop persistent backdoors. Patch Artifactory right away and audit admin users and access tokens for anything you did not create. Lock down accounts and rotate credentials if compromise is suspected.",
+        "url": "https://www.securityweek.com/three-jfrog-artifactory-flaws-exploited-for-backdoor-deployment/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "jfrog-artifactory-flaws-exploited-to-plant-backdoors-2026-09-14"
+      },
+      {
+        "heading": "Telus warns of credential-stuffed account breaches",
+        "body": "Over several months attackers used stolen credentials to access customer data and billing records across multiple Telus accounts. Expect similar activity in your own environment, enable MFA everywhere and reset any reused passwords. Monitor for unusual login patterns and alert on sensitive data access.",
+        "url": "https://www.securityweek.com/telus-warns-customers-of-account-breaches/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "telus-warns-of-account-breaches-using-stolen-credentials-2026-09-14"
+      },
+      {
+        "heading": "Fraudsters fooled Revolut via a spoofed gov request",
+        "body": "Revolut says it handed over customer data to scammers who used a legitimate government email account to impersonate an emergency request. Review and tighten your law enforcement data request process, require callbacks to known numbers and dual verification on urgent asks. Train staff to treat urgency as a red flag.",
+        "url": "https://therecord.media/revolut-scam-crypto-impersonation",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "revolut-sent-customer-data-to-fraudsters-posing-as-governmen-2026-09-14"
+      },
+      {
+        "heading": "Shorter TLS cert lifetimes, automate renewals",
+        "body": "TLS certificate lifetimes are shrinking, which means more renewals and more chances to knock over production with an expired cert. Automate issuance, renewal, and inventory so you can catch problems before users do. Add alerting for upcoming expirations and keep a clean inventory of where certs live.",
+        "url": "https://www.helpnetsecurity.com/2026/09/14/digicert-certificate-management-automation-report/",
+        "source": "Help Net Security",
+        "category": "defense",
+        "storySlug": "shorter-tls-cert-lifetimes-mean-automate-renewals-now-2026-09-14"
+      },
+      {
+        "heading": "AWS: AI code scanners overflag, validate first",
+        "body": "AWS's Deception Benchmark shows current AI code security tools often mislabel safe patterns as vulnerabilities, wasting triage time. Before you adopt one, validate against the benchmark and compare results to your existing scanners. Treat AI as an assist, not a replacement, until precision improves.",
+        "url": "https://www.helpnetsecurity.com/2026/09/14/aws-deception-benchmark-security-vulnerabilities/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "aws-benchmark-shows-ai-vuln-scanners-overflag-code-2026-09-14"
+      }
+    ],
+    "signOff": "Good luck out there, and may your RDP stay up.",
+    "generatedAt": "2026-09-14T18:40:21.387Z"
+  },
+  {
     "slug": "2026-09-13",
     "date": "2026-09-13",
     "title": "Patch the edge, lock down cloud identities",
