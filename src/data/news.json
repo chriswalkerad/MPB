@@ -1,5 +1,112 @@
 [
   {
+    "slug": "apple-ships-ios-27-and-macos-27-with-200-fixes-2026-09-15",
+    "title": "Apple ships iOS 27 and macOS 27 with 200 fixes",
+    "originalTitle": "Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases",
+    "summary": "Push iOS 27 and macOS Golden Gate 27 quickly, Apple fixed roughly 200 bugs including kernel flaws enabling memory corruption, privilege escalation, crashes, and data exposure across devices.",
+    "url": "https://www.securityweek.com/apple-patches-200-vulnerabilities-with-new-ios-27-macos-golden-gate-27-releases/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-15T11:06:11.000Z",
+    "fetchedAt": "2026-09-15T11:40:59.629Z"
+  },
+  {
+    "slug": "hijacked-hbo-max-reddit-ads-pushed-malware-via-clickfix-2026-09-15",
+    "title": "Hijacked HBO Max Reddit ads pushed malware via ClickFix",
+    "originalTitle": "Attackers hijack HBO Max’s Reddit account for 48-hour malvertising blitz",
+    "summary": "Brief users on malvertising and block known lures, attackers abused the verified u/hbomax ad account for a 48-hour ClickFix campaign that tricked macOS and Windows users into installing info-stealers.",
+    "url": "https://www.helpnetsecurity.com/2026/09/15/hbo-max-reddit-account-clickfix-infostealer-malware/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/hacked-hbo-reddit-account-used-for-malware-delivery-via-clickfix-attack/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-15T10:10:15.000Z",
+    "fetchedAt": "2026-09-15T11:40:59.629Z"
+  },
+  {
+    "slug": "microsoft-publishes-ai-code-of-conduct-for-security-use-2026-09-15",
+    "title": "Microsoft publishes AI Code of Conduct for security use",
+    "originalTitle": "Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints",
+    "summary": "Review and weigh in on Microsoft's draft AI Code within six weeks, it restricts offensive cyber capabilities, defines escalation paths, and will set guardrails for how Microsoft AI models operate.",
+    "url": "https://www.securityweek.com/microsoft-ai-code-of-conduct-sets-cyberattack-boundaries-chain-of-command-safety-constraints/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/15/microsoft-ai-safety-rules-humanist-ai-code-of-conduct/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-15T09:40:25.000Z",
+    "fetchedAt": "2026-09-15T11:40:59.629Z"
+  },
+  {
+    "slug": "excel-september-security-update-breaks-copy-and-paste-2026-09-15",
+    "title": "Excel September security update breaks copy and paste",
+    "originalTitle": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
+    "summary": "Pause or roll back KB5002914 where needed, Microsoft says September's Excel security update can silently break copy and paste for some users and a fix is in progress.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-09-15T08:40:20.000Z",
+    "fetchedAt": "2026-09-15T11:40:59.629Z"
+  },
+  {
+    "slug": "cisco-secure-email-gateway-zero-day-under-active-attack-2026-09-15",
+    "title": "Cisco Secure Email Gateway zero-day under active attack",
+    "originalTitle": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+    "summary": "Patch AsyncOS now, CVE-2026-76461 is exploited to run root commands without authentication, apply Cisco updates and IoCs, and audit your Secure Email Gateway for compromise.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/15/cve-2026-76461-cisco-email-gateway-zero-day-exploited/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/root-rce-zero-day-in-cisco-secure-email-gateway-under-active-exploitation/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-15T07:31:09.000Z",
+    "fetchedAt": "2026-09-15T11:40:59.629Z"
+  },
+  {
+    "slug": "litespeed-bug-lets-one-shared-site-root-the-server-2026-09-15",
+    "title": "LiteSpeed bug lets one shared site root the server",
+    "originalTitle": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+    "summary": "Update LiteSpeed Web Server Enterprise immediately, a critical flaw lets a low-privilege hosting account gain root on shared servers, jeopardizing all hosted sites and cPanel environments.",
+    "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-15T06:52:16.000Z",
+    "fetchedAt": "2026-09-15T11:40:59.629Z"
+  },
+  {
     "slug": "homebrew-7-0-patches-eight-flaws-fix-managed-macs-now-2026-09-15",
     "title": "Homebrew 7.0 patches eight flaws, fix managed Macs now",
     "originalTitle": "Homebrew 7.0.0 is out, here’s what changed for security",
@@ -3348,122 +3455,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-01T12:07:54.000Z",
     "fetchedAt": "2026-09-01T16:37:25.118Z"
-  },
-  {
-    "slug": "patch-now-jfrog-artifactory-auth-bypass-under-attack-2026-09-01",
-    "title": "Patch now: JFrog Artifactory auth bypass under attack",
-    "originalTitle": "Critical JFrog Artifactory Vulnerability Reportedly Exploited in the Wild",
-    "summary": "If you run JFrog Artifactory, apply the fix for CVE-2026-82329 immediately, attackers are already exploiting this auth bypass to access repositories and pipelines.",
-    "url": "https://www.securityweek.com/critical-jfrog-artifactory-vulnerability-reportedly-exploited-in-the-wild/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-01T09:59:44.000Z",
-    "fetchedAt": "2026-09-01T11:36:35.345Z"
-  },
-  {
-    "slug": "9-5m-patients-hit-in-aesto-health-aws-breach-2026-09-01",
-    "title": "9.5M patients hit in Aesto Health AWS breach",
-    "originalTitle": "9.5 Million Impacted by Aesto Health Data Breach",
-    "summary": "Review vendor access and cloud security for healthcare clients, attackers stole PHI from Aesto Health’s AWS environment affecting 9.5 million individuals.",
-    "url": "https://www.securityweek.com/9-5-million-impacted-by-aesto-health-data-breach/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-01T09:09:34.000Z",
-    "fetchedAt": "2026-09-01T11:36:35.345Z"
-  },
-  {
-    "slug": "stolen-api-key-burns-600k-in-ai-credits-at-metr-2026-09-01",
-    "title": "Stolen API key burns $600k in AI credits at METR",
-    "originalTitle": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
-    "summary": "Lock down and rotate API keys, enable org-level limits and alerts, attackers used a compromised METR key to rack up roughly $600,000 in AI compute charges.",
-    "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-01T09:05:30.000Z",
-    "fetchedAt": "2026-09-01T11:36:35.345Z"
-  },
-  {
-    "slug": "watchguard-fixes-critical-fireware-rce-bugs-patch-now-2026-09-01",
-    "title": "WatchGuard fixes critical Fireware RCE bugs, patch now",
-    "originalTitle": "WatchGuard Patches Critical Vulnerabilities",
-    "summary": "Update Firebox appliances to the latest Fireware, three critical iked flaws allow unauthenticated remote code execution that could lead to takeover of perimeter firewalls.",
-    "url": "https://www.securityweek.com/watchguard-patches-critical-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-01T08:50:04.000Z",
-    "fetchedAt": "2026-09-01T11:36:35.345Z"
-  },
-  {
-    "slug": "papercut-ng-mf-zero-days-now-exploited-update-fast-2026-09-01",
-    "title": "PaperCut NG/MF zero-days now exploited, update fast",
-    "originalTitle": "Recently patched PaperCut zero-days used in data theft attacks",
-    "summary": "Upgrade PaperCut servers and isolate exposed instances, attackers are abusing CVE-2026-82078 and CVE-2026-81578 for data theft and CISA added them to KEV.",
-    "url": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/papercut-exploitation-escalates-to-active-intrusions/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-01T07:48:24.000Z",
-    "fetchedAt": "2026-09-01T11:36:35.345Z"
-  },
-  {
-    "slug": "active-exploitation-hits-langflow-and-ruby-on-rails-bugs-2026-09-01",
-    "title": "Active exploitation hits Langflow and Ruby on Rails bugs",
-    "originalTitle": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
-    "summary": "Patch Langflow CVE-2026-0768 and Rails CVE-2026-66066 now, VulnCheck observed credential probing and C2 activity with code execution against unpatched apps.",
-    "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-01T07:22:30.000Z",
-    "fetchedAt": "2026-09-01T11:36:35.345Z"
-  },
-  {
-    "slug": "crowdsec-1-8-adds-bot-detection-and-dos-hardening-2026-09-01",
-    "title": "CrowdSec 1.8 adds bot detection and DoS hardening",
-    "originalTitle": "Bot detection arrives in CrowdSec 1.8.0, along with two DoS fixes",
-    "summary": "Consider upgrading to CrowdSec 1.8, the open source IPS now detects bots and fixes two DoS issues while improving community blocklist curation.",
-    "url": "https://www.helpnetsecurity.com/2026/09/01/crowdsec-1-8-0-bot-detection/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-01T05:04:35.000Z",
-    "fetchedAt": "2026-09-01T11:36:35.345Z"
-  },
-  {
-    "slug": "nis2-compliance-fix-iam-and-access-control-now-2026-09-01",
-    "title": "NIS2 compliance, fix IAM and access control now",
-    "originalTitle": "NIS2 compliance: Fixing IAM and access control before the 2026 audit",
-    "summary": "Tighten identity governance, least privilege, MFA, and access reviews now to meet NIS2 enforcement timelines, as EU states move to enforcement and start audits in October.",
-    "url": "https://www.helpnetsecurity.com/2026/09/01/nis2-credential-compliance-before-audit/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-01T05:00:08.000Z",
-    "fetchedAt": "2026-09-01T05:03:39.125Z"
   }
 ]
