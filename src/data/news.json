@@ -1,5 +1,33 @@
 [
   {
+    "slug": "homebrew-7-0-patches-eight-flaws-fix-managed-macs-now-2026-09-15",
+    "title": "Homebrew 7.0 patches eight flaws, fix managed Macs now",
+    "originalTitle": "Homebrew 7.0.0 is out, here’s what changed for security",
+    "summary": "Update Homebrew to 7.0, it patches eight security issues including a cask removal metadata flaw that could execute sudo commands, and lock down brew sources on managed Macs.",
+    "url": "https://www.helpnetsecurity.com/2026/09/15/homebrew-7-0-0-security-open-source/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-15T00:47:06.000Z",
+    "fetchedAt": "2026-09-15T04:50:53.425Z"
+  },
+  {
+    "slug": "sandworm-chains-cisco-bugs-to-push-new-cyclops-blink-2026-09-14",
+    "title": "Sandworm chains Cisco bugs to push new Cyclops Blink",
+    "originalTitle": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+    "summary": "Patch Cisco routers and switches now, Sandworm is chaining vulnerabilities to push an upgraded Cyclops Blink, so disable internet-facing management and monitor for anomalous processes and outbound traffic.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-14T21:37:28.000Z",
+    "fetchedAt": "2026-09-15T04:50:53.425Z"
+  },
+  {
     "slug": "microsoft-issues-out-of-band-fix-for-broken-remote-desktop-s-2026-09-14",
     "title": "Microsoft issues out-of-band fix for broken Remote Desktop Services",
     "originalTitle": "Microsoft releases emergency Windows updates to fix RDS failures",
@@ -3436,20 +3464,6 @@
     "altSources": [],
     "category": "defense",
     "publishedAt": "2026-09-01T05:00:08.000Z",
-    "fetchedAt": "2026-09-01T05:03:39.125Z"
-  },
-  {
-    "slug": "guildma-astaroth-trojan-spreading-via-portuguese-phishing-2026-09-01",
-    "title": "Guildma/Astaroth trojan spreading via Portuguese phishing",
-    "originalTitle": "Guildma (Astaroth) malware infection from Brazilian Portuguese email, (Tue, Sep 1st)",
-    "summary": "Stop Guildma/Astaroth with tightened mail filtering, attachment controls, and LOLBin restrictions, and watch for Portuguese-language phishing lures targeting banking and corporate credentials.",
-    "url": "https://isc.sans.edu/diary/rss/33300",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-01T00:33:21.000Z",
     "fetchedAt": "2026-09-01T05:03:39.125Z"
   }
 ]
