@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-15",
+    "date": "2026-09-15",
+    "title": "Ransomware loves vCenter, Fortinet hit: patch, lock down, repeat",
+    "intro": "Active exploits are piling up across vCenter, Fortinet, and WordPress. Lock down management planes, ship patches, and chase any leaked keys before the coffee cools.",
+    "items": [
+      {
+        "heading": "Ransomware exploiting vCenter RCE",
+        "body": "CISA says ransomware crews are abusing a critical VMware vCenter remote code execution bug that was patched in July. If you run vCenter, patch immediately and put management interfaces behind VPN or admin-only networks. Assume compromise if exposed, review recent admin actions, and tighten access controls.",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "ransomware-now-exploiting-vmware-vcenter-rce-patch-immediate-2026-09-15"
+      },
+      {
+        "heading": "Fortinet flaw used in ISP breach",
+        "body": "Investigators report attackers breached a Thai ISP by exploiting an unpatched Fortinet vulnerability, then dropped recon and privilege escalation tools. Audit every FortiGate and related appliance and apply current fixes. Hunt for odd scripts or new admin accounts and validate configurations match vendor guidance.",
+        "url": "https://www.securityweek.com/thai-broadband-provider-hacked-via-fortinet-vulnerability/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "fortinet-bug-used-in-isp-breach-patch-and-audit-fortigate-2026-09-15"
+      },
+      {
+        "heading": "WooCommerce Wholesale Lead Capture under attack",
+        "body": "A critical flaw in the WooCommerce Wholesale Lead Capture plugin is being exploited to upload PHP backdoors and take over WordPress sites. Update the plugin now or disable it until patched. Scan for webshells, rotate admin credentials, and review recent file changes on affected sites.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "critical-woocommerce-wholesale-lead-capture-bug-under-active-2026-09-15"
+      },
+      {
+        "heading": "Mass scans hit exposed Vite dev servers",
+        "body": "Attackers are mass scanning internet-facing Vite development servers to lift AWS and Azure credentials and configuration files. Do not expose dev servers, restrict by IP or VPN, and pull secrets out of reachable paths. Rotate any potentially leaked cloud keys and audit for misuse.",
+        "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "mass-scans-hit-vite-dev-servers-to-steal-cloud-credentials-2026-09-15"
+      },
+      {
+        "heading": "BambooToken rides MQTT on Windows and Linux",
+        "body": "Researchers spotted a cross-platform BambooToken framework using MQTT for command and control on Windows and Linux networks since at least 2023. If MQTT is not a business need, block or monitor it at the network edge. Add detections for unusual MQTT traffic and review egress rules.",
+        "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "bambootoken-malware-uses-mqtt-to-control-windows-and-linux-2026-09-15"
+      },
+      {
+        "heading": "CISA, NIST: harden your SSO tokens",
+        "body": "New guidance from CISA and NIST urges token binding, short token lifetimes, continuous validation, and hardened OIDC or SAML configurations. This lowers the risk of token theft and assertion forgery in cloud SSO. Review your identity provider settings and put these controls on the roadmap if not already in place.",
+        "url": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
+        "source": "CISA Advisories",
+        "category": "defense",
+        "storySlug": "cisa-and-nist-issue-guidance-to-protect-sso-tokens-2026-09-15"
+      },
+      {
+        "heading": "Apple ships iOS 27 and macOS 27 with 200 fixes",
+        "body": "Apple pushed roughly 200 fixes across iOS and macOS, including kernel bugs that enable memory corruption, privilege escalation, crashes, and data exposure. Prioritize these updates across managed fleets. Stage and roll out via MDM and keep an eye on high-risk user groups.",
+        "url": "https://www.securityweek.com/apple-patches-200-vulnerabilities-with-new-ios-27-macos-golden-gate-27-releases/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "apple-ships-ios-27-and-macos-27-with-200-fixes-2026-09-15"
+      },
+      {
+        "heading": "OpenAI probes AI agents in RubyGems attack",
+        "body": "OpenAI is investigating reports that AI agents helped with May’s RubyGems account registrations and malicious package activity. Expect more automated credential stuffing and repository abuse. Enforce MFA on developer accounts, lock down publishing tokens, and monitor dependency changes.",
+        "url": "https://www.securityweek.com/openai-investigates-report-linking-ai-agents-to-rubygems-attack/",
+        "source": "SecurityWeek",
+        "category": "ai-security",
+        "storySlug": "openai-probes-claim-ai-agents-aided-rubygems-attack-2026-09-15"
+      }
+    ],
+    "signOff": "Ship the patches, lock the doors, then grab that coffee.",
+    "generatedAt": "2026-09-15T17:41:38.452Z"
+  },
+  {
     "slug": "2026-09-14",
     "date": "2026-09-14",
     "title": "Active exploits and a Windows RDP pothole",
