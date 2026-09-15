@@ -1,5 +1,108 @@
 [
   {
+    "slug": "bambootoken-malware-uses-mqtt-to-control-windows-and-linux-2026-09-15",
+    "title": "BambooToken malware uses MQTT to control Windows and Linux",
+    "originalTitle": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
+    "summary": "Block or monitor MQTT where not required, researchers found a cross-platform BambooToken framework using MQTT for command and control on Windows and Linux networks since at least 2023.",
+    "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-15T15:23:19.000Z",
+    "fetchedAt": "2026-09-15T16:56:35.709Z"
+  },
+  {
+    "slug": "critical-woocommerce-wholesale-lead-capture-bug-under-active-2026-09-15",
+    "title": "Critical WooCommerce Wholesale Lead Capture bug under active attack",
+    "originalTitle": "Hackers target WordPress sites via third-party WooCommerce plugin",
+    "summary": "If you run WooCommerce Wholesale Lead Capture, update or disable immediately, attackers are exploiting a critical flaw to upload PHP backdoors and take over WordPress sites.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-15T14:45:10.000Z",
+    "fetchedAt": "2026-09-15T16:56:35.709Z"
+  },
+  {
+    "slug": "fortinet-bug-used-in-isp-breach-patch-and-audit-fortigate-2026-09-15",
+    "title": "Fortinet bug used in ISP breach, patch and audit FortiGate",
+    "originalTitle": "Thai Broadband Provider Hacked via Fortinet Vulnerability",
+    "summary": "Audit and patch Fortinet appliances, investigators say attackers exploited an unpatched Fortinet vulnerability to breach a Thai ISP, staging recon scripts and privilege escalation tools on compromised systems.",
+    "url": "https://www.securityweek.com/thai-broadband-provider-hacked-via-fortinet-vulnerability/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-15T13:33:58.000Z",
+    "fetchedAt": "2026-09-15T16:56:35.709Z"
+  },
+  {
+    "slug": "openai-probes-claim-ai-agents-aided-rubygems-attack-2026-09-15",
+    "title": "OpenAI probes claim AI agents aided RubyGems attack",
+    "originalTitle": "OpenAI Investigates Report Linking AI Agents to RubyGems Attack",
+    "summary": "Prepare for more automated credential stuffing and repository abuse, OpenAI is investigating reports that AI agents were involved in May’s RubyGems account registration and malicious package activity.",
+    "url": "https://www.securityweek.com/openai-investigates-report-linking-ai-agents-to-rubygems-attack/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-15T12:42:32.000Z",
+    "fetchedAt": "2026-09-15T16:56:35.709Z"
+  },
+  {
+    "slug": "ransomware-now-exploiting-vmware-vcenter-rce-patch-immediate-2026-09-15",
+    "title": "Ransomware now exploiting VMware vCenter RCE, patch immediately",
+    "originalTitle": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+    "summary": "Patch vCenter servers now and lock down management interfaces, CISA says ransomware gangs are exploiting a critical vCenter RCE patched in July and organizations remain under active attack.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-15T12:16:32.000Z",
+    "fetchedAt": "2026-09-15T16:56:35.709Z"
+  },
+  {
+    "slug": "cisa-and-nist-issue-guidance-to-protect-sso-tokens-2026-09-15",
+    "title": "CISA and NIST issue guidance to protect SSO tokens",
+    "originalTitle": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
+    "summary": "Apply token binding, short lifetimes, continuous validation, and hardened OIDC or SAML configs, new CISA and NIST guidance outlines controls to prevent token theft and assertion forgery in cloud SSO.",
+    "url": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "fetchedAt": "2026-09-15T16:56:35.709Z"
+  },
+  {
+    "slug": "mass-scans-hit-vite-dev-servers-to-steal-cloud-credentials-2026-09-15",
+    "title": "Mass scans hit Vite dev servers to steal cloud credentials",
+    "originalTitle": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+    "summary": "Do not expose Vite development servers, rotate leaked cloud secrets, mass-scanning campaigns are stealing AWS and Azure credentials and configuration files from internet-facing dev environments.",
+    "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-15T11:12:32.000Z",
+    "fetchedAt": "2026-09-15T16:56:35.709Z"
+  },
+  {
     "slug": "apple-ships-ios-27-and-macos-27-with-200-fixes-2026-09-15",
     "title": "Apple ships iOS 27 and macOS 27 with 200 fixes",
     "originalTitle": "Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases",
@@ -3366,94 +3469,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-01T17:53:11.000Z",
     "fetchedAt": "2026-09-01T21:00:38.615Z"
-  },
-  {
-    "slug": "bgp-hijack-pushed-malicious-virtualizor-updates-2026-09-01",
-    "title": "BGP hijack pushed malicious Virtualizor updates",
-    "originalTitle": "Hackers push malicious Virtualizor update in BGP hijacking attack",
-    "summary": "Pause updates, verify signatures, and audit servers for compromise after attackers hijacked Virtualizor’s update channel via BGP to deliver malware through poisoned packages.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-01T14:45:06.000Z",
-    "fetchedAt": "2026-09-01T16:37:25.118Z"
-  },
-  {
-    "slug": "teams-vishing-uses-fake-it-support-to-land-malware-2026-09-01",
-    "title": "Teams vishing uses fake IT support to land malware",
-    "originalTitle": "Vishing campaign abuses Microsoft Teams to give attackers a foothold in company networks",
-    "summary": "Train users to distrust unsolicited Teams calls, restrict local admin, and monitor for remote tools after Spring Ring targeted 150+ employees at more than 10 companies.",
-    "url": "https://www.helpnetsecurity.com/2026/09/01/spring-ring-vishing-campaign-microsoft-teams/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-01T14:07:16.000Z",
-    "fetchedAt": "2026-09-01T16:37:25.118Z"
-  },
-  {
-    "slug": "clickfix-phish-uses-blockchain-c2-compromises-31-orgs-2026-09-01",
-    "title": "ClickFix phish uses blockchain C2, compromises 31 orgs",
-    "originalTitle": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
-    "summary": "Block clipboard-based 'prove you are human' prompts, lock down terminal access, and filter blockchain-hosted EtherHiding indicators as ClickFix used Polygon to rotate command servers and compromised 31 organizations.",
-    "url": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-01T13:56:42.000Z",
-    "fetchedAt": "2026-09-01T16:37:25.118Z"
-  },
-  {
-    "slug": "22-000-exchange-servers-still-open-to-mailbox-hijack-2026-09-01",
-    "title": "22,000 Exchange servers still open to mailbox hijack",
-    "originalTitle": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
-    "summary": "Patch the latest Exchange auth bypass now, disable exposed OWA and ECP where possible, and check for mailbox takeovers on any Internet-facing servers.",
-    "url": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-01T12:38:35.000Z",
-    "fetchedAt": "2026-09-01T16:37:25.118Z"
-  },
-  {
-    "slug": "fake-claude-opus-5-app-steals-creds-via-revstealer-2026-09-01",
-    "title": "Fake Claude Opus 5 app steals creds via RevStealer",
-    "originalTitle": "Fake Claude Opus 5 app delivers malware and wipes its own tracks",
-    "summary": "Block and hunt for RevStealer, warn staff against free AI apps from GitHub, and only distribute AI tools via managed software channels to prevent credential theft.",
-    "url": "https://www.helpnetsecurity.com/2026/09/01/revstealer-malware-claude-opus-5-github/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-01T12:21:35.000Z",
-    "fetchedAt": "2026-09-01T16:37:25.118Z"
-  },
-  {
-    "slug": "langflow-rce-under-active-exploit-patch-now-2026-09-01",
-    "title": "Langflow RCE under active exploit, patch now",
-    "originalTitle": "Hackers Start Exploiting Critical Langflow Vulnerability",
-    "summary": "If you run Langflow, update immediately or isolate instances because attackers are exploiting CVE-2026-0768 to execute arbitrary Python code without authentication.",
-    "url": "https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-01T12:07:54.000Z",
-    "fetchedAt": "2026-09-01T16:37:25.118Z"
   }
 ]
