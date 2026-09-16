@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-16",
+    "date": "2026-09-16",
+    "title": "Active exploits, zero days, and phish that beat MFA",
+    "intro": "Remote tools and phones are getting hammered, plus fresh RCEs on web and PBX fronts. Patch fast, lock down exposure, and tighten identity controls.",
+    "items": [
+      {
+        "heading": "ScreenConnect under active attack",
+        "body": "CISA says a critical ScreenConnect vulnerability is being exploited. If you run it, patch immediately. Audit for unauthorized sessions or new users, disable unused accounts, and restrict access to known IPs until you are confident it is clean.",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "screenconnect-flaw-under-active-attack-patch-now-2026-09-16"
+      },
+      {
+        "heading": "Issabel PBX unauth RCE, actively exploited",
+        "body": "CVE-2026-89026 lets unauthenticated attackers run OS commands via hard coded credentials, and attackers are already using it. If any Issabel instance is internet exposed, take it off the edge, patch, and put it behind VPN or an allowlist. Review call logs and system users for tampering and rotate any secrets stored on the box.",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "issabel-pbx-flaw-under-active-exploit-allows-unauthenticated-2026-09-16"
+      },
+      {
+        "heading": "WordPress Events Calendar RCE hits 200k sites",
+        "body": "Newly disclosed flaws in The Events Calendar plugin enable remote code execution without login. Update the plugin everywhere you manage client sites. While you are in there, remove unused plugins, disable in-dashboard file editing, and add WAF rules to blunt exploit attempts.",
+        "url": "https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "unauth-rce-bugs-threaten-200k-wordpress-sites-running-events-2026-09-16"
+      },
+      {
+        "heading": "Pixel modem zero day lands on KEV",
+        "body": "CVE-2026-58704 is an exploited privilege escalation in the cellular modem on Pixel devices, now on CISA’s KEV list. Push updates right away and prioritize high risk users. If you cannot patch today, limit sensitive access from affected phones and reduce risky app use until updated.",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "source": "CISA Advisories",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-adds-pixel-modem-zero-day-to-kev-patch-now-2026-09-16"
+      },
+      {
+        "heading": "Parallels bug gives any Mac user root",
+        "body": "CVE-2026-90894 lets local users escalate to root through Parallels Desktop. Upgrade to Parallels Desktop 27 where possible, but Intel Macs cannot take the patch yet, so crank up local app controls and restrict software sources. Consider removing Parallels from shared or high risk Macs and watch for odd privilege changes.",
+        "url": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "parallels-desktop-bug-gives-any-mac-user-root-intel-stuck-wi-2026-09-16"
+      },
+      {
+        "heading": "N0va kit hijacks business accounts despite MFA",
+        "body": "Attackers are using the N0va phishkit to abuse legitimate auth flows, capture valid sessions, and take over accounts at US and EU firms. Train users on browser in the middle tricks and enforce phishing resistant MFA like FIDO2 or passkeys. Add session monitoring and rapid revocation, and block legacy and basic auth.",
+        "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "n0va-phishkit-bypasses-mfa-flows-to-hijack-business-accounts-2026-09-16"
+      },
+      {
+        "heading": "AI assistant session hijack seeded a repo worm",
+        "body": "Mandiant reports a hijacked session and a poisoned AI recommendation led to the Shai-Hulud worm spreading to 100 internal repos and stealing secrets. Lock down AI coding assistants, pin and verify package sources, and keep token scopes minimal. Turn on signed commits and secret scanning, rotate exposed tokens, and add pre commit checks.",
+        "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "hijacked-ai-coding-assistant-spread-worm-to-100-internal-rep-2026-09-16"
+      },
+      {
+        "heading": "CISA: plant decoys to catch intruders using real creds",
+        "body": "CISA published practical guidance to deploy decoy hosts and breadcrumbs that reveal lateral movement and living off the land. Add canary accounts, honey tokens, and fake shares that alert on touch. Treat decoy hits as high priority and tune placement to your environment to cut noise.",
+        "url": "https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response",
+        "source": "CISA Advisories",
+        "category": "defense",
+        "storySlug": "cisa-use-cyber-decoys-to-catch-intruders-using-legit-creds-2026-09-16"
+      }
+    ],
+    "signOff": "Ship patches, watch the logs, drink the coffee.",
+    "generatedAt": "2026-09-16T17:39:02.883Z"
+  },
+  {
     "slug": "2026-09-15",
     "date": "2026-09-15",
     "title": "Ransomware loves vCenter, Fortinet hit: patch, lock down, repeat",
