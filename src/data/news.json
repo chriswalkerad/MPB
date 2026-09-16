@@ -1,5 +1,127 @@
 [
   {
+    "slug": "screenconnect-flaw-under-active-attack-patch-now-2026-09-16",
+    "title": "ScreenConnect flaw under active attack, patch now",
+    "originalTitle": "Critical ScreenConnect flaw now actively exploited in attacks",
+    "summary": "CISA says attackers are exploiting a critical ScreenConnect bug, update servers immediately and check remote access logs for unauthorized sessions or new users.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-16T11:14:28.000Z",
+    "fetchedAt": "2026-09-16T11:28:01.943Z"
+  },
+  {
+    "slug": "chrome-and-firefox-updates-fix-115-security-bugs-2026-09-16",
+    "title": "Chrome and Firefox updates fix 115 security bugs",
+    "originalTitle": "Chrome, Firefox Updates Patch 115 Vulnerabilities",
+    "summary": "Roll out the latest Chrome and Firefox releases to close 115 vulnerabilities including multiple high severity issues, and enforce rapid browser patching for all managed endpoints.",
+    "url": "https://www.securityweek.com/chrome-firefox-updates-patch-115-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-16T10:28:36.000Z",
+    "fetchedAt": "2026-09-16T11:28:01.943Z"
+  },
+  {
+    "slug": "acronis-cpanel-backup-plugin-lpe-exploited-update-now-2026-09-16",
+    "title": "Acronis cPanel backup plugin LPE exploited, update now",
+    "originalTitle": "Acronis Patches Exploited Vulnerability in cPanel Backup Plugin",
+    "summary": "CVE-2026-87886 allows local privilege escalation in Acronis backup plugins for cPanel, WHM, and Plesk, patch immediately and audit systems for suspicious privilege changes or new root artifacts.",
+    "url": "https://www.securityweek.com/acronis-patches-exploited-vulnerability-in-cpanel-backup-plugin/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-16T09:52:31.000Z",
+    "fetchedAt": "2026-09-16T11:28:01.943Z"
+  },
+  {
+    "slug": "windows-server-2022-leaves-mainstream-support-next-month-2026-09-16",
+    "title": "Windows Server 2022 leaves mainstream support next month",
+    "originalTitle": "Windows Server 2022 reaches end of mainstream support next month",
+    "summary": "Plan now for extended support as Windows Server 2022 stops feature updates and receives only security fixes until October 2031, aligning upgrade and budgeting timelines with customer needs.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-09-16T09:10:20.000Z",
+    "fetchedAt": "2026-09-16T11:28:01.943Z"
+  },
+  {
+    "slug": "nist-and-cisa-release-playbook-to-block-token-theft-2026-09-16",
+    "title": "NIST and CISA release playbook to block token theft",
+    "originalTitle": "NIST and CISA finalize playbook to stop token theft and forgery",
+    "summary": "Implement NIST IR 8587 to harden OAuth and SAML tokens with stronger key management, verification, rotation, and lifecycle controls across identity providers, applications, and cloud services.",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/nist-cisa-cloud-token-security-guidance/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-16T07:40:01.000Z",
+    "fetchedAt": "2026-09-16T11:28:01.943Z"
+  },
+  {
+    "slug": "pixel-update-fixes-exploited-android-zero-day-deploy-now-2026-09-16",
+    "title": "Pixel update fixes exploited Android zero day, deploy now",
+    "originalTitle": "Google fixes actively exploited Android zero-day on Pixel devices",
+    "summary": "Google’s September patch fixes 110 flaws and an actively exploited Pixel zero day, push updates to managed Android devices and confirm mobile threat defenses catch exploitation attempts.",
+    "url": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-16T07:00:19.000Z",
+    "fetchedAt": "2026-09-16T11:28:01.943Z"
+  },
+  {
+    "slug": "woocommerce-plugin-hole-used-to-plant-php-web-shells-2026-09-16",
+    "title": "WooCommerce plugin hole used to plant PHP web shells",
+    "originalTitle": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+    "summary": "Unauthenticated attackers are exploiting a critical bug in WooCommerce Wholesale Lead Capture to upload PHP backdoors, update or disable the plugin and scan sites for indicators of compromise.",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-16T05:48:28.000Z",
+    "fetchedAt": "2026-09-16T11:28:01.943Z"
+  },
+  {
+    "slug": "wso2-api-manager-jwt-bypass-exploited-patch-and-rotate-keys-2026-09-16",
+    "title": "WSO2 API Manager JWT bypass exploited, patch and rotate keys",
+    "originalTitle": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+    "summary": "CVE-2026-5430 lets attackers forge admin JWTs to take over WSO2, patch immediately, revoke and regenerate secrets, and review logs for suspicious token use across API gateways.",
+    "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/enterprises-warned-of-attacks-exploiting-wso2-vulnerability/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-16T05:18:06.000Z",
+    "fetchedAt": "2026-09-16T11:28:01.943Z"
+  },
+  {
     "slug": "nearly-half-of-clients-expect-msps-to-be-their-ciso-2026-09-16",
     "title": "Nearly half of clients expect MSPs to be their CISO",
     "originalTitle": "MSPs say nearly half their customers rely on them for CISO services",
@@ -3265,139 +3387,5 @@
     "category": "defense",
     "publishedAt": "2026-09-02T12:00:00.000Z",
     "fetchedAt": "2026-09-02T16:33:02.339Z"
-  },
-  {
-    "slug": "bgp-hijack-pushed-malicious-virtualizor-update-with-root-bac-2026-09-02",
-    "title": "BGP hijack pushed malicious Virtualizor update with root backdoor",
-    "originalTitle": "BGP hijack infecting networks caused by a comedy of errors that’s not funny at all",
-    "summary": "If you run Virtualizor, verify packages from Aug 28-29, compare hashes, rebuild compromised hosts, rotate keys and restrict update paths while monitoring for persistence.",
-    "url": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/malicious-virtualizor-update-served-via-bgp-hijacking/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-02T11:00:43.000Z",
-    "fetchedAt": "2026-09-02T16:33:02.339Z"
-  },
-  {
-    "slug": "fbi-warns-of-oauth-consent-phishing-against-execs-and-famili-2026-09-02",
-    "title": "FBI warns of OAuth consent phishing against execs and families",
-    "originalTitle": "Attackers are going after prominent individuals through OAuth phishing, FBI warns",
-    "summary": "Audit OAuth app consents and tighten admin consent policies, attackers are using consent phishing to gain persistent access to email and cloud files of high‑profile targets.",
-    "url": "https://www.helpnetsecurity.com/2026/09/02/oauth-consent-phishing-fbi-warning/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-02T10:58:22.000Z",
-    "fetchedAt": "2026-09-02T11:14:22.879Z"
-  },
-  {
-    "slug": "openai-astra-can-autonomously-find-and-exploit-zero-days-2026-09-02",
-    "title": "OpenAI Astra can autonomously find and exploit zero-days",
-    "originalTitle": "OpenAI’s Astra Becomes First Model to Cross Critical Cybersecurity Threshold",
-    "summary": "Prepare for client questions and revisit AI risk controls, Astra reportedly crosses a threshold in autonomous exploit discovery against hardened systems, raising the stakes for defenders.",
-    "url": "https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-02T10:38:13.000Z",
-    "fetchedAt": "2026-09-02T11:14:22.879Z"
-  },
-  {
-    "slug": "defender-for-office-365-misflags-google-links-as-malicious-2026-09-02",
-    "title": "Defender for Office 365 misflags Google links as malicious",
-    "originalTitle": "Microsoft Defender flags legitimate Google search links as malicious",
-    "summary": "Expect false positives on Google search links in Defender for Office 365, Microsoft is investigating so adjust policies and communicate with users until it is resolved.",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-09-02T10:29:39.000Z",
-    "fetchedAt": "2026-09-02T11:14:22.879Z"
-  },
-  {
-    "slug": "chrome-and-firefox-patch-dozens-of-flaws-update-today-2026-09-02",
-    "title": "Chrome and Firefox patch dozens of flaws, update today",
-    "originalTitle": "Chrome and Firefox Updates Patch Dozens of Vulnerabilities",
-    "summary": "Push the latest Chrome and Firefox releases across endpoints now, multiple use-after-free, sandbox escape, and privilege escalation bugs are fixed.",
-    "url": "https://www.securityweek.com/chrome-and-firefox-updates-patch-dozens-of-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-02T09:12:29.000Z",
-    "fetchedAt": "2026-09-02T11:14:22.879Z"
-  },
-  {
-    "slug": "claude-helps-port-plc-rce-exploit-between-devices-2026-09-02",
-    "title": "Claude helps port PLC RCE exploit between devices",
-    "originalTitle": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
-    "summary": "Plan for LLM-assisted offense in your threat model, researchers used Claude to adapt a pre-auth RCE for WAGO PLCs and execute attacker-supplied shellcode on live hardware.",
-    "url": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-02T07:47:13.000Z",
-    "fetchedAt": "2026-09-02T11:14:22.879Z"
-  },
-  {
-    "slug": "attackers-hit-sangoma-switchvox-with-unauth-rce-patch-now-2026-09-02",
-    "title": "Attackers hit Sangoma Switchvox with unauth RCE, patch now",
-    "originalTitle": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
-    "summary": "Patch Sangoma Switchvox SMB Edition 8.3 and restrict exposure, threat actors are exploiting a critical unauthenticated SQL injection to deploy reverse shells.",
-    "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-02T07:08:50.000Z",
-    "fetchedAt": "2026-09-02T11:14:22.879Z"
-  },
-  {
-    "slug": "sonicwall-sma-1000-zero-days-exploited-update-now-2026-09-02",
-    "title": "SonicWall SMA 1000 zero-days exploited, update now",
-    "originalTitle": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
-    "summary": "Install SonicWall SMA 1000 updates or apply mitigations immediately, attackers are chaining two zero-days for unauthenticated remote code execution on exposed VPN appliances.",
-    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/02/sonicwall-sma-1000-cve-2026-83548-cve-2026-83549-zero-day-attacks/"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-02T06:39:29.000Z",
-    "fetchedAt": "2026-09-02T11:14:22.879Z"
   }
 ]
