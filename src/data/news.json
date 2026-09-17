@@ -1,5 +1,89 @@
 [
   {
+    "slug": "windows-11-24h2-home-and-pro-hit-end-of-support-in-october-2026-09-17",
+    "title": "Windows 11 24H2 Home and Pro hit end of support in October",
+    "originalTitle": "Windows 11 24H2 Home and Pro reach end of support in October",
+    "summary": "Plan upgrades or feature updates now, devices on Windows 11 24H2 Home or Pro stop receiving security updates next month and will need servicing to stay protected.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-09-17T13:09:09.000Z",
+    "fetchedAt": "2026-09-17T16:58:05.665Z"
+  },
+  {
+    "slug": "fake-chatgpt-billing-emails-are-stealing-openai-passwords-2026-09-17",
+    "title": "Fake ChatGPT billing emails are stealing OpenAI passwords",
+    "originalTitle": "A fake ChatGPT billing email is after your OpenAI password",
+    "summary": "Warn users and block the domains, a convincing invoice lure redirects through Google to a cloned OpenAI login page that steals ChatGPT credentials on work and personal accounts.",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/chatgpt-phishing-email-openai-password/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-17T13:01:40.000Z",
+    "fetchedAt": "2026-09-17T16:58:05.665Z"
+  },
+  {
+    "slug": "cisa-urges-orgs-to-deploy-cyber-decoys-for-faster-intruder-d-2026-09-17",
+    "title": "CISA urges orgs to deploy cyber decoys for faster intruder detection",
+    "originalTitle": "CISA wants critical infrastructure orgs and smaller security teams to start using cyber decoys",
+    "summary": "Add low-cost honeypots and canaries to your stack, CISA says decoys help catch attackers using valid creds and built-in tools that slip past EDR and SIEM.",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/cisa-guidance-for-implementing-cyber-decoys/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-17T12:51:40.000Z",
+    "fetchedAt": "2026-09-17T16:58:05.665Z"
+  },
+  {
+    "slug": "patch-now-critical-unbound-dnssec-rce-via-malicious-zone-2026-09-17",
+    "title": "Patch now: critical Unbound DNSSEC RCE via malicious zone",
+    "originalTitle": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+    "summary": "Update Unbound to 1.26.1 immediately, a critical heap overflow in the DNSSEC validator allows remote code execution via a crafted zone on resolvers in many SMB stacks.",
+    "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-17T12:30:00.000Z",
+    "fetchedAt": "2026-09-17T16:58:05.665Z"
+  },
+  {
+    "slug": "schneider-netbotz-750-755-flaws-allow-code-execution-on-loca-2026-09-17",
+    "title": "Schneider NetBotz 750/755 flaws allow code execution on local network",
+    "originalTitle": "Schneider Electric NetBotz 5 750/755",
+    "summary": "Patch NetBotz 5 appliances promptly, multiple vulnerabilities can lead to arbitrary or remote code execution over the local network on devices monitoring server rooms and closets.",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-17T12:00:00.000Z",
+    "fetchedAt": "2026-09-17T16:58:05.665Z"
+  },
+  {
+    "slug": "schneider-powerchute-serial-shutdown-flaws-risk-unauthorized-2026-09-17",
+    "title": "Schneider PowerChute Serial Shutdown flaws risk unauthorized access",
+    "originalTitle": "Schneider Electric PowerChute Serial Shutdown",
+    "summary": "Update or apply mitigations now, improper authentication validation in PowerChute Serial Shutdown could let attackers gain access on systems managing UPS graceful shutdown.",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-17T12:00:00.000Z",
+    "fetchedAt": "2026-09-17T16:58:05.665Z"
+  },
+  {
     "slug": "ai-polished-fake-antivirus-renewals-are-fooling-users-2026-09-17",
     "title": "AI-polished fake antivirus renewals are fooling users",
     "originalTitle": "Scammers leave AI fingerprints all over fake antivirus renewal page",
@@ -40,6 +124,25 @@
     "category": "defense",
     "publishedAt": "2026-09-17T08:24:48.000Z",
     "fetchedAt": "2026-09-17T11:37:36.601Z"
+  },
+  {
+    "slug": "bind-9-patches-14-flaws-doh-bug-can-crash-servers-unauthenti-2026-09-17",
+    "title": "BIND 9 patches 14 flaws, DoH bug can crash servers unauthenticated",
+    "originalTitle": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
+    "summary": "Upgrade BIND to 9.20.29 or 9.21.26 quickly, multiple bugs include an unauthenticated DoH request crash, risking DNS outages for anyone running named with DoH enabled.",
+    "url": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/isc-patches-14-vulnerabilities-in-bind-9-security-update/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-17T08:00:29.000Z",
+    "fetchedAt": "2026-09-17T16:58:05.665Z"
   },
   {
     "slug": "cisa-tells-defenders-to-use-decoys-to-catch-intruders-2026-09-17",
@@ -91,6 +194,25 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-17T07:20:54.000Z",
     "fetchedAt": "2026-09-17T11:37:36.601Z"
+  },
+  {
+    "slug": "cisco-ise-zero-day-auth-bypass-exploited-patch-and-restrict-2026-09-17",
+    "title": "Cisco ISE zero-day auth bypass exploited, patch and restrict API",
+    "originalTitle": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+    "summary": "Block risky endpoints and apply Cisco fixes or mitigations now, an unauthenticated API flaw in ISE is under active attack and can let attackers bypass authentication completely.",
+    "url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/cisco-fixes-dozens-of-flaws-across-fmc-ise-and-nexus-dashboard/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-17T06:39:40.000Z",
+    "fetchedAt": "2026-09-17T16:58:05.665Z"
   },
   {
     "slug": "ai-code-floods-open-source-maintainers-struggle-to-vet-secur-2026-09-17",
@@ -3274,155 +3396,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-03T18:28:12.000Z",
     "fetchedAt": "2026-09-03T21:00:05.702Z"
-  },
-  {
-    "slug": "cisco-nexus-9000-bug-allows-unauthenticated-root-rce-2026-09-03",
-    "title": "Cisco Nexus 9000 bug allows unauthenticated root RCE",
-    "originalTitle": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
-    "summary": "If you run Silicon One-based Nexus 9000 switches, apply Cisco's fixes now and limit exposure, a 9.8 flaw lets remote attackers execute code as root.",
-    "url": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-03T15:52:07.000Z",
-    "fetchedAt": "2026-09-03T21:00:05.702Z"
-  },
-  {
-    "slug": "new-brazetsu-toolkit-monetizes-compromised-windows-hosts-2026-09-03",
-    "title": "New BraZetsu toolkit monetizes compromised Windows hosts",
-    "originalTitle": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
-    "summary": "Hunt for Python-based BraZetsu infections and tighten egress controls, the framework turns compromised Windows machines into marketplace inventory for brokers and bundles stealers, RATs, and persistence.",
-    "url": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-03T15:26:47.000Z",
-    "fetchedAt": "2026-09-03T21:00:05.702Z"
-  },
-  {
-    "slug": "elementor-pro-bug-exploited-to-hijack-wordpress-patch-now-2026-09-03",
-    "title": "Elementor Pro bug exploited to hijack WordPress, patch now",
-    "originalTitle": "Critical Elementor Pro flaw exploited to take over WordPress sites",
-    "summary": "Patch Elementor Pro immediately and scan for webshells, attackers are exploiting CVE-2026-32475 to take over WordPress sites and run commands.",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-03T14:52:20.000Z",
-    "fetchedAt": "2026-09-03T16:23:56.622Z"
-  },
-  {
-    "slug": "thomson-reuters-c-track-breach-may-expose-ssns-and-sealed-da-2026-09-03",
-    "title": "Thomson Reuters C-Track breach may expose SSNs and sealed data",
-    "originalTitle": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
-    "summary": "Alert legal clients and check data-sharing practices, an intrusion into C-Track case management accessed files across multiple states and Ontario that may include SSNs and confidential court records.",
-    "url": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-03T14:39:05.000Z",
-    "fetchedAt": "2026-09-03T21:00:05.702Z"
-  },
-  {
-    "slug": "google-ships-gemini-3-8-flash-adds-security-focused-flash-cy-2026-09-03",
-    "title": "Google ships Gemini 3.8 Flash, adds security-focused Flash Cyber",
-    "originalTitle": "Google’s Gemini 3.8 Flash takes on bigger AI models at a lower cost",
-    "summary": "Prepare for client questions on cheaper, faster AI, Google released Gemini 3.8 Flash and a gated Flash Cyber edition aimed at vetted security teams.",
-    "url": "https://www.helpnetsecurity.com/2026/09/03/google-gemini-3-8-flash/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-03T13:34:07.000Z",
-    "fetchedAt": "2026-09-03T16:23:56.622Z"
-  },
-  {
-    "slug": "windows-11-preview-update-resets-settings-pause-rollout-2026-09-03",
-    "title": "Windows 11 preview update resets settings, pause rollout",
-    "originalTitle": "Microsoft says KB5120998 Windows update resets desktop settings",
-    "summary": "Delay KB5120998 on managed fleets, Microsoft confirmed the August Windows 11 preview update can reset desktop and mouse settings on some systems, especially non-English builds.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/"
-      }
-    ],
-    "category": "defense",
-    "publishedAt": "2026-09-03T12:16:32.000Z",
-    "fetchedAt": "2026-09-03T16:23:56.622Z"
-  },
-  {
-    "slug": "cisa-ixon-vpn-client-rce-update-to-1-4-7-2026-09-03",
-    "title": "CISA: IXON VPN Client RCE, update to 1.4.7",
-    "originalTitle": "IXON VPN Client",
-    "summary": "Push the IXON VPN Client 1.4.7 update to all endpoints and restrict untrusted links, a CRLF injection bug can lead to elevated-privilege remote code execution.",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-03T12:00:00.000Z",
-    "fetchedAt": "2026-09-03T21:00:05.702Z"
-  },
-  {
-    "slug": "thomson-reuters-breach-exposes-us-and-canadian-court-records-2026-09-03",
-    "title": "Thomson Reuters breach exposes US and Canadian court records",
-    "originalTitle": "US and Canadian court data exposed in Thomson Reuters breach",
-    "summary": "If you support courts or law firms, expect notifications and monitor accounts, as C-Track exposed sealed records and sensitive PII across multiple US states and Canada.",
-    "url": "https://therecord.media/thomson-reuters-cyberattack-data",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/03/thomson-reuters-reveals-breach-that-exposed-u-s-and-canadian-court-records/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-03T12:00:00.000Z",
-    "fetchedAt": "2026-09-03T16:23:56.622Z"
-  },
-  {
-    "slug": "cisa-g7-urge-agencies-and-businesses-to-start-pqc-migration-2026-09-03",
-    "title": "CISA, G7 urge agencies and businesses to start PQC migration",
-    "originalTitle": "Preparing for the Post-Quantum Era: A Call to Action",
-    "summary": "Start a PQC program now, inventory cryptography and long-lived data, and plan migrations to protect against harvest-now, decrypt-later risk.",
-    "url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-03T12:00:00.000Z",
-    "fetchedAt": "2026-09-03T16:23:56.622Z"
-  },
-  {
-    "slug": "global-phishing-push-installs-rmm-tools-us-most-targeted-2026-09-03",
-    "title": "Global phishing push installs RMM tools, US most targeted",
-    "originalTitle": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
-    "summary": "Train users and block unsigned RMM installers, a 46-country phishing campaign using tax lures is dropping remote management tools for hands-on access, with the US most targeted.",
-    "url": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-03T11:58:00.000Z",
-    "fetchedAt": "2026-09-03T16:23:56.622Z"
   }
 ]
