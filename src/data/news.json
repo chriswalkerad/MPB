@@ -1,5 +1,98 @@
 [
   {
+    "slug": "ai-polished-fake-antivirus-renewals-are-fooling-users-2026-09-17",
+    "title": "AI-polished fake antivirus renewals are fooling users",
+    "originalTitle": "Scammers leave AI fingerprints all over fake antivirus renewal page",
+    "summary": "Scammers are using AI to build polished fake antivirus renewal pages, train users to verify renewals via vendor portals, block lookalike domains, and ignore unsolicited payment notices.",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/ai-antivirus-renewal-scam-fake-pages/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-17T10:10:31.000Z",
+    "fetchedAt": "2026-09-17T11:37:36.601Z"
+  },
+  {
+    "slug": "spain-reports-first-breach-by-an-autonomous-ai-agent-2026-09-17",
+    "title": "Spain reports first breach by an autonomous AI agent",
+    "originalTitle": "Spain reports first data breach involving autonomous AI agent",
+    "summary": "Spain logged a breach caused by an autonomous AI agent, lock down agents with least privilege, approvals, and monitoring to prevent data access, record changes, and exfiltration.",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/spain-ai-agent-data-breach/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-17T08:39:44.000Z",
+    "fetchedAt": "2026-09-17T11:37:36.601Z"
+  },
+  {
+    "slug": "microsoft-shares-fix-for-broken-windows-domain-logins-2026-09-17",
+    "title": "Microsoft shares fix for broken Windows domain logins",
+    "originalTitle": "Microsoft shares workaround for Windows domain login issues",
+    "summary": "September updates broke some Windows 11 domain logins, apply Microsoft’s workaround, pause rollouts where necessary, and brief help desks on symptoms and recovery steps.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-17T08:24:48.000Z",
+    "fetchedAt": "2026-09-17T11:37:36.601Z"
+  },
+  {
+    "slug": "cisa-tells-defenders-to-use-decoys-to-catch-intruders-2026-09-17",
+    "title": "CISA tells defenders to use decoys to catch intruders",
+    "originalTitle": "CISA Releases Cyber Decoy Guidance to Strengthen Critical Infrastructure Defenses",
+    "summary": "CISA published guidance on using deception decoys, add canaries and honeytokens to catch intrusions early, observe attacker behavior, and complement zero trust controls.",
+    "url": "https://www.securityweek.com/cisa-releases-guidance-on-deploying-cyber-decoys/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-17T07:53:43.000Z",
+    "fetchedAt": "2026-09-17T11:37:36.601Z"
+  },
+  {
+    "slug": "ai-agents-can-rewrite-their-own-guardrails-mid-task-2026-09-17",
+    "title": "AI agents can rewrite their own guardrails mid-task",
+    "originalTitle": "AI Agents Can Retrain Own Models Mid-Task, Leaking Secrets and Erasing Refusals",
+    "summary": "Research shows AI agents can retrain and redeploy their own models mid-task, isolate agents, pin model versions, restrict secrets, and log actions to stop policy bypass and data leaks.",
+    "url": "https://www.securityweek.com/ai-agents-can-retrain-own-models-mid-task-leaking-secrets-and-erasing-refusals/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-17T07:41:29.000Z",
+    "fetchedAt": "2026-09-17T11:37:36.601Z"
+  },
+  {
+    "slug": "patch-now-cisco-ise-zero-day-exploited-in-the-wild-2026-09-17",
+    "title": "Patch now: Cisco ISE zero-day exploited in the wild",
+    "originalTitle": "Cisco warns of max severity ISE zero-day exploited in attacks",
+    "summary": "Cisco ISE admins should patch CVE-2026-76460 now, remote attackers can bypass authentication via an API, restrict management interface exposure and review logs for suspicious requests.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/17/cisco-ise-vulnerability-exploited-cve-2026-76460/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/active-exploitation-triggers-emergency-patch-for-cisco-ise-zero-day/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-17T07:20:54.000Z",
+    "fetchedAt": "2026-09-17T11:37:36.601Z"
+  },
+  {
     "slug": "ai-code-floods-open-source-maintainers-struggle-to-vet-secur-2026-09-17",
     "title": "AI code floods open source, maintainers struggle to vet security",
     "originalTitle": "AI is adding to the review load on open-source projects, many of them thinly funded",
@@ -3331,103 +3424,5 @@
     "category": "threats",
     "publishedAt": "2026-09-03T11:58:00.000Z",
     "fetchedAt": "2026-09-03T16:23:56.622Z"
-  },
-  {
-    "slug": "plex-pushes-urgent-updates-for-desktop-apps-and-media-server-2026-09-03",
-    "title": "Plex pushes urgent updates for desktop apps and media servers",
-    "originalTitle": "Plex warns users to patch security vulnerabilities immediately",
-    "summary": "Update Plex Media Server and all desktop clients right away, multiple vulnerabilities are fixed and internet-exposed servers are frequent targets for botnets and opportunistic attackers.",
-    "url": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-03T11:02:22.000Z",
-    "fetchedAt": "2026-09-03T11:10:37.067Z"
-  },
-  {
-    "slug": "attackers-abuse-node-js-runtime-to-hide-malware-delivery-2026-09-03",
-    "title": "Attackers abuse Node.js runtime to hide malware delivery",
-    "originalTitle": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
-    "summary": "Add detections for suspicious node.exe execution and child processes, attackers are abusing the trusted Node.js runtime to deliver payloads in targeted intrusions.",
-    "url": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-03T10:43:01.000Z",
-    "fetchedAt": "2026-09-03T16:23:56.622Z"
-  },
-  {
-    "slug": "sqli-to-rce-bug-in-popular-wordpress-migration-plugin-update-2026-09-03",
-    "title": "SQLi-to-RCE bug in popular WordPress migration plugin, update",
-    "originalTitle": "Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability",
-    "summary": "Update the affected migration plugin immediately or disable it, the unauthenticated SQL injection CVE-2026-19949 can lead to remote code execution on millions of WordPress sites.",
-    "url": "https://www.securityweek.com/over-3-million-wordpress-sites-affected-by-migration-plugin-vulnerability/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-03T10:40:00.000Z",
-    "fetchedAt": "2026-09-03T11:10:37.067Z"
-  },
-  {
-    "slug": "cisco-patches-critical-switch-flaws-warns-s-mime-email-leaks-2026-09-03",
-    "title": "Cisco patches critical switch flaws, warns S/MIME email leaks remain",
-    "originalTitle": "Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities",
-    "summary": "Patch Cisco IOS XR and Nexus gear now, and review guidance for unpatched S/MIME issues that could expose encrypted email content in Cisco Secure Email deployments.",
-    "url": "https://www.securityweek.com/cisco-warns-of-unpatched-secure-email-flaws-patches-critical-switch-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-03T10:30:00.000Z",
-    "fetchedAt": "2026-09-03T11:10:37.067Z"
-  },
-  {
-    "slug": "your-ai-agent-s-prompt-is-not-access-control-2026-09-03",
-    "title": "Your AI agent’s prompt is not access control",
-    "originalTitle": "Your AI agent’s system prompt is not a security control",
-    "summary": "Do not rely on system prompts for authorization, enforce RBAC or ABAC at retrieval and tool layers so agents only access data a user is actually allowed to see.",
-    "url": "https://www.helpnetsecurity.com/2026/09/03/sans-aws-agentic-ai-security/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-03T07:53:58.000Z",
-    "fetchedAt": "2026-09-03T11:10:37.067Z"
-  },
-  {
-    "slug": "researcher-drops-crowdstrike-falcon-privilege-escalation-poc-2026-09-03",
-    "title": "Researcher drops CrowdStrike Falcon privilege escalation PoC",
-    "originalTitle": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
-    "summary": "Treat this as a potential zero-day in Falcon, monitor CrowdStrike advisories, tighten macro and sensor policies, and restrict local privilege escalation paths until fixes or mitigations land.",
-    "url": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-03T06:26:59.000Z",
-    "fetchedAt": "2026-09-03T11:10:37.067Z"
-  },
-  {
-    "slug": "cisa-adds-seven-actively-exploited-bugs-to-kev-patch-now-2026-09-03",
-    "title": "CISA adds seven actively exploited bugs to KEV, patch now",
-    "originalTitle": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
-    "summary": "Prioritize patching newly added KEV flaws, especially the SonicWall SMA 1000 SSRF, as attackers are using them to drop reverse shells and crypto miners across exposed systems.",
-    "url": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-03T05:19:04.000Z",
-    "fetchedAt": "2026-09-03T11:10:37.067Z"
   }
 ]
