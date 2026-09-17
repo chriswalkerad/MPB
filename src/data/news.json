@@ -1,5 +1,75 @@
 [
   {
+    "slug": "ai-code-floods-open-source-maintainers-struggle-to-vet-secur-2026-09-17",
+    "title": "AI code floods open source, maintainers struggle to vet security",
+    "originalTitle": "AI is adding to the review load on open-source projects, many of them thinly funded",
+    "summary": "Expect more insecure dependencies, AI tools are accelerating code and bug submissions but thinly funded maintainers cannot vet changes at the needed pace, increasing supply chain risk.",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/ai-and-open-source-projects/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-17T04:30:21.000Z",
+    "fetchedAt": "2026-09-17T04:49:00.504Z"
+  },
+  {
+    "slug": "claude-money-links-ai-directly-to-your-bank-accounts-2026-09-17",
+    "title": "Claude Money links AI directly to your bank accounts",
+    "originalTitle": "Anthropic wants Claude to analyze your bank account and financial data",
+    "summary": "Do not connect client bank accounts to AI tools without strict controls, Anthropic is testing Claude Money to ingest financial data, raising privacy, compliance, and fraud-risk questions.",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-17T00:35:48.000Z",
+    "fetchedAt": "2026-09-17T04:49:00.504Z"
+  },
+  {
+    "slug": "security-teams-pour-money-into-ai-before-proving-value-2026-09-16",
+    "title": "Security teams pour money into AI before proving value",
+    "originalTitle": "AI Security Spending Jumps as Fear Outpaces Proof of Value",
+    "summary": "Set expectations with clients, CISOs are ramping AI security spend despite limited ROI evidence, so pilot narrowly, measure outcomes, and avoid vendor FOMO buying sprees.",
+    "url": "https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-09-16T21:26:55.000Z",
+    "fetchedAt": "2026-09-17T04:49:00.504Z"
+  },
+  {
+    "slug": "cyberattack-knocks-meteor-tracking-nonprofit-offline-for-wee-2026-09-16",
+    "title": "Cyberattack knocks meteor-tracking nonprofit offline for weeks",
+    "originalTitle": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
+    "summary": "Treat this like your clients, a small org suffered a crippling attack and expects weeks of downtime, so validate backups, offline recovery, and a tested incident response plan.",
+    "url": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-16T21:08:14.000Z",
+    "fetchedAt": "2026-09-17T04:49:00.504Z"
+  },
+  {
+    "slug": "us-ai-safety-law-likely-stalled-until-2027-2026-09-16",
+    "title": "US AI safety law likely stalled until 2027",
+    "originalTitle": "Key lawmaker suggests action on AI safety legislation will wait until 2027",
+    "summary": "Plan on self-regulation for now, a key House chair says comprehensive AI safety legislation will wait until 2027, leaving MSPs to set client policies and guardrails.",
+    "url": "https://therecord.media/frontier-act-ai-bill-house-brett-guthrie",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-09-16T21:07:00.000Z",
+    "fetchedAt": "2026-09-17T04:49:00.504Z"
+  },
+  {
     "slug": "windows-11-kb5124008-breaks-domain-trust-block-rollout-2026-09-16",
     "title": "Windows 11 KB5124008 breaks domain trust, block rollout",
     "originalTitle": "Windows 11 KB5124008 update breaks domain trust for some users",
@@ -3358,20 +3428,6 @@
     "altSources": [],
     "category": "vulnerabilities",
     "publishedAt": "2026-09-03T05:19:04.000Z",
-    "fetchedAt": "2026-09-03T11:10:37.067Z"
-  },
-  {
-    "slug": "windows-will-auto-enable-memory-integrity-and-vbs-in-oct-202-2026-09-03",
-    "title": "Windows will auto-enable memory integrity and VBS in Oct 2026",
-    "originalTitle": "Windows memory integrity switches on automatically for eligible devices in October 2026",
-    "summary": "Prepare for Windows to enable memory integrity and VBS by default in October 2026, test drivers now and replace incompatible ones to avoid blue screens and performance hits.",
-    "url": "https://www.helpnetsecurity.com/2026/09/03/windows-memory-integrity-update/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-03T04:30:32.000Z",
     "fetchedAt": "2026-09-03T11:10:37.067Z"
   }
 ]
