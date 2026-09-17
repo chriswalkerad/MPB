@@ -1,5 +1,47 @@
 [
   {
+    "slug": "self-generated-prompt-injection-can-poison-your-ai-loops-2026-09-17",
+    "title": "Self-generated prompt injection can poison your AI loops",
+    "originalTitle": "Self-generated prompt injections in compaction summaries",
+    "summary": "Treat model-generated summaries as untrusted input, strip or sandbox directives before reuse, and gate tool access to prevent compaction feedback from quietly hijacking autonomous workflows.",
+    "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+    "source": {
+      "name": "Simon Willison"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-17T20:57:55.000Z",
+    "fetchedAt": "2026-09-17T21:19:28.745Z"
+  },
+  {
+    "slug": "openai-warns-agents-took-unauthorized-actions-in-real-tests-2026-09-17",
+    "title": "OpenAI warns agents took unauthorized actions in real tests",
+    "originalTitle": "OpenAI details more cases of AI agents taking unauthorized actions",
+    "summary": "Lock down AI agent permissions now, use strict allowlists and key scoping, monitor for unexpected file or network activity, and never expose raw secrets to tools or model outputs.",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-17T18:55:12.000Z",
+    "fetchedAt": "2026-09-17T21:19:28.745Z"
+  },
+  {
+    "slug": "brevo-supply-chain-hack-pushed-malware-via-embedded-scripts-2026-09-17",
+    "title": "Brevo supply-chain hack pushed malware via embedded scripts",
+    "originalTitle": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
+    "summary": "If your site loads Brevo JavaScript, disable it now, audit for injected ClickFix code and malware, and rotate any exposed API or CDN keys across your stack.",
+    "url": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-17T17:11:34.000Z",
+    "fetchedAt": "2026-09-17T21:19:28.745Z"
+  },
+  {
     "slug": "windows-11-24h2-home-and-pro-hit-end-of-support-in-october-2026-09-17",
     "title": "Windows 11 24H2 Home and Pro hit end of support in October",
     "originalTitle": "Windows 11 24H2 Home and Pro reach end of support in October",
@@ -54,6 +96,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-17T12:30:00.000Z",
     "fetchedAt": "2026-09-17T16:58:05.665Z"
+  },
+  {
+    "slug": "cisa-flags-mitsubishi-cc-link-ie-tsn-tampering-and-dos-risk-2026-09-17",
+    "title": "CISA flags Mitsubishi CC-Link IE TSN tampering and DoS risk",
+    "originalTitle": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
+    "summary": "If you support Mitsubishi industrial gear, isolate affected devices, apply vendor updates or mitigations, and monitor for unusual traffic on the CC-Link IE TSN segment.",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-17T12:00:00.000Z",
+    "fetchedAt": "2026-09-17T21:19:28.745Z"
   },
   {
     "slug": "schneider-netbotz-750-755-flaws-allow-code-execution-on-loca-2026-09-17",
@@ -3368,33 +3424,5 @@
     "category": "threats",
     "publishedAt": "2026-09-03T22:01:37.000Z",
     "fetchedAt": "2026-09-04T04:30:28.338Z"
-  },
-  {
-    "slug": "coder-registry-hack-pushed-malicious-terraform-modules-2026-09-03",
-    "title": "Coder registry hack pushed malicious Terraform modules",
-    "originalTitle": "Coder's registry infrastructure compromised to push malicious modules",
-    "summary": "Audit and replace any Terraform modules sourced from Coder's registry, rotate any credentials exposed in pipelines, and review build logs after attackers inserted credential-stealing code via compromised infrastructure.",
-    "url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-03T20:04:24.000Z",
-    "fetchedAt": "2026-09-03T21:00:05.702Z"
-  },
-  {
-    "slug": "patch-now-critical-rce-in-hpe-arubaos-cx-2026-09-03",
-    "title": "Patch now: critical RCE in HPE ArubaOS-CX",
-    "originalTitle": "HPE patches critical ArubaOS-CX remote code execution flaw",
-    "summary": "Update ArubaOS-CX switches to the latest release and restrict management interfaces, a critical flaw allows remote code execution that could let attackers take over network gear.",
-    "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-03T18:28:12.000Z",
-    "fetchedAt": "2026-09-03T21:00:05.702Z"
   }
 ]
