@@ -1,5 +1,108 @@
 [
   {
+    "slug": "13-npm-packages-deliver-new-weaselbiscuit-info-stealer-2026-09-18",
+    "title": "13 npm packages deliver new WeaselBiscuit info-stealer",
+    "originalTitle": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+    "summary": "Purge the 13 malicious npm packages from your projects and rotate exposed secrets, they deliver a new WeaselBiscuit stealer that raids Chrome extension storage.",
+    "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-18T10:40:06.000Z",
+    "fetchedAt": "2026-09-18T11:10:26.433Z"
+  },
+  {
+    "slug": "brevo-api-key-breach-injects-malware-on-100k-websites-2026-09-18",
+    "title": "Brevo API key breach injects malware on 100k websites",
+    "originalTitle": "Brevo Supply Chain Attack Injects Malware Into 100,000 Websites",
+    "summary": "Rotate any Brevo API keys, audit Cloudflare Workers and site scripts, attackers abused a stolen key to inject malware into roughly 100,000 websites.",
+    "url": "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-18T09:46:57.000Z",
+    "fetchedAt": "2026-09-18T11:10:26.433Z"
+  },
+  {
+    "slug": "zero-click-rce-found-in-major-ai-coding-agents-2026-09-18",
+    "title": "Zero-click RCE found in major AI coding agents",
+    "originalTitle": "Zero-click RCE vulnerability hit four major AI coding agents, two remain unpatched",
+    "summary": "Disable or sandbox affected AI coding agents and apply fixes where available, a zero-click RCE can grant attackers the same access as the developer running them.",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-18T08:49:00.000Z",
+    "fetchedAt": "2026-09-18T11:10:26.433Z"
+  },
+  {
+    "slug": "actively-exploited-rce-hits-orkes-conductor-2026-09-18",
+    "title": "Actively exploited RCE hits Orkes Conductor",
+    "originalTitle": "Critical Orkes Conductor Vulnerability Exploited in Attacks",
+    "summary": "Patch Orkes Conductor now and hunt for suspicious inline workflow definitions, attackers are exploiting an unauthenticated RCE tracked as CVE-2026-58138.",
+    "url": "https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-18T08:42:18.000Z",
+    "fetchedAt": "2026-09-18T11:10:26.433Z"
+  },
+  {
+    "slug": "patch-now-critical-check-point-rce-on-management-servers-2026-09-18",
+    "title": "Patch now: critical Check Point RCE on management servers",
+    "originalTitle": "Check Point, Kaspersky, Tanium Patch Product Vulnerabilities",
+    "summary": "Update Check Point Security Management and Log Servers immediately to fix a root-level RCE, and review newly released patches from Kaspersky and Tanium across your fleet.",
+    "url": "https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-18T07:14:04.000Z",
+    "fetchedAt": "2026-09-18T11:10:26.433Z"
+  },
+  {
+    "slug": "ai-agent-breached-spanish-org-changed-personal-data-2026-09-18",
+    "title": "AI agent breached Spanish org, changed personal data",
+    "originalTitle": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
+    "summary": "Restrict AI agents with least privilege, approvals and auditing, one reportedly breached a Spanish organization and modified personal data without human oversight.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-18T07:00:00.000Z",
+    "fetchedAt": "2026-09-18T11:10:26.433Z"
+  },
+  {
+    "slug": "new-http-query-method-could-bypass-your-get-post-controls-2026-09-18",
+    "title": "New HTTP QUERY method could bypass your GET/POST controls",
+    "originalTitle": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
+    "summary": "Update WAFs, proxies and logging to understand the new HTTP QUERY method, it can slip past controls tuned only for GET and POST behaviors.",
+    "url": "https://isc.sans.edu/diary/rss/33352",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-18T06:05:26.000Z",
+    "fetchedAt": "2026-09-18T11:10:26.433Z"
+  },
+  {
     "slug": "most-wordpress-shops-still-lack-a-breach-recovery-plan-2026-09-18",
     "title": "Most WordPress shops still lack a breach recovery plan",
     "originalTitle": "Most WordPress pros still lack a breach recovery plan",
@@ -3410,75 +3513,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-04T11:42:55.000Z",
     "fetchedAt": "2026-09-04T16:19:50.470Z"
-  },
-  {
-    "slug": "wordpress-super-forms-and-elementor-pro-flaws-under-active-a-2026-09-04",
-    "title": "WordPress Super Forms and Elementor Pro flaws under active attack",
-    "originalTitle": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
-    "summary": "Patch or disable Super Forms and Elementor Pro now, attackers are mass exploiting file upload and remote code execution bugs to take over vulnerable WordPress sites.",
-    "url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-04T08:48:45.000Z",
-    "fetchedAt": "2026-09-04T11:15:56.671Z"
-  },
-  {
-    "slug": "teams-will-hide-external-qr-codes-to-blunt-phishing-2026-09-04",
-    "title": "Teams will hide external QR codes to blunt phishing",
-    "originalTitle": "Microsoft Teams is about to make QR code phishing much harder",
-    "summary": "Expect a rollout starting in October, Microsoft Teams will hide QR codes from external senders by default on all platforms and users must click to reveal before scanning.",
-    "url": "https://www.helpnetsecurity.com/2026/09/04/microsoft-teams-qr-code-phishing-protection/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-04T08:28:51.000Z",
-    "fetchedAt": "2026-09-04T11:15:56.671Z"
-  },
-  {
-    "slug": "plex-urges-immediate-updates-after-patching-multiple-flaws-2026-09-04",
-    "title": "Plex urges immediate updates after patching multiple flaws",
-    "originalTitle": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
-    "summary": "Update Plex Media Server to 1.43.3 and Plex Desktop to 1.115.0 now, the company patched multiple undisclosed vulnerabilities and has requested CVE identifiers.",
-    "url": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-04T07:35:14.000Z",
-    "fetchedAt": "2026-09-04T11:15:56.671Z"
-  },
-  {
-    "slug": "chrome-update-fixes-actively-exploited-v8-flaw-patch-now-2026-09-04",
-    "title": "Chrome update fixes actively exploited V8 flaw, patch now",
-    "originalTitle": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
-    "summary": "Update Chrome to the latest version immediately, Google fixed an actively exploited V8 type confusion zero-day CVE-2026-85046 and you should push restarts across your fleet.",
-    "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-04T07:18:47.000Z",
-    "fetchedAt": "2026-09-04T11:15:56.671Z"
-  },
-  {
-    "slug": "inventory-your-ai-agent-credentials-five-steps-2026-09-04",
-    "title": "Inventory your AI agent credentials, five steps",
-    "originalTitle": "A five-part inventory for your AI agent credentials",
-    "summary": "Put AI agents under identity governance today, build a five-part inventory of their accounts and permissions so long-lived credentials do not bypass access reviews.",
-    "url": "https://www.helpnetsecurity.com/2026/09/04/ai-agent-credentials-video/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-04T05:30:39.000Z",
-    "fetchedAt": "2026-09-04T11:15:56.671Z"
   }
 ]
