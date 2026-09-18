@@ -1,5 +1,47 @@
 [
   {
+    "slug": "most-wordpress-shops-still-lack-a-breach-recovery-plan-2026-09-18",
+    "title": "Most WordPress shops still lack a breach recovery plan",
+    "originalTitle": "Most WordPress pros still lack a breach recovery plan",
+    "summary": "Build and rehearse a WordPress incident recovery runbook, a survey of 319 professionals found fewer than 30 percent have plans despite common security incidents.",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/wordpress-security-survey-recovery-plan/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-18T04:30:56.000Z",
+    "fetchedAt": "2026-09-18T04:39:28.418Z"
+  },
+  {
+    "slug": "new-android-rathat-uses-ai-to-steer-devices-steals-data-2026-09-17",
+    "title": "New Android 'RatHat' uses AI to steer devices, steals data",
+    "originalTitle": "New RatHat Android malware uses AI to automate device control",
+    "summary": "Harden mobile fleets and block sideloading, new RatHat Android malware uses an AI-driven subsystem to remotely control compromised devices and steal data.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-17T21:50:26.000Z",
+    "fetchedAt": "2026-09-18T04:39:28.418Z"
+  },
+  {
+    "slug": "cisa-drops-weekly-vuln-dumps-pushes-risk-based-patching-2026-09-17",
+    "title": "CISA drops weekly vuln dumps, pushes risk-based patching",
+    "originalTitle": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
+    "summary": "Expect fewer weekly vuln lists and more prioritized guidance from CISA, align your patching to exploitability and asset risk instead of chasing raw CVE counts.",
+    "url": "https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-09-17T21:23:50.000Z",
+    "fetchedAt": "2026-09-18T04:39:28.418Z"
+  },
+  {
     "slug": "self-generated-prompt-injection-can-poison-your-ai-loops-2026-09-17",
     "title": "Self-generated prompt injection can poison your AI loops",
     "originalTitle": "Self-generated prompt injections in compaction summaries",
@@ -28,6 +70,34 @@
     "fetchedAt": "2026-09-17T21:19:28.745Z"
   },
   {
+    "slug": "watermarking-can-make-llms-obey-harmful-prompts-study-finds-2026-09-17",
+    "title": "Watermarking can make LLMs obey harmful prompts, study finds",
+    "originalTitle": "LLMs respond differently to harmful prompts when AI watermarking is used",
+    "summary": "Test watermarking configurations before rollout, researchers found SynthID-style watermarking can make some LLMs comply with harmful prompts they would otherwise refuse.",
+    "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-17T18:33:13.000Z",
+    "fetchedAt": "2026-09-18T04:39:28.418Z"
+  },
+  {
+    "slug": "patch-now-check-point-management-rce-lets-anyone-run-code-as-2026-09-17",
+    "title": "Patch now: Check Point management RCE lets anyone run code as root",
+    "originalTitle": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+    "summary": "Install Check Point LivePatch updates on Security Management and Log Servers now, a critical bug allows unauthenticated remote code execution as root on management infrastructure.",
+    "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-17T18:08:28.000Z",
+    "fetchedAt": "2026-09-18T04:39:28.418Z"
+  },
+  {
     "slug": "brevo-supply-chain-hack-pushed-malware-via-embedded-scripts-2026-09-17",
     "title": "Brevo supply-chain hack pushed malware via embedded scripts",
     "originalTitle": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
@@ -40,6 +110,20 @@
     "category": "threats",
     "publishedAt": "2026-09-17T17:11:34.000Z",
     "fetchedAt": "2026-09-17T21:19:28.745Z"
+  },
+  {
+    "slug": "critical-docker-sandboxes-bug-lets-macos-guests-tamper-with-2026-09-17",
+    "title": "Critical Docker Sandboxes bug lets macOS guests tamper with host files",
+    "originalTitle": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+    "summary": "Update Docker Sandboxes on macOS immediately, a critical escape lets malicious guest code read and modify host files beyond the shared project directory with the user’s privileges.",
+    "url": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-17T15:37:56.000Z",
+    "fetchedAt": "2026-09-18T04:39:28.418Z"
   },
   {
     "slug": "windows-11-24h2-home-and-pro-hit-end-of-support-in-october-2026-09-17",
@@ -3396,33 +3480,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-04T05:30:39.000Z",
     "fetchedAt": "2026-09-04T11:15:56.671Z"
-  },
-  {
-    "slug": "openai-pledges-1b-to-give-defenders-access-to-daybreak-model-2026-09-04",
-    "title": "OpenAI pledges $1B to give defenders access to Daybreak models",
-    "originalTitle": "OpenAI is putting $1 billion behind Daybreak for defenders working without enterprise budgets",
-    "summary": "Eligible critical infrastructure, governments, community banks, nonprofits and open-source projects can get subsidized Daybreak cyber models with training and support, starting in the United States.",
-    "url": "https://www.helpnetsecurity.com/2026/09/04/openai-daybreak-frontline-defenders-access/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-04T04:35:41.000Z",
-    "fetchedAt": "2026-09-04T11:15:56.671Z"
-  },
-  {
-    "slug": "french-hospital-fined-500k-after-breach-exposed-727k-records-2026-09-03",
-    "title": "French hospital fined €500k after breach exposed 727k records",
-    "originalTitle": "French hospital fined €500,000 after breach exposes data of 727,000",
-    "summary": "Audit access controls and logging now, France's CNIL fined Hôpital privé de la Loire €500,000 after a breach exposed data of 727,000 patients and relatives.",
-    "url": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-03T22:01:37.000Z",
-    "fetchedAt": "2026-09-04T04:30:28.338Z"
   }
 ]
