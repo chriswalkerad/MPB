@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-18",
+    "date": "2026-09-18",
+    "title": "Patch now: Linux exploits, Azure AI flaw, repo traps",
+    "intro": "Patching tops the agenda: active Linux kernel exploits, a CVSS 10 fix in Azure AI, and supply chain shenanigans from GitHub to old CDNs. Microsoft tossed in a couple of quality-of-life updates for Teams and Defender to keep the noise down.",
+    "items": [
+      {
+        "heading": "Linux kernel flaws land on KEV, actively exploited",
+        "body": "CISA added two Linux kernel bugs to the Known Exploited Vulnerabilities list and says attackers are already using them. Prioritize kernel updates across servers and appliances or apply your vendor’s mitigations if downtime is tight. Track remediation for regulated customers and document any exceptions.",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "source": "CISA Advisories",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-adds-two-actively-exploited-linux-kernel-flaws-to-kev-2026-09-18"
+      },
+      {
+        "heading": "Azure AI Foundry CVSS 10 privilege escalation patched",
+        "body": "Microsoft fixed a critical issue in Azure AI Foundry that allowed unauthenticated privilege escalation. If you run this service, review access logs and service principals, confirm your environment has the fix, and consider rotating keys or tokens. Tighten role assignments and remove stale identities while you are in there.",
+        "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "microsoft-patches-critical-azure-ai-foundry-privilege-escala-2026-09-18"
+      },
+      {
+        "heading": "Gyazo breach hits 23.6 million user records",
+        "body": "Attackers exploited a flaw in an image upload server and made off with 23.6 million user records. If your users touch Gyazo, force changes for any reused passwords, push MFA, and warn them to expect targeted phishing. Watch for vendor notifications and consider temporarily limiting access until remediation details are clear.",
+        "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "gyazo-breach-23-6-million-user-records-stolen-via-server-fla-2026-09-18"
+      },
+      {
+        "heading": "Fake GitHub repos push Rapuncel as popular tools",
+        "body": "Threat actors are spinning up convincing GitHub mirrors and using SEO to distribute the Rapuncel infostealer as if it were trusted software. Lock down developer workflows: only allow verified maintainers and signed releases, and block arbitrary repo downloads through your controls. Remind teams to validate owners and signatures before they install anything.",
+        "url": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "fake-github-repos-push-rapuncel-infostealer-as-popular-tools-2026-09-18"
+      },
+      {
+        "heading": "Re-registered CDN domain still serving to thousands",
+        "body": "Researchers re-registered a dead CDN domain and found thousands of sites still pulling assets from it. Audit your code and Content Security Policy for orphaned third-party links, turn on Subresource Integrity, and remove or self-host legacy assets. Add monitoring to catch unexpected outbound calls to old domains.",
+        "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+        "source": "The Hacker News",
+        "category": "defense",
+        "storySlug": "abandoned-cdn-domain-re-registered-thousands-still-call-it-2026-09-18"
+      },
+      {
+        "heading": "Plugin pinning bypass in AI coding agents",
+        "body": "A bug nicknamed Plugin4Shell let repo owners swap plugin code even with version pinning in AI coding agents. Updates are available for Claude Code and OpenAI tools, but Copilot is not yet covered, so pin by commit hash and review plugin sources. Limit plugin permissions and avoid untrusted repos until your agent is patched.",
+        "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "plugin4shell-lets-ai-coding-agents-install-swapped-plugins-d-2026-09-18"
+      },
+      {
+        "heading": "Teams to let you block risky file types",
+        "body": "Microsoft Teams is adding admin controls to customize which file extensions are blocked in chats and channels to cut off common malware deliveries. Prepare a policy update and align the list with your broader M365 file controls. Communicate the change so users are not surprised when certain files refuse to send.",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "teams-adds-admin-control-to-block-risky-file-extensions-2026-09-18"
+      },
+      {
+        "heading": "Defender false \"turned off\" alerts resolved",
+        "body": "Recent updates triggered bogus notifications that Microsoft Defender was disabled. Microsoft says the issue is fixed, so get systems fully updated and stop chasing phantom tickets. Brief your help desk and users that the alert noise should taper off.",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "microsoft-fixes-false-defender-antivirus-is-turned-off-alert-2026-09-18"
+      }
+    ],
+    "signOff": "Patch what matters, then back to the queue.",
+    "generatedAt": "2026-09-18T17:06:48.881Z"
+  },
+  {
     "slug": "2026-09-17",
     "date": "2026-09-17",
     "title": "Patch DNS, plan Windows, and mind the AI phish",
