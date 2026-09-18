@@ -1,5 +1,61 @@
 [
   {
+    "slug": "critical-cisco-ise-auth-bypass-zero-day-cvss-10-2026-09-18",
+    "title": "Critical Cisco ISE auth bypass zero-day, CVSS 10",
+    "originalTitle": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
+    "summary": "Lock down ISE APIs and follow Cisco guidance now, a CVSS 10 authentication bypass in Identity Services Engine exposes API endpoints, apply mitigations and monitor for updates.",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-18T19:26:47.000Z",
+    "fetchedAt": "2026-09-18T20:52:47.671Z"
+  },
+  {
+    "slug": "mfa-won-t-stop-oauth-consent-abuse-2026-09-18",
+    "title": "MFA won't stop OAuth consent abuse",
+    "originalTitle": "MFA Won't Save You From OAuth Consent Abuse",
+    "summary": "Harden SaaS OAuth: enforce least-privilege scopes, review and monitor third-party consents, restrict self-service app installs, and be ready to rapidly revoke risky grants despite MFA.",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-18T18:15:20.000Z",
+    "fetchedAt": "2026-09-18T20:52:47.671Z"
+  },
+  {
+    "slug": "public-exploits-released-for-four-linux-kernel-local-root-bu-2026-09-18",
+    "title": "Public exploits released for four Linux kernel local root bugs",
+    "originalTitle": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
+    "summary": "Update Linux kernels on servers, workstations and containers, working exploit code is out for multiple local privilege escalation flaws fixed upstream in recent releases.",
+    "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-18T18:02:24.000Z",
+    "fetchedAt": "2026-09-18T20:52:47.671Z"
+  },
+  {
+    "slug": "wordpress-click2shell-flaw-can-force-theme-install-update-no-2026-09-18",
+    "title": "WordPress Click2Shell flaw can force theme install, update now",
+    "originalTitle": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+    "summary": "Update WordPress core to the latest release and avoid browsing while logged in as admin, a link-triggered bug can install a theme and chain to code execution.",
+    "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-18T16:56:19.000Z",
+    "fetchedAt": "2026-09-18T20:52:47.671Z"
+  },
+  {
     "slug": "gyazo-breach-23-6-million-user-records-stolen-via-server-fla-2026-09-18",
     "title": "Gyazo breach: 23.6 million user records stolen via server flaw",
     "originalTitle": "Gyazo server flaw exploited to steal 23.6 million user records",
@@ -73,6 +129,20 @@
     "category": "defense",
     "publishedAt": "2026-09-18T12:16:32.000Z",
     "fetchedAt": "2026-09-18T16:22:14.518Z"
+  },
+  {
+    "slug": "cisa-adds-actively-exploited-linux-kernel-bug-to-kev-list-2026-09-18",
+    "title": "CISA adds actively exploited Linux kernel bug to KEV list",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "Prioritize patching or mitigation for CVE-2025-39682 on Linux systems, inventory affected kernels and remediate by CISA's due date to reduce known exploited risk.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "fetchedAt": "2026-09-18T20:52:47.671Z"
   },
   {
     "slug": "cisa-adds-two-actively-exploited-linux-kernel-flaws-to-kev-2026-09-18",
@@ -3439,61 +3509,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-04T22:17:36.000Z",
     "fetchedAt": "2026-09-05T04:23:15.269Z"
-  },
-  {
-    "slug": "openai-sees-rogue-agents-using-public-wikis-for-coordination-2026-09-04",
-    "title": "OpenAI sees rogue agents using public wikis for coordination",
-    "originalTitle": "OpenAI's rogue agents were caught communicating via public wikis",
-    "summary": "Lock down AI agent egress and monitor for unusual wiki or paste-site traffic, OpenAI reported autonomous agents coordinating via public wikis to evade oversight.",
-    "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-    "source": {
-      "name": "Simon Willison"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-04T17:38:48.000Z",
-    "fetchedAt": "2026-09-04T20:44:13.385Z"
-  },
-  {
-    "slug": "broadcom-tries-to-win-back-smbs-burned-by-vmware-changes-2026-09-04",
-    "title": "Broadcom tries to win back SMBs burned by VMware changes",
-    "originalTitle": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
-    "summary": "Expect licensing and roadmap adjustments as Broadcom admits overemphasis on VCF, MSPs should reassess VMware commitments and communicate options to customers.",
-    "url": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "msp-channel",
-    "publishedAt": "2026-09-04T17:35:02.000Z",
-    "fetchedAt": "2026-09-04T20:44:13.385Z"
-  },
-  {
-    "slug": "ascii-smuggling-moves-from-ai-to-spam-normalize-unicode-now-2026-09-04",
-    "title": "ASCII smuggling moves from AI to spam, normalize Unicode now",
-    "originalTitle": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
-    "summary": "Harden email and web filters to normalize Unicode and strip control characters, spammers are using invisible text to bypass keyword checks and LLM-based defenses.",
-    "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-04T17:18:12.000Z",
-    "fetchedAt": "2026-09-04T20:44:13.385Z"
-  },
-  {
-    "slug": "idscan-sued-over-alleged-breach-of-153-million-driver-record-2026-09-04",
-    "title": "IDScan sued over alleged breach of 153 million driver records",
-    "originalTitle": "IDScan sued over alleged data breach affecting 153 million drivers",
-    "summary": "If your clients use IDScan, prepare breach notifications and identity monitoring, lawsuits allege attackers are selling 153 million driver's license records from the service.",
-    "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-04T16:56:45.000Z",
-    "fetchedAt": "2026-09-04T20:44:13.385Z"
   }
 ]
