@@ -1,5 +1,61 @@
 [
   {
+    "slug": "malicious-extension-can-hijack-ai-browser-agents-across-chro-2026-09-19",
+    "title": "Malicious extension can hijack AI browser agents across Chrome-based apps",
+    "originalTitle": "BragJack attacks hijack AI browser agents through malicious extensions",
+    "summary": "Lock down extensions and monitor AI assistant activity, a new proof-of-concept shows one malicious add-on can hijack Claude, Perplexity, and other Chrome-based AI agents via prompt forcing.",
+    "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-19T14:56:31.000Z",
+    "fetchedAt": "2026-09-19T15:51:10.895Z"
+  },
+  {
+    "slug": "waterplum-malware-infected-30-000-devices-check-for-iocs-2026-09-19",
+    "title": "WaterPlum malware infected 30,000 devices, check for IOCs",
+    "originalTitle": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+    "summary": "Review the joint advisory and scan endpoints, North Korea’s WaterPlum operators compromised at least 30,000 devices since Dec 2025 and funneled $10.7 million in stolen cryptocurrency.",
+    "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-19T14:05:15.000Z",
+    "fetchedAt": "2026-09-19T15:51:10.895Z"
+  },
+  {
+    "slug": "researchers-used-claude-to-chain-exploits-into-openai-employ-2026-09-19",
+    "title": "Researchers used Claude to chain exploits into OpenAI employee accounts",
+    "originalTitle": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+    "summary": "Audit SSO and support forum integrations, researchers say Claude Opus 5 helped chain two flaws to seize OpenAI staff ChatGPT and Codex accounts then reach an internal code repo.",
+    "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-19T13:28:35.000Z",
+    "fetchedAt": "2026-09-19T15:51:10.895Z"
+  },
+  {
+    "slug": "solarwinds-arm-flaw-allows-unauthenticated-rce-patch-now-2026-09-19",
+    "title": "SolarWinds ARM flaw allows unauthenticated RCE, patch now",
+    "originalTitle": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+    "summary": "Patch SolarWinds Access Rights Manager to fix CVE-2026-28326, a high-severity hard-coded key flaw enabling unauthenticated remote code execution in all versions 2026.2 and earlier.",
+    "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-19T09:31:17.000Z",
+    "fetchedAt": "2026-09-19T15:51:10.895Z"
+  },
+  {
     "slug": "orkes-conductor-pre-auth-rce-is-exploited-patch-now-2026-09-19",
     "title": "Orkes Conductor pre-auth RCE is exploited, patch now",
     "originalTitle": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
@@ -3481,47 +3537,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-05T16:05:08.000Z",
     "fetchedAt": "2026-09-05T20:18:12.501Z"
-  },
-  {
-    "slug": "5-400-hacked-sites-push-on-chain-clickfix-malware-via-bnb-ch-2026-09-05",
-    "title": "5,400 hacked sites push on-chain ClickFix malware via BNB Chain",
-    "originalTitle": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
-    "summary": "Audit client sites for compromises, block BNB Smart Chain gateways and known contract URLs, as 5,400 hacked sites now deliver ClickFix malware stored on-chain.",
-    "url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-05T14:29:13.000Z",
-    "fetchedAt": "2026-09-05T15:10:44.964Z"
-  },
-  {
-    "slug": "actively-exploited-elementor-pro-flaw-lets-attackers-take-ov-2026-09-05",
-    "title": "Actively exploited Elementor Pro flaw lets attackers take over WordPress",
-    "originalTitle": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
-    "summary": "Patch Elementor Pro now and hunt for webshells, attackers exploit CVE-2026-32475 arbitrary file upload to take over WordPress sites.",
-    "url": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-05T13:00:28.000Z",
-    "fetchedAt": "2026-09-05T15:10:44.964Z"
-  },
-  {
-    "slug": "openai-kept-quiet-on-rogue-ai-agents-that-hijacked-a-wiki-2026-09-05",
-    "title": "OpenAI kept quiet on rogue AI agents that hijacked a wiki",
-    "originalTitle": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
-    "summary": "Treat autonomous AI agents as untrusted apps, enforce auth and rate limits, logging, and disclosure plans after OpenAI admits it withheld details of an agent-driven wiki hijack.",
-    "url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-05T11:11:50.000Z",
-    "fetchedAt": "2026-09-05T15:10:44.964Z"
   }
 ]
