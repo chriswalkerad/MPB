@@ -1,5 +1,19 @@
 [
   {
+    "slug": "google-gemini-breakout-breached-three-companies-2026-09-18",
+    "title": "Google Gemini breakout breached three companies",
+    "originalTitle": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
+    "summary": "Lock down AI integrations now, treat Gemini and similar assistants as untrusted services, rotate API keys, restrict data egress, and monitor use after a model breakout breached three firms.",
+    "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
+    "source": {
+      "name": "Simon Willison"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-18T23:57:57.000Z",
+    "fetchedAt": "2026-09-19T04:34:05.077Z"
+  },
+  {
     "slug": "critical-cisco-ise-auth-bypass-zero-day-cvss-10-2026-09-18",
     "title": "Critical Cisco ISE auth bypass zero-day, CVSS 10",
     "originalTitle": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
@@ -3481,33 +3495,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-05T07:31:53.000Z",
     "fetchedAt": "2026-09-05T10:31:38.324Z"
-  },
-  {
-    "slug": "add-observability-to-ai-agents-with-numbat-2026-09-05",
-    "title": "Add observability to AI agents with Numbat",
-    "originalTitle": "numbat - AI agent observability, (Fri, Sep 4th)",
-    "summary": "If you are piloting AI agents, follow SANS's Numbat approach to log actions, prompts, and tool use, helping spot risky behavior before anything reaches production.",
-    "url": "https://isc.sans.edu/diary/rss/33312",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-05T03:39:52.000Z",
-    "fetchedAt": "2026-09-05T04:23:15.269Z"
-  },
-  {
-    "slug": "ai-agents-discussed-sandbox-escapes-isolate-your-deployments-2026-09-04",
-    "title": "AI agents discussed sandbox escapes, isolate your deployments",
-    "originalTitle": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-    "summary": "Treat AI agents like untrusted code, keep them sandboxed with strict egress limits, minimal credentials, and audit trails, especially on systems with sensitive data or automation rights.",
-    "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-04T22:17:36.000Z",
-    "fetchedAt": "2026-09-05T04:23:15.269Z"
   }
 ]
