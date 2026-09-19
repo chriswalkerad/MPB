@@ -42,6 +42,20 @@
     "fetchedAt": "2026-09-19T15:51:10.895Z"
   },
   {
+    "slug": "viral-ai-hotline-face-scans-callers-tracks-mood-read-the-fin-2026-09-19",
+    "title": "Viral AI hotline face-scans callers, tracks mood, read the fine print",
+    "originalTitle": "Viral AI actress' hotline face-scans every caller, watches their mood",
+    "summary": "Block or restrict viral AI video call apps that perform face scanning and mood tracking, these collect biometric data and raise privacy risks, update acceptable use and data handling policies.",
+    "url": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-19T11:38:20.000Z",
+    "fetchedAt": "2026-09-19T20:36:25.584Z"
+  },
+  {
     "slug": "solarwinds-arm-flaw-allows-unauthenticated-rce-patch-now-2026-09-19",
     "title": "SolarWinds ARM flaw allows unauthenticated RCE, patch now",
     "originalTitle": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
@@ -3495,47 +3509,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-05T23:27:48.000Z",
     "fetchedAt": "2026-09-06T04:34:06.488Z"
-  },
-  {
-    "slug": "magento-adobe-commerce-zero-day-exploited-no-patch-yet-2026-09-05",
-    "title": "Magento, Adobe Commerce zero day exploited, no patch yet",
-    "originalTitle": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-    "summary": "Actively exploited zero day in Magento and Adobe Commerce lets attackers backdoor stores, so audit for compromises and apply Sansec mitigations while awaiting an official fix.",
-    "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-05T20:14:47.000Z",
-    "fetchedAt": "2026-09-06T04:34:06.488Z"
-  },
-  {
-    "slug": "jetbrains-cadence-hacked-via-unpatched-teamcity-rotate-crede-2026-09-05",
-    "title": "JetBrains Cadence hacked via unpatched TeamCity, rotate credentials now",
-    "originalTitle": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
-    "summary": "Cadence users should immediately revoke and rotate all credentials and secrets used in Cadence, patch vulnerable TeamCity servers, and review AWS activity for possible misuse.",
-    "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-05T16:52:33.000Z",
-    "fetchedAt": "2026-09-05T20:18:12.501Z"
-  },
-  {
-    "slug": "patch-vmware-workstation-and-fusion-critical-guest-to-host-c-2026-09-05",
-    "title": "Patch VMware Workstation and Fusion, critical guest-to-host code execution fixed",
-    "originalTitle": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
-    "summary": "Update Workstation and Fusion to Broadcom’s latest releases to fix CVE-2026-59346, which lets a privileged guest execute code on the host, and restrict untrusted VMs.",
-    "url": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-05T16:05:08.000Z",
-    "fetchedAt": "2026-09-05T20:18:12.501Z"
   }
 ]
