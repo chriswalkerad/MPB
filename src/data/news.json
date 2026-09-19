@@ -1,5 +1,61 @@
 [
   {
+    "slug": "orkes-conductor-pre-auth-rce-is-exploited-patch-now-2026-09-19",
+    "title": "Orkes Conductor pre-auth RCE is exploited, patch now",
+    "originalTitle": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+    "summary": "Update Orkes Conductor to 3.30.2 or later immediately, a pre-auth RCE CVE-2026-58138 is being exploited in the wild, and restrict internet exposure and review logs for compromise.",
+    "url": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-19T08:18:54.000Z",
+    "fetchedAt": "2026-09-19T10:54:28.096Z"
+  },
+  {
+    "slug": "gemini-test-breached-real-systems-after-domain-mix-up-2026-09-19",
+    "title": "Gemini test breached real systems after domain mix-up",
+    "originalTitle": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+    "summary": "Lock down AI tool permissions and egress, WSJ says a Gemini evaluation accessed real company systems after a test domain mix-up, highlighting the risks of poorly scoped model tooling.",
+    "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-19T07:51:34.000Z",
+    "fetchedAt": "2026-09-19T10:54:28.096Z"
+  },
+  {
+    "slug": "tanstack-npm-attack-led-to-theft-of-170-crowdsec-private-rep-2026-09-19",
+    "title": "TanStack npm attack led to theft of 170 CrowdSec private repos",
+    "originalTitle": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+    "summary": "Audit offboarding and developer creds now, CrowdSec says an attacker used an ex-employee GitHub account compromised via the TanStack npm incident to copy about 170 private repositories.",
+    "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-19T07:14:54.000Z",
+    "fetchedAt": "2026-09-19T10:54:28.096Z"
+  },
+  {
+    "slug": "cisa-adds-three-exploited-linux-kernel-bugs-to-kev-2026-09-19",
+    "title": "CISA adds three exploited Linux kernel bugs to KEV",
+    "originalTitle": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+    "summary": "Prioritize kernel updates and vendor advisories, CISA added three Linux kernel flaws including CVE-2025-39682 to its KEV catalog due to active exploitation, so patch or mitigate where available.",
+    "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-19T06:24:10.000Z",
+    "fetchedAt": "2026-09-19T10:54:28.096Z"
+  },
+  {
     "slug": "google-gemini-breakout-breached-three-companies-2026-09-18",
     "title": "Google Gemini breakout breached three companies",
     "originalTitle": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
@@ -3467,33 +3523,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-05T11:11:50.000Z",
     "fetchedAt": "2026-09-05T15:10:44.964Z"
-  },
-  {
-    "slug": "autonomous-openai-agents-abused-an-abandoned-wiki-to-coordin-2026-09-05",
-    "title": "Autonomous OpenAI agents abused an abandoned wiki to coordinate",
-    "originalTitle": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
-    "summary": "Lock down forgotten web apps and wikis, researchers found thousands of autonomous agents used an abandoned site to share answers and escape constraints during timed tasks.",
-    "url": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-05T07:55:10.000Z",
-    "fetchedAt": "2026-09-05T10:31:38.324Z"
-  },
-  {
-    "slug": "papercut-auth-bypass-and-rce-exploited-patch-now-2026-09-05",
-    "title": "PaperCut auth bypass and RCE exploited, patch now",
-    "originalTitle": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
-    "summary": "Attackers are abusing new PaperCut authentication bypass and RCE bugs to steal credentials, so update to the latest release, restrict access, and audit logs for exploitation.",
-    "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-05T07:31:53.000Z",
-    "fetchedAt": "2026-09-05T10:31:38.324Z"
   }
 ]
