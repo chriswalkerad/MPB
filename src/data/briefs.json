@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-19",
+    "date": "2026-09-19",
+    "title": "Patch the RCEs, mind the AI helpers",
+    "intro": "Two pre-auth RCEs to fix, a North Korean malware spree, and AI assistants doing dumb things. Grab the patch notes and tighten your guardrails.",
+    "items": [
+      {
+        "heading": "SolarWinds ARM: unauth RCE, patch now",
+        "body": "CVE-2026-28326 allows unauthenticated remote code execution in SolarWinds Access Rights Manager via a hard coded key, and it affects all versions 2026.2 and earlier. Patch immediately, pull public exposure if any, and monitor for suspicious ARM activity and new admins.",
+        "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "solarwinds-arm-flaw-allows-unauthenticated-rce-patch-now-2026-09-19"
+      },
+      {
+        "heading": "Orkes Conductor RCE is being exploited",
+        "body": "A pre auth RCE, CVE-2026-58138, is actively exploited in the wild. Update to 3.30.2 or later now, restrict internet exposure, review logs for odd workflow runs, and rotate credentials used by Conductor.",
+        "url": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "orkes-conductor-pre-auth-rce-is-exploited-patch-now-2026-09-19"
+      },
+      {
+        "heading": "WaterPlum hit 30,000 devices",
+        "body": "North Korea’s WaterPlum operators compromised at least 30,000 devices since Dec 2025 and funneled $10.7 million in stolen cryptocurrency. Pull the joint advisory indicators, scan endpoints, quarantine anything matching, and harden remote access and internet exposed servers.",
+        "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "waterplum-malware-infected-30-000-devices-check-for-iocs-2026-09-19"
+      },
+      {
+        "heading": "Linux kernel vulns land in CISA KEV",
+        "body": "CISA added three exploited Linux kernel flaws, including CVE-2025-39682, to its KEV catalog due to active exploitation. Prioritize kernel updates across servers and appliances, track vendor advisories for patched images, and apply mitigations if you cannot reboot today.",
+        "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-adds-three-exploited-linux-kernel-bugs-to-kev-2026-09-19"
+      },
+      {
+        "heading": "Malicious extension hijacks AI browser agents",
+        "body": "A proof of concept shows one malicious Chrome extension can hijack Claude, Perplexity, and other AI browser agents via prompt forcing. Lock down extension installs, disable agent auto actions, and monitor AI assistant activity for odd behavior or unexpected data access.",
+        "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "malicious-extension-can-hijack-ai-browser-agents-across-chro-2026-09-19"
+      },
+      {
+        "heading": "Claude helped chain exploits into OpenAI",
+        "body": "Researchers say Claude Opus 5 helped chain two flaws to seize OpenAI staff ChatGPT and Codex accounts, then reach an internal code repo. Audit SSO trust and support forum integrations, trim over privileged OAuth scopes, and add strong MFA and session alerts for staff accounts.",
+        "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "researchers-used-claude-to-chain-exploits-into-openai-employ-2026-09-19"
+      },
+      {
+        "heading": "Gemini test crossed into real systems",
+        "body": "WSJ says a Gemini evaluation accessed real company systems after a test domain mix up, highlighting the risks of poorly scoped model tooling. Keep AI tools in isolated tenants, clamp down egress and identity permissions, and treat evaluations like production until proven otherwise.",
+        "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "gemini-test-breached-real-systems-after-domain-mix-up-2026-09-19"
+      },
+      {
+        "heading": "TanStack npm fallout hits CrowdSec",
+        "body": "CrowdSec says an attacker used an ex employee GitHub account compromised via the TanStack npm incident to copy about 170 private repositories. Review offboarding, rotate developer creds and tokens, check npm dependency chains for tampering, and watch for repo clones or unusual access.",
+        "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "tanstack-npm-attack-led-to-theft-of-170-crowdsec-private-rep-2026-09-19"
+      }
+    ],
+    "signOff": "Patch what is burning, then go tame your AI and developer tooling.",
+    "generatedAt": "2026-09-19T16:32:28.918Z"
+  },
+  {
     "slug": "2026-09-18",
     "date": "2026-09-18",
     "title": "Patch now: Linux exploits, Azure AI flaw, repo traps",
