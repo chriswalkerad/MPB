@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-20",
+    "date": "2026-09-20",
+    "title": "Patch priority: gateways, ARM, and AI getting weird",
+    "intro": "Exploited bugs and sneaky payloads lead the stack today. Patch the big stuff, then tame the AI helpers before they spill secrets.",
+    "items": [
+      {
+        "heading": "Cisco Secure Email Gateway 0 day under active attack",
+        "body": "Attackers are exploiting a bug in Cisco Secure Email Gateway right now. Update immediately, then comb mail logs and rules for unauthorized changes or unusual spikes. Put a freeze on mail flow rule changes until you finish the audit.",
+        "url": "https://www.helpnetsecurity.com/2026/09/20/week-in-review-cisco-patches-exploited-email-gateway-0-day-revolut-breach/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "cisco-email-gateway-0-day-exploited-patch-now-2026-09-20"
+      },
+      {
+        "heading": "SolarWinds ARM unauth RCE, fix CVE-2026-28326",
+        "body": "SolarWinds Access Rights Manager has a hard coded key flaw, CVE-2026-28326, allowing unauthenticated remote code execution in versions 2026.2 and earlier. Patch now, then review accounts and services ARM touches for tampering. If possible, keep ARM off the internet and tighten service account permissions.",
+        "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "solarwinds-arm-flaw-allows-unauthenticated-rce-patch-now-2026-09-19"
+      },
+      {
+        "heading": "WaterPlum hits 30,000 devices, $10.7M stolen",
+        "body": "North Korea’s WaterPlum operators compromised at least 30,000 devices since Dec 2025 and funneled $10.7 million in stolen cryptocurrency. Read the joint advisory and scan endpoints for IOCs. Clamp down on outbound traffic and rip out any suspicious persistence fast.",
+        "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "waterplum-malware-infected-30-000-devices-check-for-iocs-2026-09-19"
+      },
+      {
+        "heading": "Malicious Chrome extension can hijack AI agents",
+        "body": "A proof of concept shows one malicious extension can hijack Claude, Perplexity, and other Chrome based AI browser agents via prompt forcing. Lock down extension installs, restrict agent permissions, and monitor AI assistant activity. Treat browser AI like untrusted automation with least privilege.",
+        "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "malicious-extension-can-hijack-ai-browser-agents-across-chro-2026-09-19"
+      },
+      {
+        "heading": "npm malware shifts payloads to runtime",
+        "body": "Malicious packages like indexed btree are deferring payloads to runtime to bypass install script checks. Audit dependencies, pin versions, and watch build and app network egress. Flag any unexpected post install network calls as potential compromise.",
+        "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "npm-malware-hides-in-runtime-to-bypass-install-script-checks-2026-09-20"
+      },
+      {
+        "heading": "Codex sandbox escapes patched by OpenAI",
+        "body": "Researchers found two ways to break out of Codex sandboxes and run host commands, which OpenAI has patched. Assume AI generated code can wriggle past guardrails. Lock down dev environments, restrict tool permissions, and review assistant actions and logs.",
+        "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "researchers-escape-openai-codex-sandbox-to-run-host-commands-2026-09-20"
+      },
+      {
+        "heading": "Claude assisted chain into OpenAI staff accounts",
+        "body": "Researchers say Claude Opus 5 helped chain two flaws to seize OpenAI staff ChatGPT and Codex accounts, then reach an internal code repo. Audit SSO and support forum integrations, and minimize cross system trust. Keep AI assisted workflows tightly scoped and verified.",
+        "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "researchers-used-claude-to-chain-exploits-into-openai-employ-2026-09-19"
+      },
+      {
+        "heading": "Viral AI video app is scanning faces and moods",
+        "body": "A popular AI video call app is performing face scanning and mood tracking, collecting biometric data and raising privacy risk. Block or restrict these apps and update acceptable use and data handling policies. If you must use them, get explicit consent and minimize retention.",
+        "url": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "viral-ai-hotline-face-scans-callers-tracks-mood-read-the-fin-2026-09-19"
+      }
+    ],
+    "signOff": "Patch first, coffee second.",
+    "generatedAt": "2026-09-20T16:51:03.381Z"
+  },
+  {
     "slug": "2026-09-19",
     "date": "2026-09-19",
     "title": "Patch the RCEs, mind the AI helpers",
