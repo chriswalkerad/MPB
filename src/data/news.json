@@ -1,5 +1,33 @@
 [
   {
+    "slug": "npm-malware-hides-in-runtime-to-bypass-install-script-checks-2026-09-20",
+    "title": "npm malware hides in runtime to bypass install-script checks",
+    "originalTitle": "Malicious npm packages evade install-script defenses at runtime",
+    "summary": "Malicious npm packages like indexed-btree trigger payloads at runtime, evading install-script checks, so audit dependencies, pin versions, and monitor build and app network egress.",
+    "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-20T14:11:21.000Z",
+    "fetchedAt": "2026-09-20T16:02:13.238Z"
+  },
+  {
+    "slug": "researchers-escape-openai-codex-sandbox-to-run-host-commands-2026-09-20",
+    "title": "Researchers escape OpenAI Codex sandbox to run host commands",
+    "originalTitle": "Researchers escape OpenAI Codex sandbox to run commands on host",
+    "summary": "OpenAI patched two Codex sandbox escapes that allowed generated code to execute host commands, so lock down dev environments, restrict tool permissions, and review AI assistant actions.",
+    "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-20T12:00:00.000Z",
+    "fetchedAt": "2026-09-20T16:02:13.238Z"
+  },
+  {
     "slug": "cisco-email-gateway-0-day-exploited-patch-now-2026-09-20",
     "title": "Cisco email gateway 0-day exploited, patch now",
     "originalTitle": "Week in review: Cisco patches exploited email gateway 0-day, Revolut breach",
@@ -3467,19 +3495,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-06T21:43:17.000Z",
     "fetchedAt": "2026-09-07T04:35:19.304Z"
-  },
-  {
-    "slug": "phishers-hide-lures-with-invisible-unicode-to-bypass-email-f-2026-09-06",
-    "title": "Phishers hide lures with invisible Unicode to bypass email filters",
-    "originalTitle": "Attackers conceal phishing lures using invisible Unicode characters",
-    "summary": "Attackers are using zero width characters and ASCII smuggling to sneak phishing emails past gateways, so normalize Unicode in filters and train users to spot weird spacing and links.",
-    "url": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-06T14:23:46.000Z",
-    "fetchedAt": "2026-09-06T15:26:02.887Z"
   }
 ]
