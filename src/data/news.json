@@ -3495,19 +3495,5 @@
     "category": "threats",
     "publishedAt": "2026-09-06T08:34:20.000Z",
     "fetchedAt": "2026-09-06T10:52:15.263Z"
-  },
-  {
-    "slug": "gpt-6-astra-lands-set-ai-guardrails-before-users-do-2026-09-05",
-    "title": "GPT-6 Astra lands, set AI guardrails before users do",
-    "originalTitle": "Introducing GPT-6 Astra for developers",
-    "summary": "Expect clients to try GPT-6 Astra immediately, set clear AI use policies, restrict sensitive data sharing, and pilot with security reviews before enabling broader adoption.",
-    "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
-    "source": {
-      "name": "Simon Willison"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-05T23:27:48.000Z",
-    "fetchedAt": "2026-09-06T04:34:06.488Z"
   }
 ]
