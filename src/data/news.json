@@ -1,5 +1,19 @@
 [
   {
+    "slug": "cisco-email-gateway-0-day-exploited-patch-now-2026-09-20",
+    "title": "Cisco email gateway 0-day exploited, patch now",
+    "originalTitle": "Week in review: Cisco patches exploited email gateway 0-day, Revolut breach",
+    "summary": "Update Cisco Secure Email Gateway immediately, attackers are exploiting the bug in the wild, then audit mail logs and rules for unauthorized changes or unusual spikes.",
+    "url": "https://www.helpnetsecurity.com/2026/09/20/week-in-review-cisco-patches-exploited-email-gateway-0-day-revolut-breach/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-20T08:00:21.000Z",
+    "fetchedAt": "2026-09-20T11:18:36.499Z"
+  },
+  {
     "slug": "malicious-extension-can-hijack-ai-browser-agents-across-chro-2026-09-19",
     "title": "Malicious extension can hijack AI browser agents across Chrome-based apps",
     "originalTitle": "BragJack attacks hijack AI browser agents through malicious extensions",
@@ -3467,33 +3481,5 @@
     "category": "threats",
     "publishedAt": "2026-09-06T14:23:46.000Z",
     "fetchedAt": "2026-09-06T15:26:02.887Z"
-  },
-  {
-    "slug": "mikrotik-routers-hijacked-via-internet-exposed-ssh-without-a-2026-09-06",
-    "title": "MikroTik routers hijacked via internet-exposed SSH without authentication",
-    "originalTitle": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
-    "summary": "If you manage MikroTik, disable SSH from WAN, update RouterOS, and restrict management IPs now, attackers are taking full control through unauthenticated internet-exposed SSH.",
-    "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-06T09:32:38.000Z",
-    "fetchedAt": "2026-09-06T10:52:15.263Z"
-  },
-  {
-    "slug": "revstealer-modules-disable-defender-and-windows-update-to-mi-2026-09-06",
-    "title": "REVSTEALER modules disable Defender and Windows Update to mine crypto",
-    "originalTitle": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
-    "summary": "Check endpoints for ProManager, WinUpdate, SoftManager, and related binaries, these REVSTEALER remnants disable Defender and Windows Update to run a miner, so re-enable protections and fully remediate.",
-    "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-06T08:34:20.000Z",
-    "fetchedAt": "2026-09-06T10:52:15.263Z"
   }
 ]
