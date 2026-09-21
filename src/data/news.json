@@ -1,5 +1,33 @@
 [
   {
+    "slug": "intent-injection-risk-in-ai-run-networks-2026-09-21",
+    "title": "Intent injection risk in AI-run networks",
+    "originalTitle": "Intent injection attacks are a new worry for AI-native 6G networks",
+    "summary": "Treat LLM-driven network automation as untrusted, researchers showed intent injection can subvert intent based networking, so enforce input validation, policy constraints, and independent change verification.",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/6g-intent-injection-attacks/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-21T04:30:55.000Z",
+    "fetchedAt": "2026-09-21T04:51:37.332Z"
+  },
+  {
+    "slug": "ai-compliance-failures-tied-to-clunky-workflows-2026-09-21",
+    "title": "AI compliance failures tied to clunky workflows",
+    "originalTitle": "AI compliance issues hit 2 in 5 large companies, and legacy workflows are a big factor",
+    "summary": "Audit and automate your AI workflows, 40 percent of large firms reported AI compliance or governance incidents in the past year, with manual approvals and handoffs driving most exposure.",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/ai-compliance-issues-research/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-21T04:00:31.000Z",
+    "fetchedAt": "2026-09-21T04:51:37.332Z"
+  },
+  {
     "slug": "npm-malware-hides-in-runtime-to-bypass-install-script-checks-2026-09-20",
     "title": "npm malware hides in runtime to bypass install-script checks",
     "originalTitle": "Malicious npm packages evade install-script defenses at runtime",
@@ -3453,47 +3481,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-07T06:17:41.000Z",
     "fetchedAt": "2026-09-07T12:26:31.375Z"
-  },
-  {
-    "slug": "etsi-publishes-18-checks-to-trust-your-ai-data-2026-09-07",
-    "title": "ETSI publishes 18 checks to trust your AI data",
-    "originalTitle": "18 ways to check whether data can be trusted for AI",
-    "summary": "Use ETSI's 18 data quality metrics to vet training and inference data, reducing hallucinations, bias, and data poisoning risks before rolling AI into production.",
-    "url": "https://www.helpnetsecurity.com/2026/09/07/etsi-ai-data-quality-metrics/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-07T04:30:27.000Z",
-    "fetchedAt": "2026-09-07T04:35:19.304Z"
-  },
-  {
-    "slug": "chatgpt-astra-hits-plus-update-your-ai-policies-2026-09-07",
-    "title": "ChatGPT Astra hits Plus, update your AI policies",
-    "originalTitle": "ChatGPT Astra is now rolling out to $20 Plus subscription",
-    "summary": "Expect users to adopt Astra fast, update AI usage policies, disable sensitive data uploads, review logging and retention, and test guardrails before enabling it in tenant workflows.",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-07T01:15:43.000Z",
-    "fetchedAt": "2026-09-07T04:35:19.304Z"
-  },
-  {
-    "slug": "mikrotik-ssh-auth-bypass-patch-now-and-check-for-backdoors-2026-09-06",
-    "title": "MikroTik SSH auth bypass, patch now and check for backdoors",
-    "originalTitle": "Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)",
-    "summary": "Patch affected MikroTik routers immediately, assume compromise, audit for rogue accounts, rotate credentials, and update firmware to close an actively exploited SSH authentication bypass.",
-    "url": "https://isc.sans.edu/diary/rss/33314",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-06T21:43:17.000Z",
-    "fetchedAt": "2026-09-07T04:35:19.304Z"
   }
 ]
