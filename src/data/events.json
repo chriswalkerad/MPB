@@ -21802,5 +21802,23 @@
     "url": "https://www.meetup.com/dallas-hackers-association/events/316533256/",
     "source": "Dallas Hackers Association (Meetup)",
     "description": "Monthly DHA meetup with fast Firetalks, bring a 10-minute topic or just listen and learn. No vendor pitches, just community sharing what works and what fails so you can harden your stack."
+  },
+  {
+    "name": "SecureWorld Twin Cities 2026",
+    "slug": "secureworld-twin-cities-2026-2",
+    "date": "2026-11-19T09:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Twin Cities",
+    "state": "MN",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld brings its regional conference to the Twin Cities with practitioner-led keynotes, panels, and breakouts. Expect solid content, local networking, and CPEs without the fluff."
   }
 ]
