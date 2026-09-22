@@ -1,5 +1,122 @@
 [
   {
+    "slug": "check-point-management-server-zero-day-under-active-attack-2026-09-22",
+    "title": "Check Point Management Server zero-day under active attack",
+    "originalTitle": "Check Point warns of Management Server zero-day exploited in attacks",
+    "summary": "Apply Check Point's emergency hotfixes for Security Management Server exploited zero-day that allows arbitrary script execution, and restrict management interface access.",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-22T16:32:47.000Z",
+    "fetchedAt": "2026-09-22T16:55:16.123Z"
+  },
+  {
+    "slug": "microsoft-disrupts-eviltokens-ai-chatbot-behind-12k-account-2026-09-22",
+    "title": "Microsoft disrupts EvilTokens, AI chatbot behind 12k account thefts",
+    "originalTitle": "Two arrested in UK after Microsoft takedown of ‘Eviltokens’ AI-chatbot for cybercriminals",
+    "summary": "Audit and revoke malicious OAuth apps, enforce MFA and Conditional Access, after Microsoft's takedown of EvilTokens AI tool that helped compromise over 12,000 Microsoft accounts.",
+    "url": "https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-22T15:51:00.000Z",
+    "fetchedAt": "2026-09-22T16:55:16.123Z"
+  },
+  {
+    "slug": "new-tool-spots-ai-powered-malware-using-metadata-only-2026-09-22",
+    "title": "New tool spots AI-powered malware using metadata only",
+    "originalTitle": "Researchers uncover malware that uses AI to choose its next move",
+    "summary": "Use Cisco Talos’ open-source CAIRN to sift AI-enabled malware via metadata at scale, helping defenders classify threats without downloading or executing samples.",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/cairn-open-source-framework-ai-malware-closedquorum/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-22T13:56:55.000Z",
+    "fetchedAt": "2026-09-22T16:55:16.123Z"
+  },
+  {
+    "slug": "d-link-dir-822a-zero-day-has-public-exploit-no-patch-2026-09-22",
+    "title": "D-Link DIR-822A zero-day has public exploit, no patch",
+    "originalTitle": "D-Link warns of max severity zero-day bug in DIR-822A routers",
+    "summary": "Replace or disconnect legacy D-Link DIR-822A routers, a maximum severity zero-day with public exploit and no patch allows full compromise, disable remote management until decommissioned.",
+    "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-22T12:48:06.000Z",
+    "fetchedAt": "2026-09-22T16:55:16.123Z"
+  },
+  {
+    "slug": "cvss-10-flaw-in-velocloud-orchestrator-is-being-exploited-2026-09-22",
+    "title": "CVSS 10 flaw in VeloCloud Orchestrator is being exploited",
+    "originalTitle": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+    "summary": "Patch or isolate on-prem VeloCloud Orchestrator now, a CVSS 10 flaw actively exploited lets unauthenticated attackers abuse internal functions, impacting certificate-authenticated Edge deployments.",
+    "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-22T12:29:00.000Z",
+    "fetchedAt": "2026-09-22T16:55:16.123Z"
+  },
+  {
+    "slug": "zyxel-switch-bug-exploited-to-steal-data-from-nearly-1-000-2026-09-22",
+    "title": "ZyXEL switch bug exploited to steal data from nearly 1,000",
+    "originalTitle": "Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers",
+    "summary": "Update and lock down vulnerable ZyXEL switches, a Chinese actor is exploiting a recent bug to exfiltrate sensitive information from close to 1,000 devices.",
+    "url": "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-22T11:55:20.000Z",
+    "fetchedAt": "2026-09-22T16:55:16.123Z"
+  },
+  {
+    "slug": "malicious-npm-package-indexed-btree-mimics-sorted-btree-2026-09-22",
+    "title": "Malicious npm package indexed-btree mimics sorted-btree",
+    "originalTitle": "Malicious B-tree NPM Package Accumulates Millions of Downloads",
+    "summary": "Search for and remove indexed-btree from Node projects, the malicious package posing as sorted-btree hides a trigger that can execute malware after millions of downloads.",
+    "url": "https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-22T11:33:59.000Z",
+    "fetchedAt": "2026-09-22T16:55:16.123Z"
+  },
+  {
+    "slug": "sharepoint-bug-reclassified-actually-enables-authenticated-r-2026-09-22",
+    "title": "SharePoint bug reclassified, actually enables authenticated RCE",
+    "originalTitle": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+    "summary": "Install September patches for SharePoint Server, CVE-2026-65660 actually enables authenticated remote code execution despite being labeled spoofing, affecting 2016, 2019 and Subscription Edition.",
+    "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-22T11:17:41.000Z",
+    "fetchedAt": "2026-09-22T16:55:16.123Z"
+  },
+  {
     "slug": "patch-zyxel-gs1900-switches-attackers-looted-data-from-996-u-2026-09-22",
     "title": "Patch Zyxel GS1900 switches, attackers looted data from 996 units",
     "originalTitle": "Attacker compromised nearly 1000 Zyxel switches since August (CVE-2026-7273)",
@@ -3413,131 +3530,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-08T17:00:00.000Z",
     "fetchedAt": "2026-09-08T21:07:53.538Z"
-  },
-  {
-    "slug": "sap-ships-fix-for-max-severity-kernel-bug-deploy-quickly-2026-09-08",
-    "title": "SAP ships fix for max-severity kernel bug, deploy quickly",
-    "originalTitle": "SAP Patches Critical Extended Passport Processing Vulnerability",
-    "summary": "Apply SAP’s September updates now, a critical kernel flaw allows unauthenticated remote command execution, secret theft, and data tampering across impacted SAP systems.",
-    "url": "https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-08T14:55:06.000Z",
-    "fetchedAt": "2026-09-08T16:36:48.432Z"
-  },
-  {
-    "slug": "prompt-injection-in-chatgpt-leaked-gmail-from-connected-acco-2026-09-08",
-    "title": "Prompt injection in ChatGPT leaked Gmail from connected accounts",
-    "originalTitle": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
-    "summary": "Review and restrict ChatGPT integrations, Check Point showed a hidden prompt could read data from a user’s linked Gmail and exfiltrate it to another account without obvious signs.",
-    "url": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-08T14:19:17.000Z",
-    "fetchedAt": "2026-09-08T16:36:48.432Z"
-  },
-  {
-    "slug": "patch-now-magento-zero-day-actively-exploited-to-backdoor-st-2026-09-08",
-    "title": "Patch now: Magento zero-day actively exploited to backdoor stores",
-    "originalTitle": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
-    "summary": "Update Adobe Commerce and Magento immediately, CVE-2026-75650 is under active attack to plant backdoors on e-commerce servers and can lead to full site compromise.",
-    "url": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-08T13:34:47.000Z",
-    "fetchedAt": "2026-09-08T16:36:48.432Z"
-  },
-  {
-    "slug": "attackers-roll-out-ai-agents-to-harvest-creds-at-scale-2026-09-08",
-    "title": "Attackers roll out AI agents to harvest creds at scale",
-    "originalTitle": "Hackers build AI frameworks for widescale credential theft",
-    "summary": "Expect faster phishing and scanning, Google reports threat actors using multi-agent frameworks to automate credential theft and troubleshooting, so boost MFA, anomaly detection, and token hygiene.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/08/ai-agents-cyberattacks-automation-google-research/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-08T12:03:03.000Z",
-    "fetchedAt": "2026-09-08T16:36:48.432Z"
-  },
-  {
-    "slug": "phishers-piggyback-gov-and-edu-servers-to-evade-filters-2026-09-08",
-    "title": "Phishers piggyback .gov and .edu servers to evade filters",
-    "originalTitle": "Cybercriminals Hack Brazilian Government Servers to Host Phishing Sites",
-    "summary": "Update filtering and awareness training, attackers are proxying phishing through compromised government and university sites to bypass domain reputation and allowlists.",
-    "url": "https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "fetchedAt": "2026-09-09T16:36:23.374Z"
-  },
-  {
-    "slug": "cisa-adds-adobe-commerce-and-windows-bugs-to-kev-patch-fast-2026-09-08",
-    "title": "CISA adds Adobe Commerce and Windows bugs to KEV, patch fast",
-    "originalTitle": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "summary": "Treat these newly added KEV flaws as must patch, Adobe Commerce CVE-2026-75650 and Windows vulnerabilities are under active exploitation, set remediation deadlines and verify coverage across environments.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "fetchedAt": "2026-09-08T21:07:53.538Z"
-  },
-  {
-    "slug": "cisa-china-ai-firms-mass-scraping-models-via-knowledge-disti-2026-09-08",
-    "title": "CISA: China AI firms mass-scraping models via knowledge distillation",
-    "originalTitle": "China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies",
-    "summary": "Lock down your AI model endpoints, CISA warns China-based firms are systematically distilling proprietary capabilities from U.S. models, enforce auth, rate limits, anomaly detection, and contract controls to prevent extraction.",
-    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "fetchedAt": "2026-09-08T21:07:53.538Z"
-  },
-  {
-    "slug": "cisa-carecam-pro-ip-cams-have-hardcoded-creds-replace-or-iso-2026-09-08",
-    "title": "CISA: CareCam Pro IP cams have hardcoded creds, replace or isolate",
-    "originalTitle": "CareCam Pro IP Cameras",
-    "summary": "If you manage CareCam Pro cameras, treat them as compromised by design, hardcoded credentials allow full device takeover so segment, restrict internet access, and plan to swap them out.",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "fetchedAt": "2026-09-08T16:36:48.432Z"
   }
 ]
