@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-22",
+    "date": "2026-09-22",
+    "title": "Active exploits, identity abuse, and a booby-trapped npm",
+    "intro": "Management planes are getting hammered and identity abuse is still paying the bills. Prioritize patching and lock down admin interfaces before the day gets away from you.",
+    "items": [
+      {
+        "heading": "Check Point management zero-day under attack",
+        "body": "A zero-day in Check Point Security Management Server is being actively exploited to run arbitrary scripts. If the management plane goes, the rest of your network follows, so move fast. Apply Check Point’s emergency hotfixes and restrict access to the management interface to trusted admin networks only.",
+        "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "check-point-management-server-zero-day-under-active-attack-2026-09-22"
+      },
+      {
+        "heading": "VeloCloud Orchestrator CVSS 10 being exploited",
+        "body": "Attackers are actively abusing an unauthenticated flaw in on-prem VeloCloud Orchestrator that lets them hit internal functions, impacting certificate authenticated Edge deployments. This is a management tier issue with maximum severity. Patch immediately or isolate the orchestrator, and ensure it is not exposed to the internet.",
+        "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "cvss-10-flaw-in-velocloud-orchestrator-is-being-exploited-2026-09-22"
+      },
+      {
+        "heading": "Microsoft disrupts EvilTokens OAuth thief",
+        "body": "Microsoft took down EvilTokens, an AI chatbot used to compromise over 12,000 Microsoft accounts by abusing OAuth. Even with the takedown, malicious apps and grants can linger in your tenant. Audit and revoke unknown OAuth apps, enforce MFA and Conditional Access, and review sign-in logs for suspicious token use.",
+        "url": "https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "microsoft-disrupts-eviltokens-ai-chatbot-behind-12k-account-2026-09-22"
+      },
+      {
+        "heading": "SharePoint bug is actually authenticated RCE",
+        "body": "A SharePoint Server vulnerability labeled spoofing was reclassified because it enables authenticated remote code execution. Versions 2016, 2019 and Subscription Edition are affected. Install the September patches now and limit access to SharePoint admin interfaces until updates are confirmed.",
+        "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "sharepoint-bug-reclassified-actually-enables-authenticated-r-2026-09-22"
+      },
+      {
+        "heading": "ZyXEL switch bug used to exfiltrate data",
+        "body": "A Chinese actor is exploiting a recent ZyXEL switch vulnerability to pull data from nearly 1,000 devices. Compromised switches can become silent siphons inside client networks. Update affected models, lock down management access, and monitor for unusual outbound connections from switch management IPs.",
+        "url": "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "zyxel-switch-bug-exploited-to-steal-data-from-nearly-1-000-2026-09-22"
+      },
+      {
+        "heading": "D-Link DIR-822A zero-day, no patch",
+        "body": "A maximum severity zero-day in legacy D-Link DIR-822A routers has a public exploit and no fix. These units offer full compromise to anyone who can reach them. Disconnect or replace immediately and disable remote management until they are decommissioned.",
+        "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "d-link-dir-822a-zero-day-has-public-exploit-no-patch-2026-09-22"
+      },
+      {
+        "heading": "Malicious npm package mimics sorted-btree",
+        "body": "The npm package indexed-btree impersonates sorted-btree and hides a trigger that can execute malware, despite millions of downloads. This is supply chain risk hiding in plain sight. Search your projects for indexed-btree, remove it if found, and review build logs and secrets that may have been exposed.",
+        "url": "https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "malicious-npm-package-indexed-btree-mimics-sorted-btree-2026-09-22"
+      },
+      {
+        "heading": "Tool flags AI-enabled malware via metadata",
+        "body": "Cisco Talos released CAIRN, an open source tool that identifies AI enabled malware using metadata only. It helps defenders sort and classify large volumes of samples without downloading or executing them. Consider adding it to your triage workflow to reduce exposure and speed up analysis.",
+        "url": "https://www.helpnetsecurity.com/2026/09/22/cairn-open-source-framework-ai-malware-closedquorum/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "new-tool-spots-ai-powered-malware-using-metadata-only-2026-09-22"
+      }
+    ],
+    "signOff": "Patch what you can now, lock down what you cannot, then grab that coffee.",
+    "generatedAt": "2026-09-22T17:39:58.126Z"
+  },
+  {
     "slug": "2026-09-21",
     "date": "2026-09-21",
     "title": "Patch now, verify AI: kernel exploits and Gemini misstep",
