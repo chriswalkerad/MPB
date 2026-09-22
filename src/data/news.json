@@ -1,5 +1,33 @@
 [
   {
+    "slug": "davmail-7-0-shifts-to-microsoft-graph-review-permissions-2026-09-22",
+    "title": "DavMail 7.0 shifts to Microsoft Graph, review permissions",
+    "originalTitle": "DavMail 7.0.0 puts most of its work into Microsoft Graph",
+    "summary": "If you use DavMail to bridge to Exchange or M365, 7.0 moves most work to Microsoft Graph and drops caldavImpersonate, test clients and review app permissions.",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/davmail-7-0-0-microsoft-graph/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-22T03:48:17.000Z",
+    "fetchedAt": "2026-09-22T04:51:18.344Z"
+  },
+  {
+    "slug": "meta-s-muse-ai-agent-hit-by-0-day-easy-full-hijack-2026-09-21",
+    "title": "Meta's Muse AI agent hit by 0-day, easy full hijack",
+    "originalTitle": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+    "summary": "If you are piloting Muse, pause rollout or lock it down, a simple ClickFix attack can completely hijack Meta's extraordinarily privileged AI assistant.",
+    "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-21T22:24:38.000Z",
+    "fetchedAt": "2026-09-22T04:51:18.344Z"
+  },
+  {
     "slug": "ai-agents-can-rack-up-runaway-costs-set-limits-now-2026-09-21",
     "title": "AI agents can rack up runaway costs, set limits now",
     "originalTitle": "How AI Agents Can Trigger Runaway Costs for Enterprises",
@@ -3505,20 +3533,6 @@
     "altSources": [],
     "category": "threats",
     "publishedAt": "2026-09-08T08:43:51.000Z",
-    "fetchedAt": "2026-09-08T11:13:56.088Z"
-  },
-  {
-    "slug": "microsoft-brings-30b-parameter-local-ai-to-windows-dev-pcs-2026-09-08",
-    "title": "Microsoft brings 30B-parameter local AI to Windows dev PCs",
-    "originalTitle": "Microsoft’s Project Zenith puts large AI models directly on developer PCs",
-    "summary": "Expect clients to ask about on-device LLMs, Project Zenith runs large models locally which can reduce data leakage risks but increases endpoint performance, policy, and update management needs.",
-    "url": "https://www.helpnetsecurity.com/2026/09/08/microsoft-project-zenith-windows-11-experience/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-08T04:30:33.000Z",
     "fetchedAt": "2026-09-08T11:13:56.088Z"
   }
 ]
