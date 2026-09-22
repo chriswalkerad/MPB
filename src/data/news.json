@@ -1,5 +1,113 @@
 [
   {
+    "slug": "patch-zyxel-gs1900-switches-attackers-looted-data-from-996-u-2026-09-22",
+    "title": "Patch Zyxel GS1900 switches, attackers looted data from 996 units",
+    "originalTitle": "Attacker compromised nearly 1000 Zyxel switches since August (CVE-2026-7273)",
+    "summary": "Update GS1900 firmware now and lock down management access, a buffer overflow CVE-2026-7273 is being exploited to steal config and network data across 48 countries.",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/zyxel-switches-cve-2026-7273-vulnerability-exploited/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-22T10:42:54.000Z",
+    "fetchedAt": "2026-09-22T11:34:19.175Z"
+  },
+  {
+    "slug": "ai-bots-now-send-posts-tighten-bot-controls-and-rate-limits-2026-09-22",
+    "title": "AI bots now send POSTs, tighten bot controls and rate limits",
+    "originalTitle": "Somewhere in your traffic logs, a bot is doing more than looking",
+    "summary": "Review WAF and bot-management rules, Akamai saw verified AI crawlers move from page reads to high-frequency POSTs that can trigger logins, carts and other actions.",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/ai-crawler-traffic-online-stores/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-22T10:30:31.000Z",
+    "fetchedAt": "2026-09-22T11:34:19.175Z"
+  },
+  {
+    "slug": "new-defender-zero-day-can-block-antivirus-updates-2026-09-22",
+    "title": "New Defender zero-day can block antivirus updates",
+    "originalTitle": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+    "summary": "Monitor Defender health and apply mitigations, a public exploit can stop Microsoft Defender from updating, leaving endpoints without fresh signatures or engine fixes.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-22T09:55:11.000Z",
+    "fetchedAt": "2026-09-22T11:34:19.175Z"
+  },
+  {
+    "slug": "malicious-npm-indexed-btree-hides-payload-in-app-runtime-2026-09-22",
+    "title": "Malicious npm ‘indexed-btree’ hides payload in app runtime",
+    "originalTitle": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+    "summary": "Audit dependencies and scan builds, a fake package mimicking sorted-btree embedded its loader in runtime code to evade lifecycle-script checks and steal developer tokens.",
+    "url": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-22T09:38:18.000Z",
+    "fetchedAt": "2026-09-22T11:34:19.175Z"
+  },
+  {
+    "slug": "oauth-backed-ai-subscription-scams-mimic-google-sign-in-2026-09-22",
+    "title": "OAuth-backed AI subscription scams mimic Google sign-in",
+    "originalTitle": "Scammers use genuine Google sign-ins to sell costly, unverified AI subscriptions",
+    "summary": "Warn users and block shady AI domains, scammers use real Google logins to legitimize sites selling expensive, unverified AI subscriptions built from a $249 toolkit.",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/fake-ai-subscription-sites-google-sign-in/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-22T08:54:30.000Z",
+    "fetchedAt": "2026-09-22T11:34:19.175Z"
+  },
+  {
+    "slug": "wordpress-fixes-comment2shell-bug-update-to-7-1-1-now-2026-09-22",
+    "title": "WordPress fixes Comment2Shell bug, update to 7.1.1 now",
+    "originalTitle": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+    "summary": "Upgrade WordPress to 7.1.1 immediately, a core flaw (CVE-2026-93485) lets anonymous comments plant XSS that becomes server-side code when an admin visits.",
+    "url": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-22T06:03:14.000Z",
+    "fetchedAt": "2026-09-22T11:34:19.175Z"
+  },
+  {
+    "slug": "veeam-flaw-under-active-attack-patch-and-isolate-backup-serv-2026-09-22",
+    "title": "Veeam flaw under active attack, patch and isolate backup servers",
+    "originalTitle": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+    "summary": "Update Veeam to fixed releases and restrict network exposure, attackers are exploiting a bug to gain SYSTEM-level access on backup infrastructure.",
+    "url": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-22T05:31:59.000Z",
+    "fetchedAt": "2026-09-22T11:34:19.175Z"
+  },
+  {
     "slug": "davmail-7-0-shifts-to-microsoft-graph-review-permissions-2026-09-22",
     "title": "DavMail 7.0 shifts to Microsoft Graph, review permissions",
     "originalTitle": "DavMail 7.0.0 puts most of its work into Microsoft Graph",
@@ -3431,108 +3539,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-08T12:00:00.000Z",
     "fetchedAt": "2026-09-08T16:36:48.432Z"
-  },
-  {
-    "slug": "freeipa-flaw-chain-lets-anyone-mint-admin-creds-patch-now-2026-09-08",
-    "title": "FreeIPA flaw chain lets anyone mint admin creds, patch now",
-    "originalTitle": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-    "summary": "Update FreeIPA and 389 Directory Server promptly, a two-bug chain lets unauthenticated clients create chosen Kerberos identities that land in the administrators group, enabling full domain control.",
-    "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-08T11:22:07.000Z",
-    "fetchedAt": "2026-09-08T16:36:48.432Z"
-  },
-  {
-    "slug": "help-desk-vishing-is-stealing-m365-tokens-and-data-lock-it-d-2026-09-08",
-    "title": "Help-desk vishing is stealing M365 tokens and data, lock it down",
-    "originalTitle": "IT help-desk vishing tricks executives into handing over Microsoft 365 access",
-    "summary": "Train staff and tighten support workflows now, attackers impersonate IT, hijack help-desk flows, and use stolen session tokens via residential proxies to loot Microsoft 365 and SaaS accounts.",
-    "url": "https://www.helpnetsecurity.com/2026/09/08/vishing-microsoft-365-data-theft-extortion/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-08T11:17:28.000Z",
-    "fetchedAt": "2026-09-08T16:36:48.432Z"
-  },
-  {
-    "slug": "mikrotik-patches-router-flaws-chained-for-takeover-update-fa-2026-09-08",
-    "title": "MikroTik patches router flaws chained for takeover, update fast",
-    "originalTitle": "MikroTik Patches Critical Flaws Chained to Hack Routers",
-    "summary": "Upgrade RouterOS and block internet-exposed management, the MikroTrick bug chain lets attackers bypass auth and overwrite configs to seize control of MikroTik devices.",
-    "url": "https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-08T11:15:00.000Z",
-    "fetchedAt": "2026-09-08T16:36:48.432Z"
-  },
-  {
-    "slug": "metabase-flaw-leads-to-mathspace-breach-of-1m-records-2026-09-08",
-    "title": "Metabase flaw leads to Mathspace breach of 1M+ records",
-    "originalTitle": "Mathspace Data Breach Exposes Over 1 Million People",
-    "summary": "If you self-host Metabase, patch and lock down admin access, attackers abused an unpatched instance to steal student, parent, and staff data from Mathspace.",
-    "url": "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/08/mathspace-data-breach-metabase-vulnerability/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-08T10:47:36.000Z",
-    "fetchedAt": "2026-09-08T11:13:56.088Z"
-  },
-  {
-    "slug": "n-able-n-central-zero-day-patched-check-for-rogue-accounts-2026-09-08",
-    "title": "N-able N-central zero-day patched, check for rogue accounts",
-    "originalTitle": "N-able Patches Critical Zero-Day in N-central",
-    "summary": "Patch N-central immediately and audit for unexpected user accounts, a critical zero-day is being exploited to create rogue logins on managed environments.",
-    "url": "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-08T10:37:58.000Z",
-    "fetchedAt": "2026-09-08T11:13:56.088Z"
-  },
-  {
-    "slug": "patch-magento-now-zero-day-exploited-to-drop-backdoors-2026-09-08",
-    "title": "Patch Magento now, zero-day exploited to drop backdoors",
-    "originalTitle": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
-    "summary": "Update Adobe Commerce and Magento Open Source to fix CVE-2026-75650, attackers are actively planting Rust backdoors and PHP web shells via StyleSmuggler.",
-    "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-08T09:13:47.000Z",
-    "fetchedAt": "2026-09-08T11:13:56.088Z"
-  },
-  {
-    "slug": "bing-seo-poisoning-pushes-malware-and-fake-support-scams-2026-09-08",
-    "title": "Bing SEO poisoning pushes malware and fake support scams",
-    "originalTitle": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
-    "summary": "Block suspicious search results and tighten browser protections, a long-running BengalSEO campaign is hijacking Bing rankings to deliver MayaBot loaders and tech support fraud.",
-    "url": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-08T08:43:51.000Z",
-    "fetchedAt": "2026-09-08T11:13:56.088Z"
   }
 ]
