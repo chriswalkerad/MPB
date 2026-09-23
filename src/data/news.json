@@ -1,5 +1,136 @@
 [
   {
+    "slug": "september-windows-patches-can-break-always-on-vpn-test-first-2026-09-23",
+    "title": "September Windows patches can break Always On VPN, test first",
+    "originalTitle": "Microsoft: September Windows updates break Always On VPN connections",
+    "summary": "Microsoft warns the September updates may disrupt Always On VPN on some Windows 11 systems, so stage deployments, validate connectivity, and prepare rollback or mitigations.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-23T11:18:13.000Z",
+    "fetchedAt": "2026-09-23T11:30:56.865Z"
+  },
+  {
+    "slug": "chrome-154-fixes-108-bugs-schedule-a-rapid-browser-update-2026-09-23",
+    "title": "Chrome 154 fixes 108 bugs, schedule a rapid browser update",
+    "originalTitle": "Chrome 154 Patches 108 Vulnerabilities",
+    "summary": "Push Chrome 154 to endpoints promptly, the release closes over 100 flaws including several critical memory corruption bugs that enable code execution and sandbox escapes.",
+    "url": "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-23T10:36:07.000Z",
+    "fetchedAt": "2026-09-23T11:30:56.865Z"
+  },
+  {
+    "slug": "update-wordpress-to-7-1-2-unauthenticated-path-traversal-fix-2026-09-23",
+    "title": "Update WordPress to 7.1.2, unauthenticated path traversal fixed",
+    "originalTitle": "WordPress 7.1.2 fixes critical unauthenticated path traversal vulnerability (CVE-2026-87902)",
+    "summary": "Admins should update WordPress to 7.1.2 or patched branch releases to fix CVE-2026-87902, which can let unauthenticated attackers execute PHP code via path traversal.",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/cve-2026-87902-wordpress-7-1-2-security-release/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-23T09:01:45.000Z",
+    "fetchedAt": "2026-09-23T11:30:56.865Z"
+  },
+  {
+    "slug": "microsoft-disrupts-eviltokens-an-ai-powered-phishing-factory-2026-09-23",
+    "title": "Microsoft disrupts EvilTokens, an AI-powered phishing factory",
+    "originalTitle": "Microsoft disrupts EvilTokens phishing service that gave criminals access to 12,000 inboxes",
+    "summary": "Expect smarter phishing anyway, EvilTokens abused AI to pick targets and craft lures, so tighten MFA, watch for token theft, and keep user training current.",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/microsoft-eviltokens-phishing-service-disrupted/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-23T08:34:15.000Z",
+    "fetchedAt": "2026-09-23T11:30:56.865Z"
+  },
+  {
+    "slug": "arista-vco-zero-day-is-under-attack-patch-immediately-2026-09-23",
+    "title": "Arista VCO zero-day is under attack, patch immediately",
+    "originalTitle": "Arista Urges Immediate Patching of Exploited VCO Zero-Day",
+    "summary": "If you run Arista VCO, prioritize the vendor's updates and limit external access, a critical flaw is being exploited to access privileged functionality.",
+    "url": "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-23T08:33:06.000Z",
+    "fetchedAt": "2026-09-23T11:30:56.865Z"
+  },
+  {
+    "slug": "patch-f5-big-ip-apm-now-zero-day-rce-exploited-in-the-wild-2026-09-23",
+    "title": "Patch F5 BIG-IP APM now, zero-day RCE exploited in the wild",
+    "originalTitle": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+    "summary": "Admins should apply F5's hotfixes immediately on BIG-IP APM OAuth servers, restrict exposure, and hunt for compromise, as a critical unauthenticated RCE is being actively exploited.",
+    "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-23T07:17:23.000Z",
+    "fetchedAt": "2026-09-23T11:30:56.865Z"
+  },
+  {
+    "slug": "next-js-imageresponse-bug-can-lead-to-server-rce-update-now-2026-09-23",
+    "title": "Next.js ImageResponse bug can lead to server RCE, update now",
+    "originalTitle": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+    "summary": "If your app uses ImageResponse with user-controlled input, upgrade to the patched Next.js release and sanitize SVG and text inputs to prevent server code execution.",
+    "url": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-23T07:04:40.000Z",
+    "fetchedAt": "2026-09-23T11:30:56.865Z"
+  },
+  {
+    "slug": "check-point-management-server-zero-day-emergency-patches-ava-2026-09-23",
+    "title": "Check Point Management Server zero-day, emergency patches available",
+    "originalTitle": "Check Point Patches Exploited Management Server Zero-Day",
+    "summary": "Apply Check Point's emergency fixes on Management Servers now and review logs, attackers have been exploiting an unauthenticated script upload flaw since July.",
+    "url": "https://www.securityweek.com/check-point-patches-exploited-management-server-zero-day/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/23/check-point-f5-big-ip-apm-zero-days-targeted/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-23T06:14:03.000Z",
+    "fetchedAt": "2026-09-23T11:30:56.865Z"
+  },
+  {
     "slug": "bot-traffic-is-exploding-most-sites-fail-bot-defenses-2026-09-23",
     "title": "Bot traffic is exploding, most sites fail bot defenses",
     "originalTitle": "Nearly two-thirds of tested websites fail every bot test",
@@ -3449,93 +3580,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-09T12:00:00.000Z",
     "fetchedAt": "2026-09-09T16:36:23.374Z"
-  },
-  {
-    "slug": "ivanti-patches-critical-rces-in-neurons-itsm-epmm-and-sentry-2026-09-09",
-    "title": "Ivanti patches critical RCEs in Neurons ITSM, EPMM and Sentry",
-    "originalTitle": "Ivanti Patches Critical Flaws Across Enterprise Security Products",
-    "summary": "Update Ivanti Neurons for ITSM, Sentry, and EPMM now, multiple critical bugs enable RCE and auth bypass, and internet-facing Ivanti gear has a history of rapid exploitation.",
-    "url": "https://www.securityweek.com/ivanti-patches-critical-flaws-across-enterprise-security-products/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-09T10:28:34.000Z",
-    "fetchedAt": "2026-09-09T11:19:13.349Z"
-  },
-  {
-    "slug": "new-phishing-trick-builds-malicious-pages-inside-the-browser-2026-09-09",
-    "title": "New phishing trick builds malicious pages inside the browser",
-    "originalTitle": "New Phishing Attack Creates Malicious Pages Inside the Victim’s Browser",
-    "summary": "Expect phishing that spawns malicious pages inside the victim browser via blob URLs and Microsoft services, so rely on MFA, Conditional Access, and user coaching rather than simple URL blocking.",
-    "url": "https://www.securityweek.com/new-phishing-attack-creates-malicious-pages-inside-the-victims-browser/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-09T10:00:00.000Z",
-    "fetchedAt": "2026-09-09T11:19:13.349Z"
-  },
-  {
-    "slug": "chrome-153-fixes-actively-exploited-v8-zero-day-update-now-2026-09-09",
-    "title": "Chrome 153 fixes actively exploited V8 zero-day, update now",
-    "originalTitle": "Chrome 153 Patches Seventh Zero-Day of 2026",
-    "summary": "Push Chrome 153 to all endpoints today, it fixes an actively exploited V8 zero-day (CVE-2026-87491) among 230 bugs, so restart browsers and verify version 153.0.8010.36 or newer.",
-    "url": "https://www.securityweek.com/chrome-153-patches-seventh-zero-day-of-2026/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/09/google-chrome-cve-2026-87491-zero-day-flaw/"
-      },
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-09T09:45:00.000Z",
-    "fetchedAt": "2026-09-09T11:19:13.349Z"
-  },
-  {
-    "slug": "cpanel-bug-lets-mail-user-run-code-as-root-update-fast-2026-09-09",
-    "title": "cPanel bug lets mail user run code as root, update fast",
-    "originalTitle": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
-    "summary": "Patch all supported cPanel and WHM versions quickly, a flaw lets an authenticated mail account write files and execute code as root via EmailTrack.",
-    "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-09T08:19:32.000Z",
-    "fetchedAt": "2026-09-09T11:19:13.349Z"
-  },
-  {
-    "slug": "new-microsoft-defender-zero-day-poc-grants-system-no-patch-y-2026-09-09",
-    "title": "New Microsoft Defender zero-day PoC grants SYSTEM, no patch yet",
-    "originalTitle": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
-    "summary": "Treat Microsoft Defender ShieldCrash as high risk, a new PoC grants SYSTEM by bypassing last month’s fix, so monitor for Defender crashes and await guidance while limiting local admin rights.",
-    "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-09T07:30:15.000Z",
-    "fetchedAt": "2026-09-09T11:19:13.349Z"
   }
 ]
