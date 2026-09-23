@@ -1,5 +1,80 @@
 [
   {
+    "slug": "new-windows-injection-trick-slips-past-edr-api-hooks-2026-09-23",
+    "title": "New Windows injection trick slips past EDR API hooks",
+    "originalTitle": "EDR Evasion Stack Helps Process Injection Slip Past Defenses",
+    "summary": "Expect evasive malware to abuse process parameter poisoning to inject during initialization without watched APIs, strengthen memory scanning, harden EDR configs, and monitor suspicious process trees and module loads.",
+    "url": "https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-23T21:03:01.000Z",
+    "fetchedAt": "2026-09-23T21:28:43.396Z"
+  },
+  {
+    "slug": "gitlab-email-to-issue-addresses-can-let-attackers-push-code-2026-09-23",
+    "title": "GitLab email-to-issue addresses can let attackers push code as you",
+    "originalTitle": "GitLab Email Addresses Can Be Weaponized for Supply Chain Attacks",
+    "summary": "Disable or rotate GitLab email-in addresses and update, leaked per-user issue emails can authorize code pushes and CI jobs as the victim, enabling supply chain compromise.",
+    "url": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-23T20:53:38.000Z",
+    "fetchedAt": "2026-09-23T21:28:43.396Z"
+  },
+  {
+    "slug": "check-point-vpn-rce-under-attack-patch-now-2026-09-23",
+    "title": "Check Point VPN RCE under attack, patch now",
+    "originalTitle": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+    "summary": "Apply Check Point fixes now, CVE-2026-85102 allows pre-auth RCE via VPN certificate handling and is under active exploitation, restrict VPN exposure and hunt for abnormal admin actions.",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-23T19:53:54.000Z",
+    "fetchedAt": "2026-09-23T21:28:43.396Z"
+  },
+  {
+    "slug": "wordpress-sites-hit-via-critical-rce-update-fast-2026-09-23",
+    "title": "WordPress sites hit via critical RCE, update fast",
+    "originalTitle": "Hackers start exploiting critical WordPress flaw for code execution",
+    "summary": "Update vulnerable WordPress components immediately, attackers are exploiting CVE-2026-87902 to write web shells and run commands, block suspicious file writes and scan for new admin users.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-23T18:31:22.000Z",
+    "fetchedAt": "2026-09-23T21:28:43.396Z"
+  },
+  {
+    "slug": "malicious-terraform-providers-found-in-hashicorp-registry-2026-09-23",
+    "title": "Malicious Terraform providers found in HashiCorp Registry",
+    "originalTitle": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+    "summary": "Audit Terraform and Go module dependencies, researchers found malware-laced providers and modules uploaded to official registries, pin trusted sources, enable checksums, and monitor build systems for anomalous downloads.",
+    "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-23T18:06:30.000Z",
+    "fetchedAt": "2026-09-23T21:28:43.396Z"
+  },
+  {
     "slug": "ai-powered-bots-hit-web-stores-steal-600k-cards-with-skimmer-2026-09-23",
     "title": "AI-powered bots hit web stores, steal 600k cards with skimmers",
     "originalTitle": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
@@ -82,6 +157,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-23T12:16:00.000Z",
     "fetchedAt": "2026-09-23T16:54:50.984Z"
+  },
+  {
+    "slug": "cisa-and-fbi-guidance-for-working-with-third-party-ics-integ-2026-09-23",
+    "title": "CISA and FBI guidance for working with third-party ICS integrators",
+    "originalTitle": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
+    "summary": "For OT clients, require contracts with security controls, minimize integrator privileges, segment networks, enforce MFA, log access, and plan rapid revocation before letting third parties touch ICS.",
+    "url": "https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "fetchedAt": "2026-09-23T21:28:43.396Z"
   },
   {
     "slug": "september-windows-patches-can-break-always-on-vpn-test-first-2026-09-23",
@@ -3481,99 +3570,5 @@
     "category": "threats",
     "publishedAt": "2026-09-09T21:30:36.000Z",
     "fetchedAt": "2026-09-10T04:38:04.035Z"
-  },
-  {
-    "slug": "skullcandy-dime-3-earbuds-vulnerable-to-bluetooth-hijacking-2026-09-09",
-    "title": "Skullcandy Dime 3 earbuds vulnerable to Bluetooth hijacking",
-    "originalTitle": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
-    "summary": "Block or discourage these earbuds in offices and check for firmware updates, CERT/CC warns they auto accept Bluetooth pairing letting nearby attackers hijack audio and controls.",
-    "url": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-09T21:02:14.000Z",
-    "fetchedAt": "2026-09-10T04:38:04.035Z"
-  },
-  {
-    "slug": "four-groups-reuse-chrome-and-windows-exploits-update-now-2026-09-09",
-    "title": "Four groups reuse Chrome and Windows exploits, update now",
-    "originalTitle": "4 groups caught using the same Chrome and Windows exploit kit",
-    "summary": "Update Chrome and Windows immediately and tighten patch timelines, researchers report four separate groups are using the same exploit kit to gain code execution.",
-    "url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-09T20:55:02.000Z",
-    "fetchedAt": "2026-09-10T04:38:04.035Z"
-  },
-  {
-    "slug": "us-disrupts-xinbi-scam-marketplace-freezes-52-8m-in-crypto-2026-09-09",
-    "title": "US disrupts Xinbi scam marketplace, freezes $52.8M in crypto",
-    "originalTitle": "US disrupts Xinbi Guarantee marketplace fueling the cyber scam economy",
-    "summary": "Expect scam crews to rebrand and shift platforms, brief users on pig-butchering and Telegram broker scams and tighten crypto withdrawal controls on business accounts to reduce losses.",
-    "url": "https://therecord.media/us-disrupts-xinbi-guarantee-marketplace-cybercrime",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-09T19:54:00.000Z",
-    "fetchedAt": "2026-09-09T20:54:34.292Z"
-  },
-  {
-    "slug": "us-chinese-firms-distilled-frontier-ai-models-at-massive-sca-2026-09-09",
-    "title": "US: Chinese firms distilled frontier AI models at massive scale",
-    "originalTitle": "US Government Accuses Chinese AI Firms of Distilling Frontier Models",
-    "summary": "Prepare for cheaper, more capable AI-driven phishing and tooling, agencies say Chinese companies distilled billions of tokens from OpenAI, Anthropic, Gemini, and Grok to slash model training costs.",
-    "url": "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-09T19:47:50.000Z",
-    "fetchedAt": "2026-09-09T20:54:34.292Z"
-  },
-  {
-    "slug": "scans-spike-for-old-proxmox-ve-7-flaw-upgrade-to-8-now-2026-09-09",
-    "title": "Scans spike for old Proxmox VE 7 flaw, upgrade to 8 now",
-    "originalTitle": "Scans for Proxmox Servers, (Wed, Sep 9th)",
-    "summary": "If any hosts still run end-of-life Proxmox VE 7, upgrade to 8 and lock down admin interfaces, ISC reports rising Internet scans probing this vulnerability.",
-    "url": "https://isc.sans.edu/diary/rss/33324",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-09T17:46:24.000Z",
-    "fetchedAt": "2026-09-09T20:54:34.292Z"
-  },
-  {
-    "slug": "veradigm-reports-ehr-data-theft-via-interface-check-affected-2026-09-09",
-    "title": "Veradigm reports EHR data theft via interface, check affected clients",
-    "originalTitle": "Electronic health record company says customer data stolen in breach",
-    "summary": "Healthcare MSPs should inventory customers using Veradigm and ready notifications, the vendor says attackers stole data through a specific interface without disrupting networks, servers, or databases.",
-    "url": "https://therecord.media/electronic-health-record-company-says-customer-data-stolen-in-breach",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-09T17:03:00.000Z",
-    "fetchedAt": "2026-09-09T20:54:34.292Z"
   }
 ]
