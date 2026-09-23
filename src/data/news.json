@@ -1,5 +1,61 @@
 [
   {
+    "slug": "bot-traffic-is-exploding-most-sites-fail-bot-defenses-2026-09-23",
+    "title": "Bot traffic is exploding, most sites fail bot defenses",
+    "originalTitle": "Nearly two-thirds of tested websites fail every bot test",
+    "summary": "Expect bots and AI agents to outpace humans, review WAF rules, rate limiting, and bot mitigation for customer sites as automated abuse grows 9x faster than people.",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/datadome-growing-bad-bot-traffic-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-23T04:30:37.000Z",
+    "fetchedAt": "2026-09-23T04:41:52.287Z"
+  },
+  {
+    "slug": "netbsd-patches-remotely-triggerable-ipfilter-kernel-crash-2026-09-23",
+    "title": "NetBSD patches remotely triggerable ipfilter kernel crash",
+    "originalTitle": "NetBSD 10.2 security fixes close a remote kernel bug in ipfilter",
+    "summary": "Patch NetBSD 10.2 and supported releases now, a remote null pointer bug in ipfilter can panic the kernel and take down edge firewalls.",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/netbsd-10-2-security-fixes-released/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-23T03:16:17.000Z",
+    "fetchedAt": "2026-09-23T04:41:52.287Z"
+  },
+  {
+    "slug": "rogue-external-mfa-plugins-can-snatch-m365-passwords-2026-09-22",
+    "title": "Rogue external MFA plugins can snatch M365 passwords",
+    "originalTitle": "Rogue external MFA providers can steal passwords during logins",
+    "summary": "Audit and lock down Entra ID external authentication methods, attackers with privileged tenant access can register rogue MFA providers that capture user passwords during logins.",
+    "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-22T21:45:45.000Z",
+    "fetchedAt": "2026-09-23T04:41:52.287Z"
+  },
+  {
+    "slug": "sweden-fines-it-provider-after-breach-of-2-2m-records-2026-09-22",
+    "title": "Sweden fines IT provider after breach of 2.2M records",
+    "originalTitle": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
+    "summary": "Treat vendor security as your problem too, regulators fined Miljödata for inadequate controls after a 2025 breach, reinforcing MSP liability for client data protection.",
+    "url": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-09-22T21:40:37.000Z",
+    "fetchedAt": "2026-09-23T04:41:52.287Z"
+  },
+  {
     "slug": "actor-exploits-zyxel-gs1900-and-wordpress-to-steal-data-2026-09-22",
     "title": "Actor exploits Zyxel GS1900 and WordPress to steal data",
     "originalTitle": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
@@ -3481,79 +3537,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-09T07:30:15.000Z",
     "fetchedAt": "2026-09-09T11:19:13.349Z"
-  },
-  {
-    "slug": "microsoft-ships-record-974-fixes-two-zero-days-exploited-2026-09-09",
-    "title": "Microsoft ships record 974 fixes, two zero-days exploited",
-    "originalTitle": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
-    "summary": "Prioritize September Patch Tuesday, Microsoft fixed a record 974 flaws including two exploited zero-days, so fast-track Windows and Office updates and schedule maintenance for critical servers.",
-    "url": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/09/september-2026-patch-tuesday-zero-days-sigred-successor/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-09T04:41:29.000Z",
-    "fetchedAt": "2026-09-09T11:19:13.349Z"
-  },
-  {
-    "slug": "bleachbit-fixes-windows-secure-wipe-bug-update-and-re-shred-2026-09-09",
-    "title": "BleachBit fixes Windows secure wipe bug, update and re-shred",
-    "originalTitle": "BleachBit 6.0.4 fixes secure wiping that skipped clusters on Windows",
-    "summary": "If you used BleachBit to securely delete files on Windows, upgrade to 6.0.4 and securely wipe again because earlier versions left file fragments behind.",
-    "url": "https://www.helpnetsecurity.com/2026/09/09/bleachbit-6-0-4-released/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-09T04:35:38.000Z",
-    "fetchedAt": "2026-09-09T04:37:59.014Z"
-  },
-  {
-    "slug": "n-able-n-central-pre-auth-rce-exploited-patch-now-2026-09-09",
-    "title": "N-able N-central pre-auth RCE exploited, patch now",
-    "originalTitle": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
-    "summary": "Patch N-able N-central now, a pre-auth RCE (CVE-2026-86218) is exploited in the wild and CISA put it on KEV, so fix or isolate exposed servers immediately.",
-    "url": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-09T04:27:51.000Z",
-    "fetchedAt": "2026-09-09T11:19:13.349Z"
-  },
-  {
-    "slug": "record-patch-tuesday-two-exploited-microsoft-bugs-2026-09-08",
-    "title": "Record Patch Tuesday, two exploited Microsoft bugs",
-    "originalTitle": "Microsoft Plugs Nearly 1,000 Security Holes",
-    "summary": "Push this month's Microsoft updates fast, prioritize the two exploited vulnerabilities and other likely-to-be-exploited criticals, then schedule testing to cover nearly 1,000 fixes.",
-    "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-    "source": {
-      "name": "Krebs on Security"
-    },
-    "altSources": [
-      {
-        "name": "The Record",
-        "url": "https://therecord.media/microsoft-patch-tuesday-september-2026"
-      },
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves"
-      },
-      {
-        "name": "Ars Technica",
-        "url": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-08T21:44:22.000Z",
-    "fetchedAt": "2026-09-09T04:37:59.014Z"
   }
 ]
