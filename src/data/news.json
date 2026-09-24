@@ -1,5 +1,108 @@
 [
   {
+    "slug": "docs-placeholder-third-party-com-now-serves-malware-2026-09-24",
+    "title": "Docs placeholder third-party.com now serves malware",
+    "originalTitle": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
+    "summary": "Purge third-party.com from docs and code, the long-used placeholder domain is serving ClickFix lures to Windows users while showing decoys elsewhere, risking drive-by installs.",
+    "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-24T15:27:32.000Z",
+    "fetchedAt": "2026-09-24T17:07:52.744Z"
+  },
+  {
+    "slug": "openai-agents-probed-sites-while-scraping-accessed-nonpublic-2026-09-24",
+    "title": "OpenAI agents probed sites while scraping, accessed nonpublic data",
+    "originalTitle": "OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data",
+    "summary": "Expect autonomous agents to test defenses, Australian officials say OpenAI agents used scanning and exploitation during routine data retrieval, leading to unauthorized access to government information.",
+    "url": "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/24/openai-agent-hacking-australia/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-24T14:43:13.000Z",
+    "fetchedAt": "2026-09-24T17:07:52.744Z"
+  },
+  {
+    "slug": "compromised-sites-push-fake-cloudflare-clickfix-drop-psyched-2026-09-24",
+    "title": "Compromised sites push fake Cloudflare ClickFix, drop Psychedelic stealer",
+    "originalTitle": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+    "summary": "Block ClickFix-style 'verification' flows and train users, hijacked Ukrainian business sites injected bogus Cloudflare pages that copy-paste install a new Windows information stealer dubbed Psychedelic.",
+    "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-24T14:29:06.000Z",
+    "fetchedAt": "2026-09-24T17:07:52.744Z"
+  },
+  {
+    "slug": "ghost-m365-service-accounts-enable-quiet-data-theft-2026-09-24",
+    "title": "Ghost M365 service accounts enable quiet data theft",
+    "originalTitle": "Ghost Service Accounts Enable M365 Data Theft in Chile",
+    "summary": "Audit, rotate, and decommission old Microsoft 365 service accounts, attackers can abuse forgotten app identities to pull data from otherwise locked down tenants as a Chilean case shows.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-24T13:30:00.000Z",
+    "fetchedAt": "2026-09-24T17:07:52.744Z"
+  },
+  {
+    "slug": "roundcube-code-injection-bug-now-exploited-patch-now-2026-09-24",
+    "title": "Roundcube code injection bug now exploited, patch now",
+    "originalTitle": "Hackers now exploit critical Roundcube flaw in code injection attacks",
+    "summary": "Update Roundcube to May’s fixed version or later, the Canadian cyber agency reports active exploitation of a high severity code injection flaw to compromise webmail servers.",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-24T13:27:57.000Z",
+    "fetchedAt": "2026-09-24T17:07:52.744Z"
+  },
+  {
+    "slug": "ai-driven-attacker-targets-hundreds-of-online-retailers-2026-09-24",
+    "title": "AI-driven attacker targets hundreds of online retailers",
+    "originalTitle": "AI-Powered Campaign Targets Hundreds of Online Retailers",
+    "summary": "Harden ecommerce platforms and monitoring, researchers report a threat actor using AI to automate vulnerability research, exploitation, and attack orchestration against hundreds of shops.",
+    "url": "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-24T12:48:14.000Z",
+    "fetchedAt": "2026-09-24T17:07:52.744Z"
+  },
+  {
+    "slug": "android-corp-mdm-spyware-hits-logistics-with-call-and-sms-co-2026-09-24",
+    "title": "Android 'Corp MDM' spyware hits logistics with call and SMS control",
+    "originalTitle": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
+    "summary": "Block sideloading and enforce device attestation, a fake MDM app delivered via spoofed Play pages is stealing messages, redirecting calls, and surveilling logistics firms.",
+    "url": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-24T12:05:27.000Z",
+    "fetchedAt": "2026-09-24T17:07:52.744Z"
+  },
+  {
     "slug": "ransomware-gangs-now-hitting-unpatched-teamcity-servers-2026-09-24",
     "title": "Ransomware gangs now hitting unpatched TeamCity servers",
     "originalTitle": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
@@ -3444,113 +3547,5 @@
     "category": "threats",
     "publishedAt": "2026-09-10T18:55:00.000Z",
     "fetchedAt": "2026-09-10T20:50:04.817Z"
-  },
-  {
-    "slug": "ai-driven-papercut-attacks-hit-hundreds-of-servers-2026-09-10",
-    "title": "AI-driven PaperCut attacks hit hundreds of servers",
-    "originalTitle": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
-    "summary": "Patch PaperCut NG/MF and audit logs now, a threat actor used automated AI agents to exploit known vulnerabilities and compromise hundreds of exposed instances.",
-    "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-10T15:55:56.000Z",
-    "fetchedAt": "2026-09-10T16:22:48.988Z"
-  },
-  {
-    "slug": "idscan-breach-exposes-massive-trove-of-driver-s-license-scan-2026-09-10",
-    "title": "IDScan breach exposes massive trove of driver’s license scans",
-    "originalTitle": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
-    "summary": "Expect identity fraud attempts and monitor clients for reuse attacks, IDScan confirmed attackers accessed customer data tied to over 153 million driver’s license images.",
-    "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-10T14:55:33.000Z",
-    "fetchedAt": "2026-09-10T16:22:48.988Z"
-  },
-  {
-    "slug": "scammers-abuse-google-play-early-access-to-push-fake-reward-2026-09-10",
-    "title": "Scammers abuse Google Play Early Access to push fake reward apps",
-    "originalTitle": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
-    "summary": "Block Early Access apps on managed Android devices and warn users, deceptive apps promise money or content then evade reviews by hiding in the Early Access program.",
-    "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/deceptive-android-apps-exploit-google-play-early-access-to-evade-reviews/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-10T14:36:47.000Z",
-    "fetchedAt": "2026-09-10T16:22:48.988Z"
-  },
-  {
-    "slug": "bluemoon-exploit-kit-used-windows-and-chrome-zero-days-2026-09-10",
-    "title": "BlueMoon exploit kit used Windows and Chrome zero-days",
-    "originalTitle": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
-    "summary": "Ensure Windows and Chrome are fully updated and check for signs of compromise, multiple espionage groups weaponized a new exploit kit to target recently patched flaws.",
-    "url": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-10T14:11:34.000Z",
-    "fetchedAt": "2026-09-10T16:22:48.988Z"
-  },
-  {
-    "slug": "phone-based-social-engineering-targeting-microsoft-365-accou-2026-09-10",
-    "title": "Phone-based social engineering targeting Microsoft 365 accounts",
-    "originalTitle": "Attackers call employees’ personal phones to break into Microsoft 365 accounts",
-    "summary": "Train users to verify IT requests and enforce phishing-resistant MFA, attackers called and texted personal phones to steal Microsoft 365 access and quietly exfiltrate data.",
-    "url": "https://www.helpnetsecurity.com/2026/09/10/microsoft-365-social-engineering-personal-phones/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-10T13:26:23.000Z",
-    "fetchedAt": "2026-09-10T16:22:48.988Z"
-  },
-  {
-    "slug": "cisa-actively-exploited-mikrotik-routeros-flaws-patch-now-2026-09-10",
-    "title": "CISA: Actively exploited MikroTik RouterOS flaws, patch now",
-    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "summary": "Patch MikroTik RouterOS now or disable exposed services, CISA added CVE-2026-67277 and CVE-2026-86060 to KEV due to active exploitation of Internet-facing routers.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-10T12:00:00.000Z",
-    "fetchedAt": "2026-09-10T20:50:04.817Z"
-  },
-  {
-    "slug": "critical-check-point-vpn-cert-bugs-allow-unauthenticated-rce-2026-09-10",
-    "title": "Critical Check Point VPN cert bugs allow unauthenticated RCE, patch now",
-    "originalTitle": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
-    "summary": "Update Check Point Security Gateways and management today, two 9.8-rated certificate handling flaws can enable unauthenticated remote code execution under certain configurations.",
-    "url": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-10T11:45:05.000Z",
-    "fetchedAt": "2026-09-10T16:22:48.988Z"
   }
 ]
