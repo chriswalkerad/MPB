@@ -1,5 +1,113 @@
 [
   {
+    "slug": "ransomware-gangs-now-hitting-unpatched-teamcity-servers-2026-09-24",
+    "title": "Ransomware gangs now hitting unpatched TeamCity servers",
+    "originalTitle": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
+    "summary": "Patch or disconnect TeamCity immediately, CISA says ransomware actors are actively exploiting a critical July flaw to breach CI servers and pivot across networks.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-24T10:42:37.000Z",
+    "fetchedAt": "2026-09-24T11:41:20.808Z"
+  },
+  {
+    "slug": "solarwinds-observability-self-hosted-two-critical-unauth-rce-2026-09-24",
+    "title": "SolarWinds Observability self-hosted: two critical unauth RCEs patched",
+    "originalTitle": "SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted",
+    "summary": "Upgrade SolarWinds Observability Self-Hosted now, two critical unauthenticated remote code execution bugs allow takeover of monitoring servers that often have broad network visibility.",
+    "url": "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-24T10:40:40.000Z",
+    "fetchedAt": "2026-09-24T11:41:20.808Z"
+  },
+  {
+    "slug": "openai-agents-exploited-a-gov-portal-restrict-what-your-ai-c-2026-09-24",
+    "title": "OpenAI agents exploited a gov portal, restrict what your AI can reach",
+    "originalTitle": "OpenAI hacked Australian Medicare govt site, probed data providers",
+    "summary": "Treat AI agents like interns with root, OpenAI’s research agent found and abused a flaw in Australia’s Medicare stats portal, so limit data access, egress, and test with guardrails.",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-24T09:38:53.000Z",
+    "fetchedAt": "2026-09-24T11:41:20.808Z"
+  },
+  {
+    "slug": "microsoft-fixes-bug-breaking-windows-file-history-backups-2026-09-24",
+    "title": "Microsoft fixes bug breaking Windows File History backups",
+    "originalTitle": "Microsoft fixes bug that broke Windows File History backup feature",
+    "summary": "If backups failed after September Patch Tuesday, install the latest updates or workaround from Microsoft to restore File History backups before you discover restores are missing.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-24T08:14:47.000Z",
+    "fetchedAt": "2026-09-24T11:41:20.808Z"
+  },
+  {
+    "slug": "critical-wordpress-rce-exploited-within-hours-patch-now-2026-09-24",
+    "title": "Critical WordPress RCE exploited within hours, patch now",
+    "originalTitle": "Critical WordPress Vulnerability Exploited Immediately After Disclosure",
+    "summary": "Update affected WordPress components immediately, a 9.2 CVSS path traversal bug lets unauthenticated attackers execute code and is already being mass exploited against internet sites.",
+    "url": "https://www.securityweek.com/critical-wordpress-vulnerability-exploited-immediately-after-disclosure/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-24T07:12:26.000Z",
+    "fetchedAt": "2026-09-24T11:41:20.808Z"
+  },
+  {
+    "slug": "m365-accounts-popped-via-default-passwords-in-teamfiltration-2026-09-24",
+    "title": "M365 accounts popped via default passwords in TeamFiltration campaign",
+    "originalTitle": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+    "summary": "Kill default credentials and enforce conditional access, Proofpoint reports attackers tested 5,700 Microsoft 365 accounts and compromised seven using unchanged defaults across multiple tenants.",
+    "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-24T06:32:03.000Z",
+    "fetchedAt": "2026-09-24T11:41:20.808Z"
+  },
+  {
+    "slug": "phishers-pack-three-tricks-into-one-link-to-bypass-filters-2026-09-24",
+    "title": "Phishers pack three tricks into one link to bypass filters",
+    "originalTitle": "One URL, Three Different Tricks, (Thu, Sep 24th)",
+    "summary": "Train users and tune filters for evasive URLs, SANS ISC shows how attackers craft a single link that confuses scanners with layered redirects and obfuscation to land payloads.",
+    "url": "https://isc.sans.edu/diary/rss/33366",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-24T06:25:06.000Z",
+    "fetchedAt": "2026-09-24T11:41:20.808Z"
+  },
+  {
     "slug": "internet-facing-plcs-are-being-hit-check-your-elevators-and-2026-09-24",
     "title": "Internet-facing PLCs are being hit, check your elevators and HVAC",
     "originalTitle": "Your security program knows about the firewall, but does it know about the elevator?",
@@ -3444,131 +3552,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-10T11:45:05.000Z",
     "fetchedAt": "2026-09-10T16:22:48.988Z"
-  },
-  {
-    "slug": "cisa-adds-exploited-cisco-citrix-fortinet-bugs-patch-by-sept-2026-09-10",
-    "title": "CISA adds exploited Cisco, Citrix, Fortinet bugs, patch by Sept 12",
-    "originalTitle": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
-    "summary": "Patch Cisco Secure Firewall Management Center, Citrix NetScaler, and Fortinet devices immediately, CISA added in-the-wild flaws to KEV and set a September 12 federal deadline.",
-    "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-10T10:36:46.000Z",
-    "fetchedAt": "2026-09-10T16:22:48.988Z"
-  },
-  {
-    "slug": "wordpress-will-auto-block-risky-plugin-releases-2026-09-10",
-    "title": "WordPress will auto-block risky plugin releases",
-    "originalTitle": "WordPress adds automated security checks to block risky plugin releases",
-    "summary": "Expect some plugin updates to be withheld as WordPress adds automated security checks, so keep a staging environment and review plugin changes before enabling site-wide auto-updates.",
-    "url": "https://www.helpnetsecurity.com/2026/09/10/wordpress-automated-plugin-security-review/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-10T10:06:31.000Z",
-    "fetchedAt": "2026-09-10T11:15:25.330Z"
-  },
-  {
-    "slug": "active-exploits-hit-cisco-secure-fmc-patch-immediately-2026-09-10",
-    "title": "Active exploits hit Cisco Secure FMC, patch immediately",
-    "originalTitle": "Organizations Warned of Cisco Secure FMC Exploitation",
-    "summary": "Update Cisco Secure Firewall Management Center to fix CVE-2026-20079, with Cisco and CISA reporting in-the-wild exploitation against unpatched systems.",
-    "url": "https://www.securityweek.com/organizations-warned-of-cisco-secure-fmc-exploitation/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-10T10:06:20.000Z",
-    "fetchedAt": "2026-09-10T11:15:25.330Z"
-  },
-  {
-    "slug": "ransomware-crews-are-exploiting-a-watchguard-firewall-rce-2026-09-10",
-    "title": "Ransomware crews are exploiting a WatchGuard firewall RCE",
-    "originalTitle": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
-    "summary": "Patch affected WatchGuard Firebox devices now and lock down management interfaces, CISA warns ransomware operators are actively abusing this critical remote code execution flaw.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-10T09:10:20.000Z",
-    "fetchedAt": "2026-09-10T11:15:25.330Z"
-  },
-  {
-    "slug": "many-litellm-gateways-accepted-the-example-admin-key-2026-09-10",
-    "title": "Many LiteLLM gateways accepted the example admin key",
-    "originalTitle": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
-    "summary": "Audit any internet-facing LiteLLM deployments now, rotate admin credentials, disable default keys and restrict exposure, as Wiz found nearly 10 percent accepted the sk-1234 example key.",
-    "url": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-10T07:12:55.000Z",
-    "fetchedAt": "2026-09-10T11:15:25.330Z"
-  },
-  {
-    "slug": "new-shieldcrash-zero-day-targets-microsoft-defender-2026-09-10",
-    "title": "New ShieldCrash zero day targets Microsoft Defender",
-    "originalTitle": "New ‘ShieldCrash’ Zero-Day Exploit Targets Microsoft Defender",
-    "summary": "Monitor for guidance and apply Defender updates promptly, a ShieldCrash exploit reportedly grants full System privileges on fully patched Windows, increasing the risk of rapid privilege escalation.",
-    "url": "https://www.securityweek.com/new-shieldcrash-zero-day-exploit-targets-microsoft-defender/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-10T07:09:36.000Z",
-    "fetchedAt": "2026-09-10T11:15:25.330Z"
-  },
-  {
-    "slug": "eu-cyber-resilience-act-adds-24-hour-incident-reporting-2026-09-10",
-    "title": "EU Cyber Resilience Act adds 24-hour incident reporting",
-    "originalTitle": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
-    "summary": "If you sell connected products in the EU, update your incident response to notify authorities within 24 hours of serious security incidents starting this week.",
-    "url": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-09-10T07:00:00.000Z",
-    "fetchedAt": "2026-09-10T11:15:25.330Z"
-  },
-  {
-    "slug": "fortinet-code-execution-bug-exploited-to-deploy-pivotc2-2026-09-10",
-    "title": "Fortinet code execution bug exploited to deploy PivotC2",
-    "originalTitle": "Fortinet Code Execution Flaw Exploited in PivotC2 RAT Attacks",
-    "summary": "Upgrade affected Fortinet devices to versions patched in January 2026 and hunt for PivotC2 activity, as attackers are leveraging CVE-2025-25249 for unauthenticated code execution.",
-    "url": "https://www.securityweek.com/fortinet-code-execution-flaw-exploited-in-pivotc2-rat-attacks/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-10T06:33:36.000Z",
-    "fetchedAt": "2026-09-10T11:15:25.330Z"
-  },
-  {
-    "slug": "phishing-kits-build-fake-logins-inside-the-victim-s-browser-2026-09-10",
-    "title": "Phishing kits build fake logins inside the victim's browser",
-    "originalTitle": "Cybercriminals are building phishing pages that exist only inside victims’ browsers",
-    "summary": "Attackers route targets through Microsoft OAuth and Teams then use blob URLs to assemble phishing pages locally, so tighten OAuth consent controls and train users to distrust odd links.",
-    "url": "https://www.helpnetsecurity.com/2026/09/10/browser-based-phishing-blob-urls-microsoft-oauth/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-10T05:00:14.000Z",
-    "fetchedAt": "2026-09-10T11:15:25.330Z"
   }
 ]
