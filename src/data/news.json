@@ -1,5 +1,61 @@
 [
   {
+    "slug": "salesbleed-exploits-salesforce-agents-for-slack-phishing-2026-09-24",
+    "title": "Salesbleed exploits Salesforce agents for Slack phishing",
+    "originalTitle": "'Salesbleed' Exploits Salesforce Agents to Enable Slack Phishing",
+    "summary": "Review and restrain AI assistants, Salesbleed shows Salesforce agents can smuggle instructions into Slack for phishing, so limit cross-app permissions, disable auto-actions, and monitor bot activity.",
+    "url": "https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-24T21:04:03.000Z",
+    "fetchedAt": "2026-09-24T21:29:22.648Z"
+  },
+  {
+    "slug": "macsync-malware-abuses-icloud-calendars-to-drop-macos-payloa-2026-09-24",
+    "title": "MacSync malware abuses iCloud calendars to drop macOS payloads",
+    "originalTitle": "MacSync malware uses public iCloud calendars to deliver new payloads",
+    "summary": "Block untrusted calendar invites, MacSync now abuses public iCloud calendars to deliver macOS payloads, so disable auto-adding events, monitor LaunchAgents, and deploy macOS EDR across fleet.",
+    "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-24T20:53:35.000Z",
+    "fetchedAt": "2026-09-24T21:29:22.648Z"
+  },
+  {
+    "slug": "carbonato-botnet-hijacks-exposed-docker-with-ai-agents-2026-09-24",
+    "title": "Carbonato botnet hijacks exposed Docker with AI agents",
+    "originalTitle": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+    "summary": "Lock down Docker daemons, Carbonato is taking over exposed hosts and installing the Hermes Agent AI framework, so close 2375, require TLS and auth, and audit running containers.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-24T20:10:48.000Z",
+    "fetchedAt": "2026-09-24T21:29:22.648Z"
+  },
+  {
+    "slug": "public-gitlab-email-addresses-let-attackers-push-into-your-p-2026-09-24",
+    "title": "Public GitLab email addresses let attackers push into your projects",
+    "originalTitle": "Exposed GitLab project email addresses let attackers push code",
+    "summary": "If your GitLab inbound email addresses are in READMEs or docs, attackers can submit code or issues by email, so rotate them, restrict allowed senders, or disable email actions.",
+    "url": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-24T17:47:44.000Z",
+    "fetchedAt": "2026-09-24T21:29:22.648Z"
+  },
+  {
     "slug": "docs-placeholder-third-party-com-now-serves-malware-2026-09-24",
     "title": "Docs placeholder third-party.com now serves malware",
     "originalTitle": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
@@ -101,6 +157,20 @@
     "category": "threats",
     "publishedAt": "2026-09-24T12:05:27.000Z",
     "fetchedAt": "2026-09-24T17:07:52.744Z"
+  },
+  {
+    "slug": "cisa-flags-wso2-adobe-commerce-bugs-under-active-attack-2026-09-24",
+    "title": "CISA flags WSO2, Adobe Commerce bugs under active attack",
+    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "summary": "Patch WSO2 products and Adobe Commerce or Magento now, CISA says both bugs are under active exploitation, so prioritize vendor fixes, restrict internet exposure, and hunt for compromise.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-24T12:00:00.000Z",
+    "fetchedAt": "2026-09-24T21:29:22.648Z"
   },
   {
     "slug": "ransomware-gangs-now-hitting-unpatched-teamcity-servers-2026-09-24",
@@ -3491,61 +3561,5 @@
     "category": "threats",
     "publishedAt": "2026-09-10T21:40:43.000Z",
     "fetchedAt": "2026-09-11T04:35:51.361Z"
-  },
-  {
-    "slug": "attackers-use-byod-and-graph-api-to-pivot-into-microsoft-365-2026-09-10",
-    "title": "Attackers use BYOD and Graph API to pivot into Microsoft 365",
-    "originalTitle": "Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data",
-    "summary": "Lock down BYOD and Graph API access, attackers are identifying employees via Microsoft Graph then using voice phishing and extortion groups to compromise Microsoft 365 and exfiltrate data.",
-    "url": "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-10T20:36:03.000Z",
-    "fetchedAt": "2026-09-11T04:35:51.361Z"
-  },
-  {
-    "slug": "september-windows-server-patches-break-remote-desktop-servic-2026-09-10",
-    "title": "September Windows Server patches break Remote Desktop Services",
-    "originalTitle": "September Windows Server updates break Remote Desktop Services",
-    "summary": "Delay September Windows Server updates on RDS hosts, admins report patches break Remote Desktop Services on 2019, 2022, and 2025 servers, sometimes requiring hard resets to restore connectivity.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/september-windows-server-updates-break-remote-desktop-services/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-10T20:34:37.000Z",
-    "fetchedAt": "2026-09-10T20:50:04.817Z"
-  },
-  {
-    "slug": "excel-update-kb5002914-breaks-copy-and-paste-2026-09-10",
-    "title": "Excel update KB5002914 breaks copy and paste",
-    "originalTitle": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
-    "summary": "Pause or roll back Office update KB5002914 if users lose copy paste or drag fill in Excel, uninstalling the patch restores functionality while Microsoft works on a fix.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-10T19:07:33.000Z",
-    "fetchedAt": "2026-09-10T20:50:04.817Z"
-  },
-  {
-    "slug": "idscan-breach-153m-driver-s-license-scans-allegedly-for-sale-2026-09-10",
-    "title": "IDScan breach, 153M driver's license scans allegedly for sale",
-    "originalTitle": "IDScan confirms breach after hackers offer 153 million driver’s license scans for sale",
-    "summary": "Prepare for exposure of ID documents, IDScan confirmed a breach after attackers advertised 153 million driver’s license scans, review retention policies and notify impacted customers if you used the service.",
-    "url": "https://therecord.media/idscan-data-breach-notice-drivers-licenses",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-10T18:55:00.000Z",
-    "fetchedAt": "2026-09-10T20:50:04.817Z"
   }
 ]
