@@ -1,5 +1,47 @@
 [
   {
+    "slug": "internet-facing-plcs-are-being-hit-check-your-elevators-and-2026-09-24",
+    "title": "Internet-facing PLCs are being hit, check your elevators and HVAC",
+    "originalTitle": "Your security program knows about the firewall, but does it know about the elevator?",
+    "summary": "Audit and segment building controls like elevators and HVAC, remove Internet exposure and default credentials, attackers are exploiting internet-facing PLCs to disrupt operations at utilities.",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/ot-asset-visibility-challenges/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-24T04:30:14.000Z",
+    "fetchedAt": "2026-09-24T04:44:50.934Z"
+  },
+  {
+    "slug": "ubuntu-kernel-cve-updates-move-to-weekly-cadence-2026-09-24",
+    "title": "Ubuntu kernel CVE updates move to weekly cadence",
+    "originalTitle": "Ubuntu kernel CVE fixes are moving to a weekly release schedule",
+    "summary": "Expect weekly Ubuntu kernel releases, plan for more frequent reboots and testing, and adjust patch automation and maintenance windows to land CVE fixes on a predictable cadence.",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/ubuntu-kernel-cve-fixes-release-schedule/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-24T04:27:02.000Z",
+    "fetchedAt": "2026-09-24T04:44:50.934Z"
+  },
+  {
+    "slug": "dev-placeholder-domain-now-pushes-clickfix-powershell-traps-2026-09-23",
+    "title": "Dev placeholder domain now pushes ClickFix PowerShell traps",
+    "originalTitle": "Placeholder domain used in dev docs now serves ClickFix attacks",
+    "summary": "Block third-party.com, train staff to ignore ClickFix prompts, and restrict PowerShell, attackers hijacked the placeholder domain to push fake Cloudflare checks that run malicious commands.",
+    "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-23T22:46:01.000Z",
+    "fetchedAt": "2026-09-24T04:44:50.934Z"
+  },
+  {
     "slug": "new-windows-injection-trick-slips-past-edr-api-hooks-2026-09-23",
     "title": "New Windows injection trick slips past EDR API hooks",
     "originalTitle": "EDR Evasion Stack Helps Process Injection Slip Past Defenses",
@@ -3528,47 +3570,5 @@
     "category": "threats",
     "publishedAt": "2026-09-10T05:00:14.000Z",
     "fetchedAt": "2026-09-10T11:15:25.330Z"
-  },
-  {
-    "slug": "openssl-4-1-0-alpha-adds-dtls-1-3-and-faster-post-quantum-cr-2026-09-09",
-    "title": "OpenSSL 4.1.0 alpha adds DTLS 1.3 and faster post-quantum crypto",
-    "originalTitle": "OpenSSL’s new alpha build speeds up post-quantum crypto",
-    "summary": "Test in labs not production, the first OpenSSL 4.1.0 alpha brings DTLS 1.3 support and improved post-quantum performance for more resilient encrypted communications.",
-    "url": "https://www.helpnetsecurity.com/2026/09/10/openssl-4-1-0-alpha1-released/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-09T22:15:28.000Z",
-    "fetchedAt": "2026-09-10T04:38:04.035Z"
-  },
-  {
-    "slug": "cisco-secure-fmc-auth-bypass-is-being-exploited-patch-now-2026-09-09",
-    "title": "Cisco Secure FMC auth bypass is being exploited, patch now",
-    "originalTitle": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
-    "summary": "Patch Cisco Secure Firewall Management Center immediately, Cisco confirmed active exploitation of CVE-2026-20079 that allows authentication bypass in affected versions.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-09T21:40:44.000Z",
-    "fetchedAt": "2026-09-10T04:38:04.035Z"
-  },
-  {
-    "slug": "adapthealth-says-4-1m-records-exposed-in-july-cyberattack-2026-09-09",
-    "title": "AdaptHealth says 4.1M records exposed in July cyberattack",
-    "originalTitle": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
-    "summary": "Healthcare MSPs should review client incident response and vendor access, AdaptHealth reports a July breach attributed to ShinyHunters exposed data on 4.1 million people.",
-    "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-09T21:30:36.000Z",
-    "fetchedAt": "2026-09-10T04:38:04.035Z"
   }
 ]
