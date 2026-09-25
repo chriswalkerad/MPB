@@ -1,5 +1,61 @@
 [
   {
+    "slug": "kiteworks-tells-customers-to-pause-use-amid-targeting-warnin-2026-09-25",
+    "title": "Kiteworks tells customers to pause use amid targeting warning",
+    "originalTitle": "Kiteworks urges customers to stop using platform after warning from federal intelligence agencies",
+    "summary": "If you manage Kiteworks, pause use, restrict external access, monitor logs, and prepare for emergency patches after federal intel warned of imminent targeting of customer systems.",
+    "url": "https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-25T20:19:00.000Z",
+    "fetchedAt": "2026-09-25T21:32:52.749Z"
+  },
+  {
+    "slug": "ai-agent-escapes-show-a-logging-and-identity-problem-not-mag-2026-09-25",
+    "title": "AI agent escapes show a logging and identity problem, not magic",
+    "originalTitle": "AI Sandbox Escapes: Why Forensic Readiness Matters More Than Containment",
+    "summary": "Strengthen identity, change control, and evidence-quality logging for AI tools, sandbox escapes keep succeeding because of the same old access controls and audit gaps.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-sandbox-escapes-forensic-readiness",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-25T18:39:32.000Z",
+    "fetchedAt": "2026-09-25T21:32:52.749Z"
+  },
+  {
+    "slug": "elementor-flaw-lets-attackers-create-wordpress-admin-account-2026-09-25",
+    "title": "Elementor flaw lets attackers create WordPress admin accounts",
+    "originalTitle": "Elementor WordPress flaw lets attackers create admin accounts",
+    "summary": "Patch Elementor immediately and audit admin users, a CSRF bug lets unauthenticated attackers create new administrator accounts on vulnerable sites via crafted requests.",
+    "url": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-25T18:13:33.000Z",
+    "fetchedAt": "2026-09-25T21:32:52.749Z"
+  },
+  {
+    "slug": "cisa-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attac-2026-09-25",
+    "title": "CISA: SharePoint, WSO2, Adobe Commerce flaws exploited in attacks",
+    "originalTitle": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
+    "summary": "Patch affected SharePoint, WSO2, and Adobe Commerce systems now and hunt for compromise, CISA reports active exploitation including a critical WSO2 authentication bypass tracked as CVE-2026-5430.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-25T17:24:20.000Z",
+    "fetchedAt": "2026-09-25T21:32:52.749Z"
+  },
+  {
     "slug": "soc-2-needs-updates-to-cover-ai-agents-using-human-creds-2026-09-25",
     "title": "SOC 2 needs updates to cover AI agents using human creds",
     "originalTitle": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
@@ -82,6 +138,20 @@
     "category": "defense",
     "publishedAt": "2026-09-25T12:04:03.000Z",
     "fetchedAt": "2026-09-25T17:08:04.985Z"
+  },
+  {
+    "slug": "cisa-wordpress-core-rfi-added-to-kev-exploitation-seen-2026-09-25",
+    "title": "CISA: WordPress Core RFI added to KEV, exploitation seen",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "Update WordPress Core to the latest release and monitor logs, CISA added CVE-2026-87902 to KEV after confirmed exploitation of a remote file inclusion flaw.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-25T12:00:00.000Z",
+    "fetchedAt": "2026-09-25T21:32:52.749Z"
   },
   {
     "slug": "patch-now-sharepoint-and-mikrotik-flaws-added-to-cisa-kev-2026-09-25",
@@ -3401,71 +3471,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-12T00:42:25.000Z",
     "fetchedAt": "2026-09-12T04:30:41.794Z"
-  },
-  {
-    "slug": "attackers-used-claude-to-rip-secrets-from-1-8m-android-apps-2026-09-11",
-    "title": "Attackers used Claude to rip secrets from 1.8M Android apps",
-    "originalTitle": "Hackers abused Claude to extract secrets from 1.8M Android apps",
-    "summary": "Audit apps and repos for hardcoded keys, Anthropic reports threat groups abused Claude to mine secrets from 1.8M Android apps which attackers can reuse across supply chains.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-11T20:19:09.000Z",
-    "fetchedAt": "2026-09-11T20:56:48.405Z"
-  },
-  {
-    "slug": "florida-dmv-data-breached-via-creds-on-a-personal-device-2026-09-11",
-    "title": "Florida DMV data breached via creds on a personal device",
-    "originalTitle": "Florida says motor vehicle data breach tied to credentials stolen from officer’s personal device",
-    "summary": "Lock down credential storage and personal device access, a stolen login from a police officer’s device let attackers access Florida’s driver database and exfiltrate motor vehicle records.",
-    "url": "https://therecord.media/florida-shiny-hunters-motor-vehicle",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-11T20:00:00.000Z",
-    "fetchedAt": "2026-09-11T20:56:48.405Z"
-  },
-  {
-    "slug": "invoice-scam-emails-get-smarter-with-layered-tricks-and-ai-2026-09-11",
-    "title": "Invoice-scam emails get smarter with layered tricks and AI",
-    "originalTitle": "Microsoft sees some new wrinkles in invoice-scam emails",
-    "summary": "Reinforce payment verification and mailbox protections, Microsoft warns invoice scammers are stacking lookalike domains, live chat, and AI polish to improve business email compromise success.",
-    "url": "https://therecord.media/invoice-scam-emails-new-features-microsoft-researchers",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-11T18:40:00.000Z",
-    "fetchedAt": "2026-09-11T20:56:48.405Z"
-  },
-  {
-    "slug": "passkey-themed-phishing-is-stealing-microsoft-365-data-2026-09-11",
-    "title": "Passkey-themed phishing is stealing Microsoft 365 data",
-    "originalTitle": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
-    "summary": "Train users and tighten MFA policies, attackers are spoofing passkey and SSO prompts to hijack Microsoft accounts and loot SharePoint, OneDrive, and email.",
-    "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-11T17:26:50.000Z",
-    "fetchedAt": "2026-09-11T20:56:48.405Z"
   }
 ]
