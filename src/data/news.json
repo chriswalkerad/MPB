@@ -1,5 +1,103 @@
 [
   {
+    "slug": "soc-2-needs-updates-to-cover-ai-agents-using-human-creds-2026-09-25",
+    "title": "SOC 2 needs updates to cover AI agents using human creds",
+    "originalTitle": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
+    "summary": "AI agents can act under employee accounts, so document agent identities, separate credentials and scopes, log agent actions, and add explicit controls before auditors come asking.",
+    "url": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-25T14:51:10.000Z",
+    "fetchedAt": "2026-09-25T17:08:04.985Z"
+  },
+  {
+    "slug": "deepfake-it-hiring-scams-demand-tighter-hr-and-identity-chec-2026-09-25",
+    "title": "Deepfake IT hiring scams demand tighter HR and identity checks",
+    "originalTitle": "Stopping IT Worker Scams Requires Revamped HR Process",
+    "summary": "Attackers posing as IT applicants are slipping through remote hiring, so train HR on red flags, mandate robust identity verification, and gate access until device and background checks pass.",
+    "url": "https://www.darkreading.com/cyber-risk/stopping-it-worker-scams-revamped-hr-process",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-25T14:46:13.000Z",
+    "fetchedAt": "2026-09-25T17:08:04.985Z"
+  },
+  {
+    "slug": "malicious-github-actions-resumed-review-and-pin-your-workflo-2026-09-25",
+    "title": "Malicious GitHub Actions resumed, review and pin your workflows",
+    "originalTitle": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
+    "summary": "Two compromised actions-cool GitHub Actions briefly came back and executed malware, so audit for those actions, pin to SHAs, restrict marketplace usage, and rotate any exposed secrets.",
+    "url": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-25T14:44:41.000Z",
+    "fetchedAt": "2026-09-25T17:08:04.985Z"
+  },
+  {
+    "slug": "new-pamstealer-for-macos-adds-stealthier-payloads-and-persis-2026-09-25",
+    "title": "New PamStealer for macOS adds stealthier payloads and persistence",
+    "originalTitle": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
+    "summary": "Jamf reports PamStealer now decrypts payloads via live C2 and layers persistence, so disable JXA where possible, hunt LaunchAgents and profiles, and update macOS EDR detections.",
+    "url": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-25T13:18:06.000Z",
+    "fetchedAt": "2026-09-25T17:08:04.985Z"
+  },
+  {
+    "slug": "microsoft-to-deprecate-windows-deployment-services-plan-your-2026-09-25",
+    "title": "Microsoft to deprecate Windows Deployment Services, plan your move",
+    "originalTitle": "Microsoft plans to deprecate Windows Deployment Services",
+    "summary": "Microsoft will deprecate WDS in the next Windows Server, so start migrating imaging to MDT, ConfigMgr, or Autopilot and assess PXE dependencies in your build process.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-09-25T12:40:59.000Z",
+    "fetchedAt": "2026-09-25T17:08:04.985Z"
+  },
+  {
+    "slug": "your-detection-dashboard-is-lying-validate-rules-with-real-t-2026-09-25",
+    "title": "Your detection dashboard is lying, validate rules with real tests",
+    "originalTitle": "Threat detection dashboards are masking security coverage gaps",
+    "summary": "Research across 14,652 rules found nearly half never trigger as intended, so run adversary emulations, verify telemetry prerequisites, and fix mis-mapped or disabled detections across tools.",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/threat-detections-coverage-gaps-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-25T12:04:03.000Z",
+    "fetchedAt": "2026-09-25T17:08:04.985Z"
+  },
+  {
+    "slug": "patch-now-sharepoint-and-mikrotik-flaws-added-to-cisa-kev-2026-09-25",
+    "title": "Patch now: SharePoint and MikroTik flaws added to CISA KEV",
+    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "summary": "CISA says attackers are exploiting Microsoft SharePoint code injection and MikroTik RouterOS workflow flaws, so patch immediately, limit device exposure, and follow KEV deadlines for remediation.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-25T12:00:00.000Z",
+    "fetchedAt": "2026-09-25T17:08:04.985Z"
+  },
+  {
     "slug": "recent-windows-updates-causing-desktop-issues-for-some-users-2026-09-25",
     "title": "Recent Windows updates causing desktop issues for some users",
     "originalTitle": "Microsoft: Recent Windows updates cause desktop loading issues",
@@ -3368,109 +3466,6 @@
     "altSources": [],
     "category": "threats",
     "publishedAt": "2026-09-11T17:26:50.000Z",
-    "fetchedAt": "2026-09-11T20:56:48.405Z"
-  },
-  {
-    "slug": "gitlab-file-read-bug-exploited-patch-immediately-2026-09-11",
-    "title": "GitLab file read bug exploited, patch immediately",
-    "originalTitle": "GitLab Vulnerability Exploited One Day After Disclosure",
-    "summary": "Patch GitLab instances now, a critical unauthenticated path traversal is being exploited to read arbitrary server files, update to fixed versions and limit internet exposure.",
-    "url": "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-11T16:11:08.000Z",
-    "fetchedAt": "2026-09-11T16:26:32.440Z"
-  },
-  {
-    "slug": "criminals-steal-and-resell-llm-api-access-with-automated-age-2026-09-11",
-    "title": "Criminals steal and resell LLM API access with automated agents",
-    "originalTitle": "The Self-Expanding Stolen Inference Supply Chain: An AI Agent Harvesting and Re-Serving LLM Access, (Fri, Sep 11th)",
-    "summary": "Inventory and restrict LLM API keys, SANS spotted a semi-autonomous agent harvesting misconfigured AI gateways and aggregating stolen inference capacity behind a single resale service.",
-    "url": "https://isc.sans.edu/diary/rss/33332",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-11T14:40:32.000Z",
-    "fetchedAt": "2026-09-11T16:26:32.440Z"
-  },
-  {
-    "slug": "attackers-weaponize-claude-artifacts-and-ai-chats-to-deliver-2026-09-11",
-    "title": "Attackers weaponize Claude Artifacts and AI chats to deliver malware",
-    "originalTitle": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
-    "summary": "Warn users not to trust shared AI artifacts or chats, Huntress found campaigns abusing AI platforms and sponsored search to push malware and ClickFix-style lures to AI users.",
-    "url": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-11T14:01:11.000Z",
-    "fetchedAt": "2026-09-11T16:26:32.440Z"
-  },
-  {
-    "slug": "anthropic-stops-russia-linked-hackers-using-claude-for-malwa-2026-09-11",
-    "title": "Anthropic stops Russia-linked hackers using Claude for malware ops",
-    "originalTitle": "Anthropic caught Russia-linked spies using Claude in hacking operations",
-    "summary": "Lock down AI tool access and logging, Anthropic disrupted a Russia-linked group abusing Claude to rebuild malware and automate parts of intrusion workflows across government targets.",
-    "url": "https://therecord.media/anthropic-russia-hackers-claude",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-11T12:45:00.000Z",
-    "fetchedAt": "2026-09-11T16:26:32.440Z"
-  },
-  {
-    "slug": "patch-now-artifactory-and-screenconnect-added-to-cisa-kev-2026-09-11",
-    "title": "Patch now: Artifactory and ScreenConnect added to CISA KEV",
-    "originalTitle": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-    "summary": "Patch JFrog Artifactory and ConnectWise ScreenConnect immediately, CISA says both are under active exploitation and pose serious risk to dev pipelines and remote support environments.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-11T12:00:00.000Z",
-    "fetchedAt": "2026-09-11T20:56:48.405Z"
-  },
-  {
-    "slug": "gitlab-cvss-10-file-read-flaw-hits-cisa-kev-block-probes-2026-09-11",
-    "title": "GitLab CVSS 10 file-read flaw hits CISA KEV, block probes",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Update GitLab CE and EE now, a critical unauthenticated path traversal is being probed in the wild and allows arbitrary file reads from the server.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-11T12:00:00.000Z",
     "fetchedAt": "2026-09-11T20:56:48.405Z"
   }
 ]
