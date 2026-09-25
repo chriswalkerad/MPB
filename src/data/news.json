@@ -3514,52 +3514,5 @@
     "category": "defense",
     "publishedAt": "2026-09-11T05:30:53.000Z",
     "fetchedAt": "2026-09-11T11:17:08.423Z"
-  },
-  {
-    "slug": "ai-in-salesforce-changes-what-you-must-govern-2026-09-11",
-    "title": "AI in Salesforce changes what you must govern",
-    "originalTitle": "AI is changing what Salesforce security needs to govern",
-    "summary": "Review Salesforce governance and data exposure, WithSecure warns AI features and integrations expand trust boundaries requiring stricter data classification, access and third party risk controls.",
-    "url": "https://www.helpnetsecurity.com/2026/09/11/withsecure-salesforce-ai-trust-governance-paper/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-11T04:30:42.000Z",
-    "fetchedAt": "2026-09-11T04:35:51.361Z"
-  },
-  {
-    "slug": "ubuntu-24-04-5-lts-ships-security-fixes-rebuild-images-and-u-2026-09-11",
-    "title": "Ubuntu 24.04.5 LTS ships security fixes, rebuild images and update",
-    "originalTitle": "Ubuntu 24.04.5 LTS release patches security bugs across ten flavors",
-    "summary": "Update Ubuntu 24.04 LTS systems and refresh install media, the 24.04.5 point release bundles high severity fixes across ten flavors to reduce post install risk.",
-    "url": "https://www.helpnetsecurity.com/2026/09/11/ubuntu-24-04-5-lts-released/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-11T04:07:41.000Z",
-    "fetchedAt": "2026-09-11T04:35:51.361Z"
-  },
-  {
-    "slug": "new-android-malware-mixes-ransomware-and-spyware-on-byod-pho-2026-09-10",
-    "title": "New Android malware mixes ransomware and spyware on BYOD phones",
-    "originalTitle": "New Android malware encrypts files, steals data, and harasses victims",
-    "summary": "Warn employees and clients to avoid sideloaded apps and audit MDM controls, Mantax Otax encrypts files, exfiltrates data and abuses permissions to harass victims on Android devices.",
-    "url": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-10T21:40:43.000Z",
-    "fetchedAt": "2026-09-11T04:35:51.361Z"
   }
 ]
