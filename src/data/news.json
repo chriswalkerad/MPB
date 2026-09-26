@@ -1,5 +1,33 @@
 [
   {
+    "slug": "attackers-bypass-wafs-to-exploit-oracle-peoplesoft-cve-2026-2026-09-26",
+    "title": "Attackers bypass WAFs to exploit Oracle PeopleSoft CVE-2026-35273",
+    "originalTitle": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+    "summary": "Patch PeopleSoft now and do not rely on WAF rules, attackers are bypassing mitigations using URL encoding to exploit CVE-2026-35273 at scale.",
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-26T19:03:34.000Z",
+    "fetchedAt": "2026-09-26T21:06:36.762Z"
+  },
+  {
+    "slug": "lunex-stealer-abuses-amd-driver-to-evade-edr-and-steal-creds-2026-09-26",
+    "title": "Lunex stealer abuses AMD driver to evade EDR and steal creds",
+    "originalTitle": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+    "summary": "Block vulnerable drivers and tighten browser credential storage, a new MaaS stealer uses a BYOVD AMD driver and fake Cloudflare pages to disable monitoring and exfiltrate logins.",
+    "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-26T18:22:52.000Z",
+    "fetchedAt": "2026-09-26T21:06:36.762Z"
+  },
+  {
     "slug": "microsoft-halts-kb5002907-after-office-2016-and-2019-deactiv-2026-09-26",
     "title": "Microsoft halts KB5002907 after Office 2016 and 2019 deactivations",
     "originalTitle": "Microsoft pauses KB5002907 update after Office license deactivations",
