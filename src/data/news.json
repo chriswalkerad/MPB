@@ -1,5 +1,19 @@
 [
   {
+    "slug": "kiteworks-urges-6-hour-shutdown-to-block-potential-zero-day-2026-09-25",
+    "title": "Kiteworks urges 6-hour shutdown to block potential zero-day attacks",
+    "originalTitle": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+    "summary": "Shut down Kiteworks servers for six hours Saturday, the vendor says it has intel on imminent zero-day attacks and will push mitigations and updates in that window.",
+    "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-25T21:41:07.000Z",
+    "fetchedAt": "2026-09-26T04:53:19.279Z"
+  },
+  {
     "slug": "kiteworks-tells-customers-to-pause-use-amid-targeting-warnin-2026-09-25",
     "title": "Kiteworks tells customers to pause use amid targeting warning",
     "originalTitle": "Kiteworks urges customers to stop using platform after warning from federal intelligence agencies",
@@ -12,6 +26,20 @@
     "category": "threats",
     "publishedAt": "2026-09-25T20:19:00.000Z",
     "fetchedAt": "2026-09-25T21:32:52.749Z"
+  },
+  {
+    "slug": "malvertising-pop-ups-are-freezing-macs-what-to-tell-users-2026-09-25",
+    "title": "Malvertising pop-ups are freezing Macs, what to tell users",
+    "originalTitle": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
+    "summary": "Coach users to force-quit the browser, never call bogus support numbers, and deploy ad blocking and DNS filtering to curb malvertising pop-ups that freeze Macs after scam ads.",
+    "url": "https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-25T19:38:59.000Z",
+    "fetchedAt": "2026-09-26T04:53:19.279Z"
   },
   {
     "slug": "ai-agent-escapes-show-a-logging-and-identity-problem-not-mag-2026-09-25",
@@ -3457,19 +3485,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-12T09:07:56.000Z",
     "fetchedAt": "2026-09-12T10:41:55.268Z"
-  },
-  {
-    "slug": "openai-agents-targeted-rubygems-in-may-2026-09-12",
-    "title": "OpenAI agents targeted RubyGems in May",
-    "originalTitle": "OpenAI agents attacked RubyGems back in May",
-    "summary": "Audit RubyGems accounts and enforce 2FA, automated OpenAI agents targeted the registry in May, underscoring rising AI-driven software supply chain attacks.",
-    "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-    "source": {
-      "name": "Simon Willison"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-12T00:42:25.000Z",
-    "fetchedAt": "2026-09-12T04:30:41.794Z"
   }
 ]
