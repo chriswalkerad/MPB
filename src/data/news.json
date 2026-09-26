@@ -1,5 +1,75 @@
 [
   {
+    "slug": "microsoft-halts-kb5002907-after-office-2016-and-2019-deactiv-2026-09-26",
+    "title": "Microsoft halts KB5002907 after Office 2016 and 2019 deactivations",
+    "originalTitle": "Microsoft pauses KB5002907 update after Office license deactivations",
+    "summary": "Pause deployment of KB5002907, check endpoints for deactivated or removed Office installs, re-activate affected licenses and wait for Microsoft's fixed release.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-09-26T15:50:38.000Z",
+    "fetchedAt": "2026-09-26T16:20:12.316Z"
+  },
+  {
+    "slug": "compromised-github-actions-re-enabled-still-malicious-2026-09-26",
+    "title": "Compromised GitHub Actions re-enabled, still malicious",
+    "originalTitle": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+    "summary": "Audit your GitHub workflows for unpinned or abandoned third-party Actions, pin to commit SHAs, remove unsafe Actions and rotate any credentials exposed during runs.",
+    "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-26T14:19:46.000Z",
+    "fetchedAt": "2026-09-26T16:20:12.316Z"
+  },
+  {
+    "slug": "openai-agents-leaked-user-images-to-third-party-hosts-2026-09-26",
+    "title": "OpenAI agents leaked user images to third-party hosts",
+    "originalTitle": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+    "summary": "Treat AI agents as untrusted integrations, disable or tightly restrict internet and file actions, avoid sending sensitive images, and review agent logs and data retention settings.",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-26T12:28:41.000Z",
+    "fetchedAt": "2026-09-26T16:20:12.316Z"
+  },
+  {
+    "slug": "new-x47-c-windows-botnet-uses-xai-grok-drains-ai-api-credits-2026-09-26",
+    "title": "New x47.c Windows botnet uses xAI Grok, drains AI API credits",
+    "originalTitle": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
+    "summary": "Expect malware to abuse LLM APIs for persistence and monetization, block suspicious AI API traffic, rotate exposed keys, and harden Windows endpoints with EDR and strict egress rules.",
+    "url": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-26T12:00:00.000Z",
+    "fetchedAt": "2026-09-26T16:20:12.316Z"
+  },
+  {
+    "slug": "oracle-peoplesoft-rce-bug-mass-exploited-wafs-bypassed-2026-09-26",
+    "title": "Oracle PeopleSoft RCE bug mass exploited, WAFs bypassed",
+    "originalTitle": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+    "summary": "Patch CVE-2026-35273 immediately, do not rely on WAF rules, restrict internet exposure, hunt for web shells, and apply Oracle mitigations and incident response if compromise is suspected.",
+    "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-26T11:46:40.000Z",
+    "fetchedAt": "2026-09-26T16:20:12.316Z"
+  },
+  {
     "slug": "openai-discloses-ai-agent-misbehavior-hitting-us-government-2026-09-26",
     "title": "OpenAI discloses AI agent misbehavior hitting US government sites",
     "originalTitle": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure",
@@ -3471,33 +3541,5 @@
     "category": "threats",
     "publishedAt": "2026-09-13T10:11:48.000Z",
     "fetchedAt": "2026-09-13T11:47:25.818Z"
-  },
-  {
-    "slug": "patch-now-cisa-adds-exploited-screenconnect-artifactory-rout-2026-09-12",
-    "title": "Patch now: CISA adds exploited ScreenConnect, Artifactory, RouterOS flaws to KEV",
-    "originalTitle": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-    "summary": "Actively exploited flaws in ConnectWise ScreenConnect, JFrog Artifactory, and MikroTik RouterOS are now on CISA's KEV, update now and hunt for compromise.",
-    "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-12T15:54:45.000Z",
-    "fetchedAt": "2026-09-12T20:31:30.404Z"
-  },
-  {
-    "slug": "patch-check-point-vpns-now-dutch-ncsc-warns-of-imminent-atta-2026-09-12",
-    "title": "Patch Check Point VPNs now, Dutch NCSC warns of imminent attacks",
-    "originalTitle": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
-    "summary": "Exploit attempts on CVE-2026-85102 and CVE-2026-85103 are expected shortly, update affected VPN appliances fast, restrict remote access, and check for unusual VPN logins.",
-    "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-12T14:14:32.000Z",
-    "fetchedAt": "2026-09-12T15:29:48.241Z"
   }
 ]
