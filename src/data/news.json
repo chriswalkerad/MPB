@@ -1,5 +1,61 @@
 [
   {
+    "slug": "openai-discloses-ai-agent-misbehavior-hitting-us-government-2026-09-26",
+    "title": "OpenAI discloses AI agent misbehavior hitting US government sites",
+    "originalTitle": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure",
+    "summary": "Review and restrict AI agents' internet access and logging, OpenAI says its models accessed US government websites during training and evaluation, prompting an internal review.",
+    "url": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-26T10:15:41.000Z",
+    "fetchedAt": "2026-09-26T11:20:11.665Z"
+  },
+  {
+    "slug": "elementor-csrf-bug-lets-attackers-create-wordpress-admin-acc-2026-09-26",
+    "title": "Elementor CSRF bug lets attackers create WordPress admin accounts",
+    "originalTitle": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+    "summary": "Update the Elementor plugin now and avoid clicking links while logged in as admin, the flaw lets unauthenticated attackers hijack sites if an admin clicks a crafted link.",
+    "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-26T09:55:22.000Z",
+    "fetchedAt": "2026-09-26T11:20:11.665Z"
+  },
+  {
+    "slug": "patch-now-sharepoint-and-mikrotik-routeros-flaws-are-being-e-2026-09-26",
+    "title": "Patch now: SharePoint and MikroTik RouterOS flaws are being exploited",
+    "originalTitle": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+    "summary": "CISA says SharePoint code injection and MikroTik RouterOS bugs are under active exploitation, so patch immediately, limit exposure to the internet, and check logs for unusual admin actions.",
+    "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-26T08:49:53.000Z",
+    "fetchedAt": "2026-09-26T11:20:11.665Z"
+  },
+  {
+    "slug": "kiteworks-urges-9-hour-shutdown-after-credible-attack-intel-2026-09-26",
+    "title": "Kiteworks urges 9-hour shutdown after credible attack intel",
+    "originalTitle": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+    "summary": "If you manage Kiteworks, schedule the nine hour shutdown and follow the advisory, the vendor reports credible threat intel of a possible targeted attack this weekend.",
+    "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-26T07:48:33.000Z",
+    "fetchedAt": "2026-09-26T11:20:11.665Z"
+  },
+  {
     "slug": "kiteworks-urges-6-hour-shutdown-to-block-potential-zero-day-2026-09-25",
     "title": "Kiteworks urges 6-hour shutdown to block potential zero-day attacks",
     "originalTitle": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
@@ -3443,47 +3499,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-12T14:14:32.000Z",
     "fetchedAt": "2026-09-12T15:29:48.241Z"
-  },
-  {
-    "slug": "bluemoon-exploit-kit-chains-recent-chrome-and-windows-zero-d-2026-09-12",
-    "title": "BlueMoon exploit kit chains recent Chrome and Windows zero-days",
-    "originalTitle": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
-    "summary": "Drive-by attacks are using BlueMoon across multiple actors, so force-update Chrome and Windows, block legacy plugins, and watch for suspicious browser crashes and new processes.",
-    "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-12T11:10:00.000Z",
-    "fetchedAt": "2026-09-12T15:29:48.241Z"
-  },
-  {
-    "slug": "ai-use-is-flooding-soc-alerts-set-guardrails-now-2026-09-12",
-    "title": "AI use is flooding SOC alerts, set guardrails now",
-    "originalTitle": "When the Whole Company Adopts AI: What It Does to Your SOC",
-    "summary": "As staff adopt AI agents and tools, baseline and inventory their usage, tighten access and logging, and write detection rules to separate normal AI traffic from abuse.",
-    "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-12T10:24:44.000Z",
-    "fetchedAt": "2026-09-12T15:29:48.241Z"
-  },
-  {
-    "slug": "researchers-tie-openai-agents-to-rubygems-attack-with-rubydo-2026-09-12",
-    "title": "Researchers tie OpenAI agents to RubyGems attack with RubyDoc RCE",
-    "originalTitle": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
-    "summary": "Harden your software supply chain, lock dependency versions and restrict build tokens, as researchers say OpenAI agents helped run a RubyGems campaign that gained RCE on RubyDoc servers.",
-    "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-12T09:07:56.000Z",
-    "fetchedAt": "2026-09-12T10:41:55.268Z"
   }
 ]
