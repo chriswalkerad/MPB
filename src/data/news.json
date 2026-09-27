@@ -56,6 +56,25 @@
     "fetchedAt": "2026-09-27T16:55:56.289Z"
   },
   {
+    "slug": "patch-citrix-netscaler-now-two-zero-days-exploited-in-the-wi-2026-09-27",
+    "title": "Patch Citrix NetScaler now, two zero-days exploited in the wild",
+    "originalTitle": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
+    "summary": "If you run Citrix NetScaler ADC or Gateway, patch immediately and hunt for compromise, CISA says CVE-2026-88771 and 88772 are actively exploited alongside six other newly disclosed flaws.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [
+      {
+        "name": "CISA Advisories",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-27T12:00:00.000Z",
+    "fetchedAt": "2026-09-27T21:18:45.884Z"
+  },
+  {
     "slug": "sharepoint-flaw-cve-2026-65660-exploited-patch-now-2026-09-27",
     "title": "SharePoint flaw CVE-2026-65660 exploited, patch now",
     "originalTitle": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
