@@ -1,5 +1,61 @@
 [
   {
+    "slug": "citrix-netscaler-zero-days-under-exploit-take-them-offline-2026-09-27",
+    "title": "Citrix NetScaler zero-days under exploit, take them offline",
+    "originalTitle": "Citrix admins warned to shut down NetScalers over 2 exploited zero-days",
+    "summary": "If you run NetScaler ADC or Gateway, restrict or shut down Internet access now, two unpatched zero-days are being exploited and fixes are due next week.",
+    "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-27T16:02:37.000Z",
+    "fetchedAt": "2026-09-27T16:55:56.289Z"
+  },
+  {
+    "slug": "update-wireshark-4-6-9-fixes-19-vulns-2026-09-27",
+    "title": "Update Wireshark: 4.6.9 fixes 19 vulns",
+    "originalTitle": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
+    "summary": "Patch Wireshark to 4.6.9 ASAP, it closes 19 vulnerabilities that could be triggered by malicious capture files and also squashes 16 bugs.",
+    "url": "https://isc.sans.edu/diary/rss/33372",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-27T15:04:49.000Z",
+    "fetchedAt": "2026-09-27T16:55:56.289Z"
+  },
+  {
+    "slug": "cloudflare-fixes-workers-container-data-leak-across-tenants-2026-09-27",
+    "title": "Cloudflare fixes Workers container data leak across tenants",
+    "originalTitle": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+    "summary": "Cloudflare resolved a cross-tenant isolation flaw in Workers Containers and Sandboxes, review logs, rotate secrets, and assess any data exposure if you had Workers Paid workloads.",
+    "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-27T14:13:31.000Z",
+    "fetchedAt": "2026-09-27T16:55:56.289Z"
+  },
+  {
+    "slug": "anthropic-launches-claude-marketplace-mind-the-plugin-attack-2026-09-27",
+    "title": "Anthropic launches Claude Marketplace, mind the plugin attack surface",
+    "originalTitle": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+    "summary": "Claude now has a plugin and connector marketplace, expect users to connect sensitive apps, enforce tenant controls, least-privilege OAuth scopes, and DLP for AI tools.",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-27T13:38:40.000Z",
+    "fetchedAt": "2026-09-27T16:55:56.289Z"
+  },
+  {
     "slug": "sharepoint-flaw-cve-2026-65660-exploited-patch-now-2026-09-27",
     "title": "SharePoint flaw CVE-2026-65660 exploited, patch now",
     "originalTitle": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
@@ -3569,19 +3625,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-14T04:00:14.000Z",
     "fetchedAt": "2026-09-14T04:51:15.009Z"
-  },
-  {
-    "slug": "actively-exploited-sogou-ime-flaw-lets-grayrabbit-backdoor-w-2026-09-13",
-    "title": "Actively exploited Sogou IME flaw lets GrayRabbit backdoor Windows",
-    "originalTitle": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
-    "summary": "Patch or remove Tencent's Sogou Input Method for Windows now, a critical CVE-2026-51990 is being exploited to drop GrayRabbit backdoors, and hunt for related persistence and C2 activity.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-13T14:26:32.000Z",
-    "fetchedAt": "2026-09-13T16:14:14.381Z"
   }
 ]
