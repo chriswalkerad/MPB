@@ -1,5 +1,71 @@
 [
   {
+    "slug": "2026-09-27",
+    "date": "2026-09-27",
+    "title": "Edge under attack: NetScaler zero days, SharePoint exploited",
+    "intro": "Edge devices and collaboration servers are catching heat today. Here is what to isolate, patch, and audit before the queue fills up.",
+    "items": [
+      {
+        "heading": "NetScaler zero days exploited, take gateways offline",
+        "body": "Two unpatched flaws in Citrix NetScaler ADC and Gateway are under active attack. With fixes expected next week, restrict or remove Internet exposure now, limit access to known IPs or a VPN, apply any vendor mitigations, and watch for unusual auth or config changes.",
+        "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "citrix-netscaler-zero-days-under-exploit-take-them-offline-2026-09-27"
+      },
+      {
+        "heading": "SharePoint CVE-2026-65660 is being exploited",
+        "body": "CISA added CVE-2026-65660 to KEV after confirmed in-the-wild use and set a rapid remediation deadline. Patch on-prem SharePoint immediately, prioritize anything internet facing, and review logs for suspicious uploads, permissions changes, or web shell indicators.",
+        "url": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "sharepoint-flaw-cve-2026-65660-exploited-patch-now-2026-09-27"
+      },
+      {
+        "heading": "PeopleSoft exploit bypasses WAF rules",
+        "body": "Attackers are using URL encoding tricks to bypass WAF mitigations and exploit CVE-2026-35273 at scale. Patch PeopleSoft now, do not rely on WAF rules alone, and hunt access logs for encoded paths or parameters hitting sensitive endpoints.",
+        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "attackers-bypass-wafs-to-exploit-oracle-peoplesoft-cve-2026-2026-09-26"
+      },
+      {
+        "heading": "Cloudflare Workers cross-tenant leak fixed",
+        "body": "Cloudflare resolved a cross-tenant isolation flaw affecting Workers Containers and Sandboxes. If you run Workers Paid workloads, review execution logs, rotate secrets and tokens, and assess any data exposure before re-enabling sensitive integrations.",
+        "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "cloudflare-fixes-workers-container-data-leak-across-tenants-2026-09-27"
+      },
+      {
+        "heading": "Wireshark 4.6.9 closes 19 vulnerabilities",
+        "body": "The latest Wireshark release patches 19 vulnerabilities, several triggered by malicious capture files, and fixes 16 bugs. Update to 4.6.9 and avoid opening untrusted pcaps on analyst workstations without containment.",
+        "url": "https://isc.sans.edu/diary/rss/33372",
+        "source": "SANS ISC",
+        "category": "vulnerabilities",
+        "storySlug": "update-wireshark-4-6-9-fixes-19-vulns-2026-09-27"
+      },
+      {
+        "heading": "Lunex stealer uses vulnerable AMD driver to kill EDR",
+        "body": "A new MaaS stealer abuses a vulnerable AMD driver to disable monitoring and uses fake Cloudflare pages to steal credentials. Block known vulnerable drivers, tighten browser credential storage policies, and coach users to spot phony Cloudflare checks.",
+        "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "lunex-stealer-abuses-amd-driver-to-evade-edr-and-steal-creds-2026-09-26"
+      },
+      {
+        "heading": "Claude Marketplace expands plugin attack surface",
+        "body": "Anthropic launched a plugin and connector marketplace for Claude, which means users will try to wire it into sensitive apps. Enforce tenant controls, least privilege OAuth scopes, and DLP for AI tools, and require approval and logging for any new connectors.",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "anthropic-launches-claude-marketplace-mind-the-plugin-attack-2026-09-27"
+      }
+    ],
+    "signOff": "Patch what you can, isolate what you cannot, and keep the edge quiet.",
+    "generatedAt": "2026-09-27T17:48:02.843Z"
+  },
+  {
     "slug": "2026-09-26",
     "date": "2026-09-26",
     "title": "Active exploits, busted update, and AI going off script",
@@ -2104,71 +2170,5 @@
     ],
     "signOff": "Back to the queue: patch, brief, repeat.",
     "generatedAt": "2026-08-29T17:13:25.419Z"
-  },
-  {
-    "slug": "2026-08-28",
-    "date": "2026-08-28",
-    "title": "Active PaperCut exploits, urgent patches, sneaky backdoors",
-    "intro": "Busy morning. One active exploit, several critical patches, and a reminder that some gear and models arrive with surprises baked in.",
-    "items": [
-      {
-        "heading": "PaperCut NG/MF zero-day is being exploited",
-        "body": "Attackers are actively hitting a new flaw in all PaperCut NG and MF versions. If you run PaperCut, isolate the server, install the emergency v25 or v26 patches, apply the vendor mitigations for older builds, and restrict admin access. Assume credentials and configs on that box are attractive targets and monitor for suspicious print server traffic.",
-        "url": "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "papercut-zero-day-under-active-attack-patch-ng-mf-now-2026-08-28"
-      },
-      {
-        "heading": "ServiceNow AI Platform ships max severity fixes",
-        "body": "ServiceNow patched code injection, SQL injection, and privilege escalation bugs that could let attackers pivot across your instance. Update immediately and review integrations, service accounts, and recent admin actions. Lock down who can reach AI Platform endpoints and watch for odd automation or data pulls post patch.",
-        "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "servicenow-fixes-three-max-severity-ai-platform-flaws-2026-08-28"
-      },
-      {
-        "heading": "cPanel multi tenant breakout to root",
-        "body": "A critical flaw in cPanel and WHM domain features allowed root level code execution on shared hosts. Patch now and audit tenant isolation wherever you co host customers. If you manage shared boxes, review sudoers, cron jobs, and cross tenant access to catch any abuse.",
-        "url": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "cpanel-bug-let-one-tenant-root-the-whole-server-patch-now-2026-08-28"
-      },
-      {
-        "heading": "Next.js fixes two unauth RCE flaws",
-        "body": "Next.js addressed critical bugs in AVIF parsing and a Windows path traversal that allow unauthenticated remote code execution. Upgrade to the latest release without delay. If you cannot patch today, limit public exposure, consider disabling AVIF handling, and tighten file handling on Windows deployments.",
-        "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "next-js-patches-two-critical-unauth-rce-bugs-update-fast-2026-08-27"
-      },
-      {
-        "heading": "White label ZBT routers contain backdoors",
-        "body": "Researchers found manufacturer implanted backdoors in widely sold rebadged ZBT router models. Identify and replace these units anywhere they lurk in client networks. Until swap out, block management from the WAN, segment them hard, and monitor outbound connections for surprises.",
-        "url": "https://www.darkreading.com/vulnerabilities-threats/chinese-routers-sold-worldwide-backdoors",
-        "source": "Dark Reading",
-        "category": "threats",
-        "storySlug": "popular-white-label-zbt-routers-ship-with-built-in-backdoors-2026-08-27"
-      },
-      {
-        "heading": "Airport breach fuels travel themed phishing",
-        "body": "Customer data was stolen from three UK airports, which is catnip for itinerary and refund lures. Brief users to be skeptical of travel notices, tighten mail filters for lookalike domains and QR scams, and flag anything asking for payment or passport info. If you support travelers, add conditional access checks from airport networks.",
-        "url": "https://www.helpnetsecurity.com/2026/08/28/manchester-airports-group-data-breach/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "manchester-airports-breach-expect-travel-themed-phishing-lur-2026-08-28"
-      },
-      {
-        "heading": "AI model labels are not a safety net",
-        "body": "Cisco warns that downstream models can inherit unsafe behavior from upstream sources, even if they carry origin labels. Treat AI models like any other supply chain component: demand lineage disclosures, scan for embedded weights and dependencies, and red team before release. Document model provenance in your risk register and gate deployments behind approvals.",
-        "url": "https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "ai-model-origin-labels-hide-risk-check-lineage-and-dependenc-2026-08-28"
-      }
-    ],
-    "signOff": "Patch the loud stuff first, then go find the quiet backdoors.",
-    "generatedAt": "2026-08-28T23:04:22.673Z"
   }
 ]
