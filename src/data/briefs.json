@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-28",
+    "date": "2026-09-28",
+    "title": "Patch sprint and AI guardrails",
+    "intro": "Active exploits, cloud creds getting burned, and AI agents needing leashes. Patch fast, lock down what is exposed, and make your automation auditable.",
+    "items": [
+      {
+        "heading": "NetScaler zero days under active attack",
+        "body": "Attackers are exploiting CVE-2026-88771 and CVE-2026-88772 to drop webshells on NetScaler ADC and Gateway. Patch immediately, audit appliances for any signs of compromise, and keep management interfaces locked down and off the internet where possible.",
+        "url": "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "citrix-netscaler-zero-days-exploited-patch-now-2026-09-28"
+      },
+      {
+        "heading": "ShinyHunters hitting Oracle PeopleSoft",
+        "body": "Google warns ShinyHunters updated their exploit for CVE-2026-35273 and are targeting exposed PeopleSoft systems for extortion. Apply the fix now, reduce external exposure, and watch for unusual access or data exfiltration attempts.",
+        "url": "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "shinyhunters-exploiting-oracle-peoplesoft-flaw-patch-fast-2026-09-28"
+      },
+      {
+        "heading": "Stolen Azure service principals used for destructive ops",
+        "body": "Attackers abused stolen service principal credentials to delete resources during an 18 hour incident. Audit and rotate service principals, enforce least privilege and Conditional Access, and alert on destructive operations like deletes and role changes.",
+        "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "attackers-used-stolen-azure-service-principals-to-delete-res-2026-09-28"
+      },
+      {
+        "heading": "Exposed Docker daemons conscripted into AI botnet",
+        "body": "The Carbonato botnet is hijacking open Docker APIs to deploy a Telegram controlled Hermes AI agent. Close Docker’s remote API, enable TLS and auth, and audit running containers to evict anything that does not belong.",
+        "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "botnet-hijacks-exposed-docker-to-run-telegram-controlled-ai-2026-09-28"
+      },
+      {
+        "heading": "Kiteworks urges shutdown for new flaw",
+        "body": "Kiteworks is advising customers to shut down affected servers and disable Advanced Forms while mitigations are applied. Follow the vendor guidance, monitor logs for anomalies, and bring systems back only after controls are in place.",
+        "url": "https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "kiteworks-tells-customers-to-shut-down-servers-over-new-flaw-2026-09-28"
+      },
+      {
+        "heading": "AI agent memory leaking secrets",
+        "body": "Researchers found agents stashing API keys and sensitive documents in plain text on endpoints and cloud storage. Review where agent memory is kept, turn it off or encrypt it by default, and scrub existing artifacts.",
+        "url": "https://www.helpnetsecurity.com/2026/09/28/chris-latimer-vectorize-agent-memory-security/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "check-your-ai-agent-memory-it-is-likely-leaking-secrets-2026-09-28"
+      },
+      {
+        "heading": "Nvidia rolls out AI agent watchdog",
+        "body": "Nvidia released an open platform and a hardware watchdog to limit what AI agents can access and do at the infrastructure layer. Expect client questions and plan how these controls fit into your existing policies and segmentation.",
+        "url": "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/",
+        "source": "SecurityWeek",
+        "category": "ai-security",
+        "storySlug": "nvidia-unveils-hardware-watchdog-to-keep-ai-agents-in-bounds-2026-09-28"
+      },
+      {
+        "heading": "AI agents need new governance",
+        "body": "Old playbooks do not cover autonomous actions at scale. Define accountability and guardrails before rollout, and ensure human oversight, change control, and logging make agent actions auditable and reversible.",
+        "url": "https://www.helpnetsecurity.com/2026/09/28/ai-agent-security-governance-aws-report/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "ai-agents-are-breaking-old-security-governance-playbooks-2026-09-28"
+      }
+    ],
+    "signOff": "Patch, verify, repeat. See you after the morning coffee.",
+    "generatedAt": "2026-09-28T20:08:45.777Z"
+  },
+  {
     "slug": "2026-09-27",
     "date": "2026-09-27",
     "title": "Edge under attack: NetScaler zero days, SharePoint exploited",
@@ -2120,55 +2194,5 @@
     ],
     "signOff": "Patch first, coffee second.",
     "generatedAt": "2026-08-30T17:32:56.349Z"
-  },
-  {
-    "slug": "2026-08-29",
-    "date": "2026-08-29",
-    "title": "Patch sprint: PaperCut under fire, ServiceNow and cPanel",
-    "intro": "Busy patch day. Active exploitation, platform root escapes, and AI model supply chain headaches, plus fresh phishing bait from a UK airport breach.",
-    "items": [
-      {
-        "heading": "PaperCut zero-day under active attack",
-        "body": "Attackers are exploiting a new flaw across all NG and MF versions. Install the emergency v25 and v26 patches now, apply the recommended mitigations on older builds, and lock down admin access to cut risk.",
-        "url": "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "papercut-zero-day-under-active-attack-patch-ng-mf-now-2026-08-28"
-      },
-      {
-        "heading": "ServiceNow AI Platform max severity flaws",
-        "body": "Three bugs in ServiceNow AI Platform allow code injection, SQL injection, and privilege escalation, which could let attackers pivot across your instance. Update immediately on any instance using these features to keep access from cascading.",
-        "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "servicenow-fixes-three-max-severity-ai-platform-flaws-2026-08-28"
-      },
-      {
-        "heading": "cPanel bug could root the whole server",
-        "body": "A critical issue in cPanel and WHM domain features lets a single tenant execute code as root on shared hosts. Patch without delay and audit tenant isolation on any co-hosted boxes you manage.",
-        "url": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "cpanel-bug-let-one-tenant-root-the-whole-server-patch-now-2026-08-28"
-      },
-      {
-        "heading": "AI model origin labels hide risk",
-        "body": "Cisco says downstream models inherit unsafe behaviors from their upstream sources. Require lineage disclosures from vendors, scan for embedded weights, and red-team models before you roll them to users.",
-        "url": "https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "ai-model-origin-labels-hide-risk-check-lineage-and-dependenc-2026-08-28"
-      },
-      {
-        "heading": "UK airports breach fuels travel phishing",
-        "body": "Attackers stole customer data from three Manchester Airports Group airports. Brief users to spot fake itinerary emails and tighten mail filters for lookalike domains and QR code scams.",
-        "url": "https://www.helpnetsecurity.com/2026/08/28/manchester-airports-group-data-breach/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "manchester-airports-breach-expect-travel-themed-phishing-lur-2026-08-28"
-      }
-    ],
-    "signOff": "Back to the queue: patch, brief, repeat.",
-    "generatedAt": "2026-08-29T17:13:25.419Z"
   }
 ]
