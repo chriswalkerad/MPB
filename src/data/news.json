@@ -1,5 +1,121 @@
 [
   {
+    "slug": "botnet-hijacks-exposed-docker-to-run-telegram-controlled-ai-2026-09-28",
+    "title": "Botnet hijacks exposed Docker to run Telegram-controlled AI agent",
+    "originalTitle": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+    "summary": "Lock down Docker by closing exposed APIs, enabling TLS and auth, and auditing running containers, a new Carbonato botnet is hijacking daemons to deploy a Telegram-controlled Hermes AI agent.",
+    "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-28T11:46:00.000Z",
+    "fetchedAt": "2026-09-28T13:48:21.710Z"
+  },
+  {
+    "slug": "shinyhunters-exploiting-oracle-peoplesoft-flaw-patch-fast-2026-09-28",
+    "title": "ShinyHunters exploiting Oracle PeopleSoft flaw, patch fast",
+    "originalTitle": "Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign",
+    "summary": "If you run Oracle PeopleSoft, apply the CVE-2026-35273 fix now, Google warns ShinyHunters updated their exploit and are actively targeting exposed systems for extortion.",
+    "url": "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-28T10:56:46.000Z",
+    "fetchedAt": "2026-09-28T13:48:21.710Z"
+  },
+  {
+    "slug": "nvidia-unveils-hardware-watchdog-to-keep-ai-agents-in-bounds-2026-09-28",
+    "title": "Nvidia unveils hardware watchdog to keep AI agents in bounds",
+    "originalTitle": "Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog",
+    "summary": "Expect client questions and plan guardrails for AI agents, Nvidia released an open platform and hardware watchdog to limit agent access and actions at the infrastructure level.",
+    "url": "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/28/nvidia-open-agent-safety-platform/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-28T10:27:01.000Z",
+    "fetchedAt": "2026-09-28T13:48:21.710Z"
+  },
+  {
+    "slug": "kiteworks-tells-customers-to-shut-down-servers-over-new-flaw-2026-09-28",
+    "title": "Kiteworks tells customers to shut down servers over new flaw",
+    "originalTitle": "Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability",
+    "summary": "Follow Kiteworks’ advisory to shut down affected servers and disable Advanced Forms, then apply mitigations and monitor logs, the vendor reports no compromises but is acting out of caution.",
+    "url": "https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-28T09:44:27.000Z",
+    "fetchedAt": "2026-09-28T13:48:21.710Z"
+  },
+  {
+    "slug": "attackers-used-stolen-azure-service-principals-to-delete-res-2026-09-28",
+    "title": "Attackers used stolen Azure service principals to delete resources",
+    "originalTitle": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+    "summary": "Audit and rotate Azure service principals, enforce least privilege and Conditional Access, and alert on destructive operations, attackers abused stolen credentials to delete resources in an 18-hour incident.",
+    "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-28T09:08:21.000Z",
+    "fetchedAt": "2026-09-28T13:48:21.710Z"
+  },
+  {
+    "slug": "citrix-netscaler-zero-days-exploited-patch-now-2026-09-28",
+    "title": "Citrix NetScaler zero-days exploited, patch now",
+    "originalTitle": "Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug",
+    "summary": "Patch NetScaler ADC and Gateway immediately, attackers are exploiting CVE-2026-88771 and CVE-2026-88772 to drop webshells, audit appliances for compromise and restrict management interfaces.",
+    "url": "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/28/citrix-netscaler-rce-zero-days-exploited-for-weeks-cve-2026-88771-cve-2026-88772/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-28T07:29:51.000Z",
+    "fetchedAt": "2026-09-28T13:48:21.710Z"
+  },
+  {
+    "slug": "check-your-ai-agent-memory-it-is-likely-leaking-secrets-2026-09-28",
+    "title": "Check your AI agent memory, it is likely leaking secrets",
+    "originalTitle": "If you do one security check this quarter, make it agent memory",
+    "summary": "Review where AI agents store memory and turn off or encrypt it by default, researchers found agents stashing API keys and sensitive documents in plain text on endpoints and cloud services.",
+    "url": "https://www.helpnetsecurity.com/2026/09/28/chris-latimer-vectorize-agent-memory-security/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-28T06:00:40.000Z",
+    "fetchedAt": "2026-09-28T13:48:21.710Z"
+  },
+  {
     "slug": "ai-agents-are-breaking-old-security-governance-playbooks-2026-09-28",
     "title": "AI agents are breaking old security governance playbooks",
     "originalTitle": "AI tests the limits of enterprise security governance",
@@ -3551,112 +3667,5 @@
     "category": "threats",
     "publishedAt": "2026-09-14T16:15:58.000Z",
     "fetchedAt": "2026-09-14T21:48:19.988Z"
-  },
-  {
-    "slug": "cisco-secure-email-gateway-sqli-added-to-cisa-kev-patch-now-2026-09-14",
-    "title": "Cisco Secure Email Gateway SQLi added to CISA KEV, patch now",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Patch Cisco Secure Email Gateway CVE-2026-76461 immediately, CISA says the SQL injection flaw is being exploited and poses significant risk to email gateways.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/14/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-14T12:00:00.000Z",
-    "fetchedAt": "2026-09-14T21:48:19.988Z"
-  },
-  {
-    "slug": "revolut-sent-customer-data-to-fraudsters-posing-as-governmen-2026-09-14",
-    "title": "Revolut sent customer data to fraudsters posing as government",
-    "originalTitle": "Revolut handed customer data to fraudsters using government email account",
-    "summary": "Review and tighten your law enforcement data request process, Revolut says it disclosed customer data to scammers using a legitimate government email account impersoninating an emergency request.",
-    "url": "https://therecord.media/revolut-scam-crypto-impersonation",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/14/revolut-data-breach-privacy/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-14T12:00:00.000Z",
-    "fetchedAt": "2026-09-14T12:40:50.254Z"
-  },
-  {
-    "slug": "telus-warns-of-account-breaches-using-stolen-credentials-2026-09-14",
-    "title": "Telus warns of account breaches using stolen credentials",
-    "originalTitle": "Telus Warns Customers of Account Breaches",
-    "summary": "Enable MFA and reset reused passwords, Telus says attackers used stolen credentials over several months to access customer data and billing records across multiple accounts.",
-    "url": "https://www.securityweek.com/telus-warns-customers-of-account-breaches/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-14T09:56:57.000Z",
-    "fetchedAt": "2026-09-14T12:40:50.254Z"
-  },
-  {
-    "slug": "september-windows-updates-break-remote-desktop-on-servers-2026-09-14",
-    "title": "September Windows updates break Remote Desktop on servers",
-    "originalTitle": "Microsoft: September updates cause RDS failures on Windows Server",
-    "summary": "Hold or roll back September Windows Server updates on affected hosts, Microsoft confirmed Remote Desktop Services failures after Patch Tuesday and is working on mitigations and a fix.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-14T09:50:25.000Z",
-    "fetchedAt": "2026-09-14T12:40:50.254Z"
-  },
-  {
-    "slug": "jfrog-artifactory-flaws-exploited-to-plant-backdoors-2026-09-14",
-    "title": "JFrog Artifactory flaws exploited to plant backdoors",
-    "originalTitle": "Three JFrog Artifactory Flaws Exploited for Backdoor Deployment",
-    "summary": "Patch Artifactory and audit admin users and tokens, attackers are exploiting three flaws to bypass authentication and escalate privileges then deploy persistent backdoors.",
-    "url": "https://www.securityweek.com/three-jfrog-artifactory-flaws-exploited-for-backdoor-deployment/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-14T09:27:29.000Z",
-    "fetchedAt": "2026-09-14T12:40:50.254Z"
-  },
-  {
-    "slug": "screenconnect-bug-exploited-in-worm-like-attacks-patch-now-2026-09-14",
-    "title": "ScreenConnect bug exploited in worm-like attacks, patch now",
-    "originalTitle": "ConnectWise Patches ScreenConnect Vulnerability Exploited in Worm-Like Attacks",
-    "summary": "Update ScreenConnect immediately, a new flaw lets attackers send and execute files without authorization via active sessions and is already being exploited in worm-like attacks.",
-    "url": "https://www.securityweek.com/connectwise-patches-screenconnect-vulnerability-exploited-in-worm-like-attacks/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-14T08:25:14.000Z",
-    "fetchedAt": "2026-09-14T12:40:50.254Z"
-  },
-  {
-    "slug": "cisa-critical-gitlab-flaw-now-exploited-patch-immediately-2026-09-14",
-    "title": "CISA: Critical GitLab flaw now exploited, patch immediately",
-    "originalTitle": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
-    "summary": "Upgrade GitLab to the fixed releases now, CISA says attackers are exploiting a maximum severity vulnerability for project takeover and has added it to the Known Exploited list.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-14T07:06:27.000Z",
-    "fetchedAt": "2026-09-14T12:40:50.254Z"
   }
 ]
