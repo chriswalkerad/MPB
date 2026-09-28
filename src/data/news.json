@@ -1,5 +1,132 @@
 [
   {
+    "slug": "apple-ships-emergency-fix-for-exploited-coregraphics-bug-on-2026-09-28",
+    "title": "Apple ships emergency fix for exploited CoreGraphics bug on older OS",
+    "originalTitle": "Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)",
+    "summary": "Update older Apple devices today, CVE-2026-86950 in CoreGraphics is under active exploit and fixed in emergency releases for iOS 26, macOS 26 and macOS 15.",
+    "url": "https://isc.sans.edu/diary/rss/33376",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-28T22:35:35.000Z",
+    "fetchedAt": "2026-09-28T23:14:48.188Z"
+  },
+  {
+    "slug": "carbonato-botnet-plants-ai-agent-on-hacked-docker-hosts-2026-09-28",
+    "title": "Carbonato botnet plants AI agent on hacked Docker hosts",
+    "originalTitle": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
+    "summary": "Harden and monitor Docker hosts, Carbonato compromises exposed daemons, deploys an AI agent via Hermes and Telegram, and exfiltrates cloud AI API keys.",
+    "url": "https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-28T20:23:58.000Z",
+    "fetchedAt": "2026-09-28T23:14:48.188Z"
+  },
+  {
+    "slug": "shinyhunters-abusing-oracle-peoplesoft-bug-patch-and-lock-do-2026-09-28",
+    "title": "ShinyHunters abusing Oracle PeopleSoft bug, patch and lock down",
+    "originalTitle": "ShinyHunters exploiting workarounds for Oracle PeopleSoft bug, Mandiant warns",
+    "summary": "If you run Oracle PeopleSoft, apply fixes and disable risky workarounds, ShinyHunters are abusing a bug to breach portals like the FBI jobs site.",
+    "url": "https://therecord.media/shinyhunters-cyberattacks-oracle-mandiant",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/28/fbi-job-portals-offline-shinyhunters-breach/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-28T19:30:00.000Z",
+    "fetchedAt": "2026-09-28T23:14:48.188Z"
+  },
+  {
+    "slug": "16-000-supabase-databases-left-open-audit-rls-and-policies-2026-09-28",
+    "title": "16,000 Supabase databases left open, audit RLS and policies",
+    "originalTitle": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
+    "summary": "Review Supabase RLS and storage policies now, researchers found 16,000 instances exposing readable PII, passwords and tokens due to misconfiguration.",
+    "url": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-28T18:50:59.000Z",
+    "fetchedAt": "2026-09-28T23:14:48.188Z"
+  },
+  {
+    "slug": "chrome-poper-blocker-extension-caught-spying-on-millions-rem-2026-09-28",
+    "title": "Chrome Poper Blocker extension caught spying on millions, remove it",
+    "originalTitle": "Chrome Store Hosts 'Poper Blocker' Spyware Downloaded by Millions",
+    "summary": "Audit managed Chrome extensions and remove Poper Blocker, researchers say it exfiltrates browsing and device data despite millions of installs from the Chrome Web Store.",
+    "url": "https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-28T16:51:25.000Z",
+    "fetchedAt": "2026-09-28T23:14:48.188Z"
+  },
+  {
+    "slug": "patch-netscaler-now-us-and-uk-warn-of-exploited-zero-day-bug-2026-09-28",
+    "title": "Patch NetScaler now, US and UK warn of exploited zero-day bugs",
+    "originalTitle": "US, UK warn of exploited Citrix NetScaler zero-day bugs",
+    "summary": "Update Citrix NetScaler Gateway and ADC immediately, governments say new vulnerabilities are being exploited in the wild, then review configs and hunt for compromise indicators.",
+    "url": "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-28T16:19:00.000Z",
+    "fetchedAt": "2026-09-28T23:14:48.188Z"
+  },
+  {
+    "slug": "ai-agent-attacks-trash-azure-tenants-in-jadepuffer-campaign-2026-09-28",
+    "title": "AI agent attacks trash Azure tenants in JadePuffer campaign",
+    "originalTitle": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+    "summary": "Lock down Azure tenants and service principals, JadePuffer uses autonomous agents to steal credentials, pivot across resources and delete storage, apps and databases.",
+    "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-28T15:49:27.000Z",
+    "fetchedAt": "2026-09-28T23:14:48.188Z"
+  },
+  {
+    "slug": "stolen-ai-logins-expose-80-000-orgs-rotate-keys-and-sessions-2026-09-28",
+    "title": "Stolen AI logins expose 80,000 orgs, rotate keys and sessions",
+    "originalTitle": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
+    "summary": "Force reset and rotate AI service credentials, stealer logs contain AI account sessions tied to over 80,000 corporate domains enabling conversation theft and LLMjacking.",
+    "url": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-28T14:00:10.000Z",
+    "fetchedAt": "2026-09-28T23:14:48.188Z"
+  },
+  {
     "slug": "botnet-hijacks-exposed-docker-to-run-telegram-controlled-ai-2026-09-28",
     "title": "Botnet hijacks exposed Docker to run Telegram-controlled AI agent",
     "originalTitle": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
@@ -3569,103 +3696,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-15T00:47:06.000Z",
     "fetchedAt": "2026-09-15T04:50:53.425Z"
-  },
-  {
-    "slug": "sandworm-chains-cisco-bugs-to-push-new-cyclops-blink-2026-09-14",
-    "title": "Sandworm chains Cisco bugs to push new Cyclops Blink",
-    "originalTitle": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
-    "summary": "Patch Cisco routers and switches now, Sandworm is chaining vulnerabilities to push an upgraded Cyclops Blink, so disable internet-facing management and monitor for anomalous processes and outbound traffic.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-14T21:37:28.000Z",
-    "fetchedAt": "2026-09-15T04:50:53.425Z"
-  },
-  {
-    "slug": "microsoft-issues-out-of-band-fix-for-broken-remote-desktop-s-2026-09-14",
-    "title": "Microsoft issues out-of-band fix for broken Remote Desktop Services",
-    "originalTitle": "Microsoft releases emergency Windows updates to fix RDS failures",
-    "summary": "Install Microsoft's emergency updates to restore Remote Desktop Services and address Hyper-V and USB audio issues introduced by this month’s patches, test on rings before broad deployment.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-14T20:52:18.000Z",
-    "fetchedAt": "2026-09-14T21:48:19.988Z"
-  },
-  {
-    "slug": "critical-gitlab-cve-2026-85706-cvss-10-path-traversal-patch-2026-09-14",
-    "title": "Critical GitLab CVE-2026-85706, CVSS 10 path traversal, patch now",
-    "originalTitle": "Maximum Severity GitLab Flaw Puts Supply Chains at Risk",
-    "summary": "Update GitLab CE and EE immediately, a maximum severity path traversal bug enables file reads and supply chain compromise on self-hosted instances.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-14T20:19:22.000Z",
-    "fetchedAt": "2026-09-14T21:48:19.988Z"
-  },
-  {
-    "slug": "apple-ships-massive-updates-261-security-fixes-across-ios-an-2026-09-14",
-    "title": "Apple ships massive updates, 261 security fixes across iOS and macOS",
-    "originalTitle": "Apple Updates Everything, (Mon, Sep 14th)",
-    "summary": "Deploy the latest Apple updates for iOS, iPadOS, macOS, watchOS and tvOS quickly, they include 261 security patches including multiple critical bugs and WebKit fixes.",
-    "url": "https://isc.sans.edu/diary/rss/33336",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-14T18:33:44.000Z",
-    "fetchedAt": "2026-09-14T21:48:19.988Z"
-  },
-  {
-    "slug": "isp-breach-used-meshcentral-backdoor-for-persistent-admin-ac-2026-09-14",
-    "title": "ISP breach used MeshCentral backdoor for persistent admin access",
-    "originalTitle": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
-    "summary": "Audit and secure your remote management tools, attackers in 3BB’s network abused MeshCentral to maintain root access and target subscriber credentials via legitimate admin channels.",
-    "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-14T18:01:49.000Z",
-    "fetchedAt": "2026-09-14T21:48:19.988Z"
-  },
-  {
-    "slug": "gitea-rce-exploited-fast-red-heron-breached-13-orgs-across-s-2026-09-14",
-    "title": "Gitea RCE exploited fast, Red Heron breached 13 orgs across six countries",
-    "originalTitle": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
-    "summary": "Patch or isolate Gitea instances now, a recently disclosed RCE is being mass scanned and used to take over internet-facing repositories and developer infrastructure.",
-    "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-14T16:56:30.000Z",
-    "fetchedAt": "2026-09-14T21:48:19.988Z"
-  },
-  {
-    "slug": "attackers-scan-vite-dev-servers-to-steal-aws-and-azure-secre-2026-09-14",
-    "title": "Attackers scan Vite dev servers to steal AWS and Azure secrets",
-    "originalTitle": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
-    "summary": "Lock down or remove internet-exposed Vite dev servers, attackers are mass scraping configs and environment variables to harvest cloud credentials and pivot into production.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-14T16:15:58.000Z",
-    "fetchedAt": "2026-09-14T21:48:19.988Z"
   }
 ]
