@@ -1,5 +1,47 @@
 [
   {
+    "slug": "ai-agents-are-breaking-old-security-governance-playbooks-2026-09-28",
+    "title": "AI agents are breaking old security governance playbooks",
+    "originalTitle": "AI tests the limits of enterprise security governance",
+    "summary": "Define accountability and guardrails before scaling AI agents, set human oversight, change controls, and logging so automated actions are auditable, reversible, and compliant.",
+    "url": "https://www.helpnetsecurity.com/2026/09/28/ai-agent-security-governance-aws-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-28T05:00:48.000Z",
+    "fetchedAt": "2026-09-28T05:19:00.586Z"
+  },
+  {
+    "slug": "ios-app-verdict-offers-on-device-ai-deepfake-checks-2026-09-28",
+    "title": "iOS app 'Verdict' offers on-device AI deepfake checks",
+    "originalTitle": "Product showcase: A photo can fool your eyes, Verdict checks the evidence",
+    "summary": "Add offline image and video checks to verification workflows, but treat scores as hints, keep callbacks and multi-factor verification for payments, vendor changes, and HR requests.",
+    "url": "https://www.helpnetsecurity.com/2026/09/28/product-showcase-verdict/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-28T04:30:42.000Z",
+    "fetchedAt": "2026-09-28T05:19:00.586Z"
+  },
+  {
+    "slug": "openai-testing-always-on-chatgpt-assistant-o-that-could-read-2026-09-27",
+    "title": "OpenAI testing always-on ChatGPT assistant 'o' that could read email",
+    "originalTitle": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
+    "summary": "Lock down org settings and user policies before staff try 'o', an always-on assistant that may access email and files, review data retention, admin controls, and tenant restrictions.",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-27T23:40:39.000Z",
+    "fetchedAt": "2026-09-28T05:19:00.586Z"
+  },
+  {
     "slug": "citrix-netscaler-zero-days-under-exploit-take-them-offline-2026-09-27",
     "title": "Citrix NetScaler zero-days under exploit, take them offline",
     "originalTitle": "Citrix admins warned to shut down NetScalers over 2 exploited zero-days",
@@ -3616,33 +3658,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-14T07:06:27.000Z",
     "fetchedAt": "2026-09-14T12:40:50.254Z"
-  },
-  {
-    "slug": "shorter-tls-cert-lifetimes-mean-automate-renewals-now-2026-09-14",
-    "title": "Shorter TLS cert lifetimes mean automate renewals now",
-    "originalTitle": "Certificate failures can cost firms over $250,000",
-    "summary": "Automate TLS certificate issuance, renewal, and inventory, shorter lifetimes will multiply renewals over the next few years and outages are expensive and avoidable.",
-    "url": "https://www.helpnetsecurity.com/2026/09/14/digicert-certificate-management-automation-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-14T04:30:38.000Z",
-    "fetchedAt": "2026-09-14T04:51:15.009Z"
-  },
-  {
-    "slug": "aws-benchmark-shows-ai-vuln-scanners-overflag-code-2026-09-14",
-    "title": "AWS benchmark shows AI vuln scanners overflag code",
-    "originalTitle": "AWS puts AI vulnerability detection to the test, and false positives pile up",
-    "summary": "Validate any AI code security tool against AWS's Deception Benchmark, current models mislabel safe patterns as vulnerabilities and can waste triage time.",
-    "url": "https://www.helpnetsecurity.com/2026/09/14/aws-deception-benchmark-security-vulnerabilities/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-14T04:00:14.000Z",
-    "fetchedAt": "2026-09-14T04:51:15.009Z"
   }
 ]
