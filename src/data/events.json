@@ -21820,5 +21820,23 @@
     "url": "https://www.secureworld.io/events",
     "source": "SecureWorld",
     "description": "SecureWorld brings its regional conference to the Twin Cities with practitioner-led keynotes, panels, and breakouts. Expect solid content, local networking, and CPEs without the fluff."
+  },
+  {
+    "name": "The Illusion of Oversight - GenAI Decision Security and Moral Crumple Zone",
+    "slug": "the-illusion-of-oversight-genai-decision-security-and-moral-2026",
+    "date": "2026-10-15T12:00:00",
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Atlanta",
+    "state": "GA",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "AI & Machine Learning",
+      "Security Awareness"
+    ],
+    "url": "https://www.meetup.com/owasp-atlanta/events/316689246/",
+    "source": "OWASP Atlanta (Meetup)",
+    "description": "OWASP Atlanta hosts a straight talk on human-in-the-loop GenAI decisions, from SOC triage to KYC. Come for a pragmatic look at oversight theater and how to make controls actually work."
   }
 ]
