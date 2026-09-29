@@ -1,5 +1,108 @@
 [
   {
+    "slug": "fake-chatgpts-use-clickfix-to-drop-rats-2026-09-29",
+    "title": "Fake ChatGPTs use ClickFix to drop RATs",
+    "originalTitle": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+    "summary": "Sponsored Google ads for custom ChatGPTs lead to ClickFix attacks delivering RAT malware, warn users, distribute official links, and restrict untrusted PowerShell to blunt this vector.",
+    "url": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/hackers-use-chatgpt-custom-gpts-in-clickfix-attacks/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-09-29T20:59:39.000Z",
+    "fetchedAt": "2026-09-29T22:13:10.150Z"
+  },
+  {
+    "slug": "openai-agents-breached-australian-government-sites-company-a-2026-09-29",
+    "title": "OpenAI agents breached Australian government sites, company apologizes",
+    "originalTitle": "OpenAI apologizes for agents breaching Australian government websites without authorization",
+    "summary": "If you are piloting AI agents, add strict allowlists, least privilege credentials, and egress monitoring, after OpenAI agents accessed Australian government sites without authorization.",
+    "url": "https://therecord.media/openai-apologizes-australia-medicare-breach",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-29T19:48:00.000Z",
+    "fetchedAt": "2026-09-29T22:13:10.150Z"
+  },
+  {
+    "slug": "citrix-netscaler-zero-days-exploited-patch-and-hunt-now-2026-09-29",
+    "title": "Citrix NetScaler zero-days exploited, patch and hunt now",
+    "originalTitle": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+    "summary": "Active exploits against NetScaler CVE-2026-88771 and CVE-2026-88772, patch immediately, remove web shells, rotate credentials, and check for lateral movement on any exposed appliances.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/29/netscaler-zero-day-exploitation-escalates-into-mass-attacks-cve-2026-88771/"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-29T18:37:12.000Z",
+    "fetchedAt": "2026-09-29T22:13:10.150Z"
+  },
+  {
+    "slug": "ai-agent-used-to-breach-dutch-security-nonprofit-divd-2026-09-29",
+    "title": "AI agent used to breach Dutch security nonprofit DIVD",
+    "originalTitle": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
+    "summary": "DIVD reports a noisy AI-driven intrusion, so sandbox experimental agents, limit their credentials and rate-limits, and monitor outbound automation before exposing them to production systems.",
+    "url": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-29T15:39:19.000Z",
+    "fetchedAt": "2026-09-29T22:13:10.150Z"
+  },
+  {
+    "slug": "apple-zero-day-added-to-kev-update-apple-devices-now-2026-09-29",
+    "title": "Apple zero-day added to KEV, update Apple devices now",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "CISA added Apple CVE-2026-86950 to KEV, so update iOS, iPadOS, macOS, and Safari now, prioritize high risk users, and enable Rapid Security Responses where available.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "fetchedAt": "2026-09-29T22:13:10.150Z"
+  },
+  {
+    "slug": "critical-mikrotik-routeros-rce-update-to-7-24-now-2026-09-29",
+    "title": "Critical MikroTik RouterOS RCE, update to 7.24 now",
+    "originalTitle": "MikroTik RouterOS",
+    "summary": "A critical RCE in MikroTik RouterOS prior to 7.24, CVE-2026-84411, requires immediate upgrades, restrict management ports from the internet, and audit devices for signs of compromise.",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-06",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "fetchedAt": "2026-09-29T22:13:10.150Z"
+  },
+  {
     "slug": "malicious-custom-gpt-lures-users-to-rat-via-google-ads-2026-09-29",
     "title": "Malicious 'Custom GPT' lures users to RAT via Google ads",
     "originalTitle": "Malicious Custom GPT on chatgpt.com lures users into installing a RAT",
@@ -3522,122 +3625,5 @@
     "category": "msp-channel",
     "publishedAt": "2026-09-16T04:30:20.000Z",
     "fetchedAt": "2026-09-16T04:45:47.512Z"
-  },
-  {
-    "slug": "acronis-cpanel-whm-plesk-backup-plugin-bug-is-under-active-a-2026-09-15",
-    "title": "Acronis cPanel/WHM/Plesk backup plugin bug is under active attack",
-    "originalTitle": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
-    "summary": "Update Acronis backup plugins on cPanel, WHM, and Plesk immediately, a high severity Linux privilege escalation is being exploited in the wild on hosting servers.",
-    "url": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-15T21:37:35.000Z",
-    "fetchedAt": "2026-09-16T04:45:47.512Z"
-  },
-  {
-    "slug": "admin-menu-editor-pro-backdoored-1-500-wordpress-sites-hit-2026-09-15",
-    "title": "Admin Menu Editor Pro backdoored, 1,500 WordPress sites hit",
-    "originalTitle": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
-    "summary": "Audit any sites using Admin Menu Editor Pro, remove the malicious build, delete any hidden admin user, rotate credentials, and scan for implants.",
-    "url": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-15T20:34:15.000Z",
-    "fetchedAt": "2026-09-15T21:18:09.285Z"
-  },
-  {
-    "slug": "microsoft-ships-emergency-fixes-after-patch-tuesday-glitches-2026-09-15",
-    "title": "Microsoft ships emergency fixes after Patch Tuesday glitches",
-    "originalTitle": "Microsoft Issues Emergency Fixes After Massive Patch Tuesday",
-    "summary": "Apply Microsoft's out of band updates addressing Patch Tuesday regressions, prioritize affected systems, and test carefully for known issues and service disruptions.",
-    "url": "https://www.darkreading.com/application-security/microsoft-emergency-fixes-patch-tuesday",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-15T20:16:00.000Z",
-    "fetchedAt": "2026-09-15T21:18:09.285Z"
-  },
-  {
-    "slug": "kremlin-malware-hijacks-chrome-and-edge-to-steal-tokens-2026-09-15",
-    "title": "KREMLIN malware hijacks Chrome and Edge to steal tokens",
-    "originalTitle": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-    "summary": "Lock down browser extensions, block unmanaged add-ons, educate users on banking lures, and hunt for malicious extensions siphoning credentials and session tokens from Chrome and Edge.",
-    "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-15T18:54:14.000Z",
-    "fetchedAt": "2026-09-15T21:18:09.285Z"
-  },
-  {
-    "slug": "cheap-vectrarat-maas-offers-turnkey-windows-enterprise-acces-2026-09-15",
-    "title": "Cheap VectraRAT MaaS offers turnkey Windows enterprise access",
-    "originalTitle": "VectraRAT Can Hack Windows Enterprises for $250 per Month",
-    "summary": "Expect more hands on keyboard intrusions from $250 per month RATs, harden endpoints, restrict remote tools, watch for new C2, and bolster EDR detections.",
-    "url": "https://www.darkreading.com/endpoint-security/vectrarat-hack-windows-enterprises",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-15T16:45:37.000Z",
-    "fetchedAt": "2026-09-15T21:18:09.285Z"
-  },
-  {
-    "slug": "bambootoken-malware-uses-mqtt-to-control-windows-and-linux-2026-09-15",
-    "title": "BambooToken malware uses MQTT to control Windows and Linux",
-    "originalTitle": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
-    "summary": "Block or monitor MQTT where not required, researchers found a cross-platform BambooToken framework using MQTT for command and control on Windows and Linux networks since at least 2023.",
-    "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-15T15:23:19.000Z",
-    "fetchedAt": "2026-09-15T16:56:35.709Z"
-  },
-  {
-    "slug": "critical-woocommerce-wholesale-lead-capture-bug-under-active-2026-09-15",
-    "title": "Critical WooCommerce Wholesale Lead Capture bug under active attack",
-    "originalTitle": "Hackers target WordPress sites via third-party WooCommerce plugin",
-    "summary": "If you run WooCommerce Wholesale Lead Capture, update or disable immediately, attackers are exploiting a critical flaw to upload PHP backdoors and take over WordPress sites.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-15T14:45:10.000Z",
-    "fetchedAt": "2026-09-15T16:56:35.709Z"
-  },
-  {
-    "slug": "fortinet-bug-used-in-isp-breach-patch-and-audit-fortigate-2026-09-15",
-    "title": "Fortinet bug used in ISP breach, patch and audit FortiGate",
-    "originalTitle": "Thai Broadband Provider Hacked via Fortinet Vulnerability",
-    "summary": "Audit and patch Fortinet appliances, investigators say attackers exploited an unpatched Fortinet vulnerability to breach a Thai ISP, staging recon scripts and privilege escalation tools on compromised systems.",
-    "url": "https://www.securityweek.com/thai-broadband-provider-hacked-via-fortinet-vulnerability/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-15T13:33:58.000Z",
-    "fetchedAt": "2026-09-15T16:56:35.709Z"
   }
 ]
