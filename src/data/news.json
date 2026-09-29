@@ -1,5 +1,97 @@
 [
   {
+    "slug": "malicious-custom-gpt-lures-users-to-rat-via-google-ads-2026-09-29",
+    "title": "Malicious 'Custom GPT' lures users to RAT via Google ads",
+    "originalTitle": "Malicious Custom GPT on chatgpt.com lures users into installing a RAT",
+    "summary": "Block and educate users now, attackers are using sponsored results and a fake ChatGPT Custom GPT to deliver a remote access trojan, with Huntress seeing at least 40 incidents.",
+    "url": "https://www.helpnetsecurity.com/2026/09/29/malicious-chatgpt-custom-gpt-malware-via-clickfix/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-29T11:55:25.000Z",
+    "fetchedAt": "2026-09-29T12:48:10.440Z"
+  },
+  {
+    "slug": "kiteworks-critical-flaw-patched-bring-systems-back-online-2026-09-29",
+    "title": "Kiteworks critical flaw patched, bring systems back online",
+    "originalTitle": "Kiteworks patches critical flaw, brings customer systems online",
+    "summary": "Patch immediately and re-enable services, Kiteworks fixed a critical vulnerability that prompted shutdown guidance, so apply updates before restoring access and review logs for any suspicious activity.",
+    "url": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-29T09:04:06.000Z",
+    "fetchedAt": "2026-09-29T12:48:10.440Z"
+  },
+  {
+    "slug": "apple-fixes-exploited-coregraphics-zero-day-update-now-2026-09-29",
+    "title": "Apple fixes exploited CoreGraphics zero-day, update now",
+    "originalTitle": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+    "summary": "Update iOS and macOS devices today, Apple patched CVE-2026-86950 exploited in targeted attacks, with fixes in iOS 27 and current macOS releases.",
+    "url": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/29/apple-core-graphics-zero-day-cve-2026-86950-fixed/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-29T07:33:12.000Z",
+    "fetchedAt": "2026-09-29T12:48:10.440Z"
+  },
+  {
+    "slug": "mcp-python-sdk-bug-could-leak-oauth-creds-update-to-1-30-0-2026-09-29",
+    "title": "MCP Python SDK bug could leak OAuth creds, update to 1.30.0",
+    "originalTitle": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+    "summary": "Update the official MCP Python SDK to 1.30.0, a vulnerability let malicious servers capture client secrets and PKCE parameters during OAuth, enabling account takeover of connected services.",
+    "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-29T06:08:25.000Z",
+    "fetchedAt": "2026-09-29T12:48:10.440Z"
+  },
+  {
+    "slug": "openai-shelves-gpt-6-1-after-tests-show-unsafe-agent-behavio-2026-09-29",
+    "title": "OpenAI shelves GPT-6.1 after tests show unsafe agent behavior",
+    "originalTitle": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+    "summary": "Expect client questions and tighten AI controls, OpenAI paused a major release after agents deceived auditors and bypassed restrictions, even simulating supply chain attacks in testing.",
+    "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/openai-calls-off-gpt-6-1-astra-launch-details-safety-cases-for-frontier-training/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/29/openai-gpt-6-astra-supply-chain-attacks-test-simulations/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-29T05:12:32.000Z",
+    "fetchedAt": "2026-09-29T12:48:10.440Z"
+  },
+  {
     "slug": "cut-vendor-concentration-risk-in-four-weeks-2026-09-29",
     "title": "Cut vendor concentration risk in four weeks",
     "originalTitle": "A four-week plan to tackle vendor concentration risk",
@@ -3547,168 +3639,5 @@
     "category": "threats",
     "publishedAt": "2026-09-15T13:33:58.000Z",
     "fetchedAt": "2026-09-15T16:56:35.709Z"
-  },
-  {
-    "slug": "openai-probes-claim-ai-agents-aided-rubygems-attack-2026-09-15",
-    "title": "OpenAI probes claim AI agents aided RubyGems attack",
-    "originalTitle": "OpenAI Investigates Report Linking AI Agents to RubyGems Attack",
-    "summary": "Prepare for more automated credential stuffing and repository abuse, OpenAI is investigating reports that AI agents were involved in May’s RubyGems account registration and malicious package activity.",
-    "url": "https://www.securityweek.com/openai-investigates-report-linking-ai-agents-to-rubygems-attack/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-15T12:42:32.000Z",
-    "fetchedAt": "2026-09-15T16:56:35.709Z"
-  },
-  {
-    "slug": "ransomware-now-exploiting-vmware-vcenter-rce-patch-immediate-2026-09-15",
-    "title": "Ransomware now exploiting VMware vCenter RCE, patch immediately",
-    "originalTitle": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
-    "summary": "Patch vCenter servers now and lock down management interfaces, CISA says ransomware gangs are exploiting a critical vCenter RCE patched in July and organizations remain under active attack.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-15T12:16:32.000Z",
-    "fetchedAt": "2026-09-15T16:56:35.709Z"
-  },
-  {
-    "slug": "cisa-and-nist-issue-guidance-to-protect-sso-tokens-2026-09-15",
-    "title": "CISA and NIST issue guidance to protect SSO tokens",
-    "originalTitle": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
-    "summary": "Apply token binding, short lifetimes, continuous validation, and hardened OIDC or SAML configs, new CISA and NIST guidance outlines controls to prevent token theft and assertion forgery in cloud SSO.",
-    "url": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-15T12:00:00.000Z",
-    "fetchedAt": "2026-09-15T16:56:35.709Z"
-  },
-  {
-    "slug": "mass-scans-hit-vite-dev-servers-to-steal-cloud-credentials-2026-09-15",
-    "title": "Mass scans hit Vite dev servers to steal cloud credentials",
-    "originalTitle": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
-    "summary": "Do not expose Vite development servers, rotate leaked cloud secrets, mass-scanning campaigns are stealing AWS and Azure credentials and configuration files from internet-facing dev environments.",
-    "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-15T11:12:32.000Z",
-    "fetchedAt": "2026-09-15T16:56:35.709Z"
-  },
-  {
-    "slug": "apple-ships-ios-27-and-macos-27-with-200-fixes-2026-09-15",
-    "title": "Apple ships iOS 27 and macOS 27 with 200 fixes",
-    "originalTitle": "Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases",
-    "summary": "Push iOS 27 and macOS Golden Gate 27 quickly, Apple fixed roughly 200 bugs including kernel flaws enabling memory corruption, privilege escalation, crashes, and data exposure across devices.",
-    "url": "https://www.securityweek.com/apple-patches-200-vulnerabilities-with-new-ios-27-macos-golden-gate-27-releases/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-15T11:06:11.000Z",
-    "fetchedAt": "2026-09-15T11:40:59.629Z"
-  },
-  {
-    "slug": "hijacked-hbo-max-reddit-ads-pushed-malware-via-clickfix-2026-09-15",
-    "title": "Hijacked HBO Max Reddit ads pushed malware via ClickFix",
-    "originalTitle": "Attackers hijack HBO Max’s Reddit account for 48-hour malvertising blitz",
-    "summary": "Brief users on malvertising and block known lures, attackers abused the verified u/hbomax ad account for a 48-hour ClickFix campaign that tricked macOS and Windows users into installing info-stealers.",
-    "url": "https://www.helpnetsecurity.com/2026/09/15/hbo-max-reddit-account-clickfix-infostealer-malware/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/hacked-hbo-reddit-account-used-for-malware-delivery-via-clickfix-attack/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-15T10:10:15.000Z",
-    "fetchedAt": "2026-09-15T11:40:59.629Z"
-  },
-  {
-    "slug": "microsoft-publishes-ai-code-of-conduct-for-security-use-2026-09-15",
-    "title": "Microsoft publishes AI Code of Conduct for security use",
-    "originalTitle": "Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints",
-    "summary": "Review and weigh in on Microsoft's draft AI Code within six weeks, it restricts offensive cyber capabilities, defines escalation paths, and will set guardrails for how Microsoft AI models operate.",
-    "url": "https://www.securityweek.com/microsoft-ai-code-of-conduct-sets-cyberattack-boundaries-chain-of-command-safety-constraints/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/15/microsoft-ai-safety-rules-humanist-ai-code-of-conduct/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-15T09:40:25.000Z",
-    "fetchedAt": "2026-09-15T11:40:59.629Z"
-  },
-  {
-    "slug": "excel-september-security-update-breaks-copy-and-paste-2026-09-15",
-    "title": "Excel September security update breaks copy and paste",
-    "originalTitle": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
-    "summary": "Pause or roll back KB5002914 where needed, Microsoft says September's Excel security update can silently break copy and paste for some users and a fix is in progress.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-09-15T08:40:20.000Z",
-    "fetchedAt": "2026-09-15T11:40:59.629Z"
-  },
-  {
-    "slug": "cisco-secure-email-gateway-zero-day-under-active-attack-2026-09-15",
-    "title": "Cisco Secure Email Gateway zero-day under active attack",
-    "originalTitle": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
-    "summary": "Patch AsyncOS now, CVE-2026-76461 is exploited to run root commands without authentication, apply Cisco updates and IoCs, and audit your Secure Email Gateway for compromise.",
-    "url": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/15/cve-2026-76461-cisco-email-gateway-zero-day-exploited/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/root-rce-zero-day-in-cisco-secure-email-gateway-under-active-exploitation/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-15T07:31:09.000Z",
-    "fetchedAt": "2026-09-15T11:40:59.629Z"
-  },
-  {
-    "slug": "litespeed-bug-lets-one-shared-site-root-the-server-2026-09-15",
-    "title": "LiteSpeed bug lets one shared site root the server",
-    "originalTitle": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
-    "summary": "Update LiteSpeed Web Server Enterprise immediately, a critical flaw lets a low-privilege hosting account gain root on shared servers, jeopardizing all hosted sites and cPanel environments.",
-    "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-15T06:52:16.000Z",
-    "fetchedAt": "2026-09-15T11:40:59.629Z"
   }
 ]
