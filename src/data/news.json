@@ -1,5 +1,66 @@
 [
   {
+    "slug": "eu-cyber-resilience-act-new-duties-for-container-and-kuberne-2026-09-30",
+    "title": "EU Cyber Resilience Act: new duties for container and Kubernetes teams",
+    "originalTitle": "EU Cyber Resilience Act requirements for containers and Kubernetes",
+    "summary": "If you sell or support software in the EU, align container and Kubernetes practices to CRA requirements now, reporting starts Sept 11, 2026 and full enforcement arrives Dec 11, 2027.",
+    "url": "https://www.helpnetsecurity.com/2026/09/30/rapidfort-cra-container-compliance/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-09-30T05:00:53.000Z",
+    "fetchedAt": "2026-09-30T05:28:48.830Z"
+  },
+  {
+    "slug": "most-critical-internet-facing-flaws-linger-over-90-days-stud-2026-09-30",
+    "title": "Most critical internet-facing flaws linger over 90 days, study finds",
+    "originalTitle": "Most open critical and high flaws are over 90 days old",
+    "summary": "Tighten external attack surface management, Detectify found 86 to 97 percent of critical and high vulnerabilities in the US, UK and Nordics remained open for more than 90 days.",
+    "url": "https://www.helpnetsecurity.com/2026/09/30/research-unpatched-vulnerabilities-backlog/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-30T04:00:38.000Z",
+    "fetchedAt": "2026-09-30T05:28:48.830Z"
+  },
+  {
+    "slug": "wsl-containers-now-ga-on-windows-lock-down-where-images-come-2026-09-30",
+    "title": "WSL containers now GA on Windows, lock down where images come from",
+    "originalTitle": "WSL containers are generally available on Windows",
+    "summary": "If your developers use WSL on Windows, enable new Intune and policy controls to disable WSL containers or restrict trusted registries, then audit endpoints for unexpected container runtime use.",
+    "url": "https://www.helpnetsecurity.com/2026/09/30/microsoft-wsl-containers-available/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/"
+      }
+    ],
+    "category": "defense",
+    "publishedAt": "2026-09-30T03:47:25.000Z",
+    "fetchedAt": "2026-09-30T05:28:48.830Z"
+  },
+  {
+    "slug": "cloudflare-to-launch-public-ca-plans-post-quantum-web-certs-2026-09-30",
+    "title": "Cloudflare to launch public CA, plans post-quantum web certs by 2027",
+    "originalTitle": "Post-quantum website certificates from Cloudflare are scheduled for early 2027",
+    "summary": "Plan for PQC adoption on the web, Cloudflare will issue conventional and Merkle Tree post‑quantum certificates with production rollout targeted for early 2027.",
+    "url": "https://www.helpnetsecurity.com/2026/09/30/cloudflare-certificate-authority-2027/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-09-30T03:09:51.000Z",
+    "fetchedAt": "2026-09-30T05:28:48.830Z"
+  },
+  {
     "slug": "fake-chatgpts-use-clickfix-to-drop-rats-2026-09-29",
     "title": "Fake ChatGPTs use ClickFix to drop RATs",
     "originalTitle": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
@@ -3592,38 +3653,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-16T05:48:28.000Z",
     "fetchedAt": "2026-09-16T11:28:01.943Z"
-  },
-  {
-    "slug": "wso2-api-manager-jwt-bypass-exploited-patch-and-rotate-keys-2026-09-16",
-    "title": "WSO2 API Manager JWT bypass exploited, patch and rotate keys",
-    "originalTitle": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
-    "summary": "CVE-2026-5430 lets attackers forge admin JWTs to take over WSO2, patch immediately, revoke and regenerate secrets, and review logs for suspicious token use across API gateways.",
-    "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/enterprises-warned-of-attacks-exploiting-wso2-vulnerability/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-16T05:18:06.000Z",
-    "fetchedAt": "2026-09-16T11:28:01.943Z"
-  },
-  {
-    "slug": "nearly-half-of-clients-expect-msps-to-be-their-ciso-2026-09-16",
-    "title": "Nearly half of clients expect MSPs to be their CISO",
-    "originalTitle": "MSPs say nearly half their customers rely on them for CISO services",
-    "summary": "Formalize your vCISO offering with clear scope, SLAs, tooling, and compliance coverage, demand is rising and many providers are still delivering this ad hoc today.",
-    "url": "https://www.helpnetsecurity.com/2026/09/16/msp-ciso-services-compliance/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "msp-channel",
-    "publishedAt": "2026-09-16T04:30:20.000Z",
-    "fetchedAt": "2026-09-16T04:45:47.512Z"
   }
 ]
