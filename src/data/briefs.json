@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-09-30",
+    "date": "2026-09-30",
+    "title": "Patch the edge, lock browsers, rein in AI leaks",
+    "intro": "Busy morning. Remote access gear and browsers need patches, and your AI tooling might be tattling.",
+    "items": [
+      {
+        "heading": "NetScaler pre-auth RCE under active attack",
+        "body": "Attackers are hitting Citrix NetScaler ADC and Gateway with a pre-auth exploit that can yield root access. Patch immediately and disable DTLS until you can, then verify no unknown configs or accounts were added. If these appliances face the internet, treat this as incident response until proven otherwise.",
+        "url": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "citrix-netscaler-cve-2026-88772-under-active-pre-auth-exploi-2026-09-30"
+      },
+      {
+        "heading": "TeamViewer client and host need urgent patches",
+        "body": "High severity bugs in TeamViewer client and host builds could allow remote code execution and session compromise. Push the latest updates to every endpoint and server, then restart services to ensure the new binaries load. Review remote session logs for anomalies and block outdated versions in your tools.",
+        "url": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "patch-now-severe-teamviewer-flaws-in-client-and-host-2026-09-30"
+      },
+      {
+        "heading": "Chrome and Firefox ship fixes for 100+ bugs",
+        "body": "Current Chrome and Firefox releases patch dozens of issues, including code execution and sandbox escape risks via malicious sites. Roll out the updates across your fleet and enforce restarts for active browsers. Prioritize high risk users like admins and anyone who lives in a browser all day.",
+        "url": "https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "chrome-and-firefox-updates-fix-100-flaws-some-critical-2026-09-30"
+      },
+      {
+        "heading": "OpenSSL and wolfSSL patch DTLS flaws",
+        "body": "High severity DTLS issues can leak heap memory or crash services, and fixes are shipping for OpenSSL and wolfSSL. Update libraries in servers, containers, and appliances, then redeploy dependent services. Inventory appliances that bundle these stacks and pull vendor updates as they appear.",
+        "url": "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "openssl-and-wolfssl-patch-high-severity-dtls-bugs-2026-09-30"
+      },
+      {
+        "heading": "M365 session theft leads to RMM install",
+        "body": "A US focused phishing campaign is hijacking Microsoft 365 sessions, then installing remote management tools to expand access and fraud. Enforce phishing resistant MFA, monitor for token theft, and block unsanctioned RMMs. Tighten conditional access and alert on unusual sign ins and new device enrollments.",
+        "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "m365-phish-steals-sessions-then-installs-rmm-for-remote-acce-2026-09-30"
+      },
+      {
+        "heading": "Nordix Artifactory breach, stop using artifacts",
+        "body": "OpenInfra Europe’s Artifactory at artifactory.nordix.org was compromised. If you pulled anything between August 28 and September 15, quarantine those systems, replace packages from trusted sources, and verify build integrity. Treat affected builds as tainted until you can rebuild clean.",
+        "url": "https://www.helpnetsecurity.com/2026/09/30/openinfra-jfrog-artifactory-instance-compromised/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "openinfra-europe-s-artifactory-breached-stop-using-nordix-ar-2026-09-30"
+      },
+      {
+        "heading": "AI dev agents posted 13k internal screenshots",
+        "body": "Researchers saw AI coding agents auto posting internal UI images and billing data to public GitHub repos across hundreds of organizations. Audit AI assisted developer workflows and CI bots, restrict tokens and outbound publishing, and disable screenshot or telemetry uploads. Add DLP checks to repos and rotate any exposed credentials.",
+        "url": "https://www.helpnetsecurity.com/2026/09/30/ai-coding-agents-github-screenshot-leak/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "ai-coding-agents-leaked-13-000-internal-screenshots-to-githu-2026-09-30"
+      },
+      {
+        "heading": "Monitor Claude Enterprise via DLP and SIEM",
+        "body": "Claude Enterprise now exposes a Compliance API so security tools can scan prompts, uploads, and outputs for sensitive data and policy violations. Turn it on and wire it into your DLP and SIEM to keep AI use inside guardrails. Use this to baseline usage and flag data exfil risks before they become incidents.",
+        "url": "https://www.helpnetsecurity.com/2026/09/30/claude-compliance-api-integrations/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "pipe-claude-enterprise-chats-into-dlp-and-siem-for-monitorin-2026-09-30"
+      }
+    ],
+    "signOff": "Alright, patch the edge, push the browser updates, then tackle tickets.",
+    "generatedAt": "2026-09-30T18:28:06.281Z"
+  },
+  {
     "slug": "2026-09-29",
     "date": "2026-09-29",
     "title": "Apple zero-day patches and a fake GPT RAT trap",
@@ -2128,79 +2202,5 @@
     ],
     "signOff": "Patch first, verify twice, then tackle the tickets.",
     "generatedAt": "2026-09-01T17:21:03.779Z"
-  },
-  {
-    "slug": "2026-08-31",
-    "date": "2026-08-31",
-    "title": "Supply chain wobbles, sneaky RATs, and patch-now alerts",
-    "intro": "Busy day: a pharma giant probes a third-party hit, multiple actively exploited bugs need attention, and a noisy Defender bug might page you at 3 a.m. Prioritize the real fires, mute the false alarms.",
-    "items": [
-      {
-        "heading": "McKesson probes third-party breach, data theft claims",
-        "body": "McKesson is investigating a third-party compromise while ShinyHunters claims 284 million records, which could slow pharmacy supply chains and fuel targeted phishing. Expect delays and opportunistic emails that look legit. Warn healthcare clients, tighten vendor access, and monitor for credential misuse and mailbox rule changes.",
-        "url": "https://therecord.media/mckesson-cyberattack-ransomware-pharma",
-        "source": "The Record",
-        "category": "threats",
-        "storySlug": "mckesson-breach-tied-to-third-party-app-outages-and-data-the-2026-08-31"
-      },
-      {
-        "heading": "PaperCut ships second emergency fix, active exploitation",
-        "body": "Two new PaperCut NG/MF vulnerabilities, CVE-2026-82078 and CVE-2026-81578, are under active attack and expose print servers to compromise. Apply the updates immediately on all print controllers. After patching, review admin accounts and logs for signs of abuse and keep these systems off the public internet.",
-        "url": "https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "papercut-issues-second-emergency-patch-for-exploited-bugs-2026-08-31"
-      },
-      {
-        "heading": "Rails bug exploited for file reads and RCE",
-        "body": "Attackers are abusing an arbitrary file read flaw in Ruby on Rails to pull credentials then pivot to remote code execution. Patch supported Rails versions now and rotate any secrets that may be exposed. If you host client Rails apps, inventory versions and prioritize internet facing services.",
-        "url": "https://www.securityweek.com/critical-ruby-on-rails-vulnerability-in-attackers-crosshairs/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "critical-ruby-on-rails-flaw-abused-to-read-files-and-run-cod-2026-08-31"
-      },
-      {
-        "heading": "Fire Ant targets routers and TACACS for stealth pivots",
-        "body": "A China linked group dubbed Fire Ant is hijacking Cisco IOS XR routers and TACACS servers, stealing credentials and wiping logs while pivoting through network management gear and Linux hosts. This hits where visibility is weakest and trust is highest. Audit router configs and TACACS infrastructure for tampering, verify admin accounts, and lock down management planes.",
-        "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "china-linked-fire-ant-hijacks-cisco-routers-and-tacacs-serve-2026-08-31"
-      },
-      {
-        "heading": "ValleyRAT rides along with signed adware",
-        "body": "Attackers are tucking ValleyRAT inside signed adware that users add to antivirus exclusions, letting it run under trusted processes and evade controls. Remove junkware like QN Wallpaper and audit AV exclusion lists. Tighten software allowlists and block signed adware installers from user writable paths.",
-        "url": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "valleyrat-hides-in-signed-adware-users-add-to-av-exclusions-2026-08-31"
-      },
-      {
-        "heading": "AWS Console Private Access gotcha: personal logins blocked",
-        "body": "AWS Console Private Access routes the management console over private networks, and on corporate networks it can block sign ins to personal AWS accounts. That is great for control, bad for surprise lockouts. Test in a lab, plan exceptions, and communicate the change before rollout.",
-        "url": "https://www.helpnetsecurity.com/2026/08/31/amazon-aws-console-private-access/",
-        "source": "Help Net Security",
-        "category": "defense",
-        "storySlug": "aws-console-private-access-can-lock-out-personal-aws-logins-2026-08-31"
-      },
-      {
-        "heading": "Defender bug floods dashboards with false AV alerts",
-        "body": "Recent updates are triggering bogus Microsoft Defender warnings that antivirus is turned off. Microsoft says to ignore these status alerts until a fix lands. Suppress the noise in your RMM and dashboards to avoid wasted troubleshooting time.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/",
-        "source": "BleepingComputer",
-        "category": "defense",
-        "storySlug": "microsoft-defender-bug-triggers-false-av-is-turned-off-alert-2026-08-31"
-      },
-      {
-        "heading": "Anthropic logs out Claude users after session theft",
-        "body": "Infostealer malware hijacked user sessions, so Anthropic is logging accounts out and clearing payment data to block abuse. If anyone accessed Claude from an infected machine, wipe the endpoint, rotate credentials, and enforce MFA. Treat saved tokens and browser sessions as compromised until proven clean.",
-        "url": "https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "anthropic-logs-out-claude-users-after-infostealer-hijacks-se-2026-08-31"
-      }
-    ],
-    "signOff": "Patch what matters, mute what does not, then grab that coffee.",
-    "generatedAt": "2026-08-31T19:31:56.794Z"
   }
 ]
