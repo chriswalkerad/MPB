@@ -1,5 +1,132 @@
 [
   {
+    "slug": "patch-now-severe-teamviewer-flaws-in-client-and-host-2026-09-30",
+    "title": "Patch now: severe TeamViewer flaws in client and host",
+    "originalTitle": "TeamViewer urges users to patch severe flaws “as soon as possible”",
+    "summary": "Push the latest TeamViewer updates to all endpoints today, high severity bugs in client and host builds could enable remote code execution and session compromise.",
+    "url": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-30T12:25:10.000Z",
+    "fetchedAt": "2026-09-30T12:30:30.405Z"
+  },
+  {
+    "slug": "chrome-and-firefox-updates-fix-100-flaws-some-critical-2026-09-30",
+    "title": "Chrome and Firefox updates fix 100+ flaws, some critical",
+    "originalTitle": "Chrome, Firefox Updates Patch Over 100 Vulnerabilities",
+    "summary": "Roll out current Chrome and Firefox versions across your fleet, patches address dozens of bugs including code execution and sandbox escape risks via malicious sites.",
+    "url": "https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-30T12:16:52.000Z",
+    "fetchedAt": "2026-09-30T12:30:30.405Z"
+  },
+  {
+    "slug": "ai-coding-agents-leaked-13-000-internal-screenshots-to-githu-2026-09-30",
+    "title": "AI coding agents leaked 13,000 internal screenshots to GitHub",
+    "originalTitle": "AI coding agents leaked 13,000 internal company screenshots to public GitHub repos",
+    "summary": "Audit AI-assisted developer workflows and CI bots, researchers found agents auto-posting internal UI images and billing data to public repos across hundreds of organizations.",
+    "url": "https://www.helpnetsecurity.com/2026/09/30/ai-coding-agents-github-screenshot-leak/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-30T11:52:30.000Z",
+    "fetchedAt": "2026-09-30T12:30:30.405Z"
+  },
+  {
+    "slug": "m365-phish-steals-sessions-then-installs-rmm-for-remote-acce-2026-09-30",
+    "title": "M365 phish steals sessions then installs RMM for remote access",
+    "originalTitle": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
+    "summary": "Enforce phishing-resistant MFA, monitor for token theft, and block unsanctioned RMMs, a US-focused campaign is hijacking Microsoft 365 sessions to expand compromise and fraud.",
+    "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-30T10:45:00.000Z",
+    "fetchedAt": "2026-09-30T12:30:30.405Z"
+  },
+  {
+    "slug": "openinfra-europe-s-artifactory-breached-stop-using-nordix-ar-2026-09-30",
+    "title": "OpenInfra Europe’s Artifactory breached, stop using Nordix artifacts",
+    "originalTitle": "OpenInfra Europe’s JFrog Artifactory instance breached, packages potentially compromised",
+    "summary": "If you downloaded from artifactory.nordix.org between August 28 and September 15, quarantine affected systems, pull packages from trusted sources, and verify build integrity.",
+    "url": "https://www.helpnetsecurity.com/2026/09/30/openinfra-jfrog-artifactory-instance-compromised/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-30T10:39:26.000Z",
+    "fetchedAt": "2026-09-30T12:30:30.405Z"
+  },
+  {
+    "slug": "openssl-and-wolfssl-patch-high-severity-dtls-bugs-2026-09-30",
+    "title": "OpenSSL and wolfSSL patch high severity DTLS bugs",
+    "originalTitle": "High-Severity Vulnerabilities Patched in OpenSSL, WolfSSL",
+    "summary": "Update OpenSSL and wolfSSL in servers, containers, and appliances, DTLS flaws can leak heap memory or crash services and vendors are rolling fixes now.",
+    "url": "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-30T06:55:50.000Z",
+    "fetchedAt": "2026-09-30T12:30:30.405Z"
+  },
+  {
+    "slug": "pipe-claude-enterprise-chats-into-dlp-and-siem-for-monitorin-2026-09-30",
+    "title": "Pipe Claude Enterprise chats into DLP and SIEM for monitoring",
+    "originalTitle": "Security tools can now scan Claude Enterprise chats and uploads for sensitive data",
+    "summary": "Turn on Claude Enterprise Compliance API integrations so security tools can scan prompts, uploads, and outputs for sensitive data exposure and policy violations.",
+    "url": "https://www.helpnetsecurity.com/2026/09/30/claude-compliance-api-integrations/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-09-30T06:31:58.000Z",
+    "fetchedAt": "2026-09-30T12:30:30.405Z"
+  },
+  {
+    "slug": "citrix-netscaler-cve-2026-88772-under-active-pre-auth-exploi-2026-09-30",
+    "title": "Citrix NetScaler CVE-2026-88772 under active pre-auth exploitation",
+    "originalTitle": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+    "summary": "Patch NetScaler ADC and Gateway immediately and disable DTLS until then, attackers are achieving pre-auth code execution for root access in the wild.",
+    "url": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-30T05:30:30.000Z",
+    "fetchedAt": "2026-09-30T12:30:30.405Z"
+  },
+  {
     "slug": "eu-cyber-resilience-act-new-duties-for-container-and-kuberne-2026-09-30",
     "title": "EU Cyber Resilience Act: new duties for container and Kubernetes teams",
     "originalTitle": "EU Cyber Resilience Act requirements for containers and Kubernetes",
@@ -3457,201 +3584,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-16T13:14:05.000Z",
     "fetchedAt": "2026-09-16T16:51:18.533Z"
-  },
-  {
-    "slug": "cisa-adds-cisco-ise-and-acronis-backup-flaws-to-kev-patch-no-2026-09-16",
-    "title": "CISA adds Cisco ISE and Acronis Backup flaws to KEV, patch now",
-    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "summary": "Patch or mitigate immediately, actively exploited bugs in Cisco ISE privileged APIs and Acronis Backup default permissions are in CISA's KEV and target common SMB stacks.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-16T12:00:00.000Z",
-    "fetchedAt": "2026-09-16T21:15:56.443Z"
-  },
-  {
-    "slug": "cisa-adds-pixel-modem-zero-day-to-kev-patch-now-2026-09-16",
-    "title": "CISA adds Pixel modem zero-day to KEV, patch now",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Update Pixel devices immediately, CVE-2026-58704 is an exploited privilege escalation in the cellular modem now on CISA’s KEV list, prioritize fleet patching and restrict high-risk users until updated.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/pixel-modem-zero-day-exploited-in-targeted-attacks/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-16T12:00:00.000Z",
-    "fetchedAt": "2026-09-16T16:51:18.533Z"
-  },
-  {
-    "slug": "cisa-use-cyber-decoys-to-catch-intruders-using-legit-creds-2026-09-16",
-    "title": "CISA: use cyber decoys to catch intruders using legit creds",
-    "originalTitle": "Using Cyber Decoys to Strengthen Detection and Response",
-    "summary": "Add deception hosts and breadcrumbs to your detection stack, CISA published practical guidance to deploy cyber decoys that help spot lateral movement and living off the land techniques earlier.",
-    "url": "https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-16T12:00:00.000Z",
-    "fetchedAt": "2026-09-16T16:51:18.533Z"
-  },
-  {
-    "slug": "n0va-phishkit-bypasses-mfa-flows-to-hijack-business-accounts-2026-09-16",
-    "title": "N0va phishkit bypasses MFA flows to hijack business accounts",
-    "originalTitle": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
-    "summary": "Train users and tighten identity defenses, N0va targets US and EU firms with phishing that abuses legitimate authentication flows to capture valid sessions, enforce phishing-resistant MFA and session monitoring.",
-    "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-16T11:58:00.000Z",
-    "fetchedAt": "2026-09-16T16:51:18.533Z"
-  },
-  {
-    "slug": "unauth-rce-bugs-threaten-200k-wordpress-sites-running-events-2026-09-16",
-    "title": "Unauth RCE bugs threaten 200k WordPress sites running Events Calendar",
-    "originalTitle": "Unauthenticated RCE Flaws Could Expose 200,000+ WordPress Sites to Takeover",
-    "summary": "Update The Events Calendar plugin now, newly disclosed flaws enable remote code execution without login on over 200,000 WordPress installs, prioritize internet-facing sites and remove unused plugins.",
-    "url": "https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-16T11:32:53.000Z",
-    "fetchedAt": "2026-09-16T16:51:18.533Z"
-  },
-  {
-    "slug": "screenconnect-flaw-under-active-attack-patch-now-2026-09-16",
-    "title": "ScreenConnect flaw under active attack, patch now",
-    "originalTitle": "Critical ScreenConnect flaw now actively exploited in attacks",
-    "summary": "CISA says attackers are exploiting a critical ScreenConnect bug, update servers immediately and check remote access logs for unauthorized sessions or new users.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-16T11:14:28.000Z",
-    "fetchedAt": "2026-09-16T11:28:01.943Z"
-  },
-  {
-    "slug": "acronis-cpanel-backup-plugin-flaw-exploited-in-the-wild-2026-09-16",
-    "title": "Acronis cPanel backup plugin flaw exploited in the wild",
-    "originalTitle": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
-    "summary": "Patch or disable the Acronis Backup plugin on cPanel and WHM, CVE-2026-87886 allows local privilege escalation via insecure permissions and is being exploited, audit hosting nodes for tampering.",
-    "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-16T11:08:54.000Z",
-    "fetchedAt": "2026-09-16T16:51:18.533Z"
-  },
-  {
-    "slug": "chrome-and-firefox-updates-fix-115-security-bugs-2026-09-16",
-    "title": "Chrome and Firefox updates fix 115 security bugs",
-    "originalTitle": "Chrome, Firefox Updates Patch 115 Vulnerabilities",
-    "summary": "Roll out the latest Chrome and Firefox releases to close 115 vulnerabilities including multiple high severity issues, and enforce rapid browser patching for all managed endpoints.",
-    "url": "https://www.securityweek.com/chrome-firefox-updates-patch-115-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-16T10:28:36.000Z",
-    "fetchedAt": "2026-09-16T11:28:01.943Z"
-  },
-  {
-    "slug": "acronis-cpanel-backup-plugin-lpe-exploited-update-now-2026-09-16",
-    "title": "Acronis cPanel backup plugin LPE exploited, update now",
-    "originalTitle": "Acronis Patches Exploited Vulnerability in cPanel Backup Plugin",
-    "summary": "CVE-2026-87886 allows local privilege escalation in Acronis backup plugins for cPanel, WHM, and Plesk, patch immediately and audit systems for suspicious privilege changes or new root artifacts.",
-    "url": "https://www.securityweek.com/acronis-patches-exploited-vulnerability-in-cpanel-backup-plugin/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-16T09:52:31.000Z",
-    "fetchedAt": "2026-09-16T11:28:01.943Z"
-  },
-  {
-    "slug": "windows-server-2022-leaves-mainstream-support-next-month-2026-09-16",
-    "title": "Windows Server 2022 leaves mainstream support next month",
-    "originalTitle": "Windows Server 2022 reaches end of mainstream support next month",
-    "summary": "Plan now for extended support as Windows Server 2022 stops feature updates and receives only security fixes until October 2031, aligning upgrade and budgeting timelines with customer needs.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-09-16T09:10:20.000Z",
-    "fetchedAt": "2026-09-16T11:28:01.943Z"
-  },
-  {
-    "slug": "nist-and-cisa-release-playbook-to-block-token-theft-2026-09-16",
-    "title": "NIST and CISA release playbook to block token theft",
-    "originalTitle": "NIST and CISA finalize playbook to stop token theft and forgery",
-    "summary": "Implement NIST IR 8587 to harden OAuth and SAML tokens with stronger key management, verification, rotation, and lifecycle controls across identity providers, applications, and cloud services.",
-    "url": "https://www.helpnetsecurity.com/2026/09/16/nist-cisa-cloud-token-security-guidance/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-16T07:40:01.000Z",
-    "fetchedAt": "2026-09-16T11:28:01.943Z"
-  },
-  {
-    "slug": "pixel-update-fixes-exploited-android-zero-day-deploy-now-2026-09-16",
-    "title": "Pixel update fixes exploited Android zero day, deploy now",
-    "originalTitle": "Google fixes actively exploited Android zero-day on Pixel devices",
-    "summary": "Google’s September patch fixes 110 flaws and an actively exploited Pixel zero day, push updates to managed Android devices and confirm mobile threat defenses catch exploitation attempts.",
-    "url": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-16T07:00:19.000Z",
-    "fetchedAt": "2026-09-16T11:28:01.943Z"
-  },
-  {
-    "slug": "woocommerce-plugin-hole-used-to-plant-php-web-shells-2026-09-16",
-    "title": "WooCommerce plugin hole used to plant PHP web shells",
-    "originalTitle": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
-    "summary": "Unauthenticated attackers are exploiting a critical bug in WooCommerce Wholesale Lead Capture to upload PHP backdoors, update or disable the plugin and scan sites for indicators of compromise.",
-    "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-16T05:48:28.000Z",
-    "fetchedAt": "2026-09-16T11:28:01.943Z"
   }
 ]
