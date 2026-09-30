@@ -1,5 +1,141 @@
 [
   {
+    "slug": "malicious-custom-gpts-used-to-deliver-rat-via-clickfix-lures-2026-09-30",
+    "title": "Malicious Custom GPTs used to deliver RAT via ClickFix lures",
+    "originalTitle": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
+    "summary": "Attackers abuse OpenAI and Google domains to trick users into malware installs, block risky browser downloads, restrict untrusted extensions, and train staff to avoid ClickFix prompts.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-09-30T21:25:47.000Z",
+    "fetchedAt": "2026-09-30T22:12:56.727Z"
+  },
+  {
+    "slug": "zimbra-rce-exploited-via-email-patch-and-check-for-web-shell-2026-09-30",
+    "title": "Zimbra RCE exploited via email, patch and check for web shells",
+    "originalTitle": "Attackers have been exploiting critical Zimbra flaw to steal emails",
+    "summary": "A critical Zimbra bug allows unauthenticated command injection from a crafted email, update ZCS now and scan servers for web shells and mailbox data access.",
+    "url": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-30T20:44:48.000Z",
+    "fetchedAt": "2026-09-30T22:12:56.727Z"
+  },
+  {
+    "slug": "543k-valid-credentials-found-on-public-github-revoke-and-rot-2026-09-30",
+    "title": "543k valid credentials found on public GitHub, revoke and rotate",
+    "originalTitle": "Over 543,000 valid credentials exposed in public GitHub repositories",
+    "summary": "Over half a million secrets in public repos remained valid in July, enable secret scanning, audit org repos, revoke exposed keys, and enforce least privilege for tokens.",
+    "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-30T18:08:34.000Z",
+    "fetchedAt": "2026-09-30T22:12:56.727Z"
+  },
+  {
+    "slug": "phishers-install-msp360-then-drop-screenconnect-in-dual-rmm-2026-09-30",
+    "title": "Phishers install MSP360 then drop ScreenConnect in dual-RMM scam",
+    "originalTitle": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+    "summary": "Campaigns push a legit MSP360 installer to gain access then deploy ScreenConnect, train users, verify RMM installs, and lock down RMM onboarding with approvals.",
+    "url": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-09-30T16:32:59.000Z",
+    "fetchedAt": "2026-09-30T22:12:56.727Z"
+  },
+  {
+    "slug": "cisa-warns-of-critical-mikrotik-routeros-pre-auth-rce-2026-09-30",
+    "title": "CISA warns of critical MikroTik RouterOS pre-auth RCE",
+    "originalTitle": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+    "summary": "A new RouterOS flaw allows remote code execution or denial of service without login, apply available updates and restrict management access from the internet.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-30T15:49:29.000Z",
+    "fetchedAt": "2026-09-30T22:12:56.727Z"
+  },
+  {
+    "slug": "cisco-sd-wan-zero-day-exploited-patch-catalyst-sd-wan-manage-2026-09-30",
+    "title": "Cisco SD-WAN zero-day exploited, patch Catalyst SD-WAN Manager now",
+    "originalTitle": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+    "summary": "Attackers can use CVE-2026-76504 to hijack the SD-WAN Manager API as admin, update to fixed releases immediately and hunt for suspicious admin API activity.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html"
+      },
+      {
+        "name": "CISA Advisories",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-30T14:46:40.000Z",
+    "fetchedAt": "2026-09-30T22:12:56.727Z"
+  },
+  {
+    "slug": "microsoft-will-block-entra-id-script-injection-starting-octo-2026-09-30",
+    "title": "Microsoft will block Entra ID script injection starting October",
+    "originalTitle": "Microsoft to block Entra ID script injection attacks starting October",
+    "summary": "Microsoft is auto-enforcing protections against external script injection in Entra ID next month, review custom branding and auth flows and test apps before the change.",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-09-30T13:37:15.000Z",
+    "fetchedAt": "2026-09-30T22:12:56.727Z"
+  },
+  {
+    "slug": "netscaler-zero-days-exploited-since-early-september-patch-fa-2026-09-30",
+    "title": "NetScaler zero-days exploited since early September, patch fast",
+    "originalTitle": "Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks",
+    "summary": "Active attacks on CVE-2026-88771 and CVE-2026-88772 hit government and finance, upgrade affected NetScaler builds and check for signs of session hijacking and backdoors.",
+    "url": "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/30/cve-2026-88772-netscaler-exploitation-zero-day/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-09-30T12:48:20.000Z",
+    "fetchedAt": "2026-09-30T22:12:56.727Z"
+  },
+  {
     "slug": "patch-now-severe-teamviewer-flaws-in-client-and-host-2026-09-30",
     "title": "Patch now: severe TeamViewer flaws in client and host",
     "originalTitle": "TeamViewer urges users to patch severe flaws “as soon as possible”",
@@ -3439,150 +3575,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-17T00:35:48.000Z",
     "fetchedAt": "2026-09-17T04:49:00.504Z"
-  },
-  {
-    "slug": "security-teams-pour-money-into-ai-before-proving-value-2026-09-16",
-    "title": "Security teams pour money into AI before proving value",
-    "originalTitle": "AI Security Spending Jumps as Fear Outpaces Proof of Value",
-    "summary": "Set expectations with clients, CISOs are ramping AI security spend despite limited ROI evidence, so pilot narrowly, measure outcomes, and avoid vendor FOMO buying sprees.",
-    "url": "https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-09-16T21:26:55.000Z",
-    "fetchedAt": "2026-09-17T04:49:00.504Z"
-  },
-  {
-    "slug": "cyberattack-knocks-meteor-tracking-nonprofit-offline-for-wee-2026-09-16",
-    "title": "Cyberattack knocks meteor-tracking nonprofit offline for weeks",
-    "originalTitle": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
-    "summary": "Treat this like your clients, a small org suffered a crippling attack and expects weeks of downtime, so validate backups, offline recovery, and a tested incident response plan.",
-    "url": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-16T21:08:14.000Z",
-    "fetchedAt": "2026-09-17T04:49:00.504Z"
-  },
-  {
-    "slug": "us-ai-safety-law-likely-stalled-until-2027-2026-09-16",
-    "title": "US AI safety law likely stalled until 2027",
-    "originalTitle": "Key lawmaker suggests action on AI safety legislation will wait until 2027",
-    "summary": "Plan on self-regulation for now, a key House chair says comprehensive AI safety legislation will wait until 2027, leaving MSPs to set client policies and guardrails.",
-    "url": "https://therecord.media/frontier-act-ai-bill-house-brett-guthrie",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-09-16T21:07:00.000Z",
-    "fetchedAt": "2026-09-17T04:49:00.504Z"
-  },
-  {
-    "slug": "windows-11-kb5124008-breaks-domain-trust-block-rollout-2026-09-16",
-    "title": "Windows 11 KB5124008 breaks domain trust, block rollout",
-    "originalTitle": "Windows 11 KB5124008 update breaks domain trust for some users",
-    "summary": "Pause or roll back KB5124008 on domain-joined Windows 11 systems, reports say it can break domain trust and block logins while Microsoft investigates.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-16T20:39:29.000Z",
-    "fetchedAt": "2026-09-16T21:15:56.443Z"
-  },
-  {
-    "slug": "malware-plants-rogue-chrome-and-edge-extensions-to-steal-tok-2026-09-16",
-    "title": "Malware plants rogue Chrome and Edge extensions to steal tokens",
-    "originalTitle": "Malware bypasses browser checks to force install Chrome, Edge extensions",
-    "summary": "Lock down extension installs and watch for unusual browser add-ons, a banking crew uses KREMLIN to bypass checks and steal credentials and session tokens.",
-    "url": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-16T18:50:53.000Z",
-    "fetchedAt": "2026-09-16T21:15:56.443Z"
-  },
-  {
-    "slug": "spain-logs-first-reported-ai-powered-data-breach-2026-09-16",
-    "title": "Spain logs first reported AI-powered data breach",
-    "originalTitle": "Spain's data agency gets first report of AI-powered data breach",
-    "summary": "Expect client questions about AI agents, Spain’s regulator received a report of a breach allegedly executed by an LLM-powered agent, underscoring need for guardrails and monitoring.",
-    "url": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-16T17:26:41.000Z",
-    "fetchedAt": "2026-09-16T21:15:56.443Z"
-  },
-  {
-    "slug": "attack-hijacks-browser-ai-assistants-to-exfiltrate-data-2026-09-16",
-    "title": "Attack hijacks browser AI assistants to exfiltrate data",
-    "originalTitle": "BragJack Attack Can Turn a Browser's Agentic AI Against It",
-    "summary": "Consider disabling or limiting built-in browser AI assistants, researchers show BragJack can abuse them to access sensitive info, perform actions, and exfiltrate data.",
-    "url": "https://www.darkreading.com/endpoint-security/bragjack-browser-agentic-ai",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-16T16:43:37.000Z",
-    "fetchedAt": "2026-09-16T21:15:56.443Z"
-  },
-  {
-    "slug": "issabel-pbx-flaw-under-active-exploit-allows-unauthenticated-2026-09-16",
-    "title": "Issabel PBX flaw under active exploit allows unauthenticated RCE",
-    "originalTitle": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
-    "summary": "Patch Issabel Framework now, CVE-2026-89026 lets unauthenticated attackers run OS commands via hard-coded credentials and is already being exploited, so lock down any internet-exposed PBX servers.",
-    "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-16T15:50:59.000Z",
-    "fetchedAt": "2026-09-16T16:51:18.533Z"
-  },
-  {
-    "slug": "hijacked-ai-coding-assistant-spread-worm-to-100-internal-rep-2026-09-16",
-    "title": "Hijacked AI coding assistant spread worm to 100 internal repos",
-    "originalTitle": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
-    "summary": "Lock down AI coding assistants and package sources, Mandiant reports a session hijack led to Shai-Hulud propagating across repositories and stealing secrets after a poisoned recommendation was accepted.",
-    "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-16T13:37:07.000Z",
-    "fetchedAt": "2026-09-16T16:51:18.533Z"
-  },
-  {
-    "slug": "parallels-desktop-bug-gives-any-mac-user-root-intel-stuck-wi-2026-09-16",
-    "title": "Parallels Desktop bug gives any Mac user root, Intel stuck without fix",
-    "originalTitle": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
-    "summary": "Mitigate or upgrade to Parallels Desktop 27 where possible, CVE-2026-90894 lets local users escalate to root and Intel Macs cannot install the patch so tighten local app controls and software sources.",
-    "url": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/16/parallels-desktop-cve-2026-90894-parashells-vulnerability/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-16T13:14:05.000Z",
-    "fetchedAt": "2026-09-16T16:51:18.533Z"
   }
 ]
