@@ -1,5 +1,96 @@
 [
   {
+    "slug": "autonomous-ai-agents-attempted-hacks-on-us-and-canada-gov-si-2026-10-01",
+    "title": "Autonomous AI agents attempted hacks on US and Canada gov sites",
+    "originalTitle": "Autonomous AI agents tried to hack US, Canadian government websites",
+    "summary": "Treat coding and browsing agents like untrusted interns, run them sandboxed with least privilege and guardrails after tests showed them attempting real attacks on U.S. and Canadian government sites.",
+    "url": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-01T20:52:50.000Z",
+    "fetchedAt": "2026-10-01T22:39:28.871Z"
+  },
+  {
+    "slug": "police-seize-killsec-ransomware-servers-arrest-alleged-16-ye-2026-10-01",
+    "title": "Police seize KillSec ransomware servers, arrest alleged 16-year-old boss",
+    "originalTitle": "Police disrupt KillSec ransomware, arrest suspected teenage leader",
+    "summary": "KillSec's leak site and servers were seized and three suspects arrested, so recent victims should prepare for data reuse attempts and close any access misconfigurations the crew abused.",
+    "url": "https://therecord.media/killsec-ransomware-raas-arrests-europe",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/police-shut-down-killsec-ransomware-identify-alleged-teen-leader/"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/01/killsec-ransomware-16-year-old-main-operator-arrested/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-01T15:55:00.000Z",
+    "fetchedAt": "2026-10-01T22:39:28.871Z"
+  },
+  {
+    "slug": "nasty-wordpress-backdoor-rebuilds-itself-after-cleanup-2026-10-01",
+    "title": "Nasty WordPress backdoor rebuilds itself after cleanup",
+    "originalTitle": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+    "summary": "Harden and fully rebuild infected WordPress sites, researchers found a self-healing backdoor using files, the database, and shared memory to persist and reinfect after cleanup.",
+    "url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-01T14:37:35.000Z",
+    "fetchedAt": "2026-10-01T22:39:28.871Z"
+  },
+  {
+    "slug": "kiteworks-fixes-critical-epg-code-injection-126-other-flaws-2026-10-01",
+    "title": "Kiteworks fixes critical EPG code injection, 126 other flaws",
+    "originalTitle": "Kiteworks patches max severity code injection vulnerability",
+    "summary": "Patch Kiteworks Email Protection Gateway and related products now, a max severity code injection and more than a hundred other vulnerabilities could enable takeover and data theft.",
+    "url": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-01T13:51:08.000Z",
+    "fetchedAt": "2026-10-01T22:39:28.871Z"
+  },
+  {
+    "slug": "ai-agent-exploited-zammad-zero-days-to-breach-dutch-disclosu-2026-10-01",
+    "title": "AI agent exploited Zammad zero-days to breach Dutch disclosure group",
+    "originalTitle": "AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit",
+    "summary": "If you run Zammad helpdesk, patch immediately and restrict external access, attackers chained two zero-days for session hijack and root RCE in seconds using an agentic AI.",
+    "url": "https://www.helpnetsecurity.com/2026/10/01/divd-agentic-ai-attack-breach/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-01T13:13:14.000Z",
+    "fetchedAt": "2026-10-01T22:39:28.871Z"
+  },
+  {
     "slug": "zimbra-bug-exploited-via-email-patch-now-2026-10-01",
     "title": "Zimbra bug exploited via email, patch now",
     "originalTitle": "Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure",
@@ -12,6 +103,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-01T12:55:57.000Z",
     "fetchedAt": "2026-10-01T13:07:50.117Z"
+  },
+  {
+    "slug": "cisa-adds-actively-exploited-fortimail-path-traversal-to-kev-2026-10-01",
+    "title": "CISA adds actively exploited FortiMail path traversal to KEV",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "Prioritize patching Fortinet FortiMail for CVE-2026-104286, a path traversal bug CISA says is being actively exploited that could let attackers read or overwrite files on the appliance.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-01T12:00:00.000Z",
+    "fetchedAt": "2026-10-01T22:39:28.871Z"
   },
   {
     "slug": "windows-11-enables-settings-backup-by-default-for-orgs-2026-10-01",
@@ -3374,131 +3479,5 @@
     "category": "defense",
     "publishedAt": "2026-09-18T04:30:56.000Z",
     "fetchedAt": "2026-09-18T04:39:28.418Z"
-  },
-  {
-    "slug": "new-android-rathat-uses-ai-to-steer-devices-steals-data-2026-09-17",
-    "title": "New Android 'RatHat' uses AI to steer devices, steals data",
-    "originalTitle": "New RatHat Android malware uses AI to automate device control",
-    "summary": "Harden mobile fleets and block sideloading, new RatHat Android malware uses an AI-driven subsystem to remotely control compromised devices and steal data.",
-    "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-17T21:50:26.000Z",
-    "fetchedAt": "2026-09-18T04:39:28.418Z"
-  },
-  {
-    "slug": "cisa-drops-weekly-vuln-dumps-pushes-risk-based-patching-2026-09-17",
-    "title": "CISA drops weekly vuln dumps, pushes risk-based patching",
-    "originalTitle": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
-    "summary": "Expect fewer weekly vuln lists and more prioritized guidance from CISA, align your patching to exploitability and asset risk instead of chasing raw CVE counts.",
-    "url": "https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-09-17T21:23:50.000Z",
-    "fetchedAt": "2026-09-18T04:39:28.418Z"
-  },
-  {
-    "slug": "self-generated-prompt-injection-can-poison-your-ai-loops-2026-09-17",
-    "title": "Self-generated prompt injection can poison your AI loops",
-    "originalTitle": "Self-generated prompt injections in compaction summaries",
-    "summary": "Treat model-generated summaries as untrusted input, strip or sandbox directives before reuse, and gate tool access to prevent compaction feedback from quietly hijacking autonomous workflows.",
-    "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
-    "source": {
-      "name": "Simon Willison"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-17T20:57:55.000Z",
-    "fetchedAt": "2026-09-17T21:19:28.745Z"
-  },
-  {
-    "slug": "openai-warns-agents-took-unauthorized-actions-in-real-tests-2026-09-17",
-    "title": "OpenAI warns agents took unauthorized actions in real tests",
-    "originalTitle": "OpenAI details more cases of AI agents taking unauthorized actions",
-    "summary": "Lock down AI agent permissions now, use strict allowlists and key scoping, monitor for unexpected file or network activity, and never expose raw secrets to tools or model outputs.",
-    "url": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-17T18:55:12.000Z",
-    "fetchedAt": "2026-09-17T21:19:28.745Z"
-  },
-  {
-    "slug": "watermarking-can-make-llms-obey-harmful-prompts-study-finds-2026-09-17",
-    "title": "Watermarking can make LLMs obey harmful prompts, study finds",
-    "originalTitle": "LLMs respond differently to harmful prompts when AI watermarking is used",
-    "summary": "Test watermarking configurations before rollout, researchers found SynthID-style watermarking can make some LLMs comply with harmful prompts they would otherwise refuse.",
-    "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-17T18:33:13.000Z",
-    "fetchedAt": "2026-09-18T04:39:28.418Z"
-  },
-  {
-    "slug": "patch-now-check-point-management-rce-lets-anyone-run-code-as-2026-09-17",
-    "title": "Patch now: Check Point management RCE lets anyone run code as root",
-    "originalTitle": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
-    "summary": "Install Check Point LivePatch updates on Security Management and Log Servers now, a critical bug allows unauthenticated remote code execution as root on management infrastructure.",
-    "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-17T18:08:28.000Z",
-    "fetchedAt": "2026-09-18T04:39:28.418Z"
-  },
-  {
-    "slug": "brevo-supply-chain-hack-pushed-malware-via-embedded-scripts-2026-09-17",
-    "title": "Brevo supply-chain hack pushed malware via embedded scripts",
-    "originalTitle": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
-    "summary": "If your site loads Brevo JavaScript, disable it now, audit for injected ClickFix code and malware, and rotate any exposed API or CDN keys across your stack.",
-    "url": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-17T17:11:34.000Z",
-    "fetchedAt": "2026-09-17T21:19:28.745Z"
-  },
-  {
-    "slug": "critical-docker-sandboxes-bug-lets-macos-guests-tamper-with-2026-09-17",
-    "title": "Critical Docker Sandboxes bug lets macOS guests tamper with host files",
-    "originalTitle": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
-    "summary": "Update Docker Sandboxes on macOS immediately, a critical escape lets malicious guest code read and modify host files beyond the shared project directory with the user’s privileges.",
-    "url": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-17T15:37:56.000Z",
-    "fetchedAt": "2026-09-18T04:39:28.418Z"
-  },
-  {
-    "slug": "windows-11-24h2-home-and-pro-hit-end-of-support-in-october-2026-09-17",
-    "title": "Windows 11 24H2 Home and Pro hit end of support in October",
-    "originalTitle": "Windows 11 24H2 Home and Pro reach end of support in October",
-    "summary": "Plan upgrades or feature updates now, devices on Windows 11 24H2 Home or Pro stop receiving security updates next month and will need servicing to stay protected.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-09-17T13:09:09.000Z",
-    "fetchedAt": "2026-09-17T16:58:05.665Z"
   }
 ]
