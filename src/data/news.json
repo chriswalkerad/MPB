@@ -1,5 +1,61 @@
 [
   {
+    "slug": "attackers-abuse-screenconnect-client-to-persist-on-compromis-2026-10-01",
+    "title": "Attackers abuse ScreenConnect client to persist on compromised hosts",
+    "originalTitle": "ScreenConnect Client (Ab)used by Attackers, (Thu, Oct 1st)",
+    "summary": "Audit endpoints now, attackers are dropping the ScreenConnect client to maintain access, so block unauthorized installs, monitor for unexpected ScreenConnect services and connections, and rotate admin credentials.",
+    "url": "https://isc.sans.edu/diary/rss/33388",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-01T05:32:13.000Z",
+    "fetchedAt": "2026-10-01T05:47:21.170Z"
+  },
+  {
+    "slug": "attackers-exploit-ai-found-bugs-within-days-patch-faster-2026-10-01",
+    "title": "Attackers exploit AI-found bugs within days, patch faster",
+    "originalTitle": "The vulnerabilities AI finds are the ones attackers want",
+    "summary": "Prioritize and patch issues highlighted by AI research and public PoCs, Google’s data shows exploits often follow within days and overall exploitation still clusters on a small set of bugs.",
+    "url": "https://www.helpnetsecurity.com/2026/10/01/google-ai-discovered-vulnerabilities-remote-code-execution/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-01T05:00:35.000Z",
+    "fetchedAt": "2026-10-01T05:47:21.170Z"
+  },
+  {
+    "slug": "citrix-netscaler-exploits-create-hidden-superuser-and-css-ma-2026-10-01",
+    "title": "Citrix NetScaler exploits create hidden superuser and CSS-masked web shells",
+    "originalTitle": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
+    "summary": "Patch affected NetScaler ADC and Gateway immediately, attackers are exploiting a pre-auth command injection to add a superuser and hide web shells under CSS-like paths, and hunt for rogue admins and odd files.",
+    "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-01T04:35:34.000Z",
+    "fetchedAt": "2026-10-01T05:47:21.170Z"
+  },
+  {
+    "slug": "google-s-gemini-4-argon-aims-to-auto-find-and-patch-critical-2026-10-01",
+    "title": "Google’s Gemini 4 Argon aims to auto-find and patch critical flaws",
+    "originalTitle": "Google says Gemini 4 Argon can find and patch critical software flaws",
+    "summary": "Expect client questions, Google is piloting an AI model that can autonomously find, verify and patch vulnerabilities, so test in sandboxes and set governance before considering any assisted auto-fix workflows.",
+    "url": "https://www.helpnetsecurity.com/2026/10/01/google-gemini-4-argon/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-01T04:00:41.000Z",
+    "fetchedAt": "2026-10-01T05:47:21.170Z"
+  },
+  {
     "slug": "malicious-custom-gpts-used-to-deliver-rat-via-clickfix-lures-2026-09-30",
     "title": "Malicious Custom GPTs used to deliver RAT via ClickFix lures",
     "originalTitle": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
@@ -3547,33 +3603,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-17T06:39:40.000Z",
     "fetchedAt": "2026-09-17T16:58:05.665Z"
-  },
-  {
-    "slug": "ai-code-floods-open-source-maintainers-struggle-to-vet-secur-2026-09-17",
-    "title": "AI code floods open source, maintainers struggle to vet security",
-    "originalTitle": "AI is adding to the review load on open-source projects, many of them thinly funded",
-    "summary": "Expect more insecure dependencies, AI tools are accelerating code and bug submissions but thinly funded maintainers cannot vet changes at the needed pace, increasing supply chain risk.",
-    "url": "https://www.helpnetsecurity.com/2026/09/17/ai-and-open-source-projects/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-17T04:30:21.000Z",
-    "fetchedAt": "2026-09-17T04:49:00.504Z"
-  },
-  {
-    "slug": "claude-money-links-ai-directly-to-your-bank-accounts-2026-09-17",
-    "title": "Claude Money links AI directly to your bank accounts",
-    "originalTitle": "Anthropic wants Claude to analyze your bank account and financial data",
-    "summary": "Do not connect client bank accounts to AI tools without strict controls, Anthropic is testing Claude Money to ingest financial data, raising privacy, compliance, and fraud-risk questions.",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-17T00:35:48.000Z",
-    "fetchedAt": "2026-09-17T04:49:00.504Z"
   }
 ]
