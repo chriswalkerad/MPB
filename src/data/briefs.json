@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-01",
+    "date": "2026-10-01",
+    "title": "Zero-days, leaked creds, and remote helpdesk RCEs",
+    "intro": "Active exploits on core tools and some policy shifts to mind. Patch priority first, then go hunt for creds and persistence.",
+    "items": [
+      {
+        "heading": "Cisco SD-WAN Manager zero-day is live",
+        "body": "Attackers are exploiting CVE-2026-76504 to get unauthenticated admin access on Cisco Catalyst SD-WAN Manager, and CISA put it on the KEV list. If you run it, patch immediately and assume exposure if you cannot patch today. Check authentication logs and admin actions, and isolate or rebuild any manager showing suspicious changes.",
+        "url": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "cisco-sd-wan-manager-zero-day-exploited-patch-now-2026-10-01"
+      },
+      {
+        "heading": "Zimbra exploited via crafted emails",
+        "body": "A Zimbra bug, CVE-2026-73570, was exploited before disclosure using crafted emails that need no user interaction under certain configurations. Patch or apply mitigations now to close the hole. Review mail server logs and quarantine queues for unusual or malformed messages targeting Zimbra.",
+        "url": "https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "zimbra-bug-exploited-via-email-patch-now-2026-10-01"
+      },
+      {
+        "heading": "Zammad helpdesk zero-days to RCE",
+        "body": "Attackers chained zero-days in Zammad to hijack sessions, achieve remote code execution and root, then escalate privileges. Update Zammad now and verify your instance for unexpected admin actions or new users. Audit server integrity and rotate tokens or credentials used by the app.",
+        "url": "https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "zammad-helpdesk-zero-days-chained-to-rce-update-now-2026-10-01"
+      },
+      {
+        "heading": "ScreenConnect client abused for persistence",
+        "body": "Threat actors are dropping the ScreenConnect client on compromised hosts to stick around. Lock down software install rights, block unauthorized ScreenConnect deployments, and monitor for unexpected ScreenConnect services and outbound connections. Rotate admin credentials if you find any surprise installs.",
+        "url": "https://isc.sans.edu/diary/rss/33388",
+        "source": "SANS ISC",
+        "category": "threats",
+        "storySlug": "attackers-abuse-screenconnect-client-to-persist-on-compromis-2026-10-01"
+      },
+      {
+        "heading": "Apple PDF crash PoC is public",
+        "body": "A public PoC for CVE-2026-86950 in CoreGraphics can crash iOS and macOS via malicious PDFs, with hints at possible WhatsApp delivery. Install the latest Apple updates across fleet devices. Until patched, caution users on unsolicited PDFs and consider tightening attachment handling in mail and messaging.",
+        "url": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "apple-coregraphics-poc-crashes-devices-via-pdf-update-now-2026-10-01"
+      },
+      {
+        "heading": "Half a million live creds on GitHub",
+        "body": "Researchers found 500,000 active credentials exposed on GitHub despite default push protections. Audit your repos for secrets, enable secret scanning, and enforce pre-commit hooks. Rotate any exposed tokens or keys immediately and review CI logs for misuse.",
+        "url": "https://www.securityweek.com/500000-active-credentials-left-exposed-on-github/",
+        "source": "SecurityWeek",
+        "category": "defense",
+        "storySlug": "500k-active-credentials-exposed-on-github-check-your-org-2026-10-01"
+      },
+      {
+        "heading": "Windows 11 flips on settings backup by default",
+        "body": "Windows 11 will enable settings backup by default on Entra-joined systems after 26H2. Before rollout, audit backup policies, data residency, and privacy implications. Set explicit policy controls and inform tenants to avoid surprises.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
+        "source": "BleepingComputer",
+        "category": "industry",
+        "storySlug": "windows-11-enables-settings-backup-by-default-for-orgs-2026-10-01"
+      },
+      {
+        "heading": "Google gives vetted defenders Gemini 4 Argon",
+        "body": "Google is providing vetted defenders access to Gemini 4 Argon with fewer guardrails and says it already helped find a critical hospital software bug. Expect clients to ask about it and keep your AI usage policies ready. Validate outputs and stick to safe, auditable use cases.",
+        "url": "https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/",
+        "source": "SecurityWeek",
+        "category": "ai-security",
+        "storySlug": "google-ships-gemini-4-argon-to-vetted-defenders-2026-10-01"
+      }
+    ],
+    "signOff": "Patch early, log often, and get back to the queue.",
+    "generatedAt": "2026-10-01T18:55:25.513Z"
+  },
+  {
     "slug": "2026-09-30",
     "date": "2026-09-30",
     "title": "Patch the edge, lock browsers, rein in AI leaks",
@@ -2128,79 +2202,5 @@
     ],
     "signOff": "Alright, back to the ticket queue.",
     "generatedAt": "2026-09-02T17:12:01.677Z"
-  },
-  {
-    "slug": "2026-09-01",
-    "date": "2026-09-01",
-    "title": "Supply chain hits, auth bypasses, and phish on the prowl",
-    "intro": "Busy morning: a BGP hijack poisoned an update channel, multiple dev tools need emergency patches, and attackers are playing help desk on Teams.",
-    "items": [
-      {
-        "heading": "Virtualizor update channel hijacked via BGP",
-        "body": "Attackers briefly rerouted traffic and pushed malware through Virtualizor’s update path, so assume recent packages could be tainted. Pause updates, verify signatures against a known good source, and audit instances for suspicious binaries or outbound connections. If you host or manage Virtualizor, isolate until you are confident in integrity.",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "bgp-hijack-pushed-malicious-virtualizor-updates-2026-09-01"
-      },
-      {
-        "heading": "JFrog Artifactory auth bypass under active exploit",
-        "body": "An auth bypass in Artifactory, CVE-2026-82329, is being exploited to reach repos and pipelines. Patch immediately, then review audit logs, tokens, and service accounts for unusual access. Lock down external exposure and enforce MFA on admin paths.",
-        "url": "https://www.securityweek.com/critical-jfrog-artifactory-vulnerability-reportedly-exploited-in-the-wild/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "patch-now-jfrog-artifactory-auth-bypass-under-attack-2026-09-01"
-      },
-      {
-        "heading": "Unpatched Exchange servers ripe for mailbox takeover",
-        "body": "About 22,000 Exchange servers remain exposed to a mailbox hijack via an auth bypass. Apply the latest Exchange fix, disable Internet-facing OWA and ECP where you can, and hunt for rule changes or forwarding that could indicate takeover. If you cannot patch today, put compensating controls at the edge.",
-        "url": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "22-000-exchange-servers-still-open-to-mailbox-hijack-2026-09-01"
-      },
-      {
-        "heading": "Teams vishing: fake IT support dropping malware",
-        "body": "The Spring Ring crew used unsolicited Teams calls posing as IT to infect targets, hitting 150 plus employees across more than 10 companies. Train staff to hang up and verify through known channels, restrict local admin so a call cannot become a compromise, and watch for remote tooling installs. Consider blocking external Teams calls for high risk groups.",
-        "url": "https://www.helpnetsecurity.com/2026/09/01/spring-ring-vishing-campaign-microsoft-teams/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "teams-vishing-uses-fake-it-support-to-land-malware-2026-09-01"
-      },
-      {
-        "heading": "ClickFix phish uses Polygon as rotating C2",
-        "body": "ClickFix abused blockchain infrastructure on Polygon to rotate command servers and compromised 31 organizations. Stop clipboard based prompts like “prove you are human,” lock down terminal access on user machines, and filter indicators tied to EtherHiding style hosting. Review endpoint telemetry for paste and shell activity following suspicious web prompts.",
-        "url": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
-        "source": "Dark Reading",
-        "category": "threats",
-        "storySlug": "clickfix-phish-uses-blockchain-c2-compromises-31-orgs-2026-09-01"
-      },
-      {
-        "heading": "Langflow RCE: CVE-2026-0768 under active exploit",
-        "body": "Attackers can execute arbitrary Python code on Langflow without authentication. If you run it, update now or pull instances off the network, then check for unexpected processes, files, or modules. Keep Langflow behind auth and restrict egress from its host.",
-        "url": "https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "langflow-rce-under-active-exploit-patch-now-2026-09-01"
-      },
-      {
-        "heading": "Fake Claude app hides RevStealer to grab credentials",
-        "body": "A bogus “Claude Opus 5” app is spreading from GitHub and carrying RevStealer to lift credentials. Block and hunt for RevStealer, warn users to avoid free AI apps outside approved catalogs, and only distribute AI tools through managed software channels. Pull any unvetted AI binaries you find and rotate affected passwords.",
-        "url": "https://www.helpnetsecurity.com/2026/09/01/revstealer-malware-claude-opus-5-github/",
-        "source": "Help Net Security",
-        "category": "ai-security",
-        "storySlug": "fake-claude-opus-5-app-steals-creds-via-revstealer-2026-09-01"
-      },
-      {
-        "heading": "Aesto Health AWS breach exposes 9.5M patients",
-        "body": "Attackers stole PHI from Aesto Health’s AWS environment affecting 9.5 million individuals. For healthcare clients, review vendor access, least privilege, and cloud guardrails, then validate logging and key rotation. Confirm BAAs and incident notification paths are current.",
-        "url": "https://www.securityweek.com/9-5-million-impacted-by-aesto-health-data-breach/",
-        "source": "SecurityWeek",
-        "category": "threats",
-        "storySlug": "9-5m-patients-hit-in-aesto-health-aws-breach-2026-09-01"
-      }
-    ],
-    "signOff": "Patch first, verify twice, then tackle the tickets.",
-    "generatedAt": "2026-09-01T17:21:03.779Z"
   }
 ]
