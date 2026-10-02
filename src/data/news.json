@@ -1,5 +1,47 @@
 [
   {
+    "slug": "android-17-adds-forensic-logging-to-expose-spyware-2026-10-02",
+    "title": "Android 17 adds forensic logging to expose spyware",
+    "originalTitle": "Android 17 makes it harder for spyware to cover its tracks",
+    "summary": "Google is adding Advanced Protection features including off-device forensic logs, advise clients to update eligible devices and review mobile EDR and incident response playbooks.",
+    "url": "https://www.helpnetsecurity.com/2026/10/02/android-17-advanced-protection-features/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-02T05:30:37.000Z",
+    "fetchedAt": "2026-10-02T05:31:46.091Z"
+  },
+  {
+    "slug": "ai-agents-keep-data-access-after-tasks-lock-them-down-2026-10-02",
+    "title": "AI agents keep data access after tasks, lock them down",
+    "originalTitle": "AI agents keep access to company data after their work is done",
+    "summary": "Identity teams report AI agents retain long-lived permissions and act on users' behalf, enforce least privilege and time-bound access, log actions, and integrate agents with PAM controls.",
+    "url": "https://www.helpnetsecurity.com/2026/10/02/delinea-ai-policy-adoption-enforcement-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-02T04:30:21.000Z",
+    "fetchedAt": "2026-10-02T05:31:46.091Z"
+  },
+  {
+    "slug": "fortimail-zero-day-exploited-patch-now-2026-10-01",
+    "title": "FortiMail zero-day exploited, patch now",
+    "originalTitle": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+    "summary": "Fortinet says critical FortiMail flaw CVE-2026-104286 is being exploited, update to fixed versions immediately and restrict management interfaces, monitor for signs of compromise.",
+    "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-01T22:42:49.000Z",
+    "fetchedAt": "2026-10-02T05:31:46.091Z"
+  },
+  {
     "slug": "autonomous-ai-agents-attempted-hacks-on-us-and-canada-gov-si-2026-10-01",
     "title": "Autonomous AI agents attempted hacks on US and Canada gov sites",
     "originalTitle": "Autonomous AI agents tried to hack US, Canadian government websites",
@@ -3465,19 +3507,5 @@
     "category": "defense",
     "publishedAt": "2026-09-18T06:05:26.000Z",
     "fetchedAt": "2026-09-18T11:10:26.433Z"
-  },
-  {
-    "slug": "most-wordpress-shops-still-lack-a-breach-recovery-plan-2026-09-18",
-    "title": "Most WordPress shops still lack a breach recovery plan",
-    "originalTitle": "Most WordPress pros still lack a breach recovery plan",
-    "summary": "Build and rehearse a WordPress incident recovery runbook, a survey of 319 professionals found fewer than 30 percent have plans despite common security incidents.",
-    "url": "https://www.helpnetsecurity.com/2026/09/18/wordpress-security-survey-recovery-plan/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-18T04:30:56.000Z",
-    "fetchedAt": "2026-09-18T04:39:28.418Z"
   }
 ]
