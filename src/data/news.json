@@ -1,5 +1,103 @@
 [
   {
+    "slug": "warlock-group-targeting-unpatched-sharepoint-servers-2026-10-02",
+    "title": "Warlock group targeting unpatched SharePoint servers",
+    "originalTitle": "Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks",
+    "summary": "Admins should patch SharePoint fast, restrict external exposure, and hunt for webshells and odd IIS activity as Warlock expands real-world exploitation.",
+    "url": "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-02T09:34:41.000Z",
+    "fetchedAt": "2026-10-02T12:28:42.942Z"
+  },
+  {
+    "slug": "microsoft-s-x-account-hijacked-for-crypto-pump-2026-10-02",
+    "title": "Microsoft’s X account hijacked for crypto pump",
+    "originalTitle": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
+    "summary": "Review social media account security, enforce phishing-resistant MFA and credential hygiene, as attackers briefly abused Microsoft’s X account to push a token scam to 13 million followers.",
+    "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-02T09:29:56.000Z",
+    "fetchedAt": "2026-10-02T12:28:42.942Z"
+  },
+  {
+    "slug": "ai-agents-launched-sqli-at-us-and-canada-government-sites-2026-10-02",
+    "title": "AI agents launched SQLi at US and Canada government sites",
+    "originalTitle": "AI Agents Aimed SQL Injection at US and Canadian Government Sites",
+    "summary": "Expect more automated SQL injection from AI-driven tools, so lock down web apps with parameterized queries, input validation, and WAF rules, and monitor for weird bot traffic.",
+    "url": "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-02T08:38:46.000Z",
+    "fetchedAt": "2026-10-02T12:28:42.942Z"
+  },
+  {
+    "slug": "android-17-locks-accessibility-apis-to-verified-apps-2026-10-02",
+    "title": "Android 17 locks accessibility APIs to verified apps",
+    "originalTitle": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
+    "summary": "If you manage Android fleets, enable Advanced Protection to block malware abusing accessibility services, and audit mobile app permissions and MDM policies ahead of the Android 17 rollout.",
+    "url": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-02T08:01:30.000Z",
+    "fetchedAt": "2026-10-02T12:28:42.942Z"
+  },
+  {
+    "slug": "criminals-recruiting-insiders-to-sell-access-2026-10-02",
+    "title": "Criminals recruiting insiders to sell access",
+    "originalTitle": "Criminal recruiters want people on your payroll",
+    "summary": "Tighten least privilege and approvals, monitor for anomalous employee activity, and remind staff about ethics hotlines as crews pay workers to reset accounts and change transactions.",
+    "url": "https://www.helpnetsecurity.com/2026/10/02/intel-471-insider-threat-recruitment-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-02T06:00:05.000Z",
+    "fetchedAt": "2026-10-02T12:28:42.942Z"
+  },
+  {
+    "slug": "fortimail-zero-day-exploited-apply-workaround-now-2026-10-02",
+    "title": "FortiMail zero-day exploited, apply workaround now",
+    "originalTitle": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+    "summary": "Fortinet warns CVE-2026-104286 is being exploited, so lock down FortiMail, apply the vendor workaround, and plan to patch as soon as fixes land.",
+    "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/02/fortinet-fortimail-vulnerability-cve-2026-104286/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-02T05:49:50.000Z",
+    "fetchedAt": "2026-10-02T12:28:42.942Z"
+  },
+  {
     "slug": "android-17-adds-forensic-logging-to-expose-spyware-2026-10-02",
     "title": "Android 17 adds forensic logging to expose spyware",
     "originalTitle": "Android 17 makes it harder for spyware to cover its tracks",
@@ -3334,178 +3432,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-18T12:47:04.000Z",
     "fetchedAt": "2026-09-18T16:22:14.518Z"
-  },
-  {
-    "slug": "microsoft-fixes-false-defender-antivirus-is-turned-off-alert-2026-09-18",
-    "title": "Microsoft fixes false Defender Antivirus is turned off alerts",
-    "originalTitle": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
-    "summary": "Stop chasing ghosts, the recent updates causing bogus Microsoft Defender disabled alerts are fixed, ensure Windows is fully updated and reassure help desks and users.",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-18T12:16:32.000Z",
-    "fetchedAt": "2026-09-18T16:22:14.518Z"
-  },
-  {
-    "slug": "cisa-adds-actively-exploited-linux-kernel-bug-to-kev-list-2026-09-18",
-    "title": "CISA adds actively exploited Linux kernel bug to KEV list",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Prioritize patching or mitigation for CVE-2025-39682 on Linux systems, inventory affected kernels and remediate by CISA's due date to reduce known exploited risk.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "fetchedAt": "2026-09-18T20:52:47.671Z"
-  },
-  {
-    "slug": "cisa-adds-two-actively-exploited-linux-kernel-flaws-to-kev-2026-09-18",
-    "title": "CISA adds two actively exploited Linux kernel flaws to KEV",
-    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "summary": "Patch Linux kernels now or apply vendor updates, CISA says two kernel bugs are under active exploitation and must be remediated on federal and enterprise systems.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "fetchedAt": "2026-09-18T16:22:14.518Z"
-  },
-  {
-    "slug": "abandoned-cdn-domain-re-registered-thousands-still-call-it-2026-09-18",
-    "title": "Abandoned CDN domain re-registered, thousands still call it",
-    "originalTitle": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
-    "summary": "Audit code and CSPs for dead CDN domains, enable Subresource Integrity, and remove hard-coded links after researchers found a re-registered CDN domain still serving assets to thousands.",
-    "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-18T11:01:16.000Z",
-    "fetchedAt": "2026-09-18T16:22:14.518Z"
-  },
-  {
-    "slug": "plugin4shell-lets-ai-coding-agents-install-swapped-plugins-d-2026-09-18",
-    "title": "Plugin4Shell lets AI coding agents install swapped plugins despite pinning",
-    "originalTitle": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-    "summary": "Update AI coding agents and pin plugins by commit hash, a flaw let repo owners swap code despite version locks, now patched in Claude Code and OpenAI but not Copilot.",
-    "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-18T11:01:01.000Z",
-    "fetchedAt": "2026-09-18T16:22:14.518Z"
-  },
-  {
-    "slug": "13-npm-packages-deliver-new-weaselbiscuit-info-stealer-2026-09-18",
-    "title": "13 npm packages deliver new WeaselBiscuit info-stealer",
-    "originalTitle": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-    "summary": "Purge the 13 malicious npm packages from your projects and rotate exposed secrets, they deliver a new WeaselBiscuit stealer that raids Chrome extension storage.",
-    "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-18T10:40:06.000Z",
-    "fetchedAt": "2026-09-18T11:10:26.433Z"
-  },
-  {
-    "slug": "brevo-api-key-breach-injects-malware-on-100k-websites-2026-09-18",
-    "title": "Brevo API key breach injects malware on 100k websites",
-    "originalTitle": "Brevo Supply Chain Attack Injects Malware Into 100,000 Websites",
-    "summary": "Rotate any Brevo API keys, audit Cloudflare Workers and site scripts, attackers abused a stolen key to inject malware into roughly 100,000 websites.",
-    "url": "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-18T09:46:57.000Z",
-    "fetchedAt": "2026-09-18T11:10:26.433Z"
-  },
-  {
-    "slug": "zero-click-rce-found-in-major-ai-coding-agents-2026-09-18",
-    "title": "Zero-click RCE found in major AI coding agents",
-    "originalTitle": "Zero-click RCE vulnerability hit four major AI coding agents, two remain unpatched",
-    "summary": "Disable or sandbox affected AI coding agents and apply fixes where available, a zero-click RCE can grant attackers the same access as the developer running them.",
-    "url": "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-18T08:49:00.000Z",
-    "fetchedAt": "2026-09-18T11:10:26.433Z"
-  },
-  {
-    "slug": "actively-exploited-rce-hits-orkes-conductor-2026-09-18",
-    "title": "Actively exploited RCE hits Orkes Conductor",
-    "originalTitle": "Critical Orkes Conductor Vulnerability Exploited in Attacks",
-    "summary": "Patch Orkes Conductor now and hunt for suspicious inline workflow definitions, attackers are exploiting an unauthenticated RCE tracked as CVE-2026-58138.",
-    "url": "https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-18T08:42:18.000Z",
-    "fetchedAt": "2026-09-18T11:10:26.433Z"
-  },
-  {
-    "slug": "patch-now-critical-check-point-rce-on-management-servers-2026-09-18",
-    "title": "Patch now: critical Check Point RCE on management servers",
-    "originalTitle": "Check Point, Kaspersky, Tanium Patch Product Vulnerabilities",
-    "summary": "Update Check Point Security Management and Log Servers immediately to fix a root-level RCE, and review newly released patches from Kaspersky and Tanium across your fleet.",
-    "url": "https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-18T07:14:04.000Z",
-    "fetchedAt": "2026-09-18T11:10:26.433Z"
-  },
-  {
-    "slug": "ai-agent-breached-spanish-org-changed-personal-data-2026-09-18",
-    "title": "AI agent breached Spanish org, changed personal data",
-    "originalTitle": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
-    "summary": "Restrict AI agents with least privilege, approvals and auditing, one reportedly breached a Spanish organization and modified personal data without human oversight.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-18T07:00:00.000Z",
-    "fetchedAt": "2026-09-18T11:10:26.433Z"
-  },
-  {
-    "slug": "new-http-query-method-could-bypass-your-get-post-controls-2026-09-18",
-    "title": "New HTTP QUERY method could bypass your GET/POST controls",
-    "originalTitle": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
-    "summary": "Update WAFs, proxies and logging to understand the new HTTP QUERY method, it can slip past controls tuned only for GET and POST behaviors.",
-    "url": "https://isc.sans.edu/diary/rss/33352",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-18T06:05:26.000Z",
-    "fetchedAt": "2026-09-18T11:10:26.433Z"
   }
 ]
