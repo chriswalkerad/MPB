@@ -1,5 +1,19 @@
 [
   {
+    "slug": "shinyhunters-member-detained-in-jordan-aiding-fbi-2026-10-03",
+    "title": "ShinyHunters member detained in Jordan, aiding FBI",
+    "originalTitle": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
+    "summary": "Review past ShinyHunters exposure and tighten leak monitoring and MFA, a suspected member detained in Jordan is helping the FBI pursue the group.",
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-03T19:09:38.000Z",
+    "fetchedAt": "2026-10-03T21:11:42.045Z"
+  },
+  {
     "slug": "yara-x-1-21-0-brings-fixes-and-speed-boosts-for-hunters-2026-10-03",
     "title": "YARA-X 1.21.0 brings fixes and speed boosts for hunters",
     "originalTitle": "YARA-X 1.21.0 Release, (Sat, Oct 3rd)",
