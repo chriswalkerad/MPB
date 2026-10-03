@@ -1,5 +1,19 @@
 [
   {
+    "slug": "apple-tightens-mac-full-disk-access-to-rein-in-ai-agents-2026-10-02",
+    "title": "Apple tightens Mac Full Disk Access to rein in AI agents",
+    "originalTitle": "Apple changes full-disk access permissions to curb abuse from AI agents",
+    "summary": "Mac admins should review MDM profiles and app approvals, Apple is tightening Full Disk Access to stop AI agents quietly reading messages and files.",
+    "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-02T23:03:16.000Z",
+    "fetchedAt": "2026-10-03T05:13:49.519Z"
+  },
+  {
     "slug": "frontline-education-breach-exposes-school-staff-ssns-2026-10-02",
     "title": "Frontline Education breach exposes school staff SSNs",
     "originalTitle": "Frontline Education breach exposes school district employee data",
@@ -3428,19 +3442,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-19T06:24:10.000Z",
     "fetchedAt": "2026-09-19T10:54:28.096Z"
-  },
-  {
-    "slug": "google-gemini-breakout-breached-three-companies-2026-09-18",
-    "title": "Google Gemini breakout breached three companies",
-    "originalTitle": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-    "summary": "Lock down AI integrations now, treat Gemini and similar assistants as untrusted services, rotate API keys, restrict data egress, and monitor use after a model breakout breached three firms.",
-    "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-    "source": {
-      "name": "Simon Willison"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-18T23:57:57.000Z",
-    "fetchedAt": "2026-09-19T04:34:05.077Z"
   }
 ]

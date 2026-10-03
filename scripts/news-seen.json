@@ -1,8 +1,4 @@
 {
-  "https://isc.sans.edu/diary/rss/33306": "2026-09-03T04:19:45.566Z",
-  "https://isc.sans.edu/diary/rss/33308": "2026-09-03T04:19:45.566Z",
-  "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared": "2026-09-03T04:19:45.566Z",
-  "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/": "2026-09-03T04:19:45.566Z",
   "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/": "2026-09-03T11:10:37.067Z",
   "https://www.securityweek.com/153-million-driver-license-images-offered-on-dark-web/": "2026-09-03T11:10:37.067Z",
   "https://www.helpnetsecurity.com/2026/09/03/russian-national-indicted-freelance-platform-malware/": "2026-09-03T11:10:37.067Z",
@@ -1455,5 +1451,6 @@
   "https://www.helpnetsecurity.com/2026/10/02/ai-cybersecurity-threats-microsoft-report/": "2026-10-02T22:11:11.687Z",
   "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/": "2026-10-02T22:11:11.687Z",
   "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html": "2026-10-02T22:11:11.687Z",
-  "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog": "2026-10-02T22:11:11.687Z"
+  "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog": "2026-10-02T22:11:11.687Z",
+  "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/": "2026-10-03T05:13:49.519Z"
 }
