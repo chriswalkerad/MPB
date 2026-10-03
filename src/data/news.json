@@ -1,5 +1,33 @@
 [
   {
+    "slug": "yara-x-1-21-0-brings-fixes-and-speed-boosts-for-hunters-2026-10-03",
+    "title": "YARA-X 1.21.0 brings fixes and speed boosts for hunters",
+    "originalTitle": "YARA-X 1.21.0 Release, (Sat, Oct 3rd)",
+    "summary": "Upgrade to YARA-X 1.21.0 to pick up five improvements and four bug fixes that stabilize and speed rule scanning in your DFIR and detection workflows.",
+    "url": "https://isc.sans.edu/diary/rss/33392",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-03T14:40:21.000Z",
+    "fetchedAt": "2026-10-03T16:14:48.194Z"
+  },
+  {
+    "slug": "patch-sharepoint-exploits-killing-edr-and-dropping-ransomwar-2026-10-03",
+    "title": "Patch SharePoint, exploits killing EDR and dropping ransomware",
+    "originalTitle": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+    "summary": "Patch SharePoint to current cumulative updates, restrict internet exposure, and hunt for webshells, Warlock is abusing SharePoint flaws to disable security tools and deploy ransomware.",
+    "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-03T14:36:33.000Z",
+    "fetchedAt": "2026-10-03T16:14:48.194Z"
+  },
+  {
     "slug": "patch-fortra-boks-critical-auth-bypass-and-command-execution-2026-10-03",
     "title": "Patch Fortra BoKS: critical auth bypass and command execution",
     "originalTitle": "Fortra Patches Critical Vulnerabilities in BoKS",
@@ -3330,61 +3358,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-20T08:00:21.000Z",
     "fetchedAt": "2026-09-20T11:18:36.499Z"
-  },
-  {
-    "slug": "malicious-extension-can-hijack-ai-browser-agents-across-chro-2026-09-19",
-    "title": "Malicious extension can hijack AI browser agents across Chrome-based apps",
-    "originalTitle": "BragJack attacks hijack AI browser agents through malicious extensions",
-    "summary": "Lock down extensions and monitor AI assistant activity, a new proof-of-concept shows one malicious add-on can hijack Claude, Perplexity, and other Chrome-based AI agents via prompt forcing.",
-    "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-19T14:56:31.000Z",
-    "fetchedAt": "2026-09-19T15:51:10.895Z"
-  },
-  {
-    "slug": "waterplum-malware-infected-30-000-devices-check-for-iocs-2026-09-19",
-    "title": "WaterPlum malware infected 30,000 devices, check for IOCs",
-    "originalTitle": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
-    "summary": "Review the joint advisory and scan endpoints, North Korea’s WaterPlum operators compromised at least 30,000 devices since Dec 2025 and funneled $10.7 million in stolen cryptocurrency.",
-    "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-19T14:05:15.000Z",
-    "fetchedAt": "2026-09-19T15:51:10.895Z"
-  },
-  {
-    "slug": "researchers-used-claude-to-chain-exploits-into-openai-employ-2026-09-19",
-    "title": "Researchers used Claude to chain exploits into OpenAI employee accounts",
-    "originalTitle": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-    "summary": "Audit SSO and support forum integrations, researchers say Claude Opus 5 helped chain two flaws to seize OpenAI staff ChatGPT and Codex accounts then reach an internal code repo.",
-    "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-19T13:28:35.000Z",
-    "fetchedAt": "2026-09-19T15:51:10.895Z"
-  },
-  {
-    "slug": "viral-ai-hotline-face-scans-callers-tracks-mood-read-the-fin-2026-09-19",
-    "title": "Viral AI hotline face-scans callers, tracks mood, read the fine print",
-    "originalTitle": "Viral AI actress' hotline face-scans every caller, watches their mood",
-    "summary": "Block or restrict viral AI video call apps that perform face scanning and mood tracking, these collect biometric data and raise privacy risks, update acceptable use and data handling policies.",
-    "url": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-19T11:38:20.000Z",
-    "fetchedAt": "2026-09-19T20:36:25.584Z"
   }
 ]
