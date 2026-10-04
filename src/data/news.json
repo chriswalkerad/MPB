@@ -1,5 +1,19 @@
 [
   {
+    "slug": "actively-exploited-citrix-netscaler-flaw-added-to-cisa-kev-2026-10-04",
+    "title": "Actively exploited Citrix NetScaler flaw added to CISA KEV",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "Running Citrix NetScaler, patch CVE-2026-88779 immediately, CISA added it to KEV due to active exploitation, prioritize updating gateways and monitoring for signs of compromise.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-04T12:00:00.000Z",
+    "fetchedAt": "2026-10-04T21:20:27.125Z"
+  },
+  {
     "slug": "claude-voice-data-opt-in-prompts-lock-down-settings-2026-10-04",
     "title": "Claude voice data opt-in prompts, lock down settings",
     "originalTitle": "Anthropic asks Claude users to share voice data for AI model training",
