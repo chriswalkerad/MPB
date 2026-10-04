@@ -1,15 +1,4 @@
 {
-  "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html": "2026-09-04T11:15:56.671Z",
-  "https://www.helpnetsecurity.com/2026/09/04/microsoft-teams-qr-code-phishing-protection/": "2026-09-04T11:15:56.671Z",
-  "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html": "2026-09-04T11:15:56.671Z",
-  "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html": "2026-09-04T11:15:56.671Z",
-  "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html": "2026-09-04T11:15:56.671Z",
-  "https://www.helpnetsecurity.com/2026/09/04/september-2026-patch-tuesday-forecast/": "2026-09-04T11:15:56.671Z",
-  "https://simonwillison.net/2026/Sep/4/august-newsletter/": "2026-09-04T11:15:56.671Z",
-  "https://www.helpnetsecurity.com/2026/09/04/ai-agent-credentials-video/": "2026-09-04T11:15:56.671Z",
-  "https://www.helpnetsecurity.com/2026/09/04/scam-texts-peak-research/": "2026-09-04T11:15:56.671Z",
-  "https://www.helpnetsecurity.com/2026/09/04/openai-daybreak-frontline-defenders-access/": "2026-09-04T11:15:56.671Z",
-  "https://www.helpnetsecurity.com/2026/09/04/echo-claude-mythos-vulnerability-findings/": "2026-09-04T11:15:56.671Z",
   "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/": "2026-09-04T16:19:50.470Z",
   "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/": "2026-09-04T16:19:50.470Z",
   "https://www.securityweek.com/openai-pledges-1-billion-to-bring-frontier-ai-to-critical-infrastructure-defenders/": "2026-09-04T16:19:50.470Z",
@@ -1405,5 +1394,10 @@
   "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/": "2026-10-03T21:11:42.045Z",
   "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/": "2026-10-04T05:47:56.953Z",
   "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/": "2026-10-04T05:47:56.953Z",
-  "https://simonwillison.net/2026/Oct/3/newsletter/": "2026-10-04T05:47:56.953Z"
+  "https://simonwillison.net/2026/Oct/3/newsletter/": "2026-10-04T05:47:56.953Z",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/": "2026-10-04T12:17:41.633Z",
+  "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/": "2026-10-04T12:17:41.633Z",
+  "https://isc.sans.edu/diary/rss/33394": "2026-10-04T12:17:41.633Z",
+  "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html": "2026-10-04T12:17:41.633Z",
+  "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html": "2026-10-04T12:17:41.633Z"
 }
