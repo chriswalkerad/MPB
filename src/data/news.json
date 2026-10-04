@@ -3386,19 +3386,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-21T04:00:31.000Z",
     "fetchedAt": "2026-09-21T04:51:37.332Z"
-  },
-  {
-    "slug": "npm-malware-hides-in-runtime-to-bypass-install-script-checks-2026-09-20",
-    "title": "npm malware hides in runtime to bypass install-script checks",
-    "originalTitle": "Malicious npm packages evade install-script defenses at runtime",
-    "summary": "Malicious npm packages like indexed-btree trigger payloads at runtime, evading install-script checks, so audit dependencies, pin versions, and monitor build and app network egress.",
-    "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-20T14:11:21.000Z",
-    "fetchedAt": "2026-09-20T16:02:13.238Z"
   }
 ]
