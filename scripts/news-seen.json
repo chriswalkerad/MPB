@@ -1,8 +1,4 @@
 {
-  "https://isc.sans.edu/diary/rss/33312": "2026-09-05T04:23:15.269Z",
-  "https://simonwillison.net/2026/Sep/4/astra-pelicans/": "2026-09-05T04:23:15.269Z",
-  "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/": "2026-09-05T04:23:15.269Z",
-  "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai": "2026-09-05T04:23:15.269Z",
   "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html": "2026-09-05T10:31:38.324Z",
   "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html": "2026-09-05T10:31:38.324Z",
   "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/": "2026-09-05T15:10:44.964Z",
@@ -1368,5 +1364,12 @@
   "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html": "2026-10-04T12:17:41.633Z",
   "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html": "2026-10-04T12:17:41.633Z",
   "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/": "2026-10-04T16:52:16.261Z",
-  "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog": "2026-10-04T21:20:27.125Z"
+  "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog": "2026-10-04T21:20:27.125Z",
+  "https://www.helpnetsecurity.com/2026/10/05/drew-mccombs-cylerity-healthcare-fintech-security/": "2026-10-05T05:33:48.052Z",
+  "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/": "2026-10-05T05:33:48.052Z",
+  "https://www.helpnetsecurity.com/2026/10/05/keyorix-open-source-on-premise-secrets-management/": "2026-10-05T05:33:48.052Z",
+  "https://www.helpnetsecurity.com/2026/10/05/remote-monitoring-and-management-rmm-abuse/": "2026-10-05T05:33:48.052Z",
+  "https://isc.sans.edu/diary/rss/33398": "2026-10-05T05:33:48.052Z",
+  "https://isc.sans.edu/diary/rss/33396": "2026-10-05T05:33:48.052Z",
+  "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/": "2026-10-05T05:33:48.052Z"
 }

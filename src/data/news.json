@@ -1,5 +1,66 @@
 [
   {
+    "slug": "self-hosted-secrets-manager-for-teams-that-cannot-use-saas-2026-10-05",
+    "title": "Self-hosted secrets manager for teams that cannot use SaaS",
+    "originalTitle": "Keyorix: Open-source secrets management for teams that can’t use SaaS",
+    "summary": "If you must keep secrets on-prem, consider Keyorix, an open-source single-binary secrets manager that keeps API keys out of code and runs without internet access.",
+    "url": "https://www.helpnetsecurity.com/2026/10/05/keyorix-open-source-on-premise-secrets-management/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-05T05:00:57.000Z",
+    "fetchedAt": "2026-10-05T05:33:48.052Z"
+  },
+  {
+    "slug": "attackers-are-hiding-in-plain-sight-by-abusing-rmm-tools-2026-10-05",
+    "title": "Attackers are hiding in plain sight by abusing RMM tools",
+    "originalTitle": "How RMM abuse gives attackers a way in that looks like business as usual",
+    "summary": "Lock down RMM agents and access, enforce MFA, restrict interactive use, and monitor remote sessions, as Huntress saw RMM abuse in 45 percent of endpoint incidents.",
+    "url": "https://www.helpnetsecurity.com/2026/10/05/remote-monitoring-and-management-rmm-abuse/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-05T04:30:08.000Z",
+    "fetchedAt": "2026-10-05T05:33:48.052Z"
+  },
+  {
+    "slug": "capture-tty-and-shell-logs-they-show-what-attackers-do-next-2026-10-05",
+    "title": "Capture TTY and shell logs, they show what attackers do next",
+    "originalTitle": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
+    "summary": "Enable Linux TTY and audit logging, forward them to your SIEM, and use the command trails to detect post-login abuse and speed investigations.",
+    "url": "https://isc.sans.edu/diary/rss/33396",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-05T00:15:00.000Z",
+    "fetchedAt": "2026-10-05T05:33:48.052Z"
+  },
+  {
+    "slug": "citrix-netscaler-zero-day-exploited-patch-now-2026-10-04",
+    "title": "Citrix NetScaler zero-day exploited, patch now",
+    "originalTitle": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+    "summary": "If you run NetScaler ADC or Gateway, install the updates for CVE-2026-88779 immediately, check for crash or traffic spikes, and review logs for exploitation attempts.",
+    "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-04T21:58:01.000Z",
+    "fetchedAt": "2026-10-05T05:33:48.052Z"
+  },
+  {
     "slug": "actively-exploited-citrix-netscaler-flaw-added-to-cisa-kev-2026-10-04",
     "title": "Actively exploited Citrix NetScaler flaw added to CISA KEV",
     "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -3372,33 +3433,5 @@
     "category": "threats",
     "publishedAt": "2026-09-21T08:39:38.000Z",
     "fetchedAt": "2026-09-21T12:43:36.899Z"
-  },
-  {
-    "slug": "intent-injection-risk-in-ai-run-networks-2026-09-21",
-    "title": "Intent injection risk in AI-run networks",
-    "originalTitle": "Intent injection attacks are a new worry for AI-native 6G networks",
-    "summary": "Treat LLM-driven network automation as untrusted, researchers showed intent injection can subvert intent based networking, so enforce input validation, policy constraints, and independent change verification.",
-    "url": "https://www.helpnetsecurity.com/2026/09/21/6g-intent-injection-attacks/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-21T04:30:55.000Z",
-    "fetchedAt": "2026-09-21T04:51:37.332Z"
-  },
-  {
-    "slug": "ai-compliance-failures-tied-to-clunky-workflows-2026-09-21",
-    "title": "AI compliance failures tied to clunky workflows",
-    "originalTitle": "AI compliance issues hit 2 in 5 large companies, and legacy workflows are a big factor",
-    "summary": "Audit and automate your AI workflows, 40 percent of large firms reported AI compliance or governance incidents in the past year, with manual approvals and handoffs driving most exposure.",
-    "url": "https://www.helpnetsecurity.com/2026/09/21/ai-compliance-issues-research/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-21T04:00:31.000Z",
-    "fetchedAt": "2026-09-21T04:51:37.332Z"
   }
 ]
