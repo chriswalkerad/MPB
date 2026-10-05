@@ -21838,5 +21838,331 @@
     "url": "https://www.meetup.com/owasp-atlanta/events/316689246/",
     "source": "OWASP Atlanta (Meetup)",
     "description": "OWASP Atlanta hosts a straight talk on human-in-the-loop GenAI decisions, from SOC triage to KYC. Come for a pragmatic look at oversight theater and how to make controls actually work."
+  },
+  {
+    "name": "SecureWorld Charlotte 2027",
+    "slug": "secureworld-charlotte-2027",
+    "date": "2027-03-10T09:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Charlotte",
+    "state": "NC",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld Charlotte brings regional security pros together for practitioner-led keynotes, panels, and breakouts. CPE credits and solid networking with local experts and solution providers are on tap."
+  },
+  {
+    "name": "SecureWorld Houston 2027",
+    "slug": "secureworld-houston-2027",
+    "date": "2027-03-25T09:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Houston",
+    "state": "TX",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld Houston delivers practitioner-led keynotes, panels, and breakout sessions for the local infosec community. Expect CPE opportunities and time to connect with trusted technology and service providers."
+  },
+  {
+    "name": "SecureWorld Kansas City 2027",
+    "slug": "secureworld-kansas-city-2027",
+    "date": "2027-04-15T09:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Kansas City",
+    "state": "KS",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld Kansas City is a right-size security conference with keynotes, panels, and breakouts led by practitioners. Earn CPEs while connecting with regional peers and solution providers."
+  },
+  {
+    "name": "SecureWorld Boston 2027",
+    "slug": "secureworld-boston-2027",
+    "date": "2027-04-28T09:00:00",
+    "endDate": "2027-04-29",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Boston",
+    "state": "MA",
+    "region": "northeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "Two days of practitioner-led content at SecureWorld Boston, featuring keynotes, panels, and breakout sessions. CPE credits available, plus an exhibit floor to explore current solutions."
+  },
+  {
+    "name": "SecureWorld Philadelphia 2027",
+    "slug": "secureworld-philadelphia-2027",
+    "date": "2027-05-05T09:00:00",
+    "endDate": "2027-05-06",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Philadelphia",
+    "state": "PA",
+    "region": "northeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld Philadelphia spans two days of practitioner-led talks, panels, and breakouts. Pick up CPE credits and meet regional experts and vendors without the mega-conference chaos."
+  },
+  {
+    "name": "SecureWorld South Florida 2027",
+    "slug": "secureworld-south-florida-2027",
+    "date": "2027-05-13T09:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Hollywood",
+    "state": "FL",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld South Florida convenes the local security community for keynotes, panels, and breakouts led by practitioners. CPE credits and quality hallway conversations are part of the package."
+  },
+  {
+    "name": "SecureWorld Chicago 2027",
+    "slug": "secureworld-chicago-2027",
+    "date": "2027-05-26T09:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Chicago",
+    "state": "IL",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld Chicago brings together CISOs and hands-on defenders for keynotes, panels, and breakout sessions. Earn CPEs and connect with trusted providers focused on Midwest challenges."
+  },
+  {
+    "name": "SecureWorld Phoenix 2027",
+    "slug": "secureworld-phoenix-2027",
+    "date": "2027-06-09T09:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Phoenix",
+    "state": "AZ",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld Phoenix is a regional cybersecurity conference with practitioner-led keynotes, panels, and breakouts. CPE credits available, plus face time with vetted solution providers."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Scottsdale",
+    "slug": "the-official-cybersecurity-summit-scottsdale-2026",
+    "date": "2026-11-20T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "A full day of sessions and networking that connects security leaders with leading cyber solution providers. If you want concentrated learning without fluff, this is your play."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Silicon Valley 2027",
+    "slug": "the-official-cybersecurity-summit-silicon-valley-2027",
+    "date": "2027-02-16T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Silicon Valley",
+    "state": "CA",
+    "region": "west-coast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "A one-day summit for Bay Area security leaders featuring expert sessions and direct access to solution providers. Come for the content, stay for the networking."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Seattle/Bellevue 2027",
+    "slug": "the-official-cybersecurity-summit-seattle-bellevue-2027",
+    "date": "2027-03-18T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Seattle/Bellevue",
+    "state": "WA",
+    "region": "west-coast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "The Seattle/Bellevue summit packs a day of cybersecurity briefings and vendor meetups for Pacific Northwest leaders. Efficient, useful, and easy to justify on your CISO calendar."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Philadelphia 2027",
+    "slug": "the-official-cybersecurity-summit-philadelphia-2027",
+    "date": "2027-04-22T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Philadelphia",
+    "state": "PA",
+    "region": "northeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "A concentrated day of security keynotes, panels, and solution demos for the Philly community. Meet peers, pressure-test ideas, and leave with practical takeaways."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Chicago 2027",
+    "slug": "the-official-cybersecurity-summit-chicago-2027",
+    "date": "2027-04-27T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Chicago",
+    "state": "IL",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Chicago’s edition delivers a full day of security sessions and curated access to solution providers. Tight agenda, strong networking, good value for a day out of the office."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Boston 2027 (Spring)",
+    "slug": "the-official-cybersecurity-summit-boston-2027-spring",
+    "date": "2027-04-29T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Boston",
+    "state": "MA",
+    "region": "northeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Boston’s spring summit features expert briefings and exhibits focused on today’s enterprise security challenges. Bring questions, leave with practical answers and new contacts."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Austin 2027",
+    "slug": "the-official-cybersecurity-summit-austin-2027",
+    "date": "2027-05-27T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Austin",
+    "state": "TX",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Austin’s one-day summit connects security leaders with peers and solution providers through keynotes, panels, and demos. Fast-paced and focused on outcomes."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Milwaukee 2027",
+    "slug": "the-official-cybersecurity-summit-milwaukee-2027",
+    "date": "2027-06-02T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Milwaukee",
+    "state": "WI",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "A day of cybersecurity content and networking tailored for Milwaukee-area leaders. Expect concise sessions and direct vendor access without the sales theater."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Denver 2027",
+    "slug": "the-official-cybersecurity-summit-denver-2027",
+    "date": "2027-06-16T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Denver",
+    "state": "CO",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Denver’s summit brings together security execs and providers for a full day of briefings, panels, and networking. Practical content, easy connections, and a useful day well spent."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Boston 2027 (Fall)",
+    "slug": "the-official-cybersecurity-summit-boston-2027-fall",
+    "date": "2027-10-14T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Boston",
+    "state": "MA",
+    "region": "northeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "The fall edition returns to Boston with a packed agenda for security leaders and teams. One day, strong content, and plenty of peer engagement."
   }
 ]
