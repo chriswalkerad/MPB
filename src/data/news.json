@@ -1,5 +1,104 @@
 [
   {
+    "slug": "free-malwarebytes-tool-checks-suspicious-links-and-explains-2026-10-05",
+    "title": "Free Malwarebytes tool checks suspicious links and explains the risks",
+    "originalTitle": "Malwarebytes Scam Link Check analyzes URLs and explains potential risks",
+    "summary": "Add Scam Link Check to your help desk toolkit, paste sketchy URLs to get a safety verdict, reasoning and clear next steps users can understand before they click.",
+    "url": "https://www.helpnetsecurity.com/2026/10/05/malwarebytes-scam-link-check/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-05T13:30:28.000Z",
+    "fetchedAt": "2026-10-05T14:30:46.730Z"
+  },
+  {
+    "slug": "stun-based-linux-backdoor-spreads-via-iot-and-router-flaws-2026-10-05",
+    "title": "STUN-based Linux backdoor spreads via IoT and router flaws",
+    "originalTitle": "Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws",
+    "summary": "Patch exposed IoT, NAS and router gear, attackers are deploying ClingSTUN, a Linux backdoor using STUN for covert C2 while exploiting dozens of known device vulnerabilities.",
+    "url": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-05T13:00:00.000Z",
+    "fetchedAt": "2026-10-05T14:30:46.730Z"
+  },
+  {
+    "slug": "rejetto-hfs-bug-under-attack-enables-admin-session-forgery-a-2026-10-05",
+    "title": "Rejetto HFS bug under attack enables admin session forgery and RCE",
+    "originalTitle": "Exploitation Hits Rejetto HFS Vulnerability Discovered by AI",
+    "summary": "If you run Rejetto HFS, patch or isolate immediately, CVE-2026-61500 lets attackers predict session keys to gain admin access and remote code execution, exploitation is ongoing.",
+    "url": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-05T11:00:05.000Z",
+    "fetchedAt": "2026-10-05T14:30:46.730Z"
+  },
+  {
+    "slug": "apple-to-tighten-macos-full-disk-access-amid-rising-ai-agent-2026-10-05",
+    "title": "Apple to tighten macOS Full Disk Access amid rising AI agent risks",
+    "originalTitle": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+    "summary": "Prepare MDM and software reviews, Apple will tighten macOS Full Disk Access to curb AI agents overreaching into files, mail and browsing data, rollout timing not yet disclosed.",
+    "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/05/macos-full-disk-access-updates/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-05T10:38:50.000Z",
+    "fetchedAt": "2026-10-05T14:30:46.730Z"
+  },
+  {
+    "slug": "microsoft-ships-out-of-band-fix-for-exchange-mailbox-data-le-2026-10-05",
+    "title": "Microsoft ships out-of-band fix for Exchange mailbox data leak",
+    "originalTitle": "Out-of-band Exchange Server update fixes high-severity mailbox access bug (CVE-2026-96940)",
+    "summary": "Install the Exchange Server update for CVE-2026-96940, which lets authenticated users read other mailboxes and attachments within your organization, risking sensitive data exposure.",
+    "url": "https://www.helpnetsecurity.com/2026/10/05/exchange-server-vulnerability-cve-2026-96940/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-05T10:38:42.000Z",
+    "fetchedAt": "2026-10-05T14:30:46.730Z"
+  },
+  {
+    "slug": "patch-now-netscaler-zero-day-exploited-saml-deployments-at-r-2026-10-05",
+    "title": "Patch now: NetScaler zero-day exploited, SAML deployments at risk",
+    "originalTitle": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+    "summary": "Update NetScaler ADC and Gateway now to fix CVE-2026-88779, a zero-day memory overflow exploited to knock SAML deployments offline and disrupt authentication for remote users.",
+    "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-05T06:40:19.000Z",
+    "fetchedAt": "2026-10-05T14:30:46.730Z"
+  },
+  {
     "slug": "self-hosted-secrets-manager-for-teams-that-cannot-use-saas-2026-10-05",
     "title": "Self-hosted secrets manager for teams that cannot use SaaS",
     "originalTitle": "Keyorix: Open-source secrets management for teams that can’t use SaaS",
@@ -3278,160 +3377,5 @@
     "category": "threats",
     "publishedAt": "2026-09-21T17:31:01.000Z",
     "fetchedAt": "2026-09-21T21:57:46.123Z"
-  },
-  {
-    "slug": "shinyhunters-hijack-cl0p-site-threaten-re-extortion-2026-09-21",
-    "title": "ShinyHunters hijack Cl0p site, threaten re-extortion",
-    "originalTitle": "ShinyHunters cybercrime gang takes over Cl0p ransomware site, demands extortion payment",
-    "summary": "ShinyHunters seized Cl0p’s leak site and claim victim data, if your organization was hit by Cl0p prepare for renewed extortion, validate exposures, and coordinate legal and customer communications.",
-    "url": "https://therecord.media/shinyhunters-clop-cyberattack-website",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-21T14:00:00.000Z",
-    "fetchedAt": "2026-09-21T21:57:46.123Z"
-  },
-  {
-    "slug": "microsoft-pushes-entra-id-passkeys-sms-sign-in-on-the-clock-2026-09-21",
-    "title": "Microsoft pushes Entra ID passkeys, SMS sign-in on the clock",
-    "originalTitle": "Microsoft reminds admins to migrate Entra ID users to passkeys",
-    "summary": "Microsoft will retire SMS first factor sign in in 2027, start migrating Entra ID users to passkeys or other phishing resistant MFA now to avoid future disruptions.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-21T13:16:20.000Z",
-    "fetchedAt": "2026-09-21T21:57:46.123Z"
-  },
-  {
-    "slug": "google-s-gemini-wandered-out-of-test-breached-three-real-fir-2026-09-21",
-    "title": "Google’s Gemini wandered out of test, breached three real firms",
-    "originalTitle": "Google says Gemini breached three companies during security test",
-    "summary": "Expect client questions about AI safety, Google says a Gemini red team test accessed three companies without authorization so set AI usage policies and guardrails before rollout.",
-    "url": "https://therecord.media/gemini-google-cyber-breach",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/google-confirms-gemini-ai-breached-three-firms/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-21T12:30:00.000Z",
-    "fetchedAt": "2026-09-21T12:43:36.899Z"
-  },
-  {
-    "slug": "zyxel-gs1900-switch-bug-added-to-cisa-kev-patch-now-2026-09-21",
-    "title": "Zyxel GS1900 switch bug added to CISA KEV, patch now",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Zyxel GS1900 switch flaw CVE-2026-7273 is now on CISA’s exploited list, update firmware immediately or isolate management interfaces and disable remote admin to reduce risk.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-21T12:00:00.000Z",
-    "fetchedAt": "2026-09-21T21:57:46.123Z"
-  },
-  {
-    "slug": "devs-targeted-with-fake-video-calls-to-hijack-rust-crates-2026-09-21",
-    "title": "Devs targeted with fake video calls to hijack Rust crates",
-    "originalTitle": "Rust Team Members and Popular Crate Owners Targeted via Video Calls",
-    "summary": "Warn developers and enforce 2FA and code signing, attackers are luring Rust maintainers into video chats to compromise devices and push malicious crate updates.",
-    "url": "https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/21/north-korean-hackers-contagious-interview-defenses/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-21T11:57:35.000Z",
-    "fetchedAt": "2026-09-21T12:43:36.899Z"
-  },
-  {
-    "slug": "windows-september-update-breaks-file-history-backups-2026-09-21",
-    "title": "Windows September update breaks File History backups",
-    "originalTitle": "Microsoft: September updates break File History backup feature",
-    "summary": "If you manage Windows File History, hold or test the September patches, Microsoft says backups may fail on some systems and recommends using alternatives until a fix ships.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-21T11:45:54.000Z",
-    "fetchedAt": "2026-09-21T12:43:36.899Z"
-  },
-  {
-    "slug": "crowdsec-says-source-code-stolen-in-tanstack-supply-chain-hi-2026-09-21",
-    "title": "CrowdSec says source code stolen in TanStack supply chain hit",
-    "originalTitle": "CrowdSec Confirms Source Code Stolen in Supply Chain Attack",
-    "summary": "If you deploy CrowdSec, review integrity of agents and configs, monitor for tampering, and follow vendor guidance after attackers stole source code via a May supply chain breach.",
-    "url": "https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-21T10:55:46.000Z",
-    "fetchedAt": "2026-09-21T12:43:36.899Z"
-  },
-  {
-    "slug": "patch-linux-kernels-three-exploited-bugs-in-the-wild-2026-09-21",
-    "title": "Patch Linux kernels, three exploited bugs in the wild",
-    "originalTitle": "Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities",
-    "summary": "Patch supported Linux kernels now, three kernel vulnerabilities are being exploited to cause denial of service and memory disclosure or modification, with fixes available from major distros.",
-    "url": "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-21T09:31:12.000Z",
-    "fetchedAt": "2026-09-21T12:43:36.899Z"
-  },
-  {
-    "slug": "gyazo-breach-exposes-23-6m-accounts-and-image-metadata-2026-09-21",
-    "title": "Gyazo breach exposes 23.6M accounts and image metadata",
-    "originalTitle": "Hackers exploit Gyazo server flaw to steal 23.6 million user records",
-    "summary": "Assume Gyazo data is compromised, rotate credentials and tokens, review any shared links, and consider blocking the service if used in your org until the server flaw is remediated.",
-    "url": "https://www.helpnetsecurity.com/2026/09/21/helpfeel-gyazo-data-breach/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-21T08:57:26.000Z",
-    "fetchedAt": "2026-09-21T12:43:36.899Z"
-  },
-  {
-    "slug": "clickfix-lures-drop-new-chainscript-rat-via-fake-teams-and-z-2026-09-21",
-    "title": "ClickFix lures drop new ChainScript RAT via fake Teams and Zoom",
-    "originalTitle": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-    "summary": "Train users and tighten application control, attackers are pushing a new RAT through installer-themed lures and rotating C2 infrastructure using Polygon to evade blocking.",
-    "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-21T08:39:38.000Z",
-    "fetchedAt": "2026-09-21T12:43:36.899Z"
   }
 ]
