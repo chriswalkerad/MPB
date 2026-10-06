@@ -1,5 +1,47 @@
 [
   {
+    "slug": "denmark-cpr-breach-exposes-8-8m-via-misused-company-account-2026-10-06",
+    "title": "Denmark CPR breach exposes 8.8M via misused company account",
+    "originalTitle": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
+    "summary": "Lock down third-party data access: enforce least privilege and MFA, log and alert on unusual queries, and be ready to rotate credentials and notify when misuse is detected.",
+    "url": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-06T06:00:30.000Z",
+    "fetchedAt": "2026-10-06T06:15:43.260Z"
+  },
+  {
+    "slug": "malware-hides-in-browser-cache-in-new-clickfix-attack-2026-10-06",
+    "title": "Malware hides in browser cache in new ClickFix attack",
+    "originalTitle": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+    "summary": "Attackers are smuggling payloads into the browser cache to bypass Windows limits, so block script engines, enforce application control, and monitor file URL and cache execution.",
+    "url": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-06T05:22:55.000Z",
+    "fetchedAt": "2026-10-06T06:15:43.260Z"
+  },
+  {
+    "slug": "nis2-on-a-budget-seven-credential-fixes-you-can-ship-now-2026-10-06",
+    "title": "NIS2 on a budget: seven credential fixes you can ship now",
+    "originalTitle": "NIS2 compliance: 7 low-cost steps to secure credentials",
+    "summary": "Start with credential hygiene to meet NIS2, enable MFA and conditional access, review privileged roles, rotate and vault service accounts, and log access so entitlements are visible, revocable, and auditable.",
+    "url": "https://www.helpnetsecurity.com/2026/10/06/passwork-nis2-credential-security/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-06T05:00:44.000Z",
+    "fetchedAt": "2026-10-06T06:15:43.260Z"
+  },
+  {
     "slug": "agent-to-agent-mcp-could-spread-malicious-prompts-across-too-2026-10-05",
     "title": "Agent-to-agent MCP could spread malicious prompts across tools",
     "originalTitle": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
@@ -3334,52 +3376,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-22T08:54:30.000Z",
     "fetchedAt": "2026-09-22T11:34:19.175Z"
-  },
-  {
-    "slug": "wordpress-fixes-comment2shell-bug-update-to-7-1-1-now-2026-09-22",
-    "title": "WordPress fixes Comment2Shell bug, update to 7.1.1 now",
-    "originalTitle": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-    "summary": "Upgrade WordPress to 7.1.1 immediately, a core flaw (CVE-2026-93485) lets anonymous comments plant XSS that becomes server-side code when an admin visits.",
-    "url": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-22T06:03:14.000Z",
-    "fetchedAt": "2026-09-22T11:34:19.175Z"
-  },
-  {
-    "slug": "veeam-flaw-under-active-attack-patch-and-isolate-backup-serv-2026-09-22",
-    "title": "Veeam flaw under active attack, patch and isolate backup servers",
-    "originalTitle": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
-    "summary": "Update Veeam to fixed releases and restrict network exposure, attackers are exploiting a bug to gain SYSTEM-level access on backup infrastructure.",
-    "url": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-22T05:31:59.000Z",
-    "fetchedAt": "2026-09-22T11:34:19.175Z"
-  },
-  {
-    "slug": "davmail-7-0-shifts-to-microsoft-graph-review-permissions-2026-09-22",
-    "title": "DavMail 7.0 shifts to Microsoft Graph, review permissions",
-    "originalTitle": "DavMail 7.0.0 puts most of its work into Microsoft Graph",
-    "summary": "If you use DavMail to bridge to Exchange or M365, 7.0 moves most work to Microsoft Graph and drops caldavImpersonate, test clients and review app permissions.",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/davmail-7-0-0-microsoft-graph/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-22T03:48:17.000Z",
-    "fetchedAt": "2026-09-22T04:51:18.344Z"
   }
 ]
