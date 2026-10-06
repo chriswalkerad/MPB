@@ -1,5 +1,98 @@
 [
   {
+    "slug": "agent-to-agent-mcp-could-spread-malicious-prompts-across-too-2026-10-05",
+    "title": "Agent-to-agent MCP could spread malicious prompts across tools",
+    "originalTitle": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+    "summary": "If you pilot AI agents, require authentication and allowlists between agents, sandbox actions, and log everything, trust gaps in MCP can propagate prompt injection and abuse.",
+    "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-05T22:26:35.000Z",
+    "fetchedAt": "2026-10-06T00:00:58.081Z"
+  },
+  {
+    "slug": "clingstun-turns-unpatched-iot-into-a-stun-proxied-botnet-2026-10-05",
+    "title": "ClingSTUN turns unpatched IoT into a STUN-proxied botnet",
+    "originalTitle": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
+    "summary": "Harden IoT gear and egress filter UDP 3478, the ClingSTUN backdoor exploits dozens of known bugs to conscript devices and hide traffic via public STUN servers.",
+    "url": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-05T21:25:08.000Z",
+    "fetchedAt": "2026-10-06T00:00:58.081Z"
+  },
+  {
+    "slug": "attackers-scan-rejetto-hfs-for-rce-via-weak-signing-key-2026-10-05",
+    "title": "Attackers scan Rejetto HFS for RCE via weak signing key",
+    "originalTitle": "Rejetto HFS servers now actively scanned for critical RCE flaw",
+    "summary": "If you run HFS 2.x, update immediately or take it offline, CVE-2026-61500 allows session forgery, account takeover, and remote code execution through a weak signing key.",
+    "url": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-05T20:20:05.000Z",
+    "fetchedAt": "2026-10-06T00:00:58.081Z"
+  },
+  {
+    "slug": "microsoft-patches-exchange-bug-that-lets-users-read-others-m-2026-10-05",
+    "title": "Microsoft patches Exchange bug that lets users read others' mail",
+    "originalTitle": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+    "summary": "Install the out-of-band Exchange update for CVE-2026-96940 now, weak authorization lets authenticated users escalate privileges and access other mailboxes, audit mailbox access logs.",
+    "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-05T16:21:52.000Z",
+    "fetchedAt": "2026-10-06T00:00:58.081Z"
+  },
+  {
+    "slug": "cisa-adds-exploited-netscaler-bug-appliances-crash-until-pat-2026-10-05",
+    "title": "CISA adds exploited NetScaler bug, appliances crash until patched",
+    "originalTitle": "CISA flags new exploited NetScaler flaw as attackers crash appliances (CVE-2026-88779)",
+    "summary": "Patch or mitigate CVE-2026-88779 on NetScaler ADC and Gateway now, CISA says attackers trigger repeated crashes causing denial of service on unprotected appliances.",
+    "url": "https://www.helpnetsecurity.com/2026/10/05/cisa-flags-new-exploited-netscaler-flaw-as-attackers-crash-appliances-cve-2026-88779/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/us-australia-warn-of-latest-citrix-vulnerability"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-05T14:53:48.000Z",
+    "fetchedAt": "2026-10-06T00:00:58.081Z"
+  },
+  {
+    "slug": "dell-system-update-flaw-gives-local-root-update-dsu-now-2026-10-05",
+    "title": "Dell System Update flaw gives local root, update DSU now",
+    "originalTitle": "New Dell System Update flaw lets hackers gain root privileges",
+    "summary": "Update or remove vulnerable Dell System Update CLI deployments, the bug allows local privilege escalation to root, restrict access to DSU and review endpoints for misuse.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-05T14:53:06.000Z",
+    "fetchedAt": "2026-10-06T00:00:58.081Z"
+  },
+  {
     "slug": "free-malwarebytes-tool-checks-suspicious-links-and-explains-2026-10-05",
     "title": "Free Malwarebytes tool checks suspicious links and explains the risks",
     "originalTitle": "Malwarebytes Scam Link Check analyzes URLs and explains potential risks",
@@ -3288,94 +3381,5 @@
     "category": "defense",
     "publishedAt": "2026-09-22T03:48:17.000Z",
     "fetchedAt": "2026-09-22T04:51:18.344Z"
-  },
-  {
-    "slug": "meta-s-muse-ai-agent-hit-by-0-day-easy-full-hijack-2026-09-21",
-    "title": "Meta's Muse AI agent hit by 0-day, easy full hijack",
-    "originalTitle": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
-    "summary": "If you are piloting Muse, pause rollout or lock it down, a simple ClickFix attack can completely hijack Meta's extraordinarily privileged AI assistant.",
-    "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-21T22:24:38.000Z",
-    "fetchedAt": "2026-09-22T04:51:18.344Z"
-  },
-  {
-    "slug": "ai-agents-can-rack-up-runaway-costs-set-limits-now-2026-09-21",
-    "title": "AI agents can rack up runaway costs, set limits now",
-    "originalTitle": "How AI Agents Can Trigger Runaway Costs for Enterprises",
-    "summary": "Unbounded consumption in LLM agents can burn budgets fast, set spend caps and quotas, instrument usage monitoring, and enforce guardrails to keep AI workflows from running away.",
-    "url": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-21T21:39:59.000Z",
-    "fetchedAt": "2026-09-21T21:57:46.123Z"
-  },
-  {
-    "slug": "bigcommerce-stores-hit-via-ribon-apps-skimmer-injected-2026-09-21",
-    "title": "BigCommerce stores hit via Ribon apps, skimmer injected",
-    "originalTitle": "BigCommerce alerts merchants of data breach linked to Ribon apps",
-    "summary": "Attackers abused compromised Ribon app credentials to inject skimmers into BigCommerce stores, audit installed apps, remove or update Ribon integrations, rotate API keys, and review checkout pages for rogue scripts.",
-    "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-21T21:18:49.000Z",
-    "fetchedAt": "2026-09-21T21:57:46.123Z"
-  },
-  {
-    "slug": "cisa-hackers-exploiting-three-linux-kernel-flaws-2026-09-21",
-    "title": "CISA: Hackers exploiting three Linux kernel flaws",
-    "originalTitle": "CISA alerts of active exploitation of three Linux kernel flaws",
-    "summary": "CISA says three Linux kernel bugs are under active attack, patch supported distributions now and plan reboots, or apply vendor mitigations if you cannot update immediately.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-21T20:12:17.000Z",
-    "fetchedAt": "2026-09-21T21:57:46.123Z"
-  },
-  {
-    "slug": "wordpress-click2shell-bug-lets-attackers-run-php-poc-out-2026-09-21",
-    "title": "WordPress 'Click2Shell' bug lets attackers run PHP, PoC out",
-    "originalTitle": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
-    "summary": "A WordPress Core CSRF bug dubbed Click2Shell allows remote PHP execution and a public exploit is out, update WordPress promptly and limit high-privilege accounts until patched.",
-    "url": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-21T18:23:11.000Z",
-    "fetchedAt": "2026-09-21T21:57:46.123Z"
-  },
-  {
-    "slug": "fake-lastpass-installer-uses-signed-driver-to-kill-edr-2026-09-21",
-    "title": "Fake LastPass installer uses signed driver to kill EDR",
-    "originalTitle": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
-    "summary": "A fake LastPass Authenticator installer ships a Microsoft signed kernel driver to disable 145 security tools, block unknown installers, enforce application allowlisting, and only download software from vendor sites.",
-    "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-21T17:31:01.000Z",
-    "fetchedAt": "2026-09-21T21:57:46.123Z"
   }
 ]
