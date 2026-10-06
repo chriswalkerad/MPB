@@ -1,5 +1,108 @@
 [
   {
+    "slug": "wordpress-sites-hacked-via-ninja-forms-and-woocommerce-plugi-2026-10-06",
+    "title": "WordPress sites hacked via Ninja Forms and WooCommerce plugin flaws",
+    "originalTitle": "Ninja Forms plugin flaw exploited to hack WordPress sites",
+    "summary": "Update Ninja Forms and WPC Product Bundles immediately, active attacks use stored XSS to add admin users and install backdoors on WordPress sites.",
+    "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-06T21:00:27.000Z",
+    "fetchedAt": "2026-10-06T22:38:48.336Z"
+  },
+  {
+    "slug": "clickfix-attacks-hide-payloads-in-dns-txt-and-browser-cache-2026-10-06",
+    "title": "ClickFix attacks hide payloads in DNS TXT and browser cache",
+    "originalTitle": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
+    "summary": "Tighten DNS and egress monitoring, consider disabling prefetch where possible, attackers now hide ClickFix payloads in DNS TXT records and browser cache.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-06T20:32:58.000Z",
+    "fetchedAt": "2026-10-06T22:38:48.336Z"
+  },
+  {
+    "slug": "hackers-obtained-fake-tls-certs-for-google-and-other-service-2026-10-06",
+    "title": "Hackers obtained fake TLS certs for Google and other services",
+    "originalTitle": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+    "summary": "Treat cert warnings seriously and monitor Certificate Transparency for your domains, attackers got counterfeit TLS certs via compromised registries for major providers.",
+    "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-06T19:21:14.000Z",
+    "fetchedAt": "2026-10-06T22:38:48.336Z"
+  },
+  {
+    "slug": "patch-now-critical-file-access-bug-hits-jira-and-confluence-2026-10-06",
+    "title": "Patch now: critical file access bug hits Jira and Confluence",
+    "originalTitle": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+    "summary": "Self-hosted Atlassian Data Center products are vulnerable to arbitrary file access, apply fixes or mitigations to Jira, Confluence, and Bitbucket immediately.",
+    "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-06T17:34:59.000Z",
+    "fetchedAt": "2026-10-06T22:38:48.336Z"
+  },
+  {
+    "slug": "new-trick-stalls-defender-updates-without-tripping-alarms-2026-10-06",
+    "title": "New trick stalls Defender updates without tripping alarms",
+    "originalTitle": "'BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates",
+    "summary": "Audit Defender signature age and update sources, enforce Tamper Protection and update policies to catch endpoints silently blocked from getting AV updates.",
+    "url": "https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-06T16:59:24.000Z",
+    "fetchedAt": "2026-10-06T22:38:48.336Z"
+  },
+  {
+    "slug": "phishers-steal-ad-accounts-and-mfa-codes-via-fake-ai-portals-2026-10-06",
+    "title": "Phishers steal ad accounts and MFA codes via fake AI portals",
+    "originalTitle": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
+    "summary": "Warn ad managers and staff, block browser-in-browser prompts, enforce phishing-resistant MFA like FIDO2 and conditional access to stop session theft.",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-06T15:16:44.000Z",
+    "fetchedAt": "2026-10-06T22:38:48.336Z"
+  },
+  {
+    "slug": "8-rmm-security-controls-msps-should-test-now-2026-10-06",
+    "title": "8 RMM security controls MSPs should test now",
+    "originalTitle": "How to secure RMM software: 8 controls MSPs should test",
+    "summary": "Use this checklist to vet RMMs for MFA, PAM, patching, audit logging, tenant isolation, and recovery controls before you deploy them.",
+    "url": "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-06T14:00:10.000Z",
+    "fetchedAt": "2026-10-06T22:38:48.336Z"
+  },
+  {
     "slug": "patch-atlassian-data-center-now-critical-file-read-bug-2026-10-06",
     "title": "Patch Atlassian Data Center now, critical file read bug",
     "originalTitle": "Atlassian urges immediate patching of critical Data Center file access vulnerability (CVE-2026-21589)",
@@ -17,6 +120,25 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-06T12:26:30.000Z",
     "fetchedAt": "2026-10-06T13:19:37.409Z"
+  },
+  {
+    "slug": "openai-agents-flooded-wikimedia-and-probed-its-tools-2026-10-06",
+    "title": "OpenAI agents flooded Wikimedia and probed its tools",
+    "originalTitle": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+    "summary": "Expect autonomous agents to hit your public apps, add rate limits, bot detection, authentication, and robots.txt controls to manage abusive agent traffic.",
+    "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/06/openai-rogue-agents-wikimedia-wikipedia/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-06T12:21:53.000Z",
+    "fetchedAt": "2026-10-06T22:38:48.336Z"
   },
   {
     "slug": "libreoffice-openoffice-can-run-code-from-spreadsheets-no-war-2026-10-06",
@@ -3124,201 +3246,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-23T03:16:17.000Z",
     "fetchedAt": "2026-09-23T04:41:52.287Z"
-  },
-  {
-    "slug": "rogue-external-mfa-plugins-can-snatch-m365-passwords-2026-09-22",
-    "title": "Rogue external MFA plugins can snatch M365 passwords",
-    "originalTitle": "Rogue external MFA providers can steal passwords during logins",
-    "summary": "Audit and lock down Entra ID external authentication methods, attackers with privileged tenant access can register rogue MFA providers that capture user passwords during logins.",
-    "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-22T21:45:45.000Z",
-    "fetchedAt": "2026-09-23T04:41:52.287Z"
-  },
-  {
-    "slug": "sweden-fines-it-provider-after-breach-of-2-2m-records-2026-09-22",
-    "title": "Sweden fines IT provider after breach of 2.2M records",
-    "originalTitle": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
-    "summary": "Treat vendor security as your problem too, regulators fined Miljödata for inadequate controls after a 2025 breach, reinforcing MSP liability for client data protection.",
-    "url": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-09-22T21:40:37.000Z",
-    "fetchedAt": "2026-09-23T04:41:52.287Z"
-  },
-  {
-    "slug": "actor-exploits-zyxel-gs1900-and-wordpress-to-steal-data-2026-09-22",
-    "title": "Actor exploits Zyxel GS1900 and WordPress to steal data",
-    "originalTitle": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
-    "summary": "Audit for exposed Zyxel GS1900 switches and vulnerable WordPress sites, a Chinese-speaking group used known bugs to loot devices and backend databases at scale.",
-    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-22T20:35:24.000Z",
-    "fetchedAt": "2026-09-22T21:16:54.314Z"
-  },
-  {
-    "slug": "cisa-publishes-playbook-for-low-cost-deception-defenses-2026-09-22",
-    "title": "CISA publishes playbook for low-cost deception defenses",
-    "originalTitle": "Deception by Design: CISA's Guide to Tricking Cybercriminals",
-    "summary": "Download CISA's new guide and sprinkle honeypots and honeytokens across your network, practical deception can trip up intruders and buy time for response.",
-    "url": "https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-22T19:59:24.000Z",
-    "fetchedAt": "2026-09-23T16:54:50.984Z"
-  },
-  {
-    "slug": "microsoft-knocks-out-eviltokens-phishing-service-hitting-m36-2026-09-22",
-    "title": "Microsoft knocks out EvilTokens phishing service hitting M365",
-    "originalTitle": "Microsoft disrupts AI-assisted platform that compromised 12,000",
-    "summary": "Expect copycats, review M365 sign-in logs and enforce phishing-resistant MFA, Microsoft disrupted an AI-assisted device code phishing-as-a-service tied to 12,000 inbox compromises.",
-    "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-22T19:45:47.000Z",
-    "fetchedAt": "2026-09-22T21:16:54.314Z"
-  },
-  {
-    "slug": "new-windows-malware-uses-ai-models-for-post-compromise-decis-2026-09-22",
-    "title": "New Windows malware uses AI models for post-compromise decisions",
-    "originalTitle": "New ClosedQuorum Windows malware uses AI for attack decisions",
-    "summary": "Block outbound access to LLM APIs and tighten egress controls, ClosedQuorum uses Gemini, DeepSeek, Qwen, and Mistral to autonomously pick actions after infection.",
-    "url": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-22T18:04:39.000Z",
-    "fetchedAt": "2026-09-22T21:16:54.314Z"
-  },
-  {
-    "slug": "wordpress-fixes-critical-core-flaw-update-immediately-2026-09-22",
-    "title": "WordPress fixes critical core flaw, update immediately",
-    "originalTitle": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
-    "summary": "Update WordPress to 7.1.2 or latest branch now, a critical unauthenticated file loading bug can lead to remote code execution on some servers.",
-    "url": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-22T18:03:10.000Z",
-    "fetchedAt": "2026-09-22T21:16:54.314Z"
-  },
-  {
-    "slug": "bigcommerce-customer-data-exposed-via-compromised-ribon-app-2026-09-22",
-    "title": "BigCommerce customer data exposed via compromised Ribon app key",
-    "originalTitle": "BigCommerce Data Stolen via Ribon Apps Hack",
-    "summary": "Merchants should rotate API keys, check app permissions, and review access logs, attackers abused a Ribon Apps application key to pull BigCommerce customer data.",
-    "url": "https://www.securityweek.com/bigcommerce-data-stolen-via-ribon-apps-hack/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-22T17:58:00.000Z",
-    "fetchedAt": "2026-09-22T21:16:54.314Z"
-  },
-  {
-    "slug": "critical-rce-in-bifrost-ai-gateway-patch-to-2-1-0-now-2026-09-22",
-    "title": "Critical RCE in Bifrost AI gateway, patch to 2.1.0 now",
-    "originalTitle": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-    "summary": "Update Bifrost HTTP transport to 2.1.0 and lock down management endpoints, CVE-2026-90898 lets unauthenticated attackers run commands with a single HTTP request.",
-    "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-22T16:41:12.000Z",
-    "fetchedAt": "2026-09-22T21:16:54.314Z"
-  },
-  {
-    "slug": "check-point-management-server-zero-day-under-active-attack-2026-09-22",
-    "title": "Check Point Management Server zero-day under active attack",
-    "originalTitle": "Check Point warns of Management Server zero-day exploited in attacks",
-    "summary": "Apply Check Point's emergency hotfixes for Security Management Server exploited zero-day that allows arbitrary script execution, and restrict management interface access.",
-    "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-22T16:32:47.000Z",
-    "fetchedAt": "2026-09-22T16:55:16.123Z"
-  },
-  {
-    "slug": "poc-can-block-defender-updates-by-filling-disk-space-2026-09-22",
-    "title": "PoC can block Defender updates by filling disk space",
-    "originalTitle": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
-    "summary": "Monitor disk capacity and alerts on Defender update failures, a public tool can halt Defender platform and signature updates simply by exhausting storage.",
-    "url": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-22T16:14:04.000Z",
-    "fetchedAt": "2026-09-22T21:16:54.314Z"
-  },
-  {
-    "slug": "microsoft-disrupts-eviltokens-ai-chatbot-behind-12k-account-2026-09-22",
-    "title": "Microsoft disrupts EvilTokens, AI chatbot behind 12k account thefts",
-    "originalTitle": "Two arrested in UK after Microsoft takedown of ‘Eviltokens’ AI-chatbot for cybercriminals",
-    "summary": "Audit and revoke malicious OAuth apps, enforce MFA and Conditional Access, after Microsoft's takedown of EvilTokens AI tool that helped compromise over 12,000 Microsoft accounts.",
-    "url": "https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-22T15:51:00.000Z",
-    "fetchedAt": "2026-09-22T16:55:16.123Z"
-  },
-  {
-    "slug": "new-tool-spots-ai-powered-malware-using-metadata-only-2026-09-22",
-    "title": "New tool spots AI-powered malware using metadata only",
-    "originalTitle": "Researchers uncover malware that uses AI to choose its next move",
-    "summary": "Use Cisco Talos’ open-source CAIRN to sift AI-enabled malware via metadata at scale, helping defenders classify threats without downloading or executing samples.",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/cairn-open-source-framework-ai-malware-closedquorum/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-22T13:56:55.000Z",
-    "fetchedAt": "2026-09-22T16:55:16.123Z"
   }
 ]
