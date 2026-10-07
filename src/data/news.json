@@ -1,5 +1,118 @@
 [
   {
+    "slug": "fortibleed-attacks-still-lock-out-fortigate-admins-2026-10-07",
+    "title": "FortiBleed attacks still lock out FortiGate admins",
+    "originalTitle": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
+    "summary": "FBI warns FortiBleed attackers continue hitting internet-facing FortiGate firewalls, so patch immediately, rotate VPN credentials, audit admin accounts, and restrict management access to trusted networks.",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/07/fortinet-fortibleed-campaign-fbi-advisory/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-07T21:28:54.000Z",
+    "fetchedAt": "2026-10-07T23:03:34.959Z"
+  },
+  {
+    "slug": "registry-hacks-let-attackers-issue-fake-certs-for-google-dom-2026-10-07",
+    "title": "Registry hacks let attackers issue fake certs for Google domains",
+    "originalTitle": "Hackers hijack Google domains after breaching ccTLD registries",
+    "summary": "After breaches at the .gh, .as, and .sl registries, attackers changed DNS and obtained unauthorized certificates, so monitor CT logs, lock registrar accounts, and enforce HSTS and DNSSEC where possible.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-07T20:50:13.000Z",
+    "fetchedAt": "2026-10-07T23:03:34.959Z"
+  },
+  {
+    "slug": "sonicwall-sma1000-pre-auth-bug-rated-10-hotfix-now-2026-10-07",
+    "title": "SonicWall SMA1000 pre-auth bug rated 10, hotfix now",
+    "originalTitle": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+    "summary": "Apply SonicWall hotfixes on SMA1000 appliances immediately, a pre-auth SSRF could reach internal services, and restrict management exposure and review logs for suspicious requests.",
+    "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-07T16:17:44.000Z",
+    "fetchedAt": "2026-10-07T23:03:34.959Z"
+  },
+  {
+    "slug": "outlook-will-block-msix-attachments-starting-in-november-2026-10-07",
+    "title": "Outlook will block .msix attachments starting in November",
+    "originalTitle": "Microsoft Outlook to block MSIX attachments starting November",
+    "summary": "Prepare users and workflows, Microsoft is adding .msix and .msixbundle to Outlook’s blocked list next month, so adjust file sharing policies and approved transfer methods.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-07T15:44:22.000Z",
+    "fetchedAt": "2026-10-07T23:03:34.959Z"
+  },
+  {
+    "slug": "critical-lmcache-bug-allows-unauth-rce-no-fix-yet-2026-10-07",
+    "title": "Critical LMCache bug allows unauth RCE, no fix yet",
+    "originalTitle": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+    "summary": "If you run LMCache for LLMs, disable multiprocess mode, restrict network access, and segment ZeroMQ traffic, a critical unauth code execution flaw remains unpatched.",
+    "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-07T15:34:53.000Z",
+    "fetchedAt": "2026-10-07T23:03:34.959Z"
+  },
+  {
+    "slug": "poellm-malware-hijacks-exposed-ai-servers-for-cryptomining-2026-10-07",
+    "title": "PoeLLM malware hijacks exposed AI servers for cryptomining",
+    "originalTitle": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
+    "summary": "Lock down AI and LLM services, attackers are scanning and exploiting exposed endpoints to deploy PoeLLM miners, so close ports, patch frameworks, and monitor for abnormal GPU and CPU use.",
+    "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-07T15:04:08.000Z",
+    "fetchedAt": "2026-10-07T23:03:34.959Z"
+  },
+  {
+    "slug": "atlassian-dc-arbitrary-file-access-flaw-under-active-attack-2026-10-07",
+    "title": "Atlassian DC arbitrary file access flaw under active attack",
+    "originalTitle": "Exploitation attempts against critical Atlassian flaw have begun (CVE-2026-21589)",
+    "summary": "Prioritize patching CVE-2026-21589 on self-managed Atlassian Data Center products now, exploitation is underway, and remove internet exposure or apply WAF rules until patched.",
+    "url": "https://www.helpnetsecurity.com/2026/10/07/exploitation-critical-atlassian-flaw-cve-2026-21589/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "SANS ISC",
+        "url": "https://isc.sans.edu/diary/rss/33406"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-07T14:21:35.000Z",
+    "fetchedAt": "2026-10-07T23:03:34.959Z"
+  },
+  {
     "slug": "fortibleed-still-stealing-fortinet-creds-rotate-and-lock-dow-2026-10-07",
     "title": "FortiBleed still stealing Fortinet creds, rotate and lock down",
     "originalTitle": "FBI, Secret Service add to warnings of FortiBleed credential stealing campaign",
@@ -3096,150 +3209,5 @@
     "category": "defense",
     "publishedAt": "2026-09-24T04:27:02.000Z",
     "fetchedAt": "2026-09-24T04:44:50.934Z"
-  },
-  {
-    "slug": "dev-placeholder-domain-now-pushes-clickfix-powershell-traps-2026-09-23",
-    "title": "Dev placeholder domain now pushes ClickFix PowerShell traps",
-    "originalTitle": "Placeholder domain used in dev docs now serves ClickFix attacks",
-    "summary": "Block third-party.com, train staff to ignore ClickFix prompts, and restrict PowerShell, attackers hijacked the placeholder domain to push fake Cloudflare checks that run malicious commands.",
-    "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-23T22:46:01.000Z",
-    "fetchedAt": "2026-09-24T04:44:50.934Z"
-  },
-  {
-    "slug": "new-windows-injection-trick-slips-past-edr-api-hooks-2026-09-23",
-    "title": "New Windows injection trick slips past EDR API hooks",
-    "originalTitle": "EDR Evasion Stack Helps Process Injection Slip Past Defenses",
-    "summary": "Expect evasive malware to abuse process parameter poisoning to inject during initialization without watched APIs, strengthen memory scanning, harden EDR configs, and monitor suspicious process trees and module loads.",
-    "url": "https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-23T21:03:01.000Z",
-    "fetchedAt": "2026-09-23T21:28:43.396Z"
-  },
-  {
-    "slug": "gitlab-email-to-issue-addresses-can-let-attackers-push-code-2026-09-23",
-    "title": "GitLab email-to-issue addresses can let attackers push code as you",
-    "originalTitle": "GitLab Email Addresses Can Be Weaponized for Supply Chain Attacks",
-    "summary": "Disable or rotate GitLab email-in addresses and update, leaked per-user issue emails can authorize code pushes and CI jobs as the victim, enabling supply chain compromise.",
-    "url": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-23T20:53:38.000Z",
-    "fetchedAt": "2026-09-23T21:28:43.396Z"
-  },
-  {
-    "slug": "check-point-vpn-rce-under-attack-patch-now-2026-09-23",
-    "title": "Check Point VPN RCE under attack, patch now",
-    "originalTitle": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-    "summary": "Apply Check Point fixes now, CVE-2026-85102 allows pre-auth RCE via VPN certificate handling and is under active exploitation, restrict VPN exposure and hunt for abnormal admin actions.",
-    "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-23T19:53:54.000Z",
-    "fetchedAt": "2026-09-23T21:28:43.396Z"
-  },
-  {
-    "slug": "wordpress-sites-hit-via-critical-rce-update-fast-2026-09-23",
-    "title": "WordPress sites hit via critical RCE, update fast",
-    "originalTitle": "Hackers start exploiting critical WordPress flaw for code execution",
-    "summary": "Update vulnerable WordPress components immediately, attackers are exploiting CVE-2026-87902 to write web shells and run commands, block suspicious file writes and scan for new admin users.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-23T18:31:22.000Z",
-    "fetchedAt": "2026-09-23T21:28:43.396Z"
-  },
-  {
-    "slug": "malicious-terraform-providers-found-in-hashicorp-registry-2026-09-23",
-    "title": "Malicious Terraform providers found in HashiCorp Registry",
-    "originalTitle": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
-    "summary": "Audit Terraform and Go module dependencies, researchers found malware-laced providers and modules uploaded to official registries, pin trusted sources, enable checksums, and monitor build systems for anomalous downloads.",
-    "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-23T18:06:30.000Z",
-    "fetchedAt": "2026-09-23T21:28:43.396Z"
-  },
-  {
-    "slug": "ai-powered-bots-hit-web-stores-steal-600k-cards-with-skimmer-2026-09-23",
-    "title": "AI-powered bots hit web stores, steal 600k cards with skimmers",
-    "originalTitle": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
-    "summary": "Audit your ecommerce code and third-party scripts and enable CSP and integrity checks, attackers used AI agents to rapidly plant skimmers on 100-plus retail sites.",
-    "url": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-23T16:20:54.000Z",
-    "fetchedAt": "2026-09-23T16:54:50.984Z"
-  },
-  {
-    "slug": "patch-mikrotik-now-ssh-bug-chain-lets-attackers-take-over-ro-2026-09-23",
-    "title": "Patch MikroTik now: SSH bug chain lets attackers take over routers",
-    "originalTitle": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-    "summary": "Update RouterOS to the latest release and block SSH from the internet, a new two-bug chain lets full admin takeover of exposed MikroTik routers without credentials.",
-    "url": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-23T16:06:41.000Z",
-    "fetchedAt": "2026-09-23T16:54:50.984Z"
-  },
-  {
-    "slug": "one-k8s-yaml-can-escalate-to-gcp-org-admin-via-config-connec-2026-09-23",
-    "title": "One K8s YAML can escalate to GCP org admin via Config Connector",
-    "originalTitle": "How One Kubernetes YAML Can Hand Over a GCP Organization",
-    "summary": "Revoke overly broad IAM from Config Connector and enforce org policies and per-project service accounts, researchers show a single manifest can pivot to organization-wide control.",
-    "url": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-23T14:01:11.000Z",
-    "fetchedAt": "2026-09-23T16:54:50.984Z"
-  },
-  {
-    "slug": "npm-and-pypi-memtensor-packages-hijacked-to-drop-cross-platf-2026-09-23",
-    "title": "npm and PyPI MemTensor packages hijacked to drop cross-platform stealer",
-    "originalTitle": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
-    "summary": "Yank compromised MemTensor packages, reinstall from clean versions, and rotate impacted secrets, attackers slipped a Go-based sckit credential stealer into npm and PyPI libraries.",
-    "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-23T13:52:46.000Z",
-    "fetchedAt": "2026-09-23T16:54:50.984Z"
   }
 ]
