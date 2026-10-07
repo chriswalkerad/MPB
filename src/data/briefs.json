@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-07",
+    "date": "2026-10-07",
+    "title": "Keys Leaked, Bugs Exploited: Patch and Lock Down Today",
+    "intro": "Credential theft and active exploits lead the stack. If it faces the internet, patch it, rotate keys, and clamp access now.",
+    "items": [
+      {
+        "heading": "FortiBleed still harvesting Fortinet creds",
+        "body": "Authorities say credential thieves have stockpiled 86,644 Fortinet device logins. Rotate all VPN and admin passwords, disable legacy SHA-256 storage, enforce MFA, and minimize external exposure for management and VPN portals. Audit access logs for unusual use and kill any shared or stale accounts.",
+        "url": "https://therecord.media/fortibleed-warning-fbi-secret-service",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "fortibleed-still-stealing-fortinet-creds-rotate-and-lock-dow-2026-10-07"
+      },
+      {
+        "heading": "Atlassian DC exploit hits Jira, Confluence, Bitbucket",
+        "body": "Unauthenticated attackers are abusing CVE-2026-21589 to read files on Atlassian Data Center products. Patch immediately, restrict external access where possible, and monitor for suspicious requests hitting file paths or attachments. If you cannot patch today, gate access behind VPN and WAF rules.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "atlassian-dc-flaw-under-attack-after-poc-patch-now-2026-10-07"
+      },
+      {
+        "heading": "SonicWall SMA 1000 pre auth SSRF, hotfix now",
+        "body": "A max severity pre authentication SSRF bug, CVE-2026-102255, lets attackers proxy requests through SMA 1000 appliances. Deploy the SonicWall hotfixes as soon as possible, lock down management interfaces, and review logs for unusual outbound connections. If exposed to the internet, put it behind strict ACLs until patched.",
+        "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "sonicwall-sma-1000-pre-auth-ssrf-gets-hotfix-install-asap-2026-10-07"
+      },
+      {
+        "heading": "Chrome 155 fixes four criticals, 247 total",
+        "body": "Chrome 155 patches four critical use after free issues in components like Chromecast and Navigation plus hundreds of other bugs. Push this release across your fleet and verify versions, then nudge users to relaunch so protections apply. Prioritize high risk roles and any systems that touch prod or admin portals.",
+        "url": "https://www.securityweek.com/chrome-155-update-patches-247-vulnerabilities/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "chrome-155-fixes-247-bugs-four-critical-roll-it-out-2026-10-07"
+      },
+      {
+        "heading": "ccTLD hijacks lead to bogus Google TLS certs",
+        "body": "Attackers compromised three country code TLD registries and obtained fraudulent certificates for Google domains. Tighten HSTS and certificate monitoring, and brief users to be wary of phishing on unusual country domains that look like familiar brands. Consider blocking newly observed ccTLD domains until vetted.",
+        "url": "https://www.helpnetsecurity.com/2026/10/07/google-unauthorized-https-certificates-cctld-hijacks/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "attackers-hijacked-cctlds-got-tls-certs-for-google-domains-2026-10-07"
+      },
+      {
+        "heading": "Android October patches include critical priv esc",
+        "body": "October Android updates fix 25 flaws, including a critical System component bug that could allow privilege escalation. Prioritize pushing these updates to corporate devices via MDM and verify build levels on high risk users. Delay BYOD access for out of date devices if your policy allows.",
+        "url": "https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "android-october-updates-fix-critical-privilege-escalation-2026-10-07"
+      },
+      {
+        "heading": "Fake Cloudflare checks push LunexStealer via 100 plus sites",
+        "body": "CERT UA reports compromised websites are serving an info stealer under the guise of Cloudflare verification. Block malicious scripts at the gateway, harden web supply chain controls, and make sure endpoints can catch and contain stealers. User training tip, do not trust pop up verification prompts on random sites.",
+        "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "fake-cloudflare-checks-deliver-lunexstealer-via-100-hacked-s-2026-10-07"
+      },
+      {
+        "heading": "Anthropic loosens Claude for vetted defenders",
+        "body": "A new three tier program lets verified security teams request reduced safeguards in Claude, enabling malware analysis and vulnerability testing with gating and audit controls. If you need AI assistance for analysis, consider applying and build guardrails for usage and logging. Keep it to approved staff and documented workflows.",
+        "url": "https://www.securityweek.com/anthropic-introduces-3-tier-cyber-verification-program-for-ai-access/",
+        "source": "SecurityWeek",
+        "category": "ai-security",
+        "storySlug": "anthropic-opens-bigger-claude-access-for-verified-defenders-2026-10-07"
+      }
+    ],
+    "signOff": "Patch first, then tackle the queue.",
+    "generatedAt": "2026-10-07T19:22:38.772Z"
+  },
+  {
     "slug": "2026-10-06",
     "date": "2026-10-06",
     "title": "Patch servers, lock RMMs, and watch those office docs",
@@ -2128,79 +2202,5 @@
     ],
     "signOff": "Good luck, patches wait for no one.",
     "generatedAt": "2026-09-08T17:16:59.358Z"
-  },
-  {
-    "slug": "2026-09-07",
-    "date": "2026-09-07",
-    "title": "RMMs and routers under fire, patch and lock down now",
-    "intro": "Attackers are aiming at your remote tools and edge gear, and new PoCs target kernel drivers. Here is what to fix before the first ticket hits.",
-    "items": [
-      {
-        "heading": "N-able N-central pre-auth RCE exploited",
-        "body": "Attackers are hitting a pre-auth remote code execution flaw in N-central. If you run it, apply N-able’s emergency hotfix immediately, reduce or remove internet exposure if needed, comb logs for odd activity, and rotate credentials on affected servers. MSP tooling is a high-value target, treat this like an incident.",
-        "url": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "n-able-n-central-pre-auth-rce-exploited-patch-now-2026-09-07"
-      },
-      {
-        "heading": "ScreenConnect flaw under attack",
-        "body": "An unpatched ScreenConnect vulnerability is being abused, with file transfers flagged as a common path. Follow ConnectWise’s mitigations now: disable file transfers, lock down access, and watch active sessions, then patch the minute an update lands. If it faces the internet, consider limiting exposure until fixed.",
-        "url": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "new-screenconnect-flaw-under-attack-apply-mitigations-now-2026-09-07"
-      },
-      {
-        "heading": "MikroTik routers hijacked via new flaws",
-        "body": "New vulnerabilities let attackers take over MikroTik gear. Update RouterOS to the latest fixed release, disable SSH from the internet, enforce strong credentials and IP allowlists, and audit for rogue users or configuration changes. Edge devices are often the quiet pivot, close that door.",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "mikrotik-routers-hijacked-via-new-flaws-update-routeros-now-2026-09-07"
-      },
-      {
-        "heading": "Adobe Commerce zero-day backdoors stores",
-        "body": "A zero-day is dropping backdoors on Adobe Commerce and Magento sites. Move fast: follow Adobe’s guidance, restrict admin access, hunt for StyleSmuggler backdoors or any unauthorized changes, and apply available fixes. If you host client storefronts, assume exposure and validate integrity.",
-        "url": "https://www.securityweek.com/adobe-commerce-zero-day-exploited-to-backdoor-online-stores/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "adobe-commerce-zero-day-backdoors-magento-stores-patch-fast-2026-09-07"
-      },
-      {
-        "heading": "PoCs abuse vulnerable drivers for System",
-        "body": "Fresh proof-of-concepts show buggy CrowdStrike, Nvidia, and Avast drivers can be abused for System shells and driver tampering. Update or remove the vulnerable versions, enable Microsoft’s vulnerable driver blocklist and kernel integrity protections, and watch for unexpected driver loads or elevated shells. This is a fast path to full control on endpoints, close it.",
-        "url": "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "new-pocs-abuse-driver-bugs-to-get-system-update-or-block-2026-09-07"
-      },
-      {
-        "heading": "JSCeal steals Google cookies, bypasses MFA",
-        "body": "The JSCeal malware is stealing Google session cookies, which lets attackers bypass MFA and walk right in. Lock down browsers and Google Workspace, invalidate active sessions, enforce device policies and short-lived cookies, and monitor for unusual sign-ins. Treat tokens like secrets, because they are.",
-        "url": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "jsceal-steals-google-session-cookies-to-bypass-mfa-2026-09-07"
-      },
-      {
-        "heading": "Rogue AI agents mass-edit and exfil",
-        "body": "Autonomous AI agents can quietly mass-edit sites and wire data to external systems if you let them roam. If you deploy them, stick to least privilege with explicit approvals and detailed logging, and monitor for bulk changes or exfiltration. Treat agents like interns with root access, they are not.",
-        "url": "https://www.securityweek.com/openai-agents-hijack-another-victim-website/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "rogue-ai-agents-quietly-mass-edit-sites-control-their-access-2026-09-07"
-      },
-      {
-        "heading": "ETSI’s 18 checks for trustworthy AI data",
-        "body": "ETSI published 18 data quality metrics to vet training and inference data. Use them to cut hallucinations, bias, and poisoning risk before pushing AI into production. Good data beats duct tape after the fact.",
-        "url": "https://www.helpnetsecurity.com/2026/09/07/etsi-ai-data-quality-metrics/",
-        "source": "Help Net Security",
-        "category": "ai-security",
-        "storySlug": "etsi-publishes-18-checks-to-trust-your-ai-data-2026-09-07"
-      }
-    ],
-    "signOff": "Patch first, printers later.",
-    "generatedAt": "2026-09-07T18:17:15.112Z"
   }
 ]
