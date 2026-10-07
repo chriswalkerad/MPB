@@ -1,8 +1,4 @@
 {
-  "https://www.helpnetsecurity.com/2026/09/07/etsi-ai-data-quality-metrics/": "2026-09-07T04:35:19.304Z",
-  "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/": "2026-09-07T04:35:19.304Z",
-  "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/": "2026-09-07T04:35:19.304Z",
-  "https://isc.sans.edu/diary/rss/33314": "2026-09-07T04:35:19.304Z",
   "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/": "2026-09-07T12:26:31.375Z",
   "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/": "2026-09-07T12:26:31.375Z",
   "https://www.securityweek.com/north-korean-hackers-deploy-new-linux-espionage-toolkit/": "2026-09-07T12:26:31.375Z",
@@ -1475,5 +1471,17 @@
   "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-01": "2026-10-06T22:38:48.336Z",
   "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-04": "2026-10-06T22:38:48.336Z",
   "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02": "2026-10-06T22:38:48.336Z",
-  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-06": "2026-10-06T22:38:48.336Z"
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-06": "2026-10-06T22:38:48.336Z",
+  "https://www.helpnetsecurity.com/2026/10/07/open-source-ai-agent-gateway/": "2026-10-07T05:54:26.779Z",
+  "https://www.helpnetsecurity.com/2026/10/07/openssh-10-6-released/": "2026-10-07T05:54:26.779Z",
+  "https://www.helpnetsecurity.com/2026/10/07/hcl-software-ai-endpoint-management/": "2026-10-07T05:54:26.779Z",
+  "https://www.helpnetsecurity.com/2026/10/07/ot-network-visibility-challenges/": "2026-10-07T05:54:26.779Z",
+  "https://simonwillison.net/2026/Oct/7/jake-boggan/": "2026-10-07T05:54:26.779Z",
+  "https://www.helpnetsecurity.com/2026/10/07/software-security-vulnerability-management-survey/": "2026-10-07T05:54:26.779Z",
+  "https://www.helpnetsecurity.com/2026/10/07/x-org-server-fixed-vulnerabilities/": "2026-10-07T05:54:26.779Z",
+  "https://isc.sans.edu/diary/rss/33404": "2026-10-07T05:54:26.779Z",
+  "https://www.securityweek.com/personal-information-for-over-1-million-people-stolen-in-a-cyberattack-on-arizonas-court-system/": "2026-10-07T05:54:26.779Z",
+  "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/": "2026-10-07T05:54:26.779Z",
+  "https://simonwillison.net/2026/Oct/6/victoria-kim/": "2026-10-07T05:54:26.779Z",
+  "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/": "2026-10-07T05:54:26.779Z"
 }
