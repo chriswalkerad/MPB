@@ -1,5 +1,145 @@
 [
   {
+    "slug": "fortibleed-still-stealing-fortinet-creds-rotate-and-lock-dow-2026-10-07",
+    "title": "FortiBleed still stealing Fortinet creds, rotate and lock down",
+    "originalTitle": "FBI, Secret Service add to warnings of FortiBleed credential stealing campaign",
+    "summary": "Feds say credential harvesters amassed 86,644 Fortinet device logins, so rotate all VPN and admin passwords, disable legacy SHA-256 storage, enforce MFA, and limit internet exposure.",
+    "url": "https://therecord.media/fortibleed-warning-fbi-secret-service",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-07T12:50:00.000Z",
+    "fetchedAt": "2026-10-07T13:16:53.141Z"
+  },
+  {
+    "slug": "atlassian-dc-flaw-under-attack-after-poc-patch-now-2026-10-07",
+    "title": "Atlassian DC flaw under attack after PoC, patch now",
+    "originalTitle": "Hackers exploit critical Atlassian flaw after public PoC release",
+    "summary": "Unauthenticated attackers are exploiting CVE-2026-21589 to read files in Jira, Confluence, and Bitbucket, so apply fixes immediately, restrict external access, and monitor for suspicious requests.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/atlassian-patches-critical-vulnerability-affecting-8-products/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-07T12:49:01.000Z",
+    "fetchedAt": "2026-10-07T13:16:53.141Z"
+  },
+  {
+    "slug": "sonicwall-sma-1000-pre-auth-ssrf-gets-hotfix-install-asap-2026-10-07",
+    "title": "SonicWall SMA 1000 pre-auth SSRF gets hotfix, install ASAP",
+    "originalTitle": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
+    "summary": "A max severity SSRF bug CVE-2026-102255 lets unauthenticated attackers proxy requests through SMA 1000 appliances, so deploy SonicWall hotfixes, limit management interfaces, and audit logs.",
+    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/07/sonicwall-fixes-pre-auth-ssrf-flaw-in-sma-1000-appliances-cve-2026-102255/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-07T11:37:07.000Z",
+    "fetchedAt": "2026-10-07T13:16:53.141Z"
+  },
+  {
+    "slug": "attackers-hijacked-cctlds-got-tls-certs-for-google-domains-2026-10-07",
+    "title": "Attackers hijacked ccTLDs, got TLS certs for Google domains",
+    "originalTitle": "Hackers hijack three country-code domain registries, obtain HTTPS certificates for Google domains",
+    "summary": "With three ccTLD registries compromised and bogus certificates issued, tighten HSTS and certificate monitoring, and warn users to be wary of phishing on unusual country domains.",
+    "url": "https://www.helpnetsecurity.com/2026/10/07/google-unauthorized-https-certificates-cctld-hijacks/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-07T11:10:29.000Z",
+    "fetchedAt": "2026-10-07T13:16:53.141Z"
+  },
+  {
+    "slug": "chrome-155-fixes-247-bugs-four-critical-roll-it-out-2026-10-07",
+    "title": "Chrome 155 fixes 247 bugs, four critical, roll it out",
+    "originalTitle": "Chrome 155 Update Patches 247 Vulnerabilities",
+    "summary": "Push Chrome 155 across your fleet quickly, it patches four critical use-after-free flaws in components like Chromecast and Navigation plus hundreds more issues.",
+    "url": "https://www.securityweek.com/chrome-155-update-patches-247-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-07T10:51:57.000Z",
+    "fetchedAt": "2026-10-07T13:16:53.141Z"
+  },
+  {
+    "slug": "anthropic-opens-bigger-claude-access-for-verified-defenders-2026-10-07",
+    "title": "Anthropic opens bigger Claude access for verified defenders",
+    "originalTitle": "Anthropic Introduces 3-Tier Cyber Verification Program for AI Access",
+    "summary": "Vetted security teams can request reduced safeguards in Claude under a new three-tier program, enabling malware analysis and vuln testing while maintaining gating and audit controls.",
+    "url": "https://www.securityweek.com/anthropic-introduces-3-tier-cyber-verification-program-for-ai-access/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/07/anthropic-expands-cyber-verification-program/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-07T10:07:09.000Z",
+    "fetchedAt": "2026-10-07T13:16:53.141Z"
+  },
+  {
+    "slug": "fake-cloudflare-checks-deliver-lunexstealer-via-100-hacked-s-2026-10-07",
+    "title": "Fake Cloudflare checks deliver LunexStealer via 100+ hacked sites",
+    "originalTitle": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+    "summary": "CERT-UA reports compromised sites pushing info-stealer malware under bogus Cloudflare verification, so block malicious scripts, harden web supply chains, and strengthen endpoint protections.",
+    "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-07T06:57:54.000Z",
+    "fetchedAt": "2026-10-07T13:16:53.141Z"
+  },
+  {
+    "slug": "android-october-updates-fix-critical-privilege-escalation-2026-10-07",
+    "title": "Android October updates fix critical privilege escalation",
+    "originalTitle": "Android’s October 2026 Updates Patch 25 Vulnerabilities",
+    "summary": "Prioritize October Android patches for corporate devices, they address 25 flaws including a critical System component bug that could allow privilege escalation.",
+    "url": "https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-07T06:55:52.000Z",
+    "fetchedAt": "2026-10-07T13:16:53.141Z"
+  },
+  {
     "slug": "ai-agent-gateway-keeps-bot-secrets-out-of-configs-2026-10-07",
     "title": "AI Agent Gateway keeps bot secrets out of configs",
     "originalTitle": "AI Agent Gateway: Open-source tool keeps credentials out of agent configs",
@@ -3101,192 +3241,5 @@
     "category": "threats",
     "publishedAt": "2026-09-23T13:52:46.000Z",
     "fetchedAt": "2026-09-23T16:54:50.984Z"
-  },
-  {
-    "slug": "arista-fixes-actively-exploited-velocloud-orchestrator-zero-2026-09-23",
-    "title": "Arista fixes actively exploited VeloCloud Orchestrator zero-day",
-    "originalTitle": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
-    "summary": "Patch VeloCloud Orchestrator On-Prem immediately and pull management off the internet, Arista reports active exploitation of a zero-day in on-prem VCO instances.",
-    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-23T12:29:53.000Z",
-    "fetchedAt": "2026-09-23T16:54:50.984Z"
-  },
-  {
-    "slug": "cpanel-bug-lets-hosting-users-get-root-patch-now-2026-09-23",
-    "title": "cPanel bug lets hosting users get root, patch now",
-    "originalTitle": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
-    "summary": "Patch cPanel and WP Toolkit and restrict shell access, CalDAV/CardDAV and WP Toolkit flaws can grant root and cross-account control on shared servers.",
-    "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-23T12:16:00.000Z",
-    "fetchedAt": "2026-09-23T16:54:50.984Z"
-  },
-  {
-    "slug": "cisa-and-fbi-guidance-for-working-with-third-party-ics-integ-2026-09-23",
-    "title": "CISA and FBI guidance for working with third-party ICS integrators",
-    "originalTitle": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
-    "summary": "For OT clients, require contracts with security controls, minimize integrator privileges, segment networks, enforce MFA, log access, and plan rapid revocation before letting third parties touch ICS.",
-    "url": "https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-23T12:00:00.000Z",
-    "fetchedAt": "2026-09-23T21:28:43.396Z"
-  },
-  {
-    "slug": "september-windows-patches-can-break-always-on-vpn-test-first-2026-09-23",
-    "title": "September Windows patches can break Always On VPN, test first",
-    "originalTitle": "Microsoft: September Windows updates break Always On VPN connections",
-    "summary": "Microsoft warns the September updates may disrupt Always On VPN on some Windows 11 systems, so stage deployments, validate connectivity, and prepare rollback or mitigations.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-23T11:18:13.000Z",
-    "fetchedAt": "2026-09-23T11:30:56.865Z"
-  },
-  {
-    "slug": "public-exploit-out-for-unpatched-ubuntu-kernel-container-esc-2026-09-23",
-    "title": "Public exploit out for unpatched Ubuntu kernel container escape",
-    "originalTitle": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
-    "summary": "Hold untrusted containers and minimize host exposure, a public exploit for CVE-2026-80521 lets attackers escape containers to root on Ubuntu LTS kernels not yet patched.",
-    "url": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-23T11:12:18.000Z",
-    "fetchedAt": "2026-09-23T16:54:50.984Z"
-  },
-  {
-    "slug": "chrome-154-fixes-108-bugs-schedule-a-rapid-browser-update-2026-09-23",
-    "title": "Chrome 154 fixes 108 bugs, schedule a rapid browser update",
-    "originalTitle": "Chrome 154 Patches 108 Vulnerabilities",
-    "summary": "Push Chrome 154 to endpoints promptly, the release closes over 100 flaws including several critical memory corruption bugs that enable code execution and sandbox escapes.",
-    "url": "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-23T10:36:07.000Z",
-    "fetchedAt": "2026-09-23T11:30:56.865Z"
-  },
-  {
-    "slug": "update-wordpress-to-7-1-2-unauthenticated-path-traversal-fix-2026-09-23",
-    "title": "Update WordPress to 7.1.2, unauthenticated path traversal fixed",
-    "originalTitle": "WordPress 7.1.2 fixes critical unauthenticated path traversal vulnerability (CVE-2026-87902)",
-    "summary": "Admins should update WordPress to 7.1.2 or patched branch releases to fix CVE-2026-87902, which can let unauthenticated attackers execute PHP code via path traversal.",
-    "url": "https://www.helpnetsecurity.com/2026/09/23/cve-2026-87902-wordpress-7-1-2-security-release/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-23T09:01:45.000Z",
-    "fetchedAt": "2026-09-23T11:30:56.865Z"
-  },
-  {
-    "slug": "microsoft-disrupts-eviltokens-an-ai-powered-phishing-factory-2026-09-23",
-    "title": "Microsoft disrupts EvilTokens, an AI-powered phishing factory",
-    "originalTitle": "Microsoft disrupts EvilTokens phishing service that gave criminals access to 12,000 inboxes",
-    "summary": "Expect smarter phishing anyway, EvilTokens abused AI to pick targets and craft lures, so tighten MFA, watch for token theft, and keep user training current.",
-    "url": "https://www.helpnetsecurity.com/2026/09/23/microsoft-eviltokens-phishing-service-disrupted/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-23T08:34:15.000Z",
-    "fetchedAt": "2026-09-23T11:30:56.865Z"
-  },
-  {
-    "slug": "arista-vco-zero-day-is-under-attack-patch-immediately-2026-09-23",
-    "title": "Arista VCO zero-day is under attack, patch immediately",
-    "originalTitle": "Arista Urges Immediate Patching of Exploited VCO Zero-Day",
-    "summary": "If you run Arista VCO, prioritize the vendor's updates and limit external access, a critical flaw is being exploited to access privileged functionality.",
-    "url": "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-23T08:33:06.000Z",
-    "fetchedAt": "2026-09-23T11:30:56.865Z"
-  },
-  {
-    "slug": "patch-f5-big-ip-apm-now-zero-day-rce-exploited-in-the-wild-2026-09-23",
-    "title": "Patch F5 BIG-IP APM now, zero-day RCE exploited in the wild",
-    "originalTitle": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
-    "summary": "Admins should apply F5's hotfixes immediately on BIG-IP APM OAuth servers, restrict exposure, and hunt for compromise, as a critical unauthenticated RCE is being actively exploited.",
-    "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-23T07:17:23.000Z",
-    "fetchedAt": "2026-09-23T11:30:56.865Z"
-  },
-  {
-    "slug": "next-js-imageresponse-bug-can-lead-to-server-rce-update-now-2026-09-23",
-    "title": "Next.js ImageResponse bug can lead to server RCE, update now",
-    "originalTitle": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
-    "summary": "If your app uses ImageResponse with user-controlled input, upgrade to the patched Next.js release and sanitize SVG and text inputs to prevent server code execution.",
-    "url": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-23T07:04:40.000Z",
-    "fetchedAt": "2026-09-23T11:30:56.865Z"
-  },
-  {
-    "slug": "check-point-management-server-zero-day-emergency-patches-ava-2026-09-23",
-    "title": "Check Point Management Server zero-day, emergency patches available",
-    "originalTitle": "Check Point Patches Exploited Management Server Zero-Day",
-    "summary": "Apply Check Point's emergency fixes on Management Servers now and review logs, attackers have been exploiting an unauthenticated script upload flaw since July.",
-    "url": "https://www.securityweek.com/check-point-patches-exploited-management-server-zero-day/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/23/check-point-f5-big-ip-apm-zero-days-targeted/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-23T06:14:03.000Z",
-    "fetchedAt": "2026-09-23T11:30:56.865Z"
   }
 ]
