@@ -66,28 +66,13 @@ function stripDashes(text) {
     .replace(/\s*[—–]\s*/g, ', ')
 }
 
-async function main() {
-  const news = JSON.parse(readFileSync(NEWS_PATH, 'utf8'))
-  const briefs = JSON.parse(readFileSync(BRIEFS_PATH, 'utf8'))
+function isPromptFilterError(err) {
+  return err instanceof OpenAI.APIError && err.status === 400 && err.code === 'content_filter'
+}
 
-  const today = new Date().toISOString().slice(0, 10)
-  if (briefs.some((b) => b.date === today)) {
-    console.log(`brief for ${today} already exists, exiting`)
-    process.exit(0)
-  }
-
-  const now = Date.now()
-  const stories = news
-    .filter((item) => now - new Date(item.publishedAt).getTime() <= STORY_WINDOW_MS)
-    .slice(0, MAX_STORIES)
-  if (stories.length < MIN_STORIES) {
-    console.log(`only ${stories.length} recent stories, skipping brief`)
-    process.exit(0)
-  }
-
-  const client = new OpenAI({ baseURL: AZURE_AI_ENDPOINT, apiKey: process.env.AZURE_AI_API_KEY })
+async function requestBrief(client, stories) {
   const payload = stories.map(({ slug, title, summary, source, category }) => ({ slug, title, summary, source: source.name, category }))
-  const response = await client.chat.completions.create({
+  return client.chat.completions.create({
     model: AZURE_AI_DEPLOYMENT,
     max_completion_tokens: 16000,
     messages: [
@@ -99,6 +84,61 @@ async function main() {
       json_schema: { name: 'daily_brief', strict: true, schema: BRIEF_SCHEMA },
     },
   })
+}
+
+// Azure rejects the whole prompt when one story trips its input filter; bisect to find which
+async function findFilteredSlugs(client, stories) {
+  if (stories.length === 1) return [stories[0].slug]
+  const mid = Math.floor(stories.length / 2)
+  const slugs = []
+  for (const half of [stories.slice(0, mid), stories.slice(mid)]) {
+    try {
+      await requestBrief(client, half)
+    } catch (err) {
+      if (!isPromptFilterError(err)) throw err
+      slugs.push(...(await findFilteredSlugs(client, half)))
+    }
+  }
+  return slugs
+}
+
+async function main() {
+  const news = JSON.parse(readFileSync(NEWS_PATH, 'utf8'))
+  const briefs = JSON.parse(readFileSync(BRIEFS_PATH, 'utf8'))
+
+  const today = new Date().toISOString().slice(0, 10)
+  if (briefs.some((b) => b.date === today)) {
+    console.log(`brief for ${today} already exists, exiting`)
+    process.exit(0)
+  }
+
+  const now = Date.now()
+  let stories = news
+    .filter((item) => now - new Date(item.publishedAt).getTime() <= STORY_WINDOW_MS)
+    .slice(0, MAX_STORIES)
+  if (stories.length < MIN_STORIES) {
+    console.log(`only ${stories.length} recent stories, skipping brief`)
+    process.exit(0)
+  }
+
+  const client = new OpenAI({ baseURL: AZURE_AI_ENDPOINT, apiKey: process.env.AZURE_AI_API_KEY })
+  let response
+  try {
+    response = await requestBrief(client, stories)
+  } catch (err) {
+    if (!isPromptFilterError(err)) throw err
+    console.warn('prompt tripped the content filter, isolating offending stories')
+    const filteredSlugs = new Set(await findFilteredSlugs(client, stories))
+    for (const s of stories) {
+      if (filteredSlugs.has(s.slug)) console.warn(`dropped by content filter: ${s.title}`)
+    }
+    stories = stories.filter((s) => !filteredSlugs.has(s.slug))
+    if (stories.length < MIN_STORIES) {
+      console.warn(`only ${stories.length} stories left after filtering, skipping brief`)
+      process.exit(0)
+    }
+    response = await requestBrief(client, stories)
+  }
   const message = response.choices?.[0]?.message
   if (message?.refusal) {
     console.warn('brief request refused, skipping run', message.refusal)
