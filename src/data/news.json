@@ -1,5 +1,61 @@
 [
   {
+    "slug": "even-security-pros-still-use-passwords-passkey-adoption-lags-2026-10-08",
+    "title": "Even security pros still use passwords, passkey adoption lags",
+    "originalTitle": "The people who know passkeys best are still typing passwords",
+    "summary": "Move users to phishing resistant MFA and passkeys, as a Yubico and Okta survey found 43 percent still sign in with passwords despite high familiarity with modern authentication.",
+    "url": "https://www.helpnetsecurity.com/2026/10/08/passkey-adoption-typing-passwords/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-08T04:30:20.000Z",
+    "fetchedAt": "2026-10-08T05:58:08.980Z"
+  },
+  {
+    "slug": "patch-your-java-libraries-400-flaws-fixed-by-ibm-and-red-hat-2026-10-08",
+    "title": "Patch your Java libraries: 400+ flaws fixed by IBM and Red Hat",
+    "originalTitle": "Java library vulnerabilities: IBM and Red Hat fix 400+ previously unknown flaws",
+    "summary": "Update affected Java libraries now, inventory dependencies and rebuild apps, as IBM and Red Hat patched 400-plus previously unknown vulnerabilities that leave production systems exposed until fixed.",
+    "url": "https://www.helpnetsecurity.com/2026/10/08/lightwell-java-library-vulnerabilities/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-08T04:18:00.000Z",
+    "fetchedAt": "2026-10-08T05:58:08.980Z"
+  },
+  {
+    "slug": "healthcare-devices-exploited-pqc-readiness-still-far-behind-2026-10-08",
+    "title": "Healthcare devices exploited, PQC readiness still far behind",
+    "originalTitle": "Medical devices patients rely on most are least prepared for quantum attacks",
+    "summary": "If you serve healthcare, lock down IoT and IoMT with segmentation and monitoring, as ransomware actors actively exploit these devices and most organizations lag on post-quantum crypto planning.",
+    "url": "https://www.helpnetsecurity.com/2026/10/08/forescout-healthcare-quantum-readiness-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-08T04:00:14.000Z",
+    "fetchedAt": "2026-10-08T05:58:08.980Z"
+  },
+  {
+    "slug": "ransomware-recovery-firm-charged-for-secretly-paying-attacke-2026-10-07",
+    "title": "Ransomware “recovery” firm charged for secretly paying attackers",
+    "originalTitle": "Ransomware recovery CEO charged over secret ransom payments",
+    "summary": "Tighten vendor due diligence and incident playbooks: a recovery company CEO was charged after allegedly paying ransoms for decryptors while claiming proprietary nonpayment remediation to victims.",
+    "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-07T23:04:37.000Z",
+    "fetchedAt": "2026-10-08T05:58:08.980Z"
+  },
+  {
     "slug": "fortibleed-attacks-still-lock-out-fortigate-admins-2026-10-07",
     "title": "FortiBleed attacks still lock out FortiGate admins",
     "originalTitle": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
@@ -3181,33 +3237,5 @@
     "category": "defense",
     "publishedAt": "2026-09-24T06:25:06.000Z",
     "fetchedAt": "2026-09-24T11:41:20.808Z"
-  },
-  {
-    "slug": "internet-facing-plcs-are-being-hit-check-your-elevators-and-2026-09-24",
-    "title": "Internet-facing PLCs are being hit, check your elevators and HVAC",
-    "originalTitle": "Your security program knows about the firewall, but does it know about the elevator?",
-    "summary": "Audit and segment building controls like elevators and HVAC, remove Internet exposure and default credentials, attackers are exploiting internet-facing PLCs to disrupt operations at utilities.",
-    "url": "https://www.helpnetsecurity.com/2026/09/24/ot-asset-visibility-challenges/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-24T04:30:14.000Z",
-    "fetchedAt": "2026-09-24T04:44:50.934Z"
-  },
-  {
-    "slug": "ubuntu-kernel-cve-updates-move-to-weekly-cadence-2026-09-24",
-    "title": "Ubuntu kernel CVE updates move to weekly cadence",
-    "originalTitle": "Ubuntu kernel CVE fixes are moving to a weekly release schedule",
-    "summary": "Expect weekly Ubuntu kernel releases, plan for more frequent reboots and testing, and adjust patch automation and maintenance windows to land CVE fixes on a predictable cadence.",
-    "url": "https://www.helpnetsecurity.com/2026/09/24/ubuntu-kernel-cve-fixes-release-schedule/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-24T04:27:02.000Z",
-    "fetchedAt": "2026-09-24T04:44:50.934Z"
   }
 ]
