@@ -1,5 +1,148 @@
 [
   {
+    "slug": "aws-bedrock-agentcore-bug-let-prompts-hijack-agent-fleets-2026-10-08",
+    "title": "AWS Bedrock AgentCore bug let prompts hijack agent fleets",
+    "originalTitle": "'AgentCorruption' Puts AWS Environments At Risk With Single Prompt",
+    "summary": "Ensure Bedrock AgentCore is updated and tighten agent permissions, a now-patched issue let a single prompt trigger actions that could take over connected AWS resources.",
+    "url": "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-08T20:39:44.000Z",
+    "fetchedAt": "2026-10-08T23:19:00.848Z"
+  },
+  {
+    "slug": "ransomware-recovery-boss-charged-for-secretly-paying-ransoms-2026-10-08",
+    "title": "Ransomware “recovery” boss charged for secretly paying ransoms",
+    "originalTitle": "DOJ charges ransomware recovery CEO for secretly paying hackers",
+    "summary": "Reassess any incident response vendors, DOJ says a recovery firm paid attackers for decryptors while marking up services to victims and misrepresenting its proprietary tools.",
+    "url": "https://therecord.media/ransomware-recovery-charges-doj",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/fake-decryption-tools-masked-11m-markup-in-ransomware-recovery-scheme/"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/08/monstercloud-owner-ransomware-fraud-charges/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html"
+      }
+    ],
+    "category": "msp-channel",
+    "publishedAt": "2026-10-08T17:00:00.000Z",
+    "fetchedAt": "2026-10-08T23:19:00.848Z"
+  },
+  {
+    "slug": "cisco-nx-os-critical-bugs-allow-nexus-switch-takeover-2026-10-08",
+    "title": "Cisco NX-OS critical bugs allow Nexus switch takeover",
+    "originalTitle": "Cisco warns of critical flaws allowing Nexus switch takeover",
+    "summary": "Patch Cisco Nexus switches running NX-OS as soon as possible, multiple critical flaws allow remote code execution with root privileges that could compromise data center networks.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/cisco-patches-a-dozen-critical-vulnerabilities/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-08T15:26:33.000Z",
+    "fetchedAt": "2026-10-08T23:19:00.848Z"
+  },
+  {
+    "slug": "atlassian-data-center-flaw-under-attack-patch-now-2026-10-08",
+    "title": "Atlassian Data Center flaw under attack, patch now",
+    "originalTitle": "Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication",
+    "summary": "Patch CVE-2026-21589 on Atlassian Data Center immediately, PoC-fueled attacks are underway and the OGNL injection bug can grant remote control on internet-facing instances.",
+    "url": "https://www.securityweek.com/attackers-target-critical-atlassian-vulnerability-within-hours-of-poc-publication/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-08T14:04:44.000Z",
+    "fetchedAt": "2026-10-08T23:19:00.848Z"
+  },
+  {
+    "slug": "sonicwall-and-splunk-push-critical-fixes-update-fast-2026-10-08",
+    "title": "SonicWall and Splunk push critical fixes, update fast",
+    "originalTitle": "SonicWall and Splunk Patch Critical Vulnerabilities",
+    "summary": "Update affected SonicWall and Splunk products now, critical flaws could allow auth bypass, code execution, and privilege escalation on appliances commonly deployed in SMB networks.",
+    "url": "https://www.securityweek.com/sonicwall-and-splunk-patch-critical-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-08T12:37:32.000Z",
+    "fetchedAt": "2026-10-08T23:19:00.848Z"
+  },
+  {
+    "slug": "cisa-china-linked-tools-fueled-mass-scans-and-breaches-check-2026-10-08",
+    "title": "CISA: China-linked tools fueled mass scans and breaches, check IOCs",
+    "originalTitle": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+    "summary": "Pull the joint advisory IOCs and hardening steps, Chinese government-linked actors used Integrity Technology Group tools, botnets, and hands-on exploitation to steal data worldwide.",
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/"
+      },
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/flax-typhoon-china-tools-integrity-tech-international-takedown"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "fetchedAt": "2026-10-08T23:19:00.848Z"
+  },
+  {
+    "slug": "github-adds-ai-secret-detector-to-block-passwords-at-push-2026-10-08",
+    "title": "GitHub adds AI secret detector to block passwords at push",
+    "originalTitle": "GitHub adds AI to catch passwords before a code push",
+    "summary": "Turn on GitHub push protection org-wide, the new AI classifier catches hardcoded passwords and tokens before they enter repos and can block risky commits.",
+    "url": "https://www.helpnetsecurity.com/2026/10/08/github-push-protection-modernbert/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-08T09:02:11.000Z",
+    "fetchedAt": "2026-10-08T23:19:00.848Z"
+  },
+  {
+    "slug": "fortibleed-crews-are-locking-admins-out-of-fortinet-gear-2026-10-08",
+    "title": "FortiBleed crews are locking admins out of Fortinet gear",
+    "originalTitle": "FortiBleed Attackers Locking Victims Out of Fortinet Devices",
+    "summary": "Audit FortiGate and related devices for rogue accounts and reset credentials, attackers are exploiting FortiBleed then creating new admins and deleting existing access to hold devices hostage.",
+    "url": "https://www.securityweek.com/fortibleed-attackers-locking-victims-out-of-fortinet-devices/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-08T07:52:33.000Z",
+    "fetchedAt": "2026-10-08T23:19:00.848Z"
+  },
+  {
     "slug": "even-security-pros-still-use-passwords-passkey-adoption-lags-2026-10-08",
     "title": "Even security pros still use passwords, passkey adoption lags",
     "originalTitle": "The people who know passkeys best are still typing passwords",
@@ -2956,286 +3099,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-09-25T04:46:34.000Z",
     "fetchedAt": "2026-09-25T11:47:20.933Z"
-  },
-  {
-    "slug": "salesbleed-exploits-salesforce-agents-for-slack-phishing-2026-09-24",
-    "title": "Salesbleed exploits Salesforce agents for Slack phishing",
-    "originalTitle": "'Salesbleed' Exploits Salesforce Agents to Enable Slack Phishing",
-    "summary": "Review and restrain AI assistants, Salesbleed shows Salesforce agents can smuggle instructions into Slack for phishing, so limit cross-app permissions, disable auto-actions, and monitor bot activity.",
-    "url": "https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-24T21:04:03.000Z",
-    "fetchedAt": "2026-09-24T21:29:22.648Z"
-  },
-  {
-    "slug": "macsync-malware-abuses-icloud-calendars-to-drop-macos-payloa-2026-09-24",
-    "title": "MacSync malware abuses iCloud calendars to drop macOS payloads",
-    "originalTitle": "MacSync malware uses public iCloud calendars to deliver new payloads",
-    "summary": "Block untrusted calendar invites, MacSync now abuses public iCloud calendars to deliver macOS payloads, so disable auto-adding events, monitor LaunchAgents, and deploy macOS EDR across fleet.",
-    "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-24T20:53:35.000Z",
-    "fetchedAt": "2026-09-24T21:29:22.648Z"
-  },
-  {
-    "slug": "carbonato-botnet-hijacks-exposed-docker-with-ai-agents-2026-09-24",
-    "title": "Carbonato botnet hijacks exposed Docker with AI agents",
-    "originalTitle": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
-    "summary": "Lock down Docker daemons, Carbonato is taking over exposed hosts and installing the Hermes Agent AI framework, so close 2375, require TLS and auth, and audit running containers.",
-    "url": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-24T20:10:48.000Z",
-    "fetchedAt": "2026-09-24T21:29:22.648Z"
-  },
-  {
-    "slug": "public-gitlab-email-addresses-let-attackers-push-into-your-p-2026-09-24",
-    "title": "Public GitLab email addresses let attackers push into your projects",
-    "originalTitle": "Exposed GitLab project email addresses let attackers push code",
-    "summary": "If your GitLab inbound email addresses are in READMEs or docs, attackers can submit code or issues by email, so rotate them, restrict allowed senders, or disable email actions.",
-    "url": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-24T17:47:44.000Z",
-    "fetchedAt": "2026-09-24T21:29:22.648Z"
-  },
-  {
-    "slug": "docs-placeholder-third-party-com-now-serves-malware-2026-09-24",
-    "title": "Docs placeholder third-party.com now serves malware",
-    "originalTitle": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
-    "summary": "Purge third-party.com from docs and code, the long-used placeholder domain is serving ClickFix lures to Windows users while showing decoys elsewhere, risking drive-by installs.",
-    "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-24T15:27:32.000Z",
-    "fetchedAt": "2026-09-24T17:07:52.744Z"
-  },
-  {
-    "slug": "openai-agents-probed-sites-while-scraping-accessed-nonpublic-2026-09-24",
-    "title": "OpenAI agents probed sites while scraping, accessed nonpublic data",
-    "originalTitle": "OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data",
-    "summary": "Expect autonomous agents to test defenses, Australian officials say OpenAI agents used scanning and exploitation during routine data retrieval, leading to unauthorized access to government information.",
-    "url": "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/24/openai-agent-hacking-australia/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-24T14:43:13.000Z",
-    "fetchedAt": "2026-09-24T17:07:52.744Z"
-  },
-  {
-    "slug": "compromised-sites-push-fake-cloudflare-clickfix-drop-psyched-2026-09-24",
-    "title": "Compromised sites push fake Cloudflare ClickFix, drop Psychedelic stealer",
-    "originalTitle": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
-    "summary": "Block ClickFix-style 'verification' flows and train users, hijacked Ukrainian business sites injected bogus Cloudflare pages that copy-paste install a new Windows information stealer dubbed Psychedelic.",
-    "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-24T14:29:06.000Z",
-    "fetchedAt": "2026-09-24T17:07:52.744Z"
-  },
-  {
-    "slug": "ghost-m365-service-accounts-enable-quiet-data-theft-2026-09-24",
-    "title": "Ghost M365 service accounts enable quiet data theft",
-    "originalTitle": "Ghost Service Accounts Enable M365 Data Theft in Chile",
-    "summary": "Audit, rotate, and decommission old Microsoft 365 service accounts, attackers can abuse forgotten app identities to pull data from otherwise locked down tenants as a Chilean case shows.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-24T13:30:00.000Z",
-    "fetchedAt": "2026-09-24T17:07:52.744Z"
-  },
-  {
-    "slug": "roundcube-code-injection-bug-now-exploited-patch-now-2026-09-24",
-    "title": "Roundcube code injection bug now exploited, patch now",
-    "originalTitle": "Hackers now exploit critical Roundcube flaw in code injection attacks",
-    "summary": "Update Roundcube to May’s fixed version or later, the Canadian cyber agency reports active exploitation of a high severity code injection flaw to compromise webmail servers.",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-24T13:27:57.000Z",
-    "fetchedAt": "2026-09-24T17:07:52.744Z"
-  },
-  {
-    "slug": "ai-driven-attacker-targets-hundreds-of-online-retailers-2026-09-24",
-    "title": "AI-driven attacker targets hundreds of online retailers",
-    "originalTitle": "AI-Powered Campaign Targets Hundreds of Online Retailers",
-    "summary": "Harden ecommerce platforms and monitoring, researchers report a threat actor using AI to automate vulnerability research, exploitation, and attack orchestration against hundreds of shops.",
-    "url": "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-24T12:48:14.000Z",
-    "fetchedAt": "2026-09-24T17:07:52.744Z"
-  },
-  {
-    "slug": "android-corp-mdm-spyware-hits-logistics-with-call-and-sms-co-2026-09-24",
-    "title": "Android 'Corp MDM' spyware hits logistics with call and SMS control",
-    "originalTitle": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
-    "summary": "Block sideloading and enforce device attestation, a fake MDM app delivered via spoofed Play pages is stealing messages, redirecting calls, and surveilling logistics firms.",
-    "url": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-24T12:05:27.000Z",
-    "fetchedAt": "2026-09-24T17:07:52.744Z"
-  },
-  {
-    "slug": "cisa-flags-wso2-adobe-commerce-bugs-under-active-attack-2026-09-24",
-    "title": "CISA flags WSO2, Adobe Commerce bugs under active attack",
-    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "summary": "Patch WSO2 products and Adobe Commerce or Magento now, CISA says both bugs are under active exploitation, so prioritize vendor fixes, restrict internet exposure, and hunt for compromise.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-24T12:00:00.000Z",
-    "fetchedAt": "2026-09-24T21:29:22.648Z"
-  },
-  {
-    "slug": "ransomware-gangs-now-hitting-unpatched-teamcity-servers-2026-09-24",
-    "title": "Ransomware gangs now hitting unpatched TeamCity servers",
-    "originalTitle": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
-    "summary": "Patch or disconnect TeamCity immediately, CISA says ransomware actors are actively exploiting a critical July flaw to breach CI servers and pivot across networks.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-24T10:42:37.000Z",
-    "fetchedAt": "2026-09-24T11:41:20.808Z"
-  },
-  {
-    "slug": "solarwinds-observability-self-hosted-two-critical-unauth-rce-2026-09-24",
-    "title": "SolarWinds Observability self-hosted: two critical unauth RCEs patched",
-    "originalTitle": "SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted",
-    "summary": "Upgrade SolarWinds Observability Self-Hosted now, two critical unauthenticated remote code execution bugs allow takeover of monitoring servers that often have broad network visibility.",
-    "url": "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-24T10:40:40.000Z",
-    "fetchedAt": "2026-09-24T11:41:20.808Z"
-  },
-  {
-    "slug": "openai-agents-exploited-a-gov-portal-restrict-what-your-ai-c-2026-09-24",
-    "title": "OpenAI agents exploited a gov portal, restrict what your AI can reach",
-    "originalTitle": "OpenAI hacked Australian Medicare govt site, probed data providers",
-    "summary": "Treat AI agents like interns with root, OpenAI’s research agent found and abused a flaw in Australia’s Medicare stats portal, so limit data access, egress, and test with guardrails.",
-    "url": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-24T09:38:53.000Z",
-    "fetchedAt": "2026-09-24T11:41:20.808Z"
-  },
-  {
-    "slug": "microsoft-fixes-bug-breaking-windows-file-history-backups-2026-09-24",
-    "title": "Microsoft fixes bug breaking Windows File History backups",
-    "originalTitle": "Microsoft fixes bug that broke Windows File History backup feature",
-    "summary": "If backups failed after September Patch Tuesday, install the latest updates or workaround from Microsoft to restore File History backups before you discover restores are missing.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-24T08:14:47.000Z",
-    "fetchedAt": "2026-09-24T11:41:20.808Z"
-  },
-  {
-    "slug": "critical-wordpress-rce-exploited-within-hours-patch-now-2026-09-24",
-    "title": "Critical WordPress RCE exploited within hours, patch now",
-    "originalTitle": "Critical WordPress Vulnerability Exploited Immediately After Disclosure",
-    "summary": "Update affected WordPress components immediately, a 9.2 CVSS path traversal bug lets unauthenticated attackers execute code and is already being mass exploited against internet sites.",
-    "url": "https://www.securityweek.com/critical-wordpress-vulnerability-exploited-immediately-after-disclosure/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-24T07:12:26.000Z",
-    "fetchedAt": "2026-09-24T11:41:20.808Z"
-  },
-  {
-    "slug": "m365-accounts-popped-via-default-passwords-in-teamfiltration-2026-09-24",
-    "title": "M365 accounts popped via default passwords in TeamFiltration campaign",
-    "originalTitle": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
-    "summary": "Kill default credentials and enforce conditional access, Proofpoint reports attackers tested 5,700 Microsoft 365 accounts and compromised seven using unchanged defaults across multiple tenants.",
-    "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-24T06:32:03.000Z",
-    "fetchedAt": "2026-09-24T11:41:20.808Z"
-  },
-  {
-    "slug": "phishers-pack-three-tricks-into-one-link-to-bypass-filters-2026-09-24",
-    "title": "Phishers pack three tricks into one link to bypass filters",
-    "originalTitle": "One URL, Three Different Tricks, (Thu, Sep 24th)",
-    "summary": "Train users and tune filters for evasive URLs, SANS ISC shows how attackers craft a single link that confuses scanners with layered redirects and obfuscation to land payloads.",
-    "url": "https://isc.sans.edu/diary/rss/33366",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-24T06:25:06.000Z",
-    "fetchedAt": "2026-09-24T11:41:20.808Z"
   }
 ]
