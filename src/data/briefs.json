@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-08",
+    "date": "2026-10-08",
+    "title": "Edge gear under fire, trust shaken, patch everything",
+    "intro": "Active edge exploits, a critical SonicWall bug, and shaky DNS trust make today a patch and harden kind of morning. Plan on some policy cleanup too.",
+    "items": [
+      {
+        "heading": "SonicWall SMA1000 pre-auth flaw, hotfix now",
+        "body": "A pre-auth SSRF on SMA1000 appliances earned a perfect severity score and can reach internal services. Apply SonicWall’s hotfixes immediately, pull management off the internet, and review logs for odd requests. If you cannot patch right away, restrict access to trusted networks and tighten ACLs as a temporary guardrail.",
+        "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "sonicwall-sma1000-pre-auth-bug-rated-10-hotfix-now-2026-10-07"
+      },
+      {
+        "heading": "FortiBleed campaigns continue to hit FortiGate",
+        "body": "The FBI says attackers are still targeting internet facing FortiGate gear, with cases of admins getting locked out. Patch affected devices, rotate VPN credentials, and audit all admin accounts. Lock management interfaces to trusted networks only and verify your backups and out of band access.",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "fortibleed-attacks-still-lock-out-fortigate-admins-2026-10-07"
+      },
+      {
+        "heading": "Registry breaches led to fake certs for Google domains",
+        "body": "Compromises at the .gh, .as, and .sl registries let attackers change DNS and obtain unauthorized certificates. This is a reminder to watch Certificate Transparency logs and lock down registrar accounts with strong auth and registry locks. Where possible, enforce HSTS and deploy DNSSEC to raise the bar on domain tampering.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "registry-hacks-let-attackers-issue-fake-certs-for-google-dom-2026-10-07"
+      },
+      {
+        "heading": "400 plus Java library bugs fixed by IBM and Red Hat",
+        "body": "Vendors patched hundreds of previously unknown issues across Java libraries, which means your dependencies may be quietly vulnerable until rebuilt. Inventory your Java components, update to fixed versions, and rebuild and redeploy apps. Prioritize internet exposed and high value services, and do a quick test pass to avoid surprise regressions.",
+        "url": "https://www.helpnetsecurity.com/2026/10/08/lightwell-java-library-vulnerabilities/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "patch-your-java-libraries-400-flaws-fixed-by-ibm-and-red-hat-2026-10-08"
+      },
+      {
+        "heading": "Ransomware recovery firm charged over covert payments",
+        "body": "Prosecutors allege a recovery company paid ransoms to get decryptors while telling clients it used proprietary methods without paying. If you use third party incident help, tighten due diligence and make payment policies explicit. Bake transparency and approval requirements into contracts and run tabletop exercises so no one freelances under pressure.",
+        "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "ransomware-recovery-firm-charged-for-secretly-paying-attacke-2026-10-07"
+      },
+      {
+        "heading": "Healthcare devices targeted, PQC plans lag",
+        "body": "Ransomware operators are exploiting IoT and IoMT in healthcare, and many organizations are not ready for post quantum crypto shifts. If you support this sector, segment clinical networks, enforce least privilege, and monitor device traffic. Start a crypto inventory and roadmap so PQC changes do not blindside your environments.",
+        "url": "https://www.helpnetsecurity.com/2026/10/08/forescout-healthcare-quantum-readiness-report/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "healthcare-devices-exploited-pqc-readiness-still-far-behind-2026-10-08"
+      },
+      {
+        "heading": "Outlook to block .msix attachments next month",
+        "body": "Microsoft will add .msix and .msixbundle to Outlook’s blocked file list in November. Prepare users and adjust workflows so legitimate packages move through approved channels. Update guidance for help desks and set up alternative transfer methods now to avoid last minute scrambles.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "outlook-will-block-msix-attachments-starting-in-november-2026-10-07"
+      },
+      {
+        "heading": "Passkey adoption still lagging even among pros",
+        "body": "A Yubico and Okta survey says 43 percent of respondents still sign in with passwords despite broad awareness of modern options. Push phishing resistant MFA and passkeys where you can and start cutting off legacy auth flows. Pilot with high risk apps and set dates to retire passwords for targeted groups.",
+        "url": "https://www.helpnetsecurity.com/2026/10/08/passkey-adoption-typing-passwords/",
+        "source": "Help Net Security",
+        "category": "defense",
+        "storySlug": "even-security-pros-still-use-passwords-passkey-adoption-lags-2026-10-08"
+      }
+    ],
+    "signOff": "Patch the edge first, then take on the rest.",
+    "generatedAt": "2026-10-08T19:18:21.053Z"
+  },
+  {
     "slug": "2026-10-07",
     "date": "2026-10-07",
     "title": "Keys Leaked, Bugs Exploited: Patch and Lock Down Today",
@@ -2128,79 +2202,5 @@
     ],
     "signOff": "Good hunting. Patch quick, verify access changes, and keep your keys tight.",
     "generatedAt": "2026-09-09T17:11:12.413Z"
-  },
-  {
-    "slug": "2026-09-08",
-    "date": "2026-09-08",
-    "title": "Patch sprint for SAP, FreeIPA, Magento, and MikroTik",
-    "intro": "Busy day: multiple high impact fixes, one zero day already in play. Tighten identity workflows and risky integrations while you patch.",
-    "items": [
-      {
-        "heading": "SAP ships fix for kernel RCE, apply now",
-        "body": "SAP’s September updates include a maximum severity kernel bug that enables unauthenticated remote command execution, secret access, and data tampering across affected systems. If you run SAP anywhere, treat this as urgent. Patch immediately, restrict network exposure, and watch logs for odd processes or changed accounts.",
-        "url": "https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "sap-ships-fix-for-max-severity-kernel-bug-deploy-quickly-2026-09-08"
-      },
-      {
-        "heading": "FreeIPA bug chain gives instant domain admin",
-        "body": "A two flaw chain lets unauthenticated clients create chosen Kerberos identities that land in the administrators group, granting full domain control. Linux estates using FreeIPA and 389 Directory Server are at high risk. Update both now, audit for unexpected principals or admin group changes, and rotate keys if anything looks off.",
-        "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "freeipa-flaw-chain-lets-anyone-mint-admin-creds-patch-now-2026-09-08"
-      },
-      {
-        "heading": "Magento zero day is being used to backdoor stores",
-        "body": "CVE-2026-75650 is under active attack against Adobe Commerce and Magento to implant backdoors, which can end in full site takeover. If you support e commerce clients, assume attackers are scanning already. Patch right away, restrict admin access to trusted networks, add WAF rules, and hunt for unfamiliar files or users.",
-        "url": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "patch-now-magento-zero-day-actively-exploited-to-backdoor-st-2026-09-08"
-      },
-      {
-        "heading": "MikroTik router flaws chained for takeover",
-        "body": "New RouterOS fixes address a chain that can bypass authentication and overwrite configurations, giving attackers full control of MikroTik devices. Edge gear is a favorite foothold. Upgrade now, pull management off the internet, limit admin to VPN or allow lists, and review configs for unauthorized changes.",
-        "url": "https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "mikrotik-patches-router-flaws-chained-for-takeover-update-fa-2026-09-08"
-      },
-      {
-        "heading": "CISA flags CareCam Pro cameras with hardcoded creds",
-        "body": "CareCam Pro IP cameras include hardcoded credentials that allow full device takeover. Treat them as compromised by design. Isolate them from the internet, segment from production networks, and plan to replace them as soon as possible.",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01",
-        "source": "CISA Advisories",
-        "category": "vulnerabilities",
-        "storySlug": "cisa-carecam-pro-ip-cams-have-hardcoded-creds-replace-or-iso-2026-09-08"
-      },
-      {
-        "heading": "Help desk vishing stealing M365 session tokens",
-        "body": "Attackers are impersonating IT, coercing support workflows, and using residential proxies to reuse stolen session tokens to raid Microsoft 365 and other SaaS data. The weak link is often verification at the help desk. Train staff, require strong identity checks, restrict help desk powers to reset MFA or issue tokens, and revoke active sessions when fraud is suspected.",
-        "url": "https://www.helpnetsecurity.com/2026/09/08/vishing-microsoft-365-data-theft-extortion/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "help-desk-vishing-is-stealing-m365-tokens-and-data-lock-it-d-2026-09-08"
-      },
-      {
-        "heading": "Threat actors use AI agents to scale credential theft",
-        "body": "Google reports adversaries adopting multi agent frameworks to automate phishing, scanning, and troubleshooting, which speeds up credential theft and persistence. Expect faster, noisier campaigns. Push phishing resistant MFA, tighten anomaly detection, and shorten token lifetimes with regular rotation.",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "attackers-roll-out-ai-agents-to-harvest-creds-at-scale-2026-09-08"
-      },
-      {
-        "heading": "Prompt injection in ChatGPT leaked Gmail via integrations",
-        "body": "A hidden prompt was able to read data from a user’s linked Gmail and exfiltrate it to another account without obvious signs. If you connect AI tools to mailboxes or SaaS, assume prompts can be abused. Review and restrict ChatGPT integrations, minimize scopes, disable Gmail connectors where not needed, and regularly audit third party access tokens.",
-        "url": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "prompt-injection-in-chatgpt-leaked-gmail-from-connected-acco-2026-09-08"
-      }
-    ],
-    "signOff": "Good luck, patches wait for no one.",
-    "generatedAt": "2026-09-08T17:16:59.358Z"
   }
 ]
