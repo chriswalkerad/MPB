@@ -1,5 +1,47 @@
 [
   {
+    "slug": "pwn2own-ireland-finds-98-zero-days-expect-a-flood-of-patches-2026-10-09",
+    "title": "Pwn2Own Ireland finds 98 zero-days, expect a flood of patches",
+    "originalTitle": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+    "summary": "Track vendor advisories and patch fast, researchers popped 98 zero-days at Pwn2Own Ireland and vendors will ship fixes across widely used software.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-09T05:41:04.000Z",
+    "fetchedAt": "2026-10-09T06:04:10.909Z"
+  },
+  {
+    "slug": "thousands-of-eu-wind-and-solar-systems-exposed-online-2026-10-09",
+    "title": "Thousands of EU wind and solar systems exposed online",
+    "originalTitle": "Thousands of wind and solar park systems sit exposed on the internet across Europe",
+    "summary": "Audit and lock down any OT and energy gear on public IPs, researchers found 8,547 exposed interfaces including control pages with stop buttons at wind and solar sites.",
+    "url": "https://www.helpnetsecurity.com/2026/10/09/eu-renewable-energy-cybersecurity/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-09T05:30:52.000Z",
+    "fetchedAt": "2026-10-09T06:04:10.909Z"
+  },
+  {
+    "slug": "pci-says-keep-a-human-in-the-loop-for-ai-touching-card-data-2026-10-09",
+    "title": "PCI says keep a human in the loop for AI touching card data",
+    "originalTitle": "PCI SSC calls for human approval of AI agent actions involving cardholder data",
+    "summary": "Require human approval for AI agent actions involving cardholder data and apply PCI SSC's new guidance on governance, access controls, testing and logging in payment environments.",
+    "url": "https://www.helpnetsecurity.com/2026/10/09/pci-ssc-payment-environments-ai-security-guidance/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-09T05:00:25.000Z",
+    "fetchedAt": "2026-10-09T06:04:10.909Z"
+  },
+  {
     "slug": "aws-bedrock-agentcore-bug-let-prompts-hijack-agent-fleets-2026-10-08",
     "title": "AWS Bedrock AgentCore bug let prompts hijack agent fleets",
     "originalTitle": "'AgentCorruption' Puts AWS Environments At Risk With Single Prompt",
@@ -3084,20 +3126,6 @@
     ],
     "category": "vulnerabilities",
     "publishedAt": "2026-09-25T06:57:40.000Z",
-    "fetchedAt": "2026-09-25T11:47:20.933Z"
-  },
-  {
-    "slug": "cisa-flags-wso2-and-adobe-commerce-flaws-patch-now-2026-09-25",
-    "title": "CISA flags WSO2 and Adobe Commerce flaws, patch now",
-    "originalTitle": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
-    "summary": "Patch affected WSO2 API Control Plane and Adobe Commerce or Magento versions now, both flaws are under active exploit and on CISA's KEV list with remediation deadlines.",
-    "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-25T04:46:34.000Z",
     "fetchedAt": "2026-09-25T11:47:20.933Z"
   }
 ]
