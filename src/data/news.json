@@ -1,5 +1,98 @@
 [
   {
+    "slug": "attackers-will-social-engineer-your-ai-agents-like-bec-victi-2026-10-09",
+    "title": "Attackers will social-engineer your AI agents like BEC victims",
+    "originalTitle": "Social Engineering AI Agents: The New BEC for 2026",
+    "summary": "As AI agents gain authority over business systems, lock down permissions, enforce approvals, and train staff to spot prompt injection that can trick agents into harmful actions.",
+    "url": "https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-09T13:00:00.000Z",
+    "fetchedAt": "2026-10-09T13:12:10.648Z"
+  },
+  {
+    "slug": "sonicwall-sma1000-flaw-under-attack-patch-now-2026-10-09",
+    "title": "SonicWall SMA1000 flaw under attack, patch now",
+    "originalTitle": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
+    "summary": "Attackers are exploiting CVE-2026-102255 in SonicWall SMA1000 appliances, update to the latest firmware immediately and review remote access logs for signs of compromise.",
+    "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-09T12:32:16.000Z",
+    "fetchedAt": "2026-10-09T13:12:10.648Z"
+  },
+  {
+    "slug": "cisa-flags-five-exploited-bugs-patch-urgently-2026-10-09",
+    "title": "CISA flags five exploited bugs, patch urgently",
+    "originalTitle": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+    "summary": "Following Flax Typhoon abuse, CISA added five vulnerabilities to its KEV catalog with an Oct 11 federal deadline, prioritize patching these now across your environment.",
+    "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-09T12:21:51.000Z",
+    "fetchedAt": "2026-10-09T13:12:10.648Z"
+  },
+  {
+    "slug": "ahsaycbs-backup-servers-hit-via-auth-bypass-and-command-inje-2026-10-09",
+    "title": "AhsayCBS backup servers hit via auth bypass and command injection",
+    "originalTitle": "Unpatched AhsayCBS Vulnerabilities Exploited in the Wild",
+    "summary": "Two AhsayCBS flaws, CVE-2026-105133 and CVE-2026-105134, are being exploited to bypass authentication and run OS commands, patch or isolate servers and audit for unauthorized jobs.",
+    "url": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-09T10:23:42.000Z",
+    "fetchedAt": "2026-10-09T13:12:10.648Z"
+  },
+  {
+    "slug": "unsupported-windows-devices-will-stop-getting-updates-next-y-2026-10-09",
+    "title": "Unsupported Windows devices will stop getting updates next year",
+    "originalTitle": "Microsoft: Outdated Windows devices will stop receiving security updates",
+    "summary": "Microsoft says Windows systems past end of support will lose security updates after next year's Windows Update certificate rotation, inventory and plan upgrades or isolation now.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-09T10:12:24.000Z",
+    "fetchedAt": "2026-10-09T13:12:10.648Z"
+  },
+  {
+    "slug": "citrix-netscaler-critical-rce-bug-urgent-patching-required-2026-10-09",
+    "title": "Citrix NetScaler critical RCE bug, urgent patching required",
+    "originalTitle": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
+    "summary": "Citrix warns of CVE-2026-107406 in NetScaler ADC and Gateway that can enable remote code execution, apply vendor fixes now and restrict management access to trusted networks.",
+    "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-09T08:27:42.000Z",
+    "fetchedAt": "2026-10-09T13:12:10.648Z"
+  },
+  {
     "slug": "pwn2own-ireland-finds-98-zero-days-expect-a-flood-of-patches-2026-10-09",
     "title": "Pwn2Own Ireland finds 98 zero-days, expect a flood of patches",
     "originalTitle": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
@@ -2996,136 +3089,5 @@
     "category": "threats",
     "publishedAt": "2026-09-25T13:18:06.000Z",
     "fetchedAt": "2026-09-25T17:08:04.985Z"
-  },
-  {
-    "slug": "microsoft-to-deprecate-windows-deployment-services-plan-your-2026-09-25",
-    "title": "Microsoft to deprecate Windows Deployment Services, plan your move",
-    "originalTitle": "Microsoft plans to deprecate Windows Deployment Services",
-    "summary": "Microsoft will deprecate WDS in the next Windows Server, so start migrating imaging to MDT, ConfigMgr, or Autopilot and assess PXE dependencies in your build process.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-09-25T12:40:59.000Z",
-    "fetchedAt": "2026-09-25T17:08:04.985Z"
-  },
-  {
-    "slug": "your-detection-dashboard-is-lying-validate-rules-with-real-t-2026-09-25",
-    "title": "Your detection dashboard is lying, validate rules with real tests",
-    "originalTitle": "Threat detection dashboards are masking security coverage gaps",
-    "summary": "Research across 14,652 rules found nearly half never trigger as intended, so run adversary emulations, verify telemetry prerequisites, and fix mis-mapped or disabled detections across tools.",
-    "url": "https://www.helpnetsecurity.com/2026/09/25/threat-detections-coverage-gaps-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-25T12:04:03.000Z",
-    "fetchedAt": "2026-09-25T17:08:04.985Z"
-  },
-  {
-    "slug": "cisa-wordpress-core-rfi-added-to-kev-exploitation-seen-2026-09-25",
-    "title": "CISA: WordPress Core RFI added to KEV, exploitation seen",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Update WordPress Core to the latest release and monitor logs, CISA added CVE-2026-87902 to KEV after confirmed exploitation of a remote file inclusion flaw.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-25T12:00:00.000Z",
-    "fetchedAt": "2026-09-25T21:32:52.749Z"
-  },
-  {
-    "slug": "patch-now-sharepoint-and-mikrotik-flaws-added-to-cisa-kev-2026-09-25",
-    "title": "Patch now: SharePoint and MikroTik flaws added to CISA KEV",
-    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "summary": "CISA says attackers are exploiting Microsoft SharePoint code injection and MikroTik RouterOS workflow flaws, so patch immediately, limit device exposure, and follow KEV deadlines for remediation.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-25T12:00:00.000Z",
-    "fetchedAt": "2026-09-25T17:08:04.985Z"
-  },
-  {
-    "slug": "recent-windows-updates-causing-desktop-issues-for-some-users-2026-09-25",
-    "title": "Recent Windows updates causing desktop issues for some users",
-    "originalTitle": "Microsoft: Recent Windows updates cause desktop loading issues",
-    "summary": "If users see black screens or missing desktops after the August 2026 preview and later updates, hold or roll back while Microsoft investigates workarounds and a fix.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-09-25T10:30:38.000Z",
-    "fetchedAt": "2026-09-25T11:47:20.933Z"
-  },
-  {
-    "slug": "salesforce-agentforce-bugs-enable-zero-click-data-exfiltrati-2026-09-25",
-    "title": "Salesforce Agentforce bugs enable zero-click data exfiltration",
-    "originalTitle": "‘SalesBleed’ Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration",
-    "summary": "If you use Agentforce, apply Salesforce fixes and tighten agent permissions, researchers showed flaws let attackers hijack trusted agents to steal data and run convincing phishing.",
-    "url": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-25T09:27:51.000Z",
-    "fetchedAt": "2026-09-25T11:47:20.933Z"
-  },
-  {
-    "slug": "macsync-infostealer-hides-c2-in-icloud-calendar-via-fake-wal-2026-09-25",
-    "title": "MacSync infostealer hides C2 in iCloud calendar, via fake wallet",
-    "originalTitle": "MacSync info-stealing malware hides malicious commands in an iCloud calendar",
-    "summary": "Hunt and block MacSync on Mac fleets, it steals credentials, crypto wallets, and files, persists with a backdoor, and hides commands inside an iCloud calendar.",
-    "url": "https://www.helpnetsecurity.com/2026/09/25/macsync-info-stealing-malware-for-macos/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-25T09:22:45.000Z",
-    "fetchedAt": "2026-09-25T11:47:20.933Z"
-  },
-  {
-    "slug": "fake-payroll-desktop-apps-install-silent-screenconnect-rat-2026-09-25",
-    "title": "Fake payroll desktop apps install silent ScreenConnect RAT",
-    "originalTitle": "Fake payroll desktop apps hand attackers a route to company paychecks",
-    "summary": "Tell employees these payroll platforms have no desktop apps, the fake installers drop hidden ScreenConnect for remote control and paycheck theft, so block downloads and review endpoints.",
-    "url": "https://www.helpnetsecurity.com/2026/09/25/fake-payroll-desktop-apps-screenconnect/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-25T07:52:51.000Z",
-    "fetchedAt": "2026-09-25T11:47:20.933Z"
-  },
-  {
-    "slug": "patch-roundcube-now-pre-auth-sqli-is-being-exploited-2026-09-25",
-    "title": "Patch Roundcube now, pre-auth SQLi is being exploited",
-    "originalTitle": "Roundcube Webmail Vulnerability in Attackers’ Crosshairs",
-    "summary": "If you run Roundcube Webmail, update to 1.6.16 or 1.7.1 immediately, attackers are exploiting a pre-auth SQL injection to steal data.",
-    "url": "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-25T06:57:40.000Z",
-    "fetchedAt": "2026-09-25T11:47:20.933Z"
   }
 ]
