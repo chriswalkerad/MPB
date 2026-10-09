@@ -1,5 +1,80 @@
 [
   {
+    "slug": "google-ads-abuse-bing-redirects-to-push-fake-claude-installe-2026-10-09",
+    "title": "Google ads abuse Bing redirects to push fake Claude installers",
+    "originalTitle": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+    "summary": "Block or filter search ads, restrict software installs, and warn users, attackers are using Bing redirect URLs in Google ads to deliver ClickFix malware via fake Claude downloads.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-09T20:31:37.000Z",
+    "fetchedAt": "2026-10-09T22:36:01.874Z"
+  },
+  {
+    "slug": "malicious-github-actions-planted-across-thousands-of-repos-2026-10-09",
+    "title": "Malicious GitHub Actions planted across thousands of repos",
+    "originalTitle": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+    "summary": "Audit your repos and pipelines, pin and scope Actions, require maintainer reviews, and rotate tokens, attackers used compromised maintainer accounts to steal credentials during builds.",
+    "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-09T19:14:28.000Z",
+    "fetchedAt": "2026-10-09T22:36:01.874Z"
+  },
+  {
+    "slug": "ahsaycbs-backup-servers-hit-via-unpatched-bugs-webshells-and-2026-10-09",
+    "title": "AhsayCBS backup servers hit via unpatched bugs, webshells and miners seen",
+    "originalTitle": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
+    "summary": "If you run AhsayCBS, lock down admin access, isolate the server, and check for webshells and XMRig, attackers are actively exploiting a critical and a medium flaw.",
+    "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-09T17:17:23.000Z",
+    "fetchedAt": "2026-10-09T22:36:01.874Z"
+  },
+  {
+    "slug": "new-darksword-ios-kit-steals-keychain-data-and-crypto-wallet-2026-10-09",
+    "title": "New DarkSword iOS kit steals keychain data and crypto wallets",
+    "originalTitle": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+    "summary": "Enforce rapid iOS updates and strict MDM policies, block unknown configuration profiles and enterprise app installs, a stealthier DarkSword variant now targets keychain and wallet data.",
+    "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-09T16:29:55.000Z",
+    "fetchedAt": "2026-10-09T22:36:01.874Z"
+  },
+  {
+    "slug": "keep-ai-agents-inside-their-permissions-2026-10-09",
+    "title": "Keep AI agents inside their permissions",
+    "originalTitle": "How to keep AI agents within their permissions",
+    "summary": "Implement agent scoped tokens, least privilege, network egress rules, and auditing so AI agents with valid creds cannot exceed intended actions or data access.",
+    "url": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-09T14:01:11.000Z",
+    "fetchedAt": "2026-10-09T22:36:01.874Z"
+  },
+  {
     "slug": "attackers-will-social-engineer-your-ai-agents-like-bec-victi-2026-10-09",
     "title": "Attackers will social-engineer your AI agents like BEC victims",
     "originalTitle": "Social Engineering AI Agents: The New BEC for 2026",
@@ -12,6 +87,20 @@
     "category": "ai-security",
     "publishedAt": "2026-10-09T13:00:00.000Z",
     "fetchedAt": "2026-10-09T13:12:10.648Z"
+  },
+  {
+    "slug": "public-exploit-gives-root-on-anydesk-linux-patch-now-2026-10-09",
+    "title": "Public exploit gives root on AnyDesk Linux, patch now",
+    "originalTitle": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+    "summary": "Update AnyDesk Linux to 8.0.3 or later immediately, restrict network access to AnyDesk services, and hunt for misuse, a pre-auth RCE now has a full public exploit.",
+    "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-09T12:59:22.000Z",
+    "fetchedAt": "2026-10-09T22:36:01.874Z"
   },
   {
     "slug": "sonicwall-sma1000-flaw-under-attack-patch-now-2026-10-09",
@@ -2949,145 +3038,5 @@
     "category": "threats",
     "publishedAt": "2026-09-26T07:48:33.000Z",
     "fetchedAt": "2026-09-26T11:20:11.665Z"
-  },
-  {
-    "slug": "kiteworks-urges-6-hour-shutdown-to-block-potential-zero-day-2026-09-25",
-    "title": "Kiteworks urges 6-hour shutdown to block potential zero-day attacks",
-    "originalTitle": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
-    "summary": "Shut down Kiteworks servers for six hours Saturday, the vendor says it has intel on imminent zero-day attacks and will push mitigations and updates in that window.",
-    "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-25T21:41:07.000Z",
-    "fetchedAt": "2026-09-26T04:53:19.279Z"
-  },
-  {
-    "slug": "kiteworks-tells-customers-to-pause-use-amid-targeting-warnin-2026-09-25",
-    "title": "Kiteworks tells customers to pause use amid targeting warning",
-    "originalTitle": "Kiteworks urges customers to stop using platform after warning from federal intelligence agencies",
-    "summary": "If you manage Kiteworks, pause use, restrict external access, monitor logs, and prepare for emergency patches after federal intel warned of imminent targeting of customer systems.",
-    "url": "https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-25T20:19:00.000Z",
-    "fetchedAt": "2026-09-25T21:32:52.749Z"
-  },
-  {
-    "slug": "malvertising-pop-ups-are-freezing-macs-what-to-tell-users-2026-09-25",
-    "title": "Malvertising pop-ups are freezing Macs, what to tell users",
-    "originalTitle": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
-    "summary": "Coach users to force-quit the browser, never call bogus support numbers, and deploy ad blocking and DNS filtering to curb malvertising pop-ups that freeze Macs after scam ads.",
-    "url": "https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-25T19:38:59.000Z",
-    "fetchedAt": "2026-09-26T04:53:19.279Z"
-  },
-  {
-    "slug": "ai-agent-escapes-show-a-logging-and-identity-problem-not-mag-2026-09-25",
-    "title": "AI agent escapes show a logging and identity problem, not magic",
-    "originalTitle": "AI Sandbox Escapes: Why Forensic Readiness Matters More Than Containment",
-    "summary": "Strengthen identity, change control, and evidence-quality logging for AI tools, sandbox escapes keep succeeding because of the same old access controls and audit gaps.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-sandbox-escapes-forensic-readiness",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-25T18:39:32.000Z",
-    "fetchedAt": "2026-09-25T21:32:52.749Z"
-  },
-  {
-    "slug": "elementor-flaw-lets-attackers-create-wordpress-admin-account-2026-09-25",
-    "title": "Elementor flaw lets attackers create WordPress admin accounts",
-    "originalTitle": "Elementor WordPress flaw lets attackers create admin accounts",
-    "summary": "Patch Elementor immediately and audit admin users, a CSRF bug lets unauthenticated attackers create new administrator accounts on vulnerable sites via crafted requests.",
-    "url": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-25T18:13:33.000Z",
-    "fetchedAt": "2026-09-25T21:32:52.749Z"
-  },
-  {
-    "slug": "cisa-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attac-2026-09-25",
-    "title": "CISA: SharePoint, WSO2, Adobe Commerce flaws exploited in attacks",
-    "originalTitle": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
-    "summary": "Patch affected SharePoint, WSO2, and Adobe Commerce systems now and hunt for compromise, CISA reports active exploitation including a critical WSO2 authentication bypass tracked as CVE-2026-5430.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-25T17:24:20.000Z",
-    "fetchedAt": "2026-09-25T21:32:52.749Z"
-  },
-  {
-    "slug": "soc-2-needs-updates-to-cover-ai-agents-using-human-creds-2026-09-25",
-    "title": "SOC 2 needs updates to cover AI agents using human creds",
-    "originalTitle": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
-    "summary": "AI agents can act under employee accounts, so document agent identities, separate credentials and scopes, log agent actions, and add explicit controls before auditors come asking.",
-    "url": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-25T14:51:10.000Z",
-    "fetchedAt": "2026-09-25T17:08:04.985Z"
-  },
-  {
-    "slug": "deepfake-it-hiring-scams-demand-tighter-hr-and-identity-chec-2026-09-25",
-    "title": "Deepfake IT hiring scams demand tighter HR and identity checks",
-    "originalTitle": "Stopping IT Worker Scams Requires Revamped HR Process",
-    "summary": "Attackers posing as IT applicants are slipping through remote hiring, so train HR on red flags, mandate robust identity verification, and gate access until device and background checks pass.",
-    "url": "https://www.darkreading.com/cyber-risk/stopping-it-worker-scams-revamped-hr-process",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-25T14:46:13.000Z",
-    "fetchedAt": "2026-09-25T17:08:04.985Z"
-  },
-  {
-    "slug": "malicious-github-actions-resumed-review-and-pin-your-workflo-2026-09-25",
-    "title": "Malicious GitHub Actions resumed, review and pin your workflows",
-    "originalTitle": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
-    "summary": "Two compromised actions-cool GitHub Actions briefly came back and executed malware, so audit for those actions, pin to SHAs, restrict marketplace usage, and rotate any exposed secrets.",
-    "url": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-25T14:44:41.000Z",
-    "fetchedAt": "2026-09-25T17:08:04.985Z"
-  },
-  {
-    "slug": "new-pamstealer-for-macos-adds-stealthier-payloads-and-persis-2026-09-25",
-    "title": "New PamStealer for macOS adds stealthier payloads and persistence",
-    "originalTitle": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
-    "summary": "Jamf reports PamStealer now decrypts payloads via live C2 and layers persistence, so disable JXA where possible, hunt LaunchAgents and profiles, and update macOS EDR detections.",
-    "url": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-25T13:18:06.000Z",
-    "fetchedAt": "2026-09-25T17:08:04.985Z"
   }
 ]
