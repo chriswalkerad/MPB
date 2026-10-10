@@ -1,5 +1,19 @@
 [
   {
+    "slug": "fbi-arrests-ransomware-negotiation-firm-cofounder-2026-10-10",
+    "title": "FBI arrests ransomware negotiation firm cofounder",
+    "originalTitle": "FBI Arrests Founder of Ransomware Negotiation Firm",
+    "summary": "Review your incident response partners and negotiation playbooks as the FBI arrests a Canadian firm cofounder linked to ShinyHunters, following the group's theft of sensitive FBI agent data.",
+    "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+    "source": {
+      "name": "Krebs on Security"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-10-10T00:17:42.000Z",
+    "fetchedAt": "2026-10-10T05:47:06.962Z"
+  },
+  {
     "slug": "google-ads-abuse-bing-redirects-to-push-fake-claude-installe-2026-10-09",
     "title": "Google ads abuse Bing redirects to push fake Claude installers",
     "originalTitle": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
