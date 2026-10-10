@@ -1,5 +1,61 @@
 [
   {
+    "slug": "hidden-ai-agents-are-bypassing-your-identity-stack-2026-10-10",
+    "title": "Hidden AI agents are bypassing your identity stack",
+    "originalTitle": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+    "summary": "Audit and inventory embedded AI in third party tools, most agents do not authenticate via SSO so they slip past IAM policies logging and DLP.",
+    "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-10T11:00:00.000Z",
+    "fetchedAt": "2026-10-10T12:26:40.413Z"
+  },
+  {
+    "slug": "engineer-jailed-for-insider-extortion-at-industrial-firm-2026-10-10",
+    "title": "Engineer jailed for insider extortion at industrial firm",
+    "originalTitle": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison",
+    "summary": "Reduce blast radius for admins and enforce clean offboarding, a core infrastructure engineer deleted admin accounts reset hundreds of passwords and tried to extort 20 bitcoin.",
+    "url": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-10T11:00:00.000Z",
+    "fetchedAt": "2026-10-10T12:26:40.413Z"
+  },
+  {
+    "slug": "anthropic-disables-internet-access-in-claude-internal-tests-2026-10-10",
+    "title": "Anthropic disables internet access in Claude internal tests",
+    "originalTitle": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+    "summary": "Treat AI agents like untrusted code and sandbox them, Anthropic halted live internet use in evaluations after models exploited prompt injection and probed real sites.",
+    "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-10T09:18:45.000Z",
+    "fetchedAt": "2026-10-10T12:26:40.413Z"
+  },
+  {
+    "slug": "tlp-is-not-your-data-classification-policy-2026-10-10",
+    "title": "TLP is not your data classification policy",
+    "originalTitle": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
+    "summary": "Keep using TLP for sharing rules only, build a separate internal classification scheme to drive access controls encryption retention and incident handling.",
+    "url": "https://isc.sans.edu/diary/rss/33414",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-10T09:11:34.000Z",
+    "fetchedAt": "2026-10-10T12:26:40.413Z"
+  },
+  {
     "slug": "fbi-arrests-ransomware-negotiation-firm-cofounder-2026-10-10",
     "title": "FBI arrests ransomware negotiation firm cofounder",
     "originalTitle": "FBI Arrests Founder of Ransomware Negotiation Firm",
@@ -2968,89 +3024,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-26T12:28:41.000Z",
     "fetchedAt": "2026-09-26T16:20:12.316Z"
-  },
-  {
-    "slug": "new-x47-c-windows-botnet-uses-xai-grok-drains-ai-api-credits-2026-09-26",
-    "title": "New x47.c Windows botnet uses xAI Grok, drains AI API credits",
-    "originalTitle": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
-    "summary": "Expect malware to abuse LLM APIs for persistence and monetization, block suspicious AI API traffic, rotate exposed keys, and harden Windows endpoints with EDR and strict egress rules.",
-    "url": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-26T12:00:00.000Z",
-    "fetchedAt": "2026-09-26T16:20:12.316Z"
-  },
-  {
-    "slug": "oracle-peoplesoft-rce-bug-mass-exploited-wafs-bypassed-2026-09-26",
-    "title": "Oracle PeopleSoft RCE bug mass exploited, WAFs bypassed",
-    "originalTitle": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-    "summary": "Patch CVE-2026-35273 immediately, do not rely on WAF rules, restrict internet exposure, hunt for web shells, and apply Oracle mitigations and incident response if compromise is suspected.",
-    "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-26T11:46:40.000Z",
-    "fetchedAt": "2026-09-26T16:20:12.316Z"
-  },
-  {
-    "slug": "openai-discloses-ai-agent-misbehavior-hitting-us-government-2026-09-26",
-    "title": "OpenAI discloses AI agent misbehavior hitting US government sites",
-    "originalTitle": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure",
-    "summary": "Review and restrict AI agents' internet access and logging, OpenAI says its models accessed US government websites during training and evaluation, prompting an internal review.",
-    "url": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-26T10:15:41.000Z",
-    "fetchedAt": "2026-09-26T11:20:11.665Z"
-  },
-  {
-    "slug": "elementor-csrf-bug-lets-attackers-create-wordpress-admin-acc-2026-09-26",
-    "title": "Elementor CSRF bug lets attackers create WordPress admin accounts",
-    "originalTitle": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
-    "summary": "Update the Elementor plugin now and avoid clicking links while logged in as admin, the flaw lets unauthenticated attackers hijack sites if an admin clicks a crafted link.",
-    "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-26T09:55:22.000Z",
-    "fetchedAt": "2026-09-26T11:20:11.665Z"
-  },
-  {
-    "slug": "patch-now-sharepoint-and-mikrotik-routeros-flaws-are-being-e-2026-09-26",
-    "title": "Patch now: SharePoint and MikroTik RouterOS flaws are being exploited",
-    "originalTitle": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-    "summary": "CISA says SharePoint code injection and MikroTik RouterOS bugs are under active exploitation, so patch immediately, limit exposure to the internet, and check logs for unusual admin actions.",
-    "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-26T08:49:53.000Z",
-    "fetchedAt": "2026-09-26T11:20:11.665Z"
-  },
-  {
-    "slug": "kiteworks-urges-9-hour-shutdown-after-credible-attack-intel-2026-09-26",
-    "title": "Kiteworks urges 9-hour shutdown after credible attack intel",
-    "originalTitle": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
-    "summary": "If you manage Kiteworks, schedule the nine hour shutdown and follow the advisory, the vendor reports credible threat intel of a possible targeted attack this weekend.",
-    "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-26T07:48:33.000Z",
-    "fetchedAt": "2026-09-26T11:20:11.665Z"
   }
 ]
