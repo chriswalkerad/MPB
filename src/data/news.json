@@ -1,5 +1,19 @@
 [
   {
+    "slug": "contractor-malware-exposes-8-7m-daiichi-kosho-records-2026-10-11",
+    "title": "Contractor malware exposes 8.7M Daiichi Kosho records",
+    "originalTitle": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+    "summary": "Review vendor risk controls and warn users about phishing, after malware at a Daiichi Kosho contractor exposed 8.7 million customer and employee records that criminals can mine for scams.",
+    "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-11T14:23:46.000Z",
+    "fetchedAt": "2026-10-11T21:54:33.698Z"
+  },
+  {
     "slug": "fortibleed-still-exploited-patch-tuesday-prep-2026-10-11",
     "title": "FortiBleed still exploited, Patch Tuesday prep",
     "originalTitle": "Week in review: FortiBleed is still active, Patch Tuesday forecast",
@@ -2879,61 +2893,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-27T23:40:39.000Z",
     "fetchedAt": "2026-09-28T05:19:00.586Z"
-  },
-  {
-    "slug": "citrix-netscaler-zero-days-under-exploit-take-them-offline-2026-09-27",
-    "title": "Citrix NetScaler zero-days under exploit, take them offline",
-    "originalTitle": "Citrix admins warned to shut down NetScalers over 2 exploited zero-days",
-    "summary": "If you run NetScaler ADC or Gateway, restrict or shut down Internet access now, two unpatched zero-days are being exploited and fixes are due next week.",
-    "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-27T16:02:37.000Z",
-    "fetchedAt": "2026-09-27T16:55:56.289Z"
-  },
-  {
-    "slug": "update-wireshark-4-6-9-fixes-19-vulns-2026-09-27",
-    "title": "Update Wireshark: 4.6.9 fixes 19 vulns",
-    "originalTitle": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
-    "summary": "Patch Wireshark to 4.6.9 ASAP, it closes 19 vulnerabilities that could be triggered by malicious capture files and also squashes 16 bugs.",
-    "url": "https://isc.sans.edu/diary/rss/33372",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-27T15:04:49.000Z",
-    "fetchedAt": "2026-09-27T16:55:56.289Z"
-  },
-  {
-    "slug": "cloudflare-fixes-workers-container-data-leak-across-tenants-2026-09-27",
-    "title": "Cloudflare fixes Workers container data leak across tenants",
-    "originalTitle": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
-    "summary": "Cloudflare resolved a cross-tenant isolation flaw in Workers Containers and Sandboxes, review logs, rotate secrets, and assess any data exposure if you had Workers Paid workloads.",
-    "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-27T14:13:31.000Z",
-    "fetchedAt": "2026-09-27T16:55:56.289Z"
-  },
-  {
-    "slug": "anthropic-launches-claude-marketplace-mind-the-plugin-attack-2026-09-27",
-    "title": "Anthropic launches Claude Marketplace, mind the plugin attack surface",
-    "originalTitle": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
-    "summary": "Claude now has a plugin and connector marketplace, expect users to connect sensitive apps, enforce tenant controls, least-privilege OAuth scopes, and DLP for AI tools.",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-27T13:38:40.000Z",
-    "fetchedAt": "2026-09-27T16:55:56.289Z"
   }
 ]
