@@ -1,15 +1,4 @@
 {
-  "https://www.helpnetsecurity.com/2026/09/11/withsecure-salesforce-ai-trust-governance-paper/": "2026-09-11T04:35:51.361Z",
-  "https://www.helpnetsecurity.com/2026/09/11/ubuntu-24-04-5-lts-released/": "2026-09-11T04:35:51.361Z",
-  "https://www.helpnetsecurity.com/2026/09/11/new-infosec-products-of-the-week-september-11-2026/": "2026-09-11T04:35:51.361Z",
-  "https://simonwillison.net/2026/Sep/11/datasette-security/": "2026-09-11T04:35:51.361Z",
-  "https://isc.sans.edu/diary/rss/33330": "2026-09-11T04:35:51.361Z",
-  "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign": "2026-09-11T04:35:51.361Z",
-  "https://simonwillison.net/2026/Sep/10/trynix/": "2026-09-11T04:35:51.361Z",
-  "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/": "2026-09-11T04:35:51.361Z",
-  "https://therecord.media/treasury-urges-banks-report-cyber-scams": "2026-09-11T04:35:51.361Z",
-  "https://simonwillison.net/2026/Sep/10/shopify-react-native/": "2026-09-11T04:35:51.361Z",
-  "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data": "2026-09-11T04:35:51.361Z",
   "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/": "2026-09-11T11:17:08.423Z",
   "https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities/": "2026-09-11T11:17:08.423Z",
   "https://www.securityweek.com/kiteworks-acquires-bonfy-ai-to-fill-the-ai-gap-in-data-governance/": "2026-09-11T11:17:08.423Z",
@@ -1443,5 +1432,7 @@
   "https://isc.sans.edu/diary/rss/33414": "2026-10-10T12:26:40.413Z",
   "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-10T21:39:18.623Z",
   "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/": "2026-10-10T21:39:18.623Z",
-  "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/": "2026-10-10T21:39:18.623Z"
+  "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/": "2026-10-10T21:39:18.623Z",
+  "https://simonwillison.net/2026/Oct/11/dwarf-fortress/": "2026-10-11T05:41:20.843Z",
+  "https://simonwillison.net/2026/Oct/10/python-actions/": "2026-10-11T05:41:20.843Z"
 }
