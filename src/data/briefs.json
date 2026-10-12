@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-12",
+    "date": "2026-10-12",
+    "title": "Patch party: edge gear, CI, and WordPress under fire",
+    "intro": "Busy day for urgent fixes and access hardening. Triage your perimeter and repos first, then mop up the web stack and plan some maintenance.",
+    "items": [
+      {
+        "heading": "SonicWall SMA 1000 CVSS 10 exploited",
+        "body": "A pre auth SSRF in SonicWall SMA 1000 appliances, CVE-2026-102255, is being used for unauthorized operations. If you manage these boxes, patch immediately or restrict egress as a temporary brake. Expect post exploitation activity, so review logs and watch for odd outbound requests.",
+        "url": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "sonicwall-sma-1000-cvss-10-bug-exploited-patch-now-2026-10-12"
+      },
+      {
+        "heading": "GitLab max severity RCE, update now",
+        "body": "A maximum severity flaw in GitLab’s CI CD Regular Expression Compiler enables remote code execution on vulnerable instances. Get your GitLab to the latest fixed release, then audit runners, pipeline credentials, and recent jobs for abuse. If you must delay, restrict external access and tighten tokens and webhooks.",
+        "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "gitlab-rce-bug-patch-immediately-2026-10-12"
+      },
+      {
+        "heading": "Bricksforge plugin RCE actively abused",
+        "body": "CVE-2026-85097 in the Bricksforge WordPress plugin lets unauthenticated attackers upload and run PHP. Patch or disable the plugin right away and hunt for webshells or unexpected files under wp content. Rotate admin creds and review recent logins for odd IPs.",
+        "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "bricksforge-wordpress-plugin-rce-exploited-in-the-wild-2026-10-12"
+      },
+      {
+        "heading": "AvisLoader goes P2P with ClickFix delivery",
+        "body": "A new loader dubbed AvisLoader uses ClickFix delivery and encrypted peer to peer C2 to resist takedowns and run commands remotely. Harden email and browser defenses, and hunt for LNK based persistence artifacts on endpoints. Monitor for unusual P2P traffic and block suspicious LNK execution.",
+        "url": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "new-avisloader-malware-uses-p2p-c2-and-clickfix-delivery-2026-10-12"
+      },
+      {
+        "heading": "AI assisted site breaches scale up",
+        "body": "Researchers say the group CyberXero used Anthropic Claude Code to automate targeting of WordPress and e commerce sites, stealing over 628,000 records. Expect more automated initial access, so cut the low hanging fruit. Keep CMS and plugins patched, enforce MFA on admin, add rate limits and WAF rules, and watch for bot like patterns.",
+        "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "attackers-tap-claude-powered-automation-to-breach-sites-2026-10-12"
+      },
+      {
+        "heading": "Cheap Androids with baked in malware",
+        "body": "Researchers found low cost Android phones shipping with firmware level malware that activates on first boot and cannot be removed. For BYOD, block unknown brand devices and require MDM enrollment before access. Pre approve known good models and quarantine anything that fails compliance.",
+        "url": "https://www.helpnetsecurity.com/2026/10/12/midnight-mimosa-malware-cheap-android-phones/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "budget-android-phones-ship-with-unremovable-malware-2026-10-12"
+      },
+      {
+        "heading": "Windows 11 23H2 support ends in 30 days",
+        "body": "Windows 11 23H2 Enterprise, Education, and IoT Enterprise stop getting security updates next month. Plan upgrade windows now, test critical apps, and schedule reboots. Flag stragglers in your RMM so you are not babysitting end of life hosts next patch Tuesday.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "windows-11-23h2-hits-end-of-support-in-30-days-2026-10-12"
+      },
+      {
+        "heading": "Let’s Encrypt trims cert validity to 64 days",
+        "body": "Starting February 2027, Let’s Encrypt certificates will default to 64 day lifetimes. Make sure ACME renewals are fully automated and alerting is in place. Shorter lifetimes mean less manual maintenance, but failed renewals will bite faster.",
+        "url": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
+        "source": "SecurityWeek",
+        "category": "defense",
+        "storySlug": "let-s-encrypt-cuts-cert-lifetimes-to-64-days-automate-renewa-2026-10-12"
+      }
+    ],
+    "signOff": "Alright, go fix the edge first, then the blogs.",
+    "generatedAt": "2026-10-12T21:45:48.180Z"
+  },
+  {
     "slug": "2026-10-11",
     "date": "2026-10-11",
     "title": "AI agents are everywhere, Fortinet needs attention",
@@ -2112,79 +2186,5 @@
     ],
     "signOff": "Ship the updates, then get coffee.",
     "generatedAt": "2026-09-13T16:59:21.068Z"
-  },
-  {
-    "slug": "2026-09-12",
-    "date": "2026-09-12",
-    "title": "Patch the VPNs, rein in AI, and stop drive-by exploits",
-    "intro": "Urgent patches, noisy AI, and sharper phish all at once. Here is what to handle before tickets start piling up.",
-    "items": [
-      {
-        "heading": "Patch Check Point VPNs now",
-        "body": "The Dutch NCSC says attackers are about to target CVE-2026-85102 and CVE-2026-85103 on Check Point VPN appliances. Update immediately, restrict remote access, and review recent VPN logins for anomalies. If patching has to wait, reduce exposure and tighten MFA on admin access.",
-        "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "patch-check-point-vpns-now-dutch-ncsc-warns-of-imminent-atta-2026-09-12"
-      },
-      {
-        "heading": "BlueMoon chains Chrome and Windows zero-days",
-        "body": "The BlueMoon exploit kit is pushing drive-by attacks that chain recent Chrome and Windows zero-days, and multiple crews are using it. Force-update Chrome and Windows everywhere, block legacy plugins, and watch for browser crashes that spawn odd new processes. Consider stricter web filtering for risky categories.",
-        "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
-        "source": "SecurityWeek",
-        "category": "threats",
-        "storySlug": "bluemoon-exploit-kit-chains-recent-chrome-and-windows-zero-d-2026-09-12"
-      },
-      {
-        "heading": "AI use is flooding SOC alerts",
-        "body": "Staff rolling out AI agents and tools are spiking alert volumes and muddying detections. Baseline and inventory where AI is used, tighten access and logging, and add rules that separate expected AI traffic from scraping or abuse. Without a baseline, your SOC will either miss the bad or drown in noise.",
-        "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "ai-use-is-flooding-soc-alerts-set-guardrails-now-2026-09-12"
-      },
-      {
-        "heading": "OpenAI agents linked to RubyGems and RubyDoc RCE",
-        "body": "Researchers say OpenAI agents helped run a RubyGems campaign that reached remote code execution on RubyDoc servers. Harden the software supply chain, pin dependencies, and lock down build tokens and CI. Monitor package pulls and builds for unfamiliar actors or sudden changes.",
-        "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "researchers-tie-openai-agents-to-rubygems-attack-with-rubydo-2026-09-12"
-      },
-      {
-        "heading": "OpenAI agents probed RubyGems in May",
-        "body": "A separate report says automated OpenAI agents targeted the RubyGems registry in May, a reminder that AI is now part of the threat model. Audit RubyGems accounts, enforce 2FA, and rotate overly broad tokens. Expect more automated poking at package ecosystems and tighten your publishing posture.",
-        "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-        "source": "Simon Willison",
-        "category": "ai-security",
-        "storySlug": "openai-agents-targeted-rubygems-in-may-2026-09-12"
-      },
-      {
-        "heading": "Claude abused to mine secrets from Android apps",
-        "body": "Anthropic reports threat groups used Claude to scan 1.8 million Android apps for embedded secrets that can be reused across supply chains. Audit apps and repos for hardcoded keys, rotate anything exposed, and gate access to mobile signing creds. Add automated secret scanning in CI to stop leaks before release.",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "attackers-used-claude-to-rip-secrets-from-1-8m-android-apps-2026-09-11"
-      },
-      {
-        "heading": "Florida DMV hit via creds on a personal device",
-        "body": "Attackers used a stolen login from a police officer’s personal device to access Florida’s driver database and exfiltrate motor vehicle records. Lock down credential storage and personal device access, and keep work creds off personal endpoints. Review privileged access paths and tighten MFA and session timeouts.",
-        "url": "https://therecord.media/florida-shiny-hunters-motor-vehicle",
-        "source": "The Record",
-        "category": "threats",
-        "storySlug": "florida-dmv-data-breached-via-creds-on-a-personal-device-2026-09-11"
-      },
-      {
-        "heading": "Invoice scams get a dangerous upgrade",
-        "body": "Microsoft warns BEC crews are stacking lookalike domains, live chat, and AI polish to boost invoice fraud. Reconfirm any payment or bank change out of band, enforce mailbox rule auditing, and flag domain lookalikes. Train finance to slow down when money moves are requested by email.",
-        "url": "https://therecord.media/invoice-scam-emails-new-features-microsoft-researchers",
-        "source": "The Record",
-        "category": "threats",
-        "storySlug": "invoice-scam-emails-get-smarter-with-layered-tricks-and-ai-2026-09-11"
-      }
-    ],
-    "signOff": "Now patch, then coffee.",
-    "generatedAt": "2026-09-12T16:21:39.985Z"
   }
 ]
