@@ -22164,5 +22164,141 @@
     "url": "https://cybersecuritysummit.com/summits/",
     "source": "Cybersecurity Summit",
     "description": "The fall edition returns to Boston with a packed agenda for security leaders and teams. One day, strong content, and plenty of peer engagement."
+  },
+  {
+    "name": "FutureCon Oklahoma City 2027",
+    "slug": "futurecon-oklahoma-city-2027",
+    "date": "2027-07-15T09:00:00",
+    "type": "conference",
+    "format": "hybrid",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "MSP & Channel"
+    ],
+    "url": "https://futureconevents.com/events/",
+    "source": "FutureCon",
+    "description": "FutureCon brings its hybrid cybersecurity conference to Oklahoma City with practitioner talks and a manageable expo. Expect practical sessions you can take back to the team and an easy way to rack up CPEs."
+  },
+  {
+    "name": "SecureWorld 2027 Virtual Conference",
+    "slug": "secureworld-2027-virtual-conference",
+    "date": "2027-12-09T09:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld’s year end virtual conference packs keynotes, breakouts, and panels into one day online. If you want broad coverage and CPEs without travel, this is an easy win."
+  },
+  {
+    "name": "Threat Intelligence, Detection & Response 2027",
+    "slug": "threat-intelligence-detection-response-2027",
+    "date": "2027-10-28T09:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Threat Intelligence",
+      "Incident Response"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "A focused SecureWorld virtual program on intel driven defense and detection engineering. Tune in for practitioner case studies and tooling tips to tighten your SOC."
+  },
+  {
+    "name": "The Human Stack: Behavior & Awareness 2027",
+    "slug": "the-human-stack-behavior-awareness-2027",
+    "date": "2027-09-10T09:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Security Awareness",
+      "Community & General"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld’s human factors series digs into behavior, culture, and awareness that actually sticks. Good for program owners who need fresh ideas beyond another phishing test."
+  },
+  {
+    "name": "AI Technology, Defense & Innovation 2027",
+    "slug": "ai-technology-defense-innovation-2027",
+    "date": "2027-06-24T09:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "AI & Machine Learning",
+      "AppSec & DevSecOps"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "Virtual sessions on using and defending AI safely, from model risks to AI assisted defense. Less hype, more patterns you can implement."
+  },
+  {
+    "name": "Strategies for Quantum-Safe Security 2027",
+    "slug": "strategies-for-quantum-safe-security-2027",
+    "date": "2027-05-27T09:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Compliance & GRC",
+      "Community & General"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "This SecureWorld track explores practical steps toward quantum safe roadmaps and crypto agility. Useful for leaders and engineers trying to separate buzz from action."
+  },
+  {
+    "name": "IAM: Securing People, Machines & AI Agents 2027",
+    "slug": "iam-securing-people-machines-ai-agents-2027",
+    "date": "2027-04-29T09:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Identity & Access"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "A virtual deep dive on identity, from human access to machine and agent credentials. Learn patterns for zero trust and cleanup for the realities of messy directories."
+  },
+  {
+    "name": "AI Strategy, Governance & Growth 2027",
+    "slug": "ai-strategy-governance-growth-2027",
+    "date": "2027-02-25T09:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "AI & Machine Learning",
+      "Compliance & GRC"
+    ],
+    "url": "https://www.secureworld.io/events",
+    "source": "SecureWorld",
+    "description": "SecureWorld’s AI governance day covers policy, risk, and enablement so you can ship features without shipping breaches. Good mix for security, legal, and product teams."
   }
 ]
