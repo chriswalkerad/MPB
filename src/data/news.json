@@ -1,5 +1,47 @@
 [
   {
+    "slug": "sandbox-ai-agents-with-aws-strands-box-2026-10-12",
+    "title": "Sandbox AI agents with AWS Strands Box",
+    "originalTitle": "Strands Box: Open-source sandbox for AI agents",
+    "summary": "Use Strands Box to limit AI agents from trashing systems, it enforces OS isolation and rule checks for actions, now in developer preview on Apple silicon Macs.",
+    "url": "https://www.helpnetsecurity.com/2026/10/12/aws-strands-box-open-source-ai-agent-sandbox/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-12T05:30:34.000Z",
+    "fetchedAt": "2026-10-12T05:51:28.470Z"
+  },
+  {
+    "slug": "ai-generated-patches-often-fail-maintainer-tests-2026-10-12",
+    "title": "AI-generated patches often fail maintainer tests",
+    "originalTitle": "AI vulnerability patching has a grading problem",
+    "summary": "Do not auto-merge AI fixes, Northwestern found many agent patches that stop crashes still fail project tests, with Claude Opus 4.7 a third still failed checks.",
+    "url": "https://www.helpnetsecurity.com/2026/10/12/ai-vulnerability-patching-grading-problem/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-12T04:45:43.000Z",
+    "fetchedAt": "2026-10-12T05:51:28.470Z"
+  },
+  {
+    "slug": "why-some-open-source-updates-are-hard-to-ship-2026-10-12",
+    "title": "Why some open source updates are hard to ship",
+    "originalTitle": "What makes some open source updates so difficult?",
+    "summary": "Plan capacity for dependency updates, Google’s case study shows most OSS bumps are quick but stubborn ones need engineering time and automation to avoid risky forks.",
+    "url": "https://www.helpnetsecurity.com/2026/10/12/google-open-source-maintenance-costs-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-12T04:00:49.000Z",
+    "fetchedAt": "2026-10-12T05:51:28.470Z"
+  },
+  {
     "slug": "contractor-malware-exposes-8-7m-daiichi-kosho-records-2026-10-11",
     "title": "Contractor malware exposes 8.7M Daiichi Kosho records",
     "originalTitle": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
@@ -2851,47 +2893,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-28T06:00:40.000Z",
     "fetchedAt": "2026-09-28T13:48:21.710Z"
-  },
-  {
-    "slug": "ai-agents-are-breaking-old-security-governance-playbooks-2026-09-28",
-    "title": "AI agents are breaking old security governance playbooks",
-    "originalTitle": "AI tests the limits of enterprise security governance",
-    "summary": "Define accountability and guardrails before scaling AI agents, set human oversight, change controls, and logging so automated actions are auditable, reversible, and compliant.",
-    "url": "https://www.helpnetsecurity.com/2026/09/28/ai-agent-security-governance-aws-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-28T05:00:48.000Z",
-    "fetchedAt": "2026-09-28T05:19:00.586Z"
-  },
-  {
-    "slug": "ios-app-verdict-offers-on-device-ai-deepfake-checks-2026-09-28",
-    "title": "iOS app 'Verdict' offers on-device AI deepfake checks",
-    "originalTitle": "Product showcase: A photo can fool your eyes, Verdict checks the evidence",
-    "summary": "Add offline image and video checks to verification workflows, but treat scores as hints, keep callbacks and multi-factor verification for payments, vendor changes, and HR requests.",
-    "url": "https://www.helpnetsecurity.com/2026/09/28/product-showcase-verdict/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-28T04:30:42.000Z",
-    "fetchedAt": "2026-09-28T05:19:00.586Z"
-  },
-  {
-    "slug": "openai-testing-always-on-chatgpt-assistant-o-that-could-read-2026-09-27",
-    "title": "OpenAI testing always-on ChatGPT assistant 'o' that could read email",
-    "originalTitle": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
-    "summary": "Lock down org settings and user policies before staff try 'o', an always-on assistant that may access email and files, review data retention, admin controls, and tenant restrictions.",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-27T23:40:39.000Z",
-    "fetchedAt": "2026-09-28T05:19:00.586Z"
   }
 ]

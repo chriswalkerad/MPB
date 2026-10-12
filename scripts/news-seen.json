@@ -1,12 +1,4 @@
 {
-  "https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/": "2026-09-12T04:30:41.794Z",
-  "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/": "2026-09-12T04:30:41.794Z",
-  "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/": "2026-09-12T04:30:41.794Z",
-  "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/": "2026-09-12T04:30:41.794Z",
-  "https://simonwillison.net/2026/Sep/11/datasette-publish-fly/": "2026-09-12T04:30:41.794Z",
-  "https://simonwillison.net/2026/Sep/11/github-to-sqlite/": "2026-09-12T04:30:41.794Z",
-  "https://simonwillison.net/2026/Sep/11/datasette/": "2026-09-12T04:30:41.794Z",
-  "https://simonwillison.net/2026/Sep/11/datasette-2/": "2026-09-12T04:30:41.794Z",
   "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html": "2026-09-12T10:41:55.268Z",
   "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/": "2026-09-12T15:29:48.241Z",
   "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/": "2026-09-12T15:29:48.241Z",
@@ -1384,5 +1376,9 @@
   "https://simonwillison.net/2026/Oct/11/dwarf-fortress/": "2026-10-11T05:41:20.843Z",
   "https://simonwillison.net/2026/Oct/10/python-actions/": "2026-10-11T05:41:20.843Z",
   "https://www.helpnetsecurity.com/2026/10/11/week-in-review-fortibleed-is-still-active-patch-tuesday-forecast/": "2026-10-11T12:43:56.630Z",
-  "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/": "2026-10-11T21:54:33.698Z"
+  "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/": "2026-10-11T21:54:33.698Z",
+  "https://www.helpnetsecurity.com/2026/10/12/aws-strands-box-open-source-ai-agent-sandbox/": "2026-10-12T05:51:28.470Z",
+  "https://www.helpnetsecurity.com/2026/10/12/ai-vulnerability-patching-grading-problem/": "2026-10-12T05:51:28.470Z",
+  "https://www.helpnetsecurity.com/2026/10/12/google-open-source-maintenance-costs-report/": "2026-10-12T05:51:28.470Z",
+  "https://isc.sans.edu/diary/rss/33416": "2026-10-12T05:51:28.470Z"
 }
