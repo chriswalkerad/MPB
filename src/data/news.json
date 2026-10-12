@@ -1,5 +1,132 @@
 [
   {
+    "slug": "new-avisloader-malware-uses-p2p-c2-and-clickfix-delivery-2026-10-12",
+    "title": "New AvisLoader malware uses P2P C2 and ClickFix delivery",
+    "originalTitle": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
+    "summary": "Harden email and browser defenses and hunt for LNK-based persistence, AvisLoader uses ClickFix delivery and encrypted peer-to-peer C2 to resist takedowns and run remote commands.",
+    "url": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-12T14:00:10.000Z",
+    "fetchedAt": "2026-10-12T15:16:32.523Z"
+  },
+  {
+    "slug": "bricksforge-wordpress-plugin-rce-exploited-in-the-wild-2026-10-12",
+    "title": "Bricksforge WordPress plugin RCE exploited in the wild",
+    "originalTitle": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
+    "summary": "Patch or disable the Bricksforge plugin and check for webshells, CVE-2026-85097 is being exploited to let unauthenticated attackers upload and run PHP code.",
+    "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-12T13:14:37.000Z",
+    "fetchedAt": "2026-10-12T15:16:32.523Z"
+  },
+  {
+    "slug": "gitlab-rce-bug-patch-immediately-2026-10-12",
+    "title": "GitLab RCE bug, patch immediately",
+    "originalTitle": "GitLab warns of max severity code execution vulnerability",
+    "summary": "Update GitLab now, a maximum severity flaw in the CI/CD Regular Expression Compiler allows remote attackers to execute code on vulnerable instances.",
+    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-12T13:09:09.000Z",
+    "fetchedAt": "2026-10-12T15:16:32.523Z"
+  },
+  {
+    "slug": "windows-11-23h2-hits-end-of-support-in-30-days-2026-10-12",
+    "title": "Windows 11 23H2 hits end of support in 30 days",
+    "originalTitle": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
+    "summary": "Plan upgrades within 30 days, Windows 11 23H2 Enterprise, Education and IoT Enterprise will stop receiving security updates next month.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-12T11:58:33.000Z",
+    "fetchedAt": "2026-10-12T15:16:32.523Z"
+  },
+  {
+    "slug": "budget-android-phones-ship-with-unremovable-malware-2026-10-12",
+    "title": "Budget Android phones ship with unremovable malware",
+    "originalTitle": "Low-cost Android phones are arriving with malware that owners can’t uninstall",
+    "summary": "Block unknown-brand Android BYOD and enforce MDM enrollment, researchers found low-cost phones with firmware-level malware that activates on first boot and cannot be removed.",
+    "url": "https://www.helpnetsecurity.com/2026/10/12/midnight-mimosa-malware-cheap-android-phones/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-12T10:53:51.000Z",
+    "fetchedAt": "2026-10-12T15:16:32.523Z"
+  },
+  {
+    "slug": "sonicwall-sma-1000-cvss-10-bug-exploited-patch-now-2026-10-12",
+    "title": "SonicWall SMA 1000 CVSS 10 bug exploited, patch now",
+    "originalTitle": "Critical SonicWall Vulnerability Exploited Days After Disclosure",
+    "summary": "If you manage SonicWall SMA 1000 appliances, patch CVE-2026-102255 immediately or limit egress, the pre-auth SSRF is under active exploitation for unauthorized operations.",
+    "url": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-12T08:36:01.000Z",
+    "fetchedAt": "2026-10-12T15:16:32.523Z"
+  },
+  {
+    "slug": "let-s-encrypt-cuts-cert-lifetimes-to-64-days-automate-renewa-2026-10-12",
+    "title": "Let’s Encrypt cuts cert lifetimes to 64 days, automate renewals",
+    "originalTitle": "Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch",
+    "summary": "Automate ACME renewals and shorten your maintenance windows, Let’s Encrypt will reduce default certificate validity to 64 days starting February 2027.",
+    "url": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/12/lets-encrypt-64-day-certificate-lifetime/"
+      }
+    ],
+    "category": "defense",
+    "publishedAt": "2026-10-12T07:53:28.000Z",
+    "fetchedAt": "2026-10-12T15:16:32.523Z"
+  },
+  {
+    "slug": "attackers-tap-claude-powered-automation-to-breach-sites-2026-10-12",
+    "title": "Attackers tap Claude-powered automation to breach sites",
+    "originalTitle": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+    "summary": "Expect more AI-assisted initial access, researchers say CyberXero used Anthropic Claude Code to automate targeting of WordPress and e-commerce sites and stole over 628,000 records.",
+    "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-12T07:26:12.000Z",
+    "fetchedAt": "2026-10-12T15:16:32.523Z"
+  },
+  {
     "slug": "sandbox-ai-agents-with-aws-strands-box-2026-10-12",
     "title": "Sandbox AI agents with AWS Strands Box",
     "originalTitle": "Strands Box: Open-source sandbox for AI agents",
@@ -2763,135 +2890,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-28T15:49:27.000Z",
     "fetchedAt": "2026-09-28T23:14:48.188Z"
-  },
-  {
-    "slug": "stolen-ai-logins-expose-80-000-orgs-rotate-keys-and-sessions-2026-09-28",
-    "title": "Stolen AI logins expose 80,000 orgs, rotate keys and sessions",
-    "originalTitle": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
-    "summary": "Force reset and rotate AI service credentials, stealer logs contain AI account sessions tied to over 80,000 corporate domains enabling conversation theft and LLMjacking.",
-    "url": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-28T14:00:10.000Z",
-    "fetchedAt": "2026-09-28T23:14:48.188Z"
-  },
-  {
-    "slug": "botnet-hijacks-exposed-docker-to-run-telegram-controlled-ai-2026-09-28",
-    "title": "Botnet hijacks exposed Docker to run Telegram-controlled AI agent",
-    "originalTitle": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-    "summary": "Lock down Docker by closing exposed APIs, enabling TLS and auth, and auditing running containers, a new Carbonato botnet is hijacking daemons to deploy a Telegram-controlled Hermes AI agent.",
-    "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-28T11:46:00.000Z",
-    "fetchedAt": "2026-09-28T13:48:21.710Z"
-  },
-  {
-    "slug": "shinyhunters-exploiting-oracle-peoplesoft-flaw-patch-fast-2026-09-28",
-    "title": "ShinyHunters exploiting Oracle PeopleSoft flaw, patch fast",
-    "originalTitle": "Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign",
-    "summary": "If you run Oracle PeopleSoft, apply the CVE-2026-35273 fix now, Google warns ShinyHunters updated their exploit and are actively targeting exposed systems for extortion.",
-    "url": "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-28T10:56:46.000Z",
-    "fetchedAt": "2026-09-28T13:48:21.710Z"
-  },
-  {
-    "slug": "nvidia-unveils-hardware-watchdog-to-keep-ai-agents-in-bounds-2026-09-28",
-    "title": "Nvidia unveils hardware watchdog to keep AI agents in bounds",
-    "originalTitle": "Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog",
-    "summary": "Expect client questions and plan guardrails for AI agents, Nvidia released an open platform and hardware watchdog to limit agent access and actions at the infrastructure level.",
-    "url": "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/28/nvidia-open-agent-safety-platform/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-28T10:27:01.000Z",
-    "fetchedAt": "2026-09-28T13:48:21.710Z"
-  },
-  {
-    "slug": "kiteworks-tells-customers-to-shut-down-servers-over-new-flaw-2026-09-28",
-    "title": "Kiteworks tells customers to shut down servers over new flaw",
-    "originalTitle": "Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability",
-    "summary": "Follow Kiteworks’ advisory to shut down affected servers and disable Advanced Forms, then apply mitigations and monitor logs, the vendor reports no compromises but is acting out of caution.",
-    "url": "https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-28T09:44:27.000Z",
-    "fetchedAt": "2026-09-28T13:48:21.710Z"
-  },
-  {
-    "slug": "attackers-used-stolen-azure-service-principals-to-delete-res-2026-09-28",
-    "title": "Attackers used stolen Azure service principals to delete resources",
-    "originalTitle": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
-    "summary": "Audit and rotate Azure service principals, enforce least privilege and Conditional Access, and alert on destructive operations, attackers abused stolen credentials to delete resources in an 18-hour incident.",
-    "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-28T09:08:21.000Z",
-    "fetchedAt": "2026-09-28T13:48:21.710Z"
-  },
-  {
-    "slug": "citrix-netscaler-zero-days-exploited-patch-now-2026-09-28",
-    "title": "Citrix NetScaler zero-days exploited, patch now",
-    "originalTitle": "Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug",
-    "summary": "Patch NetScaler ADC and Gateway immediately, attackers are exploiting CVE-2026-88771 and CVE-2026-88772 to drop webshells, audit appliances for compromise and restrict management interfaces.",
-    "url": "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/28/citrix-netscaler-rce-zero-days-exploited-for-weeks-cve-2026-88771-cve-2026-88772/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html"
-      },
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-28T07:29:51.000Z",
-    "fetchedAt": "2026-09-28T13:48:21.710Z"
-  },
-  {
-    "slug": "check-your-ai-agent-memory-it-is-likely-leaking-secrets-2026-09-28",
-    "title": "Check your AI agent memory, it is likely leaking secrets",
-    "originalTitle": "If you do one security check this quarter, make it agent memory",
-    "summary": "Review where AI agents store memory and turn off or encrypt it by default, researchers found agents stashing API keys and sensitive documents in plain text on endpoints and cloud services.",
-    "url": "https://www.helpnetsecurity.com/2026/09/28/chris-latimer-vectorize-agent-memory-security/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-28T06:00:40.000Z",
-    "fetchedAt": "2026-09-28T13:48:21.710Z"
   }
 ]
