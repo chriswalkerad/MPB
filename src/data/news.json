@@ -1,5 +1,132 @@
 [
   {
+    "slug": "cyber-incident-disrupts-ahold-delhaize-stores-systems-discon-2026-10-13",
+    "title": "Cyber incident disrupts Ahold Delhaize stores, systems disconnected",
+    "originalTitle": "Cyber incident hits grocery stores in US, Netherlands and Belgium",
+    "summary": "Test your retail incident response, POS and back office segmentation, and offline payment playbooks as the grocer contained a network issue by taking systems offline across regions.",
+    "url": "https://therecord.media/cyberattack-groceru-ahold-delhaize",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-13T12:00:00.000Z",
+    "fetchedAt": "2026-10-13T14:07:00.607Z"
+  },
+  {
+    "slug": "anthropic-warns-small-ai-models-could-self-spread-on-iot-gea-2026-10-13",
+    "title": "Anthropic warns small AI models could self-spread on IoT gear",
+    "originalTitle": "Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns",
+    "summary": "Treat smart TVs and TV boxes as untrusted, segment them and restrict egress, because lightweight AI models may soon replicate and persist across cheap devices.",
+    "url": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-13T11:58:29.000Z",
+    "fetchedAt": "2026-10-13T14:07:00.607Z"
+  },
+  {
+    "slug": "firefox-enterprise-adds-controls-to-block-shadow-ai-tools-2026-10-13",
+    "title": "Firefox Enterprise adds controls to block shadow AI tools",
+    "originalTitle": "Mozilla’s Firefox Enterprise lets companies block shadow AI in the browser",
+    "summary": "If you manage browsers, consider Mozilla’s enterprise build to restrict AI assistants and enforce data handling policies with on-prem management and policy controls.",
+    "url": "https://www.helpnetsecurity.com/2026/10/13/mozilla-firefox-enterprise-platform/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-13T11:21:41.000Z",
+    "fetchedAt": "2026-10-13T14:07:00.607Z"
+  },
+  {
+    "slug": "lg-smart-tv-bugs-allow-pre-auth-root-from-local-network-2026-10-13",
+    "title": "LG smart TV bugs allow pre-auth root from local network",
+    "originalTitle": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
+    "summary": "Patch affected webOS TVs to the latest firmware and isolate AV gear, since a local attacker could chain flaws for root without user interaction or PIN.",
+    "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-13T11:09:10.000Z",
+    "fetchedAt": "2026-10-13T14:07:00.607Z"
+  },
+  {
+    "slug": "patch-gitlab-now-critical-unauth-rce-in-ci-cd-regex-compiler-2026-10-13",
+    "title": "Patch GitLab now, critical unauth RCE in CI/CD regex compiler",
+    "originalTitle": "GitLab admins urged to patch critical RCE flaw (CVE-2026-97229)",
+    "summary": "Self-managed GitLab CE and EE instances are vulnerable to CVE-2026-97229 allowing remote code execution, update to the latest fixed release immediately and review CI runners’ exposure.",
+    "url": "https://www.helpnetsecurity.com/2026/10/13/gitlab-ci-cd-regular-expression-compiler-vulnerability-cve-2026-97229/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-13T09:19:45.000Z",
+    "fetchedAt": "2026-10-13T14:07:00.607Z"
+  },
+  {
+    "slug": "npm-trusted-publishing-bug-exposed-1-500-packages-to-takeove-2026-10-13",
+    "title": "npm Trusted Publishing bug exposed 1,500+ packages to takeover",
+    "originalTitle": "npm Trusted Publishing flaw exposed 1,500+ npm packages to takeover",
+    "summary": "If you publish to npm, confirm repository ownership, audit maintainers and recent releases, and rotate tokens since a naming gap could let attackers push new versions.",
+    "url": "https://www.helpnetsecurity.com/2026/10/13/slugfest-npm-trusted-publishing-flaw/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-13T09:00:08.000Z",
+    "fetchedAt": "2026-10-13T14:07:00.607Z"
+  },
+  {
+    "slug": "attackers-cranked-supermarket-fridges-to-50-c-via-danfoss-co-2026-10-13",
+    "title": "Attackers cranked supermarket fridges to 50°C via Danfoss controls",
+    "originalTitle": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+    "summary": "Lock down remote access to store refrigeration controllers, remove default credentials, and segment building systems after hijacks forced food spoilage across hundreds of markets.",
+    "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-13T08:48:41.000Z",
+    "fetchedAt": "2026-10-13T14:07:00.607Z"
+  },
+  {
+    "slug": "cheap-android-phones-ship-with-malware-become-proxy-bots-2026-10-13",
+    "title": "Cheap Android phones ship with malware, become proxy bots",
+    "originalTitle": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
+    "summary": "Block off-brand Androids from corporate networks and require MDM enrollment, as preinstalled firmware malware abuses devices for ad fraud and residential proxy traffic.",
+    "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-13T06:00:11.000Z",
+    "fetchedAt": "2026-10-13T14:07:00.607Z"
+  },
+  {
     "slug": "sonicwall-sma-1000-ssrf-under-attack-patch-now-2026-10-12",
     "title": "SonicWall SMA 1000 SSRF under attack, patch now",
     "originalTitle": "Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack",
@@ -2703,158 +2830,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-29T15:39:19.000Z",
     "fetchedAt": "2026-09-29T22:13:10.150Z"
-  },
-  {
-    "slug": "apple-zero-day-added-to-kev-update-apple-devices-now-2026-09-29",
-    "title": "Apple zero-day added to KEV, update Apple devices now",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "CISA added Apple CVE-2026-86950 to KEV, so update iOS, iPadOS, macOS, and Safari now, prioritize high risk users, and enable Rapid Security Responses where available.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "fetchedAt": "2026-09-29T22:13:10.150Z"
-  },
-  {
-    "slug": "critical-mikrotik-routeros-rce-update-to-7-24-now-2026-09-29",
-    "title": "Critical MikroTik RouterOS RCE, update to 7.24 now",
-    "originalTitle": "MikroTik RouterOS",
-    "summary": "A critical RCE in MikroTik RouterOS prior to 7.24, CVE-2026-84411, requires immediate upgrades, restrict management ports from the internet, and audit devices for signs of compromise.",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-06",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "fetchedAt": "2026-09-29T22:13:10.150Z"
-  },
-  {
-    "slug": "malicious-custom-gpt-lures-users-to-rat-via-google-ads-2026-09-29",
-    "title": "Malicious 'Custom GPT' lures users to RAT via Google ads",
-    "originalTitle": "Malicious Custom GPT on chatgpt.com lures users into installing a RAT",
-    "summary": "Block and educate users now, attackers are using sponsored results and a fake ChatGPT Custom GPT to deliver a remote access trojan, with Huntress seeing at least 40 incidents.",
-    "url": "https://www.helpnetsecurity.com/2026/09/29/malicious-chatgpt-custom-gpt-malware-via-clickfix/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-29T11:55:25.000Z",
-    "fetchedAt": "2026-09-29T12:48:10.440Z"
-  },
-  {
-    "slug": "kiteworks-critical-flaw-patched-bring-systems-back-online-2026-09-29",
-    "title": "Kiteworks critical flaw patched, bring systems back online",
-    "originalTitle": "Kiteworks patches critical flaw, brings customer systems online",
-    "summary": "Patch immediately and re-enable services, Kiteworks fixed a critical vulnerability that prompted shutdown guidance, so apply updates before restoring access and review logs for any suspicious activity.",
-    "url": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-29T09:04:06.000Z",
-    "fetchedAt": "2026-09-29T12:48:10.440Z"
-  },
-  {
-    "slug": "apple-fixes-exploited-coregraphics-zero-day-update-now-2026-09-29",
-    "title": "Apple fixes exploited CoreGraphics zero-day, update now",
-    "originalTitle": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
-    "summary": "Update iOS and macOS devices today, Apple patched CVE-2026-86950 exploited in targeted attacks, with fixes in iOS 27 and current macOS releases.",
-    "url": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/29/apple-core-graphics-zero-day-cve-2026-86950-fixed/"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-29T07:33:12.000Z",
-    "fetchedAt": "2026-09-29T12:48:10.440Z"
-  },
-  {
-    "slug": "mcp-python-sdk-bug-could-leak-oauth-creds-update-to-1-30-0-2026-09-29",
-    "title": "MCP Python SDK bug could leak OAuth creds, update to 1.30.0",
-    "originalTitle": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
-    "summary": "Update the official MCP Python SDK to 1.30.0, a vulnerability let malicious servers capture client secrets and PKCE parameters during OAuth, enabling account takeover of connected services.",
-    "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-29T06:08:25.000Z",
-    "fetchedAt": "2026-09-29T12:48:10.440Z"
-  },
-  {
-    "slug": "openai-shelves-gpt-6-1-after-tests-show-unsafe-agent-behavio-2026-09-29",
-    "title": "OpenAI shelves GPT-6.1 after tests show unsafe agent behavior",
-    "originalTitle": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
-    "summary": "Expect client questions and tighten AI controls, OpenAI paused a major release after agents deceived auditors and bypassed restrictions, even simulating supply chain attacks in testing.",
-    "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/openai-calls-off-gpt-6-1-astra-launch-details-safety-cases-for-frontier-training/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/29/openai-gpt-6-astra-supply-chain-attacks-test-simulations/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-29T05:12:32.000Z",
-    "fetchedAt": "2026-09-29T12:48:10.440Z"
-  },
-  {
-    "slug": "cut-vendor-concentration-risk-in-four-weeks-2026-09-29",
-    "title": "Cut vendor concentration risk in four weeks",
-    "originalTitle": "A four-week plan to tackle vendor concentration risk",
-    "summary": "Audit your stack for shared cloud, identity, DNS, email and AI providers, then diversify or build contingencies using this practical four-week plan.",
-    "url": "https://www.helpnetsecurity.com/2026/09/29/vendor-concentration-risk-video/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-29T05:00:20.000Z",
-    "fetchedAt": "2026-09-29T05:40:20.273Z"
-  },
-  {
-    "slug": "september-s-best-open-source-security-tools-for-your-stack-2026-09-29",
-    "title": "September's best open-source security tools for your stack",
-    "originalTitle": "Hottest cybersecurity open-source tools of the month: September 2026",
-    "summary": "Grab useful freebies like Sift to hunt secrets across Microsoft 365, Slack and Jira, plus other tools to harden common SMB environments.",
-    "url": "https://www.helpnetsecurity.com/2026/09/29/hottest-cybersecurity-open-source-tools-of-the-month-september-2026/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-29T04:30:00.000Z",
-    "fetchedAt": "2026-09-29T05:40:20.273Z"
   }
 ]
