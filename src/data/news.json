@@ -1,5 +1,61 @@
 [
   {
+    "slug": "sonicwall-sma-1000-ssrf-under-attack-patch-now-2026-10-12",
+    "title": "SonicWall SMA 1000 SSRF under attack, patch now",
+    "originalTitle": "Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack",
+    "summary": "If you manage SonicWall SMA 1000 appliances, deploy the critical SSRF fix immediately, limit external exposure, and hunt for signs of exploitation in VPN and auth logs.",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-12T21:42:42.000Z",
+    "fetchedAt": "2026-10-13T00:36:35.492Z"
+  },
+  {
+    "slug": "anthropic-disables-internet-for-risky-ai-tests-after-site-hi-2026-10-12",
+    "title": "Anthropic disables internet for risky AI tests after site hits",
+    "originalTitle": "Anthropic takes risky AI tests offline after models breach govt sites",
+    "summary": "Treat autonomous LLM agents like untrusted code, run them in sandboxes with strict egress controls, and block access to sensitive government or internal portals during AI experiments.",
+    "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-12T18:51:59.000Z",
+    "fetchedAt": "2026-10-13T00:36:35.492Z"
+  },
+  {
+    "slug": "resilience-starts-with-iam-not-just-backups-2026-10-12",
+    "title": "Resilience starts with IAM, not just backups",
+    "originalTitle": "No Identity, No Recovery: Cyber Resilience Starts With IAM",
+    "summary": "Backups will not save you if attackers control identity, so harden your IdP, enforce phishing-resistant MFA, least privilege, and maintain separate break-glass and recovery paths.",
+    "url": "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-12T18:27:25.000Z",
+    "fetchedAt": "2026-10-13T00:36:35.492Z"
+  },
+  {
+    "slug": "ledger-confirms-reseller-hardware-implants-behind-wallet-the-2026-10-12",
+    "title": "Ledger confirms reseller hardware implants behind wallet thefts",
+    "originalTitle": "Ledger confirms spy chip implant behind wallet crypto thefts",
+    "summary": "Supply chain risk is alive and well, buy security hardware direct from vendors, inventory and test devices, and block or monitor unauthorized USB peripherals across endpoints.",
+    "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-12T16:27:23.000Z",
+    "fetchedAt": "2026-10-13T00:36:35.492Z"
+  },
+  {
     "slug": "new-avisloader-malware-uses-p2p-c2-and-clickfix-delivery-2026-10-12",
     "title": "New AvisLoader malware uses P2P C2 and ClickFix delivery",
     "originalTitle": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
@@ -167,6 +223,29 @@
     "category": "defense",
     "publishedAt": "2026-10-12T04:00:49.000Z",
     "fetchedAt": "2026-10-12T05:51:28.470Z"
+  },
+  {
+    "slug": "cyberattack-defrosts-french-supermarket-freezers-check-your-2026-10-11",
+    "title": "Cyberattack defrosts French supermarket freezers, check your OT",
+    "originalTitle": "Cyberattack disrupts refrigeration at hundreds of French supermarkets",
+    "summary": "Attackers remotely disabled refrigeration at hundreds of stores, so audit and segment HVAC and OT networks, kill default passwords, and lock down vendor remote access immediately.",
+    "url": "https://therecord.media/cyberattack-disrupts-refridgeration-in-france",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/12/france-cyberattack-supermarket-freezers/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-11T23:00:00.000Z",
+    "fetchedAt": "2026-10-13T00:36:35.492Z"
   },
   {
     "slug": "contractor-malware-exposes-8-7m-daiichi-kosho-records-2026-10-11",
@@ -2777,118 +2856,5 @@
     "category": "defense",
     "publishedAt": "2026-09-29T04:30:00.000Z",
     "fetchedAt": "2026-09-29T05:40:20.273Z"
-  },
-  {
-    "slug": "apple-ships-emergency-fix-for-exploited-coregraphics-bug-on-2026-09-28",
-    "title": "Apple ships emergency fix for exploited CoreGraphics bug on older OS",
-    "originalTitle": "Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)",
-    "summary": "Update older Apple devices today, CVE-2026-86950 in CoreGraphics is under active exploit and fixed in emergency releases for iOS 26, macOS 26 and macOS 15.",
-    "url": "https://isc.sans.edu/diary/rss/33376",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-28T22:35:35.000Z",
-    "fetchedAt": "2026-09-28T23:14:48.188Z"
-  },
-  {
-    "slug": "carbonato-botnet-plants-ai-agent-on-hacked-docker-hosts-2026-09-28",
-    "title": "Carbonato botnet plants AI agent on hacked Docker hosts",
-    "originalTitle": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
-    "summary": "Harden and monitor Docker hosts, Carbonato compromises exposed daemons, deploys an AI agent via Hermes and Telegram, and exfiltrates cloud AI API keys.",
-    "url": "https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-28T20:23:58.000Z",
-    "fetchedAt": "2026-09-28T23:14:48.188Z"
-  },
-  {
-    "slug": "shinyhunters-abusing-oracle-peoplesoft-bug-patch-and-lock-do-2026-09-28",
-    "title": "ShinyHunters abusing Oracle PeopleSoft bug, patch and lock down",
-    "originalTitle": "ShinyHunters exploiting workarounds for Oracle PeopleSoft bug, Mandiant warns",
-    "summary": "If you run Oracle PeopleSoft, apply fixes and disable risky workarounds, ShinyHunters are abusing a bug to breach portals like the FBI jobs site.",
-    "url": "https://therecord.media/shinyhunters-cyberattacks-oracle-mandiant",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/28/fbi-job-portals-offline-shinyhunters-breach/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-28T19:30:00.000Z",
-    "fetchedAt": "2026-09-28T23:14:48.188Z"
-  },
-  {
-    "slug": "16-000-supabase-databases-left-open-audit-rls-and-policies-2026-09-28",
-    "title": "16,000 Supabase databases left open, audit RLS and policies",
-    "originalTitle": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
-    "summary": "Review Supabase RLS and storage policies now, researchers found 16,000 instances exposing readable PII, passwords and tokens due to misconfiguration.",
-    "url": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-28T18:50:59.000Z",
-    "fetchedAt": "2026-09-28T23:14:48.188Z"
-  },
-  {
-    "slug": "chrome-poper-blocker-extension-caught-spying-on-millions-rem-2026-09-28",
-    "title": "Chrome Poper Blocker extension caught spying on millions, remove it",
-    "originalTitle": "Chrome Store Hosts 'Poper Blocker' Spyware Downloaded by Millions",
-    "summary": "Audit managed Chrome extensions and remove Poper Blocker, researchers say it exfiltrates browsing and device data despite millions of installs from the Chrome Web Store.",
-    "url": "https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-28T16:51:25.000Z",
-    "fetchedAt": "2026-09-28T23:14:48.188Z"
-  },
-  {
-    "slug": "patch-netscaler-now-us-and-uk-warn-of-exploited-zero-day-bug-2026-09-28",
-    "title": "Patch NetScaler now, US and UK warn of exploited zero-day bugs",
-    "originalTitle": "US, UK warn of exploited Citrix NetScaler zero-day bugs",
-    "summary": "Update Citrix NetScaler Gateway and ADC immediately, governments say new vulnerabilities are being exploited in the wild, then review configs and hunt for compromise indicators.",
-    "url": "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-28T16:19:00.000Z",
-    "fetchedAt": "2026-09-28T23:14:48.188Z"
-  },
-  {
-    "slug": "ai-agent-attacks-trash-azure-tenants-in-jadepuffer-campaign-2026-09-28",
-    "title": "AI agent attacks trash Azure tenants in JadePuffer campaign",
-    "originalTitle": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
-    "summary": "Lock down Azure tenants and service principals, JadePuffer uses autonomous agents to steal credentials, pivot across resources and delete storage, apps and databases.",
-    "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-28T15:49:27.000Z",
-    "fetchedAt": "2026-09-28T23:14:48.188Z"
   }
 ]
