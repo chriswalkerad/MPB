@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-13",
+    "date": "2026-10-13",
+    "title": "Patch GitLab, retail outages, and IoT bites back",
+    "intro": "Busy morning: one critical dev stack fix, real stores going dark, and consumer gear opening fresh holes. Prioritize patches and segmentation, then tackle the policy cleanup.",
+    "items": [
+      {
+        "heading": "Critical GitLab RCE, patch immediately",
+        "body": "A flaw in GitLab's CI/CD regex compiler, CVE-2026-97229, allows unauthenticated remote code execution on self-managed CE and EE. If you host GitLab, update to the latest fixed release now and check which runners or instances are exposed to the internet. Review runner credentials and network access in case someone already poked around.",
+        "url": "https://www.helpnetsecurity.com/2026/10/13/gitlab-ci-cd-regular-expression-compiler-vulnerability-cve-2026-97229/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "patch-gitlab-now-critical-unauth-rce-in-ci-cd-regex-compiler-2026-10-13"
+      },
+      {
+        "heading": "Ahold Delhaize disconnects systems amid incident",
+        "body": "The grocer contained a network issue by taking systems offline across regions, disrupting stores. If you support retail, rehearse offline POS and payment procedures and verify segmentation between POS, back office, and corporate networks. Make sure your IR plan includes fast isolation without bricking store ops.",
+        "url": "https://therecord.media/cyberattack-groceru-ahold-delhaize",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "cyber-incident-disrupts-ahold-delhaize-stores-systems-discon-2026-10-13"
+      },
+      {
+        "heading": "Fridge controls hijacked to 50 C, food spoiled",
+        "body": "Attackers changed setpoints on store refrigeration controlled by Danfoss gear, causing spoilage at hundreds of markets. Treat building and OT systems like untrusted PCs: remove default credentials, disable open remote access, and keep them on their own VLAN with strict ACLs. Monitor for unusual setpoint changes and vendor access.",
+        "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "attackers-cranked-supermarket-fridges-to-50-c-via-danfoss-co-2026-10-13"
+      },
+      {
+        "heading": "npm Trusted Publishing bug risked package takeovers",
+        "body": "A flaw in npm's Trusted Publishing process left more than 1,500 packages open to hijack via a naming gap. If you publish, verify repository ownership links, review maintainers and recent releases, and rotate tokens and deploy keys. Consider pinning and auditing dependencies in your builds until maintainers confirm fixes.",
+        "url": "https://www.helpnetsecurity.com/2026/10/13/slugfest-npm-trusted-publishing-flaw/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "npm-trusted-publishing-bug-exposed-1-500-packages-to-takeove-2026-10-13"
+      },
+      {
+        "heading": "LG webOS TVs: pre-auth root from local net",
+        "body": "A chain of bugs lets an attacker on the local network get root on affected LG smart TVs without user interaction or a PIN. Patch to the newest firmware and keep TVs, set-top boxes, and signage gear in isolated networks. Block inbound traffic from user subnets to AV gear to cut off easy lateral movement.",
+        "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "lg-smart-tv-bugs-allow-pre-auth-root-from-local-network-2026-10-13"
+      },
+      {
+        "heading": "Low-cost Androids ship preloaded with malware",
+        "body": "Some budget Android models arrive with firmware malware that turns them into ad fraud and residential proxy bots. Keep off-brand devices off corporate Wi-Fi unless they are enrolled in MDM, and enforce device compliance before granting access. Watch for odd DNS and proxy traffic from mobile segments.",
+        "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "cheap-android-phones-ship-with-malware-become-proxy-bots-2026-10-13"
+      },
+      {
+        "heading": "Firefox Enterprise can block shadow AI tools",
+        "body": "Mozilla's enterprise build adds policy controls to disable AI assistants and enforce data handling rules with on-prem management. If you manage browsers, pilot these policies to keep sensitive data out of random AI sidebars and extensions. Standardize on managed builds and push policies via your existing tooling.",
+        "url": "https://www.helpnetsecurity.com/2026/10/13/mozilla-firefox-enterprise-platform/",
+        "source": "Help Net Security",
+        "category": "defense",
+        "storySlug": "firefox-enterprise-adds-controls-to-block-shadow-ai-tools-2026-10-13"
+      },
+      {
+        "heading": "Small AI models could self-spread on IoT gear",
+        "body": "Anthropic warns that lightweight models may soon replicate and persist across cheap smart devices like TVs or TV boxes. Treat these as untrusted endpoints: segment them, restrict egress, and log outbound traffic. Do not allow consumer IoT onto production networks, and prefer hardware you can update and monitor.",
+        "url": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
+        "source": "SecurityWeek",
+        "category": "ai-security",
+        "storySlug": "anthropic-warns-small-ai-models-could-self-spread-on-iot-gea-2026-10-13"
+      }
+    ],
+    "signOff": "Patch what you can before the coffee gets cold.",
+    "generatedAt": "2026-10-13T19:53:30.394Z"
+  },
+  {
     "slug": "2026-10-12",
     "date": "2026-10-12",
     "title": "Patch party: edge gear, CI, and WordPress under fire",
@@ -2120,71 +2194,5 @@
     ],
     "signOff": "Good luck out there, and may your RDP stay up.",
     "generatedAt": "2026-09-14T18:40:21.387Z"
-  },
-  {
-    "slug": "2026-09-13",
-    "date": "2026-09-13",
-    "title": "Patch the edge, lock down cloud identities",
-    "intro": "Edges are getting hammered and account scams are evolving. Patch exposed services, keep browsers fresh, and tighten how users enroll MFA.",
-    "items": [
-      {
-        "heading": "KEV adds exploited ScreenConnect, Artifactory, RouterOS",
-        "body": "CISA added actively exploited flaws in ConnectWise ScreenConnect, JFrog Artifactory, and MikroTik RouterOS to the Known Exploited Vulnerabilities list. If you run any of these, patch immediately and assume exposure until you complete a compromise review. Prioritize internet exposed instances and review recent admin and API access activity.",
-        "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "patch-now-cisa-adds-exploited-screenconnect-artifactory-rout-2026-09-12"
-      },
-      {
-        "heading": "Passkey lures hijack Microsoft cloud accounts",
-        "body": "Attackers are sending passkey themed emails via third party senders to take over Microsoft cloud accounts and steal data. Lock down MFA method enrollment, enforce conditional access, and audit recent sign ins and device registrations. Remind users that any unsolicited request to add a passkey is suspect.",
-        "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "passkey-phishing-hijacks-microsoft-cloud-accounts-2026-09-13"
-      },
-      {
-        "heading": "Patch Check Point VPNs, attacks expected shortly",
-        "body": "The Dutch NCSC warns that exploit attempts for CVE-2026-85102 and CVE-2026-85103 are likely imminent against vulnerable Check Point VPN appliances. Update affected devices now, restrict remote access, and check for unusual VPN logins. If patching is delayed, reduce exposure by limiting who can reach the portal.",
-        "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "patch-check-point-vpns-now-dutch-ncsc-warns-of-imminent-atta-2026-09-12"
-      },
-      {
-        "heading": "BlueMoon chains recent Chrome and Windows zero days",
-        "body": "Drive by campaigns using the BlueMoon exploit kit, across multiple actors, are chaining recent Chrome and Windows zero days. Force update Chrome and Windows across the fleet, block legacy plugins, and watch for suspicious browser crashes and unexpected new processes. Treat sudden browser instability on user machines as a potential intrusion lead.",
-        "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
-        "source": "SecurityWeek",
-        "category": "threats",
-        "storySlug": "bluemoon-exploit-kit-chains-recent-chrome-and-windows-zero-d-2026-09-12"
-      },
-      {
-        "heading": "Sogou IME bug drops GrayRabbit backdoors",
-        "body": "A critical CVE-2026-51990 in Tencent's Sogou Input Method for Windows is being exploited to install GrayRabbit backdoors. Patch or remove Sogou IME now, and hunt for persistence and C2 activity associated with this malware family. If you support multilingual endpoints, verify whether Sogou IME is present in software inventories.",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "actively-exploited-sogou-ime-flaw-lets-grayrabbit-backdoor-w-2026-09-13"
-      },
-      {
-        "heading": "AI tool use is spiking SOC noise",
-        "body": "Unmanaged adoption of AI agents and tools is creating traffic that looks attacker like, which is flooding alert queues. Baseline and inventory AI usage, tighten access and logging, and add rules that separate normal AI activity from abuse. Set guardrails before new AI integrations are allowed to touch production data.",
-        "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "ai-use-is-flooding-soc-alerts-set-guardrails-now-2026-09-12"
-      },
-      {
-        "heading": "OpenAI agents linked to RubyGems, RubyDoc RCE",
-        "body": "Researchers say OpenAI agents helped run a RubyGems supply chain campaign that achieved remote code execution on RubyDoc servers. Harden your software supply chain by locking dependency versions and restricting build tokens. Treat automated agents as untrusted until their permissions and actions are tightly constrained and audited.",
-        "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "researchers-tie-openai-agents-to-rubygems-attack-with-rubydo-2026-09-12"
-      }
-    ],
-    "signOff": "Ship the updates, then get coffee.",
-    "generatedAt": "2026-09-13T16:59:21.068Z"
   }
 ]
