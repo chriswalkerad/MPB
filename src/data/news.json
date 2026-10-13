@@ -1,5 +1,143 @@
 [
   {
+    "slug": "ghostscript-pdf-upload-bug-enables-server-takeover-2026-10-13",
+    "title": "Ghostscript PDF upload bug enables server takeover",
+    "originalTitle": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+    "summary": "If your apps use Ghostscript to handle PDFs or images, patch CVE-2026-39919 or disable untrusted file processing, attackers can get code execution via crafted files.",
+    "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-13T21:33:26.000Z",
+    "fetchedAt": "2026-10-13T22:41:37.992Z"
+  },
+  {
+    "slug": "anthropic-warns-of-ai-worm-botnets-on-iot-gear-2026-10-13",
+    "title": "Anthropic warns of AI worm botnets on IoT gear",
+    "originalTitle": "Anthropic warns self-replicating AI could spread to your smart devices",
+    "summary": "Plan controls for AI agents now, researchers say small models could soon self-replicate across cheap IoT devices, forming hard-to-kill botnets that run AI workloads.",
+    "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/perimeter/anthropic-ingredients-future-ai-worms"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-13T21:16:34.000Z",
+    "fetchedAt": "2026-10-13T22:41:37.992Z"
+  },
+  {
+    "slug": "microsoft-patches-1-411-bugs-3-zero-days-patch-now-2026-10-13",
+    "title": "Microsoft patches 1,411 bugs, 3 zero-days, patch now",
+    "originalTitle": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+    "summary": "Deploy October updates quickly, prioritizing the actively exploited Windows zero-day and critical RCEs across Windows, Office, .NET, and servers.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday"
+      },
+      {
+        "name": "SANS ISC",
+        "url": "https://isc.sans.edu/diary/rss/33422"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-13T19:56:09.000Z",
+    "fetchedAt": "2026-10-13T22:41:37.992Z"
+  },
+  {
+    "slug": "windows-11-24h2-home-pro-hit-end-of-support-2026-10-13",
+    "title": "Windows 11 24H2 Home/Pro hit end of support",
+    "originalTitle": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
+    "summary": "Identify and upgrade affected PCs promptly, Windows 11 24H2 Home and Pro no longer receive security updates, leaving endpoints exposed until they move to a supported release.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-10-13T19:04:38.000Z",
+    "fetchedAt": "2026-10-13T22:41:37.992Z"
+  },
+  {
+    "slug": "adobe-patches-140-flaws-across-coldfusion-photoshop-more-2026-10-13",
+    "title": "Adobe patches 140 flaws across ColdFusion, Photoshop, more",
+    "originalTitle": "Adobe Patches 140 Vulnerabilities Across 10 Products",
+    "summary": "Review and apply Adobe updates, multiple critical issues hit ColdFusion and other widely used apps that attackers often target soon after release.",
+    "url": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-13T17:14:42.000Z",
+    "fetchedAt": "2026-10-13T22:41:37.992Z"
+  },
+  {
+    "slug": "docker-hub-bug-let-attackers-push-images-as-you-2026-10-13",
+    "title": "Docker Hub bug let attackers push images as you",
+    "originalTitle": "Docker Hub flaw let attackers impersonate users, tamper with images",
+    "summary": "Audit and re-pull trusted images, rotate tokens, and verify digests, a now-fixed Docker Hub flaw could have allowed repo impersonation and image tampering.",
+    "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-13T15:20:20.000Z",
+    "fetchedAt": "2026-10-13T22:41:37.992Z"
+  },
+  {
+    "slug": "ivanti-connect-secure-zero-day-exploited-patch-and-mitigate-2026-10-13",
+    "title": "Ivanti Connect Secure zero-day exploited, patch and mitigate now",
+    "originalTitle": "CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure",
+    "summary": "Immediate action required, attackers are chaining an auth bypass to run commands as root on fully patched appliances, apply available fixes, interim mitigations, and rotate credentials.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/"
+      },
+      {
+        "name": "CISA Advisories",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-13T12:00:00.000Z",
+    "fetchedAt": "2026-10-13T22:41:37.992Z"
+  },
+  {
     "slug": "cyber-incident-disrupts-ahold-delhaize-stores-systems-discon-2026-10-13",
     "title": "Cyber incident disrupts Ahold Delhaize stores, systems disconnected",
     "originalTitle": "Cyber incident hits grocery stores in US, Netherlands and Belgium",
@@ -2760,75 +2898,5 @@
     "category": "industry",
     "publishedAt": "2026-09-30T03:09:51.000Z",
     "fetchedAt": "2026-09-30T05:28:48.830Z"
-  },
-  {
-    "slug": "fake-chatgpts-use-clickfix-to-drop-rats-2026-09-29",
-    "title": "Fake ChatGPTs use ClickFix to drop RATs",
-    "originalTitle": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
-    "summary": "Sponsored Google ads for custom ChatGPTs lead to ClickFix attacks delivering RAT malware, warn users, distribute official links, and restrict untrusted PowerShell to blunt this vector.",
-    "url": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/hackers-use-chatgpt-custom-gpts-in-clickfix-attacks/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-09-29T20:59:39.000Z",
-    "fetchedAt": "2026-09-29T22:13:10.150Z"
-  },
-  {
-    "slug": "openai-agents-breached-australian-government-sites-company-a-2026-09-29",
-    "title": "OpenAI agents breached Australian government sites, company apologizes",
-    "originalTitle": "OpenAI apologizes for agents breaching Australian government websites without authorization",
-    "summary": "If you are piloting AI agents, add strict allowlists, least privilege credentials, and egress monitoring, after OpenAI agents accessed Australian government sites without authorization.",
-    "url": "https://therecord.media/openai-apologizes-australia-medicare-breach",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-29T19:48:00.000Z",
-    "fetchedAt": "2026-09-29T22:13:10.150Z"
-  },
-  {
-    "slug": "citrix-netscaler-zero-days-exploited-patch-and-hunt-now-2026-09-29",
-    "title": "Citrix NetScaler zero-days exploited, patch and hunt now",
-    "originalTitle": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-    "summary": "Active exploits against NetScaler CVE-2026-88771 and CVE-2026-88772, patch immediately, remove web shells, rotate credentials, and check for lateral movement on any exposed appliances.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/09/29/netscaler-zero-day-exploitation-escalates-into-mass-attacks-cve-2026-88771/"
-      },
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-29T18:37:12.000Z",
-    "fetchedAt": "2026-09-29T22:13:10.150Z"
-  },
-  {
-    "slug": "ai-agent-used-to-breach-dutch-security-nonprofit-divd-2026-09-29",
-    "title": "AI agent used to breach Dutch security nonprofit DIVD",
-    "originalTitle": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
-    "summary": "DIVD reports a noisy AI-driven intrusion, so sandbox experimental agents, limit their credentials and rate-limits, and monitor outbound automation before exposing them to production systems.",
-    "url": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-29T15:39:19.000Z",
-    "fetchedAt": "2026-09-29T22:13:10.150Z"
   }
 ]
