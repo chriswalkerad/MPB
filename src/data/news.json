@@ -1,5 +1,47 @@
 [
   {
+    "slug": "treat-ai-agents-like-users-with-least-privilege-2026-10-14",
+    "title": "Treat AI agents like users with least privilege",
+    "originalTitle": "Most companies count AI agents as insiders, and CISOs worry about their own liability",
+    "summary": "AI agents are showing up in insider incidents, so assign them unique identities, enforce least privilege and MFA, log their actions, and update policies and training accordingly.",
+    "url": "https://www.helpnetsecurity.com/2026/10/14/ciso-ai-agent-insider-risk/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-14T04:30:05.000Z",
+    "fetchedAt": "2026-10-14T04:48:50.302Z"
+  },
+  {
+    "slug": "patch-tuesday-avalanche-microsoft-fixes-1-400-bugs-2026-10-13",
+    "title": "Patch Tuesday avalanche: Microsoft fixes 1,400+ bugs",
+    "originalTitle": "Microsoft Patches More Than 1,400 Security Flaws",
+    "summary": "Push October Microsoft updates across Windows and core apps now, prioritize critical and internet-exposed systems, schedule reboots via your RMM, and watch for vendor compatibility advisories.",
+    "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+    "source": {
+      "name": "Krebs on Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-13T23:24:53.000Z",
+    "fetchedAt": "2026-10-14T04:48:50.302Z"
+  },
+  {
+    "slug": "big-vmware-exits-continue-topgolf-says-it-saved-11-3m-2026-10-13",
+    "title": "Big VMware exits continue, Topgolf says it saved $11.3M",
+    "originalTitle": "Topgolf saved over $11.3 million after leaving VMware",
+    "summary": "Expect more clients to ask about leaving VMware, be ready to explain migration tradeoffs, licensing shifts, security hardening for new hypervisors, and realistic timelines with rollback plans.",
+    "url": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "msp-channel",
+    "publishedAt": "2026-10-13T21:33:43.000Z",
+    "fetchedAt": "2026-10-14T04:48:50.302Z"
+  },
+  {
     "slug": "ghostscript-pdf-upload-bug-enables-server-takeover-2026-10-13",
     "title": "Ghostscript PDF upload bug enables server takeover",
     "originalTitle": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
@@ -105,6 +147,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-13T15:20:20.000Z",
     "fetchedAt": "2026-10-13T22:41:37.992Z"
+  },
+  {
+    "slug": "cisa-patch-ignition-ics-privilege-escalation-now-2026-10-13",
+    "title": "CISA: Patch Ignition ICS privilege escalation now",
+    "originalTitle": "Inductive Automation Ignition Software",
+    "summary": "If you support Inductive Automation Ignition 8.1 or 8.3, update to a fixed release immediately, a low privilege user can escalate to admin, and audit accounts and project permissions.",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-13T12:00:00.000Z",
+    "fetchedAt": "2026-10-14T04:48:50.302Z"
   },
   {
     "slug": "ivanti-connect-secure-zero-day-exploited-patch-and-mitigate-2026-10-13",
@@ -2850,53 +2906,6 @@
     "altSources": [],
     "category": "industry",
     "publishedAt": "2026-09-30T05:00:53.000Z",
-    "fetchedAt": "2026-09-30T05:28:48.830Z"
-  },
-  {
-    "slug": "most-critical-internet-facing-flaws-linger-over-90-days-stud-2026-09-30",
-    "title": "Most critical internet-facing flaws linger over 90 days, study finds",
-    "originalTitle": "Most open critical and high flaws are over 90 days old",
-    "summary": "Tighten external attack surface management, Detectify found 86 to 97 percent of critical and high vulnerabilities in the US, UK and Nordics remained open for more than 90 days.",
-    "url": "https://www.helpnetsecurity.com/2026/09/30/research-unpatched-vulnerabilities-backlog/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-09-30T04:00:38.000Z",
-    "fetchedAt": "2026-09-30T05:28:48.830Z"
-  },
-  {
-    "slug": "wsl-containers-now-ga-on-windows-lock-down-where-images-come-2026-09-30",
-    "title": "WSL containers now GA on Windows, lock down where images come from",
-    "originalTitle": "WSL containers are generally available on Windows",
-    "summary": "If your developers use WSL on Windows, enable new Intune and policy controls to disable WSL containers or restrict trusted registries, then audit endpoints for unexpected container runtime use.",
-    "url": "https://www.helpnetsecurity.com/2026/09/30/microsoft-wsl-containers-available/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/"
-      }
-    ],
-    "category": "defense",
-    "publishedAt": "2026-09-30T03:47:25.000Z",
-    "fetchedAt": "2026-09-30T05:28:48.830Z"
-  },
-  {
-    "slug": "cloudflare-to-launch-public-ca-plans-post-quantum-web-certs-2026-09-30",
-    "title": "Cloudflare to launch public CA, plans post-quantum web certs by 2027",
-    "originalTitle": "Post-quantum website certificates from Cloudflare are scheduled for early 2027",
-    "summary": "Plan for PQC adoption on the web, Cloudflare will issue conventional and Merkle Tree post‑quantum certificates with production rollout targeted for early 2027.",
-    "url": "https://www.helpnetsecurity.com/2026/09/30/cloudflare-certificate-authority-2027/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-09-30T03:09:51.000Z",
     "fetchedAt": "2026-09-30T05:28:48.830Z"
   }
 ]
