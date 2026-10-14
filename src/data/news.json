@@ -1,5 +1,131 @@
 [
   {
+    "slug": "new-android-trojan-swaps-your-banking-app-with-a-patched-fak-2026-10-14",
+    "title": "New Android trojan swaps your banking app with a patched fake",
+    "originalTitle": "Hirudo Android malware replaces banking apps to evade security checks",
+    "summary": "Lock down BYOD and block sideloading, Hirudo replaces legitimate banking apps with modified versions that bypass in-app checks to steal credentials and funds.",
+    "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-14T11:41:20.000Z",
+    "fetchedAt": "2026-10-14T11:47:24.948Z"
+  },
+  {
+    "slug": "ai-agents-helped-build-a-chrome-full-chain-exploit-in-six-da-2026-10-14",
+    "title": "AI agents helped build a Chrome full-chain exploit in six days",
+    "originalTitle": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+    "summary": "Expect exploit development to accelerate, keep Chrome auto-updates enforced, minimize attack surface, and treat prompt patching as critical even for seemingly minor browser bugs.",
+    "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-14T11:19:02.000Z",
+    "fetchedAt": "2026-10-14T11:47:24.948Z"
+  },
+  {
+    "slug": "recent-windows-updates-break-rdp-for-non-admins-microsoft-wa-2026-10-14",
+    "title": "Recent Windows updates break RDP for non-admins, Microsoft warns",
+    "originalTitle": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
+    "summary": "If non-admins cannot connect via Remote Desktop after recent updates with Administrator protection enabled, adjust that policy or roll back while awaiting a fix from Microsoft.",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-14T10:48:09.000Z",
+    "fetchedAt": "2026-10-14T11:47:24.948Z"
+  },
+  {
+    "slug": "ivanti-vpns-hit-by-zero-day-chain-root-on-fully-patched-boxe-2026-10-14",
+    "title": "Ivanti VPNs hit by zero-day chain, root on fully patched boxes",
+    "originalTitle": "Attackers chained three Ivanti zero-days to gain root on fully patched VPN appliances",
+    "summary": "If you run Connect Secure, assume exposure, hunt for compromises, apply Ivanti mitigations, restrict access, and monitor for credential theft and config exfiltration per Volexity’s report.",
+    "url": "https://www.helpnetsecurity.com/2026/10/14/ivanti-zero-days-gain-root-patched-vpn-appliances/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-14T08:59:19.000Z",
+    "fetchedAt": "2026-10-14T11:47:24.948Z"
+  },
+  {
+    "slug": "linux-vhost-bug-gives-local-root-and-vm-escape-patch-now-2026-10-14",
+    "title": "Linux vhost bug gives local root and VM escape, patch now",
+    "originalTitle": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+    "summary": "Update Linux kernels and virtualization hosts, CVE-2026-74580 lets local users read write kernel memory and in some setups break out of guests to control hosts.",
+    "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-14T07:46:57.000Z",
+    "fetchedAt": "2026-10-14T11:47:24.948Z"
+  },
+  {
+    "slug": "chrome-and-firefox-patch-114-bugs-firefox-enterprise-debuts-2026-10-14",
+    "title": "Chrome and Firefox patch 114 bugs, Firefox Enterprise debuts",
+    "originalTitle": "Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise",
+    "summary": "Push browser updates fleetwide quickly, close dozens of high severity flaws, and evaluate Firefox Enterprise if you need hardened, managed builds for regulated environments.",
+    "url": "https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-14T07:38:51.000Z",
+    "fetchedAt": "2026-10-14T11:47:24.948Z"
+  },
+  {
+    "slug": "citrix-fortinet-ivanti-fix-critical-flaws-patch-quickly-2026-10-14",
+    "title": "Citrix, Fortinet, Ivanti fix critical flaws, patch quickly",
+    "originalTitle": "Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products",
+    "summary": "Review vendor advisories and update network gear and VPNs now, several critical bugs enable auth bypass, code execution, and credential leaks attractive to ransomware crews.",
+    "url": "https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-14T07:26:35.000Z",
+    "fetchedAt": "2026-10-14T11:47:24.948Z"
+  },
+  {
+    "slug": "microsoft-ships-1-413-fixes-patches-exploited-windows-shell-2026-10-14",
+    "title": "Microsoft ships 1,413 fixes, patches exploited Windows Shell bug",
+    "originalTitle": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
+    "summary": "Patch now, prioritize CVE-2026-96951, an exploited Windows Shell Mark of the Web bypass allowing code execution from malicious files, then triage the other critical RCEs.",
+    "url": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/14/microsoft-patch-tuesday-cve-2026-96951-motw-bypass/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-14T07:16:12.000Z",
+    "fetchedAt": "2026-10-14T11:47:24.948Z"
+  },
+  {
     "slug": "treat-ai-agents-like-users-with-least-privilege-2026-10-14",
     "title": "Treat AI agents like users with least privilege",
     "originalTitle": "Most companies count AI agents as insiders, and CISOs worry about their own liability",
@@ -2813,99 +2939,5 @@
     "category": "ai-security",
     "publishedAt": "2026-09-30T11:52:30.000Z",
     "fetchedAt": "2026-09-30T12:30:30.405Z"
-  },
-  {
-    "slug": "m365-phish-steals-sessions-then-installs-rmm-for-remote-acce-2026-09-30",
-    "title": "M365 phish steals sessions then installs RMM for remote access",
-    "originalTitle": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
-    "summary": "Enforce phishing-resistant MFA, monitor for token theft, and block unsanctioned RMMs, a US-focused campaign is hijacking Microsoft 365 sessions to expand compromise and fraud.",
-    "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-30T10:45:00.000Z",
-    "fetchedAt": "2026-09-30T12:30:30.405Z"
-  },
-  {
-    "slug": "openinfra-europe-s-artifactory-breached-stop-using-nordix-ar-2026-09-30",
-    "title": "OpenInfra Europe’s Artifactory breached, stop using Nordix artifacts",
-    "originalTitle": "OpenInfra Europe’s JFrog Artifactory instance breached, packages potentially compromised",
-    "summary": "If you downloaded from artifactory.nordix.org between August 28 and September 15, quarantine affected systems, pull packages from trusted sources, and verify build integrity.",
-    "url": "https://www.helpnetsecurity.com/2026/09/30/openinfra-jfrog-artifactory-instance-compromised/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-30T10:39:26.000Z",
-    "fetchedAt": "2026-09-30T12:30:30.405Z"
-  },
-  {
-    "slug": "openssl-and-wolfssl-patch-high-severity-dtls-bugs-2026-09-30",
-    "title": "OpenSSL and wolfSSL patch high severity DTLS bugs",
-    "originalTitle": "High-Severity Vulnerabilities Patched in OpenSSL, WolfSSL",
-    "summary": "Update OpenSSL and wolfSSL in servers, containers, and appliances, DTLS flaws can leak heap memory or crash services and vendors are rolling fixes now.",
-    "url": "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-30T06:55:50.000Z",
-    "fetchedAt": "2026-09-30T12:30:30.405Z"
-  },
-  {
-    "slug": "pipe-claude-enterprise-chats-into-dlp-and-siem-for-monitorin-2026-09-30",
-    "title": "Pipe Claude Enterprise chats into DLP and SIEM for monitoring",
-    "originalTitle": "Security tools can now scan Claude Enterprise chats and uploads for sensitive data",
-    "summary": "Turn on Claude Enterprise Compliance API integrations so security tools can scan prompts, uploads, and outputs for sensitive data exposure and policy violations.",
-    "url": "https://www.helpnetsecurity.com/2026/09/30/claude-compliance-api-integrations/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-09-30T06:31:58.000Z",
-    "fetchedAt": "2026-09-30T12:30:30.405Z"
-  },
-  {
-    "slug": "citrix-netscaler-cve-2026-88772-under-active-pre-auth-exploi-2026-09-30",
-    "title": "Citrix NetScaler CVE-2026-88772 under active pre-auth exploitation",
-    "originalTitle": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
-    "summary": "Patch NetScaler ADC and Gateway immediately and disable DTLS until then, attackers are achieving pre-auth code execution for root access in the wild.",
-    "url": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-30T05:30:30.000Z",
-    "fetchedAt": "2026-09-30T12:30:30.405Z"
-  },
-  {
-    "slug": "eu-cyber-resilience-act-new-duties-for-container-and-kuberne-2026-09-30",
-    "title": "EU Cyber Resilience Act: new duties for container and Kubernetes teams",
-    "originalTitle": "EU Cyber Resilience Act requirements for containers and Kubernetes",
-    "summary": "If you sell or support software in the EU, align container and Kubernetes practices to CRA requirements now, reporting starts Sept 11, 2026 and full enforcement arrives Dec 11, 2027.",
-    "url": "https://www.helpnetsecurity.com/2026/09/30/rapidfort-cra-container-compliance/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-09-30T05:00:53.000Z",
-    "fetchedAt": "2026-09-30T05:28:48.830Z"
   }
 ]
