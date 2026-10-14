@@ -1,5 +1,80 @@
 [
   {
+    "slug": "claude-code-desktop-preview-bug-can-steal-your-keys-2026-10-14",
+    "title": "Claude Code Desktop preview bug can steal your keys",
+    "originalTitle": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
+    "summary": "Update or disable the preview pane in Claude Code Desktop, a zero-click flaw lets attackers exfiltrate SSH keys, AWS creds, and tokens simply by opening a project.",
+    "url": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-14T20:09:42.000Z",
+    "fetchedAt": "2026-10-14T21:38:32.891Z"
+  },
+  {
+    "slug": "fbi-busts-north-korea-s-fake-it-worker-laptop-farms-in-texas-2026-10-14",
+    "title": "FBI busts North Korea’s fake IT worker laptop farms in Texas",
+    "originalTitle": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+    "summary": "Tighten contractor vetting and device controls, US arrests tied to DPRK IT worker schemes show ongoing risks of offshore hires using farmed laptops to access client environments.",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-14T19:41:43.000Z",
+    "fetchedAt": "2026-10-14T21:38:32.891Z"
+  },
+  {
+    "slug": "nextcloud-servers-backdoored-via-vulnerable-collabora-code-a-2026-10-14",
+    "title": "Nextcloud servers backdoored via vulnerable Collabora CODE app",
+    "originalTitle": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+    "summary": "If you run Nextcloud with the Built-in CODE app, disable or update it and hunt for web shells, attackers are exploiting it to gain command execution.",
+    "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-14T17:38:31.000Z",
+    "fetchedAt": "2026-10-14T21:38:32.891Z"
+  },
+  {
+    "slug": "patch-now-cisco-secure-email-gateway-zero-day-under-attack-2026-10-14",
+    "title": "Patch now: Cisco Secure Email Gateway zero-day under attack",
+    "originalTitle": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+    "summary": "Patch Cisco SEG appliances immediately, attackers are exploiting a path traversal bug to run root commands via malicious attachments, monitor logs and restrict risky file types.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-14T17:29:14.000Z",
+    "fetchedAt": "2026-10-14T21:38:32.891Z"
+  },
+  {
+    "slug": "microsoft-disrupts-phishing-kits-behind-1b-scam-emails-2026-10-14",
+    "title": "Microsoft disrupts phishing kits behind 1B scam emails",
+    "originalTitle": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+    "summary": "Expect phishing tactics to shift but not stop, Microsoft and partners took down CoGUI, Haozi, and Iron Man kit infrastructure used to blast over a billion messages.",
+    "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-14T17:09:15.000Z",
+    "fetchedAt": "2026-10-14T21:38:32.891Z"
+  },
+  {
     "slug": "ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixe-2026-10-14",
     "title": "ICS Patch Tuesday: Siemens issues 17 advisories, Rockwell fixes flaw",
     "originalTitle": "ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw",
@@ -105,6 +180,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-14T12:13:36.000Z",
     "fetchedAt": "2026-10-14T17:07:32.335Z"
+  },
+  {
+    "slug": "cisa-adds-pan-os-cisco-seg-ahsay-to-exploited-list-2026-10-14",
+    "title": "CISA adds PAN-OS, Cisco SEG, Ahsay to exploited list",
+    "originalTitle": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "summary": "Prioritize fixes for Palo Alto PAN-OS code injection, Cisco SEG path traversal, and two Ahsay backup flaws, these are actively exploited and should be patched or mitigated now.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-14T12:00:00.000Z",
+    "fetchedAt": "2026-10-14T21:38:32.891Z"
   },
   {
     "slug": "run-a-deepfake-drill-before-a-cloned-voice-hits-your-help-de-2026-10-14",
@@ -2877,57 +2966,5 @@
     "category": "ai-security",
     "publishedAt": "2026-10-01T04:00:41.000Z",
     "fetchedAt": "2026-10-01T05:47:21.170Z"
-  },
-  {
-    "slug": "malicious-custom-gpts-used-to-deliver-rat-via-clickfix-lures-2026-09-30",
-    "title": "Malicious Custom GPTs used to deliver RAT via ClickFix lures",
-    "originalTitle": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
-    "summary": "Attackers abuse OpenAI and Google domains to trick users into malware installs, block risky browser downloads, restrict untrusted extensions, and train staff to avoid ClickFix prompts.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-09-30T21:25:47.000Z",
-    "fetchedAt": "2026-09-30T22:12:56.727Z"
-  },
-  {
-    "slug": "zimbra-rce-exploited-via-email-patch-and-check-for-web-shell-2026-09-30",
-    "title": "Zimbra RCE exploited via email, patch and check for web shells",
-    "originalTitle": "Attackers have been exploiting critical Zimbra flaw to steal emails",
-    "summary": "A critical Zimbra bug allows unauthenticated command injection from a crafted email, update ZCS now and scan servers for web shells and mailbox data access.",
-    "url": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-09-30T20:44:48.000Z",
-    "fetchedAt": "2026-09-30T22:12:56.727Z"
-  },
-  {
-    "slug": "543k-valid-credentials-found-on-public-github-revoke-and-rot-2026-09-30",
-    "title": "543k valid credentials found on public GitHub, revoke and rotate",
-    "originalTitle": "Over 543,000 valid credentials exposed in public GitHub repositories",
-    "summary": "Over half a million secrets in public repos remained valid in July, enable secret scanning, audit org repos, revoke exposed keys, and enforce least privilege for tokens.",
-    "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-09-30T18:08:34.000Z",
-    "fetchedAt": "2026-09-30T22:12:56.727Z"
   }
 ]
