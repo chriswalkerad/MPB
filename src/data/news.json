@@ -1,5 +1,98 @@
 [
   {
+    "slug": "microsoft-disrupts-phishing-network-behind-over-a-billion-em-2026-10-15",
+    "title": "Microsoft disrupts phishing network behind over a billion emails",
+    "originalTitle": "Microsoft disrupts phishing network behind more than a billion scam messages",
+    "summary": "Expect copycat phishing kits and reused infrastructure, so keep MFA and conditional access tight, block legacy auth, and tune mail filtering to catch kit-generated lures.",
+    "url": "https://www.helpnetsecurity.com/2026/10/15/microsoft-disrupting-phishing-kits-marketplace-yam-store/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-15T10:10:21.000Z",
+    "fetchedAt": "2026-10-15T11:23:18.805Z"
+  },
+  {
+    "slug": "ghostaction-hijacks-1-900-github-accounts-to-steal-ci-secret-2026-10-15",
+    "title": "GhostAction hijacks 1,900 GitHub accounts to steal CI secrets",
+    "originalTitle": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+    "summary": "Enforce mandatory MFA and PAT hygiene on GitHub, audit OAuth apps and Actions runs, rotate exposed secrets, and monitor for unauthorized pushes or pull request workflows.",
+    "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-15T08:45:10.000Z",
+    "fetchedAt": "2026-10-15T11:23:18.805Z"
+  },
+  {
+    "slug": "langflow-critical-rce-probed-at-scale-patch-now-2026-10-15",
+    "title": "Langflow critical RCE probed at scale, patch now",
+    "originalTitle": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+    "summary": "Update Langflow to a fixed release, restrict access to trusted users and networks, rotate credentials, and review logs for suspicious agent or file execution activity.",
+    "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-15T07:07:05.000Z",
+    "fetchedAt": "2026-10-15T11:23:18.805Z"
+  },
+  {
+    "slug": "palo-alto-pan-os-zero-day-rce-is-exploited-patch-now-2026-10-15",
+    "title": "Palo Alto PAN-OS zero-day RCE is exploited, patch now",
+    "originalTitle": "Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution",
+    "summary": "Patch affected PAN-OS versions immediately, restrict the management interface, apply Threat Prevention signatures, and check Palo Alto’s IoCs for signs of compromise.",
+    "url": "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/15/cve-2026-0322-cve-2026-76519-cve-2026-105133-cve-2026-105134-exploted/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-15T06:59:54.000Z",
+    "fetchedAt": "2026-10-15T11:23:18.805Z"
+  },
+  {
+    "slug": "ahsaycbs-flaws-exploited-for-web-shells-and-miners-patch-now-2026-10-15",
+    "title": "AhsayCBS flaws exploited for web shells and miners, patch now",
+    "originalTitle": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+    "summary": "Apply the latest AhsayCBS fixes for CVE-2026-105133 and -105134, then audit servers for rogue web shells, high CPU from miners, and other post-exploitation artifacts.",
+    "url": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-15T06:43:08.000Z",
+    "fetchedAt": "2026-10-15T11:23:18.805Z"
+  },
+  {
+    "slug": "cisco-secure-email-gateway-flaw-exploited-update-now-2026-10-15",
+    "title": "Cisco Secure Email Gateway flaw exploited, update now",
+    "originalTitle": "Cisco Warns of Exploited Secure Email Gateway Vulnerability",
+    "summary": "Upgrade vulnerable SEG releases without delay, block administrative access from the internet, and hunt for arbitrary file writes or unexpected root-level processes on the appliance.",
+    "url": "https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-15T06:34:15.000Z",
+    "fetchedAt": "2026-10-15T11:23:18.805Z"
+  },
+  {
     "slug": "palo-alto-pan-os-zero-day-rce-exploited-patch-now-2026-10-14",
     "title": "Palo Alto PAN-OS zero-day RCE exploited, patch now",
     "originalTitle": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
@@ -2854,145 +2947,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-01T12:00:00.000Z",
     "fetchedAt": "2026-10-01T22:39:28.871Z"
-  },
-  {
-    "slug": "windows-11-enables-settings-backup-by-default-for-orgs-2026-10-01",
-    "title": "Windows 11 enables settings backup by default for orgs",
-    "originalTitle": "Microsoft enables Windows settings backup by default for orgs",
-    "summary": "Expect Windows 11 to enable settings backup by default on Entra-joined systems after 26H2, audit backup policies, data residency and privacy before enterprise rollout.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-10-01T11:14:28.000Z",
-    "fetchedAt": "2026-10-01T13:07:50.117Z"
-  },
-  {
-    "slug": "zammad-helpdesk-zero-days-chained-to-rce-update-now-2026-10-01",
-    "title": "Zammad helpdesk zero-days chained to RCE, update now",
-    "originalTitle": "Zammad Zero-Days Exploited in AI-Powered DIVD Hack",
-    "summary": "Update Zammad now, attackers chained zero-days to hijack sessions, reach remote code execution and root, then escalate privileges, review admin actions and server integrity.",
-    "url": "https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-01T10:42:49.000Z",
-    "fetchedAt": "2026-10-01T13:07:50.117Z"
-  },
-  {
-    "slug": "500k-active-credentials-exposed-on-github-check-your-org-2026-10-01",
-    "title": "500k active credentials exposed on GitHub, check your org",
-    "originalTitle": "500,000 Active Credentials Left Exposed on GitHub",
-    "summary": "Audit your repos for secrets, researchers found 500,000 active credentials on GitHub despite default push protections, enable secret scanning and rotate any exposed keys immediately.",
-    "url": "https://www.securityweek.com/500000-active-credentials-left-exposed-on-github/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-01T09:43:56.000Z",
-    "fetchedAt": "2026-10-01T13:07:50.117Z"
-  },
-  {
-    "slug": "cisco-sd-wan-manager-zero-day-exploited-patch-now-2026-10-01",
-    "title": "Cisco SD-WAN Manager zero-day exploited, patch now",
-    "originalTitle": "Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability",
-    "summary": "Patch Cisco Catalyst SD-WAN Manager immediately, CVE-2026-76504 is being exploited to grant unauthenticated admin access, CISA added it to KEV, check logs for compromise.",
-    "url": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/01/new-cisco-sd-wan-zero-day-exploited-in-the-wild-cve-2026-76504/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-01T08:26:03.000Z",
-    "fetchedAt": "2026-10-01T13:07:50.117Z"
-  },
-  {
-    "slug": "google-ships-gemini-4-argon-to-vetted-defenders-2026-10-01",
-    "title": "Google ships Gemini 4 Argon to vetted defenders",
-    "originalTitle": "Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders",
-    "summary": "Plan for client questions, Google is giving vetted defenders access to Gemini 4 Argon with fewer guardrails and claims it already found a critical hospital software bug.",
-    "url": "https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-01T07:52:26.000Z",
-    "fetchedAt": "2026-10-01T13:07:50.117Z"
-  },
-  {
-    "slug": "apple-coregraphics-poc-crashes-devices-via-pdf-update-now-2026-10-01",
-    "title": "Apple CoreGraphics PoC crashes devices via PDF, update now",
-    "originalTitle": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
-    "summary": "Install the latest iOS and macOS updates now, a public PoC for CVE-2026-86950 crashes devices via malicious PDFs and may hint at WhatsApp-based delivery.",
-    "url": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-01T05:54:41.000Z",
-    "fetchedAt": "2026-10-01T13:07:50.117Z"
-  },
-  {
-    "slug": "attackers-abuse-screenconnect-client-to-persist-on-compromis-2026-10-01",
-    "title": "Attackers abuse ScreenConnect client to persist on compromised hosts",
-    "originalTitle": "ScreenConnect Client (Ab)used by Attackers, (Thu, Oct 1st)",
-    "summary": "Audit endpoints now, attackers are dropping the ScreenConnect client to maintain access, so block unauthorized installs, monitor for unexpected ScreenConnect services and connections, and rotate admin credentials.",
-    "url": "https://isc.sans.edu/diary/rss/33388",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-01T05:32:13.000Z",
-    "fetchedAt": "2026-10-01T05:47:21.170Z"
-  },
-  {
-    "slug": "attackers-exploit-ai-found-bugs-within-days-patch-faster-2026-10-01",
-    "title": "Attackers exploit AI-found bugs within days, patch faster",
-    "originalTitle": "The vulnerabilities AI finds are the ones attackers want",
-    "summary": "Prioritize and patch issues highlighted by AI research and public PoCs, Google’s data shows exploits often follow within days and overall exploitation still clusters on a small set of bugs.",
-    "url": "https://www.helpnetsecurity.com/2026/10/01/google-ai-discovered-vulnerabilities-remote-code-execution/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-01T05:00:35.000Z",
-    "fetchedAt": "2026-10-01T05:47:21.170Z"
-  },
-  {
-    "slug": "citrix-netscaler-exploits-create-hidden-superuser-and-css-ma-2026-10-01",
-    "title": "Citrix NetScaler exploits create hidden superuser and CSS-masked web shells",
-    "originalTitle": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
-    "summary": "Patch affected NetScaler ADC and Gateway immediately, attackers are exploiting a pre-auth command injection to add a superuser and hide web shells under CSS-like paths, and hunt for rogue admins and odd files.",
-    "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-01T04:35:34.000Z",
-    "fetchedAt": "2026-10-01T05:47:21.170Z"
   }
 ]
