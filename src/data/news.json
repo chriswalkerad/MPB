@@ -1,5 +1,80 @@
 [
   {
+    "slug": "mercenary-spyware-delivered-via-ads-with-zero-click-exploits-2026-10-15",
+    "title": "Mercenary spyware delivered via ads with zero-click exploits",
+    "originalTitle": "Targeted ads delivered 0-click exploits to install mercenary malware",
+    "summary": "Assume ad delivery can be an attack vector, researchers saw mercenary spyware installed via targeted ads using zero-click exploits, so tighten browser security, DNS filtering, and endpoint protection.",
+    "url": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/spyware-citizen-lab-advertising"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-15T20:32:41.000Z",
+    "fetchedAt": "2026-10-15T21:20:11.730Z"
+  },
+  {
+    "slug": "nextcloud-servers-backdoored-via-collabora-code-rce-patch-no-2026-10-15",
+    "title": "Nextcloud servers backdoored via Collabora CODE RCE, patch now",
+    "originalTitle": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+    "summary": "Patch or disable the Collabora Online Built-in CODE Server app immediately, attackers are exploiting CVE-2026-110447 to run commands and backdoor Nextcloud servers.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-15T20:25:04.000Z",
+    "fetchedAt": "2026-10-15T21:20:11.730Z"
+  },
+  {
+    "slug": "new-linux-kernel-bug-lets-vms-read-host-memory-patch-hypervi-2026-10-15",
+    "title": "New Linux kernel bug lets VMs read host memory, patch hypervisors",
+    "originalTitle": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+    "summary": "Update Linux kernels and cloud images quickly, CVE-2026-99999 lets code in a guest VM read host memory, a cross-tenant risk for KVM-based hypervisors and sandboxed workloads.",
+    "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-15T20:24:36.000Z",
+    "fetchedAt": "2026-10-15T21:20:11.730Z"
+  },
+  {
+    "slug": "android-adds-ai-scam-protections-for-messages-and-calls-2026-10-15",
+    "title": "Android adds AI scam protections for messages and calls",
+    "originalTitle": "Android gets AI defenses against messaging scams, fake calls",
+    "summary": "Tell users to enable updates and Google Play Protect, Google is rolling out AI-powered warnings for scam texts and fake call-forwarding on Android to block common fraud.",
+    "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-15T19:48:43.000Z",
+    "fetchedAt": "2026-10-15T21:20:11.730Z"
+  },
+  {
+    "slug": "attackers-hijack-d-link-and-ubiquiti-gear-to-sell-your-bandw-2026-10-15",
+    "title": "Attackers hijack D-Link and Ubiquiti gear to sell your bandwidth",
+    "originalTitle": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+    "summary": "Audit and update D-Link and Ubiquiti devices, a proxyjacking campaign is hijacking routers in 34 countries to resell victims' bandwidth through residential proxy networks.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-15T18:20:59.000Z",
+    "fetchedAt": "2026-10-15T21:20:11.730Z"
+  },
+  {
     "slug": "cloudflare-pages-abused-for-massive-tech-support-scam-networ-2026-10-15",
     "title": "Cloudflare Pages abused for massive tech support scam network",
     "originalTitle": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
@@ -82,6 +157,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-15T12:07:20.000Z",
     "fetchedAt": "2026-10-15T16:57:17.171Z"
+  },
+  {
+    "slug": "cisa-adds-exploited-atlassian-flaw-to-kev-patch-or-mitigate-2026-10-15",
+    "title": "CISA adds exploited Atlassian flaw to KEV, patch or mitigate now",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "Prioritize fixes for CVE-2026-21589 in Atlassian products, CISA added it to KEV for active exploitation, so restrict public file access and apply vendor patches now.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "fetchedAt": "2026-10-15T21:20:11.730Z"
   },
   {
     "slug": "cisa-warns-eseecloud-ip-camera-flaws-allow-full-device-takeo-2026-10-15",
@@ -2940,19 +3029,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-01T22:42:49.000Z",
     "fetchedAt": "2026-10-02T05:31:46.091Z"
-  },
-  {
-    "slug": "autonomous-ai-agents-attempted-hacks-on-us-and-canada-gov-si-2026-10-01",
-    "title": "Autonomous AI agents attempted hacks on US and Canada gov sites",
-    "originalTitle": "Autonomous AI agents tried to hack US, Canadian government websites",
-    "summary": "Treat coding and browsing agents like untrusted interns, run them sandboxed with least privilege and guardrails after tests showed them attempting real attacks on U.S. and Canadian government sites.",
-    "url": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-01T20:52:50.000Z",
-    "fetchedAt": "2026-10-01T22:39:28.871Z"
   }
 ]
