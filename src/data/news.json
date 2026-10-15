@@ -1,5 +1,117 @@
 [
   {
+    "slug": "cloudflare-pages-abused-for-massive-tech-support-scam-networ-2026-10-15",
+    "title": "Cloudflare Pages abused for massive tech support scam network",
+    "originalTitle": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+    "summary": "Block TDS traffic and tighten DNS and content filtering, researchers found over 20,000 Cloudflare Pages domains driving fake support pop-ups via the long-running Help TDS operation.",
+    "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-15T14:11:36.000Z",
+    "fetchedAt": "2026-10-15T16:57:17.171Z"
+  },
+  {
+    "slug": "fake-captcha-checks-push-malware-and-browser-hijacks-2026-10-15",
+    "title": "Fake CAPTCHA checks push malware and browser hijacks",
+    "originalTitle": "Fake CAPTCHAs are tricking users into running malware on their own devices",
+    "summary": "Warn users and tighten browser controls, attackers increasingly use bogus CAPTCHA gates to deliver malware, spam push notifications, and trick victims into executing commands themselves.",
+    "url": "https://www.helpnetsecurity.com/2026/10/15/barracuda-fake-captcha-phishing-attacks/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-15T13:29:01.000Z",
+    "fetchedAt": "2026-10-15T16:57:17.171Z"
+  },
+  {
+    "slug": "windows-server-2022-exits-mainstream-support-2026-10-15",
+    "title": "Windows Server 2022 exits mainstream support",
+    "originalTitle": "Microsoft: Windows Server 2022 reached end of mainstream support",
+    "summary": "Plan lifecycle and budgeting now, Windows Server 2022 is in extended support until October 2031 with security updates only, no new features or nonsecurity fixes.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-10-15T13:18:36.000Z",
+    "fetchedAt": "2026-10-15T16:57:17.171Z"
+  },
+  {
+    "slug": "nginx-patches-rce-bugs-and-tls-client-cert-bypass-2026-10-15",
+    "title": "NGINX patches RCE bugs and TLS client-cert bypass",
+    "originalTitle": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
+    "summary": "Patch NGINX to 1.30.6 or 1.31.7 now, fixes five flaws including config-dependent RCE risks and a TLS bug that could skip client-certificate checks in mutual TLS setups.",
+    "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-15T12:58:05.000Z",
+    "fetchedAt": "2026-10-15T16:57:17.171Z"
+  },
+  {
+    "slug": "next-js-ships-urgent-fixes-for-two-unauth-rce-bugs-2026-10-15",
+    "title": "Next.js ships urgent fixes for two unauth RCE bugs",
+    "originalTitle": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
+    "summary": "Update Next.js to the latest release immediately, an out-of-band patch fixes two critical unauthenticated RCE bugs in caching and SVG handling plus a high severity denial-of-service issue.",
+    "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-15T12:28:13.000Z",
+    "fetchedAt": "2026-10-15T16:57:17.171Z"
+  },
+  {
+    "slug": "drupal-fixes-critical-field-ui-flaw-enabling-unauth-rce-via-2026-10-15",
+    "title": "Drupal fixes critical Field UI flaw enabling unauth RCE via modules",
+    "originalTitle": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
+    "summary": "Patch Drupal to 11.4.10, 11.3.19, or 10.6.19 and review contributed modules, a core Field UI bug can be reached via modules and allow unauthenticated remote code execution.",
+    "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-15T12:07:20.000Z",
+    "fetchedAt": "2026-10-15T16:57:17.171Z"
+  },
+  {
+    "slug": "cisa-warns-eseecloud-ip-camera-flaws-allow-full-device-takeo-2026-10-15",
+    "title": "CISA warns EseeCloud IP camera flaws allow full device takeover",
+    "originalTitle": "Guangzhou Juan IoT Technology EseeCloud",
+    "summary": "Update EseeCloud app and firmware or replace affected IP cameras, critical vulnerabilities allow remote takeover of Guangzhou Juan IoT devices used in many small business surveillance setups.",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "fetchedAt": "2026-10-15T16:57:17.171Z"
+  },
+  {
+    "slug": "fake-ai-apps-are-a-growing-malware-delivery-channel-2026-10-15",
+    "title": "Fake AI apps are a growing malware delivery channel",
+    "originalTitle": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
+    "summary": "Block untrusted AI installers and train users, attackers are impersonating popular AI tools to steal browser sessions and compromise accounts across US companies and MSP customers.",
+    "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-15T11:46:59.000Z",
+    "fetchedAt": "2026-10-15T16:57:17.171Z"
+  },
+  {
     "slug": "microsoft-disrupts-phishing-network-behind-over-a-billion-em-2026-10-15",
     "title": "Microsoft disrupts phishing network behind over a billion emails",
     "originalTitle": "Microsoft disrupts phishing network behind more than a billion scam messages",
@@ -2841,111 +2953,6 @@
     "altSources": [],
     "category": "ai-security",
     "publishedAt": "2026-10-01T20:52:50.000Z",
-    "fetchedAt": "2026-10-01T22:39:28.871Z"
-  },
-  {
-    "slug": "police-seize-killsec-ransomware-servers-arrest-alleged-16-ye-2026-10-01",
-    "title": "Police seize KillSec ransomware servers, arrest alleged 16-year-old boss",
-    "originalTitle": "Police disrupt KillSec ransomware, arrest suspected teenage leader",
-    "summary": "KillSec's leak site and servers were seized and three suspects arrested, so recent victims should prepare for data reuse attempts and close any access misconfigurations the crew abused.",
-    "url": "https://therecord.media/killsec-ransomware-raas-arrests-europe",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html"
-      },
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/police-shut-down-killsec-ransomware-identify-alleged-teen-leader/"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/01/killsec-ransomware-16-year-old-main-operator-arrested/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-01T15:55:00.000Z",
-    "fetchedAt": "2026-10-01T22:39:28.871Z"
-  },
-  {
-    "slug": "nasty-wordpress-backdoor-rebuilds-itself-after-cleanup-2026-10-01",
-    "title": "Nasty WordPress backdoor rebuilds itself after cleanup",
-    "originalTitle": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
-    "summary": "Harden and fully rebuild infected WordPress sites, researchers found a self-healing backdoor using files, the database, and shared memory to persist and reinfect after cleanup.",
-    "url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-01T14:37:35.000Z",
-    "fetchedAt": "2026-10-01T22:39:28.871Z"
-  },
-  {
-    "slug": "kiteworks-fixes-critical-epg-code-injection-126-other-flaws-2026-10-01",
-    "title": "Kiteworks fixes critical EPG code injection, 126 other flaws",
-    "originalTitle": "Kiteworks patches max severity code injection vulnerability",
-    "summary": "Patch Kiteworks Email Protection Gateway and related products now, a max severity code injection and more than a hundred other vulnerabilities could enable takeover and data theft.",
-    "url": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-01T13:51:08.000Z",
-    "fetchedAt": "2026-10-01T22:39:28.871Z"
-  },
-  {
-    "slug": "ai-agent-exploited-zammad-zero-days-to-breach-dutch-disclosu-2026-10-01",
-    "title": "AI agent exploited Zammad zero-days to breach Dutch disclosure group",
-    "originalTitle": "AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit",
-    "summary": "If you run Zammad helpdesk, patch immediately and restrict external access, attackers chained two zero-days for session hijack and root RCE in seconds using an agentic AI.",
-    "url": "https://www.helpnetsecurity.com/2026/10/01/divd-agentic-ai-attack-breach/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-01T13:13:14.000Z",
-    "fetchedAt": "2026-10-01T22:39:28.871Z"
-  },
-  {
-    "slug": "zimbra-bug-exploited-via-email-patch-now-2026-10-01",
-    "title": "Zimbra bug exploited via email, patch now",
-    "originalTitle": "Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure",
-    "summary": "If you run Zimbra, patch or apply mitigations now, attackers exploited CVE-2026-73570 pre-disclosure using crafted emails that require no user interaction under specific configurations.",
-    "url": "https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-01T12:55:57.000Z",
-    "fetchedAt": "2026-10-01T13:07:50.117Z"
-  },
-  {
-    "slug": "cisa-adds-actively-exploited-fortimail-path-traversal-to-kev-2026-10-01",
-    "title": "CISA adds actively exploited FortiMail path traversal to KEV",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Prioritize patching Fortinet FortiMail for CVE-2026-104286, a path traversal bug CISA says is being actively exploited that could let attackers read or overwrite files on the appliance.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-01T12:00:00.000Z",
     "fetchedAt": "2026-10-01T22:39:28.871Z"
   }
 ]
