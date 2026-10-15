@@ -1,5 +1,47 @@
 [
   {
+    "slug": "palo-alto-pan-os-zero-day-rce-exploited-patch-now-2026-10-14",
+    "title": "Palo Alto PAN-OS zero-day RCE exploited, patch now",
+    "originalTitle": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+    "summary": "Patch PAN-OS firewalls now, CVE-2026-0322 is being actively exploited for remote code execution, check Palo Alto's advisory for affected versions and immediate mitigations.",
+    "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-14T22:56:47.000Z",
+    "fetchedAt": "2026-10-15T04:32:58.191Z"
+  },
+  {
+    "slug": "700-store-fridge-hack-tied-to-outdated-exposed-devices-2026-10-14",
+    "title": "700-store fridge hack tied to outdated, exposed devices",
+    "originalTitle": "Fridge hack costing millions and sparking fires stemmed from poor security",
+    "summary": "Kill internet exposure and segment OT and IoT gear, attackers hit outdated supermarket refrigeration systems across 700 stores causing fires and multimillion losses.",
+    "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-14T21:35:09.000Z",
+    "fetchedAt": "2026-10-15T04:32:58.191Z"
+  },
+  {
+    "slug": "ivanti-connect-secure-zero-day-exploited-after-incomplete-fi-2026-10-14",
+    "title": "Ivanti Connect Secure zero-day exploited after incomplete fix",
+    "originalTitle": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+    "summary": "Treat Ivanti Connect Secure gateways as high risk, apply the latest fixes and mitigations, attackers abused an authentication bypass plus RCE that was only partially addressed in July.",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-14T21:20:13.000Z",
+    "fetchedAt": "2026-10-15T04:32:58.191Z"
+  },
+  {
     "slug": "claude-code-desktop-preview-bug-can-steal-your-keys-2026-10-14",
     "title": "Claude Code Desktop preview bug can steal your keys",
     "originalTitle": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
@@ -2951,20 +2993,6 @@
     "altSources": [],
     "category": "vulnerabilities",
     "publishedAt": "2026-10-01T04:35:34.000Z",
-    "fetchedAt": "2026-10-01T05:47:21.170Z"
-  },
-  {
-    "slug": "google-s-gemini-4-argon-aims-to-auto-find-and-patch-critical-2026-10-01",
-    "title": "Google’s Gemini 4 Argon aims to auto-find and patch critical flaws",
-    "originalTitle": "Google says Gemini 4 Argon can find and patch critical software flaws",
-    "summary": "Expect client questions, Google is piloting an AI model that can autonomously find, verify and patch vulnerabilities, so test in sandboxes and set governance before considering any assisted auto-fix workflows.",
-    "url": "https://www.helpnetsecurity.com/2026/10/01/google-gemini-4-argon/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-01T04:00:41.000Z",
     "fetchedAt": "2026-10-01T05:47:21.170Z"
   }
 ]
