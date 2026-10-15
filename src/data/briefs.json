@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-15",
+    "date": "2026-10-15",
+    "title": "Patch fast, block scams, and mind your lifecycles",
+    "intro": "Big week of urgent fixes and noisy social engineering. Patch what faces the internet, lock down browsers, and get your upgrade plans straight.",
+    "items": [
+      {
+        "heading": "NGINX fixes RCE and mTLS bypass",
+        "body": "Upstream shipped 1.30.6 and 1.31.7 to address five flaws, including configuration dependent remote code execution and a TLS issue that could skip client certificate checks in mutual TLS. If you run NGINX on public services or use mTLS, patch now and reload. After updating, validate client auth on protected endpoints and review logs for handshake anomalies.",
+        "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "nginx-patches-rce-bugs-and-tls-client-cert-bypass-2026-10-15"
+      },
+      {
+        "heading": "Next.js pushes emergency fixes for unauth RCE",
+        "body": "An out of band release closes two critical unauthenticated remote code execution bugs in caching and SVG handling, plus a high severity denial of service. Update to the latest Next.js release and redeploy, then review caching layers and any SVG processing or uploads in your app pipeline.",
+        "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "next-js-ships-urgent-fixes-for-two-unauth-rce-bugs-2026-10-15"
+      },
+      {
+        "heading": "Drupal Field UI bug enables unauth RCE via modules",
+        "body": "A critical issue in Drupal’s core Field UI can be reached through contributed modules and lead to unauthenticated code execution. Upgrade to 11.4.10, 11.3.19, or 10.6.19 and audit installed modules for risky integrations. If Field UI is enabled on production, disable it until patched.",
+        "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "drupal-fixes-critical-field-ui-flaw-enabling-unauth-rce-via-2026-10-15"
+      },
+      {
+        "heading": "CISA: EseeCloud camera flaws allow full takeover",
+        "body": "Critical vulnerabilities in Guangzhou Juan IoT cameras managed by the EseeCloud app allow remote device compromise, common in small business surveillance setups. Update the app and camera firmware or replace affected gear. In the meantime, segment cameras, block remote access, and monitor for unusual outbound traffic.",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+        "source": "CISA Advisories",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-warns-eseecloud-ip-camera-flaws-allow-full-device-takeo-2026-10-15"
+      },
+      {
+        "heading": "Cloudflare Pages abused for tech support scam swarm",
+        "body": "Researchers found more than 20,000 Cloudflare Pages domains feeding fake support pop ups via the long running Help TDS operation. Tighten DNS and content filtering, block known TDS indicators, and train users not to call numbers shown in browser pop ups. Consider isolating ad heavy browsing to a separate profile or disposable VM.",
+        "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "cloudflare-pages-abused-for-massive-tech-support-scam-networ-2026-10-15"
+      },
+      {
+        "heading": "Bogus CAPTCHA gates deliver malware and hijacks",
+        "body": "Attackers are abusing fake “prove you are human” pages to push malware, get victims to allow spam notifications, or trick them into executing commands themselves. Lock down browsers: disable notifications by default, strip unneeded permissions, and enforce extension and download allowlists. Remind users that a CAPTCHA should not ask to enable notifications or run files.",
+        "url": "https://www.helpnetsecurity.com/2026/10/15/barracuda-fake-captcha-phishing-attacks/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "fake-captcha-checks-push-malware-and-browser-hijacks-2026-10-15"
+      },
+      {
+        "heading": "Malware posed as AI apps targets companies and MSPs",
+        "body": "Impostor installers for popular AI tools are being used to steal browser sessions and compromise accounts across US organizations and MSP customers. Block untrusted AI installers, enforce application control, and only source tools from verified vendors. Monitor for signs of session theft and reset credentials if exposure is suspected.",
+        "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "fake-ai-apps-are-a-growing-malware-delivery-channel-2026-10-15"
+      },
+      {
+        "heading": "Windows Server 2022 enters extended support",
+        "body": "Server 2022 has left mainstream support and will receive security updates only until October 2031, with no new features or nonsecurity fixes. Plan lifecycle and budgets now: align upgrade timelines, document support expectations, and avoid starting new workloads on 2022.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
+        "source": "BleepingComputer",
+        "category": "industry",
+        "storySlug": "windows-server-2022-exits-mainstream-support-2026-10-15"
+      }
+    ],
+    "signOff": "Triage the patches, brief the users, then get coffee while it all reboots.",
+    "generatedAt": "2026-10-15T17:48:06.263Z"
+  },
+  {
     "slug": "2026-10-14",
     "date": "2026-10-14",
     "title": "Patch Pileup, VPN Fix, and Fakes Everywhere",
@@ -2120,79 +2194,5 @@
     ],
     "signOff": "Ship patches, watch the logs, drink the coffee.",
     "generatedAt": "2026-09-16T17:39:02.883Z"
-  },
-  {
-    "slug": "2026-09-15",
-    "date": "2026-09-15",
-    "title": "Ransomware loves vCenter, Fortinet hit: patch, lock down, repeat",
-    "intro": "Active exploits are piling up across vCenter, Fortinet, and WordPress. Lock down management planes, ship patches, and chase any leaked keys before the coffee cools.",
-    "items": [
-      {
-        "heading": "Ransomware exploiting vCenter RCE",
-        "body": "CISA says ransomware crews are abusing a critical VMware vCenter remote code execution bug that was patched in July. If you run vCenter, patch immediately and put management interfaces behind VPN or admin-only networks. Assume compromise if exposed, review recent admin actions, and tighten access controls.",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "ransomware-now-exploiting-vmware-vcenter-rce-patch-immediate-2026-09-15"
-      },
-      {
-        "heading": "Fortinet flaw used in ISP breach",
-        "body": "Investigators report attackers breached a Thai ISP by exploiting an unpatched Fortinet vulnerability, then dropped recon and privilege escalation tools. Audit every FortiGate and related appliance and apply current fixes. Hunt for odd scripts or new admin accounts and validate configurations match vendor guidance.",
-        "url": "https://www.securityweek.com/thai-broadband-provider-hacked-via-fortinet-vulnerability/",
-        "source": "SecurityWeek",
-        "category": "threats",
-        "storySlug": "fortinet-bug-used-in-isp-breach-patch-and-audit-fortigate-2026-09-15"
-      },
-      {
-        "heading": "WooCommerce Wholesale Lead Capture under attack",
-        "body": "A critical flaw in the WooCommerce Wholesale Lead Capture plugin is being exploited to upload PHP backdoors and take over WordPress sites. Update the plugin now or disable it until patched. Scan for webshells, rotate admin credentials, and review recent file changes on affected sites.",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "critical-woocommerce-wholesale-lead-capture-bug-under-active-2026-09-15"
-      },
-      {
-        "heading": "Mass scans hit exposed Vite dev servers",
-        "body": "Attackers are mass scanning internet-facing Vite development servers to lift AWS and Azure credentials and configuration files. Do not expose dev servers, restrict by IP or VPN, and pull secrets out of reachable paths. Rotate any potentially leaked cloud keys and audit for misuse.",
-        "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "mass-scans-hit-vite-dev-servers-to-steal-cloud-credentials-2026-09-15"
-      },
-      {
-        "heading": "BambooToken rides MQTT on Windows and Linux",
-        "body": "Researchers spotted a cross-platform BambooToken framework using MQTT for command and control on Windows and Linux networks since at least 2023. If MQTT is not a business need, block or monitor it at the network edge. Add detections for unusual MQTT traffic and review egress rules.",
-        "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "bambootoken-malware-uses-mqtt-to-control-windows-and-linux-2026-09-15"
-      },
-      {
-        "heading": "CISA, NIST: harden your SSO tokens",
-        "body": "New guidance from CISA and NIST urges token binding, short token lifetimes, continuous validation, and hardened OIDC or SAML configurations. This lowers the risk of token theft and assertion forgery in cloud SSO. Review your identity provider settings and put these controls on the roadmap if not already in place.",
-        "url": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
-        "source": "CISA Advisories",
-        "category": "defense",
-        "storySlug": "cisa-and-nist-issue-guidance-to-protect-sso-tokens-2026-09-15"
-      },
-      {
-        "heading": "Apple ships iOS 27 and macOS 27 with 200 fixes",
-        "body": "Apple pushed roughly 200 fixes across iOS and macOS, including kernel bugs that enable memory corruption, privilege escalation, crashes, and data exposure. Prioritize these updates across managed fleets. Stage and roll out via MDM and keep an eye on high-risk user groups.",
-        "url": "https://www.securityweek.com/apple-patches-200-vulnerabilities-with-new-ios-27-macos-golden-gate-27-releases/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "apple-ships-ios-27-and-macos-27-with-200-fixes-2026-09-15"
-      },
-      {
-        "heading": "OpenAI probes AI agents in RubyGems attack",
-        "body": "OpenAI is investigating reports that AI agents helped with May’s RubyGems account registrations and malicious package activity. Expect more automated credential stuffing and repository abuse. Enforce MFA on developer accounts, lock down publishing tokens, and monitor dependency changes.",
-        "url": "https://www.securityweek.com/openai-investigates-report-linking-ai-agents-to-rubygems-attack/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "openai-probes-claim-ai-agents-aided-rubygems-attack-2026-09-15"
-      }
-    ],
-    "signOff": "Ship the patches, lock the doors, then grab that coffee.",
-    "generatedAt": "2026-09-15T17:41:38.452Z"
   }
 ]
