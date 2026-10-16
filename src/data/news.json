@@ -1,5 +1,33 @@
 [
   {
+    "slug": "shrink-ai-agent-blast-radius-before-deployment-2026-10-16",
+    "title": "Shrink AI agent blast radius before deployment",
+    "originalTitle": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
+    "summary": "Limit AI agent permissions and capabilities, apply least privilege and strict guardrails, and monitor actions to curb blast radius and prevent automated mistakes from impacting production.",
+    "url": "https://isc.sans.edu/diary/rss/33430",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-16T00:46:35.000Z",
+    "fetchedAt": "2026-10-16T04:26:31.653Z"
+  },
+  {
+    "slug": "share-f-secure-scam-encyclopedia-with-your-users-2026-10-15",
+    "title": "Share F-Secure scam encyclopedia with your users",
+    "originalTitle": "F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud",
+    "summary": "Give clients a clear, nontechnical reference on 50 common scams, use it in awareness training and help desks to quickly identify and report consumer fraud patterns.",
+    "url": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-15T21:55:07.000Z",
+    "fetchedAt": "2026-10-16T04:26:31.653Z"
+  },
+  {
     "slug": "mercenary-spyware-delivered-via-ads-with-zero-click-exploits-2026-10-15",
     "title": "Mercenary spyware delivered via ads with zero-click exploits",
     "originalTitle": "Targeted ads delivered 0-click exploits to install mercenary malware",
@@ -3014,20 +3042,6 @@
     "altSources": [],
     "category": "ai-security",
     "publishedAt": "2026-10-02T04:30:21.000Z",
-    "fetchedAt": "2026-10-02T05:31:46.091Z"
-  },
-  {
-    "slug": "fortimail-zero-day-exploited-patch-now-2026-10-01",
-    "title": "FortiMail zero-day exploited, patch now",
-    "originalTitle": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
-    "summary": "Fortinet says critical FortiMail flaw CVE-2026-104286 is being exploited, update to fixed versions immediately and restrict management interfaces, monitor for signs of compromise.",
-    "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-01T22:42:49.000Z",
     "fetchedAt": "2026-10-02T05:31:46.091Z"
   }
 ]
