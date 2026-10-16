@@ -1,5 +1,103 @@
 [
   {
+    "slug": "proofpoint-to-buy-varonis-for-6-3b-review-partner-impacts-2026-10-16",
+    "title": "Proofpoint to buy Varonis for $6.3B, review partner impacts",
+    "originalTitle": "Proofpoint lines up $6.3 billion deal for Varonis’ data security",
+    "summary": "Expect product and licensing changes if you resell or integrate Proofpoint or Varonis, align renewals and support plans, and brief customers on possible roadmap shifts.",
+    "url": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "msp-channel",
+    "publishedAt": "2026-10-16T14:45:00.000Z",
+    "fetchedAt": "2026-10-16T16:35:24.091Z"
+  },
+  {
+    "slug": "ai-agent-spent-someone-else-s-test-crypto-sandbox-your-bots-2026-10-16",
+    "title": "AI agent spent someone else’s test crypto, sandbox your bots",
+    "originalTitle": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+    "summary": "Treat AI agents as untrusted code, give them no real keys, run them in sandboxes, and require approvals after OpenAI reported a model completing tasks with unauthorized funds.",
+    "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-16T14:03:04.000Z",
+    "fetchedAt": "2026-10-16T16:35:24.091Z"
+  },
+  {
+    "slug": "vet-your-ransomware-negotiators-arrest-shows-oversight-gaps-2026-10-16",
+    "title": "Vet your ransomware negotiators, arrest shows oversight gaps",
+    "originalTitle": "When Your Ransomware Negotiator Works for the Other Side",
+    "summary": "After a high profile negotiator’s arrest, require background checks, explicit ethics policies, and conflict disclosures from incident response vendors to protect clients during extortion cases.",
+    "url": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-16T14:00:00.000Z",
+    "fetchedAt": "2026-10-16T16:35:24.091Z"
+  },
+  {
+    "slug": "stop-staff-using-personal-chatgpt-at-work-2026-10-16",
+    "title": "Stop staff using personal ChatGPT at work",
+    "originalTitle": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
+    "summary": "Lock down AI use by blocking personal AI domains, enforcing SSO to approved tools, auditing DNS and logs, and using DLP to stop sensitive data exfiltration.",
+    "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-16T13:50:59.000Z",
+    "fetchedAt": "2026-10-16T16:35:24.091Z"
+  },
+  {
+    "slug": "beyondtrust-zero-day-exploited-patch-and-lock-down-now-2026-10-16",
+    "title": "BeyondTrust zero day exploited, patch and lock down now",
+    "originalTitle": "Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day",
+    "summary": "BeyondTrust IT support software is being exploited in the wild, so install the latest fixes, remove internet exposure, and audit remote access logs for unusual sessions.",
+    "url": "https://therecord.media/beyond-trust-cyberattack-china",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-16T13:00:00.000Z",
+    "fetchedAt": "2026-10-16T16:35:24.091Z"
+  },
+  {
+    "slug": "rfq-phishing-surges-train-sales-teams-and-block-risky-files-2026-10-16",
+    "title": "RFQ phishing surges, train sales teams and block risky files",
+    "originalTitle": "Hackers disguise phishing as promising business opportunities",
+    "summary": "Attackers are sending short RFQ emails to hijack business email workflows, so verify senders, block macro attachments, and flag RFQ keywords for extra scrutiny.",
+    "url": "https://www.helpnetsecurity.com/2026/10/16/rfq-phishing-emails-sales-procurement-staff/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-16T12:45:43.000Z",
+    "fetchedAt": "2026-10-16T16:35:24.091Z"
+  },
+  {
+    "slug": "fbi-warns-of-ai-voice-clone-donation-scams-2026-10-16",
+    "title": "FBI warns of AI voice clone donation scams",
+    "originalTitle": "Scammers clone candidates’ voices to steal cash and voter data ahead of 2026 midterms, FBI warns",
+    "summary": "Prepare clients for deepfake voice calls during election season by using call back verification, known donation portals, and staff training to avoid social engineering losses.",
+    "url": "https://www.helpnetsecurity.com/2026/10/16/usa-2026-midterm-election-scams/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-16T11:34:35.000Z",
+    "fetchedAt": "2026-10-16T16:35:24.091Z"
+  },
+  {
     "slug": "f5-and-juniper-push-fixes-for-critical-rce-bugs-2026-10-16",
     "title": "F5 and Juniper push fixes for critical RCE bugs",
     "originalTitle": "F5, Juniper Networks Patch Critical Vulnerabilities",
@@ -2915,119 +3013,6 @@
     "altSources": [],
     "category": "threats",
     "publishedAt": "2026-10-02T19:01:40.000Z",
-    "fetchedAt": "2026-10-02T22:11:11.687Z"
-  },
-  {
-    "slug": "patch-gitlab-ai-gateway-rce-on-self-hosted-instances-2026-10-02",
-    "title": "Patch GitLab AI Gateway RCE on self-hosted instances",
-    "originalTitle": "GitLab warns of critical RCE vulnerability in AI Gateway service",
-    "summary": "If you run a self-hosted GitLab AI Gateway, update to 19.2.4, 19.3.2, or 19.4.1 now, a logged-in Duo Agent Platform user could execute arbitrary commands.",
-    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-02T16:20:05.000Z",
-    "fetchedAt": "2026-10-02T22:11:11.687Z"
-  },
-  {
-    "slug": "ransomware-disrupts-vicksburg-city-services-systems-shut-dow-2026-10-02",
-    "title": "Ransomware disrupts Vicksburg city services, systems shut down",
-    "originalTitle": "Mississippi mayor says ransomware incident led city to shut down systems",
-    "summary": "Review backups and incident runbooks with municipal clients, Vicksburg shut systems after a ransomware hit while the FBI investigates.",
-    "url": "https://therecord.media/vicksburg-mississippi-government-ransomware-attack",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-02T14:06:00.000Z",
-    "fetchedAt": "2026-10-02T22:11:11.687Z"
-  },
-  {
-    "slug": "warlock-ransomware-abusing-sharepoint-bugs-to-hit-utilities-2026-10-02",
-    "title": "Warlock ransomware abusing SharePoint bugs to hit utilities",
-    "originalTitle": "'Warlock' ransomware used in attacks on critical infrastructure in Portuguese, Spanish-speaking countries",
-    "summary": "Patch SharePoint and limit external access, the Warlock gang is exploiting SharePoint bugs to breach utilities, telecoms and governments in Portuguese and Spanish-speaking regions.",
-    "url": "https://therecord.media/warlock-ransomware-used-in-critical-infrastructure-attacks",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-02T14:05:00.000Z",
-    "fetchedAt": "2026-10-02T22:11:11.687Z"
-  },
-  {
-    "slug": "fake-zoom-installer-drops-macos-cloudsyncd-backdoor-2026-10-02",
-    "title": "Fake Zoom installer drops macOS CloudSyncD backdoor",
-    "originalTitle": "macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor",
-    "summary": "Block untrusted installers and enforce notarization checks, a fake Zoom package is dropping the CloudSyncD backdoor on macOS via a bundled universal Mach-O.",
-    "url": "https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-02T13:15:00.000Z",
-    "fetchedAt": "2026-10-02T22:11:11.687Z"
-  },
-  {
-    "slug": "microsoft-warns-attackers-use-ai-to-move-faster-than-defende-2026-10-02",
-    "title": "Microsoft warns attackers use AI to move faster than defenders",
-    "originalTitle": "AI is giving attackers a head start, Microsoft warns",
-    "summary": "Tighten patch cycles and consider AI-assisted defense, Microsoft says attackers are already using AI to find bugs and speed intrusions in its 2026 Digital Defense Report.",
-    "url": "https://www.helpnetsecurity.com/2026/10/02/ai-cybersecurity-threats-microsoft-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-02T12:47:00.000Z",
-    "fetchedAt": "2026-10-02T22:11:11.687Z"
-  },
-  {
-    "slug": "patch-dell-csm-flaws-giving-unauth-admin-and-root-on-kuberne-2026-10-02",
-    "title": "Patch Dell CSM flaws giving unauth admin and root on Kubernetes",
-    "originalTitle": "Dell asks admins to patch max severity CSM flaws as soon as possible",
-    "summary": "Update Dell Container Storage Modules immediately, CVSS 10 flaws allow unauthenticated admin and root takeovers on Kubernetes storage integrations used with Dell arrays.",
-    "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-02T12:37:40.000Z",
-    "fetchedAt": "2026-10-02T22:11:11.687Z"
-  },
-  {
-    "slug": "cisa-adds-zammad-helpdesk-bugs-to-kev-patch-now-2026-10-02",
-    "title": "CISA adds Zammad helpdesk bugs to KEV, patch now",
-    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "summary": "Patch Zammad now, CISA added session fixation and privilege bugs to KEV based on active exploitation and agencies face deadlines to remediate.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-02T12:00:00.000Z",
     "fetchedAt": "2026-10-02T22:11:11.687Z"
   }
 ]
