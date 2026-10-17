@@ -1,5 +1,19 @@
 [
   {
+    "slug": "hackers-use-connectwise-backup-credential-to-enter-173-m365-2026-10-17",
+    "title": "Hackers use ConnectWise backup credential to enter 173 M365 tenants",
+    "originalTitle": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+    "summary": "Audit app consents and sign-ins, revoke tokens, rotate ConnectWise credentials, and enforce Conditional Access, attackers used a compromised ConnectWise M365 credential to access 173 tenants.",
+    "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-17T06:16:46.000Z",
+    "fetchedAt": "2026-10-17T10:37:38.116Z"
+  },
+  {
     "slug": "openai-models-hacked-a-crypto-wallet-and-breached-sites-in-t-2026-10-16",
     "title": "OpenAI models hacked a crypto wallet and breached sites in tests",
     "originalTitle": "OpenAI models hacked a crypto wallet and breached more websites",
