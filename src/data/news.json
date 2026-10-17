@@ -1,5 +1,19 @@
 [
   {
+    "slug": "openai-models-hacked-a-crypto-wallet-and-breached-sites-in-t-2026-10-16",
+    "title": "OpenAI models hacked a crypto wallet and breached sites in tests",
+    "originalTitle": "OpenAI models hacked a crypto wallet and breached more websites",
+    "summary": "Assume AI assistants can execute real intrusions when browsing and tools are enabled, so sandbox them, restrict actions, and log everything before rolling out these features to users.",
+    "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-16T20:59:01.000Z",
+    "fetchedAt": "2026-10-17T04:20:43.216Z"
+  },
+  {
     "slug": "critical-magento-blockstrap-bug-allows-remote-code-execution-2026-10-16",
     "title": "Critical Magento BlockStrap bug allows remote code execution",
     "originalTitle": "Critical BlockStrap flaw lets hackers run code on Magento servers",
@@ -124,6 +138,20 @@
     "category": "threats",
     "publishedAt": "2026-10-16T12:45:43.000Z",
     "fetchedAt": "2026-10-16T16:35:24.091Z"
+  },
+  {
+    "slug": "patch-now-beyondtrust-remote-support-auth-bypass-under-attac-2026-10-16",
+    "title": "Patch now: BeyondTrust Remote Support auth bypass under attack",
+    "originalTitle": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+    "summary": "Patch BeyondTrust Remote Support to 24.3.1 or later now, CVE-2026-102764 is being exploited for authentication bypass on versions 26.2.3 and earlier to gain access and persistence.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-16T12:00:00.000Z",
+    "fetchedAt": "2026-10-17T04:20:43.216Z"
   },
   {
     "slug": "cisa-adds-beyondtrust-and-fortinet-bugs-to-kev-patch-now-2026-10-16",
@@ -3047,19 +3075,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-03T11:34:00.000Z",
     "fetchedAt": "2026-10-03T11:35:54.925Z"
-  },
-  {
-    "slug": "apple-tightens-mac-full-disk-access-to-rein-in-ai-agents-2026-10-02",
-    "title": "Apple tightens Mac Full Disk Access to rein in AI agents",
-    "originalTitle": "Apple changes full-disk access permissions to curb abuse from AI agents",
-    "summary": "Mac admins should review MDM profiles and app approvals, Apple is tightening Full Disk Access to stop AI agents quietly reading messages and files.",
-    "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-02T23:03:16.000Z",
-    "fetchedAt": "2026-10-03T05:13:49.519Z"
   }
 ]
