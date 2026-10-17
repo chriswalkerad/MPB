@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-17",
+    "date": "2026-10-17",
+    "title": "Supply chains on fire, patch and audit now",
+    "intro": "Attackers are walking through vendors, update channels, and plugins to land in your tenants. Triage backups and auth first, then knock out the urgent patches.",
+    "items": [
+      {
+        "heading": "ConnectWise Cloud Backup abused to hit M365",
+        "body": "ConnectWise pulled the plug on Cloud Backup after attackers leveraged application identities to pivot into customer Microsoft 365 tenants. If you use this integration, treat those app identities as burned: rotate every secret and certificate, and comb tenant audit logs for suspicious access.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "connectwise-cloud-backup-breach-hits-microsoft-365-tenants-2026-10-17"
+      },
+      {
+        "heading": "173 tenants accessed via ConnectWise credential",
+        "body": "Follow on reporting says a compromised ConnectWise Microsoft 365 credential was used to get into 173 tenants. Lock it down by auditing app consents and sign ins, revoking tokens, rotating any ConnectWise related credentials, and enforcing Conditional Access policies.",
+        "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "hackers-use-connectwise-backup-credential-to-enter-173-m365-2026-10-17"
+      },
+      {
+        "heading": "AOMEI Backupper update channel hijacked",
+        "body": "Attackers intermittently served a backdoored update by hijacking AOMEI Backupper update infrastructure between May and July. Inventory any systems with this product, isolate and investigate, and if you see indicators of compromise block egress or reimage as needed.",
+        "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "aomei-backupper-updates-briefly-served-a-backdoor-via-hijack-2026-10-16"
+      },
+      {
+        "heading": "Critical Drupal RCE, patch immediately",
+        "body": "Drupal shipped fixes for two critical bugs that enable remote code execution, with a warning that exploitation is likely soon. Update all supported core versions now and monitor for post patch probing.",
+        "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "drupal-fixes-critical-rce-patch-now-2026-10-17"
+      },
+      {
+        "heading": "Magento BlockStrap RCE, max severity",
+        "body": "A critical flaw in the BlockStrap component of Adobe Commerce and Magento allows arbitrary PHP execution on servers. If you run Magento stores with BlockStrap, patch without delay and limit admin and plugin access until updates land.",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "critical-magento-blockstrap-bug-allows-remote-code-execution-2026-10-16"
+      },
+      {
+        "heading": "Malicious npm imgdecode drops shellcode",
+        "body": "The imgdecode package on npm was part of a MALFEX campaign, hiding a Windows native addon that fetched and ran shellcode. If it shows up in your dependency tree, purge it from builds, lock down registries, and review Windows build agents for odd network or process activity.",
+        "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "malicious-npm-imgdecode-package-loads-shellcode-2026-10-17"
+      },
+      {
+        "heading": "Fake ChatGPT and Claude installers lure devs",
+        "body": "Malvertising and ClickFix style prompts are pushing fake installers for popular AI tools to developers and enterprise staff. Enforce allowlisted install sources, block ad delivered downloads, and train users to only pull installers from vendor sites.",
+        "url": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
+        "source": "Dark Reading",
+        "category": "ai-security",
+        "storySlug": "fake-chatgpt-and-claude-installers-are-snaring-developers-2026-10-16"
+      },
+      {
+        "heading": "AI assistants proved they can hack in tests",
+        "body": "In controlled tests, OpenAI models with browsing and tools were able to drain a crypto wallet and breach sites. If you plan to enable these features, assume they can perform real intrusion steps, sandbox execution, restrict actions, and log everything.",
+        "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+        "source": "Ars Technica",
+        "category": "ai-security",
+        "storySlug": "openai-models-hacked-a-crypto-wallet-and-breached-sites-in-t-2026-10-16"
+      }
+    ],
+    "signOff": "Backups, builds, and CMSes do not patch themselves. See you after tickets.",
+    "generatedAt": "2026-10-17T16:28:30.905Z"
+  },
+  {
     "slug": "2026-10-16",
     "date": "2026-10-16",
     "title": "Zero days, RCEs, and AI risks: lock it down",
@@ -2120,79 +2194,5 @@
     ],
     "signOff": "Patch what matters, then back to the queue.",
     "generatedAt": "2026-09-18T17:06:48.881Z"
-  },
-  {
-    "slug": "2026-09-17",
-    "date": "2026-09-17",
-    "title": "Patch DNS, plan Windows, and mind the AI phish",
-    "intro": "Critical patches, looming Windows deadlines, and scammers sharpening their lures. Five minutes here could save you hours later.",
-    "items": [
-      {
-        "heading": "Patch Unbound DNSSEC RCE now",
-        "body": "A critical heap overflow in Unbound’s DNSSEC validator allows remote code execution via a crafted zone. Update to 1.26.1 immediately, especially if your resolver underpins SMB services. Inventory where Unbound runs in your stack, patch fast, restrict resolver exposure, and watch logs for crashes or anomalies.",
-        "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "patch-now-critical-unbound-dnssec-rce-via-malicious-zone-2026-09-17"
-      },
-      {
-        "heading": "Windows 11 24H2 Home and Pro lose support next month",
-        "body": "Devices on Windows 11 24H2 Home or Pro stop getting security updates next month. Plan upgrades or feature updates now so endpoints stay protected. Audit versions, validate app and driver compatibility, and schedule maintenance windows before the cutoff.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
-        "source": "BleepingComputer",
-        "category": "industry",
-        "storySlug": "windows-11-24h2-home-and-pro-hit-end-of-support-in-october-2026-09-17"
-      },
-      {
-        "heading": "Fake ChatGPT billing lures stealing OpenAI creds",
-        "body": "A convincing invoice email funnels users through Google redirects to a cloned OpenAI login page, capturing ChatGPT credentials on work and personal accounts. Warn users and block the flagged domains. Push password managers and MFA, and reset any accounts that may have been phished.",
-        "url": "https://www.helpnetsecurity.com/2026/09/17/chatgpt-phishing-email-openai-password/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "fake-chatgpt-billing-emails-are-stealing-openai-passwords-2026-09-17"
-      },
-      {
-        "heading": "Schneider NetBotz 750/755 allow code execution",
-        "body": "Multiple flaws in NetBotz 5 appliances can lead to arbitrary or remote code execution over the local network on devices monitoring server rooms and closets. Patch promptly and keep these boxes on isolated management networks. Limit access and log administration actions.",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
-        "source": "CISA Advisories",
-        "category": "vulnerabilities",
-        "storySlug": "schneider-netbotz-750-755-flaws-allow-code-execution-on-loca-2026-09-17"
-      },
-      {
-        "heading": "PowerChute Serial Shutdown auth flaws",
-        "body": "Improper authentication validation in PowerChute Serial Shutdown could let attackers gain access to systems managing UPS graceful shutdown. Update or apply available mitigations now. Restrict network access to management interfaces and review who can trigger shutdowns.",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
-        "source": "CISA Advisories",
-        "category": "vulnerabilities",
-        "storySlug": "schneider-powerchute-serial-shutdown-flaws-risk-unauthorized-2026-09-17"
-      },
-      {
-        "heading": "CISA: deploy decoys to catch quiet intruders",
-        "body": "CISA says low cost honeypots and canaries help detect attackers using valid creds and built in tools that slide past EDR and SIEM. Add honey accounts, files, and services with alerts, especially in high value segments. Tune alerting so any touch on a decoy is triaged fast.",
-        "url": "https://www.helpnetsecurity.com/2026/09/17/cisa-guidance-for-implementing-cyber-decoys/",
-        "source": "Help Net Security",
-        "category": "defense",
-        "storySlug": "cisa-urges-orgs-to-deploy-cyber-decoys-for-faster-intruder-d-2026-09-17"
-      },
-      {
-        "heading": "AI polished fake AV renewals are landing",
-        "body": "Scammers are rolling out slick, AI written antivirus renewal pages and payment notices. Train users to verify renewals inside vendor portals, not via email links. Block lookalike domains and treat unsolicited payment requests as suspicious by default.",
-        "url": "https://www.helpnetsecurity.com/2026/09/17/ai-antivirus-renewal-scam-fake-pages/",
-        "source": "Help Net Security",
-        "category": "ai-security",
-        "storySlug": "ai-polished-fake-antivirus-renewals-are-fooling-users-2026-09-17"
-      },
-      {
-        "heading": "Spain logs breach by an autonomous AI agent",
-        "body": "A breach was attributed to an autonomous AI agent, highlighting new operational risks. Lock down agents with least privilege, human approvals for sensitive actions, and continuous monitoring. Track data access, record changes, and exfiltration attempts tied to agent activity.",
-        "url": "https://www.helpnetsecurity.com/2026/09/17/spain-ai-agent-data-breach/",
-        "source": "Help Net Security",
-        "category": "ai-security",
-        "storySlug": "spain-reports-first-breach-by-an-autonomous-ai-agent-2026-09-17"
-      }
-    ],
-    "signOff": "Back to the queue.",
-    "generatedAt": "2026-09-17T17:42:57.676Z"
   }
 ]
