@@ -1,5 +1,47 @@
 [
   {
+    "slug": "connectwise-cloud-backup-breach-hits-microsoft-365-tenants-2026-10-17",
+    "title": "ConnectWise Cloud Backup breach hits Microsoft 365 tenants",
+    "originalTitle": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+    "summary": "Rotate all app secrets and certificates and review M365 logs now, ConnectWise disabled Cloud Backup after attackers abused application identities to break into tenants.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-17T15:18:51.000Z",
+    "fetchedAt": "2026-10-17T15:29:50.908Z"
+  },
+  {
+    "slug": "drupal-fixes-critical-rce-patch-now-2026-10-17",
+    "title": "Drupal fixes critical RCE, patch now",
+    "originalTitle": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+    "summary": "Update all supported Drupal cores immediately, two critical flaws enable remote code execution and maintainers warn exploitation is likely soon.",
+    "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-17T14:32:48.000Z",
+    "fetchedAt": "2026-10-17T15:29:50.908Z"
+  },
+  {
+    "slug": "malicious-npm-imgdecode-package-loads-shellcode-2026-10-17",
+    "title": "Malicious npm 'imgdecode' package loads shellcode",
+    "originalTitle": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+    "summary": "Block and purge imgdecode from builds, a MALFEX campaign package on npm hides a Windows native addon that downloads and runs shellcode.",
+    "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-17T11:11:56.000Z",
+    "fetchedAt": "2026-10-17T15:29:50.908Z"
+  },
+  {
     "slug": "hackers-use-connectwise-backup-credential-to-enter-173-m365-2026-10-17",
     "title": "Hackers use ConnectWise backup credential to enter 173 M365 tenants",
     "originalTitle": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
@@ -3047,47 +3089,5 @@
     "category": "threats",
     "publishedAt": "2026-10-03T19:09:38.000Z",
     "fetchedAt": "2026-10-03T21:11:42.045Z"
-  },
-  {
-    "slug": "yara-x-1-21-0-brings-fixes-and-speed-boosts-for-hunters-2026-10-03",
-    "title": "YARA-X 1.21.0 brings fixes and speed boosts for hunters",
-    "originalTitle": "YARA-X 1.21.0 Release, (Sat, Oct 3rd)",
-    "summary": "Upgrade to YARA-X 1.21.0 to pick up five improvements and four bug fixes that stabilize and speed rule scanning in your DFIR and detection workflows.",
-    "url": "https://isc.sans.edu/diary/rss/33392",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-03T14:40:21.000Z",
-    "fetchedAt": "2026-10-03T16:14:48.194Z"
-  },
-  {
-    "slug": "patch-sharepoint-exploits-killing-edr-and-dropping-ransomwar-2026-10-03",
-    "title": "Patch SharePoint, exploits killing EDR and dropping ransomware",
-    "originalTitle": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
-    "summary": "Patch SharePoint to current cumulative updates, restrict internet exposure, and hunt for webshells, Warlock is abusing SharePoint flaws to disable security tools and deploy ransomware.",
-    "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-03T14:36:33.000Z",
-    "fetchedAt": "2026-10-03T16:14:48.194Z"
-  },
-  {
-    "slug": "patch-fortra-boks-critical-auth-bypass-and-command-execution-2026-10-03",
-    "title": "Patch Fortra BoKS: critical auth bypass and command execution",
-    "originalTitle": "Fortra Patches Critical Vulnerabilities in BoKS",
-    "summary": "Patch Fortra BoKS now, critical flaws enable authentication bypass, remote command execution, and memory corruption on managed Unix hosts, risking full compromise of privileged access controls.",
-    "url": "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-03T11:34:00.000Z",
-    "fetchedAt": "2026-10-03T11:35:54.925Z"
   }
 ]
