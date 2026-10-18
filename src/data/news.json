@@ -3061,33 +3061,5 @@
     "category": "threats",
     "publishedAt": "2026-10-04T07:20:32.000Z",
     "fetchedAt": "2026-10-04T12:17:41.633Z"
-  },
-  {
-    "slug": "google-gemini-may-gain-full-access-to-mac-files-and-apps-2026-10-03",
-    "title": "Google Gemini may gain full access to Mac files and apps",
-    "originalTitle": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
-    "summary": "Prepare controls now, Gemini can access Mac files, open apps and browse the web without prompts, so enforce least privilege via MDM, restrict Accessibility, and pilot before enabling.",
-    "url": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-03T23:12:34.000Z",
-    "fetchedAt": "2026-10-04T05:47:56.953Z"
-  },
-  {
-    "slug": "shinyhunters-member-detained-in-jordan-aiding-fbi-2026-10-03",
-    "title": "ShinyHunters member detained in Jordan, aiding FBI",
-    "originalTitle": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
-    "summary": "Review past ShinyHunters exposure and tighten leak monitoring and MFA, a suspected member detained in Jordan is helping the FBI pursue the group.",
-    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-03T19:09:38.000Z",
-    "fetchedAt": "2026-10-03T21:11:42.045Z"
   }
 ]
