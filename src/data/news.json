@@ -1,5 +1,47 @@
 [
   {
+    "slug": "attackers-exploit-siteguard-waf-flaw-for-root-access-2026-10-18",
+    "title": "Attackers exploit SiteGuard WAF flaw for root access",
+    "originalTitle": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
+    "summary": "If you run SiteGuard Server Edition, apply the vendor's mitigation immediately, restrict access to admin endpoints, and hunt for signs of command execution as SYSTEM or root.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-18T14:23:16.000Z",
+    "fetchedAt": "2026-10-18T15:49:28.513Z"
+  },
+  {
+    "slug": "yara-rule-to-catch-vba-macros-hidden-in-dwg-files-2026-10-18",
+    "title": "YARA rule to catch VBA macros hidden in DWG files",
+    "originalTitle": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
+    "summary": "If you receive AutoCAD DWG files, add this YARA to your pipeline to catch orphaned VBA projects that attackers hide inside drawings to deliver malware.",
+    "url": "https://isc.sans.edu/diary/rss/33434",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-18T12:59:30.000Z",
+    "fetchedAt": "2026-10-18T15:49:28.513Z"
+  },
+  {
+    "slug": "cybersecurity-jobs-down-26-percent-ai-security-demand-up-2026-10-18",
+    "title": "Cybersecurity jobs down 26 percent, AI security demand up",
+    "originalTitle": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
+    "summary": "Expect tighter hiring and more client questions on AI security, reskill staff toward AI risk, model security, and prompt safety to keep your services relevant.",
+    "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-10-18T11:00:00.000Z",
+    "fetchedAt": "2026-10-18T15:49:28.513Z"
+  },
+  {
     "slug": "connectwise-halts-cloud-backup-after-m365-app-ids-abused-2026-10-18",
     "title": "ConnectWise halts Cloud Backup after M365 app IDs abused",
     "originalTitle": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
@@ -3019,19 +3061,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-04T21:58:01.000Z",
     "fetchedAt": "2026-10-05T05:33:48.052Z"
-  },
-  {
-    "slug": "actively-exploited-citrix-netscaler-flaw-added-to-cisa-kev-2026-10-04",
-    "title": "Actively exploited Citrix NetScaler flaw added to CISA KEV",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Running Citrix NetScaler, patch CVE-2026-88779 immediately, CISA added it to KEV due to active exploitation, prioritize updating gateways and monitoring for signs of compromise.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-04T12:00:00.000Z",
-    "fetchedAt": "2026-10-04T21:20:27.125Z"
   }
 ]
