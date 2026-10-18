@@ -1,5 +1,71 @@
 [
   {
+    "slug": "2026-10-18",
+    "date": "2026-10-18",
+    "title": "ConnectWise fallout, urgent patches, sneaky payloads",
+    "intro": "Busy morning: ConnectWise halted Cloud Backup after attackers abused its Microsoft 365 app IDs, and there are fresh critical fixes plus a nasty npm package. Here is what to triage first.",
+    "items": [
+      {
+        "heading": "ConnectWise M365 access used against 173 tenants",
+        "body": "Attackers used a compromised ConnectWise Microsoft 365 credential to enter 173 tenants. If you manage affected orgs, audit app consents and sign ins, revoke tokens, rotate ConnectWise credentials, and enforce Conditional Access to limit fallout.",
+        "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "hackers-use-connectwise-backup-credential-to-enter-173-m365-2026-10-17"
+      },
+      {
+        "heading": "ConnectWise halts Cloud Backup amid app ID abuse",
+        "body": "Threat actors abused ConnectWise application identities to access customers, so the company stopped Cloud Backup. MSPs should revoke any ConnectWise M365 app consents, rotate secrets, and audit tenant activity now, and plan for Cloud Backup disruption while you clean up.",
+        "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "connectwise-halts-cloud-backup-after-m365-app-ids-abused-2026-10-18"
+      },
+      {
+        "heading": "SiteGuard WAF flaw enables root",
+        "body": "Attackers are exploiting a SiteGuard Server Edition weakness to gain SYSTEM or root. Apply the vendor mitigation immediately, restrict access to admin endpoints, and hunt for any suspicious command execution as high privilege.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "attackers-exploit-siteguard-waf-flaw-for-root-access-2026-10-18"
+      },
+      {
+        "heading": "Drupal ships critical RCE fixes",
+        "body": "Two critical flaws allow remote code execution and maintainers say exploitation is likely soon. Update all supported Drupal cores immediately and schedule emergency maintenance to get this done today.",
+        "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "drupal-fixes-critical-rce-patch-now-2026-10-17"
+      },
+      {
+        "heading": "Malicious npm package 'imgdecode' drops shellcode",
+        "body": "A MALFEX campaign snuck an npm package that uses a Windows native addon to download and run shellcode. Block and purge imgdecode from builds, search repos and lockfiles for any reference, and rotate any secrets that may have been exposed on build agents.",
+        "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "malicious-npm-imgdecode-package-loads-shellcode-2026-10-17"
+      },
+      {
+        "heading": "YARA to spot VBA macros hidden in DWG",
+        "body": "Attackers tuck orphaned VBA projects inside AutoCAD drawings to deliver malware. If you handle DWG files, drop this YARA rule into your scanning pipeline and quarantine hits for manual review.",
+        "url": "https://isc.sans.edu/diary/rss/33434",
+        "source": "SANS ISC",
+        "category": "defense",
+        "storySlug": "yara-rule-to-catch-vba-macros-hidden-in-dwg-files-2026-10-18"
+      },
+      {
+        "heading": "Cyber hiring dips, AI security demand spikes",
+        "body": "Expect tighter hiring and more client questions on AI security. Reskill teams toward AI risk, model security, and prompt safety to keep your offerings relevant.",
+        "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
+        "source": "SecurityWeek",
+        "category": "industry",
+        "storySlug": "cybersecurity-jobs-down-26-percent-ai-security-demand-up-2026-10-18"
+      }
+    ],
+    "signOff": "Patch fast, review logs faster, and may your backups restore on the first try.",
+    "generatedAt": "2026-10-18T16:34:52.698Z"
+  },
+  {
     "slug": "2026-10-17",
     "date": "2026-10-17",
     "title": "Supply chains on fire, patch and audit now",
@@ -2120,79 +2186,5 @@
     ],
     "signOff": "Patch what is burning, then go tame your AI and developer tooling.",
     "generatedAt": "2026-09-19T16:32:28.918Z"
-  },
-  {
-    "slug": "2026-09-18",
-    "date": "2026-09-18",
-    "title": "Patch now: Linux exploits, Azure AI flaw, repo traps",
-    "intro": "Patching tops the agenda: active Linux kernel exploits, a CVSS 10 fix in Azure AI, and supply chain shenanigans from GitHub to old CDNs. Microsoft tossed in a couple of quality-of-life updates for Teams and Defender to keep the noise down.",
-    "items": [
-      {
-        "heading": "Linux kernel flaws land on KEV, actively exploited",
-        "body": "CISA added two Linux kernel bugs to the Known Exploited Vulnerabilities list and says attackers are already using them. Prioritize kernel updates across servers and appliances or apply your vendor’s mitigations if downtime is tight. Track remediation for regulated customers and document any exceptions.",
-        "url": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-        "source": "CISA Advisories",
-        "category": "vulnerabilities",
-        "storySlug": "cisa-adds-two-actively-exploited-linux-kernel-flaws-to-kev-2026-09-18"
-      },
-      {
-        "heading": "Azure AI Foundry CVSS 10 privilege escalation patched",
-        "body": "Microsoft fixed a critical issue in Azure AI Foundry that allowed unauthenticated privilege escalation. If you run this service, review access logs and service principals, confirm your environment has the fix, and consider rotating keys or tokens. Tighten role assignments and remove stale identities while you are in there.",
-        "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "microsoft-patches-critical-azure-ai-foundry-privilege-escala-2026-09-18"
-      },
-      {
-        "heading": "Gyazo breach hits 23.6 million user records",
-        "body": "Attackers exploited a flaw in an image upload server and made off with 23.6 million user records. If your users touch Gyazo, force changes for any reused passwords, push MFA, and warn them to expect targeted phishing. Watch for vendor notifications and consider temporarily limiting access until remediation details are clear.",
-        "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "gyazo-breach-23-6-million-user-records-stolen-via-server-fla-2026-09-18"
-      },
-      {
-        "heading": "Fake GitHub repos push Rapuncel as popular tools",
-        "body": "Threat actors are spinning up convincing GitHub mirrors and using SEO to distribute the Rapuncel infostealer as if it were trusted software. Lock down developer workflows: only allow verified maintainers and signed releases, and block arbitrary repo downloads through your controls. Remind teams to validate owners and signatures before they install anything.",
-        "url": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "fake-github-repos-push-rapuncel-infostealer-as-popular-tools-2026-09-18"
-      },
-      {
-        "heading": "Re-registered CDN domain still serving to thousands",
-        "body": "Researchers re-registered a dead CDN domain and found thousands of sites still pulling assets from it. Audit your code and Content Security Policy for orphaned third-party links, turn on Subresource Integrity, and remove or self-host legacy assets. Add monitoring to catch unexpected outbound calls to old domains.",
-        "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-        "source": "The Hacker News",
-        "category": "defense",
-        "storySlug": "abandoned-cdn-domain-re-registered-thousands-still-call-it-2026-09-18"
-      },
-      {
-        "heading": "Plugin pinning bypass in AI coding agents",
-        "body": "A bug nicknamed Plugin4Shell let repo owners swap plugin code even with version pinning in AI coding agents. Updates are available for Claude Code and OpenAI tools, but Copilot is not yet covered, so pin by commit hash and review plugin sources. Limit plugin permissions and avoid untrusted repos until your agent is patched.",
-        "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "plugin4shell-lets-ai-coding-agents-install-swapped-plugins-d-2026-09-18"
-      },
-      {
-        "heading": "Teams to let you block risky file types",
-        "body": "Microsoft Teams is adding admin controls to customize which file extensions are blocked in chats and channels to cut off common malware deliveries. Prepare a policy update and align the list with your broader M365 file controls. Communicate the change so users are not surprised when certain files refuse to send.",
-        "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
-        "source": "BleepingComputer",
-        "category": "defense",
-        "storySlug": "teams-adds-admin-control-to-block-risky-file-extensions-2026-09-18"
-      },
-      {
-        "heading": "Defender false \"turned off\" alerts resolved",
-        "body": "Recent updates triggered bogus notifications that Microsoft Defender was disabled. Microsoft says the issue is fixed, so get systems fully updated and stop chasing phantom tickets. Brief your help desk and users that the alert noise should taper off.",
-        "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
-        "source": "BleepingComputer",
-        "category": "defense",
-        "storySlug": "microsoft-fixes-false-defender-antivirus-is-turned-off-alert-2026-09-18"
-      }
-    ],
-    "signOff": "Patch what matters, then back to the queue.",
-    "generatedAt": "2026-09-18T17:06:48.881Z"
   }
 ]
