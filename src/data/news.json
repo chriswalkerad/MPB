@@ -1,5 +1,19 @@
 [
   {
+    "slug": "connectwise-halts-cloud-backup-after-m365-app-ids-abused-2026-10-18",
+    "title": "ConnectWise halts Cloud Backup after M365 app IDs abused",
+    "originalTitle": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+    "summary": "MSPs using ConnectWise Cloud Backup should revoke any ConnectWise M365 app consents, rotate secrets, and audit tenant activity, as attackers abused ConnectWise application identities to access customers.",
+    "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-18T08:23:02.000Z",
+    "fetchedAt": "2026-10-18T10:59:07.156Z"
+  },
+  {
     "slug": "connectwise-cloud-backup-breach-hits-microsoft-365-tenants-2026-10-17",
     "title": "ConnectWise Cloud Backup breach hits Microsoft 365 tenants",
     "originalTitle": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
@@ -3019,47 +3033,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-04T12:00:00.000Z",
     "fetchedAt": "2026-10-04T21:20:27.125Z"
-  },
-  {
-    "slug": "claude-voice-data-opt-in-prompts-lock-down-settings-2026-10-04",
-    "title": "Claude voice data opt-in prompts, lock down settings",
-    "originalTitle": "Anthropic asks Claude users to share voice data for AI model training",
-    "summary": "Review Claude voice settings and enterprise controls today, decide whether to opt in to voice recordings and model training, and update privacy notices for users who enable it.",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-04T10:53:21.000Z",
-    "fetchedAt": "2026-10-04T12:17:41.633Z"
-  },
-  {
-    "slug": "netscaler-rce-0-day-exploited-in-the-wild-patch-now-2026-10-04",
-    "title": "NetScaler RCE 0-day exploited in the wild, patch now",
-    "originalTitle": "Week in review: Researcher breaks into Microsoft analytics service, NetScaler RCE 0-day exploited",
-    "summary": "Patch all Citrix NetScaler ADC and Gateway appliances immediately, restrict management interfaces from the internet, and check logs for exploitation indicators of the active RCE.",
-    "url": "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-04T08:00:19.000Z",
-    "fetchedAt": "2026-10-04T12:17:41.633Z"
-  },
-  {
-    "slug": "aitm-phishing-targeting-ai-experts-mfa-bypass-warning-2026-10-04",
-    "title": "AitM phishing targeting AI experts, MFA bypass warning",
-    "originalTitle": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
-    "summary": "Expect adversary in the middle phishing that steals session tokens to bypass MFA, enforce phishing resistant MFA and conditional access, and disable legacy authentication in Microsoft 365.",
-    "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-04T07:20:32.000Z",
-    "fetchedAt": "2026-10-04T12:17:41.633Z"
   }
 ]
