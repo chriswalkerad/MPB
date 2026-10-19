@@ -22300,5 +22300,42 @@
     "url": "https://www.secureworld.io/events",
     "source": "SecureWorld",
     "description": "SecureWorld’s AI governance day covers policy, risk, and enablement so you can ship features without shipping breaches. Good mix for security, legal, and product teams."
+  },
+  {
+    "name": "We're Gonna Need a Bigger Lab: AI-Assisted CVE Hunting from Repo to Real World",
+    "slug": "we-re-gonna-need-a-bigger-lab-ai-assisted-cve-hunting-from-r-2026",
+    "date": "2026-11-19T18:00:00",
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Atlanta",
+    "state": "GA",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "AI & Machine Learning",
+      "AppSec & DevSecOps"
+    ],
+    "url": "https://www.meetup.com/owasp-atlanta/events/316997081/",
+    "source": "OWASP Atlanta (Meetup)",
+    "description": "OWASP Atlanta hosts a practical look at using AI to hunt real CVEs, from open source repos to production impact. If you work in AppSec or vuln research, expect actionable tactics not just theory."
+  },
+  {
+    "name": "Atlanta Cybersecurity Holiday Party",
+    "slug": "atlanta-cybersecurity-holiday-party-2026",
+    "date": "2026-12-08T18:00:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Atlanta",
+    "state": "GA",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career",
+      "After Party"
+    ],
+    "url": "https://www.meetup.com/owasp-atlanta/events/317024209/",
+    "source": "OWASP Atlanta (Meetup)",
+    "description": "Close out the year with the Atlanta security community, swap war stories, and level up your network over games and good vibes. Low on slides, high on connections."
   }
 ]
