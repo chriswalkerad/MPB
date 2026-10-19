@@ -1,5 +1,19 @@
 [
   {
+    "slug": "ransomware-gangs-target-employees-families-for-extortion-2026-10-19",
+    "title": "Ransomware gangs target employees’ families for extortion",
+    "originalTitle": "Ransomware pressure now reaches employees’ homes and families",
+    "summary": "Prepare for extortion that spills into personal harassment, attackers are contacting employees’ relatives at 37 percent of victim orgs per Semperis, so update response playbooks and support staff.",
+    "url": "https://www.helpnetsecurity.com/2026/10/19/semperis-ransomware-employee-safety-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-19T04:00:22.000Z",
+    "fetchedAt": "2026-10-19T04:35:08.324Z"
+  },
+  {
     "slug": "attackers-exploit-siteguard-waf-flaw-for-root-access-2026-10-18",
     "title": "Attackers exploit SiteGuard WAF flaw for root access",
     "originalTitle": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
@@ -3013,53 +3027,6 @@
     "altSources": [],
     "category": "defense",
     "publishedAt": "2026-10-05T05:00:57.000Z",
-    "fetchedAt": "2026-10-05T05:33:48.052Z"
-  },
-  {
-    "slug": "attackers-are-hiding-in-plain-sight-by-abusing-rmm-tools-2026-10-05",
-    "title": "Attackers are hiding in plain sight by abusing RMM tools",
-    "originalTitle": "How RMM abuse gives attackers a way in that looks like business as usual",
-    "summary": "Lock down RMM agents and access, enforce MFA, restrict interactive use, and monitor remote sessions, as Huntress saw RMM abuse in 45 percent of endpoint incidents.",
-    "url": "https://www.helpnetsecurity.com/2026/10/05/remote-monitoring-and-management-rmm-abuse/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-05T04:30:08.000Z",
-    "fetchedAt": "2026-10-05T05:33:48.052Z"
-  },
-  {
-    "slug": "capture-tty-and-shell-logs-they-show-what-attackers-do-next-2026-10-05",
-    "title": "Capture TTY and shell logs, they show what attackers do next",
-    "originalTitle": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
-    "summary": "Enable Linux TTY and audit logging, forward them to your SIEM, and use the command trails to detect post-login abuse and speed investigations.",
-    "url": "https://isc.sans.edu/diary/rss/33396",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-05T00:15:00.000Z",
-    "fetchedAt": "2026-10-05T05:33:48.052Z"
-  },
-  {
-    "slug": "citrix-netscaler-zero-day-exploited-patch-now-2026-10-04",
-    "title": "Citrix NetScaler zero-day exploited, patch now",
-    "originalTitle": "Citrix patches NetScaler SAML zero-day exploited in attacks",
-    "summary": "If you run NetScaler ADC or Gateway, install the updates for CVE-2026-88779 immediately, check for crash or traffic spikes, and review logs for exploitation attempts.",
-    "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-04T21:58:01.000Z",
     "fetchedAt": "2026-10-05T05:33:48.052Z"
   }
 ]
