@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-19",
+    "date": "2026-10-19",
+    "title": "Exploits in the Wild, Patch Pains, and Leaky AI Keys",
+    "intro": "Busy morning: active exploits against Plex and Fortinet, Exchange patch headaches, and fresh moves in AI security. Triage first, patch smart, and keep an eye on your keys.",
+    "items": [
+      {
+        "heading": "Plex2Shell exploited within hours",
+        "body": "Attackers are chaining the new Plex2Shell to drop miners and proxyware on exposed Plex Media Server. If you run Plex, update immediately and pull it off the internet where possible. Hunt for unwanted processes and lock external access behind a VPN or reverse proxy with authentication.",
+        "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "new-plex2shell-exploits-hit-plex-servers-within-hours-2026-10-19"
+      },
+      {
+        "heading": "FortiOS flaw used to plant FortiGate implant",
+        "body": "A Fortinet vulnerability is being used to deploy a stealthy device implant on internet exposed FortiGate. Patch FortiOS now and assume persistence if the device was exposed. Review logs and configs, rotate credentials, and plan for a rebuild if you find signs of tampering.",
+        "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "fortinet-bug-exploited-to-plant-stealthy-fortigate-implant-2026-10-19"
+      },
+      {
+        "heading": "October Windows Server update breaks Exchange",
+        "body": "Some on prem Exchange servers are seeing OWA login failures and mail flow issues after this month's Windows Server patches. Follow Microsoft guidance before rollout and stage in test first. If already impacted, use the documented mitigations or rollback guidance and monitor queues.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+        "source": "BleepingComputer",
+        "category": "industry",
+        "storySlug": "october-windows-server-patches-break-exchange-logins-and-mai-2026-10-19"
+      },
+      {
+        "heading": "Broadcom Wi-Fi flaw gives nearby root",
+        "body": "A setup flaw in Broadcom based routers lets anyone within radio range execute code as root. Until vendors ship firmware, disable Wi-Fi onboarding features and lock down admin access. Treat management interfaces as wired only and segment guest networks.",
+        "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "broadcom-wi-fi-flaw-lets-nearby-attackers-root-many-routers-2026-10-19"
+      },
+      {
+        "heading": "OpenCode breach may have exposed AI provider keys",
+        "body": "OpenCode Console users who stored OpenAI, Anthropic, or Google AI keys should assume those tokens were exposed. Rotate keys, audit usage for abuse, and eliminate long lived tokens. Update secrets handling to use scoped, short lived credentials and remove any hardcoded keys.",
+        "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "opencode-breach-may-have-exposed-your-openai-or-anthropic-ke-2026-10-19"
+      },
+      {
+        "heading": "Malicious npm packages drop stealers, hijack AI agent traffic",
+        "body": "A fake Web3 accelerator lured developers into installing npm packages that deployed info stealers and backdoors on macOS and Windows, and meddled with AI agent traffic. Audit your npm dependencies and developer workstations now. Lock down registries, pin versions, and monitor for abnormal dev tool network activity.",
+        "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "malicious-npm-packages-spread-stealers-hijack-ai-agent-traff-2026-10-19"
+      },
+      {
+        "heading": "Ransomware crews harass employees’ families",
+        "body": "Per Semperis, attackers are contacting relatives at 37 percent of victim organizations to increase extortion pressure. Update incident response playbooks to cover personal harassment and coordinate HR and legal. Provide staff guidance and a point of contact for threats, and control data exposure that enables doxing.",
+        "url": "https://www.helpnetsecurity.com/2026/10/19/semperis-ransomware-employee-safety-report/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "ransomware-gangs-target-employees-families-for-extortion-2026-10-19"
+      },
+      {
+        "heading": "ATT&CK v20 adds AI abuse and new detections",
+        "body": "MITRE released ATT&CK v20 with 15 new detection strategies across Enterprise and ICS, including AI abuse and MFA bypass techniques backed by fresh analytics. Update your control mappings and detection content to align. Brief your analysts and tune coverage in SIEM and EDR.",
+        "url": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
+        "source": "SecurityWeek",
+        "category": "defense",
+        "storySlug": "mitre-att-ck-v20-adds-ai-abuse-and-new-detection-content-2026-10-19"
+      }
+    ],
+    "signOff": "Back to the queue, keep printers calm and firewalls calmer.",
+    "generatedAt": "2026-10-19T19:21:44.378Z"
+  },
+  {
     "slug": "2026-10-18",
     "date": "2026-10-18",
     "title": "ConnectWise fallout, urgent patches, sneaky payloads",
@@ -2112,79 +2186,5 @@
     ],
     "signOff": "Patch first, coffee second.",
     "generatedAt": "2026-09-20T16:51:03.381Z"
-  },
-  {
-    "slug": "2026-09-19",
-    "date": "2026-09-19",
-    "title": "Patch the RCEs, mind the AI helpers",
-    "intro": "Two pre-auth RCEs to fix, a North Korean malware spree, and AI assistants doing dumb things. Grab the patch notes and tighten your guardrails.",
-    "items": [
-      {
-        "heading": "SolarWinds ARM: unauth RCE, patch now",
-        "body": "CVE-2026-28326 allows unauthenticated remote code execution in SolarWinds Access Rights Manager via a hard coded key, and it affects all versions 2026.2 and earlier. Patch immediately, pull public exposure if any, and monitor for suspicious ARM activity and new admins.",
-        "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "solarwinds-arm-flaw-allows-unauthenticated-rce-patch-now-2026-09-19"
-      },
-      {
-        "heading": "Orkes Conductor RCE is being exploited",
-        "body": "A pre auth RCE, CVE-2026-58138, is actively exploited in the wild. Update to 3.30.2 or later now, restrict internet exposure, review logs for odd workflow runs, and rotate credentials used by Conductor.",
-        "url": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "orkes-conductor-pre-auth-rce-is-exploited-patch-now-2026-09-19"
-      },
-      {
-        "heading": "WaterPlum hit 30,000 devices",
-        "body": "North Korea’s WaterPlum operators compromised at least 30,000 devices since Dec 2025 and funneled $10.7 million in stolen cryptocurrency. Pull the joint advisory indicators, scan endpoints, quarantine anything matching, and harden remote access and internet exposed servers.",
-        "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "waterplum-malware-infected-30-000-devices-check-for-iocs-2026-09-19"
-      },
-      {
-        "heading": "Linux kernel vulns land in CISA KEV",
-        "body": "CISA added three exploited Linux kernel flaws, including CVE-2025-39682, to its KEV catalog due to active exploitation. Prioritize kernel updates across servers and appliances, track vendor advisories for patched images, and apply mitigations if you cannot reboot today.",
-        "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "cisa-adds-three-exploited-linux-kernel-bugs-to-kev-2026-09-19"
-      },
-      {
-        "heading": "Malicious extension hijacks AI browser agents",
-        "body": "A proof of concept shows one malicious Chrome extension can hijack Claude, Perplexity, and other AI browser agents via prompt forcing. Lock down extension installs, disable agent auto actions, and monitor AI assistant activity for odd behavior or unexpected data access.",
-        "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "malicious-extension-can-hijack-ai-browser-agents-across-chro-2026-09-19"
-      },
-      {
-        "heading": "Claude helped chain exploits into OpenAI",
-        "body": "Researchers say Claude Opus 5 helped chain two flaws to seize OpenAI staff ChatGPT and Codex accounts, then reach an internal code repo. Audit SSO trust and support forum integrations, trim over privileged OAuth scopes, and add strong MFA and session alerts for staff accounts.",
-        "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "researchers-used-claude-to-chain-exploits-into-openai-employ-2026-09-19"
-      },
-      {
-        "heading": "Gemini test crossed into real systems",
-        "body": "WSJ says a Gemini evaluation accessed real company systems after a test domain mix up, highlighting the risks of poorly scoped model tooling. Keep AI tools in isolated tenants, clamp down egress and identity permissions, and treat evaluations like production until proven otherwise.",
-        "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "gemini-test-breached-real-systems-after-domain-mix-up-2026-09-19"
-      },
-      {
-        "heading": "TanStack npm fallout hits CrowdSec",
-        "body": "CrowdSec says an attacker used an ex employee GitHub account compromised via the TanStack npm incident to copy about 170 private repositories. Review offboarding, rotate developer creds and tokens, check npm dependency chains for tampering, and watch for repo clones or unusual access.",
-        "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "tanstack-npm-attack-led-to-theft-of-170-crowdsec-private-rep-2026-09-19"
-      }
-    ],
-    "signOff": "Patch what is burning, then go tame your AI and developer tooling.",
-    "generatedAt": "2026-09-19T16:32:28.918Z"
   }
 ]
