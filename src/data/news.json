@@ -1,5 +1,103 @@
 [
   {
+    "slug": "new-plex2shell-exploits-hit-plex-servers-within-hours-2026-10-19",
+    "title": "New Plex2Shell exploits hit Plex servers within hours",
+    "originalTitle": "Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure",
+    "summary": "Update Plex Media Server and pull it off the internet if you can, attackers are abusing the new Plex2Shell chain to drop miners and proxyware right after disclosure.",
+    "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-19T12:44:39.000Z",
+    "fetchedAt": "2026-10-19T13:05:35.805Z"
+  },
+  {
+    "slug": "fortinet-bug-exploited-to-plant-stealthy-fortigate-implant-2026-10-19",
+    "title": "Fortinet bug exploited to plant stealthy FortiGate implant",
+    "originalTitle": "Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack",
+    "summary": "Patch FortiOS now and hunt for persistence if your FortiGate was internet exposed, attackers are using a Fortinet flaw to plant a stealthy device implant.",
+    "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-19T11:13:23.000Z",
+    "fetchedAt": "2026-10-19T13:05:35.805Z"
+  },
+  {
+    "slug": "malicious-npm-packages-spread-stealers-hijack-ai-agent-traff-2026-10-19",
+    "title": "Malicious npm packages spread stealers, hijack AI agent traffic",
+    "originalTitle": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+    "summary": "Audit your npm dependencies and developer machines, a fake Web3 accelerator lured devs into installing packages that dropped info-stealers and backdoors on macOS and Windows.",
+    "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-19T10:06:40.000Z",
+    "fetchedAt": "2026-10-19T13:05:35.805Z"
+  },
+  {
+    "slug": "mitre-att-ck-v20-adds-ai-abuse-and-new-detection-content-2026-10-19",
+    "title": "MITRE ATT&CK v20 adds AI abuse and new detection content",
+    "originalTitle": "MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks",
+    "summary": "Update your mappings and detections, ATT&CK v20 ships 15 new detection strategies across Enterprise and ICS including AI abuse and MFA bypass techniques backed by fresh analytics.",
+    "url": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-19T09:37:04.000Z",
+    "fetchedAt": "2026-10-19T13:05:35.805Z"
+  },
+  {
+    "slug": "october-windows-server-patches-break-exchange-logins-and-mai-2026-10-19",
+    "title": "October Windows Server patches break Exchange logins and mail",
+    "originalTitle": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+    "summary": "Follow Microsoft's guidance before deploying, this month's Windows Server updates are breaking OWA logins and mail flow on some on-prem Exchange servers.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-10-19T08:58:41.000Z",
+    "fetchedAt": "2026-10-19T13:05:35.805Z"
+  },
+  {
+    "slug": "broadcom-wi-fi-flaw-lets-nearby-attackers-root-many-routers-2026-10-19",
+    "title": "Broadcom Wi-Fi flaw lets nearby attackers root many routers",
+    "originalTitle": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+    "summary": "Until vendors ship firmware, disable Wi-Fi onboarding features and restrict admin access, a Broadcom setup flaw lets anyone within radio range run code as root on affected routers.",
+    "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-19T06:29:44.000Z",
+    "fetchedAt": "2026-10-19T13:05:35.805Z"
+  },
+  {
+    "slug": "opencode-breach-may-have-exposed-your-openai-or-anthropic-ke-2026-10-19",
+    "title": "OpenCode breach may have exposed your OpenAI or Anthropic keys",
+    "originalTitle": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+    "summary": "If your team stored provider keys in OpenCode Console, assume compromise and rotate OpenAI, Anthropic, and Google AI keys, audit usage, and remove long-lived tokens.",
+    "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-19T06:07:08.000Z",
+    "fetchedAt": "2026-10-19T13:05:35.805Z"
+  },
+  {
     "slug": "ransomware-gangs-target-employees-families-for-extortion-2026-10-19",
     "title": "Ransomware gangs target employees’ families for extortion",
     "originalTitle": "Ransomware pressure now reaches employees’ homes and families",
@@ -2929,104 +3027,5 @@
     "category": "defense",
     "publishedAt": "2026-10-05T13:30:28.000Z",
     "fetchedAt": "2026-10-05T14:30:46.730Z"
-  },
-  {
-    "slug": "stun-based-linux-backdoor-spreads-via-iot-and-router-flaws-2026-10-05",
-    "title": "STUN-based Linux backdoor spreads via IoT and router flaws",
-    "originalTitle": "Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws",
-    "summary": "Patch exposed IoT, NAS and router gear, attackers are deploying ClingSTUN, a Linux backdoor using STUN for covert C2 while exploiting dozens of known device vulnerabilities.",
-    "url": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-05T13:00:00.000Z",
-    "fetchedAt": "2026-10-05T14:30:46.730Z"
-  },
-  {
-    "slug": "rejetto-hfs-bug-under-attack-enables-admin-session-forgery-a-2026-10-05",
-    "title": "Rejetto HFS bug under attack enables admin session forgery and RCE",
-    "originalTitle": "Exploitation Hits Rejetto HFS Vulnerability Discovered by AI",
-    "summary": "If you run Rejetto HFS, patch or isolate immediately, CVE-2026-61500 lets attackers predict session keys to gain admin access and remote code execution, exploitation is ongoing.",
-    "url": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-05T11:00:05.000Z",
-    "fetchedAt": "2026-10-05T14:30:46.730Z"
-  },
-  {
-    "slug": "apple-to-tighten-macos-full-disk-access-amid-rising-ai-agent-2026-10-05",
-    "title": "Apple to tighten macOS Full Disk Access amid rising AI agent risks",
-    "originalTitle": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
-    "summary": "Prepare MDM and software reviews, Apple will tighten macOS Full Disk Access to curb AI agents overreaching into files, mail and browsing data, rollout timing not yet disclosed.",
-    "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/05/macos-full-disk-access-updates/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-05T10:38:50.000Z",
-    "fetchedAt": "2026-10-05T14:30:46.730Z"
-  },
-  {
-    "slug": "microsoft-ships-out-of-band-fix-for-exchange-mailbox-data-le-2026-10-05",
-    "title": "Microsoft ships out-of-band fix for Exchange mailbox data leak",
-    "originalTitle": "Out-of-band Exchange Server update fixes high-severity mailbox access bug (CVE-2026-96940)",
-    "summary": "Install the Exchange Server update for CVE-2026-96940, which lets authenticated users read other mailboxes and attachments within your organization, risking sensitive data exposure.",
-    "url": "https://www.helpnetsecurity.com/2026/10/05/exchange-server-vulnerability-cve-2026-96940/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-05T10:38:42.000Z",
-    "fetchedAt": "2026-10-05T14:30:46.730Z"
-  },
-  {
-    "slug": "patch-now-netscaler-zero-day-exploited-saml-deployments-at-r-2026-10-05",
-    "title": "Patch now: NetScaler zero-day exploited, SAML deployments at risk",
-    "originalTitle": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-    "summary": "Update NetScaler ADC and Gateway now to fix CVE-2026-88779, a zero-day memory overflow exploited to knock SAML deployments offline and disrupt authentication for remote users.",
-    "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-05T06:40:19.000Z",
-    "fetchedAt": "2026-10-05T14:30:46.730Z"
-  },
-  {
-    "slug": "self-hosted-secrets-manager-for-teams-that-cannot-use-saas-2026-10-05",
-    "title": "Self-hosted secrets manager for teams that cannot use SaaS",
-    "originalTitle": "Keyorix: Open-source secrets management for teams that can’t use SaaS",
-    "summary": "If you must keep secrets on-prem, consider Keyorix, an open-source single-binary secrets manager that keeps API keys out of code and runs without internet access.",
-    "url": "https://www.helpnetsecurity.com/2026/10/05/keyorix-open-source-on-premise-secrets-management/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-05T05:00:57.000Z",
-    "fetchedAt": "2026-10-05T05:33:48.052Z"
   }
 ]

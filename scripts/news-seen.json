@@ -1,8 +1,4 @@
 {
-  "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html": "2026-09-19T10:54:28.096Z",
-  "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html": "2026-09-19T10:54:28.096Z",
-  "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html": "2026-09-19T10:54:28.096Z",
-  "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html": "2026-09-19T10:54:28.096Z",
   "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/": "2026-09-19T15:51:10.895Z",
   "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/": "2026-09-19T15:51:10.895Z",
   "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/": "2026-09-19T15:51:10.895Z",
@@ -1356,5 +1352,21 @@
   "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/": "2026-10-18T15:49:28.513Z",
   "https://www.helpnetsecurity.com/2026/10/19/semperis-ransomware-employee-safety-report/": "2026-10-19T04:35:08.324Z",
   "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/": "2026-10-19T04:35:08.324Z",
-  "https://simonwillison.net/2026/Oct/18/llm-echo/": "2026-10-19T04:35:08.324Z"
+  "https://simonwillison.net/2026/Oct/18/llm-echo/": "2026-10-19T04:35:08.324Z",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/": "2026-10-19T13:05:35.805Z",
+  "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/": "2026-10-19T13:05:35.805Z",
+  "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/": "2026-10-19T13:05:35.805Z",
+  "https://therecord.media/russia-cyberattack-firstvds-cloud": "2026-10-19T13:05:35.805Z",
+  "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/": "2026-10-19T13:05:35.805Z",
+  "https://www.helpnetsecurity.com/2026/10/19/open-weight-ai-model-risks-microsoft-nvidia/": "2026-10-19T13:05:35.805Z",
+  "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html": "2026-10-19T13:05:35.805Z",
+  "https://www.helpnetsecurity.com/2026/10/19/check-point-brand-impersonation-scams-q3-2026-report/": "2026-10-19T13:05:35.805Z",
+  "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/": "2026-10-19T13:05:35.805Z",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/": "2026-10-19T13:05:35.805Z",
+  "https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/": "2026-10-19T13:05:35.805Z",
+  "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html": "2026-10-19T13:05:35.805Z",
+  "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html": "2026-10-19T13:05:35.805Z",
+  "https://www.helpnetsecurity.com/2026/10/19/bearer-cli-free-code-security-scanning-tool-sast/": "2026-10-19T13:05:35.805Z",
+  "https://www.helpnetsecurity.com/2026/10/19/rpo-rto-video/": "2026-10-19T13:05:35.805Z",
+  "https://www.helpnetsecurity.com/2026/10/19/datadome-ai-agent-traffic-report/": "2026-10-19T13:05:35.805Z"
 }
