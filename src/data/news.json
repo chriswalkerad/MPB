@@ -1,5 +1,130 @@
 [
   {
+    "slug": "wordpress-rank-math-pro-tainted-backdoors-planted-via-update-2026-10-19",
+    "title": "WordPress Rank Math PRO tainted, backdoors planted via updates",
+    "originalTitle": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+    "summary": "Treat any site that installed Rank Math PRO Oct 15-16 as compromised, remove the plugin, scan for backdoors, rotate secrets, then reinstall the fixed build from a clean source.",
+    "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-19T21:24:51.000Z",
+    "fetchedAt": "2026-10-19T22:19:22.615Z"
+  },
+  {
+    "slug": "connectwise-halts-cloud-backup-after-attackers-abuse-m365-ac-2026-10-19",
+    "title": "ConnectWise halts Cloud Backup after attackers abuse M365 access",
+    "originalTitle": "ConnectWise suspends Cloud Backup service after supply chain attack",
+    "summary": "If you use ConnectWise Cloud Backup, audit Microsoft 365 sign-ins and revoke app tokens, rotate credentials, and monitor for suspicious mailbox rules while the service remains suspended.",
+    "url": "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/19/connectwise-cloud-backup-suspended-security-incident/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-19T19:45:00.000Z",
+    "fetchedAt": "2026-10-19T22:19:22.615Z"
+  },
+  {
+    "slug": "aomei-update-servers-hijacked-to-push-malware-via-promos-2026-10-19",
+    "title": "AOMEI update servers hijacked to push malware via promos",
+    "originalTitle": "Hackers hijack AOMEI update servers to secretly spread malware",
+    "summary": "If you run AOMEI backup tools, check for unexpected processes or scheduled tasks, validate installer hashes, and pause in-app update promotions until the vendor publishes full indicators.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-19T19:40:58.000Z",
+    "fetchedAt": "2026-10-19T22:19:22.615Z"
+  },
+  {
+    "slug": "plex-servers-under-active-attack-patch-plex2shell-flaws-now-2026-10-19",
+    "title": "Plex servers under active attack, patch Plex2Shell flaws now",
+    "originalTitle": "PSA: Patch your Plex media server before someone hacks it",
+    "summary": "Update Plex Media Server to the latest release immediately, block external exposure, and hunt for suspicious ffmpeg or shell activity because attackers are chaining four public bugs in the wild.",
+    "url": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-19T19:39:19.000Z",
+    "fetchedAt": "2026-10-19T22:19:22.615Z"
+  },
+  {
+    "slug": "drupal-warns-of-fast-rce-exploitation-patch-core-today-2026-10-19",
+    "title": "Drupal warns of fast RCE exploitation, patch core today",
+    "originalTitle": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
+    "summary": "Update Drupal core to the fixed versions and review contributed modules using Entity List or Field UI, since exploit paths exist and attacks are expected quickly.",
+    "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-19T15:47:50.000Z",
+    "fetchedAt": "2026-10-19T22:19:22.615Z"
+  },
+  {
+    "slug": "f5-issues-out-of-band-fixes-for-critical-nginx-rce-bugs-2026-10-19",
+    "title": "F5 issues out-of-band fixes for critical NGINX RCE bugs",
+    "originalTitle": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
+    "summary": "Patch NGINX immediately and restart affected services, prioritize Internet-facing proxies and ingress controllers, and review logs for odd worker crashes or segfaults linked to malicious requests.",
+    "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-19T13:49:24.000Z",
+    "fetchedAt": "2026-10-19T22:19:22.615Z"
+  },
+  {
+    "slug": "ghostaction-spreads-stealer-malware-via-fake-font-in-github-2026-10-19",
+    "title": "GhostAction spreads stealer malware via fake font in GitHub repos",
+    "originalTitle": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+    "summary": "Developers, avoid random forks and verify commits and release assets, since attackers are phishing maintainers and hiding a credential stealer masquerading as a font across dozens of repositories.",
+    "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-19T13:05:45.000Z",
+    "fetchedAt": "2026-10-19T22:19:22.615Z"
+  },
+  {
     "slug": "new-plex2shell-exploits-hit-plex-servers-within-hours-2026-10-19",
     "title": "New Plex2Shell exploits hit Plex servers within hours",
     "originalTitle": "Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure",
@@ -2934,98 +3059,5 @@
     "category": "ai-security",
     "publishedAt": "2026-10-05T22:26:35.000Z",
     "fetchedAt": "2026-10-06T00:00:58.081Z"
-  },
-  {
-    "slug": "clingstun-turns-unpatched-iot-into-a-stun-proxied-botnet-2026-10-05",
-    "title": "ClingSTUN turns unpatched IoT into a STUN-proxied botnet",
-    "originalTitle": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
-    "summary": "Harden IoT gear and egress filter UDP 3478, the ClingSTUN backdoor exploits dozens of known bugs to conscript devices and hide traffic via public STUN servers.",
-    "url": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-05T21:25:08.000Z",
-    "fetchedAt": "2026-10-06T00:00:58.081Z"
-  },
-  {
-    "slug": "attackers-scan-rejetto-hfs-for-rce-via-weak-signing-key-2026-10-05",
-    "title": "Attackers scan Rejetto HFS for RCE via weak signing key",
-    "originalTitle": "Rejetto HFS servers now actively scanned for critical RCE flaw",
-    "summary": "If you run HFS 2.x, update immediately or take it offline, CVE-2026-61500 allows session forgery, account takeover, and remote code execution through a weak signing key.",
-    "url": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-05T20:20:05.000Z",
-    "fetchedAt": "2026-10-06T00:00:58.081Z"
-  },
-  {
-    "slug": "microsoft-patches-exchange-bug-that-lets-users-read-others-m-2026-10-05",
-    "title": "Microsoft patches Exchange bug that lets users read others' mail",
-    "originalTitle": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
-    "summary": "Install the out-of-band Exchange update for CVE-2026-96940 now, weak authorization lets authenticated users escalate privileges and access other mailboxes, audit mailbox access logs.",
-    "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-05T16:21:52.000Z",
-    "fetchedAt": "2026-10-06T00:00:58.081Z"
-  },
-  {
-    "slug": "cisa-adds-exploited-netscaler-bug-appliances-crash-until-pat-2026-10-05",
-    "title": "CISA adds exploited NetScaler bug, appliances crash until patched",
-    "originalTitle": "CISA flags new exploited NetScaler flaw as attackers crash appliances (CVE-2026-88779)",
-    "summary": "Patch or mitigate CVE-2026-88779 on NetScaler ADC and Gateway now, CISA says attackers trigger repeated crashes causing denial of service on unprotected appliances.",
-    "url": "https://www.helpnetsecurity.com/2026/10/05/cisa-flags-new-exploited-netscaler-flaw-as-attackers-crash-appliances-cve-2026-88779/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [
-      {
-        "name": "The Record",
-        "url": "https://therecord.media/us-australia-warn-of-latest-citrix-vulnerability"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-05T14:53:48.000Z",
-    "fetchedAt": "2026-10-06T00:00:58.081Z"
-  },
-  {
-    "slug": "dell-system-update-flaw-gives-local-root-update-dsu-now-2026-10-05",
-    "title": "Dell System Update flaw gives local root, update DSU now",
-    "originalTitle": "New Dell System Update flaw lets hackers gain root privileges",
-    "summary": "Update or remove vulnerable Dell System Update CLI deployments, the bug allows local privilege escalation to root, restrict access to DSU and review endpoints for misuse.",
-    "url": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-05T14:53:06.000Z",
-    "fetchedAt": "2026-10-06T00:00:58.081Z"
-  },
-  {
-    "slug": "free-malwarebytes-tool-checks-suspicious-links-and-explains-2026-10-05",
-    "title": "Free Malwarebytes tool checks suspicious links and explains the risks",
-    "originalTitle": "Malwarebytes Scam Link Check analyzes URLs and explains potential risks",
-    "summary": "Add Scam Link Check to your help desk toolkit, paste sketchy URLs to get a safety verdict, reasoning and clear next steps users can understand before they click.",
-    "url": "https://www.helpnetsecurity.com/2026/10/05/malwarebytes-scam-link-check/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-05T13:30:28.000Z",
-    "fetchedAt": "2026-10-05T14:30:46.730Z"
   }
 ]
