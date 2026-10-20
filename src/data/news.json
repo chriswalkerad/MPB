@@ -1,5 +1,107 @@
 [
   {
+    "slug": "fortisiem-unauth-rce-poc-drops-patch-now-2026-10-20",
+    "title": "FortiSIEM unauth RCE PoC drops, patch now",
+    "originalTitle": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+    "summary": "Patch CVE-2026-106173 immediately and lock down management interfaces, as a public exploit enables unauthenticated remote code execution on Fortinet FortiSIEM.",
+    "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-20T15:38:52.000Z",
+    "fetchedAt": "2026-10-20T16:59:43.465Z"
+  },
+  {
+    "slug": "ransomware-crews-still-abusing-palo-alto-vpn-auth-bypass-2026-10-20",
+    "title": "Ransomware crews still abusing Palo Alto VPN auth bypass",
+    "originalTitle": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+    "summary": "Ensure CVE-2026-0257 is fully patched on PAN-OS and Prisma Access, audit and revoke suspicious VPN accounts and tokens, and rotate credentials to shut off unauthorized connections.",
+    "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-20T15:32:27.000Z",
+    "fetchedAt": "2026-10-20T16:59:43.465Z"
+  },
+  {
+    "slug": "attackers-weaponize-ai-pen-test-tool-cairn-for-mass-breaches-2026-10-20",
+    "title": "Attackers weaponize AI pen-test tool Cairn for mass breaches",
+    "originalTitle": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
+    "summary": "Harden internet-facing apps, rate-limit and monitor automation, and hunt for bot-driven abuse after actors used autonomous AI agents via Cairn to hit over 1,200 sites.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-20T14:36:05.000Z",
+    "fetchedAt": "2026-10-20T16:59:43.465Z"
+  },
+  {
+    "slug": "aomei-backupper-updates-briefly-hijacked-to-push-backdoor-2026-10-20",
+    "title": "AOMEI Backupper updates briefly hijacked to push backdoor",
+    "originalTitle": "AOMEI yet to notify customers after hackers hijacked its software updates",
+    "summary": "Check any AOMEI Backupper installs from April to July, scan for ShinyRoad backdoor, reimage if needed, and verify update integrity before trusting future releases.",
+    "url": "https://therecord.media/aomei-yet-to-notify-customers-hijack-software",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/20/aomei-backupper-compromised-supply-chain/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-20T14:11:00.000Z",
+    "fetchedAt": "2026-10-20T16:59:43.465Z"
+  },
+  {
+    "slug": "go-update-revokes-eight-ca-intermediates-rebuild-your-apps-2026-10-20",
+    "title": "Go update revokes eight CA intermediates, rebuild your apps",
+    "originalTitle": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+    "summary": "Update to Go 1.27.3 or 1.26.10 and rebuild binaries, or Go programs will reject TLS chains that include newly blocked intermediate CA keys.",
+    "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-20T11:32:59.000Z",
+    "fetchedAt": "2026-10-20T16:59:43.465Z"
+  },
+  {
+    "slug": "ovhcloud-cli-releases-backdoored-to-steal-developer-secrets-2026-10-20",
+    "title": "OVHcloud CLI releases backdoored to steal developer secrets",
+    "originalTitle": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+    "summary": "Remove compromised ovhcli binaries, reinstall from clean sources, and immediately rotate all API keys, tokens, and credentials that may have been exposed.",
+    "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-20T11:31:22.000Z",
+    "fetchedAt": "2026-10-20T16:59:43.465Z"
+  },
+  {
     "slug": "microsoft-adds-dynamic-permissions-to-rein-in-risky-ai-agent-2026-10-20",
     "title": "Microsoft adds dynamic permissions to rein in risky AI agents",
     "originalTitle": "Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring",
@@ -31,6 +133,20 @@
     "category": "threats",
     "publishedAt": "2026-10-20T11:18:35.000Z",
     "fetchedAt": "2026-10-20T11:30:59.039Z"
+  },
+  {
+    "slug": "connectwise-resets-creds-cloud-backup-still-offline-after-br-2026-10-20",
+    "title": "ConnectWise resets creds, Cloud Backup still offline after breach",
+    "originalTitle": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+    "summary": "If you use ConnectWise Cloud Backup, replace application credentials, rotate keys, follow ConnectWise’s guidance, and prepare for service disruption while monitoring for misuse of app identities.",
+    "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "msp-channel",
+    "publishedAt": "2026-10-20T10:56:08.000Z",
+    "fetchedAt": "2026-10-20T16:59:43.465Z"
   },
   {
     "slug": "paradigm-breach-exposes-970k-medi-cal-members-after-late-not-2026-10-20",
@@ -2946,104 +3062,5 @@
     "category": "defense",
     "publishedAt": "2026-10-06T16:59:24.000Z",
     "fetchedAt": "2026-10-06T22:38:48.336Z"
-  },
-  {
-    "slug": "phishers-steal-ad-accounts-and-mfa-codes-via-fake-ai-portals-2026-10-06",
-    "title": "Phishers steal ad accounts and MFA codes via fake AI portals",
-    "originalTitle": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
-    "summary": "Warn ad managers and staff, block browser-in-browser prompts, enforce phishing-resistant MFA like FIDO2 and conditional access to stop session theft.",
-    "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-06T15:16:44.000Z",
-    "fetchedAt": "2026-10-06T22:38:48.336Z"
-  },
-  {
-    "slug": "8-rmm-security-controls-msps-should-test-now-2026-10-06",
-    "title": "8 RMM security controls MSPs should test now",
-    "originalTitle": "How to secure RMM software: 8 controls MSPs should test",
-    "summary": "Use this checklist to vet RMMs for MFA, PAM, patching, audit logging, tenant isolation, and recovery controls before you deploy them.",
-    "url": "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-06T14:00:10.000Z",
-    "fetchedAt": "2026-10-06T22:38:48.336Z"
-  },
-  {
-    "slug": "patch-atlassian-data-center-now-critical-file-read-bug-2026-10-06",
-    "title": "Patch Atlassian Data Center now, critical file read bug",
-    "originalTitle": "Atlassian urges immediate patching of critical Data Center file access vulnerability (CVE-2026-21589)",
-    "summary": "Patch all affected Atlassian Data Center products for CVE-2026-21589 now, unauthenticated attackers can read known files, apply fixed versions and review logs for suspicious file access.",
-    "url": "https://www.helpnetsecurity.com/2026/10/06/atlassian-data-center-cve-2026-21589/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-06T12:26:30.000Z",
-    "fetchedAt": "2026-10-06T13:19:37.409Z"
-  },
-  {
-    "slug": "openai-agents-flooded-wikimedia-and-probed-its-tools-2026-10-06",
-    "title": "OpenAI agents flooded Wikimedia and probed its tools",
-    "originalTitle": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
-    "summary": "Expect autonomous agents to hit your public apps, add rate limits, bot detection, authentication, and robots.txt controls to manage abusive agent traffic.",
-    "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/06/openai-rogue-agents-wikimedia-wikipedia/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-06T12:21:53.000Z",
-    "fetchedAt": "2026-10-06T22:38:48.336Z"
-  },
-  {
-    "slug": "libreoffice-openoffice-can-run-code-from-spreadsheets-no-war-2026-10-06",
-    "title": "LibreOffice/OpenOffice can run code from spreadsheets, no warning",
-    "originalTitle": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
-    "summary": "With Java enabled, crafted spreadsheets can execute code without macro prompts, disable Java support, block untrusted documents, and isolate office apps until vendor fixes are available.",
-    "url": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-06T11:57:00.000Z",
-    "fetchedAt": "2026-10-06T13:19:37.409Z"
-  },
-  {
-    "slug": "macos-tightening-full-disk-access-controls-for-ai-risks-2026-10-06",
-    "title": "macOS tightening Full Disk Access controls for AI risks",
-    "originalTitle": "Apple to Tighten Full Disk Access Controls in macOS Amid AI Risks",
-    "summary": "Apple will tighten macOS Full Disk Access in response to autonomous AI agents, expect new prompts and controls, review MDM policies and deployment scripts so workflows keep working.",
-    "url": "https://www.securityweek.com/apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-risks/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-06T11:48:59.000Z",
-    "fetchedAt": "2026-10-06T13:19:37.409Z"
   }
 ]
