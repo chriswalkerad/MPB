@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-20",
+    "date": "2026-10-20",
+    "title": "Patch sprint, supply chain stings, and AI abuse",
+    "intro": "Live exploits, hijacked tools, and a retail outage. Patch fast, rotate creds, and keep a closer eye on automation.",
+    "items": [
+      {
+        "heading": "FortiSIEM unauth RCE PoC drops",
+        "body": "A public exploit for CVE-2026-106173 enables unauthenticated remote code execution on FortiSIEM. Patch immediately and restrict or geofence management interfaces until you can confirm no unauthorized access. Add detections for unusual system activity on the SIEM host and back up configs before changes.",
+        "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "fortisiem-unauth-rce-poc-drops-patch-now-2026-10-20"
+      },
+      {
+        "heading": "Ransomware abusing Palo Alto VPN auth bypass",
+        "body": "Threat actors are still exploiting CVE-2026-0257 in PAN-OS and Prisma Access to bypass authentication. Verify you are fully patched, audit VPN portals, revoke suspicious accounts and tokens, and rotate credentials to cut off lingering sessions. Watch for long lived connections and unexpected admin logins.",
+        "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "ransomware-crews-still-abusing-palo-alto-vpn-auth-bypass-2026-10-20"
+      },
+      {
+        "heading": "Cyberattack hits Ahold Delhaize stores",
+        "body": "A cyberattack disrupted store services across Europe and the US including payments and back office systems. If you support retail clients, expect service calls and align on incident runbooks and payment fallbacks. Validate store network segmentation and vendor dependencies to limit blast radius.",
+        "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "cyberattack-disrupts-ahold-delhaize-stores-across-us-and-eur-2026-10-20"
+      },
+      {
+        "heading": "AI pen test tool weaponized for mass breaches",
+        "body": "Attackers repurposed Cairn, an AI pentest tool, to run autonomous agents against more than 1,200 sites. Lock down internet facing apps, rate limit and throttle automation, and monitor for bot like patterns. Run targeted hunts for scripted probing and tighten WAF rules where you see abuse.",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
+        "source": "Dark Reading",
+        "category": "ai-security",
+        "storySlug": "attackers-weaponize-ai-pen-test-tool-cairn-for-mass-breaches-2026-10-20"
+      },
+      {
+        "heading": "AOMEI Backupper updates hijacked",
+        "body": "AOMEI Backupper updates were briefly hijacked to deliver the ShinyRoad backdoor. Identify installs from April to July, scan and reimage if needed, and validate update provenance going forward. Block egress for backup hosts and pin versions while you verify integrity.",
+        "url": "https://therecord.media/aomei-yet-to-notify-customers-hijack-software",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "aomei-backupper-updates-briefly-hijacked-to-push-backdoor-2026-10-20"
+      },
+      {
+        "heading": "OVHcloud CLI releases backdoored",
+        "body": "Certain ovhcli releases were backdoored to siphon developer secrets. Purge compromised binaries, reinstall from clean sources, and immediately rotate every API key, token, and credential that may have been exposed. Review CI pipelines and developer laptops for misuse.",
+        "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "ovhcloud-cli-releases-backdoored-to-steal-developer-secrets-2026-10-20"
+      },
+      {
+        "heading": "Go revokes CA intermediates, rebuild apps",
+        "body": "Go is revoking eight intermediate CA keys, and programs built with older toolchains will reject TLS chains that include them. Update to Go 1.27.3 or 1.26.10 and rebuild binaries to keep connections working. Alert app teams and watch for sudden certificate errors in logs.",
+        "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "go-update-revokes-eight-ca-intermediates-rebuild-your-apps-2026-10-20"
+      },
+      {
+        "heading": "Microsoft adds dynamic permissions for AI agents",
+        "body": "Microsoft is rolling out dynamic permissions and risk scoring to keep AI agents in check. Treat agents like insiders, scope tasks narrowly, and rely on auto tightening when behavior drifts or risk rises. If you are piloting AI workflows, plan policy and monitoring now.",
+        "url": "https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/",
+        "source": "SecurityWeek",
+        "category": "ai-security",
+        "storySlug": "microsoft-adds-dynamic-permissions-to-rein-in-risky-ai-agent-2026-10-20"
+      }
+    ],
+    "signOff": "Patch first, tickets second.",
+    "generatedAt": "2026-10-20T18:00:43.467Z"
+  },
+  {
     "slug": "2026-10-19",
     "date": "2026-10-19",
     "title": "Exploits in the Wild, Patch Pains, and Leaky AI Keys",
@@ -2112,79 +2186,5 @@
     ],
     "signOff": "Back to it. Patch first.",
     "generatedAt": "2026-09-21T18:45:30.384Z"
-  },
-  {
-    "slug": "2026-09-20",
-    "date": "2026-09-20",
-    "title": "Patch priority: gateways, ARM, and AI getting weird",
-    "intro": "Exploited bugs and sneaky payloads lead the stack today. Patch the big stuff, then tame the AI helpers before they spill secrets.",
-    "items": [
-      {
-        "heading": "Cisco Secure Email Gateway 0 day under active attack",
-        "body": "Attackers are exploiting a bug in Cisco Secure Email Gateway right now. Update immediately, then comb mail logs and rules for unauthorized changes or unusual spikes. Put a freeze on mail flow rule changes until you finish the audit.",
-        "url": "https://www.helpnetsecurity.com/2026/09/20/week-in-review-cisco-patches-exploited-email-gateway-0-day-revolut-breach/",
-        "source": "Help Net Security",
-        "category": "vulnerabilities",
-        "storySlug": "cisco-email-gateway-0-day-exploited-patch-now-2026-09-20"
-      },
-      {
-        "heading": "SolarWinds ARM unauth RCE, fix CVE-2026-28326",
-        "body": "SolarWinds Access Rights Manager has a hard coded key flaw, CVE-2026-28326, allowing unauthenticated remote code execution in versions 2026.2 and earlier. Patch now, then review accounts and services ARM touches for tampering. If possible, keep ARM off the internet and tighten service account permissions.",
-        "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "solarwinds-arm-flaw-allows-unauthenticated-rce-patch-now-2026-09-19"
-      },
-      {
-        "heading": "WaterPlum hits 30,000 devices, $10.7M stolen",
-        "body": "North Korea’s WaterPlum operators compromised at least 30,000 devices since Dec 2025 and funneled $10.7 million in stolen cryptocurrency. Read the joint advisory and scan endpoints for IOCs. Clamp down on outbound traffic and rip out any suspicious persistence fast.",
-        "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "waterplum-malware-infected-30-000-devices-check-for-iocs-2026-09-19"
-      },
-      {
-        "heading": "Malicious Chrome extension can hijack AI agents",
-        "body": "A proof of concept shows one malicious extension can hijack Claude, Perplexity, and other Chrome based AI browser agents via prompt forcing. Lock down extension installs, restrict agent permissions, and monitor AI assistant activity. Treat browser AI like untrusted automation with least privilege.",
-        "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "malicious-extension-can-hijack-ai-browser-agents-across-chro-2026-09-19"
-      },
-      {
-        "heading": "npm malware shifts payloads to runtime",
-        "body": "Malicious packages like indexed btree are deferring payloads to runtime to bypass install script checks. Audit dependencies, pin versions, and watch build and app network egress. Flag any unexpected post install network calls as potential compromise.",
-        "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "npm-malware-hides-in-runtime-to-bypass-install-script-checks-2026-09-20"
-      },
-      {
-        "heading": "Codex sandbox escapes patched by OpenAI",
-        "body": "Researchers found two ways to break out of Codex sandboxes and run host commands, which OpenAI has patched. Assume AI generated code can wriggle past guardrails. Lock down dev environments, restrict tool permissions, and review assistant actions and logs.",
-        "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "researchers-escape-openai-codex-sandbox-to-run-host-commands-2026-09-20"
-      },
-      {
-        "heading": "Claude assisted chain into OpenAI staff accounts",
-        "body": "Researchers say Claude Opus 5 helped chain two flaws to seize OpenAI staff ChatGPT and Codex accounts, then reach an internal code repo. Audit SSO and support forum integrations, and minimize cross system trust. Keep AI assisted workflows tightly scoped and verified.",
-        "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "researchers-used-claude-to-chain-exploits-into-openai-employ-2026-09-19"
-      },
-      {
-        "heading": "Viral AI video app is scanning faces and moods",
-        "body": "A popular AI video call app is performing face scanning and mood tracking, collecting biometric data and raising privacy risk. Block or restrict these apps and update acceptable use and data handling policies. If you must use them, get explicit consent and minimize retention.",
-        "url": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "viral-ai-hotline-face-scans-callers-tracks-mood-read-the-fin-2026-09-19"
-      }
-    ],
-    "signOff": "Patch first, coffee second.",
-    "generatedAt": "2026-09-20T16:51:03.381Z"
   }
 ]
