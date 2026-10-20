@@ -1,5 +1,66 @@
 [
   {
+    "slug": "php-warns-of-two-critical-flaws-patch-now-2026-10-20",
+    "title": "PHP warns of two critical flaws, patch now",
+    "originalTitle": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+    "summary": "Patch PHP immediately when emergency updates drop, two critical flaws leaked ahead of disclosure put any internet-exposed PHP apps at risk and will attract rapid exploitation.",
+    "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-20T20:56:43.000Z",
+    "fetchedAt": "2026-10-20T21:34:58.533Z"
+  },
+  {
+    "slug": "compromised-ca-keys-could-mint-valid-https-update-trust-2026-10-20",
+    "title": "Compromised CA keys could mint valid HTTPS, update trust",
+    "originalTitle": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+    "summary": "Update OS and browser trust stores quickly, verify your servers do not chain to affected eMudhra intermediates, and monitor for suspicious TLS errors, phishing sites, or MitM attempts.",
+    "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-20T19:47:35.000Z",
+    "fetchedAt": "2026-10-20T21:34:58.533Z"
+  },
+  {
+    "slug": "zeabur-shuts-down-after-breach-rotate-all-secrets-2026-10-20",
+    "title": "Zeabur shuts down after breach, rotate all secrets",
+    "originalTitle": "Zeabur shutting down after second security breach in two months",
+    "summary": "If any teams used Zeabur, immediately rotate all secrets and tokens, audit logs, and assume environment variables and account details were exfiltrated in the platform's second breach.",
+    "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-20T19:33:02.000Z",
+    "fetchedAt": "2026-10-20T21:34:58.533Z"
+  },
+  {
+    "slug": "chrome-will-warn-on-copy-paste-scam-commands-2026-10-20",
+    "title": "Chrome will warn on copy-paste scam commands",
+    "originalTitle": "Chrome flags malicious commands that scammers pass off as fixes",
+    "summary": "Turn on Chrome Enhanced Protection to flag pages that trick users into copying malicious terminal commands, and train staff to avoid pasting unknown commands into consoles.",
+    "url": "https://www.helpnetsecurity.com/2026/10/20/google-chrome-enhanced-protection-updates/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-20T17:00:47.000Z",
+    "fetchedAt": "2026-10-20T21:34:58.533Z"
+  },
+  {
     "slug": "fortisiem-unauth-rce-poc-drops-patch-now-2026-10-20",
     "title": "FortiSIEM unauth RCE PoC drops, patch now",
     "originalTitle": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
@@ -72,6 +133,39 @@
     "category": "threats",
     "publishedAt": "2026-10-20T14:11:00.000Z",
     "fetchedAt": "2026-10-20T16:59:43.465Z"
+  },
+  {
+    "slug": "cisa-safepay-ransomware-is-active-tighten-remote-access-2026-10-20",
+    "title": "CISA: SafePay ransomware is active, tighten remote access",
+    "originalTitle": "#StopRansomware: SafePay Ransomware",
+    "summary": "Review CISA's SafePay advisory and implement MFA, patch exposed services, lock down RDP and VPN, and monitor for brute force, phishing, and exploitation indicators noted.",
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-20T12:00:00.000Z",
+    "fetchedAt": "2026-10-20T21:34:58.533Z"
+  },
+  {
+    "slug": "cisa-adds-six-actively-exploited-bugs-patch-plex-now-2026-10-20",
+    "title": "CISA adds six actively exploited bugs, patch Plex now",
+    "originalTitle": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+    "summary": "Check CISA's KEV list and prioritize patching newly listed actively exploited bugs, especially Plex Media Server issues, and remove internet exposure until updates are applied.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-20T12:00:00.000Z",
+    "fetchedAt": "2026-10-20T21:34:58.533Z"
   },
   {
     "slug": "go-update-revokes-eight-ca-intermediates-rebuild-your-apps-2026-10-20",
@@ -2992,75 +3086,5 @@
     "category": "ai-security",
     "publishedAt": "2026-10-07T00:16:45.000Z",
     "fetchedAt": "2026-10-07T05:54:26.779Z"
-  },
-  {
-    "slug": "wordpress-sites-hacked-via-ninja-forms-and-woocommerce-plugi-2026-10-06",
-    "title": "WordPress sites hacked via Ninja Forms and WooCommerce plugin flaws",
-    "originalTitle": "Ninja Forms plugin flaw exploited to hack WordPress sites",
-    "summary": "Update Ninja Forms and WPC Product Bundles immediately, active attacks use stored XSS to add admin users and install backdoors on WordPress sites.",
-    "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-06T21:00:27.000Z",
-    "fetchedAt": "2026-10-06T22:38:48.336Z"
-  },
-  {
-    "slug": "clickfix-attacks-hide-payloads-in-dns-txt-and-browser-cache-2026-10-06",
-    "title": "ClickFix attacks hide payloads in DNS TXT and browser cache",
-    "originalTitle": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
-    "summary": "Tighten DNS and egress monitoring, consider disabling prefetch where possible, attackers now hide ClickFix payloads in DNS TXT records and browser cache.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-06T20:32:58.000Z",
-    "fetchedAt": "2026-10-06T22:38:48.336Z"
-  },
-  {
-    "slug": "hackers-obtained-fake-tls-certs-for-google-and-other-service-2026-10-06",
-    "title": "Hackers obtained fake TLS certs for Google and other services",
-    "originalTitle": "Hackers obtain counterfeit TLS certificates for Google and other large services",
-    "summary": "Treat cert warnings seriously and monitor Certificate Transparency for your domains, attackers got counterfeit TLS certs via compromised registries for major providers.",
-    "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-06T19:21:14.000Z",
-    "fetchedAt": "2026-10-06T22:38:48.336Z"
-  },
-  {
-    "slug": "patch-now-critical-file-access-bug-hits-jira-and-confluence-2026-10-06",
-    "title": "Patch now: critical file access bug hits Jira and Confluence",
-    "originalTitle": "Atlassian warns of critical file-access flaw in Jira, Confluence",
-    "summary": "Self-hosted Atlassian Data Center products are vulnerable to arbitrary file access, apply fixes or mitigations to Jira, Confluence, and Bitbucket immediately.",
-    "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-06T17:34:59.000Z",
-    "fetchedAt": "2026-10-06T22:38:48.336Z"
-  },
-  {
-    "slug": "new-trick-stalls-defender-updates-without-tripping-alarms-2026-10-06",
-    "title": "New trick stalls Defender updates without tripping alarms",
-    "originalTitle": "'BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates",
-    "summary": "Audit Defender signature age and update sources, enforce Tamper Protection and update policies to catch endpoints silently blocked from getting AV updates.",
-    "url": "https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-06T16:59:24.000Z",
-    "fetchedAt": "2026-10-06T22:38:48.336Z"
   }
 ]
