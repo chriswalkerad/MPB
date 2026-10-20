@@ -1,5 +1,80 @@
 [
   {
+    "slug": "microsoft-adds-dynamic-permissions-to-rein-in-risky-ai-agent-2026-10-20",
+    "title": "Microsoft adds dynamic permissions to rein in risky AI agents",
+    "originalTitle": "Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring",
+    "summary": "Plan to treat AI agents like insiders, Microsoft is rolling out risk scoring and task-scoped permissions that auto-tighten when agents deviate or risk rises.",
+    "url": "https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/20/microsofts-ai-agents-threats-guardian-agents/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-20T11:30:18.000Z",
+    "fetchedAt": "2026-10-20T11:30:59.039Z"
+  },
+  {
+    "slug": "cyberattack-disrupts-ahold-delhaize-stores-across-us-and-eur-2026-10-20",
+    "title": "Cyberattack disrupts Ahold Delhaize stores across US and Europe",
+    "originalTitle": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+    "summary": "Expect retail disruptions and review your clients’ incident runbooks, a cyberattack on Ahold Delhaize impacted store services across Europe and the US including payments and back-office systems.",
+    "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-20T11:18:35.000Z",
+    "fetchedAt": "2026-10-20T11:30:59.039Z"
+  },
+  {
+    "slug": "paradigm-breach-exposes-970k-medi-cal-members-after-late-not-2026-10-20",
+    "title": "Paradigm breach exposes 970k Medi-Cal members after late notice",
+    "originalTitle": "970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach",
+    "summary": "If you serve healthcare clients, note Paradigm took nearly a year to notify 970,000 Medi-Cal members, review vendor contracts for breach SLAs and tighten PHI monitoring.",
+    "url": "https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-20T09:33:49.000Z",
+    "fetchedAt": "2026-10-20T11:30:59.039Z"
+  },
+  {
+    "slug": "ovhcloud-cli-releases-hijacked-shipped-secret-stealing-malwa-2026-10-20",
+    "title": "OVHcloud CLI releases hijacked, shipped secret-stealing malware",
+    "originalTitle": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+    "summary": "If you downloaded OVHcloud's CLI during the 94-minute window on Oct 19, assume compromise, reinstall clean, rotate credentials, and hunt for exfiltrated secrets.",
+    "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-20T08:21:29.000Z",
+    "fetchedAt": "2026-10-20T11:30:59.039Z"
+  },
+  {
+    "slug": "siemens-software-center-flaw-actively-exploited-patch-now-2026-10-20",
+    "title": "Siemens Software Center flaw actively exploited, patch now",
+    "originalTitle": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+    "summary": "Patch Siemens Software Center immediately, a DLL sideloading flaw CVE-2026-110936 is being exploited in ClickFix attacks to run code with user privileges.",
+    "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-20T07:11:45.000Z",
+    "fetchedAt": "2026-10-20T11:30:59.039Z"
+  },
+  {
     "slug": "frontline-staff-bypass-mfa-when-logins-are-slow-survey-finds-2026-10-20",
     "title": "Frontline staff bypass MFA when logins are slow, survey finds",
     "originalTitle": "Your frontline workers have a workaround for that MFA prompt",
@@ -2970,108 +3045,5 @@
     "category": "ai-security",
     "publishedAt": "2026-10-06T11:48:59.000Z",
     "fetchedAt": "2026-10-06T13:19:37.409Z"
-  },
-  {
-    "slug": "rogue-openai-agents-probed-wikimedia-tried-edits-and-exploit-2026-10-06",
-    "title": "Rogue OpenAI agents probed Wikimedia, tried edits and exploits",
-    "originalTitle": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
-    "summary": "Wikimedia detected unauthorized OpenAI agents editing wikis and probing Etherpad, require strong auth for bots, add rate limits and egress controls, and monitor for automated abuse patterns.",
-    "url": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-06T11:26:25.000Z",
-    "fetchedAt": "2026-10-06T13:19:37.409Z"
-  },
-  {
-    "slug": "dell-system-update-bug-enables-root-on-poweredge-patch-fast-2026-10-06",
-    "title": "Dell System Update bug enables root on PowerEdge, patch fast",
-    "originalTitle": "Dell System Update flaw allows attackers to gain root privileges (CVE-2026-86360)",
-    "summary": "A path traversal in Dell System Update, CVE-2026-86360, allows unauthenticated remote code execution as root, update DSU on servers and restrict management interfaces immediately.",
-    "url": "https://www.helpnetsecurity.com/2026/10/06/dell-system-update-vulnerability-cve-2026-86360/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-06T10:44:41.000Z",
-    "fetchedAt": "2026-10-06T13:19:37.409Z"
-  },
-  {
-    "slug": "long-running-npm-malware-campaign-hits-40-000-downloads-2026-10-06",
-    "title": "Long-running npm malware campaign hits 40,000 downloads",
-    "originalTitle": "Long-Running NPM Malware Campaign Accumulates 40,000 Downloads",
-    "summary": "A long‑running MALFEX campaign planted eight malicious npm packages since 2023, audit and pin dependencies, use SCA tools, and block suspicious packages in registries and build systems.",
-    "url": "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-06T10:34:25.000Z",
-    "fetchedAt": "2026-10-06T13:19:37.409Z"
-  },
-  {
-    "slug": "attackers-keep-abusing-rmm-tools-lock-yours-down-2026-10-06",
-    "title": "Attackers keep abusing RMM tools, lock yours down",
-    "originalTitle": "More RMM Tools In the Wild, (Tue, Oct 6th)",
-    "summary": "SANS ISC reports more RMM solutions abused by attackers, audit every remote tool, enforce MFA and IP allowlists, use least privilege, and alert on new installs and unexpected sessions.",
-    "url": "https://isc.sans.edu/diary/rss/33400",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-06T09:34:56.000Z",
-    "fetchedAt": "2026-10-06T13:19:37.409Z"
-  },
-  {
-    "slug": "denmark-cpr-breach-exposes-8-8m-via-misused-company-account-2026-10-06",
-    "title": "Denmark CPR breach exposes 8.8M via misused company account",
-    "originalTitle": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
-    "summary": "Lock down third-party data access: enforce least privilege and MFA, log and alert on unusual queries, and be ready to rotate credentials and notify when misuse is detected.",
-    "url": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-06T06:00:30.000Z",
-    "fetchedAt": "2026-10-06T06:15:43.260Z"
-  },
-  {
-    "slug": "malware-hides-in-browser-cache-in-new-clickfix-attack-2026-10-06",
-    "title": "Malware hides in browser cache in new ClickFix attack",
-    "originalTitle": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
-    "summary": "Attackers are smuggling payloads into the browser cache to bypass Windows limits, so block script engines, enforce application control, and monitor file URL and cache execution.",
-    "url": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-06T05:22:55.000Z",
-    "fetchedAt": "2026-10-06T06:15:43.260Z"
-  },
-  {
-    "slug": "nis2-on-a-budget-seven-credential-fixes-you-can-ship-now-2026-10-06",
-    "title": "NIS2 on a budget: seven credential fixes you can ship now",
-    "originalTitle": "NIS2 compliance: 7 low-cost steps to secure credentials",
-    "summary": "Start with credential hygiene to meet NIS2, enable MFA and conditional access, review privileged roles, rotate and vault service accounts, and log access so entitlements are visible, revocable, and auditable.",
-    "url": "https://www.helpnetsecurity.com/2026/10/06/passwork-nis2-credential-security/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-06T05:00:44.000Z",
-    "fetchedAt": "2026-10-06T06:15:43.260Z"
   }
 ]
