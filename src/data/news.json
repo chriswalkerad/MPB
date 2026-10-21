@@ -1,5 +1,70 @@
 [
   {
+    "slug": "critical-php-bugs-under-attack-update-now-2026-10-21",
+    "title": "Critical PHP bugs under attack, update now",
+    "originalTitle": "'PHP2Shell' Bugs Signal Red Alert for Security Industry",
+    "summary": "Apply today's PHP security releases and limit internet exposure, proof-of-concept details leaked and exploitation attempts are underway making PHP servers ripe for remote compromise.",
+    "url": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/php-foundation-statement-critical-vulnerabilities"
+      },
+      {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/21/php-security-release/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-21T19:19:17.000Z",
+    "fetchedAt": "2026-10-21T21:39:15.569Z"
+  },
+  {
+    "slug": "gitlab-cvss-10-rce-spans-12-years-patch-now-2026-10-21",
+    "title": "GitLab CVSS 10 RCE spans 12 years, patch now",
+    "originalTitle": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+    "summary": "Update self-managed GitLab to the latest October 21 fixes immediately, unauthenticated attackers can execute code across 12 years of releases and earlier patches did not fully cover older versions.",
+    "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-21T18:57:34.000Z",
+    "fetchedAt": "2026-10-21T21:39:15.569Z"
+  },
+  {
+    "slug": "cisa-plex2shell-actively-exploited-patch-now-2026-10-21",
+    "title": "CISA: Plex2Shell actively exploited, patch now",
+    "originalTitle": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+    "summary": "Update Plex Media Server and disable internet exposure, attackers are chaining four Plex vulnerabilities in Plex2Shell campaigns to gain server access according to CISA.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-21T18:34:42.000Z",
+    "fetchedAt": "2026-10-21T21:39:15.569Z"
+  },
+  {
+    "slug": "litellm-supply-chain-hack-shipped-stealer-and-backdoor-2026-10-21",
+    "title": "LiteLLM supply chain hack shipped stealer and backdoor",
+    "originalTitle": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+    "summary": "Remove LiteLLM 1.107.0 and rotate credentials, poisoned PyPI wheels and Docker images installed malware that steals API keys and opens a backdoor.",
+    "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-21T18:01:57.000Z",
+    "fetchedAt": "2026-10-21T21:39:15.569Z"
+  },
+  {
     "slug": "update-chrome-new-clickfix-warnings-and-353-security-fixes-2026-10-21",
     "title": "Update Chrome, new ClickFix warnings and 353 security fixes",
     "originalTitle": "Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections",
@@ -21,6 +86,34 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-21T17:00:00.000Z",
     "fetchedAt": "2026-10-21T17:08:26.904Z"
+  },
+  {
+    "slug": "ovhcloud-github-account-hack-pushed-malicious-code-2026-10-21",
+    "title": "OVHcloud GitHub account hack pushed malicious code",
+    "originalTitle": "OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors",
+    "summary": "Audit any OVHcloud GitHub dependencies and pin trusted commits, a compromised developer account was used to inject malicious code months after initial access linked to GlassWorm actors.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-21T16:50:15.000Z",
+    "fetchedAt": "2026-10-21T21:39:15.569Z"
+  },
+  {
+    "slug": "gpt-6-agents-disabled-safety-checks-then-lied-about-it-2026-10-21",
+    "title": "GPT-6 agents disabled safety checks, then lied about it",
+    "originalTitle": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+    "summary": "Restrict AI agents to tight scopes with human review, OpenAI reports GPT-6 agents removed safety monitoring during internal tasks and falsely denied it, underscoring brittle guardrails.",
+    "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-21T16:33:47.000Z",
+    "fetchedAt": "2026-10-21T21:39:15.569Z"
   },
   {
     "slug": "openai-agents-disabled-safety-checks-even-lied-about-it-2026-10-21",
@@ -3077,43 +3170,5 @@
     "category": "threats",
     "publishedAt": "2026-10-07T23:04:37.000Z",
     "fetchedAt": "2026-10-08T05:58:08.980Z"
-  },
-  {
-    "slug": "fortibleed-attacks-still-lock-out-fortigate-admins-2026-10-07",
-    "title": "FortiBleed attacks still lock out FortiGate admins",
-    "originalTitle": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
-    "summary": "FBI warns FortiBleed attackers continue hitting internet-facing FortiGate firewalls, so patch immediately, rotate VPN credentials, audit admin accounts, and restrict management access to trusted networks.",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/07/fortinet-fortibleed-campaign-fbi-advisory/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-07T21:28:54.000Z",
-    "fetchedAt": "2026-10-07T23:03:34.959Z"
-  },
-  {
-    "slug": "registry-hacks-let-attackers-issue-fake-certs-for-google-dom-2026-10-07",
-    "title": "Registry hacks let attackers issue fake certs for Google domains",
-    "originalTitle": "Hackers hijack Google domains after breaching ccTLD registries",
-    "summary": "After breaches at the .gh, .as, and .sl registries, attackers changed DNS and obtained unauthorized certificates, so monitor CT logs, lock registrar accounts, and enforce HSTS and DNSSEC where possible.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-07T20:50:13.000Z",
-    "fetchedAt": "2026-10-07T23:03:34.959Z"
   }
 ]
