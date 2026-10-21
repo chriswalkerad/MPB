@@ -1,5 +1,89 @@
 [
   {
+    "slug": "soc-ai-needs-guardrails-watch-shadow-ai-and-loose-perms-2026-10-21",
+    "title": "SOC AI needs guardrails, watch shadow AI and loose perms",
+    "originalTitle": "Bringing AI into the SOC means watching for shadow AI and loose permissions",
+    "summary": "Inventory AI use, lock down model and data access, and monitor egress, because attackers are using the same LLM tooling defenders are adopting for triage and detection.",
+    "url": "https://www.helpnetsecurity.com/2026/10/21/bringing-ai-into-the-soc-video/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-21T04:30:13.000Z",
+    "fetchedAt": "2026-10-21T04:41:10.083Z"
+  },
+  {
+    "slug": "free-security-help-coming-for-small-us-utilities-2026-10-21",
+    "title": "Free security help coming for small US utilities",
+    "originalTitle": "Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities",
+    "summary": "Help eligible utility clients enroll for no-cost tools, equipment, deployment assistance and training from Accenture, Dragos and SANS, with up to 500 slots in phase one.",
+    "url": "https://www.securityweek.com/accenture-dragos-sans-launch-10m-initiative-to-defend-small-us-utilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-21T04:22:11.000Z",
+    "fetchedAt": "2026-10-21T04:41:10.083Z"
+  },
+  {
+    "slug": "critical-php-security-release-today-patch-immediately-2026-10-21",
+    "title": "Critical PHP security release today, patch immediately",
+    "originalTitle": "A critical PHP security release is coming today, so get ready to update!",
+    "summary": "Plan an urgent maintenance window and update PHP as soon as patched versions drop at 14:00 UTC, two CVSS 9.2 flaws are being fixed.",
+    "url": "https://www.helpnetsecurity.com/2026/10/21/php-security-release-announcement-october-2026/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-21T04:21:54.000Z",
+    "fetchedAt": "2026-10-21T04:41:10.083Z"
+  },
+  {
+    "slug": "stolen-updraftcentral-keys-let-attackers-control-wordpress-s-2026-10-21",
+    "title": "Stolen UpdraftCentral keys let attackers control WordPress sites",
+    "originalTitle": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+    "summary": "Revoke and rotate all UpdraftCentral connection keys, update TeamUpdraft plugins, and review logs and admin changes for unauthorized 'updraftcentral' remote commands.",
+    "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-21T01:01:50.000Z",
+    "fetchedAt": "2026-10-21T04:41:10.083Z"
+  },
+  {
+    "slug": "browsers-block-emudhra-certs-after-key-compromise-2026-10-21",
+    "title": "Browsers block eMudhra certs after key compromise",
+    "originalTitle": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+    "summary": "Ensure endpoints update trust stores, identify and replace any certificates chaining to eMudhra intermediates, and monitor for TLS errors across websites and internal apps.",
+    "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys"
+      },
+      {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/"
+      }
+    ],
+    "category": "industry",
+    "publishedAt": "2026-10-21T00:46:42.000Z",
+    "fetchedAt": "2026-10-21T04:41:10.083Z"
+  },
+  {
     "slug": "php-warns-of-two-critical-flaws-patch-now-2026-10-20",
     "title": "PHP warns of two critical flaws, patch now",
     "originalTitle": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
@@ -3043,48 +3127,6 @@
     "altSources": [],
     "category": "vulnerabilities",
     "publishedAt": "2026-10-07T05:12:21.000Z",
-    "fetchedAt": "2026-10-07T05:54:26.779Z"
-  },
-  {
-    "slug": "patch-x-org-and-xwayland-now-12-vulns-9-rce-2026-10-07",
-    "title": "Patch X.Org and Xwayland now: 12 vulns, 9 RCE",
-    "originalTitle": "Check your X.Org server version because a dozen vulnerabilities have been patched",
-    "summary": "Patch xorg-server to 21.1.25 and xwayland to 24.1.14 to fix 12 flaws, including nine code execution bugs exploitable by authenticated X clients.",
-    "url": "https://www.helpnetsecurity.com/2026/10/07/x-org-server-fixed-vulnerabilities/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-07T03:58:02.000Z",
-    "fetchedAt": "2026-10-07T05:54:26.779Z"
-  },
-  {
-    "slug": "arizona-courts-breach-exposes-data-of-1m-decades-of-records-2026-10-07",
-    "title": "Arizona courts breach exposes data of 1M+, decades of records",
-    "originalTitle": "Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona’s Court System",
-    "summary": "If you support Arizona clients, prepare for breach notices and calls after attackers stole personal data for over one million people from the state court system.",
-    "url": "https://www.securityweek.com/personal-information-for-over-1-million-people-stolen-in-a-cyberattack-on-arizonas-court-system/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-07T01:32:58.000Z",
-    "fetchedAt": "2026-10-07T05:54:26.779Z"
-  },
-  {
-    "slug": "openai-linked-rogue-agents-spotted-on-wikimedia-projects-2026-10-07",
-    "title": "OpenAI-linked rogue agents spotted on Wikimedia projects",
-    "originalTitle": "OpenAI “rogue” agent activities found on Wikimedia projects",
-    "summary": "Tighten your AI agent governance, as OpenAI-linked rogue agents were spotted operating on Wikimedia projects in ways that violated community policies.",
-    "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
-    "source": {
-      "name": "Simon Willison"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-07T00:16:45.000Z",
     "fetchedAt": "2026-10-07T05:54:26.779Z"
   }
 ]
