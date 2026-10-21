@@ -1,5 +1,122 @@
 [
   {
+    "slug": "ransomware-crews-exploit-palo-alto-globalprotect-auth-bypass-2026-10-21",
+    "title": "Ransomware crews exploit Palo Alto GlobalProtect auth bypass",
+    "originalTitle": "Ransomware gangs have been exploiting Palo Alto GlobalProtect VPN flaw since June",
+    "summary": "Patch PAN-OS GlobalProtect now, ransomware crews have abused CVE-2026-0257 since June to bypass auth via weak cookie checks and breach healthcare, education, government, and energy networks.",
+    "url": "https://www.helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-21T11:13:39.000Z",
+    "fetchedAt": "2026-10-21T11:43:23.135Z"
+  },
+  {
+    "slug": "microsoft-october-windows-11-updates-did-not-fix-vpn-bug-2026-10-21",
+    "title": "Microsoft: October Windows 11 updates did not fix VPN bug",
+    "originalTitle": "Microsoft says October updates didn’t actually fix VPN issues",
+    "summary": "Do not rely on October updates for Always On VPN issues, Microsoft says the fix was misreported so admins should keep workarounds in place and watch for a future patch.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-21T10:14:53.000Z",
+    "fetchedAt": "2026-10-21T11:43:23.135Z"
+  },
+  {
+    "slug": "stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites-2026-10-21",
+    "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+    "originalTitle": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+    "summary": "Rotate UpdraftCentral, UpdraftVault, and UpdraftClone keys and audit sites, attackers breached TeamUpdraft and used customer connection keys to push backdoors to WordPress installs.",
+    "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-21T09:01:12.000Z",
+    "fetchedAt": "2026-10-21T11:43:23.135Z"
+  },
+  {
+    "slug": "dhs-orders-deepseek-removed-from-federal-systems-bans-new-bu-2026-10-21",
+    "title": "DHS orders DeepSeek removed from federal systems, bans new buys",
+    "originalTitle": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+    "summary": "Be ready to address client questions about DeepSeek, DHS ordered federal agencies to uninstall the Chinese AI and any tools built on it and to halt new purchases due to security risks.",
+    "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/china-defends-deepseek-after-us-ban-of-its-ai-from-government-systems/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-21T08:04:17.000Z",
+    "fetchedAt": "2026-10-21T11:43:23.135Z"
+  },
+  {
+    "slug": "cisa-adds-plex2shell-and-siemens-bugs-to-kev-patch-now-2026-10-21",
+    "title": "CISA adds Plex2Shell and Siemens bugs to KEV, patch now",
+    "originalTitle": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+    "summary": "Prioritize patching Plex Media Server Plex2Shell flaws plus Siemens and SiteGuard bugs, CISA added them to the Known Exploited list meaning attackers are actively using them.",
+    "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-21T07:26:49.000Z",
+    "fetchedAt": "2026-10-21T11:43:23.135Z"
+  },
+  {
+    "slug": "patch-php-today-critical-rce-bugs-leaked-and-exploitation-li-2026-10-21",
+    "title": "Patch PHP today, critical RCE bugs leaked and exploitation likely",
+    "originalTitle": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+    "summary": "Apply PHP’s out-of-cycle update immediately, two critical unauthenticated RCE flaws dubbed PHP2Shell are public with limited mitigations and defenders expect mass scanning once fixes land.",
+    "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-21T07:02:06.000Z",
+    "fetchedAt": "2026-10-21T11:43:23.135Z"
+  },
+  {
+    "slug": "ovhcloud-cli-releases-on-github-were-backdoored-with-infoste-2026-10-21",
+    "title": "OVHcloud CLI releases on GitHub were backdoored with infostealer",
+    "originalTitle": "Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI",
+    "summary": "Remove and reinstall the OVHcloud CLI, five tampered releases pushed via a hijacked developer account planted a GlassWorm-linked stealer to exfiltrate credentials from developers’ machines.",
+    "url": "https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/21/ovhcloud-cli-github-malware/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-21T06:02:27.000Z",
+    "fetchedAt": "2026-10-21T11:43:23.135Z"
+  },
+  {
     "slug": "soc-ai-needs-guardrails-watch-shadow-ai-and-loose-perms-2026-10-21",
     "title": "SOC AI needs guardrails, watch shadow AI and loose perms",
     "originalTitle": "Bringing AI into the SOC means watching for shadow AI and loose permissions",
@@ -3002,131 +3119,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-07T12:49:01.000Z",
     "fetchedAt": "2026-10-07T13:16:53.141Z"
-  },
-  {
-    "slug": "sonicwall-sma-1000-pre-auth-ssrf-gets-hotfix-install-asap-2026-10-07",
-    "title": "SonicWall SMA 1000 pre-auth SSRF gets hotfix, install ASAP",
-    "originalTitle": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
-    "summary": "A max severity SSRF bug CVE-2026-102255 lets unauthenticated attackers proxy requests through SMA 1000 appliances, so deploy SonicWall hotfixes, limit management interfaces, and audit logs.",
-    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/07/sonicwall-fixes-pre-auth-ssrf-flaw-in-sma-1000-appliances-cve-2026-102255/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-07T11:37:07.000Z",
-    "fetchedAt": "2026-10-07T13:16:53.141Z"
-  },
-  {
-    "slug": "attackers-hijacked-cctlds-got-tls-certs-for-google-domains-2026-10-07",
-    "title": "Attackers hijacked ccTLDs, got TLS certs for Google domains",
-    "originalTitle": "Hackers hijack three country-code domain registries, obtain HTTPS certificates for Google domains",
-    "summary": "With three ccTLD registries compromised and bogus certificates issued, tighten HSTS and certificate monitoring, and warn users to be wary of phishing on unusual country domains.",
-    "url": "https://www.helpnetsecurity.com/2026/10/07/google-unauthorized-https-certificates-cctld-hijacks/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-07T11:10:29.000Z",
-    "fetchedAt": "2026-10-07T13:16:53.141Z"
-  },
-  {
-    "slug": "chrome-155-fixes-247-bugs-four-critical-roll-it-out-2026-10-07",
-    "title": "Chrome 155 fixes 247 bugs, four critical, roll it out",
-    "originalTitle": "Chrome 155 Update Patches 247 Vulnerabilities",
-    "summary": "Push Chrome 155 across your fleet quickly, it patches four critical use-after-free flaws in components like Chromecast and Navigation plus hundreds more issues.",
-    "url": "https://www.securityweek.com/chrome-155-update-patches-247-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-07T10:51:57.000Z",
-    "fetchedAt": "2026-10-07T13:16:53.141Z"
-  },
-  {
-    "slug": "anthropic-opens-bigger-claude-access-for-verified-defenders-2026-10-07",
-    "title": "Anthropic opens bigger Claude access for verified defenders",
-    "originalTitle": "Anthropic Introduces 3-Tier Cyber Verification Program for AI Access",
-    "summary": "Vetted security teams can request reduced safeguards in Claude under a new three-tier program, enabling malware analysis and vuln testing while maintaining gating and audit controls.",
-    "url": "https://www.securityweek.com/anthropic-introduces-3-tier-cyber-verification-program-for-ai-access/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/07/anthropic-expands-cyber-verification-program/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-07T10:07:09.000Z",
-    "fetchedAt": "2026-10-07T13:16:53.141Z"
-  },
-  {
-    "slug": "fake-cloudflare-checks-deliver-lunexstealer-via-100-hacked-s-2026-10-07",
-    "title": "Fake Cloudflare checks deliver LunexStealer via 100+ hacked sites",
-    "originalTitle": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
-    "summary": "CERT-UA reports compromised sites pushing info-stealer malware under bogus Cloudflare verification, so block malicious scripts, harden web supply chains, and strengthen endpoint protections.",
-    "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-07T06:57:54.000Z",
-    "fetchedAt": "2026-10-07T13:16:53.141Z"
-  },
-  {
-    "slug": "android-october-updates-fix-critical-privilege-escalation-2026-10-07",
-    "title": "Android October updates fix critical privilege escalation",
-    "originalTitle": "Android’s October 2026 Updates Patch 25 Vulnerabilities",
-    "summary": "Prioritize October Android patches for corporate devices, they address 25 flaws including a critical System component bug that could allow privilege escalation.",
-    "url": "https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-07T06:55:52.000Z",
-    "fetchedAt": "2026-10-07T13:16:53.141Z"
-  },
-  {
-    "slug": "ai-agent-gateway-keeps-bot-secrets-out-of-configs-2026-10-07",
-    "title": "AI Agent Gateway keeps bot secrets out of configs",
-    "originalTitle": "AI Agent Gateway: Open-source tool keeps credentials out of agent configs",
-    "summary": "Deploy Tuskira’s open-source AI Agent Gateway to proxy agent access to MCP tools and models, centralize secrets in your environment, and keep credentials out of agent configs.",
-    "url": "https://www.helpnetsecurity.com/2026/10/07/open-source-ai-agent-gateway/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-07T05:30:59.000Z",
-    "fetchedAt": "2026-10-07T05:54:26.779Z"
-  },
-  {
-    "slug": "openssh-10-6-ships-post-quantum-signatures-replace-test-keys-2026-10-07",
-    "title": "OpenSSH 10.6 ships post-quantum signatures, replace test keys",
-    "originalTitle": "OpenSSH 10.6 enables a post-quantum signature algorithm, so experimental keys need replacing",
-    "summary": "Update to OpenSSH 10.6 to pick up security fixes and a post-quantum signature, and replace any experimental PQ keys generated by earlier test builds.",
-    "url": "https://www.helpnetsecurity.com/2026/10/07/openssh-10-6-released/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-07T05:12:21.000Z",
-    "fetchedAt": "2026-10-07T05:54:26.779Z"
   }
 ]
