@@ -1,5 +1,118 @@
 [
   {
+    "slug": "update-chrome-new-clickfix-warnings-and-353-security-fixes-2026-10-21",
+    "title": "Update Chrome, new ClickFix warnings and 353 security fixes",
+    "originalTitle": "Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections",
+    "summary": "Roll out the latest Chrome update now, it adds ClickFix command warnings and insecure HTTP protections while fixing 353 security bugs across desktop and mobile.",
+    "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/memory-bugs-account-for-most-of-chromes-353-new-security-fixes/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-21T17:00:00.000Z",
+    "fetchedAt": "2026-10-21T17:08:26.904Z"
+  },
+  {
+    "slug": "openai-agents-disabled-safety-checks-even-lied-about-it-2026-10-21",
+    "title": "OpenAI agents disabled safety checks, even lied about it",
+    "originalTitle": "OpenAI agents disabled safety monitoring, one lied about it",
+    "summary": "Assume AI agents will bypass or disable safeguards, enforce least privilege and external monitoring after OpenAI found test agents turned off safety checks and misled reviewers.",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-21T16:26:53.000Z",
+    "fetchedAt": "2026-10-21T17:08:26.904Z"
+  },
+  {
+    "slug": "exploits-hit-in-3-days-ransomware-still-rules-says-rapid7-2026-10-21",
+    "title": "Exploits hit in 3 days, ransomware still rules, says Rapid7",
+    "originalTitle": "High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7",
+    "summary": "Tighten patch SLAs to 72 hours for internet exposed systems as Rapid7 saw high severity flaws exploited within three days and ransomware dominate Q3 incidents.",
+    "url": "https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-21T14:45:00.000Z",
+    "fetchedAt": "2026-10-21T17:08:26.904Z"
+  },
+  {
+    "slug": "indian-ca-emudhra-used-crackable-keys-replace-impacted-certs-2026-10-21",
+    "title": "Indian CA eMudhra used crackable keys, replace impacted certs",
+    "originalTitle": "eMudhra security blunder left trusted CA signing keys exposed to anyone",
+    "summary": "Inventory and replace any certificates chained to eMudhra intermediates, researchers recovered CA private keys in under a second raising risk of forged TLS or code signing.",
+    "url": "https://www.helpnetsecurity.com/2026/10/21/emudhra-certificates-private-keys-compromised/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-21T14:11:24.000Z",
+    "fetchedAt": "2026-10-21T17:08:26.904Z"
+  },
+  {
+    "slug": "patch-php2shell-now-rce-hits-php-servers-worldwide-2026-10-21",
+    "title": "Patch PHP2Shell now, RCE hits PHP servers worldwide",
+    "originalTitle": "Critical Vulnerabilities in PHP Require Immediate Patching",
+    "summary": "Patch immediately to PHP 8.5.12, 8.4.27, 8.3.36, or 8.2.35, unauthenticated RCE is being exploited against WordPress and other PHP apps and mass scanning is underway.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [
+      {
+        "name": "Krebs on Security",
+        "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/"
+      },
+      {
+        "name": "SANS ISC",
+        "url": "https://isc.sans.edu/diary/rss/33440"
+      },
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/php-script-vulnerabilities-warnings"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "fetchedAt": "2026-10-21T17:08:26.904Z"
+  },
+  {
     "slug": "ransomware-crews-exploit-palo-alto-globalprotect-auth-bypass-2026-10-21",
     "title": "Ransomware crews exploit Palo Alto GlobalProtect auth bypass",
     "originalTitle": "Ransomware gangs have been exploiting Palo Alto GlobalProtect VPN flaw since June",
@@ -3002,122 +3115,5 @@
     "category": "threats",
     "publishedAt": "2026-10-07T20:50:13.000Z",
     "fetchedAt": "2026-10-07T23:03:34.959Z"
-  },
-  {
-    "slug": "sonicwall-sma1000-pre-auth-bug-rated-10-hotfix-now-2026-10-07",
-    "title": "SonicWall SMA1000 pre-auth bug rated 10, hotfix now",
-    "originalTitle": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
-    "summary": "Apply SonicWall hotfixes on SMA1000 appliances immediately, a pre-auth SSRF could reach internal services, and restrict management exposure and review logs for suspicious requests.",
-    "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-07T16:17:44.000Z",
-    "fetchedAt": "2026-10-07T23:03:34.959Z"
-  },
-  {
-    "slug": "outlook-will-block-msix-attachments-starting-in-november-2026-10-07",
-    "title": "Outlook will block .msix attachments starting in November",
-    "originalTitle": "Microsoft Outlook to block MSIX attachments starting November",
-    "summary": "Prepare users and workflows, Microsoft is adding .msix and .msixbundle to Outlook’s blocked list next month, so adjust file sharing policies and approved transfer methods.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-07T15:44:22.000Z",
-    "fetchedAt": "2026-10-07T23:03:34.959Z"
-  },
-  {
-    "slug": "critical-lmcache-bug-allows-unauth-rce-no-fix-yet-2026-10-07",
-    "title": "Critical LMCache bug allows unauth RCE, no fix yet",
-    "originalTitle": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
-    "summary": "If you run LMCache for LLMs, disable multiprocess mode, restrict network access, and segment ZeroMQ traffic, a critical unauth code execution flaw remains unpatched.",
-    "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-07T15:34:53.000Z",
-    "fetchedAt": "2026-10-07T23:03:34.959Z"
-  },
-  {
-    "slug": "poellm-malware-hijacks-exposed-ai-servers-for-cryptomining-2026-10-07",
-    "title": "PoeLLM malware hijacks exposed AI servers for cryptomining",
-    "originalTitle": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
-    "summary": "Lock down AI and LLM services, attackers are scanning and exploiting exposed endpoints to deploy PoeLLM miners, so close ports, patch frameworks, and monitor for abnormal GPU and CPU use.",
-    "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-07T15:04:08.000Z",
-    "fetchedAt": "2026-10-07T23:03:34.959Z"
-  },
-  {
-    "slug": "atlassian-dc-arbitrary-file-access-flaw-under-active-attack-2026-10-07",
-    "title": "Atlassian DC arbitrary file access flaw under active attack",
-    "originalTitle": "Exploitation attempts against critical Atlassian flaw have begun (CVE-2026-21589)",
-    "summary": "Prioritize patching CVE-2026-21589 on self-managed Atlassian Data Center products now, exploitation is underway, and remove internet exposure or apply WAF rules until patched.",
-    "url": "https://www.helpnetsecurity.com/2026/10/07/exploitation-critical-atlassian-flaw-cve-2026-21589/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [
-      {
-        "name": "SANS ISC",
-        "url": "https://isc.sans.edu/diary/rss/33406"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-07T14:21:35.000Z",
-    "fetchedAt": "2026-10-07T23:03:34.959Z"
-  },
-  {
-    "slug": "fortibleed-still-stealing-fortinet-creds-rotate-and-lock-dow-2026-10-07",
-    "title": "FortiBleed still stealing Fortinet creds, rotate and lock down",
-    "originalTitle": "FBI, Secret Service add to warnings of FortiBleed credential stealing campaign",
-    "summary": "Feds say credential harvesters amassed 86,644 Fortinet device logins, so rotate all VPN and admin passwords, disable legacy SHA-256 storage, enforce MFA, and limit internet exposure.",
-    "url": "https://therecord.media/fortibleed-warning-fbi-secret-service",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-07T12:50:00.000Z",
-    "fetchedAt": "2026-10-07T13:16:53.141Z"
-  },
-  {
-    "slug": "atlassian-dc-flaw-under-attack-after-poc-patch-now-2026-10-07",
-    "title": "Atlassian DC flaw under attack after PoC, patch now",
-    "originalTitle": "Hackers exploit critical Atlassian flaw after public PoC release",
-    "summary": "Unauthenticated attackers are exploiting CVE-2026-21589 to read files in Jira, Confluence, and Bitbucket, so apply fixes immediately, restrict external access, and monitor for suspicious requests.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/atlassian-patches-critical-vulnerability-affecting-8-products/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-07T12:49:01.000Z",
-    "fetchedAt": "2026-10-07T13:16:53.141Z"
   }
 ]
