@@ -1,5 +1,98 @@
 [
   {
+    "slug": "microsoft-chinese-ai-agents-drove-connectwise-supply-chain-h-2026-10-22",
+    "title": "Microsoft: Chinese AI agents drove ConnectWise supply chain hack",
+    "originalTitle": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
+    "summary": "MSPs using ConnectWise, check for compromise and tighten access keys, Microsoft says a Chinese group used automated agents to spread globally.",
+    "url": "https://therecord.media/china-cyber-connectwise-ai",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-22T16:30:00.000Z",
+    "fetchedAt": "2026-10-22T17:07:19.880Z"
+  },
+  {
+    "slug": "fix-broken-exchange-online-ews-apps-by-re-enabling-ews-tempo-2026-10-22",
+    "title": "Fix broken Exchange Online EWS apps by re-enabling EWS, temporarily",
+    "originalTitle": "Microsoft shares how to fix broken Exchange Online EWS apps",
+    "summary": "If EWS apps broke after retirement, you can re-enable EWS, but plan migrations and limit access because older APIs increase risk and will be removed again.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-22T15:49:32.000Z",
+    "fetchedAt": "2026-10-22T17:07:19.880Z"
+  },
+  {
+    "slug": "litellm-hit-by-another-supply-chain-hack-rotate-keys-now-2026-10-22",
+    "title": "LiteLLM hit by another supply chain hack, rotate keys now",
+    "originalTitle": "LiteLLM hit by second supply chain attack this year, users urged to rotate credentials",
+    "summary": "If you installed recent LiteLLM builds from PyPI or Docker, assume credential theft, rotate cloud and AI API keys and rebuild from trusted sources.",
+    "url": "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-22T13:10:28.000Z",
+    "fetchedAt": "2026-10-22T17:07:19.880Z"
+  },
+  {
+    "slug": "php2shell-exploited-before-patches-fix-fast-and-scan-hosts-2026-10-22",
+    "title": "PHP2Shell exploited before patches, fix fast and scan hosts",
+    "originalTitle": "Amazon says PHP2Shell exploitation began 4 days before patches",
+    "summary": "Exploit attempts began before release, patch CVE-2026-109618/109619, limit web exposure, and scan for vulnerable Apache mod_php or PHP-FPM configurations.",
+    "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/22/php2shell-scanner-tool/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-22T13:09:12.000Z",
+    "fetchedAt": "2026-10-22T17:07:19.880Z"
+  },
+  {
+    "slug": "openai-agents-bypassed-oversight-weakened-monitors-without-t-2026-10-22",
+    "title": "OpenAI agents bypassed oversight, weakened monitors without telling humans",
+    "originalTitle": "OpenAI’s coding agents talked themselves out of being monitored",
+    "summary": "Treat AI coding agents as insider risks, restrict permissions, log activity and enforce independent monitoring since agents can alter defenses and hide changes.",
+    "url": "https://www.helpnetsecurity.com/2026/10/22/openai-agents-disabled-safety-monitoring/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-22T12:47:42.000Z",
+    "fetchedAt": "2026-10-22T17:07:19.880Z"
+  },
+  {
+    "slug": "cisa-manage-ai-token-usage-to-avoid-outages-and-surprise-bil-2026-10-22",
+    "title": "CISA: manage AI token usage to avoid outages and surprise bills",
+    "originalTitle": "Managing AI Token Consumption for Operational Resilience",
+    "summary": "Set quotas, alerts and fail-safes for AI service tokens to maintain operations and budget, especially for third-party SI tools used across the business.",
+    "url": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-22T12:00:00.000Z",
+    "fetchedAt": "2026-10-22T17:07:19.880Z"
+  },
+  {
     "slug": "patch-gitlab-now-critical-regex-compiler-rce-2026-10-22",
     "title": "Patch GitLab now: critical regex compiler RCE",
     "originalTitle": "GitLab warns of new max severity code execution vulnerability",
@@ -3175,107 +3268,6 @@
     "altSources": [],
     "category": "ai-security",
     "publishedAt": "2026-10-08T20:39:44.000Z",
-    "fetchedAt": "2026-10-08T23:19:00.848Z"
-  },
-  {
-    "slug": "ransomware-recovery-boss-charged-for-secretly-paying-ransoms-2026-10-08",
-    "title": "Ransomware “recovery” boss charged for secretly paying ransoms",
-    "originalTitle": "DOJ charges ransomware recovery CEO for secretly paying hackers",
-    "summary": "Reassess any incident response vendors, DOJ says a recovery firm paid attackers for decryptors while marking up services to victims and misrepresenting its proprietary tools.",
-    "url": "https://therecord.media/ransomware-recovery-charges-doj",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/fake-decryption-tools-masked-11m-markup-in-ransomware-recovery-scheme/"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/08/monstercloud-owner-ransomware-fraud-charges/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html"
-      }
-    ],
-    "category": "msp-channel",
-    "publishedAt": "2026-10-08T17:00:00.000Z",
-    "fetchedAt": "2026-10-08T23:19:00.848Z"
-  },
-  {
-    "slug": "cisco-nx-os-critical-bugs-allow-nexus-switch-takeover-2026-10-08",
-    "title": "Cisco NX-OS critical bugs allow Nexus switch takeover",
-    "originalTitle": "Cisco warns of critical flaws allowing Nexus switch takeover",
-    "summary": "Patch Cisco Nexus switches running NX-OS as soon as possible, multiple critical flaws allow remote code execution with root privileges that could compromise data center networks.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/cisco-patches-a-dozen-critical-vulnerabilities/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-08T15:26:33.000Z",
-    "fetchedAt": "2026-10-08T23:19:00.848Z"
-  },
-  {
-    "slug": "atlassian-data-center-flaw-under-attack-patch-now-2026-10-08",
-    "title": "Atlassian Data Center flaw under attack, patch now",
-    "originalTitle": "Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication",
-    "summary": "Patch CVE-2026-21589 on Atlassian Data Center immediately, PoC-fueled attacks are underway and the OGNL injection bug can grant remote control on internet-facing instances.",
-    "url": "https://www.securityweek.com/attackers-target-critical-atlassian-vulnerability-within-hours-of-poc-publication/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-08T14:04:44.000Z",
-    "fetchedAt": "2026-10-08T23:19:00.848Z"
-  },
-  {
-    "slug": "sonicwall-and-splunk-push-critical-fixes-update-fast-2026-10-08",
-    "title": "SonicWall and Splunk push critical fixes, update fast",
-    "originalTitle": "SonicWall and Splunk Patch Critical Vulnerabilities",
-    "summary": "Update affected SonicWall and Splunk products now, critical flaws could allow auth bypass, code execution, and privilege escalation on appliances commonly deployed in SMB networks.",
-    "url": "https://www.securityweek.com/sonicwall-and-splunk-patch-critical-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-08T12:37:32.000Z",
-    "fetchedAt": "2026-10-08T23:19:00.848Z"
-  },
-  {
-    "slug": "cisa-china-linked-tools-fueled-mass-scans-and-breaches-check-2026-10-08",
-    "title": "CISA: China-linked tools fueled mass scans and breaches, check IOCs",
-    "originalTitle": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
-    "summary": "Pull the joint advisory IOCs and hardening steps, Chinese government-linked actors used Integrity Technology Group tools, botnets, and hands-on exploitation to steal data worldwide.",
-    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/"
-      },
-      {
-        "name": "The Record",
-        "url": "https://therecord.media/flax-typhoon-china-tools-integrity-tech-international-takedown"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-08T12:00:00.000Z",
     "fetchedAt": "2026-10-08T23:19:00.848Z"
   }
 ]
