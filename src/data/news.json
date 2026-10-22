@@ -1,5 +1,94 @@
 [
   {
+    "slug": "railway-warns-customers-to-rotate-environment-secrets-after-2026-10-22",
+    "title": "Railway warns customers to rotate environment secrets after intrusion",
+    "originalTitle": "Railway warns devs to rotate secrets after potential breach",
+    "summary": "Rotate and revoke any secrets stored in Railway after suspicious access to its environment variable storage was detected.",
+    "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-22T21:25:31.000Z",
+    "fetchedAt": "2026-10-22T21:32:43.800Z"
+  },
+  {
+    "slug": "emudhra-quits-ssl-tls-after-shockingly-weak-ca-private-keys-2026-10-22",
+    "title": "eMudhra quits SSL/TLS after shockingly weak CA private keys",
+    "originalTitle": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
+    "summary": "Check and replace any eMudhra-issued certificates, the CA is exiting after researchers recovered eight intermediate private keys, breaking trust in affected chains.",
+    "url": "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html"
+      }
+    ],
+    "category": "industry",
+    "publishedAt": "2026-10-22T20:17:52.000Z",
+    "fetchedAt": "2026-10-22T21:32:43.800Z"
+  },
+  {
+    "slug": "litellm-supply-chain-hack-pushed-info-stealer-via-pypi-and-d-2026-10-22",
+    "title": "LiteLLM supply chain hack pushed info-stealer via PyPI and Docker",
+    "originalTitle": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+    "summary": "Audit and reinstall LiteLLM deployments, attackers backdoored recent PyPI and Docker releases to exfiltrate credentials, secrets, and environment variables from developer environments.",
+    "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-22T19:12:51.000Z",
+    "fetchedAt": "2026-10-22T21:32:43.800Z"
+  },
+  {
+    "slug": "patch-arista-velocloud-orchestrator-zero-day-exploited-in-th-2026-10-22",
+    "title": "Patch Arista VeloCloud Orchestrator zero-day exploited in the wild",
+    "originalTitle": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+    "summary": "If you run VCO On-Prem, apply Arista's updates now, attackers are exploiting a SQL injection to gain operator privileges in SD-WAN orchestrators.",
+    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-22T17:18:22.000Z",
+    "fetchedAt": "2026-10-22T21:32:43.800Z"
+  },
+  {
+    "slug": "two-unauthenticated-linux-ksmbd-rce-bugs-disclosed-no-fixes-2026-10-22",
+    "title": "Two unauthenticated Linux KSMBD RCE bugs disclosed, no fixes yet",
+    "originalTitle": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+    "summary": "If you enabled KSMBD, disable it and block SMB and RDMA at the perimeter, two CVSS 9.0 RCE flaws are public without kernel patches.",
+    "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-22T17:01:53.000Z",
+    "fetchedAt": "2026-10-22T21:32:43.800Z"
+  },
+  {
     "slug": "microsoft-chinese-ai-agents-drove-connectwise-supply-chain-h-2026-10-22",
     "title": "Microsoft: Chinese AI agents drove ConnectWise supply chain hack",
     "originalTitle": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
@@ -3255,19 +3344,5 @@
     "category": "ai-security",
     "publishedAt": "2026-10-09T05:00:25.000Z",
     "fetchedAt": "2026-10-09T06:04:10.909Z"
-  },
-  {
-    "slug": "aws-bedrock-agentcore-bug-let-prompts-hijack-agent-fleets-2026-10-08",
-    "title": "AWS Bedrock AgentCore bug let prompts hijack agent fleets",
-    "originalTitle": "'AgentCorruption' Puts AWS Environments At Risk With Single Prompt",
-    "summary": "Ensure Bedrock AgentCore is updated and tighten agent permissions, a now-patched issue let a single prompt trigger actions that could take over connected AWS resources.",
-    "url": "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-08T20:39:44.000Z",
-    "fetchedAt": "2026-10-08T23:19:00.848Z"
   }
 ]
