@@ -1,5 +1,126 @@
 [
   {
+    "slug": "patch-gitlab-now-critical-regex-compiler-rce-2026-10-22",
+    "title": "Patch GitLab now: critical regex compiler RCE",
+    "originalTitle": "GitLab warns of new max severity code execution vulnerability",
+    "summary": "GitLab fixed a max severity regex compiler flaw enabling remote code execution, patch all GitLab instances now and restrict public access to exposed services.",
+    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-22T11:41:48.000Z",
+    "fetchedAt": "2026-10-22T11:46:16.416Z"
+  },
+  {
+    "slug": "railway-warns-env-vars-may-be-exposed-rotate-creds-2026-10-22",
+    "title": "Railway warns env vars may be exposed, rotate creds",
+    "originalTitle": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+    "summary": "Railway detected intruder access to some customer environment variables, immediately rotate secrets, revoke tokens, and redeploy affected services to prevent compromise.",
+    "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-22T11:15:42.000Z",
+    "fetchedAt": "2026-10-22T11:46:16.416Z"
+  },
+  {
+    "slug": "splunk-and-solarwinds-ship-fixes-prioritize-patching-2026-10-22",
+    "title": "Splunk and SolarWinds ship fixes, prioritize patching",
+    "originalTitle": "Splunk, SolarWinds Release Fresh Security Updates",
+    "summary": "New security updates address code execution, privilege escalation, and data leak risks, schedule updates quickly for widely deployed logging and monitoring stacks.",
+    "url": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-22T10:45:24.000Z",
+    "fetchedAt": "2026-10-22T11:46:16.416Z"
+  },
+  {
+    "slug": "php2shell-hits-pan-os-patches-pending-harden-now-2026-10-22",
+    "title": "PHP2Shell hits PAN-OS, patches pending, harden now",
+    "originalTitle": "What the PHP2Shell vulnerability means for Fortinet, Cisco and Palo Alto customers",
+    "summary": "Critical PHP bugs are being actively exploited and affect all PAN-OS versions, apply PHP patches, lock down admin interfaces, and monitor vendor advisories for product updates.",
+    "url": "https://www.helpnetsecurity.com/2026/10/22/php2shell-vulnerability-fortinet-cisco-palo-alto-networks/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-22T10:22:56.000Z",
+    "fetchedAt": "2026-10-22T11:46:16.416Z"
+  },
+  {
+    "slug": "cisco-fixes-34-flaws-including-critical-auth-bypass-2026-10-22",
+    "title": "Cisco fixes 34 flaws, including critical auth bypass",
+    "originalTitle": "Cisco Patches 34 Vulnerabilities Across Multiple Products",
+    "summary": "Update Cisco gear to close critical bugs enabling command execution and authentication bypass, prioritize internet-facing devices and management interfaces.",
+    "url": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-22T10:05:21.000Z",
+    "fetchedAt": "2026-10-22T11:46:16.416Z"
+  },
+  {
+    "slug": "litellm-release-pipeline-hijacked-malicious-package-pushed-2026-10-22",
+    "title": "LiteLLM release pipeline hijacked, malicious package pushed",
+    "originalTitle": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+    "summary": "Attackers slipped a credential stealer and backdoor into LiteLLM 1.107.0 on PyPI and Docker, pull fixed builds, rotate tokens, and scan for indicators.",
+    "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-22T08:28:48.000Z",
+    "fetchedAt": "2026-10-22T11:46:16.416Z"
+  },
+  {
+    "slug": "node-js-updates-fix-brotli-rce-patch-all-supported-versions-2026-10-22",
+    "title": "Node.js updates fix Brotli RCE, patch all supported versions",
+    "originalTitle": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+    "summary": "Node.js released updates for 22.x, 24.x, and 26.x to fix a Brotli decompression RCE, upgrade immediately in apps that process untrusted data.",
+    "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-22T07:47:22.000Z",
+    "fetchedAt": "2026-10-22T11:46:16.416Z"
+  },
+  {
+    "slug": "connectwise-cloud-backup-supply-chain-hack-check-systems-2026-10-22",
+    "title": "ConnectWise Cloud Backup supply chain hack, check systems",
+    "originalTitle": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+    "summary": "Microsoft says Storm-0940 used agentic AI tooling in the ConnectWise Cloud Backup compromise, audit backups, apply guidance, and hunt for abnormal activity in MSP environments.",
+    "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-22T04:21:26.000Z",
+    "fetchedAt": "2026-10-22T11:46:16.416Z"
+  },
+  {
     "slug": "teams-use-ai-agents-but-can-t-tell-when-they-re-wrong-2026-10-22",
     "title": "Teams use AI agents, but can't tell when they're wrong",
     "originalTitle": "AI agent observability is struggling to keep up with hallucinations",
@@ -3155,34 +3276,6 @@
     ],
     "category": "threats",
     "publishedAt": "2026-10-08T12:00:00.000Z",
-    "fetchedAt": "2026-10-08T23:19:00.848Z"
-  },
-  {
-    "slug": "github-adds-ai-secret-detector-to-block-passwords-at-push-2026-10-08",
-    "title": "GitHub adds AI secret detector to block passwords at push",
-    "originalTitle": "GitHub adds AI to catch passwords before a code push",
-    "summary": "Turn on GitHub push protection org-wide, the new AI classifier catches hardcoded passwords and tokens before they enter repos and can block risky commits.",
-    "url": "https://www.helpnetsecurity.com/2026/10/08/github-push-protection-modernbert/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-08T09:02:11.000Z",
-    "fetchedAt": "2026-10-08T23:19:00.848Z"
-  },
-  {
-    "slug": "fortibleed-crews-are-locking-admins-out-of-fortinet-gear-2026-10-08",
-    "title": "FortiBleed crews are locking admins out of Fortinet gear",
-    "originalTitle": "FortiBleed Attackers Locking Victims Out of Fortinet Devices",
-    "summary": "Audit FortiGate and related devices for rogue accounts and reset credentials, attackers are exploiting FortiBleed then creating new admins and deleting existing access to hold devices hostage.",
-    "url": "https://www.securityweek.com/fortibleed-attackers-locking-victims-out-of-fortinet-devices/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-08T07:52:33.000Z",
     "fetchedAt": "2026-10-08T23:19:00.848Z"
   }
 ]
