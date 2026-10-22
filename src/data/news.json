@@ -1,5 +1,75 @@
 [
   {
+    "slug": "teams-use-ai-agents-but-can-t-tell-when-they-re-wrong-2026-10-22",
+    "title": "Teams use AI agents, but can't tell when they're wrong",
+    "originalTitle": "AI agent observability is struggling to keep up with hallucinations",
+    "summary": "Before letting AI agents triage or fix incidents, build observability and guardrails, track accuracy, and require human review to prevent hallucinated changes and outages.",
+    "url": "https://www.helpnetsecurity.com/2026/10/22/ai-agent-observability-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-22T04:00:14.000Z",
+    "fetchedAt": "2026-10-22T04:38:16.870Z"
+  },
+  {
+    "slug": "chrome-now-prompts-before-connecting-to-insecure-http-sites-2026-10-21",
+    "title": "Chrome now prompts before connecting to insecure HTTP sites",
+    "originalTitle": "Chrome puts insecure sites behind a permission prompt",
+    "summary": "Brief users on the new prompt, inventory and migrate any legacy services still on HTTP to HTTPS, or set exceptions carefully to avoid breaking critical workflows.",
+    "url": "https://www.helpnetsecurity.com/2026/10/22/google-chrome-https-protection/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-21T22:30:30.000Z",
+    "fetchedAt": "2026-10-22T04:38:16.870Z"
+  },
+  {
+    "slug": "chrome-adds-gemini-scam-detection-blocks-copied-clickfix-com-2026-10-21",
+    "title": "Chrome adds Gemini scam detection, blocks copied ClickFix commands",
+    "originalTitle": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+    "summary": "Keep Chrome updated, new protections flag deceptive sites and warn when copied commands look malicious, reducing drive-by and ClickFix-style social engineering.",
+    "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-21T22:16:26.000Z",
+    "fetchedAt": "2026-10-22T04:38:16.870Z"
+  },
+  {
+    "slug": "vps-provider-onamae-hack-infects-up-to-27k-customer-servers-2026-10-21",
+    "title": "VPS provider Onamae hack infects up to 27k customer servers",
+    "originalTitle": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+    "summary": "If you use Onamae Desktop Cloud, assume your VPS is compromised, isolate and rebuild, rotate credentials and keys, audit logs, and verify clean, offline backups.",
+    "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-21T21:43:27.000Z",
+    "fetchedAt": "2026-10-22T04:38:16.870Z"
+  },
+  {
+    "slug": "tidb-breach-highlights-hidden-customer-data-at-cloud-provide-2026-10-21",
+    "title": "TiDB breach highlights hidden customer data at cloud providers",
+    "originalTitle": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
+    "summary": "Review what telemetry, snapshots and logs your cloud vendors retain, enable encryption, minimize stored PII, and update contracts and incident playbooks, data exposure may be wider than assumed.",
+    "url": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-21T21:15:39.000Z",
+    "fetchedAt": "2026-10-22T04:38:16.870Z"
+  },
+  {
     "slug": "critical-php-bugs-under-attack-update-now-2026-10-21",
     "title": "Critical PHP bugs under attack, update now",
     "originalTitle": "'PHP2Shell' Bugs Signal Red Alert for Security Industry",
@@ -3114,61 +3184,5 @@
     "category": "threats",
     "publishedAt": "2026-10-08T07:52:33.000Z",
     "fetchedAt": "2026-10-08T23:19:00.848Z"
-  },
-  {
-    "slug": "even-security-pros-still-use-passwords-passkey-adoption-lags-2026-10-08",
-    "title": "Even security pros still use passwords, passkey adoption lags",
-    "originalTitle": "The people who know passkeys best are still typing passwords",
-    "summary": "Move users to phishing resistant MFA and passkeys, as a Yubico and Okta survey found 43 percent still sign in with passwords despite high familiarity with modern authentication.",
-    "url": "https://www.helpnetsecurity.com/2026/10/08/passkey-adoption-typing-passwords/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-08T04:30:20.000Z",
-    "fetchedAt": "2026-10-08T05:58:08.980Z"
-  },
-  {
-    "slug": "patch-your-java-libraries-400-flaws-fixed-by-ibm-and-red-hat-2026-10-08",
-    "title": "Patch your Java libraries: 400+ flaws fixed by IBM and Red Hat",
-    "originalTitle": "Java library vulnerabilities: IBM and Red Hat fix 400+ previously unknown flaws",
-    "summary": "Update affected Java libraries now, inventory dependencies and rebuild apps, as IBM and Red Hat patched 400-plus previously unknown vulnerabilities that leave production systems exposed until fixed.",
-    "url": "https://www.helpnetsecurity.com/2026/10/08/lightwell-java-library-vulnerabilities/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-08T04:18:00.000Z",
-    "fetchedAt": "2026-10-08T05:58:08.980Z"
-  },
-  {
-    "slug": "healthcare-devices-exploited-pqc-readiness-still-far-behind-2026-10-08",
-    "title": "Healthcare devices exploited, PQC readiness still far behind",
-    "originalTitle": "Medical devices patients rely on most are least prepared for quantum attacks",
-    "summary": "If you serve healthcare, lock down IoT and IoMT with segmentation and monitoring, as ransomware actors actively exploit these devices and most organizations lag on post-quantum crypto planning.",
-    "url": "https://www.helpnetsecurity.com/2026/10/08/forescout-healthcare-quantum-readiness-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-08T04:00:14.000Z",
-    "fetchedAt": "2026-10-08T05:58:08.980Z"
-  },
-  {
-    "slug": "ransomware-recovery-firm-charged-for-secretly-paying-attacke-2026-10-07",
-    "title": "Ransomware “recovery” firm charged for secretly paying attackers",
-    "originalTitle": "Ransomware recovery CEO charged over secret ransom payments",
-    "summary": "Tighten vendor due diligence and incident playbooks: a recovery company CEO was charged after allegedly paying ransoms for decryptors while claiming proprietary nonpayment remediation to victims.",
-    "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-07T23:04:37.000Z",
-    "fetchedAt": "2026-10-08T05:58:08.980Z"
   }
 ]
