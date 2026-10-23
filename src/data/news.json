@@ -1,5 +1,19 @@
 [
   {
+    "slug": "ai-is-squeezing-cybersecurity-jobs-report-warns-2026-10-23",
+    "title": "AI is squeezing cybersecurity jobs, report warns",
+    "originalTitle": "AI is taking cybersecurity jobs at junior and experienced levels alike",
+    "summary": "Plan for re-skilling and role redesign, 56 percent of organizations report AI-linked cuts to cybersecurity staff split evenly across junior and senior levels.",
+    "url": "https://www.helpnetsecurity.com/2026/10/23/barracuda-cybersecurity-career-development-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-10-23T04:30:39.000Z",
+    "fetchedAt": "2026-10-23T04:44:15.993Z"
+  },
+  {
     "slug": "railway-warns-customers-to-rotate-environment-secrets-after-2026-10-22",
     "title": "Railway warns customers to rotate environment secrets after intrusion",
     "originalTitle": "Railway warns devs to rotate secrets after potential breach",
@@ -12,6 +26,20 @@
     "category": "threats",
     "publishedAt": "2026-10-22T21:25:31.000Z",
     "fetchedAt": "2026-10-22T21:32:43.800Z"
+  },
+  {
+    "slug": "connectwise-supply-chain-hit-tied-to-storm-0940-microsoft-sa-2026-10-22",
+    "title": "ConnectWise supply chain hit tied to Storm-0940, Microsoft says",
+    "originalTitle": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
+    "summary": "MSPs should review ConnectWise and Microsoft advisories and hunt for indicators now, a China-linked group used AI tooling to hit more than 2,200 tenants.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-22T20:42:17.000Z",
+    "fetchedAt": "2026-10-23T04:44:15.993Z"
   },
   {
     "slug": "emudhra-quits-ssl-tls-after-shockingly-weak-ca-private-keys-2026-10-22",
