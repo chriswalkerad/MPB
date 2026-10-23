@@ -1,5 +1,103 @@
 [
   {
+    "slug": "apt-used-ai-pentest-tool-to-hit-connectwise-hundreds-targete-2026-10-23",
+    "title": "APT used AI pentest tool to hit ConnectWise, hundreds targeted",
+    "originalTitle": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
+    "summary": "Lock down and monitor ConnectWise admin interfaces, EDR and logging, China-linked actors used the Artex AI pentest tool to target hundreds and obtain privileged access.",
+    "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-23T10:31:16.000Z",
+    "fetchedAt": "2026-10-23T11:33:40.858Z"
+  },
+  {
+    "slug": "velocloud-orchestrator-hit-by-third-zero-day-exploit-in-the-2026-10-23",
+    "title": "VeloCloud Orchestrator hit by third zero-day, exploit in the wild",
+    "originalTitle": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
+    "summary": "If you run VMware VeloCloud Orchestrator, restrict internet exposure and apply VMware mitigations now, attackers are exploiting a critical SQL injection to gain operator-level access.",
+    "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-23T09:58:34.000Z",
+    "fetchedAt": "2026-10-23T11:33:40.858Z"
+  },
+  {
+    "slug": "pillow-image-library-bug-enables-rce-via-crafted-eps-files-2026-10-23",
+    "title": "Pillow image library bug enables RCE via crafted EPS files",
+    "originalTitle": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+    "summary": "Update Pillow or disable EPS support immediately, CVE-2026-112900 lets crafted EPS filenames trigger Ghostscript and execute commands when apps process untrusted images.",
+    "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-23T09:36:00.000Z",
+    "fetchedAt": "2026-10-23T11:33:40.858Z"
+  },
+  {
+    "slug": "attackers-hijack-exposed-ai-models-to-plan-break-ins-on-your-2026-10-23",
+    "title": "Attackers hijack exposed AI models to plan break-ins on your dime",
+    "originalTitle": "Hackers hijack exposed AI models to launch cyberattacks at victims’ expense",
+    "summary": "Secure any internet-exposed AI model endpoints with authentication and spend limits, Symantec caught an agent abusing open models to plan intrusions while charging the owner.",
+    "url": "https://www.helpnetsecurity.com/2026/10/23/llmjacking-agent-hijacks-exposed-ai-models/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-23T08:21:48.000Z",
+    "fetchedAt": "2026-10-23T11:33:40.858Z"
+  },
+  {
+    "slug": "litellm-project-hijacked-malicious-pypi-and-docker-releases-2026-10-23",
+    "title": "LiteLLM project hijacked, malicious PyPI and Docker releases pushed",
+    "originalTitle": "LiteLLM Compromised in Fresh Supply Chain Attack",
+    "summary": "If you installed LiteLLM from PyPI or Docker recently, audit and reinstall trusted versions, rotate secrets, attackers pushed approved malicious builds via stolen GitHub OAuth tokens.",
+    "url": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-23T08:10:46.000Z",
+    "fetchedAt": "2026-10-23T11:33:40.858Z"
+  },
+  {
+    "slug": "atlassian-ships-75-fixes-for-data-center-and-server-14-criti-2026-10-23",
+    "title": "Atlassian ships 75 fixes for Data Center and Server, 14 critical",
+    "originalTitle": "Atlassian Patches 75 Flaws in Data Center and Server Products",
+    "summary": "Schedule a maintenance window to apply Atlassian’s October updates, 75 fixes across Data Center and Server include 14 critical third-party component bugs that remain exploitable in products.",
+    "url": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-23T07:54:47.000Z",
+    "fetchedAt": "2026-10-23T11:33:40.858Z"
+  },
+  {
+    "slug": "mass-php2shell-scanning-tries-to-build-mirai-botnets-mostly-2026-10-23",
+    "title": "Mass PHP2Shell scanning tries to build Mirai botnets, mostly failing",
+    "originalTitle": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+    "summary": "Patch PHP to the latest emergency PHP2Shell fixes and monitor for Mirai-style traffic, mass scans are probing CVE-2026-109618 and CVE-2026-109619 though reliable exploitation appears difficult.",
+    "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-23T07:40:45.000Z",
+    "fetchedAt": "2026-10-23T11:33:40.858Z"
+  },
+  {
     "slug": "ai-is-squeezing-cybersecurity-jobs-report-warns-2026-10-23",
     "title": "AI is squeezing cybersecurity jobs, report warns",
     "originalTitle": "AI is taking cybersecurity jobs at junior and experienced levels alike",
@@ -3279,98 +3377,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-09T12:21:51.000Z",
     "fetchedAt": "2026-10-09T13:12:10.648Z"
-  },
-  {
-    "slug": "ahsaycbs-backup-servers-hit-via-auth-bypass-and-command-inje-2026-10-09",
-    "title": "AhsayCBS backup servers hit via auth bypass and command injection",
-    "originalTitle": "Unpatched AhsayCBS Vulnerabilities Exploited in the Wild",
-    "summary": "Two AhsayCBS flaws, CVE-2026-105133 and CVE-2026-105134, are being exploited to bypass authentication and run OS commands, patch or isolate servers and audit for unauthorized jobs.",
-    "url": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-09T10:23:42.000Z",
-    "fetchedAt": "2026-10-09T13:12:10.648Z"
-  },
-  {
-    "slug": "unsupported-windows-devices-will-stop-getting-updates-next-y-2026-10-09",
-    "title": "Unsupported Windows devices will stop getting updates next year",
-    "originalTitle": "Microsoft: Outdated Windows devices will stop receiving security updates",
-    "summary": "Microsoft says Windows systems past end of support will lose security updates after next year's Windows Update certificate rotation, inventory and plan upgrades or isolation now.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-09T10:12:24.000Z",
-    "fetchedAt": "2026-10-09T13:12:10.648Z"
-  },
-  {
-    "slug": "citrix-netscaler-critical-rce-bug-urgent-patching-required-2026-10-09",
-    "title": "Citrix NetScaler critical RCE bug, urgent patching required",
-    "originalTitle": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
-    "summary": "Citrix warns of CVE-2026-107406 in NetScaler ADC and Gateway that can enable remote code execution, apply vendor fixes now and restrict management access to trusted networks.",
-    "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-09T08:27:42.000Z",
-    "fetchedAt": "2026-10-09T13:12:10.648Z"
-  },
-  {
-    "slug": "pwn2own-ireland-finds-98-zero-days-expect-a-flood-of-patches-2026-10-09",
-    "title": "Pwn2Own Ireland finds 98 zero-days, expect a flood of patches",
-    "originalTitle": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
-    "summary": "Track vendor advisories and patch fast, researchers popped 98 zero-days at Pwn2Own Ireland and vendors will ship fixes across widely used software.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-09T05:41:04.000Z",
-    "fetchedAt": "2026-10-09T06:04:10.909Z"
-  },
-  {
-    "slug": "thousands-of-eu-wind-and-solar-systems-exposed-online-2026-10-09",
-    "title": "Thousands of EU wind and solar systems exposed online",
-    "originalTitle": "Thousands of wind and solar park systems sit exposed on the internet across Europe",
-    "summary": "Audit and lock down any OT and energy gear on public IPs, researchers found 8,547 exposed interfaces including control pages with stop buttons at wind and solar sites.",
-    "url": "https://www.helpnetsecurity.com/2026/10/09/eu-renewable-energy-cybersecurity/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-09T05:30:52.000Z",
-    "fetchedAt": "2026-10-09T06:04:10.909Z"
-  },
-  {
-    "slug": "pci-says-keep-a-human-in-the-loop-for-ai-touching-card-data-2026-10-09",
-    "title": "PCI says keep a human in the loop for AI touching card data",
-    "originalTitle": "PCI SSC calls for human approval of AI agent actions involving cardholder data",
-    "summary": "Require human approval for AI agent actions involving cardholder data and apply PCI SSC's new guidance on governance, access controls, testing and logging in payment environments.",
-    "url": "https://www.helpnetsecurity.com/2026/10/09/pci-ssc-payment-environments-ai-security-guidance/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-09T05:00:25.000Z",
-    "fetchedAt": "2026-10-09T06:04:10.909Z"
   }
 ]
