@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-23",
+    "date": "2026-10-23",
+    "title": "Edge under fire: zero days, stolen creds, urgent patches",
+    "intro": "Busy morning: active exploits at the edge, unpatched RCEs, and session hijacks. Triage the perimeter, then mop up the rest.",
+    "items": [
+      {
+        "heading": "70k creds lifted from FortiGate and GlobalProtect",
+        "body": "Attackers hit exposed Fortinet FortiGate and Palo Alto GlobalProtect devices and walked off with over 70,000 credentials. If your clients run these, assume compromise is possible. Audit appliance integrity, rotate all relevant secrets, and dig for lateral movement before it digs into you.",
+        "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "campaign-hits-fortigate-and-globalprotect-70k-creds-stolen-2026-10-23"
+      },
+      {
+        "heading": "VeloCloud Orchestrator zero day, exploit in the wild",
+        "body": "A critical SQL injection in VMware VeloCloud Orchestrator is being exploited to grab operator level access. If you run VCO, treat it as high risk until fixed. Restrict internet exposure immediately and apply VMware’s mitigations now.",
+        "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "velocloud-orchestrator-hit-by-third-zero-day-exploit-in-the-2026-10-23"
+      },
+      {
+        "heading": "Unpatched PHP RCE, mitigation only for now",
+        "body": "There is a new PHP remote code execution bug with no patch yet, especially risky on internet facing hosts with non default configs. Do not wait for a release. Apply the PHP team’s mitigations and reduce exposure wherever PHP is reachable from the outside.",
+        "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "unpatched-php-rce-apply-mitigations-now-2026-10-23"
+      },
+      {
+        "heading": "ArubaOS mega patch: eight critical flaws fixed",
+        "body": "HPE shipped fixes for 72 ArubaOS issues, including eight max severity auth bypass and code execution flaws. Treat this as an emergency change window. Patch controllers, gateways, and APs across client networks and verify access control still behaves as expected.",
+        "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "patch-arubaos-now-eight-critical-auth-bypass-and-rce-2026-10-23"
+      },
+      {
+        "heading": "Microsoft 365 session replay hit 79 orgs",
+        "body": "Over ten weeks, attackers replayed stolen Microsoft 365 sessions to get in without passwords. Assume cached tokens are not your friend. Revoke all sessions, hunt for stealthy inbox rules, and tighten conditional access before the next replay.",
+        "url": "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "stolen-sessions-let-attackers-into-79-microsoft-365-orgs-2026-10-23"
+      },
+      {
+        "heading": "AI aided APT probed ConnectWise environments",
+        "body": "China linked actors used the Artex AI pentest tool to target hundreds of ConnectWise instances and gain privileged access. Treat admin interfaces like crown jewels. Lock down and monitor ConnectWise admin portals, and make sure EDR and logging coverage is tight.",
+        "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "apt-used-ai-pentest-tool-to-hit-connectwise-hundreds-targete-2026-10-23"
+      },
+      {
+        "heading": "Pillow EPS handling bug allows RCE",
+        "body": "CVE-2026-112900 lets crafted EPS filenames trigger Ghostscript and run commands when apps process untrusted images. If you handle uploads or transform images, this matters. Update Pillow now or disable EPS support immediately.",
+        "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "pillow-image-library-bug-enables-rce-via-crafted-eps-files-2026-10-23"
+      },
+      {
+        "heading": "Microsoft drafting watchdogs for risky AI agents",
+        "body": "Microsoft is building guardian agents to monitor and contain AI agents and is pushing for admin like treatment of agent privileges. Expect more logging and pre approval for risky actions. Start treating agent credentials and workflows like high privilege accounts.",
+        "url": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
+        "source": "Dark Reading",
+        "category": "ai-security",
+        "storySlug": "microsoft-plans-watchdogs-for-risky-ai-agents-2026-10-23"
+      }
+    ],
+    "signOff": "Patch fast, watch the edge, carry on.",
+    "generatedAt": "2026-10-23T17:54:09.322Z"
+  },
+  {
     "slug": "2026-10-22",
     "date": "2026-10-22",
     "title": "Supply chain hits and unruly AI: patch, rotate, restrict",
@@ -2112,79 +2186,5 @@
     ],
     "signOff": "Patch and block now, audit after lunch.",
     "generatedAt": "2026-09-24T17:53:09.658Z"
-  },
-  {
-    "slug": "2026-09-23",
-    "date": "2026-09-23",
-    "title": "Routers popped, SD-WAN zero day, repos poisoned",
-    "intro": "Big patch energy today: remote takeovers on MikroTik and Arista VeloCloud, plus a public Ubuntu container escape. Also watch for supply chain hits and a Windows VPN gotcha.",
-    "items": [
-      {
-        "heading": "MikroTik routers: SSH bug chain, full takeover",
-        "body": "Two chained SSH bugs allow full admin takeover of exposed RouterOS without credentials. Update RouterOS now and close SSH from the internet. If you need remote access, use VPN or strict source allowlists and audit for unexpected users or config changes.",
-        "url": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "patch-mikrotik-now-ssh-bug-chain-lets-attackers-take-over-ro-2026-09-23"
-      },
-      {
-        "heading": "Arista VeloCloud Orchestrator zero day exploited",
-        "body": "Arista reports active exploitation of an on-prem VCO zero day. Patch immediately and pull management off the public internet. Treat any exposed orchestrator as high risk and review admin activity for signs of abuse.",
-        "url": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "arista-fixes-actively-exploited-velocloud-orchestrator-zero-2026-09-23"
-      },
-      {
-        "heading": "cPanel flaws let hosting users get root",
-        "body": "Bugs in CalDAV/CardDAV and WP Toolkit can grant root and cross-account control on shared servers. Patch cPanel and WP Toolkit now and restrict or disable shell access for shared users. Isolate high-value tenants until updates are complete.",
-        "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "cpanel-bug-lets-hosting-users-get-root-patch-now-2026-09-23"
-      },
-      {
-        "heading": "Public exploit for Ubuntu container escape",
-        "body": "A public exploit for CVE-2026-80521 lets attackers break out of containers to root on Ubuntu LTS kernels that are not yet patched. Pause untrusted workloads, minimize container privileges, and reduce host exposure until fixes land. Track Ubuntu advisories closely and plan rapid maintenance windows.",
-        "url": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "public-exploit-out-for-unpatched-ubuntu-kernel-container-esc-2026-09-23"
-      },
-      {
-        "heading": "Windows update may break Always On VPN",
-        "body": "Microsoft warns September updates can disrupt Always On VPN on some Windows 11 systems. Stage deployments, test tunnels, and have rollback or mitigations ready. Prep your help desk for connectivity tickets.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
-        "source": "BleepingComputer",
-        "category": "defense",
-        "storySlug": "september-windows-patches-can-break-always-on-vpn-test-first-2026-09-23"
-      },
-      {
-        "heading": "MemTensor packages hijacked with stealer",
-        "body": "Compromised MemTensor releases on npm and PyPI drop a Go based cross platform credential stealer called sckit. Yank affected packages, reinstall clean versions, and rotate any secrets exposed in builds or runtime. Lock dependencies and watch egress from build agents.",
-        "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "npm-and-pypi-memtensor-packages-hijacked-to-drop-cross-platf-2026-09-23"
-      },
-      {
-        "heading": "AI bots planted skimmers, 600k cards stolen",
-        "body": "AI powered bots rapidly seeded skimmers across 100 plus retail sites, siphoning roughly 600,000 payment cards. If you run ecommerce, audit first and third party scripts, enable strict CSP and integrity checks, and monitor for unauthorized script changes. Treat storefront JS like production code, not decoration.",
-        "url": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "ai-powered-bots-hit-web-stores-steal-600k-cards-with-skimmer-2026-09-23"
-      },
-      {
-        "heading": "One K8s YAML to GCP org admin, via Config Connector",
-        "body": "Researchers show a single manifest can pivot to organization-wide control when Config Connector holds overly broad IAM. Revoke wide roles from Config Connector, enforce org policies, and use per project service accounts. Review manifests and bindings before the next apply.",
-        "url": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
-        "source": "BleepingComputer",
-        "category": "defense",
-        "storySlug": "one-k8s-yaml-can-escalate-to-gcp-org-admin-via-config-connec-2026-09-23"
-      }
-    ],
-    "signOff": "Patch first, then coffee.",
-    "generatedAt": "2026-09-23T17:52:51.206Z"
   }
 ]
