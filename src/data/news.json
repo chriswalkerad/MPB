@@ -1,5 +1,84 @@
 [
   {
+    "slug": "unpatched-php-rce-apply-mitigations-now-2026-10-23",
+    "title": "Unpatched PHP RCE, apply mitigations now",
+    "originalTitle": "PHP shares mitigation for new RCE vulnerability with no patch",
+    "summary": "There is no patch for a new PHP remote code execution bug, so apply the PHP team's mitigations and restrict exposure on internet-facing hosts using non-default configs.",
+    "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/"
+      },
+      {
+        "name": "SANS ISC",
+        "url": "https://isc.sans.edu/diary/rss/33450"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-23T15:38:05.000Z",
+    "fetchedAt": "2026-10-23T17:03:44.514Z"
+  },
+  {
+    "slug": "campaign-hits-fortigate-and-globalprotect-70k-creds-stolen-2026-10-23",
+    "title": "Campaign hits FortiGate and GlobalProtect, 70k creds stolen",
+    "originalTitle": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+    "summary": "Attackers hit exposed Fortinet FortiGate and Palo Alto GlobalProtect devices and stole over 70,000 credentials, audit appliance integrity, rotate secrets, and check for signs of lateral movement.",
+    "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-23T13:50:56.000Z",
+    "fetchedAt": "2026-10-23T17:03:44.514Z"
+  },
+  {
+    "slug": "patch-arubaos-now-eight-critical-auth-bypass-and-rce-2026-10-23",
+    "title": "Patch ArubaOS now, eight critical auth bypass and RCE",
+    "originalTitle": "HPE patches eight max severity RCE and auth bypass AOS flaws",
+    "summary": "HPE fixed 72 ArubaOS flaws including eight max severity auth bypass and code execution, schedule emergency updates for controllers, gateways, and access points across client networks.",
+    "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-23T12:48:00.000Z",
+    "fetchedAt": "2026-10-23T17:03:44.514Z"
+  },
+  {
+    "slug": "stolen-sessions-let-attackers-into-79-microsoft-365-orgs-2026-10-23",
+    "title": "Stolen sessions let attackers into 79 Microsoft 365 orgs",
+    "originalTitle": "Microsoft 365 accounts compromised at 79 organizations, no passwords needed",
+    "summary": "A ten-week campaign replayed stolen Microsoft 365 sessions to access 79 organizations without passwords, revoke all sessions, hunt stealthy inbox rules, and tighten conditional access.",
+    "url": "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-23T11:45:12.000Z",
+    "fetchedAt": "2026-10-23T17:03:44.514Z"
+  },
+  {
+    "slug": "microsoft-plans-watchdogs-for-risky-ai-agents-2026-10-23",
+    "title": "Microsoft plans watchdogs for risky AI agents",
+    "originalTitle": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
+    "summary": "Microsoft is building guardian agents to monitor and contain AI agents, treat agent privileges like admin accounts, add logging, and enforce pre-approval for risky actions.",
+    "url": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-23T11:38:28.000Z",
+    "fetchedAt": "2026-10-23T17:03:44.514Z"
+  },
+  {
     "slug": "apt-used-ai-pentest-tool-to-hit-connectwise-hundreds-targete-2026-10-23",
     "title": "APT used AI pentest tool to hit ConnectWise, hundreds targeted",
     "originalTitle": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
@@ -3293,89 +3372,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-09T17:17:23.000Z",
     "fetchedAt": "2026-10-09T22:36:01.874Z"
-  },
-  {
-    "slug": "new-darksword-ios-kit-steals-keychain-data-and-crypto-wallet-2026-10-09",
-    "title": "New DarkSword iOS kit steals keychain data and crypto wallets",
-    "originalTitle": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-    "summary": "Enforce rapid iOS updates and strict MDM policies, block unknown configuration profiles and enterprise app installs, a stealthier DarkSword variant now targets keychain and wallet data.",
-    "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-09T16:29:55.000Z",
-    "fetchedAt": "2026-10-09T22:36:01.874Z"
-  },
-  {
-    "slug": "keep-ai-agents-inside-their-permissions-2026-10-09",
-    "title": "Keep AI agents inside their permissions",
-    "originalTitle": "How to keep AI agents within their permissions",
-    "summary": "Implement agent scoped tokens, least privilege, network egress rules, and auditing so AI agents with valid creds cannot exceed intended actions or data access.",
-    "url": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-09T14:01:11.000Z",
-    "fetchedAt": "2026-10-09T22:36:01.874Z"
-  },
-  {
-    "slug": "attackers-will-social-engineer-your-ai-agents-like-bec-victi-2026-10-09",
-    "title": "Attackers will social-engineer your AI agents like BEC victims",
-    "originalTitle": "Social Engineering AI Agents: The New BEC for 2026",
-    "summary": "As AI agents gain authority over business systems, lock down permissions, enforce approvals, and train staff to spot prompt injection that can trick agents into harmful actions.",
-    "url": "https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-09T13:00:00.000Z",
-    "fetchedAt": "2026-10-09T13:12:10.648Z"
-  },
-  {
-    "slug": "public-exploit-gives-root-on-anydesk-linux-patch-now-2026-10-09",
-    "title": "Public exploit gives root on AnyDesk Linux, patch now",
-    "originalTitle": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
-    "summary": "Update AnyDesk Linux to 8.0.3 or later immediately, restrict network access to AnyDesk services, and hunt for misuse, a pre-auth RCE now has a full public exploit.",
-    "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-09T12:59:22.000Z",
-    "fetchedAt": "2026-10-09T22:36:01.874Z"
-  },
-  {
-    "slug": "sonicwall-sma1000-flaw-under-attack-patch-now-2026-10-09",
-    "title": "SonicWall SMA1000 flaw under attack, patch now",
-    "originalTitle": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
-    "summary": "Attackers are exploiting CVE-2026-102255 in SonicWall SMA1000 appliances, update to the latest firmware immediately and review remote access logs for signs of compromise.",
-    "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-09T12:32:16.000Z",
-    "fetchedAt": "2026-10-09T13:12:10.648Z"
-  },
-  {
-    "slug": "cisa-flags-five-exploited-bugs-patch-urgently-2026-10-09",
-    "title": "CISA flags five exploited bugs, patch urgently",
-    "originalTitle": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
-    "summary": "Following Flax Typhoon abuse, CISA added five vulnerabilities to its KEV catalog with an Oct 11 federal deadline, prioritize patching these now across your environment.",
-    "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-09T12:21:51.000Z",
-    "fetchedAt": "2026-10-09T13:12:10.648Z"
   }
 ]
