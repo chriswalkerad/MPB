@@ -1,5 +1,61 @@
 [
   {
+    "slug": "attackers-are-just-calling-your-help-desk-and-getting-in-2026-10-23",
+    "title": "Attackers are just calling your help desk and getting in",
+    "originalTitle": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+    "summary": "Tighten help desk identity verification and MFA reset policies now, because AI voice and scripts let attackers social-engineer access without malware or exploits.",
+    "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-23T20:57:56.000Z",
+    "fetchedAt": "2026-10-23T21:22:29.552Z"
+  },
+  {
+    "slug": "teams-is-getting-ai-phishing-detection-in-november-2026-10-23",
+    "title": "Teams is getting AI phishing detection in November",
+    "originalTitle": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+    "summary": "Prepare tenants for AI-driven scanning of Teams messages in early November, review privacy and admin controls, and update training since phishing is shifting into chat.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-23T18:54:41.000Z",
+    "fetchedAt": "2026-10-23T21:22:29.552Z"
+  },
+  {
+    "slug": "cheap-ai-tools-are-scaling-real-attacks-fast-2026-10-23",
+    "title": "Cheap AI tools are scaling real attacks fast",
+    "originalTitle": "AI Tools Are Generating Massive Attacks for Little Cost",
+    "summary": "Expect more automated intrusion attempts as open models and agents enable full kill chains for pocket change, so rate-limit, monitor, and lock down admin interfaces.",
+    "url": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-23T17:26:59.000Z",
+    "fetchedAt": "2026-10-23T21:22:29.552Z"
+  },
+  {
+    "slug": "windows-server-2016-security-updates-end-january-2027-2026-10-23",
+    "title": "Windows Server 2016 security updates end January 2027",
+    "originalTitle": "Microsoft: Windows Server 2016 reaches end of support in January",
+    "summary": "Start migrations or ESU planning now, inventory 2016 servers and dependencies, budget downtime, and align app owners before patching stops in January.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-10-23T17:05:07.000Z",
+    "fetchedAt": "2026-10-23T21:22:29.552Z"
+  },
+  {
     "slug": "unpatched-php-rce-apply-mitigations-now-2026-10-23",
     "title": "Unpatched PHP RCE, apply mitigations now",
     "originalTitle": "PHP shares mitigation for new RCE vulnerability with no patch",
@@ -49,6 +105,34 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-23T12:48:00.000Z",
     "fetchedAt": "2026-10-23T17:03:44.514Z"
+  },
+  {
+    "slug": "cisa-adds-actively-exploited-bug-in-collabora-online-code-se-2026-10-23",
+    "title": "CISA adds actively exploited bug in Collabora Online CODE server",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "Patch or disable the built-in CODE server in Collabora Online now, restrict network exposure, and hunt for command injection signs because attackers are already exploiting it.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-23T12:00:00.000Z",
+    "fetchedAt": "2026-10-23T21:22:29.552Z"
+  },
+  {
+    "slug": "actively-exploited-sql-injection-hits-velocloud-orchestrator-2026-10-23",
+    "title": "Actively exploited SQL injection hits VeloCloud Orchestrator",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "Patch affected VeloCloud Orchestrator instances or lock them behind VPN and SSO today, rotate credentials, and review logs for suspicious queries due to in-the-wild exploitation.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-23T12:00:00.000Z",
+    "fetchedAt": "2026-10-23T21:22:29.552Z"
   },
   {
     "slug": "stolen-sessions-let-attackers-into-79-microsoft-365-orgs-2026-10-23",
@@ -189,6 +273,29 @@
     "category": "industry",
     "publishedAt": "2026-10-23T04:30:39.000Z",
     "fetchedAt": "2026-10-23T04:44:15.993Z"
+  },
+  {
+    "slug": "php2shell-patch-exposed-php-apps-and-harden-configs-2026-10-23",
+    "title": "PHP2Shell: patch exposed PHP apps and harden configs",
+    "originalTitle": "Reports of PHP bug exploitation attempts grow as experts downplay viability of exploits",
+    "summary": "Inventory Internet-facing PHP, patch affected versions, review CGI and FastCGI settings, add WAF rules, and watch logs, as exploits are noisy and reliability varies.",
+    "url": "https://therecord.media/php-php2shell-exploitation-attempts-pocs",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "SANS ISC",
+        "url": "https://isc.sans.edu/diary/rss/33452"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "fetchedAt": "2026-10-23T21:22:29.552Z"
   },
   {
     "slug": "railway-warns-customers-to-rotate-environment-secrets-after-2026-10-22",
@@ -3325,52 +3432,5 @@
     "category": "industry",
     "publishedAt": "2026-10-10T00:17:42.000Z",
     "fetchedAt": "2026-10-10T05:47:06.962Z"
-  },
-  {
-    "slug": "google-ads-abuse-bing-redirects-to-push-fake-claude-installe-2026-10-09",
-    "title": "Google ads abuse Bing redirects to push fake Claude installers",
-    "originalTitle": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
-    "summary": "Block or filter search ads, restrict software installs, and warn users, attackers are using Bing redirect URLs in Google ads to deliver ClickFix malware via fake Claude downloads.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-09T20:31:37.000Z",
-    "fetchedAt": "2026-10-09T22:36:01.874Z"
-  },
-  {
-    "slug": "malicious-github-actions-planted-across-thousands-of-repos-2026-10-09",
-    "title": "Malicious GitHub Actions planted across thousands of repos",
-    "originalTitle": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-    "summary": "Audit your repos and pipelines, pin and scope Actions, require maintainer reviews, and rotate tokens, attackers used compromised maintainer accounts to steal credentials during builds.",
-    "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-09T19:14:28.000Z",
-    "fetchedAt": "2026-10-09T22:36:01.874Z"
-  },
-  {
-    "slug": "ahsaycbs-backup-servers-hit-via-unpatched-bugs-webshells-and-2026-10-09",
-    "title": "AhsayCBS backup servers hit via unpatched bugs, webshells and miners seen",
-    "originalTitle": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
-    "summary": "If you run AhsayCBS, lock down admin access, isolate the server, and check for webshells and XMRig, attackers are actively exploiting a critical and a medium flaw.",
-    "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-09T17:17:23.000Z",
-    "fetchedAt": "2026-10-09T22:36:01.874Z"
   }
 ]
