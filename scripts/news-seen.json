@@ -1,18 +1,4 @@
 {
-  "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/": "2026-09-23T21:28:43.396Z",
-  "https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses": "2026-09-23T21:28:43.396Z",
-  "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks": "2026-09-23T21:28:43.396Z",
-  "https://therecord.media/uk-regulator-to-investigate-pornhub-parent-company-privacy": "2026-09-23T21:28:43.396Z",
-  "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/": "2026-09-23T21:28:43.396Z",
-  "https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/": "2026-09-23T21:28:43.396Z",
-  "https://therecord.media/trump-harris-election-meddling-russia": "2026-09-23T21:28:43.396Z",
-  "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/": "2026-09-23T21:28:43.396Z",
-  "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html": "2026-09-23T21:28:43.396Z",
-  "https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/": "2026-09-23T21:28:43.396Z",
-  "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/": "2026-09-23T21:28:43.396Z",
-  "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html": "2026-09-23T21:28:43.396Z",
-  "https://simonwillison.net/2026/Sep/23/shadow-roots/": "2026-09-23T21:28:43.396Z",
-  "https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators": "2026-09-23T21:28:43.396Z",
   "https://www.helpnetsecurity.com/2026/09/24/ot-asset-visibility-challenges/": "2026-09-24T04:44:50.934Z",
   "https://www.helpnetsecurity.com/2026/09/24/ubuntu-kernel-cve-fixes-release-schedule/": "2026-09-24T04:44:50.934Z",
   "https://www.helpnetsecurity.com/2026/09/24/enisa-eu-cyber-threats-report/": "2026-09-24T04:44:50.934Z",
@@ -1482,5 +1468,6 @@
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/": "2026-10-23T21:22:29.552Z",
   "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0": "2026-10-23T21:22:29.552Z",
   "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog": "2026-10-23T21:22:29.552Z",
-  "https://therecord.media/php-php2shell-exploitation-attempts-pocs": "2026-10-23T21:22:29.552Z"
+  "https://therecord.media/php-php2shell-exploitation-attempts-pocs": "2026-10-23T21:22:29.552Z",
+  "https://simonwillison.net/2026/Oct/23/quick-study-painter/": "2026-10-24T04:31:12.158Z"
 }
