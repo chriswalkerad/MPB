@@ -1,5 +1,47 @@
 [
   {
+    "slug": "new-blackx-uefi-bootkit-bypasses-secure-boot-via-baton-drop-2026-10-24",
+    "title": "New BlackX UEFI bootkit bypasses Secure Boot via Baton Drop",
+    "originalTitle": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+    "summary": "Ensure Secure Boot updates and DBX revocations are applied, as a new BlackX UEFI bootkit exploited the old Baton Drop flaw to persist early and weaken antivirus defenses.",
+    "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-24T14:17:32.000Z",
+    "fetchedAt": "2026-10-24T15:53:39.323Z"
+  },
+  {
+    "slug": "litellm-master-key-leak-let-attackers-poison-python-package-2026-10-24",
+    "title": "LiteLLM master key leak let attackers poison Python package",
+    "originalTitle": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+    "summary": "Immediately pin and verify package versions, rotate GitHub tokens, and rebuild from trusted sources after a leaked LiteLLM master key enabled a malicious release pipeline compromise.",
+    "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-24T11:03:33.000Z",
+    "fetchedAt": "2026-10-24T15:53:39.323Z"
+  },
+  {
+    "slug": "google-ai-features-may-use-gmail-and-photos-data-for-targete-2026-10-24",
+    "title": "Google AI features may use Gmail and Photos data for targeted ads",
+    "originalTitle": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+    "summary": "Review and lock down Google data sharing settings, or disable AI personalization, as Google says AI features in Search or Gemini can draw on Gmail and Photos data for ad targeting.",
+    "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-24T10:36:33.000Z",
+    "fetchedAt": "2026-10-24T15:53:39.323Z"
+  },
+  {
     "slug": "patch-brotli-decoder-flaw-affecting-node-bun-python-envoy-2026-10-24",
     "title": "Patch Brotli decoder flaw affecting Node, Bun, Python, Envoy",
     "originalTitle": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
@@ -3376,47 +3418,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-11T08:00:49.000Z",
     "fetchedAt": "2026-10-11T12:43:56.630Z"
-  },
-  {
-    "slug": "attackers-used-ai-agents-to-hit-south-korean-banks-2026-10-10",
-    "title": "Attackers used AI agents to hit South Korean banks",
-    "originalTitle": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
-    "summary": "Expect attackers to use ARTEX AI and Claude-like agents for recon, phishing and credential theft, enforce MFA, tighten email controls, restrict AI tools, and monitor automated activity.",
-    "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-10T14:16:17.000Z",
-    "fetchedAt": "2026-10-10T21:39:18.623Z"
-  },
-  {
-    "slug": "hidden-ai-agents-are-bypassing-your-identity-stack-2026-10-10",
-    "title": "Hidden AI agents are bypassing your identity stack",
-    "originalTitle": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-    "summary": "Audit and inventory embedded AI in third party tools, most agents do not authenticate via SSO so they slip past IAM policies logging and DLP.",
-    "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-10T11:00:00.000Z",
-    "fetchedAt": "2026-10-10T12:26:40.413Z"
-  },
-  {
-    "slug": "engineer-jailed-for-insider-extortion-at-industrial-firm-2026-10-10",
-    "title": "Engineer jailed for insider extortion at industrial firm",
-    "originalTitle": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison",
-    "summary": "Reduce blast radius for admins and enforce clean offboarding, a core infrastructure engineer deleted admin accounts reset hundreds of passwords and tried to extort 20 bitcoin.",
-    "url": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-10T11:00:00.000Z",
-    "fetchedAt": "2026-10-10T12:26:40.413Z"
   }
 ]
