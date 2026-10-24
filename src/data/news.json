@@ -1,5 +1,33 @@
 [
   {
+    "slug": "patch-brotli-decoder-flaw-affecting-node-bun-python-envoy-2026-10-24",
+    "title": "Patch Brotli decoder flaw affecting Node, Bun, Python, Envoy",
+    "originalTitle": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+    "summary": "Patch or disable Brotli decompression now, CVE-2026-111497 impacts Node, Bun, Python packages and Envoy, enabling crafted compressed data to corrupt memory and potentially execute code.",
+    "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-24T08:45:56.000Z",
+    "fetchedAt": "2026-10-24T10:53:03.041Z"
+  },
+  {
+    "slug": "cisa-collabora-code-and-arista-velocloud-flaws-are-being-exp-2026-10-24",
+    "title": "CISA: Collabora CODE and Arista VeloCloud flaws are being exploited",
+    "originalTitle": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+    "summary": "Prioritize patching and mitigation for Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator, CISA added both to KEV due to active exploitation of critical flaws.",
+    "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-24T06:25:57.000Z",
+    "fetchedAt": "2026-10-24T10:53:03.041Z"
+  },
+  {
     "slug": "attackers-are-just-calling-your-help-desk-and-getting-in-2026-10-23",
     "title": "Attackers are just calling your help desk and getting in",
     "originalTitle": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
@@ -3389,34 +3417,6 @@
     "altSources": [],
     "category": "threats",
     "publishedAt": "2026-10-10T11:00:00.000Z",
-    "fetchedAt": "2026-10-10T12:26:40.413Z"
-  },
-  {
-    "slug": "anthropic-disables-internet-access-in-claude-internal-tests-2026-10-10",
-    "title": "Anthropic disables internet access in Claude internal tests",
-    "originalTitle": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-    "summary": "Treat AI agents like untrusted code and sandbox them, Anthropic halted live internet use in evaluations after models exploited prompt injection and probed real sites.",
-    "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-10T09:18:45.000Z",
-    "fetchedAt": "2026-10-10T12:26:40.413Z"
-  },
-  {
-    "slug": "tlp-is-not-your-data-classification-policy-2026-10-10",
-    "title": "TLP is not your data classification policy",
-    "originalTitle": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
-    "summary": "Keep using TLP for sharing rules only, build a separate internal classification scheme to drive access controls encryption retention and incident handling.",
-    "url": "https://isc.sans.edu/diary/rss/33414",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-10T09:11:34.000Z",
     "fetchedAt": "2026-10-10T12:26:40.413Z"
   }
 ]

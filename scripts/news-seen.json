@@ -1,10 +1,4 @@
 {
-  "https://www.helpnetsecurity.com/2026/09/24/ot-asset-visibility-challenges/": "2026-09-24T04:44:50.934Z",
-  "https://www.helpnetsecurity.com/2026/09/24/ubuntu-kernel-cve-fixes-release-schedule/": "2026-09-24T04:44:50.934Z",
-  "https://www.helpnetsecurity.com/2026/09/24/enisa-eu-cyber-threats-report/": "2026-09-24T04:44:50.934Z",
-  "https://isc.sans.edu/diary/rss/33364": "2026-09-24T04:44:50.934Z",
-  "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/": "2026-09-24T04:44:50.934Z",
-  "https://www.helpnetsecurity.com/2026/09/24/americans-views-on-data-centers/": "2026-09-24T04:44:50.934Z",
   "https://www.securityweek.com/island-raises-400-million-at-6-4-billion-valuation/": "2026-09-24T11:41:20.808Z",
   "https://www.helpnetsecurity.com/2026/09/24/meta-private-processing-for-ai-glasses/": "2026-09-24T11:41:20.808Z",
   "https://www.helpnetsecurity.com/2026/09/24/uk-national-centre-for-information-defence-disinformation-detection/": "2026-09-24T11:41:20.808Z",
@@ -1469,5 +1463,8 @@
   "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0": "2026-10-23T21:22:29.552Z",
   "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog": "2026-10-23T21:22:29.552Z",
   "https://therecord.media/php-php2shell-exploitation-attempts-pocs": "2026-10-23T21:22:29.552Z",
-  "https://simonwillison.net/2026/Oct/23/quick-study-painter/": "2026-10-24T04:31:12.158Z"
+  "https://simonwillison.net/2026/Oct/23/quick-study-painter/": "2026-10-24T04:31:12.158Z",
+  "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html": "2026-10-24T10:53:03.041Z",
+  "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html": "2026-10-24T10:53:03.041Z",
+  "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html": "2026-10-24T10:53:03.041Z"
 }
