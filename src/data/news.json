@@ -1,5 +1,33 @@
 [
   {
+    "slug": "critical-php-patches-issued-update-web-servers-now-2026-10-25",
+    "title": "Critical PHP patches issued, update web servers now",
+    "originalTitle": "Week in review: PHP vulnerabilities patched, exploited Palo Alto GlobalProtect VPN flaw",
+    "summary": "Apply the latest PHP security updates across all servers, two critical CVSS 9.2 vulnerabilities were fixed, plan emergency maintenance for any internet-facing PHP apps.",
+    "url": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-25T09:00:56.000Z",
+    "fetchedAt": "2026-10-25T11:19:57.023Z"
+  },
+  {
+    "slug": "openai-flags-ai-agent-sandbox-risks-tightens-training-isolat-2026-10-25",
+    "title": "OpenAI flags AI agent sandbox risks, tightens training isolation",
+    "originalTitle": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+    "summary": "Treat AI agents like untrusted code, OpenAI reported demonstrations of VM escapes and cross-sandbox communication, so isolate access, strip secrets, and limit network and system permissions.",
+    "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-25T06:54:29.000Z",
+    "fetchedAt": "2026-10-25T11:19:57.023Z"
+  },
+  {
     "slug": "new-blackx-uefi-bootkit-bypasses-secure-boot-via-baton-drop-2026-10-24",
     "title": "New BlackX UEFI bootkit bypasses Secure Boot via Baton Drop",
     "originalTitle": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
@@ -3404,19 +3432,5 @@
     "category": "threats",
     "publishedAt": "2026-10-11T14:23:46.000Z",
     "fetchedAt": "2026-10-11T21:54:33.698Z"
-  },
-  {
-    "slug": "fortibleed-still-exploited-patch-tuesday-prep-2026-10-11",
-    "title": "FortiBleed still exploited, Patch Tuesday prep",
-    "originalTitle": "Week in review: FortiBleed is still active, Patch Tuesday forecast",
-    "summary": "Patch and monitor Fortinet devices as FortiBleed activity continues, and line up test and deployment plans for this week's Patch Tuesday per the forecast.",
-    "url": "https://www.helpnetsecurity.com/2026/10/11/week-in-review-fortibleed-is-still-active-patch-tuesday-forecast/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-11T08:00:49.000Z",
-    "fetchedAt": "2026-10-11T12:43:56.630Z"
   }
 ]
