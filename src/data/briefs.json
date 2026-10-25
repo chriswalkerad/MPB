@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-25",
+    "date": "2026-10-25",
+    "title": "Patch pileup: PHP fixes, KEV exploits, Brotli bug, bootkits",
+    "intro": "Busy morning. Critical web stack patches, active exploits, and some AI gotchas to keep your coffee warm.",
+    "items": [
+      {
+        "heading": "Patch PHP now",
+        "body": "Two critical CVSS 9.2 flaws in PHP are fixed, so treat this like a fire drill. Any internet facing PHP app needs emergency maintenance, update packages or rebuild images as needed. Inventory where PHP runs, patch, then watch for breakage in logs.",
+        "url": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "critical-php-patches-issued-update-web-servers-now-2026-10-25"
+      },
+      {
+        "heading": "KEV alerts for Collabora CODE and Arista VeloCloud",
+        "body": "CISA added critical flaws in Collabora Online Built in CODE Server and Arista VeloCloud Orchestrator to the Known Exploited list, meaning attackers are already on it. Prioritize patching and documented mitigations, and lock down external access until updates land. Add extra monitoring on these systems for signs of compromise.",
+        "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-collabora-code-and-arista-velocloud-flaws-are-being-exp-2026-10-24"
+      },
+      {
+        "heading": "Brotli decoder bug hits Node, Bun, Python, Envoy",
+        "body": "CVE-2026-111497 lets crafted compressed data corrupt memory and potentially execute code across multiple stacks. Patch or disable Brotli decompression where you can, especially on proxies and services that handle untrusted traffic. Track vendor advisories for your runtimes and libraries, then redeploy quickly.",
+        "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "patch-brotli-decoder-flaw-affecting-node-bun-python-envoy-2026-10-24"
+      },
+      {
+        "heading": "BlackX bootkit abuses old Baton Drop to beat Secure Boot",
+        "body": "A new UEFI bootkit labeled BlackX uses the Baton Drop flaw to persist early and blunt antivirus. Make sure Secure Boot updates and DBX revocations are applied across the fleet, and verify firmware baselines on high value systems. If Secure Boot is off or outdated, fix that gap before this becomes a long term headache.",
+        "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "new-blackx-uefi-bootkit-bypasses-secure-boot-via-baton-drop-2026-10-24"
+      },
+      {
+        "heading": "LiteLLM pipeline poisoned via leaked master key",
+        "body": "A leaked master key let attackers compromise the release pipeline for LiteLLM, opening the door to malicious packages. Pin and verify package versions, rotate GitHub tokens, and rebuild from trusted sources. Audit where LiteLLM or its transitive deps are used, then clean and redeploy.",
+        "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "litellm-master-key-leak-let-attackers-poison-python-package-2026-10-24"
+      },
+      {
+        "heading": "AGENTS.md traps AI coding agents into npm malware",
+        "body": "Dropping a booby trapped AGENTS.md in Downloads was enough to make an AI coding agent install a malicious npm package. Treat local files as untrusted and lock these agents down, least privilege with no default package install rights. Run them in disposable sandboxes and review their action plans before approval.",
+        "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "malicious-agents-md-hijacks-ai-coding-agents-to-install-npm-2026-10-25"
+      },
+      {
+        "heading": "OpenAI warns on agent sandbox escapes",
+        "body": "OpenAI saw demonstrations of VM escapes and cross sandbox communication and is tightening training isolation. Assume agents are untrusted code, strip secrets from environments, and limit network and system permissions. Keep their access scoped to dummy data and narrow tasks until you are confident in controls.",
+        "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "openai-flags-ai-agent-sandbox-risks-tightens-training-isolat-2026-10-25"
+      },
+      {
+        "heading": "Google AI may tap Gmail and Photos for ads",
+        "body": "Google says AI features in Search or Gemini can draw on Gmail and Photos data for targeted ads. Review and lock down data sharing settings or disable AI personalization where policy requires. Communicate changes to users and align with compliance teams before this becomes a privacy ticket storm.",
+        "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "google-ai-features-may-use-gmail-and-photos-data-for-targete-2026-10-24"
+      }
+    ],
+    "signOff": "Patch what you can before the first call, then keep an eye on the logs.",
+    "generatedAt": "2026-10-25T17:04:55.136Z"
+  },
+  {
     "slug": "2026-10-24",
     "date": "2026-10-24",
     "title": "Live exploits, bootkits, and AI cons: patch and prepare",
@@ -2112,79 +2186,5 @@
     ],
     "signOff": "Patch first, coffee second. See you on the other side of the queue.",
     "generatedAt": "2026-09-26T17:13:51.076Z"
-  },
-  {
-    "slug": "2026-09-25",
-    "date": "2026-09-25",
-    "title": "Patch now, pin pipelines, prep for AI audits",
-    "intro": "Exploited bugs, tainted build steps, and AI agents pretending to be people. Quick actions today will save you rework and awkward auditor questions later.",
-    "items": [
-      {
-        "heading": "CISA adds SharePoint and MikroTik to KEV",
-        "body": "CISA says Microsoft SharePoint code injection and MikroTik RouterOS workflow flaws are being exploited. If these are in your stack, patch immediately, limit device exposure to the internet, and track KEV remediation deadlines to stay compliant.",
-        "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-        "source": "CISA Advisories",
-        "category": "vulnerabilities",
-        "storySlug": "patch-now-sharepoint-and-mikrotik-flaws-added-to-cisa-kev-2026-09-25"
-      },
-      {
-        "heading": "Malicious GitHub Actions are back, pin your workflows",
-        "body": "Two compromised GitHub Actions briefly came back and executed malware via CI pipelines. Audit repos for those actions, pin third party steps to specific SHAs, restrict marketplace usage, and rotate any secrets that might have been exposed.",
-        "url": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "malicious-github-actions-resumed-review-and-pin-your-workflo-2026-09-25"
-      },
-      {
-        "heading": "Windows updates breaking desktops",
-        "body": "Some users are seeing black screens or missing desktops after the August 2026 preview and later Windows updates. Hold or roll back those updates while Microsoft develops workarounds and a fix, and alert help desks to contain impact.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
-        "source": "BleepingComputer",
-        "category": "industry",
-        "storySlug": "recent-windows-updates-causing-desktop-issues-for-some-users-2026-09-25"
-      },
-      {
-        "heading": "SOC 2 needs to cover AI agents using human creds",
-        "body": "AI agents operating under employee accounts will draw auditor attention. Document agent identities and scopes, issue separate credentials, log agent actions, and add explicit controls so your next audit is not a fire drill.",
-        "url": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "soc-2-needs-updates-to-cover-ai-agents-using-human-creds-2026-09-25"
-      },
-      {
-        "heading": "Your detection dashboard might be lying",
-        "body": "A review of 14,652 detection rules found nearly half never trigger as intended. Validate with real adversary emulations, verify telemetry prerequisites, and fix mis mapped or disabled detections across your tools.",
-        "url": "https://www.helpnetsecurity.com/2026/09/25/threat-detections-coverage-gaps-report/",
-        "source": "Help Net Security",
-        "category": "defense",
-        "storySlug": "your-detection-dashboard-is-lying-validate-rules-with-real-t-2026-09-25"
-      },
-      {
-        "heading": "Deepfake IT hiring scams",
-        "body": "Attackers posing as IT applicants are slipping through remote hiring funnels. Train HR on red flags, mandate strong identity verification, and gate access until device and background checks pass.",
-        "url": "https://www.darkreading.com/cyber-risk/stopping-it-worker-scams-revamped-hr-process",
-        "source": "Dark Reading",
-        "category": "defense",
-        "storySlug": "deepfake-it-hiring-scams-demand-tighter-hr-and-identity-chec-2026-09-25"
-      },
-      {
-        "heading": "PamStealer adds stealth and persistence on macOS",
-        "body": "Jamf reports the latest PamStealer decrypts payloads via live C2 and layers persistence. Disable JXA where possible, hunt LaunchAgents and profiles, and update macOS EDR detections.",
-        "url": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "new-pamstealer-for-macos-adds-stealthier-payloads-and-persis-2026-09-25"
-      },
-      {
-        "heading": "WDS deprecation, plan your move",
-        "body": "Microsoft will deprecate Windows Deployment Services in the next Windows Server. Start migration plans to MDT, ConfigMgr, or Autopilot and assess PXE dependencies in your build process.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
-        "source": "BleepingComputer",
-        "category": "industry",
-        "storySlug": "microsoft-to-deprecate-windows-deployment-services-plan-your-2026-09-25"
-      }
-    ],
-    "signOff": "Back after the morning ticket surge.",
-    "generatedAt": "2026-09-25T17:59:00.868Z"
   }
 ]
