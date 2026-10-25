@@ -1,5 +1,47 @@
 [
   {
+    "slug": "yara-x-1-22-0-lands-with-fixes-and-improvements-update-now-2026-10-25",
+    "title": "YARA-X 1.22.0 lands with fixes and improvements, update now",
+    "originalTitle": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+    "summary": "Update YARA-X to 1.22.0 now, it packs 11 improvements and 9 bug fixes to stabilize scanning and rule authoring in your DFIR workflows.",
+    "url": "https://isc.sans.edu/diary/rss/33454",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-25T19:57:53.000Z",
+    "fetchedAt": "2026-10-25T20:47:19.352Z"
+  },
+  {
+    "slug": "tailscale-ssh-port-forwarding-can-allow-root-pivot-from-a-ha-2026-10-25",
+    "title": "Tailscale SSH port forwarding can allow root pivot from a hacked device",
+    "originalTitle": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+    "summary": "If you use Tailscale SSH with port forwarding, disable it and tighten ACLs now, a compromised device can pivot to root on other reachable servers.",
+    "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-25T17:44:09.000Z",
+    "fetchedAt": "2026-10-25T20:47:19.352Z"
+  },
+  {
+    "slug": "php2shell-cves-exploited-patch-fast-amid-widespread-scanning-2026-10-25",
+    "title": "PHP2Shell CVEs exploited, patch fast amid widespread scanning",
+    "originalTitle": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+    "summary": "Patch CVE-2026-109618 and CVE-2026-109619 immediately, attackers are mass scanning and have breached at least one government entity using AI-assisted post-exploitation.",
+    "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-25T17:19:46.000Z",
+    "fetchedAt": "2026-10-25T20:47:19.352Z"
+  },
+  {
     "slug": "malicious-agents-md-hijacks-ai-coding-agents-to-install-npm-2026-10-25",
     "title": "Malicious AGENTS.md hijacks AI coding agents to install npm malware",
     "originalTitle": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
