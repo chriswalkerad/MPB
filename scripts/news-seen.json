@@ -1,24 +1,4 @@
 {
-  "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/": "2026-09-25T11:47:20.933Z",
-  "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/": "2026-09-25T11:47:20.933Z",
-  "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html": "2026-09-25T11:47:20.933Z",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/": "2026-09-25T11:47:20.933Z",
-  "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html": "2026-09-25T11:47:20.933Z",
-  "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/": "2026-09-25T11:47:20.933Z",
-  "https://www.helpnetsecurity.com/2026/09/25/macsync-info-stealing-malware-for-macos/": "2026-09-25T11:47:20.933Z",
-  "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/": "2026-09-25T11:47:20.933Z",
-  "https://www.helpnetsecurity.com/2026/09/25/docker-launches-cloud-sandboxes/": "2026-09-25T11:47:20.933Z",
-  "https://www.helpnetsecurity.com/2026/09/25/fake-payroll-desktop-apps-screenconnect/": "2026-09-25T11:47:20.933Z",
-  "https://www.helpnetsecurity.com/2026/09/25/abnormal-ai-governance/": "2026-09-25T11:47:20.933Z",
-  "https://www.helpnetsecurity.com/2026/09/25/sentinelone-extends-wayfinder-threat-hunting/": "2026-09-25T11:47:20.933Z",
-  "https://www.helpnetsecurity.com/2026/09/25/dataiku-agent-management/": "2026-09-25T11:47:20.933Z",
-  "https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe": "2026-09-25T11:47:20.933Z",
-  "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/": "2026-09-25T11:47:20.933Z",
-  "https://isc.sans.edu/diary/rss/33368": "2026-09-25T11:47:20.933Z",
-  "https://www.helpnetsecurity.com/2026/09/25/ariel-assaraf-coralogix-ai-agent-guardrails/": "2026-09-25T11:47:20.933Z",
-  "https://www.helpnetsecurity.com/2026/09/25/sans-threat-hunting-data-quality/": "2026-09-25T11:47:20.933Z",
-  "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html": "2026-09-25T11:47:20.933Z",
-  "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html": "2026-09-25T11:47:20.933Z",
   "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/": "2026-09-25T17:08:04.985Z",
   "https://therecord.media/crypto-ceo-accuses-north-korea-of-387-million-theft": "2026-09-25T17:08:04.985Z",
   "https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/": "2026-09-25T17:08:04.985Z",
@@ -1405,5 +1385,6 @@
   "https://simonwillison.net/2026/Oct/24/battledrones/": "2026-10-24T15:53:39.323Z",
   "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/": "2026-10-25T11:19:57.023Z",
   "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/": "2026-10-25T11:19:57.023Z",
-  "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html": "2026-10-25T11:19:57.023Z"
+  "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html": "2026-10-25T11:19:57.023Z",
+  "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/": "2026-10-25T16:11:10.754Z"
 }

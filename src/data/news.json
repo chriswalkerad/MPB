@@ -1,5 +1,19 @@
 [
   {
+    "slug": "malicious-agents-md-hijacks-ai-coding-agents-to-install-npm-2026-10-25",
+    "title": "Malicious AGENTS.md hijacks AI coding agents to install npm malware",
+    "originalTitle": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+    "summary": "Treat local files as untrusted and restrict AI coding agent permissions, a planted AGENTS.md in Downloads tricked an agent into installing a malicious npm package.",
+    "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-25T15:49:38.000Z",
+    "fetchedAt": "2026-10-25T16:11:10.754Z"
+  },
+  {
     "slug": "critical-php-patches-issued-update-web-servers-now-2026-10-25",
     "title": "Critical PHP patches issued, update web servers now",
     "originalTitle": "Week in review: PHP vulnerabilities patched, exploited Palo Alto GlobalProtect VPN flaw",
@@ -3418,19 +3432,5 @@
     "category": "threats",
     "publishedAt": "2026-10-11T23:00:00.000Z",
     "fetchedAt": "2026-10-13T00:36:35.492Z"
-  },
-  {
-    "slug": "contractor-malware-exposes-8-7m-daiichi-kosho-records-2026-10-11",
-    "title": "Contractor malware exposes 8.7M Daiichi Kosho records",
-    "originalTitle": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-    "summary": "Review vendor risk controls and warn users about phishing, after malware at a Daiichi Kosho contractor exposed 8.7 million customer and employee records that criminals can mine for scams.",
-    "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-11T14:23:46.000Z",
-    "fetchedAt": "2026-10-11T21:54:33.698Z"
   }
 ]
