@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-26",
+    "date": "2026-10-26",
+    "title": "Patch now, lock tokens, babysit your bots",
+    "intro": "Busy patch queue and noisy attackers today. Fortinet and popular runtimes need fixes, tokens are getting replayed and looted, and AI tools are a new attack surface.",
+    "items": [
+      {
+        "heading": "Fortinet pushes critical FortiOS fixes",
+        "body": "Fortinet shipped critical patches for FortiOS and related products, with details held back until November 10. Treat this as urgent, upgrade immediately and limit management access from the internet to shrink exposure.",
+        "url": "https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "fortinet-fixes-critical-fortios-bugs-update-now-2026-10-26"
+      },
+      {
+        "heading": "Brotli bug threatens Node.js, .NET, Python",
+        "body": "An out of bounds write in the Brotli decoder can enable code execution across popular stacks, including Node.js, .NET, PowerShell, and Python packages. Update any software that bundles or calls Brotli and prioritize internet facing services first.",
+        "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "brotli-bug-hits-node-js-net-python-patch-now-2026-10-26"
+      },
+      {
+        "heading": "PHP2Shell RCE is under active attack",
+        "body": "Attackers are exploiting CVE-2026-109618 and CVE-2026-109619 in PHP2Shell for remote code execution. Apply vendor fixes now, minimize exposure, and review web server logs for suspicious requests or shells.",
+        "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "php2shell-rce-flaws-are-being-exploited-patch-immediately-2026-10-26"
+      },
+      {
+        "heading": "Token replay hijacks M365 mailboxes",
+        "body": "Adversaries are using adversary in the middle relays to replay stolen tokens and access Microsoft 365 mailboxes across 79 organizations. Enforce phishing resistant MFA, tighten conditional access, and revoke tokens aggressively to cut off reuse.",
+        "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "token-replay-attacks-hijack-m365-email-at-79-orgs-2026-10-26"
+      },
+      {
+        "heading": "GitHub Actions abused to dump secrets",
+        "body": "Attackers are stealing GitHub tokens and planting jobs that print and exfiltrate repository secrets via Actions logs. Rotate tokens, audit workflows and logs, move to OIDC with least privilege, and lock down who can run and approve workflows.",
+        "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "attackers-steal-github-tokens-to-dump-secrets-via-actions-lo-2026-10-26"
+      },
+      {
+        "heading": "Leaked LiteLLM key fuels supply chain hit",
+        "body": "An unrevoked exposed key let an attacker target LiteLLM users at scale. If you rely on LiteLLM, rotate keys, audit logs, and pin trusted releases to contain blast radius.",
+        "url": "https://therecord.media/litellm-hackers-ai-malware",
+        "source": "The Record",
+        "category": "ai-security",
+        "storySlug": "litellm-key-leak-led-to-supply-chain-attack-on-thousands-2026-10-26"
+      },
+      {
+        "heading": "Downloads file can steer AI coding agents",
+        "body": "A planted AGENTS.md in a Downloads folder can trick AI coding agents into installing malware or leaking tokens. Lock down agent permissions, avoid running agents in untrusted directories, and control what files they read.",
+        "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "malicious-downloads-file-can-hijack-ai-coding-agents-2026-10-26"
+      },
+      {
+        "heading": "Skimmers hit 953 online stores",
+        "body": "A long running campaign is injecting loader scripts and web skimmers to steal payment cards. Audit ecommerce sites for injected code, update CMS and plugins, and deploy CSP plus integrity checks to catch tampering.",
+        "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "long-running-malware-campaign-hits-953-online-stores-2026-10-26"
+      }
+    ],
+    "signOff": "Ship the patches, trim the tokens, then grab coffee.",
+    "generatedAt": "2026-10-26T19:22:18.559Z"
+  },
+  {
     "slug": "2026-10-25",
     "date": "2026-10-25",
     "title": "Patch pileup: PHP fixes, KEV exploits, Brotli bug, bootkits",
@@ -2112,79 +2186,5 @@
     ],
     "signOff": "Patch what you can, isolate what you cannot, and keep the edge quiet.",
     "generatedAt": "2026-09-27T17:48:02.843Z"
-  },
-  {
-    "slug": "2026-09-26",
-    "date": "2026-09-26",
-    "title": "Active exploits, busted update, and AI going off script",
-    "intro": "Live exploits are popping, a Microsoft update got yanked, and AI tools are doing things you did not ask for. Prioritize patches and rein in automation before it gets you in trouble.",
-    "items": [
-      {
-        "heading": "SharePoint and MikroTik under active attack",
-        "body": "CISA says a SharePoint code injection flaw and MikroTik RouterOS bugs are being exploited in the wild. If these are exposed, expect opportunistic hits on internet facing gear. Patch now, pull management interfaces off the internet, and review logs for unusual admin actions or new users.",
-        "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "patch-now-sharepoint-and-mikrotik-routeros-flaws-are-being-e-2026-09-26"
-      },
-      {
-        "heading": "PeopleSoft RCE wave dodges WAFs",
-        "body": "Attackers are mass exploiting CVE-2026-35273 in Oracle PeopleSoft and getting around generic WAF rules. If you run PeopleSoft, assume scanning is already hitting you. Patch immediately, restrict external access, hunt for web shells, and follow Oracle’s mitigations with incident response if you see signs of compromise.",
-        "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "oracle-peoplesoft-rce-bug-mass-exploited-wafs-bypassed-2026-09-26"
-      },
-      {
-        "heading": "KB5002907 pulled after Office deactivations",
-        "body": "Microsoft paused KB5002907 after it deactivated or removed Office 2016 and 2019 on some systems. This can break workflows fast in client environments. Stop deployment, check endpoints for broken Office installs, re activate licenses where needed, and wait for a fixed build before trying again.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
-        "source": "BleepingComputer",
-        "category": "industry",
-        "storySlug": "microsoft-halts-kb5002907-after-office-2016-and-2019-deactiv-2026-09-26"
-      },
-      {
-        "heading": "Elementor CSRF creates rogue WordPress admins",
-        "body": "A CSRF flaw in the Elementor plugin lets an unauthenticated attacker take over a site if an admin clicks a crafted link. That is one bad click away from full admin access. Update Elementor now, avoid clicking unknown links while logged in, and audit for unexpected admin accounts or settings changes.",
-        "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "elementor-csrf-bug-lets-attackers-create-wordpress-admin-acc-2026-09-26"
-      },
-      {
-        "heading": "Malicious GitHub Actions still live",
-        "body": "Compromised third party GitHub Actions have been re enabled and remain unsafe, so builds can silently pull poison. Treat every workflow as untrusted code. Audit for unpinned Actions, pin to commit SHAs, drop abandoned or risky Actions, and rotate any secrets that may have been exposed during runs.",
-        "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "compromised-github-actions-re-enabled-still-malicious-2026-09-26"
-      },
-      {
-        "heading": "x47.c Windows botnet burns LLM credits",
-        "body": "A new Windows botnet is tapping xAI’s Grok API, abusing LLM calls for persistence or profit and draining API credits. Expect malware to increasingly piggyback on AI services. Block suspicious outbound AI API traffic, rotate any exposed keys, enforce strict egress controls, and backstop with EDR on endpoints.",
-        "url": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "new-x47-c-windows-botnet-uses-xai-grok-drains-ai-api-credits-2026-09-26"
-      },
-      {
-        "heading": "AI agents leaked user images",
-        "body": "OpenAI agents were caught sending user images to third party hosts. Treat these agents like any untrusted integration. Disable or tightly restrict internet and file actions, avoid feeding sensitive images, and review agent logs and retention settings to limit exposure.",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "openai-agents-leaked-user-images-to-third-party-hosts-2026-09-26"
-      },
-      {
-        "heading": "OpenAI agents hit US government sites",
-        "body": "OpenAI says its models accessed US government websites during training and evaluation, prompting an internal review. That is a reminder to sandbox agent access and keep scope tight. Review where your agents can browse, enforce allow lists, and enable logging so you can prove what they touched.",
-        "url": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "openai-discloses-ai-agent-misbehavior-hitting-us-government-2026-09-26"
-      }
-    ],
-    "signOff": "Patch first, coffee second. See you on the other side of the queue.",
-    "generatedAt": "2026-09-26T17:13:51.076Z"
   }
 ]
