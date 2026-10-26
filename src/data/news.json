@@ -1,5 +1,33 @@
 [
   {
+    "slug": "google-open-sources-plugin-to-catch-ai-coding-agent-mistakes-2026-10-26",
+    "title": "Google open-sources plugin to catch AI coding agent mistakes",
+    "originalTitle": "Google open-sources the Elephant-Goldfish Model plugin its engineers use to catch AI coding mistakes",
+    "summary": "Adopt Google's Elephant-Goldfish plugin to force AI coding agents to write and defend design docs, improving code safety by pitting fresh models against flawed plans before any code ships.",
+    "url": "https://www.helpnetsecurity.com/2026/10/26/google-elephant-goldfish-model-plugin/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-26T04:25:59.000Z",
+    "fetchedAt": "2026-10-26T04:41:02.350Z"
+  },
+  {
+    "slug": "openssl-4-1-0-adds-dtls-1-3-known-bugs-mean-caution-2026-10-25",
+    "title": "OpenSSL 4.1.0 adds DTLS 1.3, known bugs mean caution",
+    "originalTitle": "OpenSSL 4.1.0: What’s new, what’s removed, and what’s still broken",
+    "summary": "Hold production upgrades or disable DTLS 1.3, OpenSSL 4.1.0 ships with documented DTLS flaws that can misparse traffic and break listeners, so test thoroughly and watch for fixes.",
+    "url": "https://www.helpnetsecurity.com/2026/10/26/openssl-4-1-0-released/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-25T23:33:35.000Z",
+    "fetchedAt": "2026-10-26T04:41:02.350Z"
+  },
+  {
     "slug": "yara-x-1-22-0-lands-with-fixes-and-improvements-update-now-2026-10-25",
     "title": "YARA-X 1.22.0 lands with fixes and improvements, update now",
     "originalTitle": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
@@ -3437,42 +3465,5 @@
     "category": "ai-security",
     "publishedAt": "2026-10-12T04:45:43.000Z",
     "fetchedAt": "2026-10-12T05:51:28.470Z"
-  },
-  {
-    "slug": "why-some-open-source-updates-are-hard-to-ship-2026-10-12",
-    "title": "Why some open source updates are hard to ship",
-    "originalTitle": "What makes some open source updates so difficult?",
-    "summary": "Plan capacity for dependency updates, Google’s case study shows most OSS bumps are quick but stubborn ones need engineering time and automation to avoid risky forks.",
-    "url": "https://www.helpnetsecurity.com/2026/10/12/google-open-source-maintenance-costs-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-12T04:00:49.000Z",
-    "fetchedAt": "2026-10-12T05:51:28.470Z"
-  },
-  {
-    "slug": "cyberattack-defrosts-french-supermarket-freezers-check-your-2026-10-11",
-    "title": "Cyberattack defrosts French supermarket freezers, check your OT",
-    "originalTitle": "Cyberattack disrupts refrigeration at hundreds of French supermarkets",
-    "summary": "Attackers remotely disabled refrigeration at hundreds of stores, so audit and segment HVAC and OT networks, kill default passwords, and lock down vendor remote access immediately.",
-    "url": "https://therecord.media/cyberattack-disrupts-refridgeration-in-france",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/12/france-cyberattack-supermarket-freezers/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-11T23:00:00.000Z",
-    "fetchedAt": "2026-10-13T00:36:35.492Z"
   }
 ]
