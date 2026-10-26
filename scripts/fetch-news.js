@@ -146,10 +146,13 @@ async function fetchFeeds() {
   return items
 }
 
-async function curate(candidates) {
-  const client = new OpenAI({ baseURL: AZURE_AI_ENDPOINT, apiKey: process.env.AZURE_AI_API_KEY })
+function isPromptFilterError(err) {
+  return err instanceof OpenAI.APIError && err.status === 400 && err.code === 'content_filter'
+}
+
+async function requestCuration(client, candidates) {
   const payload = candidates.map(({ id, title, source, publishedAt, snippet }) => ({ id, title, source, publishedAt, snippet }))
-  const response = await client.chat.completions.create({
+  return client.chat.completions.create({
     model: AZURE_AI_DEPLOYMENT,
     max_completion_tokens: 16000,
     messages: [
@@ -161,6 +164,43 @@ async function curate(candidates) {
       json_schema: { name: 'curation', strict: true, schema: OUTPUT_SCHEMA },
     },
   })
+}
+
+// Azure rejects the whole prompt when one candidate trips its input filter; bisect to find which
+async function findFilteredIds(client, candidates) {
+  if (candidates.length === 1) return [candidates[0].id]
+  const mid = Math.floor(candidates.length / 2)
+  const ids = []
+  for (const half of [candidates.slice(0, mid), candidates.slice(mid)]) {
+    try {
+      await requestCuration(client, half)
+    } catch (err) {
+      if (!isPromptFilterError(err)) throw err
+      ids.push(...(await findFilteredIds(client, half)))
+    }
+  }
+  return ids
+}
+
+async function curate(candidates) {
+  const client = new OpenAI({ baseURL: AZURE_AI_ENDPOINT, apiKey: process.env.AZURE_AI_API_KEY })
+  let response
+  try {
+    response = await requestCuration(client, candidates)
+  } catch (err) {
+    if (!isPromptFilterError(err)) throw err
+    console.warn('prompt tripped the content filter, isolating offending candidates')
+    const filteredIds = new Set(await findFilteredIds(client, candidates))
+    for (const c of candidates) {
+      if (filteredIds.has(c.id)) console.warn(`dropped by content filter: [${c.source}] ${c.title}`)
+    }
+    const clean = candidates.filter((c) => !filteredIds.has(c.id))
+    if (clean.length === 0) {
+      console.warn('every candidate was filtered, skipping run')
+      process.exit(0)
+    }
+    response = await requestCuration(client, clean)
+  }
   const message = response.choices?.[0]?.message
   if (message?.refusal) {
     console.warn('curation request refused, skipping run', message.refusal)
