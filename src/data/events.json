@@ -22337,5 +22337,60 @@
     "url": "https://www.meetup.com/owasp-atlanta/events/317024209/",
     "source": "OWASP Atlanta (Meetup)",
     "description": "Close out the year with the Atlanta security community, swap war stories, and level up your network over games and good vibes. Low on slides, high on connections."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: DC Metro 2027",
+    "slug": "the-official-cybersecurity-summit-dc-metro-2027",
+    "date": "2027-03-18T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Tysons Corner",
+    "state": "VA",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career",
+      "Threat Intelligence"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Full-day in-person summit for security leaders in the DC area, featuring expert talks on current threats, leadership panels, and time to connect with top solution providers."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Minneapolis 2027",
+    "slug": "the-official-cybersecurity-summit-minneapolis-2027",
+    "date": "2027-05-25T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Minneapolis",
+    "state": "MN",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "A one-day summit for the Twin Cities security community with sessions on the latest risks, leadership discussions, and plenty of peer and provider networking."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: St. Louis 2027",
+    "slug": "the-official-cybersecurity-summit-st-louis-2027",
+    "date": "2027-06-03T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "St. Louis",
+    "state": "MO",
+    "region": "midwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "The St. Louis edition of the Cybersecurity Summit delivers a day of expert talks, panel discussions, and real-world networking to help you pressure-test your security plans."
   }
 ]
