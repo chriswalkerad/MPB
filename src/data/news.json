@@ -1,5 +1,122 @@
 [
   {
+    "slug": "long-running-malware-campaign-hits-953-online-stores-2026-10-26",
+    "title": "Long-running malware campaign hits 953 online stores",
+    "originalTitle": "953 Online Stores Infected in Long-Lasting Malware Campaign",
+    "summary": "Audit your ecommerce sites for injected loader scripts and web skimmers, update CMS and plugins, and deploy CSP and integrity checks to stop card-stealing malware.",
+    "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-26T12:46:44.000Z",
+    "fetchedAt": "2026-10-26T12:54:20.261Z"
+  },
+  {
+    "slug": "litellm-key-leak-led-to-supply-chain-attack-on-thousands-2026-10-26",
+    "title": "LiteLLM key leak led to supply-chain attack on thousands",
+    "originalTitle": "Popular AI tool LiteLLM says unrevoked key allowed hackers to target users",
+    "summary": "If you use LiteLLM, rotate keys, audit logs, and pin trusted releases, as an unrevoked exposed key enabled attacker targeting of the tool’s users at scale.",
+    "url": "https://therecord.media/litellm-hackers-ai-malware",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-26T12:00:00.000Z",
+    "fetchedAt": "2026-10-26T12:54:20.261Z"
+  },
+  {
+    "slug": "fortinet-fixes-critical-fortios-bugs-update-now-2026-10-26",
+    "title": "Fortinet fixes critical FortiOS bugs, update now",
+    "originalTitle": "Fortinet patches critical FortiOS flaws found with AI help",
+    "summary": "Patch FortiOS and related Fortinet products immediately, details are embargoed until November 10 so reduce exposure by upgrading and limiting management access from the internet.",
+    "url": "https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-26T11:22:52.000Z",
+    "fetchedAt": "2026-10-26T12:54:20.261Z"
+  },
+  {
+    "slug": "brotli-bug-hits-node-js-net-python-patch-now-2026-10-26",
+    "title": "Brotli bug hits Node.js, .NET, Python, patch now",
+    "originalTitle": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
+    "summary": "Update any software using the Brotli decoder, including Node.js, .NET, PowerShell, and Python packages, as an out-of-bounds write can allow code execution across popular stacks.",
+    "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-26T10:21:57.000Z",
+    "fetchedAt": "2026-10-26T12:54:20.261Z"
+  },
+  {
+    "slug": "php2shell-rce-flaws-are-being-exploited-patch-immediately-2026-10-26",
+    "title": "PHP2Shell RCE flaws are being exploited, patch immediately",
+    "originalTitle": "PHP2Shell security flaws now sucessfully exploited in the wild",
+    "summary": "Apply vendor fixes for CVE-2026-109618 and CVE-2026-109619 now, attackers are actively exploiting these PHP remote code execution bugs so minimize exposure and review web server logs.",
+    "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-26T09:19:57.000Z",
+    "fetchedAt": "2026-10-26T12:54:20.261Z"
+  },
+  {
+    "slug": "token-replay-attacks-hijack-m365-email-at-79-orgs-2026-10-26",
+    "title": "Token replay attacks hijack M365 email at 79 orgs",
+    "originalTitle": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+    "summary": "Harden Microsoft 365 by enforcing phishing-resistant MFA, conditional access, and token revocation, as AitM relays are replaying stolen tokens to access mailboxes across many tenants.",
+    "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-26T08:35:51.000Z",
+    "fetchedAt": "2026-10-26T12:54:20.261Z"
+  },
+  {
+    "slug": "attackers-steal-github-tokens-to-dump-secrets-via-actions-lo-2026-10-26",
+    "title": "Attackers steal GitHub tokens to dump secrets via Actions logs",
+    "originalTitle": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+    "summary": "Rotate GitHub tokens, audit Actions workflows and logs, and move to OIDC with least privilege because attackers are planting jobs that print and exfiltrate repository secrets.",
+    "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-26T07:49:46.000Z",
+    "fetchedAt": "2026-10-26T12:54:20.261Z"
+  },
+  {
+    "slug": "malicious-downloads-file-can-hijack-ai-coding-agents-2026-10-26",
+    "title": "Malicious Downloads file can hijack AI coding agents",
+    "originalTitle": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+    "summary": "Lock down agent permissions and avoid running coding agents in untrusted folders, a planted AGENTS.md in Downloads can trick them into installing malware or leaking tokens.",
+    "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/26/ai-coding-agents-malware-openai-codex/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-26T06:03:48.000Z",
+    "fetchedAt": "2026-10-26T12:54:20.261Z"
+  },
+  {
     "slug": "google-open-sources-plugin-to-catch-ai-coding-agent-mistakes-2026-10-26",
     "title": "Google open-sources plugin to catch AI coding agent mistakes",
     "originalTitle": "Google open-sources the Elephant-Goldfish Model plugin its engineers use to catch AI coding mistakes",
@@ -3357,113 +3474,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-12T13:09:09.000Z",
     "fetchedAt": "2026-10-12T15:16:32.523Z"
-  },
-  {
-    "slug": "windows-11-23h2-hits-end-of-support-in-30-days-2026-10-12",
-    "title": "Windows 11 23H2 hits end of support in 30 days",
-    "originalTitle": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
-    "summary": "Plan upgrades within 30 days, Windows 11 23H2 Enterprise, Education and IoT Enterprise will stop receiving security updates next month.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-12T11:58:33.000Z",
-    "fetchedAt": "2026-10-12T15:16:32.523Z"
-  },
-  {
-    "slug": "budget-android-phones-ship-with-unremovable-malware-2026-10-12",
-    "title": "Budget Android phones ship with unremovable malware",
-    "originalTitle": "Low-cost Android phones are arriving with malware that owners can’t uninstall",
-    "summary": "Block unknown-brand Android BYOD and enforce MDM enrollment, researchers found low-cost phones with firmware-level malware that activates on first boot and cannot be removed.",
-    "url": "https://www.helpnetsecurity.com/2026/10/12/midnight-mimosa-malware-cheap-android-phones/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-12T10:53:51.000Z",
-    "fetchedAt": "2026-10-12T15:16:32.523Z"
-  },
-  {
-    "slug": "sonicwall-sma-1000-cvss-10-bug-exploited-patch-now-2026-10-12",
-    "title": "SonicWall SMA 1000 CVSS 10 bug exploited, patch now",
-    "originalTitle": "Critical SonicWall Vulnerability Exploited Days After Disclosure",
-    "summary": "If you manage SonicWall SMA 1000 appliances, patch CVE-2026-102255 immediately or limit egress, the pre-auth SSRF is under active exploitation for unauthorized operations.",
-    "url": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-12T08:36:01.000Z",
-    "fetchedAt": "2026-10-12T15:16:32.523Z"
-  },
-  {
-    "slug": "let-s-encrypt-cuts-cert-lifetimes-to-64-days-automate-renewa-2026-10-12",
-    "title": "Let’s Encrypt cuts cert lifetimes to 64 days, automate renewals",
-    "originalTitle": "Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch",
-    "summary": "Automate ACME renewals and shorten your maintenance windows, Let’s Encrypt will reduce default certificate validity to 64 days starting February 2027.",
-    "url": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/12/lets-encrypt-64-day-certificate-lifetime/"
-      }
-    ],
-    "category": "defense",
-    "publishedAt": "2026-10-12T07:53:28.000Z",
-    "fetchedAt": "2026-10-12T15:16:32.523Z"
-  },
-  {
-    "slug": "attackers-tap-claude-powered-automation-to-breach-sites-2026-10-12",
-    "title": "Attackers tap Claude-powered automation to breach sites",
-    "originalTitle": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-    "summary": "Expect more AI-assisted initial access, researchers say CyberXero used Anthropic Claude Code to automate targeting of WordPress and e-commerce sites and stole over 628,000 records.",
-    "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-12T07:26:12.000Z",
-    "fetchedAt": "2026-10-12T15:16:32.523Z"
-  },
-  {
-    "slug": "sandbox-ai-agents-with-aws-strands-box-2026-10-12",
-    "title": "Sandbox AI agents with AWS Strands Box",
-    "originalTitle": "Strands Box: Open-source sandbox for AI agents",
-    "summary": "Use Strands Box to limit AI agents from trashing systems, it enforces OS isolation and rule checks for actions, now in developer preview on Apple silicon Macs.",
-    "url": "https://www.helpnetsecurity.com/2026/10/12/aws-strands-box-open-source-ai-agent-sandbox/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-12T05:30:34.000Z",
-    "fetchedAt": "2026-10-12T05:51:28.470Z"
-  },
-  {
-    "slug": "ai-generated-patches-often-fail-maintainer-tests-2026-10-12",
-    "title": "AI-generated patches often fail maintainer tests",
-    "originalTitle": "AI vulnerability patching has a grading problem",
-    "summary": "Do not auto-merge AI fixes, Northwestern found many agent patches that stop crashes still fail project tests, with Claude Opus 4.7 a third still failed checks.",
-    "url": "https://www.helpnetsecurity.com/2026/10/12/ai-vulnerability-patching-grading-problem/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-12T04:45:43.000Z",
-    "fetchedAt": "2026-10-12T05:51:28.470Z"
   }
 ]
