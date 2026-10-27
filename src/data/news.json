@@ -1,5 +1,75 @@
 [
   {
+    "slug": "hijacked-convertr-script-skimmed-cards-on-ecommerce-sites-2026-10-27",
+    "title": "Hijacked Convertr script skimmed cards on ecommerce sites",
+    "originalTitle": "Hackers hijack Convertr analytics script to steal payment card data",
+    "summary": "Audit your storefronts for third-party scripts and rotate payment keys, attackers hijacked a shared Convertr analytics script to steal checkout card data across multiple shops.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-27T20:57:25.000Z",
+    "fetchedAt": "2026-10-27T22:09:49.941Z"
+  },
+  {
+    "slug": "external-teams-chats-used-to-drop-malware-in-15-minutes-2026-10-27",
+    "title": "External Teams chats used to drop malware in 15 minutes",
+    "originalTitle": "External Teams Chats Anchor 15-Minute Malware Delivery",
+    "summary": "Disable or restrict external Teams chats and enforce MFA, a wide campaign is luring users into accepting chats that quickly deliver malware possibly linked to Black Basta.",
+    "url": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-27T20:42:40.000Z",
+    "fetchedAt": "2026-10-27T22:09:49.941Z"
+  },
+  {
+    "slug": "sboms-are-not-enough-monitor-runtime-to-scope-supply-chain-h-2026-10-27",
+    "title": "SBOMs are not enough, monitor runtime to scope supply chain hits",
+    "originalTitle": "SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack",
+    "summary": "Add runtime and service-level visibility to incident response plans, recent supply chain compromises show SBOMs alone cannot reveal which production systems and services are affected.",
+    "url": "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-27T19:58:06.000Z",
+    "fetchedAt": "2026-10-27T22:09:49.941Z"
+  },
+  {
+    "slug": "ai-multi-agent-tool-automates-hacking-in-attacks-on-japan-2026-10-27",
+    "title": "AI multi-agent tool automates hacking in attacks on Japan",
+    "originalTitle": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+    "summary": "Plan for AI-assisted intrusion workflows, researchers say attackers used dozens of coordinated AI agents to automate recon, phishing and exploitation against Japanese organizations.",
+    "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-27T18:26:46.000Z",
+    "fetchedAt": "2026-10-27T22:09:49.941Z"
+  },
+  {
+    "slug": "microsoft-pushes-oob-update-to-distrust-compromised-emudhra-2026-10-27",
+    "title": "Microsoft pushes OOB update to distrust compromised eMudhra certs",
+    "originalTitle": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+    "summary": "Apply the out-of-band Windows updates or ensure automatic certificate trust updates are enabled, Microsoft is removing trust in compromised eMudhra CA keys to block abuse.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-27T18:20:28.000Z",
+    "fetchedAt": "2026-10-27T22:09:49.941Z"
+  },
+  {
     "slug": "brotli-compression-bug-puts-many-apps-at-risk-patch-now-2026-10-27",
     "title": "Brotli compression bug puts many apps at risk, patch now",
     "originalTitle": "Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
@@ -115,6 +185,20 @@
     "category": "threats",
     "publishedAt": "2026-10-27T12:02:06.000Z",
     "fetchedAt": "2026-10-27T17:58:46.892Z"
+  },
+  {
+    "slug": "cisa-adds-adobe-commerce-and-brotli-flaws-to-kev-patch-now-2026-10-27",
+    "title": "CISA adds Adobe Commerce and Brotli flaws to KEV, patch now",
+    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "summary": "Patch Adobe Commerce and Magento servers and update software using Google Brotli, both flaws are in CISA's KEV for active exploitation and require fast remediation.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-27T12:00:00.000Z",
+    "fetchedAt": "2026-10-27T22:09:49.941Z"
   },
   {
     "slug": "apple-fixes-exploited-coregraphics-bug-backports-to-older-ip-2026-10-27",
@@ -3493,93 +3577,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-13T23:24:53.000Z",
     "fetchedAt": "2026-10-14T04:48:50.302Z"
-  },
-  {
-    "slug": "big-vmware-exits-continue-topgolf-says-it-saved-11-3m-2026-10-13",
-    "title": "Big VMware exits continue, Topgolf says it saved $11.3M",
-    "originalTitle": "Topgolf saved over $11.3 million after leaving VMware",
-    "summary": "Expect more clients to ask about leaving VMware, be ready to explain migration tradeoffs, licensing shifts, security hardening for new hypervisors, and realistic timelines with rollback plans.",
-    "url": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "msp-channel",
-    "publishedAt": "2026-10-13T21:33:43.000Z",
-    "fetchedAt": "2026-10-14T04:48:50.302Z"
-  },
-  {
-    "slug": "ghostscript-pdf-upload-bug-enables-server-takeover-2026-10-13",
-    "title": "Ghostscript PDF upload bug enables server takeover",
-    "originalTitle": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
-    "summary": "If your apps use Ghostscript to handle PDFs or images, patch CVE-2026-39919 or disable untrusted file processing, attackers can get code execution via crafted files.",
-    "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-13T21:33:26.000Z",
-    "fetchedAt": "2026-10-13T22:41:37.992Z"
-  },
-  {
-    "slug": "anthropic-warns-of-ai-worm-botnets-on-iot-gear-2026-10-13",
-    "title": "Anthropic warns of AI worm botnets on IoT gear",
-    "originalTitle": "Anthropic warns self-replicating AI could spread to your smart devices",
-    "summary": "Plan controls for AI agents now, researchers say small models could soon self-replicate across cheap IoT devices, forming hard-to-kill botnets that run AI workloads.",
-    "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/perimeter/anthropic-ingredients-future-ai-worms"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-13T21:16:34.000Z",
-    "fetchedAt": "2026-10-13T22:41:37.992Z"
-  },
-  {
-    "slug": "microsoft-patches-1-411-bugs-3-zero-days-patch-now-2026-10-13",
-    "title": "Microsoft patches 1,411 bugs, 3 zero-days, patch now",
-    "originalTitle": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
-    "summary": "Deploy October updates quickly, prioritizing the actively exploited Windows zero-day and critical RCEs across Windows, Office, .NET, and servers.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday"
-      },
-      {
-        "name": "SANS ISC",
-        "url": "https://isc.sans.edu/diary/rss/33422"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-13T19:56:09.000Z",
-    "fetchedAt": "2026-10-13T22:41:37.992Z"
-  },
-  {
-    "slug": "windows-11-24h2-home-pro-hit-end-of-support-2026-10-13",
-    "title": "Windows 11 24H2 Home/Pro hit end of support",
-    "originalTitle": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
-    "summary": "Identify and upgrade affected PCs promptly, Windows 11 24H2 Home and Pro no longer receive security updates, leaving endpoints exposed until they move to a supported release.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-10-13T19:04:38.000Z",
-    "fetchedAt": "2026-10-13T22:41:37.992Z"
   }
 ]
