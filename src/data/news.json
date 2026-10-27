@@ -1,5 +1,113 @@
 [
   {
+    "slug": "apple-fixes-exploited-coregraphics-bug-backports-to-older-ip-2026-10-27",
+    "title": "Apple fixes exploited CoreGraphics bug, backports to older iPhones",
+    "originalTitle": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
+    "summary": "Update iPhones and Macs immediately, Apple shipped patches for an actively exploited CoreGraphics zero-day and hundreds of other flaws with fixes backported to older devices.",
+    "url": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-27T11:49:57.000Z",
+    "fetchedAt": "2026-10-27T12:05:32.063Z"
+  },
+  {
+    "slug": "stolen-github-tokens-used-to-plant-workflows-that-steal-secr-2026-10-27",
+    "title": "Stolen GitHub tokens used to plant workflows that steal secrets",
+    "originalTitle": "Private repos still leak secrets to Gheist, a stolen GitHub token campaign",
+    "summary": "Audit repos and rotate tokens, researchers found 13,500 malicious branches across 850 plus accounts where attackers used stolen tokens to exfiltrate repository secrets via CI workflows.",
+    "url": "https://www.helpnetsecurity.com/2026/10/27/gheist-github-token-abuse/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-27T10:58:07.000Z",
+    "fetchedAt": "2026-10-27T12:05:32.063Z"
+  },
+  {
+    "slug": "dreamhost-incident-forces-password-resets-email-and-ftp-logi-2026-10-27",
+    "title": "DreamHost incident forces password resets, email and FTP logins blocked",
+    "originalTitle": "DreamHost incident triggers password resets, locks customers out of email and FTP accounts",
+    "summary": "If you manage DreamHost sites reset credentials and verify access, a security incident triggered service disruptions and forced password resets for affected email and FTP accounts.",
+    "url": "https://www.helpnetsecurity.com/2026/10/27/dreamhost-incident-email-ftp-password-resets/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-27T10:19:08.000Z",
+    "fetchedAt": "2026-10-27T12:05:32.063Z"
+  },
+  {
+    "slug": "openai-compaction-bug-exposed-hidden-reasoning-text-to-users-2026-10-27",
+    "title": "OpenAI compaction bug exposed hidden reasoning text to users",
+    "originalTitle": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+    "summary": "Review AI app controls and data handling, researchers showed how to extract hidden chain of thought via conversation compaction proving LLM outputs and logs can leak sensitive information.",
+    "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-27T08:22:43.000Z",
+    "fetchedAt": "2026-10-27T12:05:32.063Z"
+  },
+  {
+    "slug": "cisa-php2shell-rce-bugs-under-attack-patch-by-thursday-2026-10-27",
+    "title": "CISA: PHP2Shell RCE bugs under attack, patch by Thursday",
+    "originalTitle": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+    "summary": "Patch vulnerable PHP deployments now, CISA added two 9.2 CVSS PHP2Shell flaws to its KEV catalog and warned attacks are underway with a short federal remediation deadline.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-27T08:20:54.000Z",
+    "fetchedAt": "2026-10-27T12:05:32.063Z"
+  },
+  {
+    "slug": "attackers-hijack-dahua-ip-cameras-via-p2p-and-weak-auth-2026-10-27",
+    "title": "Attackers hijack Dahua IP cameras via P2P and weak auth",
+    "originalTitle": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+    "summary": "Lock down or patch Dahua gear, Ukraine's CERT saw unauthorized access, configuration changes and new accounts through P2P features so disable P2P, rotate credentials and segment camera networks.",
+    "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-27T06:34:47.000Z",
+    "fetchedAt": "2026-10-27T12:05:32.063Z"
+  },
+  {
+    "slug": "update-microsoft-authenticator-on-android-flaw-let-apps-hija-2026-10-27",
+    "title": "Update Microsoft Authenticator on Android, flaw let apps hijack work access",
+    "originalTitle": "Microsoft Authenticator vulnerability let rogue Android apps steal work account access",
+    "summary": "Push the latest Authenticator update, a broker flaw allowed any Android app to silently take over Azure AD work accounts used by Teams and Outlook without user interaction.",
+    "url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-authenticator-vulnerability-patchedcve-2026-80097/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-27T06:14:22.000Z",
+    "fetchedAt": "2026-10-27T12:05:32.063Z"
+  },
+  {
     "slug": "gpt-6-1-terra-can-operate-desktops-review-ai-controls-now-2026-10-27",
     "title": "GPT-6.1 Terra can operate desktops, review AI controls now",
     "originalTitle": "GPT-6.1 Terra meets OpenAI’s Critical cyber threshold, and it’s cheaper than GPT-5.6 Terra",
@@ -3389,177 +3497,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-13T15:20:20.000Z",
     "fetchedAt": "2026-10-13T22:41:37.992Z"
-  },
-  {
-    "slug": "cisa-patch-ignition-ics-privilege-escalation-now-2026-10-13",
-    "title": "CISA: Patch Ignition ICS privilege escalation now",
-    "originalTitle": "Inductive Automation Ignition Software",
-    "summary": "If you support Inductive Automation Ignition 8.1 or 8.3, update to a fixed release immediately, a low privilege user can escalate to admin, and audit accounts and project permissions.",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-13T12:00:00.000Z",
-    "fetchedAt": "2026-10-14T04:48:50.302Z"
-  },
-  {
-    "slug": "ivanti-connect-secure-zero-day-exploited-patch-and-mitigate-2026-10-13",
-    "title": "Ivanti Connect Secure zero-day exploited, patch and mitigate now",
-    "originalTitle": "CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure",
-    "summary": "Immediate action required, attackers are chaining an auth bypass to run commands as root on fully patched appliances, apply available fixes, interim mitigations, and rotate credentials.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html"
-      },
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/"
-      },
-      {
-        "name": "CISA Advisories",
-        "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-13T12:00:00.000Z",
-    "fetchedAt": "2026-10-13T22:41:37.992Z"
-  },
-  {
-    "slug": "cyber-incident-disrupts-ahold-delhaize-stores-systems-discon-2026-10-13",
-    "title": "Cyber incident disrupts Ahold Delhaize stores, systems disconnected",
-    "originalTitle": "Cyber incident hits grocery stores in US, Netherlands and Belgium",
-    "summary": "Test your retail incident response, POS and back office segmentation, and offline payment playbooks as the grocer contained a network issue by taking systems offline across regions.",
-    "url": "https://therecord.media/cyberattack-groceru-ahold-delhaize",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-13T12:00:00.000Z",
-    "fetchedAt": "2026-10-13T14:07:00.607Z"
-  },
-  {
-    "slug": "anthropic-warns-small-ai-models-could-self-spread-on-iot-gea-2026-10-13",
-    "title": "Anthropic warns small AI models could self-spread on IoT gear",
-    "originalTitle": "Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns",
-    "summary": "Treat smart TVs and TV boxes as untrusted, segment them and restrict egress, because lightweight AI models may soon replicate and persist across cheap devices.",
-    "url": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-13T11:58:29.000Z",
-    "fetchedAt": "2026-10-13T14:07:00.607Z"
-  },
-  {
-    "slug": "firefox-enterprise-adds-controls-to-block-shadow-ai-tools-2026-10-13",
-    "title": "Firefox Enterprise adds controls to block shadow AI tools",
-    "originalTitle": "Mozilla’s Firefox Enterprise lets companies block shadow AI in the browser",
-    "summary": "If you manage browsers, consider Mozilla’s enterprise build to restrict AI assistants and enforce data handling policies with on-prem management and policy controls.",
-    "url": "https://www.helpnetsecurity.com/2026/10/13/mozilla-firefox-enterprise-platform/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-13T11:21:41.000Z",
-    "fetchedAt": "2026-10-13T14:07:00.607Z"
-  },
-  {
-    "slug": "lg-smart-tv-bugs-allow-pre-auth-root-from-local-network-2026-10-13",
-    "title": "LG smart TV bugs allow pre-auth root from local network",
-    "originalTitle": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-    "summary": "Patch affected webOS TVs to the latest firmware and isolate AV gear, since a local attacker could chain flaws for root without user interaction or PIN.",
-    "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-13T11:09:10.000Z",
-    "fetchedAt": "2026-10-13T14:07:00.607Z"
-  },
-  {
-    "slug": "patch-gitlab-now-critical-unauth-rce-in-ci-cd-regex-compiler-2026-10-13",
-    "title": "Patch GitLab now, critical unauth RCE in CI/CD regex compiler",
-    "originalTitle": "GitLab admins urged to patch critical RCE flaw (CVE-2026-97229)",
-    "summary": "Self-managed GitLab CE and EE instances are vulnerable to CVE-2026-97229 allowing remote code execution, update to the latest fixed release immediately and review CI runners’ exposure.",
-    "url": "https://www.helpnetsecurity.com/2026/10/13/gitlab-ci-cd-regular-expression-compiler-vulnerability-cve-2026-97229/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-13T09:19:45.000Z",
-    "fetchedAt": "2026-10-13T14:07:00.607Z"
-  },
-  {
-    "slug": "npm-trusted-publishing-bug-exposed-1-500-packages-to-takeove-2026-10-13",
-    "title": "npm Trusted Publishing bug exposed 1,500+ packages to takeover",
-    "originalTitle": "npm Trusted Publishing flaw exposed 1,500+ npm packages to takeover",
-    "summary": "If you publish to npm, confirm repository ownership, audit maintainers and recent releases, and rotate tokens since a naming gap could let attackers push new versions.",
-    "url": "https://www.helpnetsecurity.com/2026/10/13/slugfest-npm-trusted-publishing-flaw/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-13T09:00:08.000Z",
-    "fetchedAt": "2026-10-13T14:07:00.607Z"
-  },
-  {
-    "slug": "attackers-cranked-supermarket-fridges-to-50-c-via-danfoss-co-2026-10-13",
-    "title": "Attackers cranked supermarket fridges to 50°C via Danfoss controls",
-    "originalTitle": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
-    "summary": "Lock down remote access to store refrigeration controllers, remove default credentials, and segment building systems after hijacks forced food spoilage across hundreds of markets.",
-    "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-13T08:48:41.000Z",
-    "fetchedAt": "2026-10-13T14:07:00.607Z"
-  },
-  {
-    "slug": "cheap-android-phones-ship-with-malware-become-proxy-bots-2026-10-13",
-    "title": "Cheap Android phones ship with malware, become proxy bots",
-    "originalTitle": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
-    "summary": "Block off-brand Androids from corporate networks and require MDM enrollment, as preinstalled firmware malware abuses devices for ad fraud and residential proxy traffic.",
-    "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-13T06:00:11.000Z",
-    "fetchedAt": "2026-10-13T14:07:00.607Z"
   }
 ]
