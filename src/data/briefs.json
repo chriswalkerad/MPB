@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-27",
+    "date": "2026-10-27",
+    "title": "Patch pileup and identity traps across your stack",
+    "intro": "Busy patch day across libraries, network gear, and auth apps, plus a Teams phish trick targeting M365 tenants. If you only have time for a few moves, start with anything internet facing and broadly deployed.",
+    "items": [
+      {
+        "heading": "Brotli compression bug needs urgent patching",
+        "body": "A remotely exploitable out of bounds write in the Brotli compression library, disclosed via Node.js, can lead to code execution in software that uses it on both servers and clients. Inventory where Brotli is bundled in your stack and pull in upstream fixes fast. If you cannot patch immediately, evaluate disabling Brotli where optional and limit untrusted inputs hitting affected services.",
+        "url": "https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "brotli-compression-bug-puts-many-apps-at-risk-patch-now-2026-10-27"
+      },
+      {
+        "heading": "HPE ships fixes for critical networking flaws",
+        "body": "HPE released updates for dozens of networking product vulnerabilities, including eight max severity issues that enable remote code execution and authentication bypass. Plan maintenance windows to patch switches and appliances promptly. Until updated, restrict management access and keep control planes isolated.",
+        "url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "hpe-fixes-dozens-of-critical-networking-bugs-including-rce-2026-10-27"
+      },
+      {
+        "heading": "CISA flags PHP bugs under active exploitation",
+        "body": "CISA added widely known PHP flaws to the KEV list and warned they are being exploited, with a short federal remediation window. Upgrade to supported PHP versions and patch any internet exposed PHP applications. Reduce exposure by limiting direct internet access and placing apps behind strict controls while you remediate.",
+        "url": "https://therecord.media/php-vulnerabilities-cisa-kev",
+        "source": "The Record",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-php-bugs-under-active-attack-patch-your-servers-now-2026-10-27"
+      },
+      {
+        "heading": "Tailscale SSH flaws allow root escalation",
+        "body": "Multiple Tailscale SSH bugs could grant root access, steal credentials, or crash systems on unpatched deployments. Update to the latest Tailscale release immediately and review SSH settings and policy. Audit who can access hosts over Tailscale and temporarily tighten access until updates are verified.",
+        "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "tailscale-rushes-fixes-for-ssh-flaws-enabling-root-escalatio-2026-10-27"
+      },
+      {
+        "heading": "Android Authenticator token theft bug fixed",
+        "body": "On Android, CVE-2026-80097 allowed unprivileged apps to impersonate trusted Microsoft apps and steal work account sign in tokens. Microsoft fixed this in Authenticator 6.2606.4246 or later, push the update via MDM and verify compliance. Check sign in logs for anomalies around the update window.",
+        "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "update-microsoft-authenticator-for-android-token-theft-flaw-2026-10-27"
+      },
+      {
+        "heading": "Apple patches exploited CoreGraphics flaw on older devices",
+        "body": "Apple backported a fix for an out of bounds write in CoreGraphics that has been exploited in the wild, allowing code execution via malicious files. Update older iPhones and iPads as soon as possible. Remind users to avoid opening unknown attachments until updates are installed.",
+        "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "apple-backports-fix-for-exploited-coregraphics-bug-to-older-2026-10-27"
+      },
+      {
+        "heading": "Teams phish: spam distraction then fake IT support",
+        "body": "Attackers are flooding inboxes with noise, then jumping into Microsoft Teams posing as IT to harvest credentials within minutes. Lock down external messaging in Teams, tighten M365 policies, and coach users that IT will not ask for passwords in chat. Monitor for unusual external chat requests and sudden Teams prompts.",
+        "url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-teams-social-engineering-fake-it-help-desk/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "attackers-spam-inboxes-then-phish-on-teams-as-fake-it-suppor-2026-10-27"
+      },
+      {
+        "heading": "DreamHost forces email and FTP password resets",
+        "body": "DreamHost triggered forced resets after an incident affecting some systems including webmail. If you manage any DreamHost accounts, rotate credentials and review access logs for suspicious activity. If those passwords were reused elsewhere, change them there too.",
+        "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "dreamhost-resets-email-and-ftp-passwords-after-unexplained-i-2026-10-27"
+      }
+    ],
+    "signOff": "Patch what you can now, queue the rest, and keep an eye on tokens and Teams chats.",
+    "generatedAt": "2026-10-27T18:43:18.324Z"
+  },
+  {
     "slug": "2026-10-26",
     "date": "2026-10-26",
     "title": "Patch now, lock tokens, babysit your bots",
@@ -2120,71 +2194,5 @@
     ],
     "signOff": "Patch, verify, repeat. See you after the morning coffee.",
     "generatedAt": "2026-09-28T20:08:45.777Z"
-  },
-  {
-    "slug": "2026-09-27",
-    "date": "2026-09-27",
-    "title": "Edge under attack: NetScaler zero days, SharePoint exploited",
-    "intro": "Edge devices and collaboration servers are catching heat today. Here is what to isolate, patch, and audit before the queue fills up.",
-    "items": [
-      {
-        "heading": "NetScaler zero days exploited, take gateways offline",
-        "body": "Two unpatched flaws in Citrix NetScaler ADC and Gateway are under active attack. With fixes expected next week, restrict or remove Internet exposure now, limit access to known IPs or a VPN, apply any vendor mitigations, and watch for unusual auth or config changes.",
-        "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "citrix-netscaler-zero-days-under-exploit-take-them-offline-2026-09-27"
-      },
-      {
-        "heading": "SharePoint CVE-2026-65660 is being exploited",
-        "body": "CISA added CVE-2026-65660 to KEV after confirmed in-the-wild use and set a rapid remediation deadline. Patch on-prem SharePoint immediately, prioritize anything internet facing, and review logs for suspicious uploads, permissions changes, or web shell indicators.",
-        "url": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "sharepoint-flaw-cve-2026-65660-exploited-patch-now-2026-09-27"
-      },
-      {
-        "heading": "PeopleSoft exploit bypasses WAF rules",
-        "body": "Attackers are using URL encoding tricks to bypass WAF mitigations and exploit CVE-2026-35273 at scale. Patch PeopleSoft now, do not rely on WAF rules alone, and hunt access logs for encoded paths or parameters hitting sensitive endpoints.",
-        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "attackers-bypass-wafs-to-exploit-oracle-peoplesoft-cve-2026-2026-09-26"
-      },
-      {
-        "heading": "Cloudflare Workers cross-tenant leak fixed",
-        "body": "Cloudflare resolved a cross-tenant isolation flaw affecting Workers Containers and Sandboxes. If you run Workers Paid workloads, review execution logs, rotate secrets and tokens, and assess any data exposure before re-enabling sensitive integrations.",
-        "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "cloudflare-fixes-workers-container-data-leak-across-tenants-2026-09-27"
-      },
-      {
-        "heading": "Wireshark 4.6.9 closes 19 vulnerabilities",
-        "body": "The latest Wireshark release patches 19 vulnerabilities, several triggered by malicious capture files, and fixes 16 bugs. Update to 4.6.9 and avoid opening untrusted pcaps on analyst workstations without containment.",
-        "url": "https://isc.sans.edu/diary/rss/33372",
-        "source": "SANS ISC",
-        "category": "vulnerabilities",
-        "storySlug": "update-wireshark-4-6-9-fixes-19-vulns-2026-09-27"
-      },
-      {
-        "heading": "Lunex stealer uses vulnerable AMD driver to kill EDR",
-        "body": "A new MaaS stealer abuses a vulnerable AMD driver to disable monitoring and uses fake Cloudflare pages to steal credentials. Block known vulnerable drivers, tighten browser credential storage policies, and coach users to spot phony Cloudflare checks.",
-        "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "lunex-stealer-abuses-amd-driver-to-evade-edr-and-steal-creds-2026-09-26"
-      },
-      {
-        "heading": "Claude Marketplace expands plugin attack surface",
-        "body": "Anthropic launched a plugin and connector marketplace for Claude, which means users will try to wire it into sensitive apps. Enforce tenant controls, least privilege OAuth scopes, and DLP for AI tools, and require approval and logging for any new connectors.",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "anthropic-launches-claude-marketplace-mind-the-plugin-attack-2026-09-27"
-      }
-    ],
-    "signOff": "Patch what you can, isolate what you cannot, and keep the edge quiet.",
-    "generatedAt": "2026-09-27T17:48:02.843Z"
   }
 ]
