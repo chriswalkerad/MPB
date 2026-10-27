@@ -1,5 +1,66 @@
 [
   {
+    "slug": "gpt-6-1-terra-can-operate-desktops-review-ai-controls-now-2026-10-27",
+    "title": "GPT-6.1 Terra can operate desktops, review AI controls now",
+    "originalTitle": "GPT-6.1 Terra meets OpenAI’s Critical cyber threshold, and it’s cheaper than GPT-5.6 Terra",
+    "summary": "OpenAI released a cheaper model that controls desktop software via ChatGPT and API, restrict high‑risk actions, audit API keys, and set clear client AI usage policies.",
+    "url": "https://www.helpnetsecurity.com/2026/10/27/gpt-6-1-terra-released/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-27T04:33:34.000Z",
+    "fetchedAt": "2026-10-27T04:58:40.901Z"
+  },
+  {
+    "slug": "apple-ships-fixes-for-304-flaws-update-macos-and-ios-now-2026-10-27",
+    "title": "Apple ships fixes for 304 flaws, update macOS and iOS now",
+    "originalTitle": "Apple Patches for October 2026, (Mon, Oct 26th)",
+    "summary": "Roll out October updates across iPhone, iPad, Mac, Watch and Apple TV to close hundreds of vulnerabilities and reduce enterprise risk in managed Apple fleets.",
+    "url": "https://isc.sans.edu/diary/rss/33458",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-27T02:09:55.000Z",
+    "fetchedAt": "2026-10-27T04:58:40.901Z"
+  },
+  {
+    "slug": "cyber-incident-forces-unm-hospital-patient-diversion-clinics-2026-10-27",
+    "title": "Cyber incident forces UNM Hospital patient diversion, clinics closed",
+    "originalTitle": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
+    "summary": "A cybersecurity issue disrupted University of New Mexico Health operations, validate downtime procedures, segment critical systems, and ensure tested offline backups for healthcare and other critical services.",
+    "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-27T01:30:00.000Z",
+    "fetchedAt": "2026-10-27T04:58:40.901Z"
+  },
+  {
+    "slug": "ai-security-benchmarks-are-partial-test-on-your-own-stack-2026-10-27",
+    "title": "AI security benchmarks are partial, test on your own stack",
+    "originalTitle": "So Many AI Security Benchmarks, But None Tell the Whole Story",
+    "summary": "Benchmarks miss real-world context, so validate models and guardrails against your code, data, and workflows before putting AI systems into production use.",
+    "url": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-27T00:26:50.000Z",
+    "fetchedAt": "2026-10-27T04:58:40.901Z"
+  },
+  {
     "slug": "openai-ships-gpt-6-1-terra-faster-agents-at-half-the-price-2026-10-26",
     "title": "OpenAI ships GPT-6.1 Terra, faster agents at half the price",
     "originalTitle": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
@@ -127,6 +188,20 @@
     "category": "threats",
     "publishedAt": "2026-10-26T12:46:44.000Z",
     "fetchedAt": "2026-10-26T12:54:20.261Z"
+  },
+  {
+    "slug": "cisa-adds-exploited-php-bugs-to-kev-patch-now-2026-10-26",
+    "title": "CISA adds exploited PHP bugs to KEV, patch now",
+    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "summary": "Patch or take vulnerable PHP installs offline immediately, CVE-2026-109618 and CVE-2026-109619 are actively exploited and pose significant risk to internet‑facing apps.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-26T12:00:00.000Z",
+    "fetchedAt": "2026-10-27T04:58:40.901Z"
   },
   {
     "slug": "litellm-key-leak-led-to-supply-chain-attack-on-thousands-2026-10-26",
