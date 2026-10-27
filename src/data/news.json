@@ -1,5 +1,122 @@
 [
   {
+    "slug": "brotli-compression-bug-puts-many-apps-at-risk-patch-now-2026-10-27",
+    "title": "Brotli compression bug puts many apps at risk, patch now",
+    "originalTitle": "Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
+    "summary": "Audit and patch any software using the Brotli library, a remotely exploitable out-of-bounds write disclosed via Node.js can enable code execution across diverse servers and clients.",
+    "url": "https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-27T17:38:51.000Z",
+    "fetchedAt": "2026-10-27T17:58:46.892Z"
+  },
+  {
+    "slug": "attackers-spam-inboxes-then-phish-on-teams-as-fake-it-suppor-2026-10-27",
+    "title": "Attackers spam inboxes then phish on Teams as fake IT support",
+    "originalTitle": "Hackers bury inboxes in spam then show up on Microsoft Teams posing as IT support",
+    "summary": "Lock down Teams external chats, train users, and tighten M365 policies, attackers flood email with spam then appear on Teams offering “help” to harvest credentials within minutes.",
+    "url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-teams-social-engineering-fake-it-help-desk/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-27T14:16:43.000Z",
+    "fetchedAt": "2026-10-27T17:58:46.892Z"
+  },
+  {
+    "slug": "tailscale-rushes-fixes-for-ssh-flaws-enabling-root-escalatio-2026-10-27",
+    "title": "Tailscale rushes fixes for SSH flaws enabling root escalation",
+    "originalTitle": "Tailscale warns of SSH flaws allowing root privilege escalation",
+    "summary": "Update to the latest Tailscale release and review SSH settings, multiple disclosed bugs can grant root access, steal credentials, or crash systems on unpatched deployments.",
+    "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-27T14:09:46.000Z",
+    "fetchedAt": "2026-10-27T17:58:46.892Z"
+  },
+  {
+    "slug": "apple-backports-fix-for-exploited-coregraphics-bug-to-older-2026-10-27",
+    "title": "Apple backports fix for exploited CoreGraphics bug to older devices",
+    "originalTitle": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+    "summary": "Update older iPhones and iPads immediately, Apple shipped a patch for a CoreGraphics out-of-bounds write exploited in the wild that enables code execution via malicious files.",
+    "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-27T13:59:09.000Z",
+    "fetchedAt": "2026-10-27T17:58:46.892Z"
+  },
+  {
+    "slug": "cisa-php-bugs-under-active-attack-patch-your-servers-now-2026-10-27",
+    "title": "CISA: PHP bugs under active attack, patch your servers now",
+    "originalTitle": "CISA warns of PHP bug exploitation attempts, gives federal agencies days to patch",
+    "summary": "Upgrade PHP to supported versions and reduce internet exposure, CISA added widely known PHP flaws to KEV and warned of ongoing exploitation with a short federal remediation window.",
+    "url": "https://therecord.media/php-vulnerabilities-cisa-kev",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-27T13:16:00.000Z",
+    "fetchedAt": "2026-10-27T17:58:46.892Z"
+  },
+  {
+    "slug": "hpe-fixes-dozens-of-critical-networking-bugs-including-rce-2026-10-27",
+    "title": "HPE fixes dozens of critical networking bugs, including RCE",
+    "originalTitle": "HPE Patches Dozens of Critical Flaws in Networking Products",
+    "summary": "Plan maintenance to patch HPE networking gear, eight max-severity flaws among many could enable remote code execution and authentication bypass if updates are not applied promptly.",
+    "url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-27T13:13:58.000Z",
+    "fetchedAt": "2026-10-27T17:58:46.892Z"
+  },
+  {
+    "slug": "update-microsoft-authenticator-for-android-token-theft-flaw-2026-10-27",
+    "title": "Update Microsoft Authenticator for Android, token theft flaw fixed",
+    "originalTitle": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+    "summary": "Force-update Authenticator for Android to 6.2606.4246 or later, CVE-2026-80097 allowed permissionless apps to impersonate trusted Microsoft apps and steal work account sign-in tokens.",
+    "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-27T12:09:50.000Z",
+    "fetchedAt": "2026-10-27T17:58:46.892Z"
+  },
+  {
+    "slug": "dreamhost-resets-email-and-ftp-passwords-after-unexplained-i-2026-10-27",
+    "title": "DreamHost resets email and FTP passwords after unexplained issue",
+    "originalTitle": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
+    "summary": "Reset any DreamHost credentials you manage and review access logs, the host triggered forced resets following an incident affecting some systems including webmail.",
+    "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-27T12:02:06.000Z",
+    "fetchedAt": "2026-10-27T17:58:46.892Z"
+  },
+  {
     "slug": "apple-fixes-exploited-coregraphics-bug-backports-to-older-ip-2026-10-27",
     "title": "Apple fixes exploited CoreGraphics bug, backports to older iPhones",
     "originalTitle": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
@@ -3463,39 +3580,6 @@
     "altSources": [],
     "category": "industry",
     "publishedAt": "2026-10-13T19:04:38.000Z",
-    "fetchedAt": "2026-10-13T22:41:37.992Z"
-  },
-  {
-    "slug": "adobe-patches-140-flaws-across-coldfusion-photoshop-more-2026-10-13",
-    "title": "Adobe patches 140 flaws across ColdFusion, Photoshop, more",
-    "originalTitle": "Adobe Patches 140 Vulnerabilities Across 10 Products",
-    "summary": "Review and apply Adobe updates, multiple critical issues hit ColdFusion and other widely used apps that attackers often target soon after release.",
-    "url": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-13T17:14:42.000Z",
-    "fetchedAt": "2026-10-13T22:41:37.992Z"
-  },
-  {
-    "slug": "docker-hub-bug-let-attackers-push-images-as-you-2026-10-13",
-    "title": "Docker Hub bug let attackers push images as you",
-    "originalTitle": "Docker Hub flaw let attackers impersonate users, tamper with images",
-    "summary": "Audit and re-pull trusted images, rotate tokens, and verify digests, a now-fixed Docker Hub flaw could have allowed repo impersonation and image tampering.",
-    "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-13T15:20:20.000Z",
     "fetchedAt": "2026-10-13T22:41:37.992Z"
   }
 ]
