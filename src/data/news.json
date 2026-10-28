@@ -1,5 +1,132 @@
 [
   {
+    "slug": "tailscale-ssh-bugs-enable-lateral-movement-update-asap-2026-10-28",
+    "title": "Tailscale SSH bugs enable lateral movement, update ASAP",
+    "originalTitle": "Tailscale fixes SSH flaws allowing lateral movement within tailnets",
+    "summary": "Update Tailscale to the fixed release to block SSH forwarding flaws that could let a hacked device reach root-only services on other tailnet machines.",
+    "url": "https://www.helpnetsecurity.com/2026/10/28/tailscale-fixes-tailworm-ssh-flaws/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-28T12:25:04.000Z",
+    "fetchedAt": "2026-10-28T12:46:12.995Z"
+  },
+  {
+    "slug": "hackers-are-scanning-for-oracle-ebs-rce-patch-now-2026-10-28",
+    "title": "Hackers are scanning for Oracle EBS RCE, patch now",
+    "originalTitle": "Hackers now scanning systems for recently-patched Oracle flaw",
+    "summary": "Prioritize patching CVE-2026-101767 on Oracle E-Business Suite, internet scans started, treat exposed instances as compromised and rotate creds, audit for SQL injection abuse.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-28T12:19:57.000Z",
+    "fetchedAt": "2026-10-28T12:46:12.995Z"
+  },
+  {
+    "slug": "patch-brotli-node2shell-flaw-now-attackers-are-hitting-it-2026-10-28",
+    "title": "Patch Brotli Node2Shell flaw now, attackers are hitting it",
+    "originalTitle": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+    "summary": "Update Brotli/affected stacks immediately, CISA says Node2Shell is being exploited, check reverse proxies and Node.js apps for suspicious requests and apply vendor fixes.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-28T10:46:23.000Z",
+    "fetchedAt": "2026-10-28T12:46:12.995Z"
+  },
+  {
+    "slug": "device-code-phishing-bypasses-passwords-using-cloud-auth-flo-2026-10-28",
+    "title": "Device code phishing bypasses passwords using cloud auth flows",
+    "originalTitle": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+    "summary": "Lock down OAuth device code authorization, monitor consent and MFA prompts, attackers are using Skyw4lker to enroll devices then steal accounts without stealing passwords.",
+    "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-28T10:30:00.000Z",
+    "fetchedAt": "2026-10-28T12:46:12.995Z"
+  },
+  {
+    "slug": "cisa-updates-m365-and-workspace-baseline-check-tools-2026-10-28",
+    "title": "CISA updates M365 and Workspace baseline check tools",
+    "originalTitle": "CISA updates ScubaGear and ScubaGoggles, and says Microsoft 365 checks get faster",
+    "summary": "Run ScubaGear v2.0 and ScubaGoggles v1.1.0 to audit Microsoft 365 and Google Workspace settings faster against CISA baselines, then auto-generate tasks to close gaps.",
+    "url": "https://www.helpnetsecurity.com/2026/10/28/cisa-scubagear-scubagoggles-update/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-28T09:38:17.000Z",
+    "fetchedAt": "2026-10-28T12:46:12.995Z"
+  },
+  {
+    "slug": "anthropic-model-chained-real-bugs-into-working-exploits-in-t-2026-10-28",
+    "title": "Anthropic model chained real bugs into working exploits in tests",
+    "originalTitle": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+    "summary": "Expect AI-assisted exploit development to accelerate, all flaws found were patched but MSPs should plan for faster zero-day weaponization and tighten exposure management.",
+    "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-28T08:15:07.000Z",
+    "fetchedAt": "2026-10-28T12:46:12.995Z"
+  },
+  {
+    "slug": "free-tool-tracks-blacklists-dns-ssl-and-email-records-2026-10-28",
+    "title": "Free tool tracks blacklists, DNS, SSL and email records",
+    "originalTitle": "AbuseBox: Open-source monitor for blacklists, DNS, SSL and email records",
+    "summary": "Use open-source AbuseBox to monitor domains and IPs against 60 DNSBLs, verify SPF, DKIM and DMARC, track certificate changes, and get alerts before customers see mail trouble.",
+    "url": "https://www.helpnetsecurity.com/2026/10/28/abusebox-open-source-ip-blacklist-monitoring/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-28T06:00:45.000Z",
+    "fetchedAt": "2026-10-28T12:46:12.995Z"
+  },
+  {
+    "slug": "magento-stores-hacked-via-polyshell-cisa-adds-bugs-to-kev-2026-10-28",
+    "title": "Magento stores hacked via PolyShell, CISA adds bugs to KEV",
+    "originalTitle": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+    "summary": "If you run Adobe Commerce or Magento, patch recent CVEs and hunt for PolyShell webshells, attackers have breached hundreds of stores and active exploit traffic is rising.",
+    "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-28T05:42:26.000Z",
+    "fetchedAt": "2026-10-28T12:46:12.995Z"
+  },
+  {
     "slug": "nist-sets-deadlines-to-retire-quantum-vulnerable-crypto-2026-10-28",
     "title": "NIST sets deadlines to retire quantum-vulnerable crypto",
     "originalTitle": "NIST starts the countdown to retire quantum-vulnerable encryption",
@@ -3451,173 +3578,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-14T12:58:07.000Z",
     "fetchedAt": "2026-10-14T17:07:32.335Z"
-  },
-  {
-    "slug": "update-curl-now-http-2-upload-bug-can-run-code-on-clients-2026-10-14",
-    "title": "Update curl now, HTTP/2 upload bug can run code on clients",
-    "originalTitle": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
-    "summary": "Update curl and libcurl to 8.23.0 quickly, a malicious server can corrupt memory during HTTP/2 uploads and a proof of concept shows client code execution is possible.",
-    "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-14T12:13:36.000Z",
-    "fetchedAt": "2026-10-14T17:07:32.335Z"
-  },
-  {
-    "slug": "cisa-adds-pan-os-cisco-seg-ahsay-to-exploited-list-2026-10-14",
-    "title": "CISA adds PAN-OS, Cisco SEG, Ahsay to exploited list",
-    "originalTitle": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "summary": "Prioritize fixes for Palo Alto PAN-OS code injection, Cisco SEG path traversal, and two Ahsay backup flaws, these are actively exploited and should be patched or mitigated now.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-14T12:00:00.000Z",
-    "fetchedAt": "2026-10-14T21:38:32.891Z"
-  },
-  {
-    "slug": "run-a-deepfake-drill-before-a-cloned-voice-hits-your-help-de-2026-10-14",
-    "title": "Run a deepfake drill before a cloned voice hits your help desk",
-    "originalTitle": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
-    "summary": "Stage a short voice clone social engineering exercise now, then codify call-back verification, shared secrets, and payment change procedures for finance and IT support.",
-    "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-14T11:50:00.000Z",
-    "fetchedAt": "2026-10-14T17:07:32.335Z"
-  },
-  {
-    "slug": "new-android-trojan-swaps-your-banking-app-with-a-patched-fak-2026-10-14",
-    "title": "New Android trojan swaps your banking app with a patched fake",
-    "originalTitle": "Hirudo Android malware replaces banking apps to evade security checks",
-    "summary": "Lock down BYOD and block sideloading, Hirudo replaces legitimate banking apps with modified versions that bypass in-app checks to steal credentials and funds.",
-    "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-14T11:41:20.000Z",
-    "fetchedAt": "2026-10-14T11:47:24.948Z"
-  },
-  {
-    "slug": "ai-agents-helped-build-a-chrome-full-chain-exploit-in-six-da-2026-10-14",
-    "title": "AI agents helped build a Chrome full-chain exploit in six days",
-    "originalTitle": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
-    "summary": "Expect exploit development to accelerate, keep Chrome auto-updates enforced, minimize attack surface, and treat prompt patching as critical even for seemingly minor browser bugs.",
-    "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-14T11:19:02.000Z",
-    "fetchedAt": "2026-10-14T11:47:24.948Z"
-  },
-  {
-    "slug": "recent-windows-updates-break-rdp-for-non-admins-microsoft-wa-2026-10-14",
-    "title": "Recent Windows updates break RDP for non-admins, Microsoft warns",
-    "originalTitle": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
-    "summary": "If non-admins cannot connect via Remote Desktop after recent updates with Administrator protection enabled, adjust that policy or roll back while awaiting a fix from Microsoft.",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-14T10:48:09.000Z",
-    "fetchedAt": "2026-10-14T11:47:24.948Z"
-  },
-  {
-    "slug": "ivanti-vpns-hit-by-zero-day-chain-root-on-fully-patched-boxe-2026-10-14",
-    "title": "Ivanti VPNs hit by zero-day chain, root on fully patched boxes",
-    "originalTitle": "Attackers chained three Ivanti zero-days to gain root on fully patched VPN appliances",
-    "summary": "If you run Connect Secure, assume exposure, hunt for compromises, apply Ivanti mitigations, restrict access, and monitor for credential theft and config exfiltration per Volexity’s report.",
-    "url": "https://www.helpnetsecurity.com/2026/10/14/ivanti-zero-days-gain-root-patched-vpn-appliances/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-14T08:59:19.000Z",
-    "fetchedAt": "2026-10-14T11:47:24.948Z"
-  },
-  {
-    "slug": "linux-vhost-bug-gives-local-root-and-vm-escape-patch-now-2026-10-14",
-    "title": "Linux vhost bug gives local root and VM escape, patch now",
-    "originalTitle": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
-    "summary": "Update Linux kernels and virtualization hosts, CVE-2026-74580 lets local users read write kernel memory and in some setups break out of guests to control hosts.",
-    "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-14T07:46:57.000Z",
-    "fetchedAt": "2026-10-14T11:47:24.948Z"
-  },
-  {
-    "slug": "chrome-and-firefox-patch-114-bugs-firefox-enterprise-debuts-2026-10-14",
-    "title": "Chrome and Firefox patch 114 bugs, Firefox Enterprise debuts",
-    "originalTitle": "Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise",
-    "summary": "Push browser updates fleetwide quickly, close dozens of high severity flaws, and evaluate Firefox Enterprise if you need hardened, managed builds for regulated environments.",
-    "url": "https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-14T07:38:51.000Z",
-    "fetchedAt": "2026-10-14T11:47:24.948Z"
-  },
-  {
-    "slug": "citrix-fortinet-ivanti-fix-critical-flaws-patch-quickly-2026-10-14",
-    "title": "Citrix, Fortinet, Ivanti fix critical flaws, patch quickly",
-    "originalTitle": "Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products",
-    "summary": "Review vendor advisories and update network gear and VPNs now, several critical bugs enable auth bypass, code execution, and credential leaks attractive to ransomware crews.",
-    "url": "https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-14T07:26:35.000Z",
-    "fetchedAt": "2026-10-14T11:47:24.948Z"
-  },
-  {
-    "slug": "microsoft-ships-1-413-fixes-patches-exploited-windows-shell-2026-10-14",
-    "title": "Microsoft ships 1,413 fixes, patches exploited Windows Shell bug",
-    "originalTitle": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
-    "summary": "Patch now, prioritize CVE-2026-96951, an exploited Windows Shell Mark of the Web bypass allowing code execution from malicious files, then triage the other critical RCEs.",
-    "url": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/14/microsoft-patch-tuesday-cve-2026-96951-motw-bypass/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-14T07:16:12.000Z",
-    "fetchedAt": "2026-10-14T11:47:24.948Z"
   }
 ]
