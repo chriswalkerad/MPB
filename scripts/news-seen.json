@@ -1,13 +1,4 @@
 {
-  "https://www.helpnetsecurity.com/2026/09/28/ai-agent-security-governance-aws-report/": "2026-09-28T05:19:00.586Z",
-  "https://www.helpnetsecurity.com/2026/09/28/product-showcase-verdict/": "2026-09-28T05:19:00.586Z",
-  "https://simonwillison.net/2026/Sep/28/muse-ai-agent/": "2026-09-28T05:19:00.586Z",
-  "https://www.helpnetsecurity.com/2026/09/28/quantum-random-number-generator-qrng-guidance/": "2026-09-28T05:19:00.586Z",
-  "https://isc.sans.edu/diary/rss/33374": "2026-09-28T05:19:00.586Z",
-  "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/": "2026-09-28T05:19:00.586Z",
-  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/": "2026-09-28T05:19:00.586Z",
-  "https://simonwillison.net/2026/Sep/27/hn-49871741/": "2026-09-28T05:19:00.586Z",
-  "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/": "2026-09-28T05:19:00.586Z",
   "https://therecord.media/hacker-telecom-army-sentenced": "2026-09-28T13:48:21.710Z",
   "https://www.securityweek.com/prison-sentence-for-former-us-soldier-who-hacked-att-and-verizon/": "2026-09-28T13:48:21.710Z",
   "https://www.helpnetsecurity.com/2026/09/28/cve-2025-68788-file-notification-attacks/": "2026-09-28T13:48:21.710Z",
@@ -1462,5 +1453,11 @@
   "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html": "2026-10-27T22:09:49.941Z",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/": "2026-10-27T22:09:49.941Z",
   "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills": "2026-10-27T22:09:49.941Z",
-  "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog": "2026-10-27T22:09:49.941Z"
+  "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog": "2026-10-27T22:09:49.941Z",
+  "https://www.helpnetsecurity.com/2026/10/28/nist-post-quantum-cryptography-migration-roadmap/": "2026-10-28T05:35:01.455Z",
+  "https://www.helpnetsecurity.com/2026/10/28/kroll-third-party-data-breaches-insurance-claims-report/": "2026-10-28T05:35:01.455Z",
+  "https://isc.sans.edu/diary/rss/33464": "2026-10-28T05:35:01.455Z",
+  "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/": "2026-10-28T05:35:01.455Z",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/": "2026-10-28T05:35:01.455Z",
+  "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/": "2026-10-28T05:35:01.455Z"
 }

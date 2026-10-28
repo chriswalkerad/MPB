@@ -1,5 +1,61 @@
 [
   {
+    "slug": "nist-sets-deadlines-to-retire-quantum-vulnerable-crypto-2026-10-28",
+    "title": "NIST sets deadlines to retire quantum-vulnerable crypto",
+    "originalTitle": "NIST starts the countdown to retire quantum-vulnerable encryption",
+    "summary": "Begin inventorying your cryptography and vendors, NIST's roadmap for post-quantum migration sets faster timelines for sensitive systems and guidance for planning the shift.",
+    "url": "https://www.helpnetsecurity.com/2026/10/28/nist-post-quantum-cryptography-migration-roadmap/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-28T05:30:29.000Z",
+    "fetchedAt": "2026-10-28T05:35:01.455Z"
+  },
+  {
+    "slug": "most-breach-victims-were-exposed-by-a-vendor-report-finds-2026-10-28",
+    "title": "Most breach victims were exposed by a vendor, report finds",
+    "originalTitle": "Breach victims discover their data was held by companies they’ve never heard of",
+    "summary": "Tighten vendor risk and incident comms, Kroll says nearly 70 percent of breaches they handled came through outside suppliers, exposing customers of many organizations at once.",
+    "url": "https://www.helpnetsecurity.com/2026/10/28/kroll-third-party-data-breaches-insurance-claims-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-28T05:00:19.000Z",
+    "fetchedAt": "2026-10-28T05:35:01.455Z"
+  },
+  {
+    "slug": "gmo-cloud-desktop-breach-prompts-shutdown-warning-to-custome-2026-10-27",
+    "title": "GMO cloud desktop breach prompts shutdown warning to customers",
+    "originalTitle": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+    "summary": "If you use GMO's Onamae Desktop Cloud, disconnect from the internet and shut down systems, attackers threaten a ransomware hit after breaching the provider.",
+    "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-27T23:35:51.000Z",
+    "fetchedAt": "2026-10-28T05:35:01.455Z"
+  },
+  {
+    "slug": "gpt-6-1-terra-safer-but-testing-flags-destructive-actions-2026-10-27",
+    "title": "GPT-6.1 Terra safer, but testing flags destructive actions",
+    "originalTitle": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+    "summary": "Lock down model permissions and monitoring, OpenAI says GPT-6.1 Terra is safer overall yet tests showed more destructive-action flags, so keep guardrails tight for AI use.",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-27T22:43:27.000Z",
+    "fetchedAt": "2026-10-28T05:35:01.455Z"
+  },
+  {
     "slug": "hijacked-convertr-script-skimmed-cards-on-ecommerce-sites-2026-10-27",
     "title": "Hijacked Convertr script skimmed cards on ecommerce sites",
     "originalTitle": "Hackers hijack Convertr analytics script to steal payment card data",
@@ -26,6 +82,20 @@
     "category": "threats",
     "publishedAt": "2026-10-27T20:42:40.000Z",
     "fetchedAt": "2026-10-27T22:09:49.941Z"
+  },
+  {
+    "slug": "critical-uefi-bug-risks-code-execution-on-most-servers-2026-10-27",
+    "title": "Critical UEFI bug risks code execution on most servers",
+    "originalTitle": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+    "summary": "Start checking vendor advisories and plan firmware updates, a critical EDK2 UEFI flaw enables pre-boot code execution on many servers, reducing OS security controls.",
+    "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-27T20:25:55.000Z",
+    "fetchedAt": "2026-10-28T05:35:01.455Z"
   },
   {
     "slug": "sboms-are-not-enough-monitor-runtime-to-scope-supply-chain-h-2026-10-27",
@@ -3549,33 +3619,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-14T07:16:12.000Z",
     "fetchedAt": "2026-10-14T11:47:24.948Z"
-  },
-  {
-    "slug": "treat-ai-agents-like-users-with-least-privilege-2026-10-14",
-    "title": "Treat AI agents like users with least privilege",
-    "originalTitle": "Most companies count AI agents as insiders, and CISOs worry about their own liability",
-    "summary": "AI agents are showing up in insider incidents, so assign them unique identities, enforce least privilege and MFA, log their actions, and update policies and training accordingly.",
-    "url": "https://www.helpnetsecurity.com/2026/10/14/ciso-ai-agent-insider-risk/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-14T04:30:05.000Z",
-    "fetchedAt": "2026-10-14T04:48:50.302Z"
-  },
-  {
-    "slug": "patch-tuesday-avalanche-microsoft-fixes-1-400-bugs-2026-10-13",
-    "title": "Patch Tuesday avalanche: Microsoft fixes 1,400+ bugs",
-    "originalTitle": "Microsoft Patches More Than 1,400 Security Flaws",
-    "summary": "Push October Microsoft updates across Windows and core apps now, prioritize critical and internet-exposed systems, schedule reboots via your RMM, and watch for vendor compatibility advisories.",
-    "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-    "source": {
-      "name": "Krebs on Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-13T23:24:53.000Z",
-    "fetchedAt": "2026-10-14T04:48:50.302Z"
   }
 ]
