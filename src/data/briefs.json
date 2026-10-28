@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-28",
+    "date": "2026-10-28",
+    "title": "Patch sprint: Tailscale SSH, Oracle EBS, Node2Shell",
+    "intro": "Attackers are already scanning and exploiting fresh bugs. Prioritize updates and clamp down on risky auth flows before the phones start ringing.",
+    "items": [
+      {
+        "heading": "Tailscale SSH flaws enable lateral movement",
+        "body": "Tailscale shipped fixes for SSH forwarding issues that could let a compromised device reach root-only services on other tailnet machines. Push the update everywhere, then review who can use Tailscale SSH and trim unnecessary access. Check logs for unexpected cross-node SSH activity.",
+        "url": "https://www.helpnetsecurity.com/2026/10/28/tailscale-fixes-tailworm-ssh-flaws/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "tailscale-ssh-bugs-enable-lateral-movement-update-asap-2026-10-28"
+      },
+      {
+        "heading": "Oracle EBS RCE under active scanning",
+        "body": "Internet scans are probing CVE-2026-101767 in Oracle E-Business Suite. Patch immediately, treat any exposed instance as compromised, rotate credentials, and audit for SQL injection abuse. If it was internet-facing, assume the worst and validate data integrity.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "hackers-are-scanning-for-oracle-ebs-rce-patch-now-2026-10-28"
+      },
+      {
+        "heading": "Brotli Node2Shell exploited in the wild",
+        "body": "CISA says attackers are abusing the Node2Shell flaw hitting stacks that use Brotli. Update Brotli and any affected components now, and review reverse proxies and Node.js apps for suspicious requests. Apply vendor fixes and keep an eye on logs for anomalies.",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "patch-brotli-node2shell-flaw-now-attackers-are-hitting-it-2026-10-28"
+      },
+      {
+        "heading": "Magento and Adobe Commerce hit via PolyShell",
+        "body": "Hundreds of stores have been breached using PolyShell webshells, and related bugs were added to CISA’s KEV list. Patch recent CVEs and hunt for webshells on any Adobe Commerce or Magento instance. Lock down admin access and validate checkout integrity.",
+        "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "magento-stores-hacked-via-polyshell-cisa-adds-bugs-to-kev-2026-10-28"
+      },
+      {
+        "heading": "Device code phishing bypasses passwords",
+        "body": "Attackers are exploiting OAuth device code flows with tooling like Skyw4lker to enroll rogue devices and access accounts without stealing passwords. Lock down device code authorization, and monitor consent and MFA prompts closely. Educate users on unexpected approval prompts.",
+        "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "device-code-phishing-bypasses-passwords-using-cloud-auth-flo-2026-10-28"
+      },
+      {
+        "heading": "CISA updates M365 and Workspace audit tools",
+        "body": "ScubaGear v2.0 and ScubaGoggles v1.1.0 speed up checks of Microsoft 365 and Google Workspace against CISA baselines, then generate tasks to close gaps. Run them across tenants to surface drift and misconfig. Feed the output into your ticket queue for quick wins.",
+        "url": "https://www.helpnetsecurity.com/2026/10/28/cisa-scubagear-scubagoggles-update/",
+        "source": "Help Net Security",
+        "category": "defense",
+        "storySlug": "cisa-updates-m365-and-workspace-baseline-check-tools-2026-10-28"
+      },
+      {
+        "heading": "AbuseBox watches DNSBLs, email auth, and certs",
+        "body": "AbuseBox, an open-source tool, tracks domains and IPs against 60 DNS blacklists, verifies SPF DKIM and DMARC, and monitors certificate changes. Set it on your key domains to catch deliverability and certificate issues before customers do. Use alerts to get ahead of outages.",
+        "url": "https://www.helpnetsecurity.com/2026/10/28/abusebox-open-source-ip-blacklist-monitoring/",
+        "source": "Help Net Security",
+        "category": "defense",
+        "storySlug": "free-tool-tracks-blacklists-dns-ssl-and-email-records-2026-10-28"
+      },
+      {
+        "heading": "AI can chain bugs into working exploits",
+        "body": "Tests showed an Anthropic model chained real vulnerabilities into working exploits, even though the specific flaws were already patched. Expect AI to accelerate exploit development and shorten the window between disclosure and weaponization. Tighten exposure management and reduce patch lag now.",
+        "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "anthropic-model-chained-real-bugs-into-working-exploits-in-t-2026-10-28"
+      }
+    ],
+    "signOff": "Patch, verify, breathe. On to the tickets.",
+    "generatedAt": "2026-10-28T18:53:19.988Z"
+  },
+  {
     "slug": "2026-10-27",
     "date": "2026-10-27",
     "title": "Patch pileup and identity traps across your stack",
@@ -2120,79 +2194,5 @@
     ],
     "signOff": "Patch first, coffee second.",
     "generatedAt": "2026-09-29T18:40:13.412Z"
-  },
-  {
-    "slug": "2026-09-28",
-    "date": "2026-09-28",
-    "title": "Patch sprint and AI guardrails",
-    "intro": "Active exploits, cloud creds getting burned, and AI agents needing leashes. Patch fast, lock down what is exposed, and make your automation auditable.",
-    "items": [
-      {
-        "heading": "NetScaler zero days under active attack",
-        "body": "Attackers are exploiting CVE-2026-88771 and CVE-2026-88772 to drop webshells on NetScaler ADC and Gateway. Patch immediately, audit appliances for any signs of compromise, and keep management interfaces locked down and off the internet where possible.",
-        "url": "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "citrix-netscaler-zero-days-exploited-patch-now-2026-09-28"
-      },
-      {
-        "heading": "ShinyHunters hitting Oracle PeopleSoft",
-        "body": "Google warns ShinyHunters updated their exploit for CVE-2026-35273 and are targeting exposed PeopleSoft systems for extortion. Apply the fix now, reduce external exposure, and watch for unusual access or data exfiltration attempts.",
-        "url": "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "shinyhunters-exploiting-oracle-peoplesoft-flaw-patch-fast-2026-09-28"
-      },
-      {
-        "heading": "Stolen Azure service principals used for destructive ops",
-        "body": "Attackers abused stolen service principal credentials to delete resources during an 18 hour incident. Audit and rotate service principals, enforce least privilege and Conditional Access, and alert on destructive operations like deletes and role changes.",
-        "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "attackers-used-stolen-azure-service-principals-to-delete-res-2026-09-28"
-      },
-      {
-        "heading": "Exposed Docker daemons conscripted into AI botnet",
-        "body": "The Carbonato botnet is hijacking open Docker APIs to deploy a Telegram controlled Hermes AI agent. Close Docker’s remote API, enable TLS and auth, and audit running containers to evict anything that does not belong.",
-        "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "botnet-hijacks-exposed-docker-to-run-telegram-controlled-ai-2026-09-28"
-      },
-      {
-        "heading": "Kiteworks urges shutdown for new flaw",
-        "body": "Kiteworks is advising customers to shut down affected servers and disable Advanced Forms while mitigations are applied. Follow the vendor guidance, monitor logs for anomalies, and bring systems back only after controls are in place.",
-        "url": "https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "kiteworks-tells-customers-to-shut-down-servers-over-new-flaw-2026-09-28"
-      },
-      {
-        "heading": "AI agent memory leaking secrets",
-        "body": "Researchers found agents stashing API keys and sensitive documents in plain text on endpoints and cloud storage. Review where agent memory is kept, turn it off or encrypt it by default, and scrub existing artifacts.",
-        "url": "https://www.helpnetsecurity.com/2026/09/28/chris-latimer-vectorize-agent-memory-security/",
-        "source": "Help Net Security",
-        "category": "ai-security",
-        "storySlug": "check-your-ai-agent-memory-it-is-likely-leaking-secrets-2026-09-28"
-      },
-      {
-        "heading": "Nvidia rolls out AI agent watchdog",
-        "body": "Nvidia released an open platform and a hardware watchdog to limit what AI agents can access and do at the infrastructure layer. Expect client questions and plan how these controls fit into your existing policies and segmentation.",
-        "url": "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "nvidia-unveils-hardware-watchdog-to-keep-ai-agents-in-bounds-2026-09-28"
-      },
-      {
-        "heading": "AI agents need new governance",
-        "body": "Old playbooks do not cover autonomous actions at scale. Define accountability and guardrails before rollout, and ensure human oversight, change control, and logging make agent actions auditable and reversible.",
-        "url": "https://www.helpnetsecurity.com/2026/09/28/ai-agent-security-governance-aws-report/",
-        "source": "Help Net Security",
-        "category": "ai-security",
-        "storySlug": "ai-agents-are-breaking-old-security-governance-playbooks-2026-09-28"
-      }
-    ],
-    "signOff": "Patch, verify, repeat. See you after the morning coffee.",
-    "generatedAt": "2026-09-28T20:08:45.777Z"
   }
 ]
