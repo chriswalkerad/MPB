@@ -1,5 +1,117 @@
 [
   {
+    "slug": "patch-cisco-sd-wan-now-auth-bypass-exploited-in-the-wild-2026-10-29",
+    "title": "Patch Cisco SD-WAN now, auth bypass exploited in the wild",
+    "originalTitle": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+    "summary": "Patch Cisco Catalyst SD-WAN Controllers immediately, attackers are abusing CVE-2026-20127 for authentication bypass to deploy the KeyDrift malware framework, so audit configs, restrict management access, and hunt for IOCs.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-29T18:38:26.000Z",
+    "fetchedAt": "2026-10-29T22:42:52.009Z"
+  },
+  {
+    "slug": "319-chrome-extensions-hijacked-searches-for-13-4m-users-purg-2026-10-29",
+    "title": "319 Chrome extensions hijacked searches for 13.4M users, purge them",
+    "originalTitle": "Chrome extensions with 13.4 million installs caught hijacking searches",
+    "summary": "Audit and purge Chrome extensions, 319 add-ons with 13.4 million installs hijacked searches via tracking servers, so enforce allowlists, remove risky extensions, and reset affected browser profiles and policies.",
+    "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-29T16:10:31.000Z",
+    "fetchedAt": "2026-10-29T22:42:52.009Z"
+  },
+  {
+    "slug": "critical-linux-tcp-bug-allows-remote-root-patch-kernels-now-2026-10-29",
+    "title": "Critical Linux TCP bug allows remote root, patch kernels now",
+    "originalTitle": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+    "summary": "Update Linux kernels promptly, CVE-2026-98432 in TCP code scores 9.8 and enables unauthenticated remote code execution, so patch distros, reduce exposed services, and watch for anomalous network traffic.",
+    "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-29T15:57:05.000Z",
+    "fetchedAt": "2026-10-29T22:42:52.009Z"
+  },
+  {
+    "slug": "fake-chatgpt-and-claude-desktop-apps-drop-miners-block-them-2026-10-29",
+    "title": "Fake ChatGPT and Claude desktop apps drop miners, block them",
+    "originalTitle": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+    "summary": "Block unauthorized AI desktop apps, attackers are pushing fake ChatGPT and Claude installers from GitHub to drop Yoba loaders and miners, so allow only official clients, verify signatures, and hunt for miner artifacts.",
+    "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/29/fake-chatgpt-claude-apps-github-yoba-malware-cryptominer/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-29T15:20:29.000Z",
+    "fetchedAt": "2026-10-29T22:42:52.009Z"
+  },
+  {
+    "slug": "patch-linux-kernels-fragnesia-is-being-chained-to-root-serve-2026-10-29",
+    "title": "Patch Linux kernels, Fragnesia is being chained to root servers",
+    "originalTitle": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+    "summary": "Patch affected Linux kernels and PHP components now, attackers are chaining PHP2Shell with the Fragnesia kernel bug to seize root on servers and firewalls, so harden web apps and review logs for LFI-to-root pivots.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/php2shell-successful-exploitation-reports-emerge"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/29/php2shell-fragnesia-vmware-esx-zero-day/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-29T13:59:48.000Z",
+    "fetchedAt": "2026-10-29T22:42:52.009Z"
+  },
+  {
+    "slug": "adobe-veeam-juniper-ship-critical-fixes-schedule-updates-2026-10-29",
+    "title": "Adobe, Veeam, Juniper ship critical fixes, schedule updates",
+    "originalTitle": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
+    "summary": "Schedule emergency maintenance, Adobe, Veeam, and Juniper released fixes for critical code execution and auth bypass bugs, so update endpoints, backup servers, and networking gear before attackers weaponize them.",
+    "url": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-29T13:42:52.000Z",
+    "fetchedAt": "2026-10-29T22:42:52.009Z"
+  },
+  {
+    "slug": "cisa-adds-gitlab-and-cisco-asa-ftd-flaws-to-kev-patch-fast-2026-10-29",
+    "title": "CISA adds GitLab and Cisco ASA/FTD flaws to KEV, patch fast",
+    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "summary": "Update GitLab CE/EE and Cisco Secure Firewall ASA/FTD now, CISA added both actively exploited flaws to KEV, so apply vendor fixes, limit public exposure, and monitor for crashes, service resets, and odd account activity.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-29T12:00:00.000Z",
+    "fetchedAt": "2026-10-29T22:42:52.009Z"
+  },
+  {
     "slug": "update-telegram-for-android-voice-call-bug-allowed-remote-co-2026-10-29",
     "title": "Update Telegram for Android, voice-call bug allowed remote code exec",
     "originalTitle": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
@@ -3312,150 +3424,5 @@
     "category": "ai-security",
     "publishedAt": "2026-10-16T00:46:35.000Z",
     "fetchedAt": "2026-10-16T04:26:31.653Z"
-  },
-  {
-    "slug": "share-f-secure-scam-encyclopedia-with-your-users-2026-10-15",
-    "title": "Share F-Secure scam encyclopedia with your users",
-    "originalTitle": "F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud",
-    "summary": "Give clients a clear, nontechnical reference on 50 common scams, use it in awareness training and help desks to quickly identify and report consumer fraud patterns.",
-    "url": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-15T21:55:07.000Z",
-    "fetchedAt": "2026-10-16T04:26:31.653Z"
-  },
-  {
-    "slug": "mercenary-spyware-delivered-via-ads-with-zero-click-exploits-2026-10-15",
-    "title": "Mercenary spyware delivered via ads with zero-click exploits",
-    "originalTitle": "Targeted ads delivered 0-click exploits to install mercenary malware",
-    "summary": "Assume ad delivery can be an attack vector, researchers saw mercenary spyware installed via targeted ads using zero-click exploits, so tighten browser security, DNS filtering, and endpoint protection.",
-    "url": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [
-      {
-        "name": "The Record",
-        "url": "https://therecord.media/spyware-citizen-lab-advertising"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-15T20:32:41.000Z",
-    "fetchedAt": "2026-10-15T21:20:11.730Z"
-  },
-  {
-    "slug": "nextcloud-servers-backdoored-via-collabora-code-rce-patch-no-2026-10-15",
-    "title": "Nextcloud servers backdoored via Collabora CODE RCE, patch now",
-    "originalTitle": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-    "summary": "Patch or disable the Collabora Online Built-in CODE Server app immediately, attackers are exploiting CVE-2026-110447 to run commands and backdoor Nextcloud servers.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-15T20:25:04.000Z",
-    "fetchedAt": "2026-10-15T21:20:11.730Z"
-  },
-  {
-    "slug": "new-linux-kernel-bug-lets-vms-read-host-memory-patch-hypervi-2026-10-15",
-    "title": "New Linux kernel bug lets VMs read host memory, patch hypervisors",
-    "originalTitle": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-    "summary": "Update Linux kernels and cloud images quickly, CVE-2026-99999 lets code in a guest VM read host memory, a cross-tenant risk for KVM-based hypervisors and sandboxed workloads.",
-    "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-15T20:24:36.000Z",
-    "fetchedAt": "2026-10-15T21:20:11.730Z"
-  },
-  {
-    "slug": "android-adds-ai-scam-protections-for-messages-and-calls-2026-10-15",
-    "title": "Android adds AI scam protections for messages and calls",
-    "originalTitle": "Android gets AI defenses against messaging scams, fake calls",
-    "summary": "Tell users to enable updates and Google Play Protect, Google is rolling out AI-powered warnings for scam texts and fake call-forwarding on Android to block common fraud.",
-    "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-15T19:48:43.000Z",
-    "fetchedAt": "2026-10-15T21:20:11.730Z"
-  },
-  {
-    "slug": "attackers-hijack-d-link-and-ubiquiti-gear-to-sell-your-bandw-2026-10-15",
-    "title": "Attackers hijack D-Link and Ubiquiti gear to sell your bandwidth",
-    "originalTitle": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
-    "summary": "Audit and update D-Link and Ubiquiti devices, a proxyjacking campaign is hijacking routers in 34 countries to resell victims' bandwidth through residential proxy networks.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-15T18:20:59.000Z",
-    "fetchedAt": "2026-10-15T21:20:11.730Z"
-  },
-  {
-    "slug": "cloudflare-pages-abused-for-massive-tech-support-scam-networ-2026-10-15",
-    "title": "Cloudflare Pages abused for massive tech support scam network",
-    "originalTitle": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-    "summary": "Block TDS traffic and tighten DNS and content filtering, researchers found over 20,000 Cloudflare Pages domains driving fake support pop-ups via the long-running Help TDS operation.",
-    "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-15T14:11:36.000Z",
-    "fetchedAt": "2026-10-15T16:57:17.171Z"
-  },
-  {
-    "slug": "fake-captcha-checks-push-malware-and-browser-hijacks-2026-10-15",
-    "title": "Fake CAPTCHA checks push malware and browser hijacks",
-    "originalTitle": "Fake CAPTCHAs are tricking users into running malware on their own devices",
-    "summary": "Warn users and tighten browser controls, attackers increasingly use bogus CAPTCHA gates to deliver malware, spam push notifications, and trick victims into executing commands themselves.",
-    "url": "https://www.helpnetsecurity.com/2026/10/15/barracuda-fake-captcha-phishing-attacks/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-15T13:29:01.000Z",
-    "fetchedAt": "2026-10-15T16:57:17.171Z"
-  },
-  {
-    "slug": "windows-server-2022-exits-mainstream-support-2026-10-15",
-    "title": "Windows Server 2022 exits mainstream support",
-    "originalTitle": "Microsoft: Windows Server 2022 reached end of mainstream support",
-    "summary": "Plan lifecycle and budgeting now, Windows Server 2022 is in extended support until October 2031 with security updates only, no new features or nonsecurity fixes.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-10-15T13:18:36.000Z",
-    "fetchedAt": "2026-10-15T16:57:17.171Z"
-  },
-  {
-    "slug": "nginx-patches-rce-bugs-and-tls-client-cert-bypass-2026-10-15",
-    "title": "NGINX patches RCE bugs and TLS client-cert bypass",
-    "originalTitle": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-    "summary": "Patch NGINX to 1.30.6 or 1.31.7 now, fixes five flaws including config-dependent RCE risks and a TLS bug that could skip client-certificate checks in mutual TLS setups.",
-    "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-15T12:58:05.000Z",
-    "fetchedAt": "2026-10-15T16:57:17.171Z"
   }
 ]
