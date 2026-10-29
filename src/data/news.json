@@ -1,5 +1,136 @@
 [
   {
+    "slug": "update-telegram-for-android-voice-call-bug-allowed-remote-co-2026-10-29",
+    "title": "Update Telegram for Android, voice-call bug allowed remote code exec",
+    "originalTitle": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+    "summary": "A now-fixed flaw let attackers run code when a user answered a Telegram call, push version 12.10.4 to Android devices and limit exposure to untrusted callers.",
+    "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-29T11:39:18.000Z",
+    "fetchedAt": "2026-10-29T12:55:28.985Z"
+  },
+  {
+    "slug": "26k-valid-cloud-and-ai-keys-found-exposed-in-public-gitee-re-2026-10-29",
+    "title": "26k valid cloud and AI keys found exposed in public Gitee repos",
+    "originalTitle": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+    "summary": "Secret sprawl is still rampant, scan repos for leaked credentials, rotate any exposed keys, and enforce pre-commit secret detection across developer workflows.",
+    "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-29T11:33:15.000Z",
+    "fetchedAt": "2026-10-29T12:55:28.985Z"
+  },
+  {
+    "slug": "patch-now-cisco-asa-and-ftd-ssl-vpn-zero-day-crashes-firewal-2026-10-29",
+    "title": "Patch now: Cisco ASA and FTD SSL VPN zero-day crashes firewalls",
+    "originalTitle": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+    "summary": "Attackers are crashing Cisco ASA and FTD devices via CVE-2026-76418 in the SSL VPN, update to fixed releases, restrict remote access, and monitor for unexpected reloads.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-29T11:10:13.000Z",
+    "fetchedAt": "2026-10-29T12:55:28.985Z"
+  },
+  {
+    "slug": "github-debuts-npm-package-firewall-to-block-malicious-instal-2026-10-29",
+    "title": "GitHub debuts npm package firewall to block malicious installs",
+    "originalTitle": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+    "summary": "GitHub’s new package firewall, in public preview, can block suspicious npm packages at install time, consider enabling it to cut supply chain risk.",
+    "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-29T10:26:33.000Z",
+    "fetchedAt": "2026-10-29T12:55:28.985Z"
+  },
+  {
+    "slug": "attackers-probing-gitlab-cvss-10-flaw-patch-immediately-2026-10-29",
+    "title": "Attackers probing GitLab CVSS 10 flaw, patch immediately",
+    "originalTitle": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+    "summary": "After GitLab fixed CVE-2026-97229, attackers targeted Alpine Linux’s GitLab, so upgrade to patched releases, audit CI configurations, and review logs for suspicious jobs.",
+    "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-29T09:05:39.000Z",
+    "fetchedAt": "2026-10-29T12:55:28.985Z"
+  },
+  {
+    "slug": "cisco-sd-wan-attacks-stole-ipsec-keys-to-decrypt-site-to-sit-2026-10-29",
+    "title": "Cisco SD-WAN attacks stole IPSec keys to decrypt site-to-site traffic",
+    "originalTitle": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+    "summary": "Cisco Talos says attackers abused a now-patched SD-WAN flaw to plant KeyDrift malware and copy encryption keys, so patch, rotate keys, and hunt for related indicators.",
+    "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-29T08:24:22.000Z",
+    "fetchedAt": "2026-10-29T12:55:28.985Z"
+  },
+  {
+    "slug": "cisa-adds-vmware-esx-logging-bypass-to-kev-patch-and-audit-n-2026-10-29",
+    "title": "CISA adds VMware ESX logging bypass to KEV, patch and audit now",
+    "originalTitle": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+    "summary": "A China-linked actor abused CVE-2026-41709 to reduce ESX audit visibility, update to fixed builds, review out-of-band logs, and tighten admin access to hosts.",
+    "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-29T06:22:33.000Z",
+    "fetchedAt": "2026-10-29T12:55:28.985Z"
+  },
+  {
+    "slug": "active-exploitation-of-pan-os-php2shell-flaws-on-internet-ex-2026-10-29",
+    "title": "Active exploitation of PAN-OS PHP2Shell flaws on internet-exposed UIs",
+    "originalTitle": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+    "summary": "If your Palo Alto Networks management interface is exposed, patch the PHP2Shell bugs now, lock it behind VPN or ACLs, and check logs for signs of compromise.",
+    "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-29T05:50:17.000Z",
+    "fetchedAt": "2026-10-29T12:55:28.985Z"
+  },
+  {
     "slug": "stolen-school-staff-logins-are-fueling-cross-district-k-12-a-2026-10-29",
     "title": "Stolen school staff logins are fueling cross‑district K-12 attacks",
     "originalTitle": "Stolen staff logins are spreading attacks between K-12 school districts",
@@ -3326,168 +3457,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-15T12:58:05.000Z",
     "fetchedAt": "2026-10-15T16:57:17.171Z"
-  },
-  {
-    "slug": "next-js-ships-urgent-fixes-for-two-unauth-rce-bugs-2026-10-15",
-    "title": "Next.js ships urgent fixes for two unauth RCE bugs",
-    "originalTitle": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
-    "summary": "Update Next.js to the latest release immediately, an out-of-band patch fixes two critical unauthenticated RCE bugs in caching and SVG handling plus a high severity denial-of-service issue.",
-    "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-15T12:28:13.000Z",
-    "fetchedAt": "2026-10-15T16:57:17.171Z"
-  },
-  {
-    "slug": "drupal-fixes-critical-field-ui-flaw-enabling-unauth-rce-via-2026-10-15",
-    "title": "Drupal fixes critical Field UI flaw enabling unauth RCE via modules",
-    "originalTitle": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
-    "summary": "Patch Drupal to 11.4.10, 11.3.19, or 10.6.19 and review contributed modules, a core Field UI bug can be reached via modules and allow unauthenticated remote code execution.",
-    "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-15T12:07:20.000Z",
-    "fetchedAt": "2026-10-15T16:57:17.171Z"
-  },
-  {
-    "slug": "cisa-adds-exploited-atlassian-flaw-to-kev-patch-or-mitigate-2026-10-15",
-    "title": "CISA adds exploited Atlassian flaw to KEV, patch or mitigate now",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Prioritize fixes for CVE-2026-21589 in Atlassian products, CISA added it to KEV for active exploitation, so restrict public file access and apply vendor patches now.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-15T12:00:00.000Z",
-    "fetchedAt": "2026-10-15T21:20:11.730Z"
-  },
-  {
-    "slug": "cisa-warns-eseecloud-ip-camera-flaws-allow-full-device-takeo-2026-10-15",
-    "title": "CISA warns EseeCloud IP camera flaws allow full device takeover",
-    "originalTitle": "Guangzhou Juan IoT Technology EseeCloud",
-    "summary": "Update EseeCloud app and firmware or replace affected IP cameras, critical vulnerabilities allow remote takeover of Guangzhou Juan IoT devices used in many small business surveillance setups.",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-15T12:00:00.000Z",
-    "fetchedAt": "2026-10-15T16:57:17.171Z"
-  },
-  {
-    "slug": "fake-ai-apps-are-a-growing-malware-delivery-channel-2026-10-15",
-    "title": "Fake AI apps are a growing malware delivery channel",
-    "originalTitle": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
-    "summary": "Block untrusted AI installers and train users, attackers are impersonating popular AI tools to steal browser sessions and compromise accounts across US companies and MSP customers.",
-    "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-15T11:46:59.000Z",
-    "fetchedAt": "2026-10-15T16:57:17.171Z"
-  },
-  {
-    "slug": "microsoft-disrupts-phishing-network-behind-over-a-billion-em-2026-10-15",
-    "title": "Microsoft disrupts phishing network behind over a billion emails",
-    "originalTitle": "Microsoft disrupts phishing network behind more than a billion scam messages",
-    "summary": "Expect copycat phishing kits and reused infrastructure, so keep MFA and conditional access tight, block legacy auth, and tune mail filtering to catch kit-generated lures.",
-    "url": "https://www.helpnetsecurity.com/2026/10/15/microsoft-disrupting-phishing-kits-marketplace-yam-store/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-15T10:10:21.000Z",
-    "fetchedAt": "2026-10-15T11:23:18.805Z"
-  },
-  {
-    "slug": "ghostaction-hijacks-1-900-github-accounts-to-steal-ci-secret-2026-10-15",
-    "title": "GhostAction hijacks 1,900 GitHub accounts to steal CI secrets",
-    "originalTitle": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
-    "summary": "Enforce mandatory MFA and PAT hygiene on GitHub, audit OAuth apps and Actions runs, rotate exposed secrets, and monitor for unauthorized pushes or pull request workflows.",
-    "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-15T08:45:10.000Z",
-    "fetchedAt": "2026-10-15T11:23:18.805Z"
-  },
-  {
-    "slug": "langflow-critical-rce-probed-at-scale-patch-now-2026-10-15",
-    "title": "Langflow critical RCE probed at scale, patch now",
-    "originalTitle": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
-    "summary": "Update Langflow to a fixed release, restrict access to trusted users and networks, rotate credentials, and review logs for suspicious agent or file execution activity.",
-    "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-15T07:07:05.000Z",
-    "fetchedAt": "2026-10-15T11:23:18.805Z"
-  },
-  {
-    "slug": "palo-alto-pan-os-zero-day-rce-is-exploited-patch-now-2026-10-15",
-    "title": "Palo Alto PAN-OS zero-day RCE is exploited, patch now",
-    "originalTitle": "Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution",
-    "summary": "Patch affected PAN-OS versions immediately, restrict the management interface, apply Threat Prevention signatures, and check Palo Alto’s IoCs for signs of compromise.",
-    "url": "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/15/cve-2026-0322-cve-2026-76519-cve-2026-105133-cve-2026-105134-exploted/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-15T06:59:54.000Z",
-    "fetchedAt": "2026-10-15T11:23:18.805Z"
-  },
-  {
-    "slug": "ahsaycbs-flaws-exploited-for-web-shells-and-miners-patch-now-2026-10-15",
-    "title": "AhsayCBS flaws exploited for web shells and miners, patch now",
-    "originalTitle": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
-    "summary": "Apply the latest AhsayCBS fixes for CVE-2026-105133 and -105134, then audit servers for rogue web shells, high CPU from miners, and other post-exploitation artifacts.",
-    "url": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-15T06:43:08.000Z",
-    "fetchedAt": "2026-10-15T11:23:18.805Z"
-  },
-  {
-    "slug": "cisco-secure-email-gateway-flaw-exploited-update-now-2026-10-15",
-    "title": "Cisco Secure Email Gateway flaw exploited, update now",
-    "originalTitle": "Cisco Warns of Exploited Secure Email Gateway Vulnerability",
-    "summary": "Upgrade vulnerable SEG releases without delay, block administrative access from the internet, and hunt for arbitrary file writes or unexpected root-level processes on the appliance.",
-    "url": "https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-15T06:34:15.000Z",
-    "fetchedAt": "2026-10-15T11:23:18.805Z"
   }
 ]
