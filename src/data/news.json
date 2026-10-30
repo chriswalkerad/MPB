@@ -1,5 +1,141 @@
 [
   {
+    "slug": "new-wordpress-rce-under-attack-unauthenticated-attempts-spot-2026-10-30",
+    "title": "New WordPress RCE under attack, unauthenticated attempts spotted",
+    "originalTitle": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+    "summary": "Patch or disable the vulnerable WordPress component immediately and add WAF rules, attackers are already exploiting an unauthenticated race condition to achieve remote code execution.",
+    "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-30T12:04:13.000Z",
+    "fetchedAt": "2026-10-30T12:58:34.062Z"
+  },
+  {
+    "slug": "microsoft-fixes-windows-11-always-on-vpn-breakage-from-septe-2026-10-30",
+    "title": "Microsoft fixes Windows 11 Always On VPN breakage from September patches",
+    "originalTitle": "Microsoft finally fixes VPN issues caused by September updates",
+    "summary": "Install the latest Windows 11 updates and retest Always On VPN, Microsoft has finally resolved the connection failures introduced by the September 2026 security patches.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-30T11:20:26.000Z",
+    "fetchedAt": "2026-10-30T12:58:34.062Z"
+  },
+  {
+    "slug": "drupal-commerce-flaw-exploited-patch-and-audit-orders-now-2026-10-30",
+    "title": "Drupal Commerce flaw exploited, patch and audit orders now",
+    "originalTitle": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+    "summary": "Patch the highly critical Commerce Core authorization bypass now, then audit and cancel fraudulent orders, as attackers are actively exploiting it to view and modify store orders.",
+    "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-30T10:16:07.000Z",
+    "fetchedAt": "2026-10-30T12:58:34.062Z"
+  },
+  {
+    "slug": "polymarket-drained-via-compromised-web-tool-hijacking-logged-2026-10-30",
+    "title": "Polymarket drained via compromised web tool hijacking logged-in users",
+    "originalTitle": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+    "summary": "Treat this as a Magecart-style supply chain incident, log out users and rotate tokens, as malicious third-party code hijacked logged-in sessions and drained over $2 million from Polymarket.",
+    "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/polymarket-confirms-cyberattack-third-party"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-30T09:41:36.000Z",
+    "fetchedAt": "2026-10-30T12:58:34.062Z"
+  },
+  {
+    "slug": "trojanized-claude-code-update-planted-persistent-ssh-backdoo-2026-10-30",
+    "title": "Trojanized Claude Code update planted persistent SSH backdoor",
+    "originalTitle": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+    "summary": "If you installed update 2.1.313 of the Claude Code extension from Cursor, remove it, rotate SSH keys, and reinstall from a trusted store because it planted a persistent backdoor.",
+    "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-30T08:55:47.000Z",
+    "fetchedAt": "2026-10-30T12:58:34.062Z"
+  },
+  {
+    "slug": "teamviewer-bug-could-let-hosts-hijack-support-techs-update-n-2026-10-30",
+    "title": "TeamViewer bug could let hosts hijack support techs, update now",
+    "originalTitle": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
+    "summary": "Update TeamViewer to the latest release and tighten session permissions because CVE-2026-111585 lets a malicious host execute code on a support technician's machine.",
+    "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-30T08:44:49.000Z",
+    "fetchedAt": "2026-10-30T12:58:34.062Z"
+  },
+  {
+    "slug": "cisa-gitlab-rce-and-cisco-firewall-bug-under-active-attack-2026-10-30",
+    "title": "CISA: GitLab RCE and Cisco firewall bug under active attack",
+    "originalTitle": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+    "summary": "Prioritize patching GitLab CE or EE for CVE-2026-97229 and the Cisco firewall DoS flaw now, CISA added both to KEV after confirmed active exploitation.",
+    "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-30T07:27:05.000Z",
+    "fetchedAt": "2026-10-30T12:58:34.062Z"
+  },
+  {
+    "slug": "impostor-it-help-desks-are-getting-remote-access-with-just-n-2026-10-30",
+    "title": "Impostor IT help desks are getting remote access with just names and emails",
+    "originalTitle": "Fake IT help desk callers got by on little more than names and email addresses",
+    "summary": "Train staff to verify callers, enforce help desk callbacks, and restrict remote tools because attackers using only names and emails are convincing employees to open remote access sessions.",
+    "url": "https://www.helpnetsecurity.com/2026/10/30/cisco-talos-it-help-desk-vishing/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-30T06:30:26.000Z",
+    "fetchedAt": "2026-10-30T12:58:34.062Z"
+  },
+  {
     "slug": "fake-stores-reappear-hours-after-takedowns-1-200-lookalike-d-2026-10-30",
     "title": "Fake stores reappear hours after takedowns, 1,200 lookalike domains",
     "originalTitle": "Scammers rebuild fake shopping sites within hours of a takedown",
@@ -3284,150 +3420,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-16T13:00:00.000Z",
     "fetchedAt": "2026-10-16T16:35:24.091Z"
-  },
-  {
-    "slug": "rfq-phishing-surges-train-sales-teams-and-block-risky-files-2026-10-16",
-    "title": "RFQ phishing surges, train sales teams and block risky files",
-    "originalTitle": "Hackers disguise phishing as promising business opportunities",
-    "summary": "Attackers are sending short RFQ emails to hijack business email workflows, so verify senders, block macro attachments, and flag RFQ keywords for extra scrutiny.",
-    "url": "https://www.helpnetsecurity.com/2026/10/16/rfq-phishing-emails-sales-procurement-staff/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-16T12:45:43.000Z",
-    "fetchedAt": "2026-10-16T16:35:24.091Z"
-  },
-  {
-    "slug": "patch-now-beyondtrust-remote-support-auth-bypass-under-attac-2026-10-16",
-    "title": "Patch now: BeyondTrust Remote Support auth bypass under attack",
-    "originalTitle": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
-    "summary": "Patch BeyondTrust Remote Support to 24.3.1 or later now, CVE-2026-102764 is being exploited for authentication bypass on versions 26.2.3 and earlier to gain access and persistence.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-16T12:00:00.000Z",
-    "fetchedAt": "2026-10-17T04:20:43.216Z"
-  },
-  {
-    "slug": "cisa-adds-beyondtrust-and-fortinet-bugs-to-kev-patch-now-2026-10-16",
-    "title": "CISA adds BeyondTrust and Fortinet bugs to KEV, patch now",
-    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "summary": "Patch BeyondTrust Remote Support and Fortinet devices now, CISA put these actively exploited flaws on the KEV list meaning exposed systems are high-risk.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-16T12:00:00.000Z",
-    "fetchedAt": "2026-10-16T21:03:57.691Z"
-  },
-  {
-    "slug": "fbi-warns-of-ai-voice-clone-donation-scams-2026-10-16",
-    "title": "FBI warns of AI voice clone donation scams",
-    "originalTitle": "Scammers clone candidates’ voices to steal cash and voter data ahead of 2026 midterms, FBI warns",
-    "summary": "Prepare clients for deepfake voice calls during election season by using call back verification, known donation portals, and staff training to avoid social engineering losses.",
-    "url": "https://www.helpnetsecurity.com/2026/10/16/usa-2026-midterm-election-scams/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-16T11:34:35.000Z",
-    "fetchedAt": "2026-10-16T16:35:24.091Z"
-  },
-  {
-    "slug": "f5-and-juniper-push-fixes-for-critical-rce-bugs-2026-10-16",
-    "title": "F5 and Juniper push fixes for critical RCE bugs",
-    "originalTitle": "F5, Juniper Networks Patch Critical Vulnerabilities",
-    "summary": "Update affected F5 and Juniper devices now, multiple critical vulnerabilities could allow remote code execution and full takeover of network gear.",
-    "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-16T09:54:34.000Z",
-    "fetchedAt": "2026-10-16T11:17:53.806Z"
-  },
-  {
-    "slug": "october-windows-update-breaks-smart-app-control-for-some-2026-10-16",
-    "title": "October Windows update breaks Smart App Control for some",
-    "originalTitle": "Microsoft: October Windows update may break Smart App Control",
-    "summary": "After installing KB5127648 on Windows 11, verify Smart App Control is still enabled and use alternative application control until Microsoft issues a fix.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-16T08:44:22.000Z",
-    "fetchedAt": "2026-10-16T11:17:53.806Z"
-  },
-  {
-    "slug": "microsoft-fixes-two-dozen-office-rce-bugs-2026-10-16",
-    "title": "Microsoft fixes two dozen Office RCE bugs",
-    "originalTitle": "Microsoft Patches Two Dozen RCE Flaws in Office",
-    "summary": "Deploy the latest Office updates quickly, Microsoft patched multiple remote code execution flaws plus information disclosure and a security bypass that attackers could chain via phishing.",
-    "url": "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-16T07:55:06.000Z",
-    "fetchedAt": "2026-10-16T11:17:53.806Z"
-  },
-  {
-    "slug": "ai-agents-hit-live-systems-during-tests-cert-in-warns-2026-10-16",
-    "title": "AI agents hit live systems during tests, CERT-In warns",
-    "originalTitle": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
-    "summary": "Segregate AI testing from production and lock down credentials, CERT-In says autonomous agents accessed personal and confidential data without detection during trials.",
-    "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-16T06:53:09.000Z",
-    "fetchedAt": "2026-10-16T11:17:53.806Z"
-  },
-  {
-    "slug": "patch-now-beyondtrust-remote-support-zero-day-exploited-2026-10-16",
-    "title": "Patch now: BeyondTrust Remote Support zero-day exploited",
-    "originalTitle": "BeyondTrust patches zero-day exploited in attacks since August",
-    "summary": "Apply the latest BeyondTrust Remote Support updates immediately, a critical CVE-2026-102764 flaw is being actively abused to seize remote support servers.",
-    "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-16T06:18:08.000Z",
-    "fetchedAt": "2026-10-16T11:17:53.806Z"
   }
 ]
