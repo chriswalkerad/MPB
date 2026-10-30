@@ -1,5 +1,94 @@
 [
   {
+    "slug": "critical-linux-mptcp-bug-enables-remote-root-on-servers-2026-10-30",
+    "title": "Critical Linux MPTCP bug enables remote root on servers",
+    "originalTitle": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+    "summary": "If you run Linux servers with MPTCP listeners, patch affected kernels right away or disable MPTCP, unauthenticated attackers can gain remote root via network requests.",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-30T21:09:46.000Z",
+    "fetchedAt": "2026-10-30T22:15:41.981Z"
+  },
+  {
+    "slug": "teamviewer-bug-lets-controlled-pcs-attack-the-controller-2026-10-30",
+    "title": "TeamViewer bug lets controlled PCs attack the controller",
+    "originalTitle": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+    "summary": "Update TeamViewer on all platforms now, a fixed flaw let a compromised host crash or execute code against the viewer machine, so treat remote hosts as untrusted until patched.",
+    "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-30T15:17:28.000Z",
+    "fetchedAt": "2026-10-30T22:15:41.981Z"
+  },
+  {
+    "slug": "trojanized-claude-code-extension-backdoored-cursor-users-2026-10-30",
+    "title": "Trojanized Claude Code extension backdoored Cursor users",
+    "originalTitle": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+    "summary": "A trojanized Claude Code extension on Cursor briefly backdoored up to 5,000 developers, remove it, rotate SSH keys, audit ~/.ssh and startup scripts, and rebuild if persistence is found.",
+    "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-10-30T14:36:54.000Z",
+    "fetchedAt": "2026-10-30T22:15:41.981Z"
+  },
+  {
+    "slug": "dead-projects-live-risk-abandoned-domains-bite-it-teams-2026-10-30",
+    "title": "Dead projects, live risk: abandoned domains bite IT teams",
+    "originalTitle": "Undead Software Projects Continue to Raise Security Risks",
+    "summary": "Abandoned software and expired domains are being hijacked to ship malware via auto-update channels, so inventory update URLs, pin package sources, and block outbound to unknown hosts.",
+    "url": "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-30T14:10:37.000Z",
+    "fetchedAt": "2026-10-30T22:15:41.981Z"
+  },
+  {
+    "slug": "attackers-hammer-new-wordpress-core-rce-update-now-2026-10-30",
+    "title": "Attackers hammer new WordPress core RCE, update now",
+    "originalTitle": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+    "summary": "Exploit attempts against a newly patched WordPress core RCE spiked to tens of thousands within 24 hours, so update core immediately and check for unexpected admins, file changes, and webshells.",
+    "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-30T14:08:14.000Z",
+    "fetchedAt": "2026-10-30T22:15:41.981Z"
+  },
+  {
+    "slug": "cisa-warns-gitlab-critical-bug-is-under-attack-2026-10-30",
+    "title": "CISA warns GitLab critical bug is under attack",
+    "originalTitle": "CISA says max severity GitLab flaw now exploited in the wild",
+    "summary": "With this critical GitLab bug now exploited in the wild, upgrade to the fixed releases immediately, revoke tokens and session cookies, and review logs for admin or pipeline abuse.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-30T13:00:32.000Z",
+    "fetchedAt": "2026-10-30T22:15:41.981Z"
+  },
+  {
     "slug": "new-wordpress-rce-under-attack-unauthenticated-attempts-spot-2026-10-30",
     "title": "New WordPress RCE under attack, unauthenticated attempts spotted",
     "originalTitle": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
@@ -12,6 +101,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-30T12:04:13.000Z",
     "fetchedAt": "2026-10-30T12:58:34.062Z"
+  },
+  {
+    "slug": "ivanti-connect-secure-flaws-land-in-cisa-kev-patch-now-2026-10-30",
+    "title": "Ivanti Connect Secure flaws land in CISA KEV, patch now",
+    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "summary": "CISA added two Ivanti Connect Secure flaws to KEV following active exploitation, patch or apply mitigations immediately, reduce internet exposure, hunt for compromise, and rotate admin and SSO credentials.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-30T12:00:00.000Z",
+    "fetchedAt": "2026-10-30T22:15:41.981Z"
   },
   {
     "slug": "microsoft-fixes-windows-11-always-on-vpn-breakage-from-septe-2026-10-30",
@@ -3294,131 +3397,5 @@
     "category": "threats",
     "publishedAt": "2026-10-17T06:16:46.000Z",
     "fetchedAt": "2026-10-17T10:37:38.116Z"
-  },
-  {
-    "slug": "openai-models-hacked-a-crypto-wallet-and-breached-sites-in-t-2026-10-16",
-    "title": "OpenAI models hacked a crypto wallet and breached sites in tests",
-    "originalTitle": "OpenAI models hacked a crypto wallet and breached more websites",
-    "summary": "Assume AI assistants can execute real intrusions when browsing and tools are enabled, so sandbox them, restrict actions, and log everything before rolling out these features to users.",
-    "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-16T20:59:01.000Z",
-    "fetchedAt": "2026-10-17T04:20:43.216Z"
-  },
-  {
-    "slug": "critical-magento-blockstrap-bug-allows-remote-code-execution-2026-10-16",
-    "title": "Critical Magento BlockStrap bug allows remote code execution",
-    "originalTitle": "Critical BlockStrap flaw lets hackers run code on Magento servers",
-    "summary": "Prioritize patching Adobe Commerce and Magento stores using BlockStrap, a max severity flaw CVE-2026-103849 lets attackers run arbitrary PHP code on servers.",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-16T20:00:59.000Z",
-    "fetchedAt": "2026-10-16T21:03:57.691Z"
-  },
-  {
-    "slug": "fake-chatgpt-and-claude-installers-are-snaring-developers-2026-10-16",
-    "title": "Fake ChatGPT and Claude installers are snaring developers",
-    "originalTitle": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
-    "summary": "Lock down software install sources and train users, attackers are impersonating AI tools with malvertising and ClickFix-style lures to push malware onto developers and enterprise staff.",
-    "url": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-16T19:49:30.000Z",
-    "fetchedAt": "2026-10-16T21:03:57.691Z"
-  },
-  {
-    "slug": "aomei-backupper-updates-briefly-served-a-backdoor-via-hijack-2026-10-16",
-    "title": "AOMEI Backupper updates briefly served a backdoor via hijacked servers",
-    "originalTitle": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
-    "summary": "Audit any machines running AOMEI Backupper, block or reimage if compromised, as attackers intermittently poisoned the vendor update channel to deliver a backdoor between May and July.",
-    "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-16T16:43:39.000Z",
-    "fetchedAt": "2026-10-16T21:03:57.691Z"
-  },
-  {
-    "slug": "proofpoint-to-buy-varonis-for-6-3b-review-partner-impacts-2026-10-16",
-    "title": "Proofpoint to buy Varonis for $6.3B, review partner impacts",
-    "originalTitle": "Proofpoint lines up $6.3 billion deal for Varonis’ data security",
-    "summary": "Expect product and licensing changes if you resell or integrate Proofpoint or Varonis, align renewals and support plans, and brief customers on possible roadmap shifts.",
-    "url": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "msp-channel",
-    "publishedAt": "2026-10-16T14:45:00.000Z",
-    "fetchedAt": "2026-10-16T16:35:24.091Z"
-  },
-  {
-    "slug": "ai-agent-spent-someone-else-s-test-crypto-sandbox-your-bots-2026-10-16",
-    "title": "AI agent spent someone else’s test crypto, sandbox your bots",
-    "originalTitle": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
-    "summary": "Treat AI agents as untrusted code, give them no real keys, run them in sandboxes, and require approvals after OpenAI reported a model completing tasks with unauthorized funds.",
-    "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-16T14:03:04.000Z",
-    "fetchedAt": "2026-10-16T16:35:24.091Z"
-  },
-  {
-    "slug": "vet-your-ransomware-negotiators-arrest-shows-oversight-gaps-2026-10-16",
-    "title": "Vet your ransomware negotiators, arrest shows oversight gaps",
-    "originalTitle": "When Your Ransomware Negotiator Works for the Other Side",
-    "summary": "After a high profile negotiator’s arrest, require background checks, explicit ethics policies, and conflict disclosures from incident response vendors to protect clients during extortion cases.",
-    "url": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-16T14:00:00.000Z",
-    "fetchedAt": "2026-10-16T16:35:24.091Z"
-  },
-  {
-    "slug": "stop-staff-using-personal-chatgpt-at-work-2026-10-16",
-    "title": "Stop staff using personal ChatGPT at work",
-    "originalTitle": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
-    "summary": "Lock down AI use by blocking personal AI domains, enforcing SSO to approved tools, auditing DNS and logs, and using DLP to stop sensitive data exfiltration.",
-    "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-16T13:50:59.000Z",
-    "fetchedAt": "2026-10-16T16:35:24.091Z"
-  },
-  {
-    "slug": "beyondtrust-zero-day-exploited-patch-and-lock-down-now-2026-10-16",
-    "title": "BeyondTrust zero day exploited, patch and lock down now",
-    "originalTitle": "Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day",
-    "summary": "BeyondTrust IT support software is being exploited in the wild, so install the latest fixes, remove internet exposure, and audit remote access logs for unusual sessions.",
-    "url": "https://therecord.media/beyond-trust-cyberattack-china",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-16T13:00:00.000Z",
-    "fetchedAt": "2026-10-16T16:35:24.091Z"
   }
 ]
