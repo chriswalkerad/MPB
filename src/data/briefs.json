@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-30",
+    "date": "2026-10-30",
+    "title": "\"Exploits are live, remote tools in the crosshairs\"",
+    "intro": "Active exploits are hitting widely used platforms, and remote support tools need attention. Patch fast, tighten permissions, and give social engineers nothing to work with.",
+    "items": [
+      {
+        "heading": "WordPress RCE under active attack",
+        "body": "Attackers are abusing a new unauthenticated race condition to land remote code execution on WordPress sites. Patch or temporarily disable the vulnerable component and add WAF rules to slow bursty requests and block obvious payloads. Back up, scan for unexpected files or users, and keep exposed admin panels off the public internet where possible.",
+        "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "new-wordpress-rce-under-attack-unauthenticated-attempts-spot-2026-10-30"
+      },
+      {
+        "heading": "GitLab RCE and Cisco firewall bug land in KEV",
+        "body": "CISA added a GitLab CE or EE remote code execution, CVE-2026-97229, and a Cisco firewall denial of service to the Known Exploited Vulnerabilities list after confirmed attacks. Treat both as urgent, patch now, and limit exposure of management interfaces until you can. If you follow KEV timelines, your clock is ticking.",
+        "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-gitlab-rce-and-cisco-firewall-bug-under-active-attack-2026-10-30"
+      },
+      {
+        "heading": "TeamViewer bug lets hosts hijack tech machines",
+        "body": "CVE-2026-111585 could allow a malicious host to execute code on the support technician side. Update TeamViewer to the latest release and review session permission templates, especially file transfer and clipboard. Run remote assistance from least privilege accounts and restrict tech-side actions when connecting to untrusted hosts.",
+        "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "teamviewer-bug-could-let-hosts-hijack-support-techs-update-n-2026-10-30"
+      },
+      {
+        "heading": "Drupal Commerce auth bypass exploited",
+        "body": "A highly critical authorization bypass in Commerce Core is being used to view and modify store orders. Patch immediately, then audit recent orders and cancel or refund anything suspicious. Review admin access, API keys, and webhooks tied to the store, and rotate credentials if you see tampering.",
+        "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "drupal-commerce-flaw-exploited-patch-and-audit-orders-now-2026-10-30"
+      },
+      {
+        "heading": "Polymarket drained by compromised web tool",
+        "body": "Malicious third-party code hijacked logged-in sessions and siphoned over two million dollars, a classic Magecart-style supply chain hit. If you run sites that rely on third-party scripts, invalidate sessions, rotate tokens, and review dependencies. Tighten with Content Security Policy and Subresource Integrity, and monitor for unexpected script changes.",
+        "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "polymarket-drained-via-compromised-web-tool-hijacking-logged-2026-10-30"
+      },
+      {
+        "heading": "Impostor help desks are winning with low info",
+        "body": "Attackers are prying open remote access with only names and emails, no deep recon needed. Train staff to verify callers, enforce callback to a known number, and require tickets plus manager approval for remote sessions. Lock remote tools behind SSO and MFA, and use least privilege policies for ad hoc access.",
+        "url": "https://www.helpnetsecurity.com/2026/10/30/cisco-talos-it-help-desk-vishing/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "impostor-it-help-desks-are-getting-remote-access-with-just-n-2026-10-30"
+      },
+      {
+        "heading": "Trojanized Claude Code update backdoors SSH",
+        "body": "Update 2.1.313 of the Claude Code extension from Cursor planted a persistent SSH backdoor. If you installed it, remove the extension, rotate SSH keys anywhere it touched, and reinstall from a trusted store. Audit developer machines for changes in ~/.ssh config and authorized_keys.",
+        "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "trojanized-claude-code-update-planted-persistent-ssh-backdoo-2026-10-30"
+      },
+      {
+        "heading": "Windows 11 fix for Always On VPN failures",
+        "body": "Microsoft has finally resolved the Always On VPN connection problems introduced by the September 2026 patches. Push the latest Windows 11 updates, then retest tunnels and access policies. Stage the rollout for remote users and keep a rollback plan ready just in case.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "microsoft-fixes-windows-11-always-on-vpn-breakage-from-septe-2026-10-30"
+      }
+    ],
+    "signOff": "Stay sharp, ship patches, and keep the help desk skeptical.",
+    "generatedAt": "2026-10-30T18:39:00.511Z"
+  },
+  {
     "slug": "2026-10-29",
     "date": "2026-10-29",
     "title": "Perimeter pressure: VPNs, GitLab, PAN-OS actively targeted",
@@ -2120,79 +2194,5 @@
     ],
     "signOff": "Patch early, log often, and get back to the queue.",
     "generatedAt": "2026-10-01T18:55:25.513Z"
-  },
-  {
-    "slug": "2026-09-30",
-    "date": "2026-09-30",
-    "title": "Patch the edge, lock browsers, rein in AI leaks",
-    "intro": "Busy morning. Remote access gear and browsers need patches, and your AI tooling might be tattling.",
-    "items": [
-      {
-        "heading": "NetScaler pre-auth RCE under active attack",
-        "body": "Attackers are hitting Citrix NetScaler ADC and Gateway with a pre-auth exploit that can yield root access. Patch immediately and disable DTLS until you can, then verify no unknown configs or accounts were added. If these appliances face the internet, treat this as incident response until proven otherwise.",
-        "url": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "citrix-netscaler-cve-2026-88772-under-active-pre-auth-exploi-2026-09-30"
-      },
-      {
-        "heading": "TeamViewer client and host need urgent patches",
-        "body": "High severity bugs in TeamViewer client and host builds could allow remote code execution and session compromise. Push the latest updates to every endpoint and server, then restart services to ensure the new binaries load. Review remote session logs for anomalies and block outdated versions in your tools.",
-        "url": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "patch-now-severe-teamviewer-flaws-in-client-and-host-2026-09-30"
-      },
-      {
-        "heading": "Chrome and Firefox ship fixes for 100+ bugs",
-        "body": "Current Chrome and Firefox releases patch dozens of issues, including code execution and sandbox escape risks via malicious sites. Roll out the updates across your fleet and enforce restarts for active browsers. Prioritize high risk users like admins and anyone who lives in a browser all day.",
-        "url": "https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "chrome-and-firefox-updates-fix-100-flaws-some-critical-2026-09-30"
-      },
-      {
-        "heading": "OpenSSL and wolfSSL patch DTLS flaws",
-        "body": "High severity DTLS issues can leak heap memory or crash services, and fixes are shipping for OpenSSL and wolfSSL. Update libraries in servers, containers, and appliances, then redeploy dependent services. Inventory appliances that bundle these stacks and pull vendor updates as they appear.",
-        "url": "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "openssl-and-wolfssl-patch-high-severity-dtls-bugs-2026-09-30"
-      },
-      {
-        "heading": "M365 session theft leads to RMM install",
-        "body": "A US focused phishing campaign is hijacking Microsoft 365 sessions, then installing remote management tools to expand access and fraud. Enforce phishing resistant MFA, monitor for token theft, and block unsanctioned RMMs. Tighten conditional access and alert on unusual sign ins and new device enrollments.",
-        "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "m365-phish-steals-sessions-then-installs-rmm-for-remote-acce-2026-09-30"
-      },
-      {
-        "heading": "Nordix Artifactory breach, stop using artifacts",
-        "body": "OpenInfra Europe’s Artifactory at artifactory.nordix.org was compromised. If you pulled anything between August 28 and September 15, quarantine those systems, replace packages from trusted sources, and verify build integrity. Treat affected builds as tainted until you can rebuild clean.",
-        "url": "https://www.helpnetsecurity.com/2026/09/30/openinfra-jfrog-artifactory-instance-compromised/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "openinfra-europe-s-artifactory-breached-stop-using-nordix-ar-2026-09-30"
-      },
-      {
-        "heading": "AI dev agents posted 13k internal screenshots",
-        "body": "Researchers saw AI coding agents auto posting internal UI images and billing data to public GitHub repos across hundreds of organizations. Audit AI assisted developer workflows and CI bots, restrict tokens and outbound publishing, and disable screenshot or telemetry uploads. Add DLP checks to repos and rotate any exposed credentials.",
-        "url": "https://www.helpnetsecurity.com/2026/09/30/ai-coding-agents-github-screenshot-leak/",
-        "source": "Help Net Security",
-        "category": "ai-security",
-        "storySlug": "ai-coding-agents-leaked-13-000-internal-screenshots-to-githu-2026-09-30"
-      },
-      {
-        "heading": "Monitor Claude Enterprise via DLP and SIEM",
-        "body": "Claude Enterprise now exposes a Compliance API so security tools can scan prompts, uploads, and outputs for sensitive data and policy violations. Turn it on and wire it into your DLP and SIEM to keep AI use inside guardrails. Use this to baseline usage and flag data exfil risks before they become incidents.",
-        "url": "https://www.helpnetsecurity.com/2026/09/30/claude-compliance-api-integrations/",
-        "source": "Help Net Security",
-        "category": "ai-security",
-        "storySlug": "pipe-claude-enterprise-chats-into-dlp-and-siem-for-monitorin-2026-09-30"
-      }
-    ],
-    "signOff": "Alright, patch the edge, push the browser updates, then tackle tickets.",
-    "generatedAt": "2026-09-30T18:28:06.281Z"
   }
 ]
