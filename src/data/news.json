@@ -1,5 +1,52 @@
 [
   {
+    "slug": "fake-stores-reappear-hours-after-takedowns-1-200-lookalike-d-2026-10-30",
+    "title": "Fake stores reappear hours after takedowns, 1,200 lookalike domains",
+    "originalTitle": "Scammers rebuild fake shopping sites within hours of a takedown",
+    "summary": "Expect fake shopping sites to respawn within hours, so pre block lookalike domains, tighten brand monitoring, and train users before holiday shopping scams spike.",
+    "url": "https://www.helpnetsecurity.com/2026/10/30/akamai-fake-account-abuse-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-30T05:30:26.000Z",
+    "fetchedAt": "2026-10-30T05:41:30.355Z"
+  },
+  {
+    "slug": "smart-tvs-and-plugs-are-soft-targets-isolate-and-limit-their-2026-10-30",
+    "title": "Smart TVs and plugs are soft targets, isolate and limit their chatter",
+    "originalTitle": "Smart TVs can harbor unpatched security flaws and track what you watch",
+    "summary": "Keep smart TVs and smart plugs off the corporate LAN, put them on an IoT VLAN, block telemetry, disable tracking features, and patch or replace models that cannot update.",
+    "url": "https://www.helpnetsecurity.com/2026/10/30/bitdefender-smart-tvs-vulnerabilities-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-30T05:00:27.000Z",
+    "fetchedAt": "2026-10-30T05:41:30.355Z"
+  },
+  {
+    "slug": "binance-breach-triggers-massive-asset-freezes-review-key-and-2026-10-30",
+    "title": "Binance breach triggers massive asset freezes, review key and admin controls",
+    "originalTitle": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+    "summary": "Treat centralized exchanges as high risk targets, enforce strong key management and admin segmentation, and plan incident response since attackers will launder funds even when some assets are frozen.",
+    "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-10-30T04:14:59.000Z",
+    "fetchedAt": "2026-10-30T05:41:30.355Z"
+  },
+  {
     "slug": "patch-cisco-sd-wan-now-auth-bypass-exploited-in-the-wild-2026-10-29",
     "title": "Patch Cisco SD-WAN now, auth bypass exploited in the wild",
     "originalTitle": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
@@ -3382,47 +3429,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-16T06:18:08.000Z",
     "fetchedAt": "2026-10-16T11:17:53.806Z"
-  },
-  {
-    "slug": "stolen-ai-api-keys-fund-attackers-automated-recon-2026-10-16",
-    "title": "Stolen AI API keys fund attackers' automated recon",
-    "originalTitle": "Stolen AI API keys are paying for hackers’ autonomous scans",
-    "summary": "Audit and rotate AI API keys and add billing alerts, criminals are running autonomous scanning tools on pilfered OpenAI, Anthropic and Google keys so you pay the bill.",
-    "url": "https://www.helpnetsecurity.com/2026/10/16/stolen-ai-api-keys-autonomous-scans/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-16T05:00:24.000Z",
-    "fetchedAt": "2026-10-16T11:17:53.806Z"
-  },
-  {
-    "slug": "fortinet-fortios-flaw-exploited-to-drop-peerstitch-malware-2026-10-16",
-    "title": "Fortinet FortiOS flaw exploited to drop PEERSTITCH malware",
-    "originalTitle": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-    "summary": "If you run FortiOS, patch CVE-2025-61624 and review VPN traffic, attackers are exploiting it to deploy memory-resident ARM64 malware that evades tagged session checks.",
-    "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-16T04:59:36.000Z",
-    "fetchedAt": "2026-10-16T11:17:53.806Z"
-  },
-  {
-    "slug": "shrink-ai-agent-blast-radius-before-deployment-2026-10-16",
-    "title": "Shrink AI agent blast radius before deployment",
-    "originalTitle": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
-    "summary": "Limit AI agent permissions and capabilities, apply least privilege and strict guardrails, and monitor actions to curb blast radius and prevent automated mistakes from impacting production.",
-    "url": "https://isc.sans.edu/diary/rss/33430",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-16T00:46:35.000Z",
-    "fetchedAt": "2026-10-16T04:26:31.653Z"
   }
 ]

@@ -1,15 +1,4 @@
 {
-  "https://www.helpnetsecurity.com/2026/09/30/rapidfort-cra-container-compliance/": "2026-09-30T05:28:48.830Z",
-  "https://www.helpnetsecurity.com/2026/09/30/bh-haven-sme-cybersecurity-service/": "2026-09-30T05:28:48.830Z",
-  "https://www.helpnetsecurity.com/2026/09/30/research-unpatched-vulnerabilities-backlog/": "2026-09-30T05:28:48.830Z",
-  "https://www.helpnetsecurity.com/2026/09/30/microsoft-wsl-containers-available/": "2026-09-30T05:28:48.830Z",
-  "https://www.helpnetsecurity.com/2026/09/30/relentless-defense-cisco-cybersecurity-survey/": "2026-09-30T05:28:48.830Z",
-  "https://www.helpnetsecurity.com/2026/09/30/cloudflare-certificate-authority-2027/": "2026-09-30T05:28:48.830Z",
-  "https://isc.sans.edu/diary/rss/33384": "2026-09-30T05:28:48.830Z",
-  "https://www.securityweek.com/trump-says-top-tech-firms-have-signed-accord-to-self-police-ai-development/": "2026-09-30T05:28:48.830Z",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/": "2026-09-30T05:28:48.830Z",
-  "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/": "2026-09-30T05:28:48.830Z",
-  "https://simonwillison.net/2026/Sep/29/hn-49898129/": "2026-09-30T05:28:48.830Z",
   "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/": "2026-09-30T12:30:30.405Z",
   "https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/": "2026-09-30T12:30:30.405Z",
   "https://therecord.media/russia-hackers-ukraine-blizzard": "2026-09-30T12:30:30.405Z",
@@ -1468,5 +1457,12 @@
   "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog": "2026-10-29T22:42:52.009Z",
   "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02": "2026-10-29T22:42:52.009Z",
   "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01": "2026-10-29T22:42:52.009Z",
-  "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes": "2026-10-29T22:42:52.009Z"
+  "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes": "2026-10-29T22:42:52.009Z",
+  "https://www.helpnetsecurity.com/2026/10/30/akamai-fake-account-abuse-report/": "2026-10-30T05:41:30.355Z",
+  "https://www.helpnetsecurity.com/2026/10/30/bitdefender-smart-tvs-vulnerabilities-report/": "2026-10-30T05:41:30.355Z",
+  "https://thehackernews.com/2026/10/binance-suffers-security-breach.html": "2026-10-30T05:41:30.355Z",
+  "https://isc.sans.edu/diary/rss/33472": "2026-10-30T05:41:30.355Z",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/": "2026-10-30T05:41:30.355Z",
+  "https://simonwillison.net/2026/Oct/29/api-credits/": "2026-10-30T05:41:30.355Z",
+  "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/": "2026-10-30T05:41:30.355Z"
 }
