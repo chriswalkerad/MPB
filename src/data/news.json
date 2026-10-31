@@ -1,5 +1,47 @@
 [
   {
+    "slug": "northflank-breach-abused-customer-ai-api-keys-2026-10-31",
+    "title": "Northflank breach abused customer AI API keys",
+    "originalTitle": "Northflank security breach leads to abuse of customers' AI API keys",
+    "summary": "Rotate and reissue all credentials and secrets stored in Northflank, audit API usage for abuse, and remove stored secrets from shared build and hosting systems.",
+    "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-31T18:01:12.000Z",
+    "fetchedAt": "2026-10-31T21:29:42.957Z"
+  },
+  {
+    "slug": "android-sms-of-death-poc-released-patch-devices-now-2026-10-31",
+    "title": "Android SMS of Death PoC released, patch devices now",
+    "originalTitle": "New Android SMS of Death exploit can remotely crash unpatched phones",
+    "summary": "Install the latest Android security update across your fleet, this bug lets attackers crash phones or disrupt cellular service with a single malicious text message.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-31T15:35:11.000Z",
+    "fetchedAt": "2026-10-31T21:29:42.957Z"
+  },
+  {
+    "slug": "chainalysis-breach-tied-to-agentic-attacks-exposes-customer-2026-10-31",
+    "title": "Chainalysis breach tied to agentic attacks exposes customer data",
+    "originalTitle": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+    "summary": "Alert affected users and expect targeted phishing, attackers accessed internal tools and exposed customer names emails and roles, review AI agent permissions logging and isolation controls.",
+    "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-31T12:50:09.000Z",
+    "fetchedAt": "2026-10-31T21:29:42.957Z"
+  },
+  {
     "slug": "chainalysis-breach-exposed-customer-identity-data-2026-10-31",
     "title": "Chainalysis breach exposed customer identity data",
     "originalTitle": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
@@ -3411,33 +3453,5 @@
     "category": "threats",
     "publishedAt": "2026-10-18T08:23:02.000Z",
     "fetchedAt": "2026-10-18T10:59:07.156Z"
-  },
-  {
-    "slug": "connectwise-cloud-backup-breach-hits-microsoft-365-tenants-2026-10-17",
-    "title": "ConnectWise Cloud Backup breach hits Microsoft 365 tenants",
-    "originalTitle": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-    "summary": "Rotate all app secrets and certificates and review M365 logs now, ConnectWise disabled Cloud Backup after attackers abused application identities to break into tenants.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-17T15:18:51.000Z",
-    "fetchedAt": "2026-10-17T15:29:50.908Z"
-  },
-  {
-    "slug": "drupal-fixes-critical-rce-patch-now-2026-10-17",
-    "title": "Drupal fixes critical RCE, patch now",
-    "originalTitle": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
-    "summary": "Update all supported Drupal cores immediately, two critical flaws enable remote code execution and maintainers warn exploitation is likely soon.",
-    "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-17T14:32:48.000Z",
-    "fetchedAt": "2026-10-17T15:29:50.908Z"
   }
 ]
