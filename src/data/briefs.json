@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-10-31",
+    "date": "2026-10-31",
+    "title": "Patch now: remote roots and backdoored extensions",
+    "intro": "Remote root bugs and supply chain surprises are lining up this morning. Patch fast, audit dev tools, and tighten sharing settings before the first call.",
+    "items": [
+      {
+        "heading": "Ivanti Connect Secure: unauthenticated root chain",
+        "body": "Attackers are chaining multiple flaws to pop Ivanti Connect Secure as root without logging in. CISA added the bugs to the KEV list, so assume exploitation is active. Patch immediately and kick off a compromise hunt on all gateways.",
+        "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "ivanti-connect-secure-chain-grants-unauthenticated-root-patc-2026-10-31"
+      },
+      {
+        "heading": "Linux MPTCP bug yields remote root",
+        "body": "A critical flaw in MPTCP allows unauthenticated remote root via crafted network traffic. If any servers have MPTCP listeners, you are exposed. Patch affected kernels right away or disable MPTCP until you can, and inventory where MPTCP is enabled.",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "critical-linux-mptcp-bug-enables-remote-root-on-servers-2026-10-30"
+      },
+      {
+        "heading": "TeamViewer: controlled hosts could hit the controller",
+        "body": "A fixed flaw let a compromised remote machine crash or execute code on the viewer side. That flips your threat model if you manage lots of untrusted hosts. Update TeamViewer everywhere and treat remote endpoints as hostile until verified patched.",
+        "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "teamviewer-bug-lets-controlled-pcs-attack-the-controller-2026-10-30"
+      },
+      {
+        "heading": "Chainalysis breach exposes customer identity data",
+        "body": "An external actor accessed Chainalysis customer identity data. Investigation content, authentication credentials, and session tokens were not accessed, but identity data will drive phishing. Alert affected users, warn support desks, and tune detections for lookalike emails.",
+        "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "chainalysis-breach-exposed-customer-identity-data-2026-10-31"
+      },
+      {
+        "heading": "Trojanized Claude Code extension backdoored Cursor users",
+        "body": "A trojanized Claude Code extension on the Cursor marketplace briefly backdoored up to 5,000 developers. If you or your clients used it, remove the package, rotate SSH keys, and audit ~/.ssh and startup scripts. If you find persistence, rebuild affected machines.",
+        "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "trojanized-claude-code-extension-backdoored-cursor-users-2026-10-30"
+      },
+      {
+        "heading": "Anthropic Cursor extension compromised for 12 hours",
+        "body": "A compromised Anthropic extension on the Cursor marketplace was live for about 12 hours. That is long enough for tokens and endpoints to get nicked. Audit developer endpoints, remove the package, rotate API keys, and monitor for suspicious activity.",
+        "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+        "source": "Ars Technica",
+        "category": "ai-security",
+        "storySlug": "anthropic-cursor-extension-backdoored-for-12-hours-2026-10-30"
+      },
+      {
+        "heading": "Malicious ChatGPT share links could read your chats",
+        "body": "A now fixed bug allowed attackers to run code in ChatGPT sessions and read private conversations via shared links. Social engineering carries the payload here. Train staff to avoid unknown ChatGPT share links and review sharing settings across org accounts.",
+        "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "malicious-chatgpt-share-links-could-read-your-chats-2026-10-31"
+      },
+      {
+        "heading": "Wireshark 5.0 RC: test before rollout",
+        "body": "The 5.0 release candidate is out, with changes coming to dissectors, plugins, capture workflows, and training. This will affect lab guides and field procedures. Put it through lab testing and prep updated training material before it lands in production.",
+        "url": "https://isc.sans.edu/diary/rss/33476",
+        "source": "SANS ISC",
+        "category": "defense",
+        "storySlug": "wireshark-5-0-release-candidate-lands-2026-10-31"
+      }
+    ],
+    "signOff": "Ship the patches, then go fix that printer.",
+    "generatedAt": "2026-10-31T17:47:48.224Z"
+  },
+  {
     "slug": "2026-10-30",
     "date": "2026-10-30",
     "title": "\"Exploits are live, remote tools in the crosshairs\"",
@@ -2120,79 +2194,5 @@
     ],
     "signOff": "Back to tickets, but keep one eye on those patch windows.",
     "generatedAt": "2026-10-02T18:28:02.976Z"
-  },
-  {
-    "slug": "2026-10-01",
-    "date": "2026-10-01",
-    "title": "Zero-days, leaked creds, and remote helpdesk RCEs",
-    "intro": "Active exploits on core tools and some policy shifts to mind. Patch priority first, then go hunt for creds and persistence.",
-    "items": [
-      {
-        "heading": "Cisco SD-WAN Manager zero-day is live",
-        "body": "Attackers are exploiting CVE-2026-76504 to get unauthenticated admin access on Cisco Catalyst SD-WAN Manager, and CISA put it on the KEV list. If you run it, patch immediately and assume exposure if you cannot patch today. Check authentication logs and admin actions, and isolate or rebuild any manager showing suspicious changes.",
-        "url": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "cisco-sd-wan-manager-zero-day-exploited-patch-now-2026-10-01"
-      },
-      {
-        "heading": "Zimbra exploited via crafted emails",
-        "body": "A Zimbra bug, CVE-2026-73570, was exploited before disclosure using crafted emails that need no user interaction under certain configurations. Patch or apply mitigations now to close the hole. Review mail server logs and quarantine queues for unusual or malformed messages targeting Zimbra.",
-        "url": "https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "zimbra-bug-exploited-via-email-patch-now-2026-10-01"
-      },
-      {
-        "heading": "Zammad helpdesk zero-days to RCE",
-        "body": "Attackers chained zero-days in Zammad to hijack sessions, achieve remote code execution and root, then escalate privileges. Update Zammad now and verify your instance for unexpected admin actions or new users. Audit server integrity and rotate tokens or credentials used by the app.",
-        "url": "https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "zammad-helpdesk-zero-days-chained-to-rce-update-now-2026-10-01"
-      },
-      {
-        "heading": "ScreenConnect client abused for persistence",
-        "body": "Threat actors are dropping the ScreenConnect client on compromised hosts to stick around. Lock down software install rights, block unauthorized ScreenConnect deployments, and monitor for unexpected ScreenConnect services and outbound connections. Rotate admin credentials if you find any surprise installs.",
-        "url": "https://isc.sans.edu/diary/rss/33388",
-        "source": "SANS ISC",
-        "category": "threats",
-        "storySlug": "attackers-abuse-screenconnect-client-to-persist-on-compromis-2026-10-01"
-      },
-      {
-        "heading": "Apple PDF crash PoC is public",
-        "body": "A public PoC for CVE-2026-86950 in CoreGraphics can crash iOS and macOS via malicious PDFs, with hints at possible WhatsApp delivery. Install the latest Apple updates across fleet devices. Until patched, caution users on unsolicited PDFs and consider tightening attachment handling in mail and messaging.",
-        "url": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "apple-coregraphics-poc-crashes-devices-via-pdf-update-now-2026-10-01"
-      },
-      {
-        "heading": "Half a million live creds on GitHub",
-        "body": "Researchers found 500,000 active credentials exposed on GitHub despite default push protections. Audit your repos for secrets, enable secret scanning, and enforce pre-commit hooks. Rotate any exposed tokens or keys immediately and review CI logs for misuse.",
-        "url": "https://www.securityweek.com/500000-active-credentials-left-exposed-on-github/",
-        "source": "SecurityWeek",
-        "category": "defense",
-        "storySlug": "500k-active-credentials-exposed-on-github-check-your-org-2026-10-01"
-      },
-      {
-        "heading": "Windows 11 flips on settings backup by default",
-        "body": "Windows 11 will enable settings backup by default on Entra-joined systems after 26H2. Before rollout, audit backup policies, data residency, and privacy implications. Set explicit policy controls and inform tenants to avoid surprises.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
-        "source": "BleepingComputer",
-        "category": "industry",
-        "storySlug": "windows-11-enables-settings-backup-by-default-for-orgs-2026-10-01"
-      },
-      {
-        "heading": "Google gives vetted defenders Gemini 4 Argon",
-        "body": "Google is providing vetted defenders access to Gemini 4 Argon with fewer guardrails and says it already helped find a critical hospital software bug. Expect clients to ask about it and keep your AI usage policies ready. Validate outputs and stick to safe, auditable use cases.",
-        "url": "https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "google-ships-gemini-4-argon-to-vetted-defenders-2026-10-01"
-      }
-    ],
-    "signOff": "Patch early, log often, and get back to the queue.",
-    "generatedAt": "2026-10-01T18:55:25.513Z"
   }
 ]
