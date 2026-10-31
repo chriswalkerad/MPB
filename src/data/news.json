@@ -1,5 +1,19 @@
 [
   {
+    "slug": "anthropic-cursor-extension-backdoored-for-12-hours-2026-10-30",
+    "title": "Anthropic Cursor extension backdoored for 12 hours",
+    "originalTitle": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+    "summary": "A compromised Anthropic extension on the Cursor marketplace was live for about 12 hours, so audit developer endpoints, remove the package, rotate API keys, and monitor for suspicious activity.",
+    "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-30T21:09:54.000Z",
+    "fetchedAt": "2026-10-31T05:33:44.560Z"
+  },
+  {
     "slug": "critical-linux-mptcp-bug-enables-remote-root-on-servers-2026-10-30",
     "title": "Critical Linux MPTCP bug enables remote root on servers",
     "originalTitle": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
