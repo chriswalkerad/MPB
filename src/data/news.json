@@ -1,5 +1,61 @@
 [
   {
+    "slug": "chainalysis-breach-exposed-customer-identity-data-2026-10-31",
+    "title": "Chainalysis breach exposed customer identity data",
+    "originalTitle": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+    "summary": "Warn users and watch for phishing, an external actor accessed Chainalysis customer identity data though investigation content, authentication credentials, and session tokens were not accessed.",
+    "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-10-31T12:01:56.000Z",
+    "fetchedAt": "2026-10-31T12:19:56.628Z"
+  },
+  {
+    "slug": "wireshark-5-0-release-candidate-lands-2026-10-31",
+    "title": "Wireshark 5.0 release candidate lands",
+    "originalTitle": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+    "summary": "Test Wireshark 5.0 release candidate in labs before rollout, a major update is near and expect changes to dissectors, plugins, capture workflows, and training materials.",
+    "url": "https://isc.sans.edu/diary/rss/33476",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-10-31T10:52:53.000Z",
+    "fetchedAt": "2026-10-31T12:19:56.628Z"
+  },
+  {
+    "slug": "ivanti-connect-secure-chain-grants-unauthenticated-root-patc-2026-10-31",
+    "title": "Ivanti Connect Secure chain grants unauthenticated root, patch now",
+    "originalTitle": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+    "summary": "Patch Ivanti Connect Secure immediately and hunt for compromise, attackers are chaining multiple flaws for unauthenticated root access and CISA has added them to the KEV list.",
+    "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-10-31T08:27:43.000Z",
+    "fetchedAt": "2026-10-31T12:19:56.628Z"
+  },
+  {
+    "slug": "malicious-chatgpt-share-links-could-read-your-chats-2026-10-31",
+    "title": "Malicious ChatGPT share links could read your chats",
+    "originalTitle": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+    "summary": "Train staff to avoid unknown ChatGPT share links and review sharing settings, a now-fixed bug let attackers run code in sessions and read private conversations.",
+    "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-31T05:33:41.000Z",
+    "fetchedAt": "2026-10-31T12:19:56.628Z"
+  },
+  {
     "slug": "anthropic-cursor-extension-backdoored-for-12-hours-2026-10-30",
     "title": "Anthropic Cursor extension backdoored for 12 hours",
     "originalTitle": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
@@ -3383,33 +3439,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-17T14:32:48.000Z",
     "fetchedAt": "2026-10-17T15:29:50.908Z"
-  },
-  {
-    "slug": "malicious-npm-imgdecode-package-loads-shellcode-2026-10-17",
-    "title": "Malicious npm 'imgdecode' package loads shellcode",
-    "originalTitle": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-    "summary": "Block and purge imgdecode from builds, a MALFEX campaign package on npm hides a Windows native addon that downloads and runs shellcode.",
-    "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-17T11:11:56.000Z",
-    "fetchedAt": "2026-10-17T15:29:50.908Z"
-  },
-  {
-    "slug": "hackers-use-connectwise-backup-credential-to-enter-173-m365-2026-10-17",
-    "title": "Hackers use ConnectWise backup credential to enter 173 M365 tenants",
-    "originalTitle": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-    "summary": "Audit app consents and sign-ins, revoke tokens, rotate ConnectWise credentials, and enforce Conditional Access, attackers used a compromised ConnectWise M365 credential to access 173 tenants.",
-    "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-17T06:16:46.000Z",
-    "fetchedAt": "2026-10-17T10:37:38.116Z"
   }
 ]

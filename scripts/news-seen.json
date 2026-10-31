@@ -1,17 +1,4 @@
 {
-  "https://isc.sans.edu/diary/rss/33388": "2026-10-01T05:47:21.170Z",
-  "https://www.helpnetsecurity.com/2026/10/01/ai-soc-entry-jobs/": "2026-10-01T05:47:21.170Z",
-  "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html": "2026-10-01T05:47:21.170Z",
-  "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html": "2026-10-01T05:47:21.170Z",
-  "https://www.helpnetsecurity.com/2026/10/01/google-ai-discovered-vulnerabilities-remote-code-execution/": "2026-10-01T05:47:21.170Z",
-  "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html": "2026-10-01T05:47:21.170Z",
-  "https://www.helpnetsecurity.com/2026/10/01/employment-scam-victims-research/": "2026-10-01T05:47:21.170Z",
-  "https://www.helpnetsecurity.com/2026/10/01/google-gemini-4-argon/": "2026-10-01T05:47:21.170Z",
-  "https://www.helpnetsecurity.com/2026/10/01/product-showcase-proton-drive/": "2026-10-01T05:47:21.170Z",
-  "https://www.helpnetsecurity.com/2026/10/01/synthid-bio-watermark/": "2026-10-01T05:47:21.170Z",
-  "https://isc.sans.edu/diary/rss/33386": "2026-10-01T05:47:21.170Z",
-  "https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/": "2026-10-01T05:47:21.170Z",
-  "https://therecord.media/us-sanctions-10-atm-jackpotting-tren-de-aragua": "2026-10-01T05:47:21.170Z",
   "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese": "2026-10-01T13:07:50.117Z",
   "https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/": "2026-10-01T13:07:50.117Z",
   "https://therecord.media/poland-cyberattack-invoice-software": "2026-10-01T13:07:50.117Z",
@@ -1467,5 +1454,12 @@
   "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog": "2026-10-30T22:15:41.981Z",
   "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/": "2026-10-31T05:33:44.560Z",
   "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down": "2026-10-31T05:33:44.560Z",
-  "https://www.helpnetsecurity.com/2026/10/30/syrian-hacker-sentenced-42-months-prison/": "2026-10-31T05:33:44.560Z"
+  "https://www.helpnetsecurity.com/2026/10/30/syrian-hacker-sentenced-42-months-prison/": "2026-10-31T05:33:44.560Z",
+  "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html": "2026-10-31T12:19:56.628Z",
+  "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/": "2026-10-31T12:19:56.628Z",
+  "https://isc.sans.edu/diary/rss/33476": "2026-10-31T12:19:56.628Z",
+  "https://isc.sans.edu/diary/rss/33474": "2026-10-31T12:19:56.628Z",
+  "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html": "2026-10-31T12:19:56.628Z",
+  "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html": "2026-10-31T12:19:56.628Z",
+  "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html": "2026-10-31T12:19:56.628Z"
 }
