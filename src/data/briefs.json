@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-01",
+    "date": "2026-11-01",
+    "title": "Patch today, lock down SaaS, and tame third-party risk",
+    "intro": "Critical infra bugs, SaaS account takeovers, and script hijacks are in play. Get patches out and clamp down on credentials and third parties.",
+    "items": [
+      {
+        "heading": "CVSS 10 flaw in LXD and MicroCloud",
+        "body": "A critical bug lets attackers impersonate trusted clients and log in without a private key via the HTTPS API. Patch to the fixed releases now, restrict access to that API, and rotate client certificates. If you run LXD clusters or MicroCloud for customers, treat this as an emergency change.",
+        "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "critical-lxd-microcloud-bug-lets-attackers-impersonate-trust-2026-11-01"
+      },
+      {
+        "heading": "Android SMS of Death PoC released",
+        "body": "A single malicious text can crash phones or disrupt cellular service on unpatched devices, and a proof of concept is now public. Push the latest Android security update across your fleet and prioritize high risk users. Give your help desk a heads up if you expect lagging devices.",
+        "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "android-sms-of-death-poc-released-patch-devices-now-2026-10-31"
+      },
+      {
+        "heading": "Third-party script hijack drains Polymarket",
+        "body": "Attackers replaced a performance script with malware and drained funds from signed-in traders. This is your reminder that externally hosted scripts are a supply chain, not a convenience. Audit and self-host critical scripts, enable CSP and Subresource Integrity, and review third-party includes.",
+        "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "polymarket-hack-tied-to-hijacked-third-party-script-2-7m-sto-2026-11-01"
+      },
+      {
+        "heading": "Northflank breach abused stored AI API keys",
+        "body": "Stored customer AI API keys were abused after a breach. Rotate and reissue all credentials and secrets kept in Northflank, audit API usage for abuse, and remove secrets from shared build and hosting systems. Assume any key you stored there is burned.",
+        "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "northflank-breach-abused-customer-ai-api-keys-2026-10-31"
+      },
+      {
+        "heading": "ChatGPT account takeover demo",
+        "body": "Researchers demonstrated a viable ChatGPT account takeover path. Treat it like any other SaaS: enforce MFA and SSO, audit team members and OAuth apps, and revoke suspicious sessions. Lock it down before users start pasting secrets into prompts.",
+        "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+        "source": "Simon Willison",
+        "category": "ai-security",
+        "storySlug": "chatgpt-account-takeover-demonstrated-lock-down-your-org-2026-10-31"
+      },
+      {
+        "heading": "Chainalysis breach via agentic attacks",
+        "body": "Attackers accessed internal tools and exposed customer names, emails, and roles. Alert affected users and expect targeted phishing. Review AI agent permissions, logging, and isolation controls before your own automations become a liability.",
+        "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "chainalysis-breach-tied-to-agentic-attacks-exposes-customer-2026-10-31"
+      },
+      {
+        "heading": "Chainalysis customer identity data exposed",
+        "body": "An external actor accessed Chainalysis customer identity data. The report says investigation content, authentication credentials, and session tokens were not accessed. Warn users and watch for phishing that leverages their identity details.",
+        "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "chainalysis-breach-exposed-customer-identity-data-2026-10-31"
+      },
+      {
+        "heading": "Pulling embedded files from OneNote for IR",
+        "body": "There is a SANS tool and process to extract embedded content from .one files, handy for investigating OneNote-delivered malware. Use it to triage suspicious notes and analyze attachments without opening them in the client.",
+        "url": "https://isc.sans.edu/diary/rss/33478",
+        "source": "SANS ISC",
+        "category": "defense",
+        "storySlug": "how-to-extract-embedded-files-from-onenote-for-analysis-2026-11-01"
+      }
+    ],
+    "signOff": "See you on the other side of the patch window.",
+    "generatedAt": "2026-11-01T18:27:16.125Z"
+  },
+  {
     "slug": "2026-10-31",
     "date": "2026-10-31",
     "title": "Patch now: remote roots and backdoored extensions",
@@ -2120,79 +2194,5 @@
     ],
     "signOff": "Ship the patches, then your coffee will taste better.",
     "generatedAt": "2026-10-03T17:19:04.004Z"
-  },
-  {
-    "slug": "2026-10-02",
-    "date": "2026-10-02",
-    "title": "Zero day heat, SharePoint hits, and AI-driven mischief",
-    "intro": "Patch queues are full and bots are busy. Prioritize the mail gateway, SharePoint, and identity guardrails before coffee cools.",
-    "items": [
-      {
-        "heading": "FortiMail zero day exploited",
-        "body": "Fortinet says CVE-2026-104286 is being abused in the wild. If you run FortiMail, apply the vendor’s workaround now, lock down exposure, and line up maintenance windows for patches as soon as they drop. Watch for unusual admin actions and config changes on the gateway.",
-        "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "fortimail-zero-day-exploited-apply-workaround-now-2026-10-02"
-      },
-      {
-        "heading": "Warlock hits unpatched SharePoint",
-        "body": "A Warlock group is going after vulnerable SharePoint servers. Patch fast, restrict external access, and sweep for webshells plus odd IIS patterns that suggest post-exploit persistence. If you cannot patch today, consider isolating or geofencing access until you can.",
-        "url": "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/",
-        "source": "SecurityWeek",
-        "category": "threats",
-        "storySlug": "warlock-group-targeting-unpatched-sharepoint-servers-2026-10-02"
-      },
-      {
-        "heading": "AI agents fling SQLi at gov sites",
-        "body": "Automated tools launched SQL injection attempts at US and Canadian government sites, a sign that bots are scaling classic web vulns. Lock down apps with parameterized queries and strict input validation, tune WAF rules for SQLi signatures, and monitor for botty traffic spikes. Treat any unauthenticated query errors as a hunting signal.",
-        "url": "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "ai-agents-launched-sqli-at-us-and-canada-government-sites-2026-10-02"
-      },
-      {
-        "heading": "AI agents keep access after tasks",
-        "body": "Identity teams report AI agents holding long-lived permissions and taking actions on users’ behalf. Enforce least privilege and time-bound access, log all agent activity, and bring them under your PAM controls. Treat agents like service accounts with tight scopes and revocation on task completion.",
-        "url": "https://www.helpnetsecurity.com/2026/10/02/delinea-ai-policy-adoption-enforcement-report/",
-        "source": "Help Net Security",
-        "category": "ai-security",
-        "storySlug": "ai-agents-keep-data-access-after-tasks-lock-them-down-2026-10-02"
-      },
-      {
-        "heading": "Insiders for sale",
-        "body": "Crews are paying employees to reset accounts and tweak transactions. Tighten least privilege and approval workflows, monitor for anomalous employee activity, and keep ethics hotlines front and center. Rotate duties where you can and flag risky access changes for review.",
-        "url": "https://www.helpnetsecurity.com/2026/10/02/intel-471-insider-threat-recruitment-report/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "criminals-recruiting-insiders-to-sell-access-2026-10-02"
-      },
-      {
-        "heading": "Microsoft X account hijacked for token scam",
-        "body": "Attackers briefly hijacked Microsoft’s X account to push a crypto token to 13 million followers. Lock down social accounts with phishing-resistant MFA and strong credential hygiene, and remove shared logins. Review access to any social media tooling and audit for stale tokens.",
-        "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "microsoft-s-x-account-hijacked-for-crypto-pump-2026-10-02"
-      },
-      {
-        "heading": "Android 17 locks accessibility abuse",
-        "body": "Android 17 will limit accessibility APIs to verified apps, a big clampdown on malware abusing those services. If you manage Android fleets, enable Advanced Protection and audit app permissions and MDM policies ahead of rollout. Expect fewer fake overlay attacks if you enforce these controls.",
-        "url": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
-        "source": "The Hacker News",
-        "category": "defense",
-        "storySlug": "android-17-locks-accessibility-apis-to-verified-apps-2026-10-02"
-      },
-      {
-        "heading": "Android 17 adds forensic logging",
-        "body": "Google is adding off-device forensic logs to help expose spyware and similar stalkware. Update eligible devices, and make sure your mobile EDR and incident response playbooks can collect and analyze those logs. This should speed up investigations and raise the bar for stealthy surveillance apps.",
-        "url": "https://www.helpnetsecurity.com/2026/10/02/android-17-advanced-protection-features/",
-        "source": "Help Net Security",
-        "category": "defense",
-        "storySlug": "android-17-adds-forensic-logging-to-expose-spyware-2026-10-02"
-      }
-    ],
-    "signOff": "Back to tickets, but keep one eye on those patch windows.",
-    "generatedAt": "2026-10-02T18:28:02.976Z"
   }
 ]
