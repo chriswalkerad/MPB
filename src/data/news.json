@@ -1,5 +1,19 @@
 [
   {
+    "slug": "chatgpt-account-takeover-demonstrated-lock-down-your-org-2026-10-31",
+    "title": "ChatGPT account takeover demonstrated, lock down your org",
+    "originalTitle": "How We Took Over ChatGPT Accounts",
+    "summary": "Enforce MFA and SSO for ChatGPT, audit team members and OAuth apps, and revoke suspicious sessions, as researchers demonstrate viable account takeover.",
+    "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+    "source": {
+      "name": "Simon Willison"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-10-31T23:15:22.000Z",
+    "fetchedAt": "2026-11-01T05:56:57.793Z"
+  },
+  {
     "slug": "northflank-breach-abused-customer-ai-api-keys-2026-10-31",
     "title": "Northflank breach abused customer AI API keys",
     "originalTitle": "Northflank security breach leads to abuse of customers' AI API keys",
