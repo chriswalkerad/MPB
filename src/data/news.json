@@ -1,5 +1,33 @@
 [
   {
+    "slug": "gitlab-rce-attempts-hit-alpine-linux-update-and-rotate-secre-2026-11-01",
+    "title": "GitLab RCE attempts hit Alpine Linux, update and rotate secrets",
+    "originalTitle": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+    "summary": "Update GitLab to the fixed release immediately, audit for compromise, rotate passwords and tokens, attacks attempted against Alpine's instance show active exploitation.",
+    "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-01T15:11:21.000Z",
+    "fetchedAt": "2026-11-01T21:58:52.129Z"
+  },
+  {
+    "slug": "chatgpt-adds-work-features-check-settings-and-data-controls-2026-11-01",
+    "title": "ChatGPT adds Work features, check settings and data controls",
+    "originalTitle": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+    "summary": "Prepare for clients asking about ChatGPT Work, review tenant controls, SSO and data retention to prevent sensitive data leakage as usage limits expand.",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-01T13:53:11.000Z",
+    "fetchedAt": "2026-11-01T21:58:52.129Z"
+  },
+  {
     "slug": "how-to-extract-embedded-files-from-onenote-for-analysis-2026-11-01",
     "title": "How to extract embedded files from OneNote for analysis",
     "originalTitle": "OneNote File Extraction, (Sun, Nov 1st)",
@@ -3453,19 +3481,5 @@
     "category": "threats",
     "publishedAt": "2026-10-19T04:00:22.000Z",
     "fetchedAt": "2026-10-19T04:35:08.324Z"
-  },
-  {
-    "slug": "attackers-exploit-siteguard-waf-flaw-for-root-access-2026-10-18",
-    "title": "Attackers exploit SiteGuard WAF flaw for root access",
-    "originalTitle": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
-    "summary": "If you run SiteGuard Server Edition, apply the vendor's mitigation immediately, restrict access to admin endpoints, and hunt for signs of command execution as SYSTEM or root.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-18T14:23:16.000Z",
-    "fetchedAt": "2026-10-18T15:49:28.513Z"
   }
 ]
