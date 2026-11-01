@@ -1,16 +1,4 @@
 {
-  "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/": "2026-10-02T12:28:42.942Z",
-  "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html": "2026-10-02T12:28:42.942Z",
-  "https://www.securityweek.com/in-rare-move-iranian-hacker-accused-of-working-for-irgc-extradited-to-us/": "2026-10-02T12:28:42.942Z",
-  "https://www.helpnetsecurity.com/2026/10/02/china-aligned-ta419-phishing-ai-policy-experts/": "2026-10-02T12:28:42.942Z",
-  "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/": "2026-10-02T12:28:42.942Z",
-  "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/": "2026-10-02T12:28:42.942Z",
-  "https://www.helpnetsecurity.com/2026/10/02/fortinet-fortimail-vulnerability-cve-2026-104286/": "2026-10-02T12:28:42.942Z",
-  "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/": "2026-10-02T12:28:42.942Z",
-  "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/": "2026-10-02T12:28:42.942Z",
-  "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html": "2026-10-02T12:28:42.942Z",
-  "https://www.helpnetsecurity.com/2026/10/02/intel-471-insider-threat-recruitment-report/": "2026-10-02T12:28:42.942Z",
-  "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html": "2026-10-02T12:28:42.942Z",
   "https://therecord.media/judge-dismisses-spyware-case-brought-by-salvadoran-journalists": "2026-10-02T22:11:11.687Z",
   "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail": "2026-10-02T22:11:11.687Z",
   "https://therecord.media/alpr-legislation-hawley-sanders-merkley-aoc": "2026-10-02T22:11:11.687Z",
@@ -1402,5 +1390,12 @@
   "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/": "2026-10-31T21:29:42.957Z",
   "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/": "2026-10-31T21:29:42.957Z",
   "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/": "2026-11-01T05:56:57.793Z",
-  "https://simonwillison.net/2026/Oct/31/datasette-llm/": "2026-11-01T05:56:57.793Z"
+  "https://simonwillison.net/2026/Oct/31/datasette-llm/": "2026-11-01T05:56:57.793Z",
+  "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/": "2026-11-01T13:15:30.210Z",
+  "https://isc.sans.edu/diary/rss/33478": "2026-11-01T13:15:30.210Z",
+  "https://www.helpnetsecurity.com/2026/11/01/week-in-review-binance-hit-by-6-3-billion-theft-impact-of-brotli-vulnerability/": "2026-11-01T13:15:30.210Z",
+  "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html": "2026-11-01T13:15:30.210Z",
+  "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html": "2026-11-01T13:15:30.210Z",
+  "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html": "2026-11-01T13:15:30.210Z",
+  "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html": "2026-11-01T13:15:30.210Z"
 }

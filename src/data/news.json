@@ -1,5 +1,47 @@
 [
   {
+    "slug": "how-to-extract-embedded-files-from-onenote-for-analysis-2026-11-01",
+    "title": "How to extract embedded files from OneNote for analysis",
+    "originalTitle": "OneNote File Extraction, (Sun, Nov 1st)",
+    "summary": "Use this SANS tool and process to pull embedded content from .one files, handy for investigating OneNote-delivered malware and triaging suspicious notes in IR.",
+    "url": "https://isc.sans.edu/diary/rss/33478",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-01T09:12:23.000Z",
+    "fetchedAt": "2026-11-01T13:15:30.210Z"
+  },
+  {
+    "slug": "critical-lxd-microcloud-bug-lets-attackers-impersonate-trust-2026-11-01",
+    "title": "Critical LXD, MicroCloud bug lets attackers impersonate trusted clients",
+    "originalTitle": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+    "summary": "Update LXD and MicroCloud to fixed releases, restrict access to the HTTPS API and rotate client certs, a CVSS 10 flaw allows login without a private key.",
+    "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-01T08:51:31.000Z",
+    "fetchedAt": "2026-11-01T13:15:30.210Z"
+  },
+  {
+    "slug": "polymarket-hack-tied-to-hijacked-third-party-script-2-7m-sto-2026-11-01",
+    "title": "Polymarket hack tied to hijacked third-party script, $2.7M stolen",
+    "originalTitle": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+    "summary": "Audit and self-host critical scripts, enable CSP and Subresource Integrity, attackers replaced a performance script with malware that drained signed-in traders' funds.",
+    "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-01T07:25:40.000Z",
+    "fetchedAt": "2026-11-01T13:15:30.210Z"
+  },
+  {
     "slug": "chatgpt-account-takeover-demonstrated-lock-down-your-org-2026-10-31",
     "title": "ChatGPT account takeover demonstrated, lock down your org",
     "originalTitle": "How We Took Over ChatGPT Accounts",
@@ -3425,47 +3467,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-18T14:23:16.000Z",
     "fetchedAt": "2026-10-18T15:49:28.513Z"
-  },
-  {
-    "slug": "yara-rule-to-catch-vba-macros-hidden-in-dwg-files-2026-10-18",
-    "title": "YARA rule to catch VBA macros hidden in DWG files",
-    "originalTitle": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
-    "summary": "If you receive AutoCAD DWG files, add this YARA to your pipeline to catch orphaned VBA projects that attackers hide inside drawings to deliver malware.",
-    "url": "https://isc.sans.edu/diary/rss/33434",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-18T12:59:30.000Z",
-    "fetchedAt": "2026-10-18T15:49:28.513Z"
-  },
-  {
-    "slug": "cybersecurity-jobs-down-26-percent-ai-security-demand-up-2026-10-18",
-    "title": "Cybersecurity jobs down 26 percent, AI security demand up",
-    "originalTitle": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
-    "summary": "Expect tighter hiring and more client questions on AI security, reskill staff toward AI risk, model security, and prompt safety to keep your services relevant.",
-    "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-10-18T11:00:00.000Z",
-    "fetchedAt": "2026-10-18T15:49:28.513Z"
-  },
-  {
-    "slug": "connectwise-halts-cloud-backup-after-m365-app-ids-abused-2026-10-18",
-    "title": "ConnectWise halts Cloud Backup after M365 app IDs abused",
-    "originalTitle": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-    "summary": "MSPs using ConnectWise Cloud Backup should revoke any ConnectWise M365 app consents, rotate secrets, and audit tenant activity, as attackers abused ConnectWise application identities to access customers.",
-    "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-18T08:23:02.000Z",
-    "fetchedAt": "2026-10-18T10:59:07.156Z"
   }
 ]
