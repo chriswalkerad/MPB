@@ -1,5 +1,19 @@
 [
   {
+    "slug": "ransomware-crew-used-ai-agents-to-reach-domain-admin-2026-11-02",
+    "title": "Ransomware crew used AI agents to reach domain admin",
+    "originalTitle": "Ransomware gang talked AI agents into doing much of its dirty work",
+    "summary": "Lock down AI tools on endpoints and servers, Sophos reports Aur0ra ransomware leveraged coding agents to steal credentials and escalate to domain admin.",
+    "url": "https://www.helpnetsecurity.com/2026/11/02/aur0ra-ransomware-ai-agents/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-02T05:00:46.000Z",
+    "fetchedAt": "2026-11-02T05:56:36.304Z"
+  },
+  {
     "slug": "gitlab-rce-attempts-hit-alpine-linux-update-and-rotate-secre-2026-11-01",
     "title": "GitLab RCE attempts hit Alpine Linux, update and rotate secrets",
     "originalTitle": "Alpine Linux rebuilds GitLab after attempted RCE attack",
@@ -3467,19 +3481,5 @@
     "category": "ai-security",
     "publishedAt": "2026-10-19T06:07:08.000Z",
     "fetchedAt": "2026-10-19T13:05:35.805Z"
-  },
-  {
-    "slug": "ransomware-gangs-target-employees-families-for-extortion-2026-10-19",
-    "title": "Ransomware gangs target employees’ families for extortion",
-    "originalTitle": "Ransomware pressure now reaches employees’ homes and families",
-    "summary": "Prepare for extortion that spills into personal harassment, attackers are contacting employees’ relatives at 37 percent of victim orgs per Semperis, so update response playbooks and support staff.",
-    "url": "https://www.helpnetsecurity.com/2026/10/19/semperis-ransomware-employee-safety-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-19T04:00:22.000Z",
-    "fetchedAt": "2026-10-19T04:35:08.324Z"
   }
 ]
