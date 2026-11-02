@@ -1,5 +1,136 @@
 [
   {
+    "slug": "microsoft-fixes-windows-smart-app-control-activation-issue-2026-11-02",
+    "title": "Microsoft fixes Windows Smart App Control activation issue",
+    "originalTitle": "Microsoft fixes Smart App Control broken by October Windows update",
+    "summary": "Install the latest Windows 11 updates or re-enable Smart App Control, Microsoft fixed an October issue that blocked activation of this application control feature.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-02T13:57:29.000Z",
+    "fetchedAt": "2026-11-02T15:42:41.301Z"
+  },
+  {
+    "slug": "hackers-hijack-supermarket-freezers-across-europe-again-2026-11-02",
+    "title": "Hackers hijack supermarket freezers across Europe again",
+    "originalTitle": "Second wave of suspected cyberattacks hits supermarket freezers across Europe",
+    "summary": "Segment and harden building and OT systems, attackers twice remotely changed supermarket freezer temperatures across Europe causing spoilage and showing the risk of insecure remote access.",
+    "url": "https://therecord.media/cyberattack-grocery-freezers-europe",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/02/european-supermarkets-refrigeration-units-cyberattacks/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-02T13:00:00.000Z",
+    "fetchedAt": "2026-11-02T15:42:41.301Z"
+  },
+  {
+    "slug": "gitlab-rce-exploited-in-the-wild-thousands-still-unpatched-2026-11-02",
+    "title": "GitLab RCE exploited in the wild, thousands still unpatched",
+    "originalTitle": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+    "summary": "Patch your GitLab to the latest release and restrict internet exposure, a max severity RCE is actively exploited and over 1,000 servers remain unpatched.",
+    "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-02T12:47:00.000Z",
+    "fetchedAt": "2026-11-02T15:42:41.301Z"
+  },
+  {
+    "slug": "malicious-claude-code-extension-pushed-via-cursor-ide-2026-11-02",
+    "title": "Malicious Claude Code extension pushed via Cursor IDE",
+    "originalTitle": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
+    "summary": "Audit developer extensions and remove suspicious ones, a malicious Claude Code extension delivered via Cursor performed host recon and attempted a reverse SSH tunnel.",
+    "url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-02T11:29:39.000Z",
+    "fetchedAt": "2026-11-02T15:42:41.301Z"
+  },
+  {
+    "slug": "synology-warns-of-c3rb3r-ransomware-hitting-nas-devices-2026-11-02",
+    "title": "Synology warns of C3RB3R ransomware hitting NAS devices",
+    "originalTitle": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
+    "summary": "Update Synology NAS devices now and lock down remote access, C3RB3R ransomware is actively targeting them and will encrypt data if devices are exposed.",
+    "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-02T11:28:42.000Z",
+    "fetchedAt": "2026-11-02T15:42:41.301Z"
+  },
+  {
+    "slug": "attackers-pose-as-it-on-teams-abuse-ad-cs-to-steal-data-2026-11-02",
+    "title": "Attackers pose as IT on Teams, abuse AD CS to steal data",
+    "originalTitle": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
+    "summary": "Disable or vet external Teams chats and harden AD CS templates, attackers posed as IT support to gain remote control then minted certificates to access privileged accounts.",
+    "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-02T11:08:45.000Z",
+    "fetchedAt": "2026-11-02T15:42:41.301Z"
+  },
+  {
+    "slug": "ivanti-connect-secure-hit-with-chained-zero-days-patch-now-2026-11-02",
+    "title": "Ivanti Connect Secure hit with chained zero-days, patch now",
+    "originalTitle": "Ivanti patches two more Connect Secure zero-days chained in attacks",
+    "summary": "Patch Ivanti Connect Secure immediately, two new flaws are being chained in zero-day attacks since October, so prioritize updating gateways and checking for compromise.",
+    "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-02T09:33:26.000Z",
+    "fetchedAt": "2026-11-02T15:42:41.301Z"
+  },
+  {
+    "slug": "new-volta-infostealer-uses-ai-to-pick-the-richest-targets-2026-11-02",
+    "title": "New VOLTA infostealer uses AI to pick the richest targets",
+    "originalTitle": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+    "summary": "Expect infostealers to use AI to prioritize victims and loot, deploy EDR and tighten browser and credential hygiene to reduce the value of what these tools steal.",
+    "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/02/ai-powered-infostealer-volta-victim-profiling/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-02T05:51:07.000Z",
+    "fetchedAt": "2026-11-02T15:42:41.301Z"
+  },
+  {
     "slug": "ransomware-crew-used-ai-agents-to-reach-domain-admin-2026-11-02",
     "title": "Ransomware crew used AI agents to reach domain admin",
     "originalTitle": "Ransomware gang talked AI agents into doing much of its dirty work",
@@ -3355,131 +3486,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-19T15:47:50.000Z",
     "fetchedAt": "2026-10-19T22:19:22.615Z"
-  },
-  {
-    "slug": "f5-issues-out-of-band-fixes-for-critical-nginx-rce-bugs-2026-10-19",
-    "title": "F5 issues out-of-band fixes for critical NGINX RCE bugs",
-    "originalTitle": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
-    "summary": "Patch NGINX immediately and restart affected services, prioritize Internet-facing proxies and ingress controllers, and review logs for odd worker crashes or segfaults linked to malicious requests.",
-    "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-19T13:49:24.000Z",
-    "fetchedAt": "2026-10-19T22:19:22.615Z"
-  },
-  {
-    "slug": "ghostaction-spreads-stealer-malware-via-fake-font-in-github-2026-10-19",
-    "title": "GhostAction spreads stealer malware via fake font in GitHub repos",
-    "originalTitle": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-    "summary": "Developers, avoid random forks and verify commits and release assets, since attackers are phishing maintainers and hiding a credential stealer masquerading as a font across dozens of repositories.",
-    "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-19T13:05:45.000Z",
-    "fetchedAt": "2026-10-19T22:19:22.615Z"
-  },
-  {
-    "slug": "new-plex2shell-exploits-hit-plex-servers-within-hours-2026-10-19",
-    "title": "New Plex2Shell exploits hit Plex servers within hours",
-    "originalTitle": "Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure",
-    "summary": "Update Plex Media Server and pull it off the internet if you can, attackers are abusing the new Plex2Shell chain to drop miners and proxyware right after disclosure.",
-    "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-19T12:44:39.000Z",
-    "fetchedAt": "2026-10-19T13:05:35.805Z"
-  },
-  {
-    "slug": "fortinet-bug-exploited-to-plant-stealthy-fortigate-implant-2026-10-19",
-    "title": "Fortinet bug exploited to plant stealthy FortiGate implant",
-    "originalTitle": "Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack",
-    "summary": "Patch FortiOS now and hunt for persistence if your FortiGate was internet exposed, attackers are using a Fortinet flaw to plant a stealthy device implant.",
-    "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-19T11:13:23.000Z",
-    "fetchedAt": "2026-10-19T13:05:35.805Z"
-  },
-  {
-    "slug": "malicious-npm-packages-spread-stealers-hijack-ai-agent-traff-2026-10-19",
-    "title": "Malicious npm packages spread stealers, hijack AI agent traffic",
-    "originalTitle": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-    "summary": "Audit your npm dependencies and developer machines, a fake Web3 accelerator lured devs into installing packages that dropped info-stealers and backdoors on macOS and Windows.",
-    "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-19T10:06:40.000Z",
-    "fetchedAt": "2026-10-19T13:05:35.805Z"
-  },
-  {
-    "slug": "mitre-att-ck-v20-adds-ai-abuse-and-new-detection-content-2026-10-19",
-    "title": "MITRE ATT&CK v20 adds AI abuse and new detection content",
-    "originalTitle": "MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks",
-    "summary": "Update your mappings and detections, ATT&CK v20 ships 15 new detection strategies across Enterprise and ICS including AI abuse and MFA bypass techniques backed by fresh analytics.",
-    "url": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-19T09:37:04.000Z",
-    "fetchedAt": "2026-10-19T13:05:35.805Z"
-  },
-  {
-    "slug": "october-windows-server-patches-break-exchange-logins-and-mai-2026-10-19",
-    "title": "October Windows Server patches break Exchange logins and mail",
-    "originalTitle": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
-    "summary": "Follow Microsoft's guidance before deploying, this month's Windows Server updates are breaking OWA logins and mail flow on some on-prem Exchange servers.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-10-19T08:58:41.000Z",
-    "fetchedAt": "2026-10-19T13:05:35.805Z"
-  },
-  {
-    "slug": "broadcom-wi-fi-flaw-lets-nearby-attackers-root-many-routers-2026-10-19",
-    "title": "Broadcom Wi-Fi flaw lets nearby attackers root many routers",
-    "originalTitle": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-    "summary": "Until vendors ship firmware, disable Wi-Fi onboarding features and restrict admin access, a Broadcom setup flaw lets anyone within radio range run code as root on affected routers.",
-    "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-19T06:29:44.000Z",
-    "fetchedAt": "2026-10-19T13:05:35.805Z"
-  },
-  {
-    "slug": "opencode-breach-may-have-exposed-your-openai-or-anthropic-ke-2026-10-19",
-    "title": "OpenCode breach may have exposed your OpenAI or Anthropic keys",
-    "originalTitle": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-    "summary": "If your team stored provider keys in OpenCode Console, assume compromise and rotate OpenAI, Anthropic, and Google AI keys, audit usage, and remove long-lived tokens.",
-    "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-19T06:07:08.000Z",
-    "fetchedAt": "2026-10-19T13:05:35.805Z"
   }
 ]
