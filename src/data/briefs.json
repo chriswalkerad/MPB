@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-02",
+    "date": "2026-11-02",
+    "title": "Perimeter fires: Ivanti, GitLab and NAS under active attack",
+    "intro": "Busy morning: two exploited enterprise bugs, NAS ransomware in the wild, and attackers sliding into Teams. Patch fast, lock down remote access, then sweep your dev tools.",
+    "items": [
+      {
+        "heading": "Ivanti gateways hit with chained zero days",
+        "body": "Two new flaws are being chained in zero day attacks since October. If you run Ivanti Connect Secure, patch immediately and prioritize updating gateways, then check for compromise.",
+        "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "ivanti-connect-secure-hit-with-chained-zero-days-patch-now-2026-11-02"
+      },
+      {
+        "heading": "GitLab RCE actively exploited",
+        "body": "A max severity remote code execution bug is being used in the wild and over 1,000 servers remain unpatched. Update to the latest GitLab release and restrict internet exposure until you can verify posture.",
+        "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "gitlab-rce-exploited-in-the-wild-thousands-still-unpatched-2026-11-02"
+      },
+      {
+        "heading": "C3RB3R ransomware goes after Synology NAS",
+        "body": "Attackers are actively targeting Synology NAS devices and will encrypt data if they are exposed. Update now and lock down remote access so these boxes are not reachable from the internet.",
+        "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "synology-warns-of-c3rb3r-ransomware-hitting-nas-devices-2026-11-02"
+      },
+      {
+        "heading": "Fake IT on Teams plus AD CS equals data theft",
+        "body": "Attackers posed as IT support on Teams to gain remote control, then minted certificates via AD CS to access privileged accounts. Disable or tightly vet external Teams chats and harden AD CS templates.",
+        "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "attackers-pose-as-it-on-teams-abuse-ad-cs-to-steal-data-2026-11-02"
+      },
+      {
+        "heading": "Supermarket freezers hacked again",
+        "body": "Attackers twice remotely changed freezer temperatures across Europe, causing spoilage and spotlighting insecure remote access to building and OT systems. Segment OT from corporate networks and eliminate unnecessary remote entry points.",
+        "url": "https://therecord.media/cyberattack-grocery-freezers-europe",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "hackers-hijack-supermarket-freezers-across-europe-again-2026-11-02"
+      },
+      {
+        "heading": "Malicious Claude Code extension via Cursor",
+        "body": "A bad Claude Code extension delivered through the Cursor IDE performed host reconnaissance and attempted a reverse SSH tunnel. Audit developer extensions, remove anything suspicious, and pin trusted plugins.",
+        "url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
+        "source": "SecurityWeek",
+        "category": "ai-security",
+        "storySlug": "malicious-claude-code-extension-pushed-via-cursor-ide-2026-11-02"
+      },
+      {
+        "heading": "VOLTA infostealer uses AI to pick richer targets",
+        "body": "A new infostealer uses AI to prioritize victims and maximize loot. Expect more of this, deploy EDR and tighten browser and credential hygiene to reduce the value and volume of what can be stolen.",
+        "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "new-volta-infostealer-uses-ai-to-pick-the-richest-targets-2026-11-02"
+      },
+      {
+        "heading": "Windows Smart App Control fix",
+        "body": "Microsoft fixed an October issue that blocked activation of Smart App Control. Install the latest Windows 11 updates or re enable Smart App Control to restore application control.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "microsoft-fixes-windows-smart-app-control-activation-issue-2026-11-02"
+      }
+    ],
+    "signOff": "Tickets can wait five minutes, patches cannot.",
+    "generatedAt": "2026-11-02T22:21:26.340Z"
+  },
+  {
     "slug": "2026-11-01",
     "date": "2026-11-01",
     "title": "Patch today, lock down SaaS, and tame third-party risk",
@@ -2120,79 +2194,5 @@
     ],
     "signOff": "Patch, verify, communicate, then grab that coffee.",
     "generatedAt": "2026-10-04T17:37:11.724Z"
-  },
-  {
-    "slug": "2026-10-03",
-    "date": "2026-10-03",
-    "title": "SharePoint exploits fuel ransomware, patch and lock down now",
-    "intro": "Active SharePoint exploits are dropping ransomware and knocking out EDR. Patch key apps, review Mac privacy changes, and tighten Unix privilege tools before tickets start flying.",
-    "items": [
-      {
-        "heading": "SharePoint exploits disable EDR, drop ransomware",
-        "body": "Attackers are exploiting SharePoint to kill security tooling and launch ransomware. If SharePoint is exposed or behind on cumulative updates, you are on borrowed time. Patch to current CUs, pull SharePoint off the public internet where possible, and sweep for webshells and EDR tamper events.",
-        "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "patch-sharepoint-exploits-killing-edr-and-dropping-ransomwar-2026-10-03"
-      },
-      {
-        "heading": "Warlock targets utilities via SharePoint flaws",
-        "body": "The Warlock gang is abusing SharePoint bugs to breach utilities, telecoms, and government orgs in Portuguese and Spanish speaking regions. This is not theoretical, it is a live campaign. Lock down external access, apply the latest SharePoint updates, and increase monitoring on internet facing portals.",
-        "url": "https://therecord.media/warlock-ransomware-used-in-critical-infrastructure-attacks",
-        "source": "The Record",
-        "category": "threats",
-        "storySlug": "warlock-ransomware-abusing-sharepoint-bugs-to-hit-utilities-2026-10-02"
-      },
-      {
-        "heading": "Fortra BoKS critical auth bypass and RCE",
-        "body": "Serious flaws in Fortra BoKS allow authentication bypass, remote command execution, and memory corruption on managed Unix hosts, putting privileged access controls at risk. Treat this like a domain controller level emergency for Unix estates. Patch immediately, audit BoKS activity, and rotate credentials for accounts managed by or stored in BoKS.",
-        "url": "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "patch-fortra-boks-critical-auth-bypass-and-command-execution-2026-10-03"
-      },
-      {
-        "heading": "GitLab AI Gateway RCE on self-hosted",
-        "body": "A logged in Duo Agent Platform user could execute arbitrary commands on self hosted GitLab AI Gateway. Fixes are available in 19.2.4, 19.3.2, and 19.4.1. Update now and restrict access to the gateway until patched.",
-        "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "patch-gitlab-ai-gateway-rce-on-self-hosted-instances-2026-10-02"
-      },
-      {
-        "heading": "macOS Full Disk Access gets tighter",
-        "body": "Apple is tightening Full Disk Access to stop AI agents and other apps from quietly reading messages and files. Mac admins should expect behavior changes in FDA bound apps. Review MDM profiles, re approve required apps, and test automation that relies on FDA before users do.",
-        "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-        "source": "Ars Technica",
-        "category": "ai-security",
-        "storySlug": "apple-tightens-mac-full-disk-access-to-rein-in-ai-agents-2026-10-02"
-      },
-      {
-        "heading": "Frontline Education breach hits K 12 staff",
-        "body": "Attackers exploited a third party flaw to steal employee data, including Social Security numbers, from Frontline Education. If you support K 12 districts using Frontline, assume staff PII may be impacted. Coordinate with districts on notifications, offer identity protection, and watch for payroll or tax fraud signals.",
-        "url": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "frontline-education-breach-exposes-school-staff-ssns-2026-10-02"
-      },
-      {
-        "heading": "Ransomware knocks Vicksburg city systems",
-        "body": "Vicksburg shut down systems after a ransomware hit, and the FBI is investigating. Municipal environments remain soft targets. Use this as a tabletop prompt, validate offline backups, segment critical services, and rehearse your isolation and restore steps.",
-        "url": "https://therecord.media/vicksburg-mississippi-government-ransomware-attack",
-        "source": "The Record",
-        "category": "threats",
-        "storySlug": "ransomware-disrupts-vicksburg-city-services-systems-shut-dow-2026-10-02"
-      },
-      {
-        "heading": "YARA X 1.21.0 speeds up rule scanning",
-        "body": "YARA X 1.21.0 delivers five improvements and four bug fixes that stabilize and speed rule scanning across DFIR and detection workflows. Upgrade in your analysis stacks to cut scan time and reduce flakiness. Run regression tests on your rule packs after the bump.",
-        "url": "https://isc.sans.edu/diary/rss/33392",
-        "source": "SANS ISC",
-        "category": "defense",
-        "storySlug": "yara-x-1-21-0-brings-fixes-and-speed-boosts-for-hunters-2026-10-03"
-      }
-    ],
-    "signOff": "Ship the patches, then your coffee will taste better.",
-    "generatedAt": "2026-10-03T17:19:04.004Z"
   }
 ]
