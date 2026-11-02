@@ -22392,5 +22392,23 @@
     "url": "https://cybersecuritysummit.com/summits/",
     "source": "Cybersecurity Summit",
     "description": "The St. Louis edition of the Cybersecurity Summit delivers a day of expert talks, panel discussions, and real-world networking to help you pressure-test your security plans."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Charlotte 2027",
+    "slug": "the-official-cybersecurity-summit-charlotte-2027",
+    "date": "2027-10-05T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Charlotte",
+    "state": "NC",
+    "region": "southeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "A focused one-day summit in Charlotte connecting senior security leaders with top solution providers at The Westin Charlotte. Expect sessions and networking, useful if you want to compare tools and ideas in one place."
   }
 ]
