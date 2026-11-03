@@ -1,11 +1,4 @@
 {
-  "https://isc.sans.edu/diary/rss/33392": "2026-10-03T16:14:48.194Z",
-  "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html": "2026-10-03T16:14:48.194Z",
-  "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html": "2026-10-03T16:14:48.194Z",
-  "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/": "2026-10-03T16:14:48.194Z",
-  "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/": "2026-10-03T16:14:48.194Z",
-  "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/": "2026-10-03T21:11:42.045Z",
-  "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/": "2026-10-03T21:11:42.045Z",
   "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/": "2026-10-04T05:47:56.953Z",
   "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/": "2026-10-04T05:47:56.953Z",
   "https://simonwillison.net/2026/Oct/3/newsletter/": "2026-10-04T05:47:56.953Z",
@@ -1415,5 +1408,19 @@
   "https://www.helpnetsecurity.com/2026/11/02/vinay-thakker-kloudstax-ai-agent-access-control/": "2026-11-02T15:42:41.301Z",
   "https://www.helpnetsecurity.com/2026/11/02/byoky-open-source-ai-api-key-wallet/": "2026-11-02T15:42:41.301Z",
   "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html": "2026-11-02T15:42:41.301Z",
-  "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack": "2026-11-02T15:42:41.301Z"
+  "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack": "2026-11-02T15:42:41.301Z",
+  "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months": "2026-11-03T00:55:50.877Z",
+  "https://simonwillison.net/2026/Nov/2/llm/": "2026-11-03T00:55:50.877Z",
+  "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths": "2026-11-03T00:55:50.877Z",
+  "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist": "2026-11-03T00:55:50.877Z",
+  "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/": "2026-11-03T00:55:50.877Z",
+  "https://therecord.media/michigan-state-university-byod-gang-cyber-incident": "2026-11-03T00:55:50.877Z",
+  "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/": "2026-11-03T00:55:50.877Z",
+  "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/": "2026-11-03T00:55:50.877Z",
+  "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise": "2026-11-03T00:55:50.877Z",
+  "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html": "2026-11-03T00:55:50.877Z",
+  "https://therecord.media/hackers-ukraine-belarus-russia": "2026-11-03T00:55:50.877Z",
+  "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/": "2026-11-03T00:55:50.877Z",
+  "https://www.helpnetsecurity.com/2026/11/02/xcpe-botnet-android-backdoor/": "2026-11-03T00:55:50.877Z",
+  "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html": "2026-11-03T00:55:50.877Z"
 }

@@ -1,5 +1,98 @@
 [
   {
+    "slug": "binance-breach-shows-how-one-laptop-can-sink-the-ship-2026-11-02",
+    "title": "Binance breach shows how one laptop can sink the ship",
+    "originalTitle": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+    "summary": "Recheck privilege separation, hardware key use, and segmentation, analysis of the record crypto theft highlights how a single compromised endpoint cascaded into systemic loss.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-02T22:27:24.000Z",
+    "fetchedAt": "2026-11-03T00:55:50.877Z"
+  },
+  {
+    "slug": "chinese-hackers-automate-attacks-with-artex-ai-framework-2026-11-02",
+    "title": "Chinese hackers automate attacks with ARTEX AI framework",
+    "originalTitle": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+    "summary": "Expect AI-driven recon and exploit chaining at scale, a Chinese group used the open-source ARTEX multi-agent tool against 200 organizations, so reduce exposure and tighten controls.",
+    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-02T21:40:14.000Z",
+    "fetchedAt": "2026-11-03T00:55:50.877Z"
+  },
+  {
+    "slug": "byod-ransomware-group-claims-michigan-state-incident-2026-11-02",
+    "title": "BYOD ransomware group claims Michigan State incident",
+    "originalTitle": "Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
+    "summary": "Prepare for follow-on attacks and data leaks, the gang behind recent hospital hits says it breached MSU, prompting campus-wide containment and showing education remains a soft target.",
+    "url": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-02T19:54:00.000Z",
+    "fetchedAt": "2026-11-03T00:55:50.877Z"
+  },
+  {
+    "slug": "abrigo-s-sageworks-suffers-outage-after-suspected-cyberattac-2026-11-02",
+    "title": "Abrigo’s Sageworks suffers outage after suspected cyberattack",
+    "originalTitle": "Fintech platform Sageworks taken offline after suspected cyberattack",
+    "summary": "Alert banking clients and plan workarounds, Abrigo restored most Sageworks functions but borrower-facing features remain down after detecting irregular activity in its environment.",
+    "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-02T19:00:45.000Z",
+    "fetchedAt": "2026-11-03T00:55:50.877Z"
+  },
+  {
+    "slug": "google-kills-1-3m-device-android-tv-botnet-blames-box-maker-2026-11-02",
+    "title": "Google kills 1.3M-device Android TV botnet, blames box maker",
+    "originalTitle": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
+    "summary": "Audit and segment any cheap Android TV boxes on corporate or home-office networks, Google says a vendor shipped firmware backdoors used for ad fraud and proxying.",
+    "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/02/xcpe-botnet-android-backdoor/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-02T18:16:34.000Z",
+    "fetchedAt": "2026-11-03T00:55:50.877Z"
+  },
+  {
+    "slug": "ivanti-connect-secure-bugs-under-active-exploit-patch-now-2026-11-02",
+    "title": "Ivanti Connect Secure bugs under active exploit, patch now",
+    "originalTitle": "CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
+    "summary": "Patch all Ivanti Connect Secure appliances immediately and hunt for compromise, CISA added two newly exploited flaws used in chains to gain access to VPN gateways.",
+    "url": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-02T15:58:08.000Z",
+    "fetchedAt": "2026-11-03T00:55:50.877Z"
+  },
+  {
     "slug": "microsoft-fixes-windows-smart-app-control-activation-issue-2026-11-02",
     "title": "Microsoft fixes Windows Smart App Control activation issue",
     "originalTitle": "Microsoft fixes Smart App Control broken by October Windows update",
@@ -3389,102 +3482,5 @@
     "category": "threats",
     "publishedAt": "2026-10-20T04:05:58.000Z",
     "fetchedAt": "2026-10-20T04:44:28.203Z"
-  },
-  {
-    "slug": "wordpress-rank-math-pro-tainted-backdoors-planted-via-update-2026-10-19",
-    "title": "WordPress Rank Math PRO tainted, backdoors planted via updates",
-    "originalTitle": "WordPress SEO plugin Rank Math compromised to backdoor websites",
-    "summary": "Treat any site that installed Rank Math PRO Oct 15-16 as compromised, remove the plugin, scan for backdoors, rotate secrets, then reinstall the fixed build from a clean source.",
-    "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-19T21:24:51.000Z",
-    "fetchedAt": "2026-10-19T22:19:22.615Z"
-  },
-  {
-    "slug": "connectwise-halts-cloud-backup-after-attackers-abuse-m365-ac-2026-10-19",
-    "title": "ConnectWise halts Cloud Backup after attackers abuse M365 access",
-    "originalTitle": "ConnectWise suspends Cloud Backup service after supply chain attack",
-    "summary": "If you use ConnectWise Cloud Backup, audit Microsoft 365 sign-ins and revoke app tokens, rotate credentials, and monitor for suspicious mailbox rules while the service remains suspended.",
-    "url": "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/19/connectwise-cloud-backup-suspended-security-incident/"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-19T19:45:00.000Z",
-    "fetchedAt": "2026-10-19T22:19:22.615Z"
-  },
-  {
-    "slug": "aomei-update-servers-hijacked-to-push-malware-via-promos-2026-10-19",
-    "title": "AOMEI update servers hijacked to push malware via promos",
-    "originalTitle": "Hackers hijack AOMEI update servers to secretly spread malware",
-    "summary": "If you run AOMEI backup tools, check for unexpected processes or scheduled tasks, validate installer hashes, and pause in-app update promotions until the vendor publishes full indicators.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-19T19:40:58.000Z",
-    "fetchedAt": "2026-10-19T22:19:22.615Z"
-  },
-  {
-    "slug": "plex-servers-under-active-attack-patch-plex2shell-flaws-now-2026-10-19",
-    "title": "Plex servers under active attack, patch Plex2Shell flaws now",
-    "originalTitle": "PSA: Patch your Plex media server before someone hacks it",
-    "summary": "Update Plex Media Server to the latest release immediately, block external exposure, and hunt for suspicious ffmpeg or shell activity because attackers are chaining four public bugs in the wild.",
-    "url": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-19T19:39:19.000Z",
-    "fetchedAt": "2026-10-19T22:19:22.615Z"
-  },
-  {
-    "slug": "drupal-warns-of-fast-rce-exploitation-patch-core-today-2026-10-19",
-    "title": "Drupal warns of fast RCE exploitation, patch core today",
-    "originalTitle": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
-    "summary": "Update Drupal core to the fixed versions and review contributed modules using Entity List or Field UI, since exploit paths exist and attacks are expected quickly.",
-    "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-19T15:47:50.000Z",
-    "fetchedAt": "2026-10-19T22:19:22.615Z"
   }
 ]
