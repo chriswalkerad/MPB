@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-03",
+    "date": "2026-11-03",
+    "title": "Patch Now: kernel RCE, Node-RED hits, AI-fueled ops",
+    "intro": "Active exploits and a critical kernel bug make this a patch-first morning. Ransomware and AI-driven playbooks are closing gaps you meant to fix last quarter.",
+    "items": [
+      {
+        "heading": "Critical Linux TCP RCE, patch RHEL now",
+        "body": "A 9.8 CVSS flaw in IPv4 TCP allows unauthenticated remote code execution on exposed systems. Red Hat has shipped fixes, Ubuntu LTS updates are pending, so prioritize RHEL patching and apply mitigations and exposure reduction on Ubuntu in the meantime. Inventory internet-facing Linux hosts and tighten inbound rules until everything is updated.",
+        "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "critical-linux-tcp-rce-patched-in-rhel-ubuntu-fixes-pending-2026-11-03"
+      },
+      {
+        "heading": "Node-RED flaw actively dropping bots and shells",
+        "body": "Attackers are abusing a critical Node-RED bug, reportedly from a single IP, to plant Linux malware and webshells on exposed instances. Update Node-RED immediately and stop publishing editors and dashboards directly to the internet. Sweep for compromise, rotate credentials, and rebuild any affected nodes.",
+        "url": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "node-red-under-fire-critical-flaw-exploited-to-drop-bots-and-2026-11-03"
+      },
+      {
+        "heading": "Siemens SIMATIC IoT2050 CVSS 10 under fire",
+        "body": "A missing authentication issue lets remote attackers run commands and install backdoors on internet-exposed IoT2050 Advanced devices. Patch or pull these units off the public internet and isolate them on segmented networks. Assume compromise if they were exposed and monitor for persistence.",
+        "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "siemens-simatic-iot2050-flaw-under-active-attack-cvss-10-2026-11-03"
+      },
+      {
+        "heading": "Ransomware hitting unpatched Synology NAS",
+        "body": "Attackers are exploiting a 2024 DSM vulnerability on unpatched Synology NAS to encrypt data and extort small businesses. Update DSM to current releases and lock down or disable remote access. Verify backups and test restores before you get the call.",
+        "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "ransomware-hitting-synology-nas-via-old-dsm-bug-update-now-2026-11-03"
+      },
+      {
+        "heading": "CryptoPayment Gateway plugin, pull it now",
+        "body": "An unauthenticated CVSS 10 flaw in the CryptoPayment Gateway WordPress plugin allows file deletion and theft of wallet credentials. Disable or remove the plugin and check sites for signs of tampering. If you handle wallets, rotate keys and review access logs.",
+        "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "attackers-probe-unpatched-cryptopayment-wp-plugin-cvss-10-2026-11-03"
+      },
+      {
+        "heading": "3AM ransomware iterates its way through UK schools",
+        "body": "A 3AM affiliate encrypted 37 machines across a UK school estate while tweaking commands in small, AI-like loops to bypass defenses. The tactic points to automated trial and error against controls and unmanaged hosts. Close gaps on unmanaged endpoints, restrict admin tooling, and monitor for repetitive command patterns.",
+        "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "3am-ransomware-hits-uk-schools-shows-off-ai-style-attack-loo-2026-11-03"
+      },
+      {
+        "heading": "ARTEX shows AI-driven recon and exploit chaining",
+        "body": "A Chinese group used the open-source ARTEX multi-agent framework against about 200 organizations to automate discovery and chaining of weaknesses. Expect faster campaigns that hit whatever is exposed first. Reduce internet-facing services, enforce MFA, and tighten change monitoring to spot automation.",
+        "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "chinese-hackers-automate-attacks-with-artex-ai-framework-2026-11-02"
+      },
+      {
+        "heading": "Binance breach: one laptop, big blast radius",
+        "body": "Analysis of a record crypto theft shows how a single compromised endpoint cascaded into systemic loss. The lesson: separate privileges, require hardware-backed keys, and segment so one device cannot reach the crown jewels. Recheck admin workflows and emergency access paths before attackers do.",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+        "source": "Dark Reading",
+        "category": "defense",
+        "storySlug": "binance-breach-shows-how-one-laptop-can-sink-the-ship-2026-11-02"
+      }
+    ],
+    "signOff": "Ship the patches, check the logs, then tackle the jammed tray 2.",
+    "generatedAt": "2026-11-03T20:09:58.710Z"
+  },
+  {
     "slug": "2026-11-02",
     "date": "2026-11-02",
     "title": "Perimeter fires: Ivanti, GitLab and NAS under active attack",
@@ -2120,79 +2194,5 @@
     ],
     "signOff": "Back to the ticket queue. Patch first, then coffee.",
     "generatedAt": "2026-10-05T21:07:59.695Z"
-  },
-  {
-    "slug": "2026-10-04",
-    "date": "2026-10-04",
-    "title": "Zero days, ransomware, and AI settings to fix today",
-    "intro": "Busy morning: edge gear is under active attack, SharePoint is being used to kill your EDR, and AI assistants want more access than you think. Triage patches first, then tune MFA and clamp down AI features.",
-    "items": [
-      {
-        "heading": "NetScaler RCE exploited, patch immediately",
-        "body": "A remote code execution zero day in Citrix NetScaler ADC and Gateway is being hit in the wild. Patch every appliance now, pull management interfaces off the internet, and review logs for any signs of exploitation. Prioritize anything exposed to the public internet.",
-        "url": "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/",
-        "source": "Help Net Security",
-        "category": "vulnerabilities",
-        "storySlug": "netscaler-rce-0-day-exploited-in-the-wild-patch-now-2026-10-04"
-      },
-      {
-        "heading": "SharePoint being abused to kill EDR and drop ransomware",
-        "body": "Attackers are leveraging SharePoint flaws to disable security tools and deploy ransomware, with the Warlock crew called out. Get SharePoint on current cumulative updates, restrict external exposure, and hunt for webshells. Treat any unusual SharePoint activity as potential initial access.",
-        "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "patch-sharepoint-exploits-killing-edr-and-dropping-ransomwar-2026-10-03"
-      },
-      {
-        "heading": "Fortra BoKS critical auth bypass and RCE",
-        "body": "Critical bugs in Fortra BoKS allow authentication bypass, remote command execution, and memory corruption on managed Unix hosts. If you rely on BoKS for privileged access control, this is an emergency: patch, isolate the management plane, and audit privileged activity on enrolled hosts. A compromise here is a fast path to full Unix estate control.",
-        "url": "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "patch-fortra-boks-critical-auth-bypass-and-command-execution-2026-10-03"
-      },
-      {
-        "heading": "AitM phishing stealing tokens to bypass MFA",
-        "body": "Campaigns are targeting AI professionals with adversary in the middle phishing that steals session tokens to sidestep MFA. Enforce phishing resistant MFA like FIDO2 or passkeys, use conditional access, and disable legacy authentication in Microsoft 365. Monitor for token reuse and unusual sign-in locations.",
-        "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "aitm-phishing-targeting-ai-experts-mfa-bypass-warning-2026-10-04"
-      },
-      {
-        "heading": "Gemini may gain broad access on Macs",
-        "body": "Google Gemini may get full access to Mac files, open apps, and browse the web without prompts. Prepare controls now: enforce least privilege via MDM, restrict Accessibility permissions, and pilot with a small group before enabling tenant wide. Document what data Gemini can touch and who is allowed to use it.",
-        "url": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "google-gemini-may-gain-full-access-to-mac-files-and-apps-2026-10-03"
-      },
-      {
-        "heading": "Claude voice data: opt in, or lock it down",
-        "body": "Claude is prompting users to opt in to voice recordings and model training. Decide your stance today, review enterprise controls, and update privacy notices for anyone who enables it. Lock down settings to avoid accidental capture of sensitive audio.",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "claude-voice-data-opt-in-prompts-lock-down-settings-2026-10-04"
-      },
-      {
-        "heading": "ShinyHunters member detained, group under pressure",
-        "body": "A suspected ShinyHunters member is detained in Jordan and is reportedly aiding the FBI. Use the pressure on the group as a reminder to review any past exposure tied to their breaches, tighten leak monitoring, and rotate credentials. Ensure MFA is on for accounts that may have been in those dumps.",
-        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "shinyhunters-member-detained-in-jordan-aiding-fbi-2026-10-03"
-      },
-      {
-        "heading": "YARA-X 1.21.0 speeds up rule scanning",
-        "body": "The latest YARA-X release delivers five improvements and four bug fixes that stabilize and accelerate scanning. Upgrade in your DFIR and detection workflows to shave time off hunts and reduce false hiccups. Test rules against the new version before broad deployment.",
-        "url": "https://isc.sans.edu/diary/rss/33392",
-        "source": "SANS ISC",
-        "category": "defense",
-        "storySlug": "yara-x-1-21-0-brings-fixes-and-speed-boosts-for-hunters-2026-10-03"
-      }
-    ],
-    "signOff": "Patch, verify, communicate, then grab that coffee.",
-    "generatedAt": "2026-10-04T17:37:11.724Z"
   }
 ]
