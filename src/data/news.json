@@ -1,5 +1,126 @@
 [
   {
+    "slug": "cpguard-update-server-hijacked-to-backdoor-customer-linux-se-2026-11-03",
+    "title": "cPGuard update server hijacked to backdoor customer Linux servers",
+    "originalTitle": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+    "summary": "If you run cPGuard, audit for a malicious update, rotate credentials, and install the fixed release, attackers hijacked its autoupdate to drop a backdoor and steal data.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-03T22:18:50.000Z",
+    "fetchedAt": "2026-11-03T23:17:29.191Z"
+  },
+  {
+    "slug": "llmjacking-stolen-ai-keys-stick-victims-with-six-figure-clou-2026-11-03",
+    "title": "LLMjacking: stolen AI keys stick victims with six-figure cloud bills",
+    "originalTitle": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+    "summary": "Lock down AI API keys with least privilege, budgets, and alerts, rotate exposed keys, and monitor spikes, stolen access is causing six-figure daily cloud bills.",
+    "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/03/llmjacking-stolen-ai-access-cloud-bills/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-03T18:51:04.000Z",
+    "fetchedAt": "2026-11-03T23:17:29.191Z"
+  },
+  {
+    "slug": "msecure-urges-password-2fa-passkey-resets-after-suspicious-a-2026-11-03",
+    "title": "mSecure urges password, 2FA, passkey resets after suspicious activity",
+    "originalTitle": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+    "summary": "If you use mSecure, change your master password, reset 2FA and passkeys, and watch for reuse alerts after the company reported suspicious activity.",
+    "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-03T18:46:38.000Z",
+    "fetchedAt": "2026-11-03T23:17:29.191Z"
+  },
+  {
+    "slug": "grocery-fridges-hacked-across-europe-highlight-ot-remote-acc-2026-11-03",
+    "title": "Grocery fridges hacked across Europe highlight OT remote access risks",
+    "originalTitle": "British businesses caught in Europe-wide supermarket fridge attacks",
+    "summary": "Lock down vendor remote access, enforce MFA, kill default creds, and segment IoT and OT networks, attackers remotely defrosted supermarket fridges across Europe again.",
+    "url": "https://therecord.media/british-businesses-caught-in-europe-wide-supermarket-fridge-attacks",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-03T17:43:00.000Z",
+    "fetchedAt": "2026-11-03T23:17:29.191Z"
+  },
+  {
+    "slug": "binance-breach-tied-to-fake-interviews-tampered-homebrew-ai-2026-11-03",
+    "title": "Binance breach tied to fake interviews, tampered Homebrew, AI abuse",
+    "originalTitle": "Binance CEO says ‘months-long campaign’ led to $6.3 billion theft as N. Korea denies responsibility",
+    "summary": "Train staff on recruiter-lure malware and restrict dev tooling installs, Binance says fake interviews, tampered Homebrew, and AI use enabled a $6.3 billion theft.",
+    "url": "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-03T16:42:00.000Z",
+    "fetchedAt": "2026-11-03T23:17:29.191Z"
+  },
+  {
+    "slug": "patch-now-barracuda-flaws-let-attackers-gain-root-on-devices-2026-11-03",
+    "title": "Patch now: Barracuda flaws let attackers gain root on devices",
+    "originalTitle": "Barracuda warns of critical flaws allowing root access to devices",
+    "summary": "Patch affected Barracuda appliances now, restrict management exposure, and hunt for post-exploitation, chained flaws can bypass auth and run commands as root.",
+    "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-03T15:06:16.000Z",
+    "fetchedAt": "2026-11-03T23:17:29.191Z"
+  },
+  {
     "slug": "3am-ransomware-hits-uk-schools-shows-off-ai-style-attack-loo-2026-11-03",
     "title": "3AM ransomware hits UK schools, shows off AI-style attack loops",
     "originalTitle": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
@@ -19,6 +140,20 @@
     "fetchedAt": "2026-11-03T14:06:22.534Z"
   },
   {
+    "slug": "node-red-auth-flaw-under-active-exploit-bots-and-backdoors-d-2026-11-03",
+    "title": "Node-RED auth flaw under active exploit, bots and backdoors deployed",
+    "originalTitle": "Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115)",
+    "summary": "Patch Node-RED, enforce authentication, and remove public exposure, attackers are actively exploiting CVE-2026-58115 to install Linux bots and backdoors.",
+    "url": "https://www.helpnetsecurity.com/2026/11/03/node-red-cve-2026-58115-exploitation/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-03T12:59:51.000Z",
+    "fetchedAt": "2026-11-03T23:17:29.191Z"
+  },
+  {
     "slug": "node-red-under-fire-critical-flaw-exploited-to-drop-bots-and-2026-11-03",
     "title": "Node-RED under fire, critical flaw exploited to drop bots and shells",
     "originalTitle": "Critical Node-RED Flaw Exploited in Attacks",
@@ -31,6 +166,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-03T12:10:19.000Z",
     "fetchedAt": "2026-11-03T14:06:22.534Z"
+  },
+  {
+    "slug": "cisa-adds-actively-exploited-wordpress-core-bug-to-kev-2026-11-03",
+    "title": "CISA adds actively exploited WordPress core bug to KEV",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "Update WordPress Core today and review admin access, CISA added an actively exploited TOCTOU race condition to KEV that attackers are abusing.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-03T12:00:00.000Z",
+    "fetchedAt": "2026-11-03T23:17:29.191Z"
   },
   {
     "slug": "critical-linux-tcp-rce-patched-in-rhel-ubuntu-fixes-pending-2026-11-03",
@@ -3258,140 +3407,5 @@
     "category": "industry",
     "publishedAt": "2026-10-21T00:46:42.000Z",
     "fetchedAt": "2026-10-21T04:41:10.083Z"
-  },
-  {
-    "slug": "php-warns-of-two-critical-flaws-patch-now-2026-10-20",
-    "title": "PHP warns of two critical flaws, patch now",
-    "originalTitle": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
-    "summary": "Patch PHP immediately when emergency updates drop, two critical flaws leaked ahead of disclosure put any internet-exposed PHP apps at risk and will attract rapid exploitation.",
-    "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-20T20:56:43.000Z",
-    "fetchedAt": "2026-10-20T21:34:58.533Z"
-  },
-  {
-    "slug": "compromised-ca-keys-could-mint-valid-https-update-trust-2026-10-20",
-    "title": "Compromised CA keys could mint valid HTTPS, update trust",
-    "originalTitle": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
-    "summary": "Update OS and browser trust stores quickly, verify your servers do not chain to affected eMudhra intermediates, and monitor for suspicious TLS errors, phishing sites, or MitM attempts.",
-    "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-20T19:47:35.000Z",
-    "fetchedAt": "2026-10-20T21:34:58.533Z"
-  },
-  {
-    "slug": "zeabur-shuts-down-after-breach-rotate-all-secrets-2026-10-20",
-    "title": "Zeabur shuts down after breach, rotate all secrets",
-    "originalTitle": "Zeabur shutting down after second security breach in two months",
-    "summary": "If any teams used Zeabur, immediately rotate all secrets and tokens, audit logs, and assume environment variables and account details were exfiltrated in the platform's second breach.",
-    "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-20T19:33:02.000Z",
-    "fetchedAt": "2026-10-20T21:34:58.533Z"
-  },
-  {
-    "slug": "chrome-will-warn-on-copy-paste-scam-commands-2026-10-20",
-    "title": "Chrome will warn on copy-paste scam commands",
-    "originalTitle": "Chrome flags malicious commands that scammers pass off as fixes",
-    "summary": "Turn on Chrome Enhanced Protection to flag pages that trick users into copying malicious terminal commands, and train staff to avoid pasting unknown commands into consoles.",
-    "url": "https://www.helpnetsecurity.com/2026/10/20/google-chrome-enhanced-protection-updates/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-20T17:00:47.000Z",
-    "fetchedAt": "2026-10-20T21:34:58.533Z"
-  },
-  {
-    "slug": "fortisiem-unauth-rce-poc-drops-patch-now-2026-10-20",
-    "title": "FortiSIEM unauth RCE PoC drops, patch now",
-    "originalTitle": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-    "summary": "Patch CVE-2026-106173 immediately and lock down management interfaces, as a public exploit enables unauthenticated remote code execution on Fortinet FortiSIEM.",
-    "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-20T15:38:52.000Z",
-    "fetchedAt": "2026-10-20T16:59:43.465Z"
-  },
-  {
-    "slug": "ransomware-crews-still-abusing-palo-alto-vpn-auth-bypass-2026-10-20",
-    "title": "Ransomware crews still abusing Palo Alto VPN auth bypass",
-    "originalTitle": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-    "summary": "Ensure CVE-2026-0257 is fully patched on PAN-OS and Prisma Access, audit and revoke suspicious VPN accounts and tokens, and rotate credentials to shut off unauthorized connections.",
-    "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-20T15:32:27.000Z",
-    "fetchedAt": "2026-10-20T16:59:43.465Z"
-  },
-  {
-    "slug": "attackers-weaponize-ai-pen-test-tool-cairn-for-mass-breaches-2026-10-20",
-    "title": "Attackers weaponize AI pen-test tool Cairn for mass breaches",
-    "originalTitle": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
-    "summary": "Harden internet-facing apps, rate-limit and monitor automation, and hunt for bot-driven abuse after actors used autonomous AI agents via Cairn to hit over 1,200 sites.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-20T14:36:05.000Z",
-    "fetchedAt": "2026-10-20T16:59:43.465Z"
-  },
-  {
-    "slug": "aomei-backupper-updates-briefly-hijacked-to-push-backdoor-2026-10-20",
-    "title": "AOMEI Backupper updates briefly hijacked to push backdoor",
-    "originalTitle": "AOMEI yet to notify customers after hackers hijacked its software updates",
-    "summary": "Check any AOMEI Backupper installs from April to July, scan for ShinyRoad backdoor, reimage if needed, and verify update integrity before trusting future releases.",
-    "url": "https://therecord.media/aomei-yet-to-notify-customers-hijack-software",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/20/aomei-backupper-compromised-supply-chain/"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-20T14:11:00.000Z",
-    "fetchedAt": "2026-10-20T16:59:43.465Z"
   }
 ]
