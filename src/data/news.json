@@ -1,5 +1,127 @@
 [
   {
+    "slug": "stolen-ai-tokens-fuel-breaches-at-workos-northflank-trigger-2026-11-04",
+    "title": "Stolen AI tokens fuel breaches at WorkOS, Northflank, Trigger.dev",
+    "originalTitle": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
+    "summary": "Audit and rotate AI provider tokens, restrict scopes, and monitor usage as attackers harvest keys and use AI assisted tooling to automate intrusion workflows across dev platforms.",
+    "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-04T12:43:20.000Z",
+    "fetchedAt": "2026-11-04T14:26:49.078Z"
+  },
+  {
+    "slug": "wordpress-core-rce-is-being-exploited-patch-now-2026-11-04",
+    "title": "WordPress core RCE is being exploited, patch now",
+    "originalTitle": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+    "summary": "Update WordPress core immediately, CISA says attackers are exploiting a recently patched high severity race condition during upgrades to achieve remote code execution.",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-04T12:11:05.000Z",
+    "fetchedAt": "2026-11-04T14:26:49.078Z"
+  },
+  {
+    "slug": "rails-active-storage-bug-allows-server-file-writes-via-image-2026-11-04",
+    "title": "Rails Active Storage bug allows server file writes via images",
+    "originalTitle": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+    "summary": "Update Rails to 8.1.4.1 or 8.0.5.2, crafted uploads processed with ImageMagick can write arbitrary files on the server enabling code execution paths in some apps.",
+    "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-04T12:07:04.000Z",
+    "fetchedAt": "2026-11-04T14:26:49.078Z"
+  },
+  {
+    "slug": "xen-bugs-let-a-vm-read-and-write-other-vms-memory-2026-11-04",
+    "title": "Xen bugs let a VM read and write other VMs' memory",
+    "originalTitle": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+    "summary": "Patch Xen hosts now, new flaws allow a malicious guest to access or modify memory of other VMs including dom0 with no reliable mitigations published.",
+    "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-04T11:46:27.000Z",
+    "fetchedAt": "2026-11-04T14:26:49.078Z"
+  },
+  {
+    "slug": "poisoned-cpguard-update-hits-thousands-of-hosting-servers-2026-11-04",
+    "title": "Poisoned cPGuard update hits thousands of hosting servers",
+    "originalTitle": "Poisoned cPGuard update hits thousands of web hosting servers",
+    "summary": "If you run cPGuard, check for tampered updates, rotate credentials, and follow OPSShield guidance after attackers pushed malicious builds and stole customer data via compromised update servers.",
+    "url": "https://www.helpnetsecurity.com/2026/11/04/cpguard-update-supply-chain-compromised/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-04T11:18:23.000Z",
+    "fetchedAt": "2026-11-04T14:26:49.078Z"
+  },
+  {
+    "slug": "chrome-157-fixes-213-bugs-seven-critical-roll-it-out-2026-11-04",
+    "title": "Chrome 157 fixes 213 bugs, seven critical, roll it out",
+    "originalTitle": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
+    "summary": "Push Chrome 157 to all users quickly, Google patched dozens of memory safety and authorization flaws including seven critical issues across desktop and Android.",
+    "url": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-04T10:38:46.000Z",
+    "fetchedAt": "2026-11-04T14:26:49.078Z"
+  },
+  {
+    "slug": "zero-click-mobile-attacks-use-n-day-bugs-via-booby-trapped-s-2026-11-04",
+    "title": "Zero click mobile attacks use n day bugs via booby trapped sites",
+    "originalTitle": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
+    "summary": "Ensure iOS and Android devices are fully patched and behind DNS filtering, a large watering hole campaign targets visitors with zero click exploits for recently fixed flaws.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-04T09:39:54.000Z",
+    "fetchedAt": "2026-11-04T14:26:49.078Z"
+  },
+  {
+    "slug": "android-november-patches-fix-critical-no-click-rce-2026-11-04",
+    "title": "Android November patches fix critical no click RCE",
+    "originalTitle": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+    "summary": "Prioritize devices to 2026-11-01 patch level or later, Google fixed a critical remote code execution bug that requires no user interaction in Android 14 through 17.",
+    "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-04T07:46:15.000Z",
+    "fetchedAt": "2026-11-04T14:26:49.078Z"
+  },
+  {
     "slug": "trim-container-images-to-cut-vulnerabilities-without-breakin-2026-11-04",
     "title": "Trim container images to cut vulnerabilities without breaking apps",
     "originalTitle": "Secure your containers without breaking what works",
@@ -3205,160 +3327,5 @@
     "category": "threats",
     "publishedAt": "2026-10-21T14:45:00.000Z",
     "fetchedAt": "2026-10-21T17:08:26.904Z"
-  },
-  {
-    "slug": "indian-ca-emudhra-used-crackable-keys-replace-impacted-certs-2026-10-21",
-    "title": "Indian CA eMudhra used crackable keys, replace impacted certs",
-    "originalTitle": "eMudhra security blunder left trusted CA signing keys exposed to anyone",
-    "summary": "Inventory and replace any certificates chained to eMudhra intermediates, researchers recovered CA private keys in under a second raising risk of forged TLS or code signing.",
-    "url": "https://www.helpnetsecurity.com/2026/10/21/emudhra-certificates-private-keys-compromised/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-21T14:11:24.000Z",
-    "fetchedAt": "2026-10-21T17:08:26.904Z"
-  },
-  {
-    "slug": "patch-php2shell-now-rce-hits-php-servers-worldwide-2026-10-21",
-    "title": "Patch PHP2Shell now, RCE hits PHP servers worldwide",
-    "originalTitle": "Critical Vulnerabilities in PHP Require Immediate Patching",
-    "summary": "Patch immediately to PHP 8.5.12, 8.4.27, 8.3.36, or 8.2.35, unauthenticated RCE is being exploited against WordPress and other PHP apps and mass scanning is underway.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [
-      {
-        "name": "Krebs on Security",
-        "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/"
-      },
-      {
-        "name": "SANS ISC",
-        "url": "https://isc.sans.edu/diary/rss/33440"
-      },
-      {
-        "name": "The Record",
-        "url": "https://therecord.media/php-script-vulnerabilities-warnings"
-      },
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-21T12:00:00.000Z",
-    "fetchedAt": "2026-10-21T17:08:26.904Z"
-  },
-  {
-    "slug": "ransomware-crews-exploit-palo-alto-globalprotect-auth-bypass-2026-10-21",
-    "title": "Ransomware crews exploit Palo Alto GlobalProtect auth bypass",
-    "originalTitle": "Ransomware gangs have been exploiting Palo Alto GlobalProtect VPN flaw since June",
-    "summary": "Patch PAN-OS GlobalProtect now, ransomware crews have abused CVE-2026-0257 since June to bypass auth via weak cookie checks and breach healthcare, education, government, and energy networks.",
-    "url": "https://www.helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-21T11:13:39.000Z",
-    "fetchedAt": "2026-10-21T11:43:23.135Z"
-  },
-  {
-    "slug": "microsoft-october-windows-11-updates-did-not-fix-vpn-bug-2026-10-21",
-    "title": "Microsoft: October Windows 11 updates did not fix VPN bug",
-    "originalTitle": "Microsoft says October updates didn’t actually fix VPN issues",
-    "summary": "Do not rely on October updates for Always On VPN issues, Microsoft says the fix was misreported so admins should keep workarounds in place and watch for a future patch.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-21T10:14:53.000Z",
-    "fetchedAt": "2026-10-21T11:43:23.135Z"
-  },
-  {
-    "slug": "stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites-2026-10-21",
-    "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
-    "originalTitle": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
-    "summary": "Rotate UpdraftCentral, UpdraftVault, and UpdraftClone keys and audit sites, attackers breached TeamUpdraft and used customer connection keys to push backdoors to WordPress installs.",
-    "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-21T09:01:12.000Z",
-    "fetchedAt": "2026-10-21T11:43:23.135Z"
-  },
-  {
-    "slug": "dhs-orders-deepseek-removed-from-federal-systems-bans-new-bu-2026-10-21",
-    "title": "DHS orders DeepSeek removed from federal systems, bans new buys",
-    "originalTitle": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-    "summary": "Be ready to address client questions about DeepSeek, DHS ordered federal agencies to uninstall the Chinese AI and any tools built on it and to halt new purchases due to security risks.",
-    "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/china-defends-deepseek-after-us-ban-of-its-ai-from-government-systems/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-21T08:04:17.000Z",
-    "fetchedAt": "2026-10-21T11:43:23.135Z"
-  },
-  {
-    "slug": "cisa-adds-plex2shell-and-siemens-bugs-to-kev-patch-now-2026-10-21",
-    "title": "CISA adds Plex2Shell and Siemens bugs to KEV, patch now",
-    "originalTitle": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-    "summary": "Prioritize patching Plex Media Server Plex2Shell flaws plus Siemens and SiteGuard bugs, CISA added them to the Known Exploited list meaning attackers are actively using them.",
-    "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-21T07:26:49.000Z",
-    "fetchedAt": "2026-10-21T11:43:23.135Z"
-  },
-  {
-    "slug": "patch-php-today-critical-rce-bugs-leaked-and-exploitation-li-2026-10-21",
-    "title": "Patch PHP today, critical RCE bugs leaked and exploitation likely",
-    "originalTitle": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
-    "summary": "Apply PHP’s out-of-cycle update immediately, two critical unauthenticated RCE flaws dubbed PHP2Shell are public with limited mitigations and defenders expect mass scanning once fixes land.",
-    "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-21T07:02:06.000Z",
-    "fetchedAt": "2026-10-21T11:43:23.135Z"
   }
 ]
