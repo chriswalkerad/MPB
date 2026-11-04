@@ -1,5 +1,61 @@
 [
   {
+    "slug": "trim-container-images-to-cut-vulnerabilities-without-breakin-2026-11-04",
+    "title": "Trim container images to cut vulnerabilities without breaking apps",
+    "originalTitle": "Secure your containers without breaking what works",
+    "summary": "Reduce attack surface by removing unused packages and tools from base images, then add needed components at build time, preserving functionality while shrinking patch workload.",
+    "url": "https://www.helpnetsecurity.com/2026/11/04/rapidfort-runtime-container-profiling/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-04T06:00:34.000Z",
+    "fetchedAt": "2026-11-04T06:10:40.649Z"
+  },
+  {
+    "slug": "nist-releases-no-it-small-business-cyber-guide-you-can-hand-2026-11-04",
+    "title": "NIST releases no-IT small business cyber guide you can hand clients",
+    "originalTitle": "NIST publishes cybersecurity guide for businesses too small to have IT staff",
+    "summary": "Share NIST’s new plain-language guide with microbusiness clients, it covers passwords, backups, phishing, and device basics for owners without IT staff, aligning advice to practical steps.",
+    "url": "https://www.helpnetsecurity.com/2026/11/04/nist-small-business-cybersecurity-guide/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-04T05:00:23.000Z",
+    "fetchedAt": "2026-11-04T06:10:40.649Z"
+  },
+  {
+    "slug": "anthropic-open-sources-proofs-to-verify-ai-model-responses-2026-11-04",
+    "title": "Anthropic open-sources proofs to verify AI model responses",
+    "originalTitle": "Anthropic open-sources FlashProve, its provable inference prototype for MoE models",
+    "summary": "Evaluate FlashProve to verify hosted model outputs, it provides cryptographic proofs a specific model produced a response, helping with audit trails, supply chain trust, and regulated AI use.",
+    "url": "https://www.helpnetsecurity.com/2026/11/04/anthropic-flashprove-provable-inference/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-04T04:36:14.000Z",
+    "fetchedAt": "2026-11-04T06:10:40.649Z"
+  },
+  {
+    "slug": "69gb-breach-shows-how-fast-sql-backups-can-be-stolen-2026-11-04",
+    "title": "69GB breach shows how fast SQL backups can be stolen",
+    "originalTitle": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
+    "summary": "Lock down SQL Server backups and egress, attackers exfiltrated 69GB of government data in under 30 minutes, highlighting backup access controls, encryption, and outbound monitoring.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-04T02:00:00.000Z",
+    "fetchedAt": "2026-11-04T06:10:40.649Z"
+  },
+  {
     "slug": "cpguard-update-server-hijacked-to-backdoor-customer-linux-se-2026-11-03",
     "title": "cPGuard update server hijacked to backdoor customer Linux servers",
     "originalTitle": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
@@ -3304,108 +3360,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-21T07:02:06.000Z",
     "fetchedAt": "2026-10-21T11:43:23.135Z"
-  },
-  {
-    "slug": "ovhcloud-cli-releases-on-github-were-backdoored-with-infoste-2026-10-21",
-    "title": "OVHcloud CLI releases on GitHub were backdoored with infostealer",
-    "originalTitle": "Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI",
-    "summary": "Remove and reinstall the OVHcloud CLI, five tampered releases pushed via a hijacked developer account planted a GlassWorm-linked stealer to exfiltrate credentials from developers’ machines.",
-    "url": "https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/21/ovhcloud-cli-github-malware/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-21T06:02:27.000Z",
-    "fetchedAt": "2026-10-21T11:43:23.135Z"
-  },
-  {
-    "slug": "soc-ai-needs-guardrails-watch-shadow-ai-and-loose-perms-2026-10-21",
-    "title": "SOC AI needs guardrails, watch shadow AI and loose perms",
-    "originalTitle": "Bringing AI into the SOC means watching for shadow AI and loose permissions",
-    "summary": "Inventory AI use, lock down model and data access, and monitor egress, because attackers are using the same LLM tooling defenders are adopting for triage and detection.",
-    "url": "https://www.helpnetsecurity.com/2026/10/21/bringing-ai-into-the-soc-video/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-21T04:30:13.000Z",
-    "fetchedAt": "2026-10-21T04:41:10.083Z"
-  },
-  {
-    "slug": "free-security-help-coming-for-small-us-utilities-2026-10-21",
-    "title": "Free security help coming for small US utilities",
-    "originalTitle": "Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities",
-    "summary": "Help eligible utility clients enroll for no-cost tools, equipment, deployment assistance and training from Accenture, Dragos and SANS, with up to 500 slots in phase one.",
-    "url": "https://www.securityweek.com/accenture-dragos-sans-launch-10m-initiative-to-defend-small-us-utilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-21T04:22:11.000Z",
-    "fetchedAt": "2026-10-21T04:41:10.083Z"
-  },
-  {
-    "slug": "critical-php-security-release-today-patch-immediately-2026-10-21",
-    "title": "Critical PHP security release today, patch immediately",
-    "originalTitle": "A critical PHP security release is coming today, so get ready to update!",
-    "summary": "Plan an urgent maintenance window and update PHP as soon as patched versions drop at 14:00 UTC, two CVSS 9.2 flaws are being fixed.",
-    "url": "https://www.helpnetsecurity.com/2026/10/21/php-security-release-announcement-october-2026/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [
-      {
-        "name": "Ars Technica",
-        "url": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-21T04:21:54.000Z",
-    "fetchedAt": "2026-10-21T04:41:10.083Z"
-  },
-  {
-    "slug": "stolen-updraftcentral-keys-let-attackers-control-wordpress-s-2026-10-21",
-    "title": "Stolen UpdraftCentral keys let attackers control WordPress sites",
-    "originalTitle": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
-    "summary": "Revoke and rotate all UpdraftCentral connection keys, update TeamUpdraft plugins, and review logs and admin changes for unauthorized 'updraftcentral' remote commands.",
-    "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-21T01:01:50.000Z",
-    "fetchedAt": "2026-10-21T04:41:10.083Z"
-  },
-  {
-    "slug": "browsers-block-emudhra-certs-after-key-compromise-2026-10-21",
-    "title": "Browsers block eMudhra certs after key compromise",
-    "originalTitle": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
-    "summary": "Ensure endpoints update trust stores, identify and replace any certificates chaining to eMudhra intermediates, and monitor for TLS errors across websites and internal apps.",
-    "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys"
-      },
-      {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/"
-      }
-    ],
-    "category": "industry",
-    "publishedAt": "2026-10-21T00:46:42.000Z",
-    "fetchedAt": "2026-10-21T04:41:10.083Z"
   }
 ]

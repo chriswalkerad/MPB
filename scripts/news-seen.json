@@ -1,11 +1,4 @@
 {
-  "https://www.helpnetsecurity.com/2026/10/05/drew-mccombs-cylerity-healthcare-fintech-security/": "2026-10-05T05:33:48.052Z",
-  "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/": "2026-10-05T05:33:48.052Z",
-  "https://www.helpnetsecurity.com/2026/10/05/keyorix-open-source-on-premise-secrets-management/": "2026-10-05T05:33:48.052Z",
-  "https://www.helpnetsecurity.com/2026/10/05/remote-monitoring-and-management-rmm-abuse/": "2026-10-05T05:33:48.052Z",
-  "https://isc.sans.edu/diary/rss/33398": "2026-10-05T05:33:48.052Z",
-  "https://isc.sans.edu/diary/rss/33396": "2026-10-05T05:33:48.052Z",
-  "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/": "2026-10-05T05:33:48.052Z",
   "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/": "2026-10-05T14:30:46.730Z",
   "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/": "2026-10-05T14:30:46.730Z",
   "https://www.helpnetsecurity.com/2026/10/05/milk-dragon-phishing-fake-discounts/": "2026-10-05T14:30:46.730Z",
@@ -1473,5 +1466,11 @@
   "https://www.helpnetsecurity.com/2026/11/03/llmjacking-stolen-ai-access-cloud-bills/": "2026-11-03T23:17:29.191Z",
   "https://www.helpnetsecurity.com/2026/11/03/openai-bigger-bug-bounty-rewards/": "2026-11-03T23:17:29.191Z",
   "https://www.helpnetsecurity.com/2026/11/03/opal-security-agent-id-virtual-event/": "2026-11-03T23:17:29.191Z",
-  "https://www.helpnetsecurity.com/2026/11/03/kara-sprague-hackerone-ai-bug-bounty/": "2026-11-03T23:17:29.191Z"
+  "https://www.helpnetsecurity.com/2026/11/03/kara-sprague-hackerone-ai-bug-bounty/": "2026-11-03T23:17:29.191Z",
+  "https://www.helpnetsecurity.com/2026/11/04/rapidfort-runtime-container-profiling/": "2026-11-04T06:10:40.649Z",
+  "https://www.helpnetsecurity.com/2026/11/04/ai-strategy-miscalculation-gartner-report/": "2026-11-04T06:10:40.649Z",
+  "https://www.helpnetsecurity.com/2026/11/04/nist-small-business-cybersecurity-guide/": "2026-11-04T06:10:40.649Z",
+  "https://www.helpnetsecurity.com/2026/11/04/anthropic-flashprove-provable-inference/": "2026-11-04T06:10:40.649Z",
+  "https://isc.sans.edu/diary/rss/33486": "2026-11-04T06:10:40.649Z",
+  "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach": "2026-11-04T06:10:40.649Z"
 }
