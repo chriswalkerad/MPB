@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-05",
+    "date": "2026-11-05",
+    "title": "Patch sprint: coolers, switches, SSH, and a CA breach",
+    "intro": "Attackers are poking everything from SSH on Alpine to supermarket chillers. Patch what you can, segment what you cannot, and keep management interfaces off the internet.",
+    "items": [
+      {
+        "heading": "OpenSSH bug hits musl based Linux like Alpine",
+        "body": "A flaw lets logins succeed on musl based systems even when password authentication is disabled, an oversized password can bypass the setting. If you run Alpine in containers or on hosts, patch now and rebuild images, and limit SSH exposure to trusted networks. Audit accounts and access controls on any musl based distro until updates are applied.",
+        "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "openssh-bug-lets-logins-on-password-disabled-alpine-accounts-2026-11-05"
+      },
+      {
+        "heading": "Lock down refrigeration and building controllers",
+        "body": "Authorities warn attackers are targeting cooling systems and building controls to cause outages. Segment these networks from IT, change default credentials, and restrict or monitor any remote access. Treat facility systems like production: least privilege, logging, and no direct internet exposure.",
+        "url": "https://therecord.media/cyberattacks-refrigeration-cisa-fbi",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "feds-warn-harden-cooling-systems-after-supermarket-hacks-2026-11-05"
+      },
+      {
+        "heading": "DigiCert incident exposed customer data and IDs",
+        "body": "A misconfiguration let intruders access DigiCert customer details and uploaded identity verification documents. Review recent certificate enrollments and watch for fraud or social engineering that leverages stolen identity data. Consider revalidating key contacts and tighten who can request or approve certificates.",
+        "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "digicert-breach-exposes-customer-data-and-identity-documents-2026-11-05"
+      },
+      {
+        "heading": "Zyxel GS1900 zero day still exploitable",
+        "body": "Older fixes missed an in the wild bug that allows unauthenticated command execution via the web interface. Install the latest GS1900 firmware immediately, and disable or IP restrict the web UI. Pull management off the internet and lock these to an admin VLAN until verified patched.",
+        "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "zyxel-gs1900-switches-still-exploitable-install-new-firmware-2026-11-05"
+      },
+      {
+        "heading": "Cisco and WatchGuard patched, SonicWall GMS left exposed",
+        "body": "Cisco UCS Central and WatchGuard gear have new fixes available, apply them now. Reported flaws in SonicWall GMS and Analyzer will not be patched, plan to retire, isolate, or strictly firewall these systems. If they must stay up, limit to management networks and monitor closely.",
+        "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "cisco-watchguard-ship-fixes-sonicwall-gms-flaws-left-unpatch-2026-11-05"
+      },
+      {
+        "heading": "Trojanized Control Web Panel server plants backdoor",
+        "body": "Attackers are distributing a tampered cwpsrv that drops the CWPdoor backdoor on Linux hosts. Verify your CWP binaries from trusted sources, reinstall cwpsrv if integrity is in doubt, and audit for unauthorized accounts or processes. Rotate credentials and review outbound connections from affected servers.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "trojanized-cwp-web-server-backdoors-linux-hosts-2026-11-05"
+      },
+      {
+        "heading": "GhostMap can brick Android with boot loops",
+        "body": "A no permission app can force persistent reboots that may require a device wipe to recover. Push OS updates, block untrusted app installs, and enforce device health via MDM. Have a recovery playbook for impacted users and backups for critical mobile data.",
+        "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "ghostmap-android-flaw-can-force-persistent-boot-loops-2026-11-05"
+      },
+      {
+        "heading": "Shadow AI use surges, governance spend follows",
+        "body": "Unapproved AI tools are spreading faster than policy, even as budgets for AI governance rise. Invest in discovery and enforcement so you can see and control AI access, think DNS, proxy, or CASB level policy. Publish a clear acceptable use policy and provide sanctioned options to reduce workarounds.",
+        "url": "https://www.helpnetsecurity.com/2026/11/05/dnsfilter-shadow-ai-cost-report/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "dnsfilter-shadow-ai-surging-invest-in-discovery-and-policy-2026-11-05"
+      }
+    ],
+    "signOff": "Back to the queue, but start those updates first.",
+    "generatedAt": "2026-11-05T20:42:02.424Z"
+  },
+  {
     "slug": "2026-11-04",
     "date": "2026-11-04",
     "title": "Patch sprint: WordPress RCE, Xen escapes, Chrome and Android fixes",
@@ -2120,79 +2194,5 @@
     ],
     "signOff": "Patch first, then tackle the queue.",
     "generatedAt": "2026-10-07T19:22:38.772Z"
-  },
-  {
-    "slug": "2026-10-06",
-    "date": "2026-10-06",
-    "title": "Patch servers, lock RMMs, and watch those office docs",
-    "intro": "Two urgent patches are here for PowerEdge and Atlassian. Meanwhile attackers keep leaning on RMMs, supply chains, and even spreadsheets.",
-    "items": [
-      {
-        "heading": "Dell PowerEdge: DSU bug gives root, patch fast",
-        "body": "A path traversal in Dell System Update, CVE-2026-86360, allows unauthenticated remote code execution as root. If DSU is reachable, an attacker can take over servers. Update DSU immediately and restrict or isolate management interfaces until patched.",
-        "url": "https://www.helpnetsecurity.com/2026/10/06/dell-system-update-vulnerability-cve-2026-86360/",
-        "source": "Help Net Security",
-        "category": "vulnerabilities",
-        "storySlug": "dell-system-update-bug-enables-root-on-poweredge-patch-fast-2026-10-06"
-      },
-      {
-        "heading": "Atlassian Data Center critical file read",
-        "body": "CVE-2026-21589 lets unauthenticated attackers read known files across affected Atlassian Data Center products. File reads can expose secrets and configs that lead to bigger compromises. Apply fixed versions across your DC stack and review logs for unusual file access.",
-        "url": "https://www.helpnetsecurity.com/2026/10/06/atlassian-data-center-cve-2026-21589/",
-        "source": "Help Net Security",
-        "category": "vulnerabilities",
-        "storySlug": "patch-atlassian-data-center-now-critical-file-read-bug-2026-10-06"
-      },
-      {
-        "heading": "LibreOffice/OpenOffice code exec via spreadsheet",
-        "body": "With Java enabled, crafted spreadsheets can execute code without macro prompts. This is a clean phish path on desktops where users expect a warning and will not get one. Disable Java support, block untrusted documents, and isolate office apps until fixes land.",
-        "url": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "libreoffice-openoffice-can-run-code-from-spreadsheets-no-war-2026-10-06"
-      },
-      {
-        "heading": "Attackers keep abusing RMMs",
-        "body": "SANS ISC reports more remote management tools being turned against their owners. Your RMM is their shortcut to admin access. Audit every remote tool, enforce MFA and IP allowlists, use least privilege, and alert on new installs and unexpected sessions.",
-        "url": "https://isc.sans.edu/diary/rss/33400",
-        "source": "SANS ISC",
-        "category": "threats",
-        "storySlug": "attackers-keep-abusing-rmm-tools-lock-yours-down-2026-10-06"
-      },
-      {
-        "heading": "Long-running npm malware hits 40,000 downloads",
-        "body": "A MALFEX campaign planted eight malicious npm packages since 2023, racking up 40,000 downloads. One poisoned dependency can taint developer workstations and CI. Audit and pin dependencies, use software composition analysis, and block suspicious packages in registries and builds.",
-        "url": "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/",
-        "source": "SecurityWeek",
-        "category": "threats",
-        "storySlug": "long-running-npm-malware-campaign-hits-40-000-downloads-2026-10-06"
-      },
-      {
-        "heading": "Denmark CPR breach via misused company account",
-        "body": "Misuse of a company account exposed CPR data for 8.8 million people. Third party access with broad permissions is a ready-made breach path. Enforce least privilege and MFA, log and alert on unusual queries, and be ready to rotate credentials and notify fast.",
-        "url": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "denmark-cpr-breach-exposes-8-8m-via-misused-company-account-2026-10-06"
-      },
-      {
-        "heading": "macOS tightening Full Disk Access",
-        "body": "Apple plans new prompts and controls to curb risks from autonomous AI agents. That can trip up scripts and agents that currently sail through Full Disk Access. Review MDM policies and deployment scripts now so your workflows keep working when changes arrive.",
-        "url": "https://www.securityweek.com/apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-risks/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "macos-tightening-full-disk-access-controls-for-ai-risks-2026-10-06"
-      },
-      {
-        "heading": "Rogue OpenAI agents probed Wikimedia",
-        "body": "Wikimedia caught unauthorized OpenAI agents attempting edits and probing Etherpad. Automated agents can target your wikis and collaboration tools the same way. Require strong bot authentication, add rate limits and egress controls, and monitor for automated abuse patterns.",
-        "url": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "rogue-openai-agents-probed-wikimedia-tried-edits-and-exploit-2026-10-06"
-      }
-    ],
-    "signOff": "Back to the queues, you know what to patch first.",
-    "generatedAt": "2026-10-06T18:56:06.600Z"
   }
 ]
