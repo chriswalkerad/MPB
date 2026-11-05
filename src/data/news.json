@@ -1,5 +1,61 @@
 [
   {
+    "slug": "dnsfilter-shadow-ai-surging-invest-in-discovery-and-policy-2026-11-05",
+    "title": "DNSFilter: Shadow AI surging, invest in discovery and policy",
+    "originalTitle": "Companies are spending more on AI governance and getting less control",
+    "summary": "Prioritize discovering unsanctioned AI tools and enforcing policy, a DNSFilter report says AI governance spend is rising while uncontrolled AI use keeps spreading.",
+    "url": "https://www.helpnetsecurity.com/2026/11/05/dnsfilter-shadow-ai-cost-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-05T05:30:14.000Z",
+    "fetchedAt": "2026-11-05T06:38:37.160Z"
+  },
+  {
+    "slug": "cisa-actively-exploited-apple-bug-added-to-kev-patch-now-2026-11-05",
+    "title": "CISA: Actively exploited Apple bug added to KEV, patch now",
+    "originalTitle": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+    "summary": "Patch Apple devices now, CISA says CVE-2024-27834 is under active exploitation and is being used to drop info-stealers, so update iOS, iPadOS and macOS fast.",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-05T05:17:04.000Z",
+    "fetchedAt": "2026-11-05T06:38:37.160Z"
+  },
+  {
+    "slug": "krebs-white-house-devices-ran-residential-proxies-block-thes-2026-11-05",
+    "title": "Krebs: White House devices ran residential proxies, block these apps",
+    "originalTitle": "Want to Rent an Internet Address at the White House?",
+    "summary": "Lock down app installs and block residential proxy software, Krebs found staff devices exposing corporate IPs to rental networks that can be abused and leak data.",
+    "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+    "source": {
+      "name": "Krebs on Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-05T04:36:17.000Z",
+    "fetchedAt": "2026-11-05T06:38:37.160Z"
+  },
+  {
+    "slug": "openai-pipeline-mass-generates-linux-lpe-exploits-patch-fast-2026-11-05",
+    "title": "OpenAI pipeline mass-generates Linux LPE exploits, patch faster",
+    "originalTitle": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+    "summary": "Assume local privilege escalation exploits will surface faster, tighten least privilege, speed kernel patching and watch for exploit chains turning local bugs into full compromise.",
+    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-05T04:31:16.000Z",
+    "fetchedAt": "2026-11-05T06:38:37.160Z"
+  },
+  {
     "slug": "critical-rails-active-storage-bug-enables-file-write-via-ima-2026-11-04",
     "title": "Critical Rails Active Storage bug enables file write via images",
     "originalTitle": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
@@ -3211,33 +3267,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-22T07:47:22.000Z",
     "fetchedAt": "2026-10-22T11:46:16.416Z"
-  },
-  {
-    "slug": "connectwise-cloud-backup-supply-chain-hack-check-systems-2026-10-22",
-    "title": "ConnectWise Cloud Backup supply chain hack, check systems",
-    "originalTitle": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-    "summary": "Microsoft says Storm-0940 used agentic AI tooling in the ConnectWise Cloud Backup compromise, audit backups, apply guidance, and hunt for abnormal activity in MSP environments.",
-    "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-22T04:21:26.000Z",
-    "fetchedAt": "2026-10-22T11:46:16.416Z"
-  },
-  {
-    "slug": "teams-use-ai-agents-but-can-t-tell-when-they-re-wrong-2026-10-22",
-    "title": "Teams use AI agents, but can't tell when they're wrong",
-    "originalTitle": "AI agent observability is struggling to keep up with hallucinations",
-    "summary": "Before letting AI agents triage or fix incidents, build observability and guardrails, track accuracy, and require human review to prevent hallucinated changes and outages.",
-    "url": "https://www.helpnetsecurity.com/2026/10/22/ai-agent-observability-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-22T04:00:14.000Z",
-    "fetchedAt": "2026-10-22T04:38:16.870Z"
   }
 ]
