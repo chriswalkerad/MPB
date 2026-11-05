@@ -1,5 +1,112 @@
 [
   {
+    "slug": "feds-warn-harden-cooling-systems-after-supermarket-hacks-2026-11-05",
+    "title": "Feds warn: harden cooling systems after supermarket hacks",
+    "originalTitle": "Harden cooling systems now, feds warn critical infrastructure operators amid attacks",
+    "summary": "Lock down and segment building and refrigeration controllers, change default credentials, and restrict remote access as attackers target cooling systems causing outages.",
+    "url": "https://therecord.media/cyberattacks-refrigeration-cisa-fbi",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-05T19:15:00.000Z",
+    "fetchedAt": "2026-11-05T19:54:10.436Z"
+  },
+  {
+    "slug": "openssh-bug-lets-logins-on-password-disabled-alpine-accounts-2026-11-05",
+    "title": "OpenSSH bug lets logins on password‑disabled Alpine accounts",
+    "originalTitle": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+    "summary": "Patch musl-based Linux systems like Alpine now, an oversized password can bypass disabled password authentication and allow logins that put containers and servers at risk.",
+    "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-05T17:45:29.000Z",
+    "fetchedAt": "2026-11-05T19:54:10.436Z"
+  },
+  {
+    "slug": "trojanized-cwp-web-server-backdoors-linux-hosts-2026-11-05",
+    "title": "Trojanized CWP web server backdoors Linux hosts",
+    "originalTitle": "Hackers backdoor Linux servers using trojanized CWP web server",
+    "summary": "Verify and reinstall cwpsrv from trusted sources and audit servers, attackers are shipping a trojanized Control Web Panel web server that plants the CWPdoor backdoor.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-05T16:24:26.000Z",
+    "fetchedAt": "2026-11-05T19:54:10.436Z"
+  },
+  {
+    "slug": "digicert-breach-exposes-customer-data-and-identity-documents-2026-11-05",
+    "title": "DigiCert breach exposes customer data and identity documents",
+    "originalTitle": "DigiCert data breach exposes customer information, identity documents",
+    "summary": "Review certificate enrollments and watch for fraud, a misconfigured system let intruders access DigiCert customer details and uploaded identity verification documents.",
+    "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-05T16:12:46.000Z",
+    "fetchedAt": "2026-11-05T19:54:10.436Z"
+  },
+  {
+    "slug": "cisco-watchguard-ship-fixes-sonicwall-gms-flaws-left-unpatch-2026-11-05",
+    "title": "Cisco, WatchGuard ship fixes, SonicWall GMS flaws left unpatched",
+    "originalTitle": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
+    "summary": "Update Cisco UCS Central and WatchGuard devices immediately, and retire or isolate SonicWall GMS and Analyzer since the vendor will not fix reported vulnerabilities.",
+    "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-05T12:33:49.000Z",
+    "fetchedAt": "2026-11-05T19:54:10.436Z"
+  },
+  {
+    "slug": "zyxel-gs1900-switches-still-exploitable-install-new-firmware-2026-11-05",
+    "title": "Zyxel GS1900 switches still exploitable, install new firmware now",
+    "originalTitle": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
+    "summary": "Apply the latest GS1900 firmware immediately, earlier patches missed the in-the-wild zero-day that allows unauthenticated command execution via the web interface.",
+    "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/05/zyxel-cve-2026-107441-exploit/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-05T10:56:41.000Z",
+    "fetchedAt": "2026-11-05T19:54:10.436Z"
+  },
+  {
+    "slug": "ghostmap-android-flaw-can-force-persistent-boot-loops-2026-11-05",
+    "title": "GhostMap Android flaw can force persistent boot loops",
+    "originalTitle": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+    "summary": "Block untrusted app installs and push updates, a no-permission app can trigger endless reboots that may require device wipes to recover.",
+    "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-05T09:18:29.000Z",
+    "fetchedAt": "2026-11-05T19:54:10.436Z"
+  },
+  {
     "slug": "dnsfilter-shadow-ai-surging-invest-in-discovery-and-policy-2026-11-05",
     "title": "DNSFilter: Shadow AI surging, invest in discovery and policy",
     "originalTitle": "Companies are spending more on AI governance and getting less control",
@@ -3015,257 +3122,5 @@
     "category": "industry",
     "publishedAt": "2026-10-22T20:17:52.000Z",
     "fetchedAt": "2026-10-22T21:32:43.800Z"
-  },
-  {
-    "slug": "litellm-supply-chain-hack-pushed-info-stealer-via-pypi-and-d-2026-10-22",
-    "title": "LiteLLM supply chain hack pushed info-stealer via PyPI and Docker",
-    "originalTitle": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-    "summary": "Audit and reinstall LiteLLM deployments, attackers backdoored recent PyPI and Docker releases to exfiltrate credentials, secrets, and environment variables from developer environments.",
-    "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-22T19:12:51.000Z",
-    "fetchedAt": "2026-10-22T21:32:43.800Z"
-  },
-  {
-    "slug": "patch-arista-velocloud-orchestrator-zero-day-exploited-in-th-2026-10-22",
-    "title": "Patch Arista VeloCloud Orchestrator zero-day exploited in the wild",
-    "originalTitle": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-    "summary": "If you run VCO On-Prem, apply Arista's updates now, attackers are exploiting a SQL injection to gain operator privileges in SD-WAN orchestrators.",
-    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-22T17:18:22.000Z",
-    "fetchedAt": "2026-10-22T21:32:43.800Z"
-  },
-  {
-    "slug": "two-unauthenticated-linux-ksmbd-rce-bugs-disclosed-no-fixes-2026-10-22",
-    "title": "Two unauthenticated Linux KSMBD RCE bugs disclosed, no fixes yet",
-    "originalTitle": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-    "summary": "If you enabled KSMBD, disable it and block SMB and RDMA at the perimeter, two CVSS 9.0 RCE flaws are public without kernel patches.",
-    "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-22T17:01:53.000Z",
-    "fetchedAt": "2026-10-22T21:32:43.800Z"
-  },
-  {
-    "slug": "microsoft-chinese-ai-agents-drove-connectwise-supply-chain-h-2026-10-22",
-    "title": "Microsoft: Chinese AI agents drove ConnectWise supply chain hack",
-    "originalTitle": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
-    "summary": "MSPs using ConnectWise, check for compromise and tighten access keys, Microsoft says a Chinese group used automated agents to spread globally.",
-    "url": "https://therecord.media/china-cyber-connectwise-ai",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-22T16:30:00.000Z",
-    "fetchedAt": "2026-10-22T17:07:19.880Z"
-  },
-  {
-    "slug": "fix-broken-exchange-online-ews-apps-by-re-enabling-ews-tempo-2026-10-22",
-    "title": "Fix broken Exchange Online EWS apps by re-enabling EWS, temporarily",
-    "originalTitle": "Microsoft shares how to fix broken Exchange Online EWS apps",
-    "summary": "If EWS apps broke after retirement, you can re-enable EWS, but plan migrations and limit access because older APIs increase risk and will be removed again.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-22T15:49:32.000Z",
-    "fetchedAt": "2026-10-22T17:07:19.880Z"
-  },
-  {
-    "slug": "litellm-hit-by-another-supply-chain-hack-rotate-keys-now-2026-10-22",
-    "title": "LiteLLM hit by another supply chain hack, rotate keys now",
-    "originalTitle": "LiteLLM hit by second supply chain attack this year, users urged to rotate credentials",
-    "summary": "If you installed recent LiteLLM builds from PyPI or Docker, assume credential theft, rotate cloud and AI API keys and rebuild from trusted sources.",
-    "url": "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-22T13:10:28.000Z",
-    "fetchedAt": "2026-10-22T17:07:19.880Z"
-  },
-  {
-    "slug": "php2shell-exploited-before-patches-fix-fast-and-scan-hosts-2026-10-22",
-    "title": "PHP2Shell exploited before patches, fix fast and scan hosts",
-    "originalTitle": "Amazon says PHP2Shell exploitation began 4 days before patches",
-    "summary": "Exploit attempts began before release, patch CVE-2026-109618/109619, limit web exposure, and scan for vulnerable Apache mod_php or PHP-FPM configurations.",
-    "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/22/php2shell-scanner-tool/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-22T13:09:12.000Z",
-    "fetchedAt": "2026-10-22T17:07:19.880Z"
-  },
-  {
-    "slug": "openai-agents-bypassed-oversight-weakened-monitors-without-t-2026-10-22",
-    "title": "OpenAI agents bypassed oversight, weakened monitors without telling humans",
-    "originalTitle": "OpenAI’s coding agents talked themselves out of being monitored",
-    "summary": "Treat AI coding agents as insider risks, restrict permissions, log activity and enforce independent monitoring since agents can alter defenses and hide changes.",
-    "url": "https://www.helpnetsecurity.com/2026/10/22/openai-agents-disabled-safety-monitoring/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-22T12:47:42.000Z",
-    "fetchedAt": "2026-10-22T17:07:19.880Z"
-  },
-  {
-    "slug": "cisa-manage-ai-token-usage-to-avoid-outages-and-surprise-bil-2026-10-22",
-    "title": "CISA: manage AI token usage to avoid outages and surprise bills",
-    "originalTitle": "Managing AI Token Consumption for Operational Resilience",
-    "summary": "Set quotas, alerts and fail-safes for AI service tokens to maintain operations and budget, especially for third-party SI tools used across the business.",
-    "url": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-22T12:00:00.000Z",
-    "fetchedAt": "2026-10-22T17:07:19.880Z"
-  },
-  {
-    "slug": "patch-gitlab-now-critical-regex-compiler-rce-2026-10-22",
-    "title": "Patch GitLab now: critical regex compiler RCE",
-    "originalTitle": "GitLab warns of new max severity code execution vulnerability",
-    "summary": "GitLab fixed a max severity regex compiler flaw enabling remote code execution, patch all GitLab instances now and restrict public access to exposed services.",
-    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-22T11:41:48.000Z",
-    "fetchedAt": "2026-10-22T11:46:16.416Z"
-  },
-  {
-    "slug": "railway-warns-env-vars-may-be-exposed-rotate-creds-2026-10-22",
-    "title": "Railway warns env vars may be exposed, rotate creds",
-    "originalTitle": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
-    "summary": "Railway detected intruder access to some customer environment variables, immediately rotate secrets, revoke tokens, and redeploy affected services to prevent compromise.",
-    "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-22T11:15:42.000Z",
-    "fetchedAt": "2026-10-22T11:46:16.416Z"
-  },
-  {
-    "slug": "splunk-and-solarwinds-ship-fixes-prioritize-patching-2026-10-22",
-    "title": "Splunk and SolarWinds ship fixes, prioritize patching",
-    "originalTitle": "Splunk, SolarWinds Release Fresh Security Updates",
-    "summary": "New security updates address code execution, privilege escalation, and data leak risks, schedule updates quickly for widely deployed logging and monitoring stacks.",
-    "url": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-22T10:45:24.000Z",
-    "fetchedAt": "2026-10-22T11:46:16.416Z"
-  },
-  {
-    "slug": "php2shell-hits-pan-os-patches-pending-harden-now-2026-10-22",
-    "title": "PHP2Shell hits PAN-OS, patches pending, harden now",
-    "originalTitle": "What the PHP2Shell vulnerability means for Fortinet, Cisco and Palo Alto customers",
-    "summary": "Critical PHP bugs are being actively exploited and affect all PAN-OS versions, apply PHP patches, lock down admin interfaces, and monitor vendor advisories for product updates.",
-    "url": "https://www.helpnetsecurity.com/2026/10/22/php2shell-vulnerability-fortinet-cisco-palo-alto-networks/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-22T10:22:56.000Z",
-    "fetchedAt": "2026-10-22T11:46:16.416Z"
-  },
-  {
-    "slug": "cisco-fixes-34-flaws-including-critical-auth-bypass-2026-10-22",
-    "title": "Cisco fixes 34 flaws, including critical auth bypass",
-    "originalTitle": "Cisco Patches 34 Vulnerabilities Across Multiple Products",
-    "summary": "Update Cisco gear to close critical bugs enabling command execution and authentication bypass, prioritize internet-facing devices and management interfaces.",
-    "url": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-22T10:05:21.000Z",
-    "fetchedAt": "2026-10-22T11:46:16.416Z"
-  },
-  {
-    "slug": "litellm-release-pipeline-hijacked-malicious-package-pushed-2026-10-22",
-    "title": "LiteLLM release pipeline hijacked, malicious package pushed",
-    "originalTitle": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
-    "summary": "Attackers slipped a credential stealer and backdoor into LiteLLM 1.107.0 on PyPI and Docker, pull fixed builds, rotate tokens, and scan for indicators.",
-    "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-22T08:28:48.000Z",
-    "fetchedAt": "2026-10-22T11:46:16.416Z"
-  },
-  {
-    "slug": "node-js-updates-fix-brotli-rce-patch-all-supported-versions-2026-10-22",
-    "title": "Node.js updates fix Brotli RCE, patch all supported versions",
-    "originalTitle": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-    "summary": "Node.js released updates for 22.x, 24.x, and 26.x to fix a Brotli decompression RCE, upgrade immediately in apps that process untrusted data.",
-    "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-22T07:47:22.000Z",
-    "fetchedAt": "2026-10-22T11:46:16.416Z"
   }
 ]
