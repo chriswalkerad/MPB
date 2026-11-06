@@ -1,5 +1,66 @@
 [
   {
+    "slug": "ai-voice-and-avatar-scams-siphoned-129m-from-finance-teams-2026-11-06",
+    "title": "AI voice and avatar scams siphoned $129M from finance teams",
+    "originalTitle": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
+    "summary": "Prosecutors say AI voice and video impersonations tricked accounting teams into sending $129 million, require out-of-band verification and tightened approvals for any payment or wire requests.",
+    "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-06T03:03:29.000Z",
+    "fetchedAt": "2026-11-06T06:35:04.454Z"
+  },
+  {
+    "slug": "openssh-bug-lets-logins-on-alpine-patch-to-10-6p2-now-2026-11-05",
+    "title": "OpenSSH bug lets logins on Alpine, patch to 10.6p2 now",
+    "originalTitle": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+    "summary": "Alpine Linux servers running OpenSSH can allow password authentication bypass with long passwords, update to OpenSSH 10.6p2 and fixed Alpine packages now and review SSH auth settings.",
+    "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-05T23:09:36.000Z",
+    "fetchedAt": "2026-11-06T06:35:04.454Z"
+  },
+  {
+    "slug": "fake-ai-event-invites-are-stealing-m365-and-google-accounts-2026-11-05",
+    "title": "Fake AI event invites are stealing M365 and Google accounts",
+    "originalTitle": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+    "summary": "Attackers are sending fake OpenAI or SpaceX event invites to steal Microsoft and Google credentials and sessions, train users and enforce phishing-resistant MFA and session protections.",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-05T21:30:30.000Z",
+    "fetchedAt": "2026-11-06T06:35:04.454Z"
+  },
+  {
+    "slug": "free-program-auto-revokes-1-4m-exposed-api-keys-2026-11-05",
+    "title": "Free program auto-revokes 1.4M exposed API keys",
+    "originalTitle": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+    "summary": "Truffle Security will coordinate revocation of 1.4 million still-valid exposed secrets, enroll and strengthen secret scanning, key rotation, and least-privilege access across repos and CI.",
+    "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-05T20:15:08.000Z",
+    "fetchedAt": "2026-11-06T06:35:04.454Z"
+  },
+  {
     "slug": "feds-warn-harden-cooling-systems-after-supermarket-hacks-2026-11-05",
     "title": "Feds warn: harden cooling systems after supermarket hacks",
     "originalTitle": "Harden cooling systems now, feds warn critical infrastructure operators amid attacks",
@@ -68,6 +129,39 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-05T12:33:49.000Z",
     "fetchedAt": "2026-11-05T19:54:10.436Z"
+  },
+  {
+    "slug": "fbi-and-cisa-attackers-targeting-industrial-refrigeration-sy-2026-11-05",
+    "title": "FBI and CISA: attackers targeting industrial refrigeration systems",
+    "originalTitle": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
+    "summary": "If you run or service cold chain gear, lock down remote access, change default credentials, segment networks, and patch monitoring systems immediately.",
+    "url": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-05T12:00:00.000Z",
+    "fetchedAt": "2026-11-06T06:35:04.454Z"
+  },
+  {
+    "slug": "cisa-lists-pqc-questions-to-start-asking-your-vendors-now-2026-11-05",
+    "title": "CISA lists PQC questions to start asking your vendors now",
+    "originalTitle": "Post-Quantum Questions to Ask Your Vendors",
+    "summary": "Use the new CISA, NSA, and ACSC checklist to assess vendor readiness for post-quantum crypto, inventory impacted systems, and plan migration timelines before deadlines hit.",
+    "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-05T12:00:00.000Z",
+    "fetchedAt": "2026-11-06T06:35:04.454Z"
   },
   {
     "slug": "zyxel-gs1900-switches-still-exploitable-install-new-firmware-2026-11-05",
@@ -325,6 +419,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-04T12:07:04.000Z",
     "fetchedAt": "2026-11-04T14:26:49.078Z"
+  },
+  {
+    "slug": "cisa-adds-apple-auth-bug-to-kev-patch-apple-devices-now-2026-11-04",
+    "title": "CISA adds Apple auth bug to KEV, patch Apple devices now",
+    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "With active exploitation of Apple CVE-2024-27834, prioritize updating iOS, macOS, and watchOS devices and restrict or monitor affected authentication paths until patched.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "fetchedAt": "2026-11-06T06:35:04.454Z"
   },
   {
     "slug": "xen-bugs-let-a-vm-read-and-write-other-vms-memory-2026-11-04",
@@ -3034,93 +3142,5 @@
     "category": "threats",
     "publishedAt": "2026-10-23T07:40:45.000Z",
     "fetchedAt": "2026-10-23T11:33:40.858Z"
-  },
-  {
-    "slug": "ai-is-squeezing-cybersecurity-jobs-report-warns-2026-10-23",
-    "title": "AI is squeezing cybersecurity jobs, report warns",
-    "originalTitle": "AI is taking cybersecurity jobs at junior and experienced levels alike",
-    "summary": "Plan for re-skilling and role redesign, 56 percent of organizations report AI-linked cuts to cybersecurity staff split evenly across junior and senior levels.",
-    "url": "https://www.helpnetsecurity.com/2026/10/23/barracuda-cybersecurity-career-development-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-10-23T04:30:39.000Z",
-    "fetchedAt": "2026-10-23T04:44:15.993Z"
-  },
-  {
-    "slug": "php2shell-patch-exposed-php-apps-and-harden-configs-2026-10-23",
-    "title": "PHP2Shell: patch exposed PHP apps and harden configs",
-    "originalTitle": "Reports of PHP bug exploitation attempts grow as experts downplay viability of exploits",
-    "summary": "Inventory Internet-facing PHP, patch affected versions, review CGI and FastCGI settings, add WAF rules, and watch logs, as exploits are noisy and reliability varies.",
-    "url": "https://therecord.media/php-php2shell-exploitation-attempts-pocs",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "SANS ISC",
-        "url": "https://isc.sans.edu/diary/rss/33452"
-      },
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "fetchedAt": "2026-10-23T21:22:29.552Z"
-  },
-  {
-    "slug": "railway-warns-customers-to-rotate-environment-secrets-after-2026-10-22",
-    "title": "Railway warns customers to rotate environment secrets after intrusion",
-    "originalTitle": "Railway warns devs to rotate secrets after potential breach",
-    "summary": "Rotate and revoke any secrets stored in Railway after suspicious access to its environment variable storage was detected.",
-    "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-22T21:25:31.000Z",
-    "fetchedAt": "2026-10-22T21:32:43.800Z"
-  },
-  {
-    "slug": "connectwise-supply-chain-hit-tied-to-storm-0940-microsoft-sa-2026-10-22",
-    "title": "ConnectWise supply chain hit tied to Storm-0940, Microsoft says",
-    "originalTitle": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
-    "summary": "MSPs should review ConnectWise and Microsoft advisories and hunt for indicators now, a China-linked group used AI tooling to hit more than 2,200 tenants.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-22T20:42:17.000Z",
-    "fetchedAt": "2026-10-23T04:44:15.993Z"
-  },
-  {
-    "slug": "emudhra-quits-ssl-tls-after-shockingly-weak-ca-private-keys-2026-10-22",
-    "title": "eMudhra quits SSL/TLS after shockingly weak CA private keys",
-    "originalTitle": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
-    "summary": "Check and replace any eMudhra-issued certificates, the CA is exiting after researchers recovered eight intermediate private keys, breaking trust in affected chains.",
-    "url": "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [
-      {
-        "name": "The Record",
-        "url": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html"
-      }
-    ],
-    "category": "industry",
-    "publishedAt": "2026-10-22T20:17:52.000Z",
-    "fetchedAt": "2026-10-22T21:32:43.800Z"
   }
 ]
