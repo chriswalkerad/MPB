@@ -1,5 +1,136 @@
 [
   {
+    "slug": "digicert-reports-breach-of-internal-business-system-2026-11-06",
+    "title": "DigiCert reports breach of internal business system",
+    "originalTitle": "Certificate authority DigiCert reports data breach involving business customer info",
+    "summary": "Expect targeted phishing against certificate buyers after names and contact details of business customers were accessed, though DigiCert says certificate issuance systems were not impacted.",
+    "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-06T18:56:00.000Z",
+    "fetchedAt": "2026-11-06T19:20:19.420Z"
+  },
+  {
+    "slug": "fake-github-security-tools-drop-backdoors-verify-before-you-2026-11-06",
+    "title": "Fake GitHub security tools drop backdoors, verify before you run",
+    "originalTitle": "Fake security tools on GitHub push backdoors and infostealers",
+    "summary": "Security pros and developers should scrutinize maintainers and build scripts, as malicious GitHub projects are delivering backdoors and info stealers disguised as defensive tools.",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-06T18:46:52.000Z",
+    "fetchedAt": "2026-11-06T19:20:19.420Z"
+  },
+  {
+    "slug": "qnap-nas-under-attack-via-plex2shell-update-plex-now-2026-11-06",
+    "title": "QNAP NAS under attack via Plex2Shell, update Plex now",
+    "originalTitle": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+    "summary": "QNAP says hackers are exploiting Plex2Shell, so update Plex Media Server from the QNAP App Center, remove vulnerable builds, and keep NAS services off the public internet.",
+    "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-06T17:04:23.000Z",
+    "fetchedAt": "2026-11-06T19:20:19.420Z"
+  },
+  {
+    "slug": "wordpress-sites-can-be-hit-during-patching-block-web-during-2026-11-06",
+    "title": "WordPress sites can be hit during patching, block web during updates",
+    "originalTitle": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+    "summary": "To avoid exploitation while a fix is installing for an actively abused flaw, put sites in maintenance mode or block web access until the update fully completes.",
+    "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-06T16:08:38.000Z",
+    "fetchedAt": "2026-11-06T19:20:19.420Z"
+  },
+  {
+    "slug": "chainalysis-breach-exposed-all-customer-credentials-and-toke-2026-11-06",
+    "title": "Chainalysis breach exposed all customer credentials and tokens",
+    "originalTitle": "Chainalysis says breach exposed credentials for all customers",
+    "summary": "Rotate passwords, API keys, and tokens tied to Chainalysis services now, as the company says all user credentials and live tokens were exposed during an ongoing investigation.",
+    "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-06T14:17:07.000Z",
+    "fetchedAt": "2026-11-06T19:20:19.420Z"
+  },
+  {
+    "slug": "openssh-sshole-lets-logins-on-musl-systems-patch-now-2026-11-06",
+    "title": "OpenSSH 'SSHole' lets logins on musl systems, patch now",
+    "originalTitle": "OpenSSH flaw exploited in the wild just hours after disclosure (CVE-2026-123158)",
+    "summary": "If you run OpenSSH on musl-based Linux without PAM, update to 10.6p2 and disable password logins where possible, attackers are already exploiting CVE-2026-123158.",
+    "url": "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-06T12:49:41.000Z",
+    "fetchedAt": "2026-11-06T19:20:19.420Z"
+  },
+  {
+    "slug": "d-link-dgs-3130-switches-hit-by-zero-days-apply-mitigations-2026-11-06",
+    "title": "D-Link DGS-3130 switches hit by zero-days, apply mitigations",
+    "originalTitle": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+    "summary": "With no patches yet for multiple DGS-3130 flaws, restrict and segment management access, disable remote admin, use strong ACLs, and monitor for unusual logins or config changes.",
+    "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-06T12:37:22.000Z",
+    "fetchedAt": "2026-11-06T19:20:19.420Z"
+  },
+  {
+    "slug": "barracuda-esg-bugs-allow-root-without-login-patch-asap-2026-11-06",
+    "title": "Barracuda ESG bugs allow root without login, patch ASAP",
+    "originalTitle": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+    "summary": "Update Barracuda Email Security Gateway appliances immediately, as an auth bypass chained to command injection can grant unauthenticated root access, then audit for suspicious restore or diagnostic activity.",
+    "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-06T05:39:10.000Z",
+    "fetchedAt": "2026-11-06T19:20:19.420Z"
+  },
+  {
     "slug": "ai-voice-and-avatar-scams-siphoned-129m-from-finance-teams-2026-11-06",
     "title": "AI voice and avatar scams siphoned $129M from finance teams",
     "originalTitle": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
@@ -2895,252 +3026,5 @@
     "category": "threats",
     "publishedAt": "2026-10-23T20:57:56.000Z",
     "fetchedAt": "2026-10-23T21:22:29.552Z"
-  },
-  {
-    "slug": "teams-is-getting-ai-phishing-detection-in-november-2026-10-23",
-    "title": "Teams is getting AI phishing detection in November",
-    "originalTitle": "Microsoft Teams to get AI-powered, context-aware phishing detection",
-    "summary": "Prepare tenants for AI-driven scanning of Teams messages in early November, review privacy and admin controls, and update training since phishing is shifting into chat.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-23T18:54:41.000Z",
-    "fetchedAt": "2026-10-23T21:22:29.552Z"
-  },
-  {
-    "slug": "cheap-ai-tools-are-scaling-real-attacks-fast-2026-10-23",
-    "title": "Cheap AI tools are scaling real attacks fast",
-    "originalTitle": "AI Tools Are Generating Massive Attacks for Little Cost",
-    "summary": "Expect more automated intrusion attempts as open models and agents enable full kill chains for pocket change, so rate-limit, monitor, and lock down admin interfaces.",
-    "url": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-23T17:26:59.000Z",
-    "fetchedAt": "2026-10-23T21:22:29.552Z"
-  },
-  {
-    "slug": "windows-server-2016-security-updates-end-january-2027-2026-10-23",
-    "title": "Windows Server 2016 security updates end January 2027",
-    "originalTitle": "Microsoft: Windows Server 2016 reaches end of support in January",
-    "summary": "Start migrations or ESU planning now, inventory 2016 servers and dependencies, budget downtime, and align app owners before patching stops in January.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-10-23T17:05:07.000Z",
-    "fetchedAt": "2026-10-23T21:22:29.552Z"
-  },
-  {
-    "slug": "unpatched-php-rce-apply-mitigations-now-2026-10-23",
-    "title": "Unpatched PHP RCE, apply mitigations now",
-    "originalTitle": "PHP shares mitigation for new RCE vulnerability with no patch",
-    "summary": "There is no patch for a new PHP remote code execution bug, so apply the PHP team's mitigations and restrict exposure on internet-facing hosts using non-default configs.",
-    "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/"
-      },
-      {
-        "name": "SANS ISC",
-        "url": "https://isc.sans.edu/diary/rss/33450"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-23T15:38:05.000Z",
-    "fetchedAt": "2026-10-23T17:03:44.514Z"
-  },
-  {
-    "slug": "campaign-hits-fortigate-and-globalprotect-70k-creds-stolen-2026-10-23",
-    "title": "Campaign hits FortiGate and GlobalProtect, 70k creds stolen",
-    "originalTitle": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-    "summary": "Attackers hit exposed Fortinet FortiGate and Palo Alto GlobalProtect devices and stole over 70,000 credentials, audit appliance integrity, rotate secrets, and check for signs of lateral movement.",
-    "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-23T13:50:56.000Z",
-    "fetchedAt": "2026-10-23T17:03:44.514Z"
-  },
-  {
-    "slug": "patch-arubaos-now-eight-critical-auth-bypass-and-rce-2026-10-23",
-    "title": "Patch ArubaOS now, eight critical auth bypass and RCE",
-    "originalTitle": "HPE patches eight max severity RCE and auth bypass AOS flaws",
-    "summary": "HPE fixed 72 ArubaOS flaws including eight max severity auth bypass and code execution, schedule emergency updates for controllers, gateways, and access points across client networks.",
-    "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-23T12:48:00.000Z",
-    "fetchedAt": "2026-10-23T17:03:44.514Z"
-  },
-  {
-    "slug": "cisa-adds-actively-exploited-bug-in-collabora-online-code-se-2026-10-23",
-    "title": "CISA adds actively exploited bug in Collabora Online CODE server",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Patch or disable the built-in CODE server in Collabora Online now, restrict network exposure, and hunt for command injection signs because attackers are already exploiting it.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-23T12:00:00.000Z",
-    "fetchedAt": "2026-10-23T21:22:29.552Z"
-  },
-  {
-    "slug": "actively-exploited-sql-injection-hits-velocloud-orchestrator-2026-10-23",
-    "title": "Actively exploited SQL injection hits VeloCloud Orchestrator",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Patch affected VeloCloud Orchestrator instances or lock them behind VPN and SSO today, rotate credentials, and review logs for suspicious queries due to in-the-wild exploitation.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-23T12:00:00.000Z",
-    "fetchedAt": "2026-10-23T21:22:29.552Z"
-  },
-  {
-    "slug": "stolen-sessions-let-attackers-into-79-microsoft-365-orgs-2026-10-23",
-    "title": "Stolen sessions let attackers into 79 Microsoft 365 orgs",
-    "originalTitle": "Microsoft 365 accounts compromised at 79 organizations, no passwords needed",
-    "summary": "A ten-week campaign replayed stolen Microsoft 365 sessions to access 79 organizations without passwords, revoke all sessions, hunt stealthy inbox rules, and tighten conditional access.",
-    "url": "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-23T11:45:12.000Z",
-    "fetchedAt": "2026-10-23T17:03:44.514Z"
-  },
-  {
-    "slug": "microsoft-plans-watchdogs-for-risky-ai-agents-2026-10-23",
-    "title": "Microsoft plans watchdogs for risky AI agents",
-    "originalTitle": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
-    "summary": "Microsoft is building guardian agents to monitor and contain AI agents, treat agent privileges like admin accounts, add logging, and enforce pre-approval for risky actions.",
-    "url": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-23T11:38:28.000Z",
-    "fetchedAt": "2026-10-23T17:03:44.514Z"
-  },
-  {
-    "slug": "apt-used-ai-pentest-tool-to-hit-connectwise-hundreds-targete-2026-10-23",
-    "title": "APT used AI pentest tool to hit ConnectWise, hundreds targeted",
-    "originalTitle": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
-    "summary": "Lock down and monitor ConnectWise admin interfaces, EDR and logging, China-linked actors used the Artex AI pentest tool to target hundreds and obtain privileged access.",
-    "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-23T10:31:16.000Z",
-    "fetchedAt": "2026-10-23T11:33:40.858Z"
-  },
-  {
-    "slug": "velocloud-orchestrator-hit-by-third-zero-day-exploit-in-the-2026-10-23",
-    "title": "VeloCloud Orchestrator hit by third zero-day, exploit in the wild",
-    "originalTitle": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
-    "summary": "If you run VMware VeloCloud Orchestrator, restrict internet exposure and apply VMware mitigations now, attackers are exploiting a critical SQL injection to gain operator-level access.",
-    "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-23T09:58:34.000Z",
-    "fetchedAt": "2026-10-23T11:33:40.858Z"
-  },
-  {
-    "slug": "pillow-image-library-bug-enables-rce-via-crafted-eps-files-2026-10-23",
-    "title": "Pillow image library bug enables RCE via crafted EPS files",
-    "originalTitle": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-    "summary": "Update Pillow or disable EPS support immediately, CVE-2026-112900 lets crafted EPS filenames trigger Ghostscript and execute commands when apps process untrusted images.",
-    "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-23T09:36:00.000Z",
-    "fetchedAt": "2026-10-23T11:33:40.858Z"
-  },
-  {
-    "slug": "attackers-hijack-exposed-ai-models-to-plan-break-ins-on-your-2026-10-23",
-    "title": "Attackers hijack exposed AI models to plan break-ins on your dime",
-    "originalTitle": "Hackers hijack exposed AI models to launch cyberattacks at victims’ expense",
-    "summary": "Secure any internet-exposed AI model endpoints with authentication and spend limits, Symantec caught an agent abusing open models to plan intrusions while charging the owner.",
-    "url": "https://www.helpnetsecurity.com/2026/10/23/llmjacking-agent-hijacks-exposed-ai-models/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-23T08:21:48.000Z",
-    "fetchedAt": "2026-10-23T11:33:40.858Z"
-  },
-  {
-    "slug": "litellm-project-hijacked-malicious-pypi-and-docker-releases-2026-10-23",
-    "title": "LiteLLM project hijacked, malicious PyPI and Docker releases pushed",
-    "originalTitle": "LiteLLM Compromised in Fresh Supply Chain Attack",
-    "summary": "If you installed LiteLLM from PyPI or Docker recently, audit and reinstall trusted versions, rotate secrets, attackers pushed approved malicious builds via stolen GitHub OAuth tokens.",
-    "url": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-23T08:10:46.000Z",
-    "fetchedAt": "2026-10-23T11:33:40.858Z"
-  },
-  {
-    "slug": "atlassian-ships-75-fixes-for-data-center-and-server-14-criti-2026-10-23",
-    "title": "Atlassian ships 75 fixes for Data Center and Server, 14 critical",
-    "originalTitle": "Atlassian Patches 75 Flaws in Data Center and Server Products",
-    "summary": "Schedule a maintenance window to apply Atlassian’s October updates, 75 fixes across Data Center and Server include 14 critical third-party component bugs that remain exploitable in products.",
-    "url": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-23T07:54:47.000Z",
-    "fetchedAt": "2026-10-23T11:33:40.858Z"
-  },
-  {
-    "slug": "mass-php2shell-scanning-tries-to-build-mirai-botnets-mostly-2026-10-23",
-    "title": "Mass PHP2Shell scanning tries to build Mirai botnets, mostly failing",
-    "originalTitle": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-    "summary": "Patch PHP to the latest emergency PHP2Shell fixes and monitor for Mirai-style traffic, mass scans are probing CVE-2026-109618 and CVE-2026-109619 though reliable exploitation appears difficult.",
-    "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-23T07:40:45.000Z",
-    "fetchedAt": "2026-10-23T11:33:40.858Z"
   }
 ]
