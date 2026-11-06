@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-06",
+    "date": "2026-11-06",
+    "title": "Patch and prepare: Barracuda root bug, SSHole, and creds",
+    "intro": "Busy morning. Preauth root on email gateways, an OpenSSH auth hole, active NAS exploits, and two vendor breaches lined up for phishing.",
+    "items": [
+      {
+        "heading": "Barracuda ESG preauth root, update now",
+        "body": "A combo of authentication bypass and command injection on Barracuda Email Security Gateway can hand attackers root without logging in. If your ESG filters your mail, this is front door risk with high blast radius. Patch immediately, then review for odd restore or diagnostic actions and hunt for persistence.",
+        "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "barracuda-esg-bugs-allow-root-without-login-patch-asap-2026-11-06"
+      },
+      {
+        "heading": "Chainalysis creds and tokens exposed",
+        "body": "Chainalysis says all customer passwords, API keys, and live tokens were exposed during an ongoing investigation. If you integrate with their services, those secrets are now liabilities. Rotate everything now and audit access logs for misuse.",
+        "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "chainalysis-breach-exposed-all-customer-credentials-and-toke-2026-11-06"
+      },
+      {
+        "heading": "DigiCert business system breached",
+        "body": "Names and contact info of DigiCert business customers were accessed, certificate issuance systems were not affected. Expect convincing phishing aimed at cert buyers and admins. Brief support staff, verify any certificate change or reissue requests out of band, and tune email filters for related lures.",
+        "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "digicert-reports-breach-of-internal-business-system-2026-11-06"
+      },
+      {
+        "heading": "OpenSSH SSHole on musl systems",
+        "body": "On musl-based Linux without PAM, a bug tracked as CVE-2026-123158 is being exploited to allow logins. If you run Alpine or similar in production, you are on the hook. Update OpenSSH to 10.6p2, disable password auth where possible, and watch auth logs for anomalies.",
+        "url": "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "openssh-sshole-lets-logins-on-musl-systems-patch-now-2026-11-06"
+      },
+      {
+        "heading": "QNAP NAS hit via Plex2Shell",
+        "body": "QNAP reports active exploitation of Plex2Shell on NAS devices. Media servers on boxes with public exposure are easy prey and pivot points into networks. Update Plex Media Server from the QNAP App Center, remove vulnerable builds, and keep NAS services off the internet.",
+        "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "qnap-nas-under-attack-via-plex2shell-update-plex-now-2026-11-06"
+      },
+      {
+        "heading": "D-Link DGS-3130 zero-days, no patches",
+        "body": "Multiple flaws on D-Link DGS-3130 switches have no fixes yet. Until updates land, limit who and what can reach the management plane. Disable remote admin, enforce tight ACLs, segment networks, and monitor for strange logins or config changes.",
+        "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "d-link-dgs-3130-switches-hit-by-zero-days-apply-mitigations-2026-11-06"
+      },
+      {
+        "heading": "WordPress risk during patching",
+        "body": "Sites are getting hit while an actively exploited fix is still installing. That patch window is an attack window if the site stays online. Put sites in maintenance mode or block web access until updates complete, and schedule critical updates during low traffic windows.",
+        "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "wordpress-sites-can-be-hit-during-patching-block-web-during-2026-11-06"
+      },
+      {
+        "heading": "Backdoored GitHub security tools",
+        "body": "Malicious repos are posing as defensive tools and dropping backdoors and info stealers. If your team grabs utilities from GitHub, treat them like untrusted code. Verify maintainers, read build scripts, pin to known-good commits, and run new tools in sandboxes with minimal tokens.",
+        "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "fake-github-security-tools-drop-backdoors-verify-before-you-2026-11-06"
+      }
+    ],
+    "signOff": "Patch what you must, block what you can, then grab coffee.",
+    "generatedAt": "2026-11-06T19:58:35.306Z"
+  },
+  {
     "slug": "2026-11-05",
     "date": "2026-11-05",
     "title": "Patch sprint: coolers, switches, SSH, and a CA breach",
@@ -2120,79 +2194,5 @@
     ],
     "signOff": "Patch the edge first, then take on the rest.",
     "generatedAt": "2026-10-08T19:18:21.053Z"
-  },
-  {
-    "slug": "2026-10-07",
-    "date": "2026-10-07",
-    "title": "Keys Leaked, Bugs Exploited: Patch and Lock Down Today",
-    "intro": "Credential theft and active exploits lead the stack. If it faces the internet, patch it, rotate keys, and clamp access now.",
-    "items": [
-      {
-        "heading": "FortiBleed still harvesting Fortinet creds",
-        "body": "Authorities say credential thieves have stockpiled 86,644 Fortinet device logins. Rotate all VPN and admin passwords, disable legacy SHA-256 storage, enforce MFA, and minimize external exposure for management and VPN portals. Audit access logs for unusual use and kill any shared or stale accounts.",
-        "url": "https://therecord.media/fortibleed-warning-fbi-secret-service",
-        "source": "The Record",
-        "category": "threats",
-        "storySlug": "fortibleed-still-stealing-fortinet-creds-rotate-and-lock-dow-2026-10-07"
-      },
-      {
-        "heading": "Atlassian DC exploit hits Jira, Confluence, Bitbucket",
-        "body": "Unauthenticated attackers are abusing CVE-2026-21589 to read files on Atlassian Data Center products. Patch immediately, restrict external access where possible, and monitor for suspicious requests hitting file paths or attachments. If you cannot patch today, gate access behind VPN and WAF rules.",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "atlassian-dc-flaw-under-attack-after-poc-patch-now-2026-10-07"
-      },
-      {
-        "heading": "SonicWall SMA 1000 pre auth SSRF, hotfix now",
-        "body": "A max severity pre authentication SSRF bug, CVE-2026-102255, lets attackers proxy requests through SMA 1000 appliances. Deploy the SonicWall hotfixes as soon as possible, lock down management interfaces, and review logs for unusual outbound connections. If exposed to the internet, put it behind strict ACLs until patched.",
-        "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "sonicwall-sma-1000-pre-auth-ssrf-gets-hotfix-install-asap-2026-10-07"
-      },
-      {
-        "heading": "Chrome 155 fixes four criticals, 247 total",
-        "body": "Chrome 155 patches four critical use after free issues in components like Chromecast and Navigation plus hundreds of other bugs. Push this release across your fleet and verify versions, then nudge users to relaunch so protections apply. Prioritize high risk roles and any systems that touch prod or admin portals.",
-        "url": "https://www.securityweek.com/chrome-155-update-patches-247-vulnerabilities/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "chrome-155-fixes-247-bugs-four-critical-roll-it-out-2026-10-07"
-      },
-      {
-        "heading": "ccTLD hijacks lead to bogus Google TLS certs",
-        "body": "Attackers compromised three country code TLD registries and obtained fraudulent certificates for Google domains. Tighten HSTS and certificate monitoring, and brief users to be wary of phishing on unusual country domains that look like familiar brands. Consider blocking newly observed ccTLD domains until vetted.",
-        "url": "https://www.helpnetsecurity.com/2026/10/07/google-unauthorized-https-certificates-cctld-hijacks/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "attackers-hijacked-cctlds-got-tls-certs-for-google-domains-2026-10-07"
-      },
-      {
-        "heading": "Android October patches include critical priv esc",
-        "body": "October Android updates fix 25 flaws, including a critical System component bug that could allow privilege escalation. Prioritize pushing these updates to corporate devices via MDM and verify build levels on high risk users. Delay BYOD access for out of date devices if your policy allows.",
-        "url": "https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "android-october-updates-fix-critical-privilege-escalation-2026-10-07"
-      },
-      {
-        "heading": "Fake Cloudflare checks push LunexStealer via 100 plus sites",
-        "body": "CERT UA reports compromised websites are serving an info stealer under the guise of Cloudflare verification. Block malicious scripts at the gateway, harden web supply chain controls, and make sure endpoints can catch and contain stealers. User training tip, do not trust pop up verification prompts on random sites.",
-        "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "fake-cloudflare-checks-deliver-lunexstealer-via-100-hacked-s-2026-10-07"
-      },
-      {
-        "heading": "Anthropic loosens Claude for vetted defenders",
-        "body": "A new three tier program lets verified security teams request reduced safeguards in Claude, enabling malware analysis and vulnerability testing with gating and audit controls. If you need AI assistance for analysis, consider applying and build guardrails for usage and logging. Keep it to approved staff and documented workflows.",
-        "url": "https://www.securityweek.com/anthropic-introduces-3-tier-cyber-verification-program-for-ai-access/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "anthropic-opens-bigger-claude-access-for-verified-defenders-2026-10-07"
-      }
-    ],
-    "signOff": "Patch first, then tackle the queue.",
-    "generatedAt": "2026-10-07T19:22:38.772Z"
   }
 ]
