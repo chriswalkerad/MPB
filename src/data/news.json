@@ -1,5 +1,33 @@
 [
   {
+    "slug": "service-provider-breach-drives-133m-fraud-at-cr-dit-mutuel-a-2026-11-07",
+    "title": "Service provider breach drives $133M fraud at Crédit Mutuel Arkéa",
+    "originalTitle": "Hackers pull off $133 million French bank heist via service provider",
+    "summary": "Audit third-party integrations and transaction controls, a service provider compromise let attackers push $133 million in fraudulent transfers at Crédit Mutuel Arkéa before systems were suspended.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-07T15:25:35.000Z",
+    "fetchedAt": "2026-11-07T21:46:01.105Z"
+  },
+  {
+    "slug": "fake-gift-card-giveaways-steal-data-and-money-via-bogus-veri-2026-11-07",
+    "title": "Fake gift card giveaways steal data and money via bogus verification",
+    "originalTitle": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+    "summary": "Warn users and block known domains, CTM360 found large campaigns impersonating brands and celebrities that harvest personal data and trigger paid subscriptions without delivering rewards.",
+    "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-07T14:10:19.000Z",
+    "fetchedAt": "2026-11-07T21:46:01.105Z"
+  },
+  {
     "slug": "sonicwall-fixes-exploited-sonicos-bug-that-weakens-vpn-mfa-2026-11-07",
     "title": "SonicWall fixes exploited SonicOS bug that weakens VPN MFA",
     "originalTitle": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
@@ -3031,19 +3059,5 @@
     "category": "ai-security",
     "publishedAt": "2026-10-25T06:54:29.000Z",
     "fetchedAt": "2026-10-25T11:19:57.023Z"
-  },
-  {
-    "slug": "new-blackx-uefi-bootkit-bypasses-secure-boot-via-baton-drop-2026-10-24",
-    "title": "New BlackX UEFI bootkit bypasses Secure Boot via Baton Drop",
-    "originalTitle": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-    "summary": "Ensure Secure Boot updates and DBX revocations are applied, as a new BlackX UEFI bootkit exploited the old Baton Drop flaw to persist early and weaken antivirus defenses.",
-    "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-24T14:17:32.000Z",
-    "fetchedAt": "2026-10-24T15:53:39.323Z"
   }
 ]
