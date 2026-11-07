@@ -1,5 +1,33 @@
 [
   {
+    "slug": "sonicwall-fixes-exploited-sonicos-bug-that-weakens-vpn-mfa-2026-11-07",
+    "title": "SonicWall fixes exploited SonicOS bug that weakens VPN MFA",
+    "originalTitle": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+    "summary": "Patch SonicOS immediately, an actively exploited flaw lets attackers bypass SAML checks and MFA on VPNs using other login method credentials, then review auth settings and logs.",
+    "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-07T10:16:23.000Z",
+    "fetchedAt": "2026-11-07T12:54:42.076Z"
+  },
+  {
+    "slug": "claude-code-don-t-ask-again-saved-secrets-to-repos-1-122-lea-2026-11-07",
+    "title": "Claude Code 'Don't Ask Again' saved secrets to repos, 1,122 leaks",
+    "originalTitle": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+    "summary": "Audit your repos and rotate keys, Claude Code can save approved commands with plaintext passwords and API keys in project settings files that often get committed publicly.",
+    "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-07T06:44:17.000Z",
+    "fetchedAt": "2026-11-07T12:54:42.076Z"
+  },
+  {
     "slug": "sonicwall-ssl-vpn-mfa-bypass-exploited-patch-sonicos-now-2026-11-07",
     "title": "SonicWall SSL-VPN MFA bypass exploited, patch SonicOS now",
     "originalTitle": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
@@ -3017,61 +3045,5 @@
     "category": "threats",
     "publishedAt": "2026-10-24T14:17:32.000Z",
     "fetchedAt": "2026-10-24T15:53:39.323Z"
-  },
-  {
-    "slug": "litellm-master-key-leak-let-attackers-poison-python-package-2026-10-24",
-    "title": "LiteLLM master key leak let attackers poison Python package",
-    "originalTitle": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-    "summary": "Immediately pin and verify package versions, rotate GitHub tokens, and rebuild from trusted sources after a leaked LiteLLM master key enabled a malicious release pipeline compromise.",
-    "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-24T11:03:33.000Z",
-    "fetchedAt": "2026-10-24T15:53:39.323Z"
-  },
-  {
-    "slug": "google-ai-features-may-use-gmail-and-photos-data-for-targete-2026-10-24",
-    "title": "Google AI features may use Gmail and Photos data for targeted ads",
-    "originalTitle": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-    "summary": "Review and lock down Google data sharing settings, or disable AI personalization, as Google says AI features in Search or Gemini can draw on Gmail and Photos data for ad targeting.",
-    "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-24T10:36:33.000Z",
-    "fetchedAt": "2026-10-24T15:53:39.323Z"
-  },
-  {
-    "slug": "patch-brotli-decoder-flaw-affecting-node-bun-python-envoy-2026-10-24",
-    "title": "Patch Brotli decoder flaw affecting Node, Bun, Python, Envoy",
-    "originalTitle": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-    "summary": "Patch or disable Brotli decompression now, CVE-2026-111497 impacts Node, Bun, Python packages and Envoy, enabling crafted compressed data to corrupt memory and potentially execute code.",
-    "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-24T08:45:56.000Z",
-    "fetchedAt": "2026-10-24T10:53:03.041Z"
-  },
-  {
-    "slug": "cisa-collabora-code-and-arista-velocloud-flaws-are-being-exp-2026-10-24",
-    "title": "CISA: Collabora CODE and Arista VeloCloud flaws are being exploited",
-    "originalTitle": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-    "summary": "Prioritize patching and mitigation for Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator, CISA added both to KEV due to active exploitation of critical flaws.",
-    "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-24T06:25:57.000Z",
-    "fetchedAt": "2026-10-24T10:53:03.041Z"
   }
 ]
