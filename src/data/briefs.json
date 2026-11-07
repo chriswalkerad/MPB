@@ -1,5 +1,71 @@
 [
   {
+    "slug": "2026-11-07",
+    "date": "2026-11-07",
+    "title": "Patch SonicWall, rotate keys, trust but verify AI tools",
+    "intro": "Active exploits are hitting VPNs, and keys are spilling from vendors and AI tools. Today is patch, rotate, and verify.",
+    "items": [
+      {
+        "heading": "SonicWall SSL-VPN MFA bypass under active attack",
+        "body": "An actively exploited SonicOS flaw lets attackers bypass SAML checks and MFA on SSL-VPN by abusing other login method credentials, and it is already on CISA's KEV list. Patch SonicOS immediately, then audit authentication method settings and VPN logs for unusual access. If possible, limit VPN exposure, disable unused auth methods, and tighten SAML policies.",
+        "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "sonicwall-ssl-vpn-mfa-bypass-exploited-patch-sonicos-now-2026-11-07"
+      },
+      {
+        "heading": "Chainalysis customer tokens and creds stolen, rotate now",
+        "body": "Chainalysis reports a multifront attack that stole customer tokens and credentials. If you rely on Chainalysis, assume compromise and rotate all API keys, OAuth tokens, and passwords now, then review logs for misuse. Check any downstream automations and integrations that may reuse those credentials.",
+        "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+        "source": "Ars Technica",
+        "category": "threats",
+        "storySlug": "chainalysis-says-customer-tokens-and-credentials-stolen-rota-2026-11-06"
+      },
+      {
+        "heading": "WorkOS breach tied to AI agent access",
+        "body": "WorkOS says an AI agent accessed customer data. If you or your vendors use WorkOS, read the incident notice, rotate API keys and SSO secrets, and audit access. Reevaluate what automated agents can reach and reduce their privileges.",
+        "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "workos-breach-tied-to-ai-agent-rotate-keys-and-audit-access-2026-11-06"
+      },
+      {
+        "heading": "Claude Code saved plaintext secrets to repos",
+        "body": "A \"Don't Ask Again\" behavior caused approved commands to land in project settings files with plaintext passwords and API keys, which often get committed. Audit your repos for exposed secrets, purge history if needed, and rotate anything you find. Add secret scanning and pre-commit checks to prevent repeats.",
+        "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "claude-code-don-t-ask-again-saved-secrets-to-repos-1-122-lea-2026-11-07"
+      },
+      {
+        "heading": "DigiCert internal business system breached",
+        "body": "Names and contact details of business customers were accessed, though DigiCert says certificate issuance systems were not impacted. Expect targeted phishing and renewal scams aimed at your certificate buyers. Brief those users to verify requests through known channels and lock down who can approve cert changes.",
+        "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "digicert-reports-breach-of-internal-business-system-2026-11-06"
+      },
+      {
+        "heading": "Backdoored “security” tools on GitHub",
+        "body": "Malicious projects are posing as security tools and delivering backdoors and info stealers. Verify maintainers, read build scripts, and test in isolated environments before running anything. Prefer signed releases and vendor pages, and pin hashes in automation.",
+        "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "fake-github-security-tools-drop-backdoors-verify-before-you-2026-11-06"
+      },
+      {
+        "heading": "GPT-6 Cyber claims big bug finds in Firefox, Linux",
+        "body": "OpenAI says its new model has uncovered large numbers of issues across major projects. Expect a wave of advisories and proof of concept exploits, so validate vendor guidance and prioritize patches accordingly. Do not run random PoCs from strangers in your lab or pipeline.",
+        "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "openai-unveils-gpt-6-cyber-massive-bug-finds-in-firefox-linu-2026-11-06"
+      }
+    ],
+    "signOff": "That is enough chaos for one morning, back to the queue.",
+    "generatedAt": "2026-11-07T18:04:01.496Z"
+  },
+  {
     "slug": "2026-11-06",
     "date": "2026-11-06",
     "title": "Patch and prepare: Barracuda root bug, SSHole, and creds",
@@ -2120,79 +2186,5 @@
     ],
     "signOff": "Coffee, patches, logs in that order.",
     "generatedAt": "2026-10-09T18:52:09.883Z"
-  },
-  {
-    "slug": "2026-10-08",
-    "date": "2026-10-08",
-    "title": "Edge gear under fire, trust shaken, patch everything",
-    "intro": "Active edge exploits, a critical SonicWall bug, and shaky DNS trust make today a patch and harden kind of morning. Plan on some policy cleanup too.",
-    "items": [
-      {
-        "heading": "SonicWall SMA1000 pre-auth flaw, hotfix now",
-        "body": "A pre-auth SSRF on SMA1000 appliances earned a perfect severity score and can reach internal services. Apply SonicWall’s hotfixes immediately, pull management off the internet, and review logs for odd requests. If you cannot patch right away, restrict access to trusted networks and tighten ACLs as a temporary guardrail.",
-        "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "sonicwall-sma1000-pre-auth-bug-rated-10-hotfix-now-2026-10-07"
-      },
-      {
-        "heading": "FortiBleed campaigns continue to hit FortiGate",
-        "body": "The FBI says attackers are still targeting internet facing FortiGate gear, with cases of admins getting locked out. Patch affected devices, rotate VPN credentials, and audit all admin accounts. Lock management interfaces to trusted networks only and verify your backups and out of band access.",
-        "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "fortibleed-attacks-still-lock-out-fortigate-admins-2026-10-07"
-      },
-      {
-        "heading": "Registry breaches led to fake certs for Google domains",
-        "body": "Compromises at the .gh, .as, and .sl registries let attackers change DNS and obtain unauthorized certificates. This is a reminder to watch Certificate Transparency logs and lock down registrar accounts with strong auth and registry locks. Where possible, enforce HSTS and deploy DNSSEC to raise the bar on domain tampering.",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "registry-hacks-let-attackers-issue-fake-certs-for-google-dom-2026-10-07"
-      },
-      {
-        "heading": "400 plus Java library bugs fixed by IBM and Red Hat",
-        "body": "Vendors patched hundreds of previously unknown issues across Java libraries, which means your dependencies may be quietly vulnerable until rebuilt. Inventory your Java components, update to fixed versions, and rebuild and redeploy apps. Prioritize internet exposed and high value services, and do a quick test pass to avoid surprise regressions.",
-        "url": "https://www.helpnetsecurity.com/2026/10/08/lightwell-java-library-vulnerabilities/",
-        "source": "Help Net Security",
-        "category": "vulnerabilities",
-        "storySlug": "patch-your-java-libraries-400-flaws-fixed-by-ibm-and-red-hat-2026-10-08"
-      },
-      {
-        "heading": "Ransomware recovery firm charged over covert payments",
-        "body": "Prosecutors allege a recovery company paid ransoms to get decryptors while telling clients it used proprietary methods without paying. If you use third party incident help, tighten due diligence and make payment policies explicit. Bake transparency and approval requirements into contracts and run tabletop exercises so no one freelances under pressure.",
-        "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "ransomware-recovery-firm-charged-for-secretly-paying-attacke-2026-10-07"
-      },
-      {
-        "heading": "Healthcare devices targeted, PQC plans lag",
-        "body": "Ransomware operators are exploiting IoT and IoMT in healthcare, and many organizations are not ready for post quantum crypto shifts. If you support this sector, segment clinical networks, enforce least privilege, and monitor device traffic. Start a crypto inventory and roadmap so PQC changes do not blindside your environments.",
-        "url": "https://www.helpnetsecurity.com/2026/10/08/forescout-healthcare-quantum-readiness-report/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "healthcare-devices-exploited-pqc-readiness-still-far-behind-2026-10-08"
-      },
-      {
-        "heading": "Outlook to block .msix attachments next month",
-        "body": "Microsoft will add .msix and .msixbundle to Outlook’s blocked file list in November. Prepare users and adjust workflows so legitimate packages move through approved channels. Update guidance for help desks and set up alternative transfer methods now to avoid last minute scrambles.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
-        "source": "BleepingComputer",
-        "category": "defense",
-        "storySlug": "outlook-will-block-msix-attachments-starting-in-november-2026-10-07"
-      },
-      {
-        "heading": "Passkey adoption still lagging even among pros",
-        "body": "A Yubico and Okta survey says 43 percent of respondents still sign in with passwords despite broad awareness of modern options. Push phishing resistant MFA and passkeys where you can and start cutting off legacy auth flows. Pilot with high risk apps and set dates to retire passwords for targeted groups.",
-        "url": "https://www.helpnetsecurity.com/2026/10/08/passkey-adoption-typing-passwords/",
-        "source": "Help Net Security",
-        "category": "defense",
-        "storySlug": "even-security-pros-still-use-passwords-passkey-adoption-lags-2026-10-08"
-      }
-    ],
-    "signOff": "Patch the edge first, then take on the rest.",
-    "generatedAt": "2026-10-08T19:18:21.053Z"
   }
 ]
