@@ -1,5 +1,66 @@
 [
   {
+    "slug": "sonicwall-ssl-vpn-mfa-bypass-exploited-patch-sonicos-now-2026-11-07",
+    "title": "SonicWall SSL-VPN MFA bypass exploited, patch SonicOS now",
+    "originalTitle": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+    "summary": "Prioritize installing SonicOS updates, an actively exploited SSL-VPN flaw allows MFA bypass and remote access, now on CISA's KEV list and hitting exposed firewalls.",
+    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "CISA Advisories",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-07T00:00:55.000Z",
+    "fetchedAt": "2026-11-07T05:53:43.562Z"
+  },
+  {
+    "slug": "workos-breach-tied-to-ai-agent-rotate-keys-and-audit-access-2026-11-06",
+    "title": "WorkOS breach tied to AI agent, rotate keys and audit access",
+    "originalTitle": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+    "summary": "If you or your vendors use WorkOS, review the incident notice, rotate API keys and SSO secrets, and audit access after an AI agent accessed customer data.",
+    "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-06T22:27:25.000Z",
+    "fetchedAt": "2026-11-07T05:53:43.562Z"
+  },
+  {
+    "slug": "chainalysis-says-customer-tokens-and-credentials-stolen-rota-2026-11-06",
+    "title": "Chainalysis says customer tokens and credentials stolen, rotate now",
+    "originalTitle": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+    "summary": "If you rely on Chainalysis, assume compromise and immediately rotate all API keys, OAuth tokens, and passwords, with logging review, after a multifront attack stole customer credentials.",
+    "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-06T20:56:41.000Z",
+    "fetchedAt": "2026-11-07T05:53:43.562Z"
+  },
+  {
+    "slug": "openai-unveils-gpt-6-cyber-massive-bug-finds-in-firefox-linu-2026-11-06",
+    "title": "OpenAI unveils GPT-6 Cyber, massive bug finds in Firefox, Linux",
+    "originalTitle": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+    "summary": "Expect a wave of AI-discovered bugs and exploit POCs, validate vendor advisories and prioritize patches, as OpenAI's GPT-6 Cyber claims massive findings in Firefox and Linux.",
+    "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-06T20:24:19.000Z",
+    "fetchedAt": "2026-11-07T05:53:43.562Z"
+  },
+  {
     "slug": "digicert-reports-breach-of-internal-business-system-2026-11-06",
     "title": "DigiCert reports breach of internal business system",
     "originalTitle": "Certificate authority DigiCert reports data breach involving business customer info",
@@ -3012,19 +3073,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-24T06:25:57.000Z",
     "fetchedAt": "2026-10-24T10:53:03.041Z"
-  },
-  {
-    "slug": "attackers-are-just-calling-your-help-desk-and-getting-in-2026-10-23",
-    "title": "Attackers are just calling your help desk and getting in",
-    "originalTitle": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
-    "summary": "Tighten help desk identity verification and MFA reset policies now, because AI voice and scripts let attackers social-engineer access without malware or exploits.",
-    "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-23T20:57:56.000Z",
-    "fetchedAt": "2026-10-23T21:22:29.552Z"
   }
 ]
