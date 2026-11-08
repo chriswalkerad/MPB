@@ -1,5 +1,47 @@
 [
   {
+    "slug": "2026-11-08",
+    "date": "2026-11-08",
+    "title": "Third parties, weak MFA, and leaked secrets",
+    "intro": "Supply chain and auth missteps are doing real damage. Patch edge gear, lock down third-party hooks, and keep users off the free gift card bait.",
+    "items": [
+      {
+        "heading": "Compromised service provider fuels $133M transfers at Arkéa",
+        "body": "Attackers rode a breached service provider to push about $133 million in fraudulent transfers at Crédit Mutuel Arkéa before systems were halted. If your environment allows third-party integrations to initiate money movement, your controls are only as strong as their security. Audit and limit third-party permissions, enforce dual approvals and transaction caps, and alert on unusual transfer patterns or off hours activity.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "service-provider-breach-drives-133m-fraud-at-cr-dit-mutuel-a-2026-11-07"
+      },
+      {
+        "heading": "Fake gift card giveaways harvest data and trigger charges",
+        "body": "CTM360 reports large campaigns impersonating brands and celebrities that harvest personal data and steer victims into paid subscriptions without delivering rewards. Expect more users to click and more help desk noise. Block known domains, tighten link filtering, add clear banners on external mail, and remind users that no real gift card needs a verification page.",
+        "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "fake-gift-card-giveaways-steal-data-and-money-via-bogus-veri-2026-11-07"
+      },
+      {
+        "heading": "SonicOS bug weakens VPN MFA, patch immediately",
+        "body": "SonicWall fixed an actively exploited flaw that lets attackers bypass SAML checks and MFA on VPNs by using other login method credentials. Update SonicOS now, then review authentication settings and logs for odd sessions and lock down fallback auth paths. If you use SAML, validate policies and disable unneeded methods.",
+        "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "sonicwall-fixes-exploited-sonicos-bug-that-weakens-vpn-mfa-2026-11-07"
+      },
+      {
+        "heading": "Claude Code saves secrets, 1,122 leaks via repo files",
+        "body": "The 'Don't Ask Again' feature can store approved commands with plaintext passwords and API keys in project settings files that often get committed, with 1,122 leaks identified. Audit your repos for these files, remove sensitive entries, and rotate exposed credentials. Add secrets scanning and pre-commit checks, and avoid committing tool settings that carry secrets.",
+        "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "claude-code-don-t-ask-again-saved-secrets-to-repos-1-122-lea-2026-11-07"
+      }
+    ],
+    "signOff": "Ship the patches, send the warning, and get on with your morning.",
+    "generatedAt": "2026-11-08T18:23:16.778Z"
+  },
+  {
     "slug": "2026-11-07",
     "date": "2026-11-07",
     "title": "Patch SonicWall, rotate keys, trust but verify AI tools",
@@ -2112,79 +2154,5 @@
     ],
     "signOff": "Alright, back to the queue.",
     "generatedAt": "2026-10-10T17:53:18.099Z"
-  },
-  {
-    "slug": "2026-10-09",
-    "date": "2026-10-09",
-    "title": "\"Exploit storm: patch SonicWall, NetScaler, KEV and backups\"",
-    "intro": "Edge and backup gear are under active fire. Expect a patch deluge after Pwn2Own, and plan for aging Windows boxes losing updates next year.",
-    "items": [
-      {
-        "heading": "SonicWall SMA1000 flaw under attack",
-        "body": "Attackers are exploiting CVE-2026-102255 in SMA1000 appliances. Update to the latest firmware immediately and review remote access logs for signs of misuse. If you cannot patch today, restrict exposure, disable unused portals, and watch for anomalies.",
-        "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "sonicwall-sma1000-flaw-under-attack-patch-now-2026-10-09"
-      },
-      {
-        "heading": "NetScaler critical RCE, patch now",
-        "body": "Citrix warned of CVE-2026-107406 in NetScaler ADC and Gateway that can enable remote code execution. Apply vendor fixes now and lock management access to trusted networks only. Prioritize internet facing instances and check for unusual activity.",
-        "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "citrix-netscaler-critical-rce-bug-urgent-patching-required-2026-10-09"
-      },
-      {
-        "heading": "CISA adds five to KEV, deadline looms",
-        "body": "After Flax Typhoon abuse, CISA added five vulnerabilities to the Known Exploited list with an Oct 11 federal deadline. Treat these as active threats and patch them across your fleet. Pull the KEV list today, map to your inventory, and allow exceptions only with compensating controls.",
-        "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "cisa-flags-five-exploited-bugs-patch-urgently-2026-10-09"
-      },
-      {
-        "heading": "AhsayCBS backup servers exploited",
-        "body": "Two AhsayCBS flaws, CVE-2026-105133 and CVE-2026-105134, are being exploited to bypass authentication and run OS commands. Patch or isolate these servers and audit for unauthorized backup jobs or shells. If exposed to the internet, put them behind VPN and rotate credentials.",
-        "url": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "ahsaycbs-backup-servers-hit-via-auth-bypass-and-command-inje-2026-10-09"
-      },
-      {
-        "heading": "Pwn2Own uncovers 98 zero-days",
-        "body": "Researchers popped 98 zero-days at Pwn2Own Ireland, so a wave of vendor fixes is coming. Track advisories for your stack and plan quick testing and rollout. Avoid change freezes that block security updates in the next few weeks.",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "pwn2own-ireland-finds-98-zero-days-expect-a-flood-of-patches-2026-10-09"
-      },
-      {
-        "heading": "Unsupported Windows will lose updates next year",
-        "body": "Microsoft says Windows systems past end of support will stop receiving security updates after next year's Windows Update certificate rotation. Inventory anything out of support and plan upgrades or isolation now. For stragglers, segment, restrict internet access, and add monitoring.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
-        "source": "BleepingComputer",
-        "category": "defense",
-        "storySlug": "unsupported-windows-devices-will-stop-getting-updates-next-y-2026-10-09"
-      },
-      {
-        "heading": "Your AI agents can be socially engineered",
-        "body": "AI agents with real authority can be tricked by prompt injection like humans fall for BEC. Lock down permissions, enforce approvals for sensitive actions, and train staff to spot and report agent misbehavior. Keep agents sandboxed, limit tools, and log everything.",
-        "url": "https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026",
-        "source": "Dark Reading",
-        "category": "ai-security",
-        "storySlug": "attackers-will-social-engineer-your-ai-agents-like-bec-victi-2026-10-09"
-      },
-      {
-        "heading": "Thousands of EU wind and solar systems exposed",
-        "body": "Researchers found 8,547 exposed interfaces at wind and solar sites, including control pages with stop buttons. If you manage OT or energy gear, get anything with a public IP off the internet and onto a secured remote access path. Review firewall rules and vendor defaults.",
-        "url": "https://www.helpnetsecurity.com/2026/10/09/eu-renewable-energy-cybersecurity/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "thousands-of-eu-wind-and-solar-systems-exposed-online-2026-10-09"
-      }
-    ],
-    "signOff": "Coffee, patches, logs in that order.",
-    "generatedAt": "2026-10-09T18:52:09.883Z"
   }
 ]
