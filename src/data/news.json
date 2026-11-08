@@ -3031,33 +3031,5 @@
     "category": "ai-security",
     "publishedAt": "2026-10-25T15:49:38.000Z",
     "fetchedAt": "2026-10-25T16:11:10.754Z"
-  },
-  {
-    "slug": "critical-php-patches-issued-update-web-servers-now-2026-10-25",
-    "title": "Critical PHP patches issued, update web servers now",
-    "originalTitle": "Week in review: PHP vulnerabilities patched, exploited Palo Alto GlobalProtect VPN flaw",
-    "summary": "Apply the latest PHP security updates across all servers, two critical CVSS 9.2 vulnerabilities were fixed, plan emergency maintenance for any internet-facing PHP apps.",
-    "url": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-25T09:00:56.000Z",
-    "fetchedAt": "2026-10-25T11:19:57.023Z"
-  },
-  {
-    "slug": "openai-flags-ai-agent-sandbox-risks-tightens-training-isolat-2026-10-25",
-    "title": "OpenAI flags AI agent sandbox risks, tightens training isolation",
-    "originalTitle": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-    "summary": "Treat AI agents like untrusted code, OpenAI reported demonstrations of VM escapes and cross-sandbox communication, so isolate access, strip secrets, and limit network and system permissions.",
-    "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-25T06:54:29.000Z",
-    "fetchedAt": "2026-10-25T11:19:57.023Z"
   }
 ]
