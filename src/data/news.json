@@ -1,5 +1,33 @@
 [
   {
+    "slug": "scans-spike-for-sshole-ssh-vuln-cve-2026-123158-2026-11-08",
+    "title": "Scans spike for 'sshole' SSH vuln CVE-2026-123158",
+    "originalTitle": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+    "summary": "Apply vendor fixes or mitigations for affected SSH servers, SANS honeypots are seeing a surge in attempts to exploit the newly disclosed 'sshole' vulnerability.",
+    "url": "https://isc.sans.edu/diary/rss/33498",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-08T15:44:33.000Z",
+    "fetchedAt": "2026-11-08T21:59:21.074Z"
+  },
+  {
+    "slug": "iris-ohyama-breach-exposes-7-7m-via-third-party-cloud-2026-11-08",
+    "title": "Iris Ohyama breach exposes 7.7M via third-party cloud",
+    "originalTitle": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+    "summary": "Expect phishing and data misuse, the retailer says 7.7 million customers' info was exposed after unauthorized access to a third-party cloud service.",
+    "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-08T15:43:08.000Z",
+    "fetchedAt": "2026-11-08T21:59:21.074Z"
+  },
+  {
     "slug": "service-provider-breach-drives-133m-fraud-at-cr-dit-mutuel-a-2026-11-07",
     "title": "Service provider breach drives $133M fraud at Crédit Mutuel Arkéa",
     "originalTitle": "Hackers pull off $133 million French bank heist via service provider",
@@ -2975,61 +3003,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-25T23:33:35.000Z",
     "fetchedAt": "2026-10-26T04:41:02.350Z"
-  },
-  {
-    "slug": "yara-x-1-22-0-lands-with-fixes-and-improvements-update-now-2026-10-25",
-    "title": "YARA-X 1.22.0 lands with fixes and improvements, update now",
-    "originalTitle": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
-    "summary": "Update YARA-X to 1.22.0 now, it packs 11 improvements and 9 bug fixes to stabilize scanning and rule authoring in your DFIR workflows.",
-    "url": "https://isc.sans.edu/diary/rss/33454",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-25T19:57:53.000Z",
-    "fetchedAt": "2026-10-25T20:47:19.352Z"
-  },
-  {
-    "slug": "tailscale-ssh-port-forwarding-can-allow-root-pivot-from-a-ha-2026-10-25",
-    "title": "Tailscale SSH port forwarding can allow root pivot from a hacked device",
-    "originalTitle": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-    "summary": "If you use Tailscale SSH with port forwarding, disable it and tighten ACLs now, a compromised device can pivot to root on other reachable servers.",
-    "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-25T17:44:09.000Z",
-    "fetchedAt": "2026-10-25T20:47:19.352Z"
-  },
-  {
-    "slug": "php2shell-cves-exploited-patch-fast-amid-widespread-scanning-2026-10-25",
-    "title": "PHP2Shell CVEs exploited, patch fast amid widespread scanning",
-    "originalTitle": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
-    "summary": "Patch CVE-2026-109618 and CVE-2026-109619 immediately, attackers are mass scanning and have breached at least one government entity using AI-assisted post-exploitation.",
-    "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-25T17:19:46.000Z",
-    "fetchedAt": "2026-10-25T20:47:19.352Z"
-  },
-  {
-    "slug": "malicious-agents-md-hijacks-ai-coding-agents-to-install-npm-2026-10-25",
-    "title": "Malicious AGENTS.md hijacks AI coding agents to install npm malware",
-    "originalTitle": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-    "summary": "Treat local files as untrusted and restrict AI coding agent permissions, a planted AGENTS.md in Downloads tricked an agent into installing a malicious npm package.",
-    "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-25T15:49:38.000Z",
-    "fetchedAt": "2026-10-25T16:11:10.754Z"
   }
 ]
