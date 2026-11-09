@@ -1,5 +1,127 @@
 [
   {
+    "slug": "openssh-sshole-bug-is-being-exploited-patch-now-2026-11-09",
+    "title": "OpenSSH 'SSHole' bug is being exploited, patch now",
+    "originalTitle": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+    "summary": "Patch OpenSSH immediately and disable password logins where possible, attackers are exploiting the SSHole auth bypass to run commands, steal creds, and persist on Linux hosts.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-09T16:04:57.000Z",
+    "fetchedAt": "2026-11-09T16:26:59.542Z"
+  },
+  {
+    "slug": "ai-assistant-plug-in-abused-to-breach-german-web-host-2026-11-09",
+    "title": "AI assistant plug-in abused to breach German web host",
+    "originalTitle": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+    "summary": "Audit and restrict any AI assistant integrations, attackers leveraged a customer assistant interface to gain access to accounts and exfiltrate data from a hosting provider.",
+    "url": "https://therecord.media/cyberattack-germany-ai-mittwald",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-09T14:15:00.000Z",
+    "fetchedAt": "2026-11-09T16:26:59.542Z"
+  },
+  {
+    "slug": "pypi-adds-security-tab-to-show-release-attestations-2026-11-09",
+    "title": "PyPI adds Security tab to show release attestations",
+    "originalTitle": "PyPI makes release attestations easier to find with new security tab",
+    "summary": "Developers should use the new Security tab to verify package provenance and adopt release attestations, making it easier to spot tampered files and reduce supply chain risk.",
+    "url": "https://www.helpnetsecurity.com/2026/11/09/pypi-security-tab-release-attestations/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-09T13:23:29.000Z",
+    "fetchedAt": "2026-11-09T16:26:59.542Z"
+  },
+  {
+    "slug": "qnap-nas-hit-by-plex2shell-exploits-update-plex-media-server-2026-11-09",
+    "title": "QNAP NAS hit by Plex2Shell exploits, update Plex Media Server",
+    "originalTitle": "Plex2Shell Exploited Against QNAP NAS Users",
+    "summary": "Update or disable Plex Media Server on QNAP NAS immediately, a four-bug chain is being used to gain code execution and compromise devices exposed to the internet.",
+    "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-09T13:13:28.000Z",
+    "fetchedAt": "2026-11-09T16:26:59.542Z"
+  },
+  {
+    "slug": "deepfake-ceos-steal-129-million-tighten-payment-verification-2026-11-09",
+    "title": "Deepfake CEOs steal $129 million, tighten payment verification",
+    "originalTitle": "Trio accused of using deepfake CEOs and bogus lawyers to scam businesses out of $129 million",
+    "summary": "Reinforce out-of-band verification, separation of duties, and spending limits, attackers used deepfake executives and bogus attorneys to trick employees into wiring large transfers.",
+    "url": "https://www.helpnetsecurity.com/2026/11/09/deepfake-ceo-fraud-129-million-indictment/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-09T11:47:43.000Z",
+    "fetchedAt": "2026-11-09T16:26:59.542Z"
+  },
+  {
+    "slug": "sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-mfa-fix-fa-2026-11-09",
+    "title": "SonicWall SSL-VPN flaw lets attackers bypass SAML MFA, fix fast",
+    "originalTitle": "Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868)",
+    "summary": "Install SonicOS patches now, the exploited bug allows attackers with valid credentials to bypass SAML-enforced MFA on SSL-VPN portals and there is no workaround.",
+    "url": "https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-09T10:30:25.000Z",
+    "fetchedAt": "2026-11-09T16:26:59.542Z"
+  },
+  {
+    "slug": "ai-advances-make-rsa-1024-cheaper-to-break-retire-weak-keys-2026-11-09",
+    "title": "AI advances make RSA-1024 cheaper to break, retire weak keys",
+    "originalTitle": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
+    "summary": "Inventory systems and devices for legacy 1024-bit RSA and SHA-1, migrate to modern crypto like RSA-2048 or ECDSA, as AI-assisted techniques lower signature forgery costs.",
+    "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-09T08:35:50.000Z",
+    "fetchedAt": "2026-11-09T16:26:59.542Z"
+  },
+  {
+    "slug": "attackers-target-refrigeration-controllers-patch-and-lock-do-2026-11-09",
+    "title": "Attackers target refrigeration controllers, patch and lock down",
+    "originalTitle": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+    "summary": "If you support supermarkets or cold storage, remove internet exposure, update firmware, enforce strong credentials, and monitor for setpoint changes or odd traffic per US warnings.",
+    "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/09/copeland-xweb-refrigeration-controllers-spam-botnet/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-09T06:15:10.000Z",
+    "fetchedAt": "2026-11-09T16:26:59.542Z"
+  },
+  {
     "slug": "cisa-sonicwall-sonicos-mfa-bypass-added-to-kev-patch-now-2026-11-09",
     "title": "CISA: SonicWall SonicOS MFA bypass added to KEV, patch now",
     "originalTitle": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
@@ -2827,190 +2949,5 @@
     "category": "threats",
     "publishedAt": "2026-10-26T18:01:40.000Z",
     "fetchedAt": "2026-10-26T22:38:03.443Z"
-  },
-  {
-    "slug": "fake-it-on-microsoft-teams-is-dropping-ransomware-2026-10-26",
-    "title": "Fake IT on Microsoft Teams is dropping ransomware",
-    "originalTitle": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-    "summary": "Disable or restrict external chats, train users to verify IT requests, and monitor for Teams phishing as actors use spoofed tenants to push malware and ransomware.",
-    "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-26T15:52:40.000Z",
-    "fetchedAt": "2026-10-26T22:38:03.443Z"
-  },
-  {
-    "slug": "patch-net-now-microsoft-fixes-critical-brotli-bug-across-sta-2026-10-26",
-    "title": "Patch .NET now: Microsoft fixes critical Brotli bug across stacks",
-    "originalTitle": "Microsoft releases emergency .NET patches for critical Brotli flaw",
-    "summary": "Apply the out-of-band .NET updates and vendor patches for the Brotli decompression flaw today, the same class of bug is rippling across Node.js, PHP for Windows and industrial products.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html"
-      },
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-26T15:38:24.000Z",
-    "fetchedAt": "2026-10-26T22:38:03.443Z"
-  },
-  {
-    "slug": "dahua-cameras-hijacked-to-create-rogue-admins-warns-cert-ua-2026-10-26",
-    "title": "Dahua cameras hijacked to create rogue admins, warns CERT-UA",
-    "originalTitle": "Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
-    "summary": "Inventory and segment IP cameras, update firmware, change default creds, and disable cloud features after reports of mass compromises and rogue admin accounts on Dahua gear.",
-    "url": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-26T14:21:00.000Z",
-    "fetchedAt": "2026-10-26T22:38:03.443Z"
-  },
-  {
-    "slug": "nist-cisa-and-nsa-publish-playbook-for-ai-agent-incidents-2026-10-26",
-    "title": "NIST, CISA and NSA publish playbook for AI agent incidents",
-    "originalTitle": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
-    "summary": "Treat runaway AI agents like any other incident, define ownership and identities now, and rehearse containment and rollback before a model acts under your authority.",
-    "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-26T14:00:10.000Z",
-    "fetchedAt": "2026-10-26T22:38:03.443Z"
-  },
-  {
-    "slug": "long-running-malware-campaign-hits-953-online-stores-2026-10-26",
-    "title": "Long-running malware campaign hits 953 online stores",
-    "originalTitle": "953 Online Stores Infected in Long-Lasting Malware Campaign",
-    "summary": "Audit your ecommerce sites for injected loader scripts and web skimmers, update CMS and plugins, and deploy CSP and integrity checks to stop card-stealing malware.",
-    "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-26T12:46:44.000Z",
-    "fetchedAt": "2026-10-26T12:54:20.261Z"
-  },
-  {
-    "slug": "cisa-adds-exploited-php-bugs-to-kev-patch-now-2026-10-26",
-    "title": "CISA adds exploited PHP bugs to KEV, patch now",
-    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "summary": "Patch or take vulnerable PHP installs offline immediately, CVE-2026-109618 and CVE-2026-109619 are actively exploited and pose significant risk to internet‑facing apps.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-26T12:00:00.000Z",
-    "fetchedAt": "2026-10-27T04:58:40.901Z"
-  },
-  {
-    "slug": "litellm-key-leak-led-to-supply-chain-attack-on-thousands-2026-10-26",
-    "title": "LiteLLM key leak led to supply-chain attack on thousands",
-    "originalTitle": "Popular AI tool LiteLLM says unrevoked key allowed hackers to target users",
-    "summary": "If you use LiteLLM, rotate keys, audit logs, and pin trusted releases, as an unrevoked exposed key enabled attacker targeting of the tool’s users at scale.",
-    "url": "https://therecord.media/litellm-hackers-ai-malware",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-26T12:00:00.000Z",
-    "fetchedAt": "2026-10-26T12:54:20.261Z"
-  },
-  {
-    "slug": "fortinet-fixes-critical-fortios-bugs-update-now-2026-10-26",
-    "title": "Fortinet fixes critical FortiOS bugs, update now",
-    "originalTitle": "Fortinet patches critical FortiOS flaws found with AI help",
-    "summary": "Patch FortiOS and related Fortinet products immediately, details are embargoed until November 10 so reduce exposure by upgrading and limiting management access from the internet.",
-    "url": "https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-26T11:22:52.000Z",
-    "fetchedAt": "2026-10-26T12:54:20.261Z"
-  },
-  {
-    "slug": "brotli-bug-hits-node-js-net-python-patch-now-2026-10-26",
-    "title": "Brotli bug hits Node.js, .NET, Python, patch now",
-    "originalTitle": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
-    "summary": "Update any software using the Brotli decoder, including Node.js, .NET, PowerShell, and Python packages, as an out-of-bounds write can allow code execution across popular stacks.",
-    "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-26T10:21:57.000Z",
-    "fetchedAt": "2026-10-26T12:54:20.261Z"
-  },
-  {
-    "slug": "php2shell-rce-flaws-are-being-exploited-patch-immediately-2026-10-26",
-    "title": "PHP2Shell RCE flaws are being exploited, patch immediately",
-    "originalTitle": "PHP2Shell security flaws now sucessfully exploited in the wild",
-    "summary": "Apply vendor fixes for CVE-2026-109618 and CVE-2026-109619 now, attackers are actively exploiting these PHP remote code execution bugs so minimize exposure and review web server logs.",
-    "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-26T09:19:57.000Z",
-    "fetchedAt": "2026-10-26T12:54:20.261Z"
-  },
-  {
-    "slug": "token-replay-attacks-hijack-m365-email-at-79-orgs-2026-10-26",
-    "title": "Token replay attacks hijack M365 email at 79 orgs",
-    "originalTitle": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-    "summary": "Harden Microsoft 365 by enforcing phishing-resistant MFA, conditional access, and token revocation, as AitM relays are replaying stolen tokens to access mailboxes across many tenants.",
-    "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-26T08:35:51.000Z",
-    "fetchedAt": "2026-10-26T12:54:20.261Z"
-  },
-  {
-    "slug": "attackers-steal-github-tokens-to-dump-secrets-via-actions-lo-2026-10-26",
-    "title": "Attackers steal GitHub tokens to dump secrets via Actions logs",
-    "originalTitle": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-    "summary": "Rotate GitHub tokens, audit Actions workflows and logs, and move to OIDC with least privilege because attackers are planting jobs that print and exfiltrate repository secrets.",
-    "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-26T07:49:46.000Z",
-    "fetchedAt": "2026-10-26T12:54:20.261Z"
   }
 ]
