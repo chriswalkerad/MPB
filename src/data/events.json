@@ -22410,5 +22410,55 @@
     "url": "https://cybersecuritysummit.com/summits/",
     "source": "Cybersecurity Summit",
     "description": "A focused one-day summit in Charlotte connecting senior security leaders with top solution providers at The Westin Charlotte. Expect sessions and networking, useful if you want to compare tools and ideas in one place."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Ransomware Resilience",
+    "slug": "the-official-cybersecurity-summit-ransomware-resilience-2027",
+    "date": "2027-01-27T11:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Incident Response",
+      "Threat Intelligence"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "A focused virtual summit on ransomware strategy and defenses. If backups, detection, and response keep you up at night, this is a solid half day well spent."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Third-Party Supply Chain Security",
+    "slug": "the-official-cybersecurity-summit-third-party-supply-chain-s-2027",
+    "date": "2027-02-24T11:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Compliance & GRC",
+      "Threat Intelligence"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "A virtual summit on third-party and supply chain risk with a security lens. Useful for teams managing vendor risk and software dependencies."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Identity",
+    "slug": "the-official-cybersecurity-summit-identity-2027",
+    "date": "2027-03-17T11:00:00",
+    "type": "conference",
+    "format": "virtual",
+    "city": "Virtual",
+    "region": "virtual",
+    "cost": "",
+    "tags": [
+      "Identity & Access"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "This virtual event centers on identity and access challenges across modern environments. Good fit for practitioners tightening IAM controls without crushing UX."
   }
 ]
