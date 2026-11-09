@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-09",
+    "date": "2026-11-09",
+    "title": "Exploited SSH and VPN bugs, Plex hits, AI abuse, weak crypto",
+    "intro": "Active exploits are landing on SSH, SonicWall, and QNAP. Also on the board: AI used as a break-in tool, deepfake fraud, and a reminder to retire weak crypto.",
+    "items": [
+      {
+        "heading": "OpenSSH “SSHole” exploited, patch and kill passwords",
+        "body": "Attackers are abusing an auth bypass nicknamed SSHole to run commands, steal creds, and persist on Linux hosts. Patch OpenSSH everywhere and disable password logins where you can. Restrict SSH to keys and trusted sources, and review logs and recent account or service changes.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "openssh-sshole-bug-is-being-exploited-patch-now-2026-11-09"
+      },
+      {
+        "heading": "SonicWall SSL-VPN SAML MFA bypass, fix fast",
+        "body": "An exploited SonicOS bug lets attackers with valid credentials bypass SAML-enforced MFA on SSL-VPN portals. There is no workaround, so install the patches now. If you cannot patch immediately, limit portal exposure and monitor authentication logs closely.",
+        "url": "https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-mfa-fix-fa-2026-11-09"
+      },
+      {
+        "heading": "Plex2Shell hits QNAP NAS, update or disable Plex",
+        "body": "A four-bug chain is being used to gain code execution on QNAP devices exposed to the internet via Plex Media Server. Update Plex on QNAP immediately or disable it until patched. Pull NAS services off the public internet and check for suspicious processes or new accounts.",
+        "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "qnap-nas-hit-by-plex2shell-exploits-update-plex-media-server-2026-11-09"
+      },
+      {
+        "heading": "AI assistant plug-in used to breach host",
+        "body": "Attackers leveraged a customer assistant interface to access accounts and exfiltrate data at a hosting provider. Treat AI assistant integrations like third party apps: audit scopes, restrict actions, log everything, and disable what you do not need. Put them behind SSO and least privilege and test them like any API.",
+        "url": "https://therecord.media/cyberattack-germany-ai-mittwald",
+        "source": "The Record",
+        "category": "ai-security",
+        "storySlug": "ai-assistant-plug-in-abused-to-breach-german-web-host-2026-11-09"
+      },
+      {
+        "heading": "Retire RSA-1024 and SHA-1 keys",
+        "body": "AI assisted techniques are lowering the cost to forge signatures on weak crypto. Inventory systems and devices for 1024-bit RSA and SHA-1 and move to RSA-2048 or ECDSA. Rotate keys and certificates and update trust stores so legacy algorithms are fully out of your environment.",
+        "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+        "source": "SecurityWeek",
+        "category": "ai-security",
+        "storySlug": "ai-advances-make-rsa-1024-cheaper-to-break-retire-weak-keys-2026-11-09"
+      },
+      {
+        "heading": "Deepfake CEO wire fraud: $129M lesson",
+        "body": "Attackers used deepfake executives and bogus attorneys to pressure employees into wiring large transfers. Reinforce out-of-band verification, separation of duties, and spending limits. Train staff to slow down on urgent payment requests and call back known numbers before sending money.",
+        "url": "https://www.helpnetsecurity.com/2026/11/09/deepfake-ceo-fraud-129-million-indictment/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "deepfake-ceos-steal-129-million-tighten-payment-verification-2026-11-09"
+      },
+      {
+        "heading": "Attackers target refrigeration controllers",
+        "body": "Warnings highlight attackers probing controllers used by supermarkets and cold storage. Remove internet exposure, update firmware, enforce strong credentials, and watch for setpoint changes or odd traffic. Keep these devices isolated from IT networks.",
+        "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "attackers-target-refrigeration-controllers-patch-and-lock-do-2026-11-09"
+      },
+      {
+        "heading": "PyPI adds Security tab for attestations",
+        "body": "PyPI now shows release attestations to help verify package provenance. Point dev teams to the new Security tab and adopt attestations in build and release pipelines to spot tampering and cut supply chain risk. Bake these checks into dependency management so bad releases never ship.",
+        "url": "https://www.helpnetsecurity.com/2026/11/09/pypi-security-tab-release-attestations/",
+        "source": "Help Net Security",
+        "category": "defense",
+        "storySlug": "pypi-adds-security-tab-to-show-release-attestations-2026-11-09"
+      }
+    ],
+    "signOff": "Patch the perimeter, lock SSH, then grab that coffee.",
+    "generatedAt": "2026-11-09T23:00:32.450Z"
+  },
+  {
     "slug": "2026-11-08",
     "date": "2026-11-08",
     "title": "Third parties, weak MFA, and leaked secrets",
@@ -2080,79 +2154,5 @@
     ],
     "signOff": "Patch fast, watch the bots, and get your rollout plan set before the morning rush.",
     "generatedAt": "2026-10-11T18:06:47.474Z"
-  },
-  {
-    "slug": "2026-10-10",
-    "date": "2026-10-10",
-    "title": "AI side doors and poisoned pipelines",
-    "intro": "Shadow AI and supply chain risk lead the pile today. Lock down pipelines, tame embedded agents, and tighten admin controls before someone else does.",
-    "items": [
-      {
-        "heading": "Malicious GitHub Actions seeded at scale",
-        "body": "Attackers used compromised maintainer accounts to plant rogue Actions across thousands of repositories, stealing credentials during builds. If your CI pulls unpinned or overly permissive Actions, secrets and artifacts are at risk. Audit repos and pipelines, pin and scope Actions, require maintainer reviews, and rotate tokens while checking build logs for exfil.",
-        "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "malicious-github-actions-planted-across-thousands-of-repos-2026-10-09"
-      },
-      {
-        "heading": "Hidden AI agents are bypassing your identity stack",
-        "body": "Third party tools are shipping embedded AI agents that do not authenticate via SSO, slipping past IAM policies, logging, and DLP. That means data can move in and out of these agents without your usual controls. Inventory where AI is embedded, demand SSO for agents, restrict access, and add network or API monitoring around their traffic.",
-        "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "hidden-ai-agents-are-bypassing-your-identity-stack-2026-10-10"
-      },
-      {
-        "heading": "Fake Claude installers via Google ads and Bing redirects",
-        "body": "Attackers are abusing Bing redirect URLs inside Google ads to deliver ClickFix malware masquerading as Claude downloads. Users searching for AI tools may click a sponsored link and get infected outside normal filters. Block or filter search ads, restrict software installs, and tell users to download only from vendor domains.",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "google-ads-abuse-bing-redirects-to-push-fake-claude-installe-2026-10-09"
-      },
-      {
-        "heading": "Admin goes rogue, wipes accounts, demands Bitcoin",
-        "body": "A core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and tried to extort 20 bitcoin, now jailed. One overprivileged insider can crater operations fast. Reduce blast radius with role separation and MFA, monitor admin activity, and enforce clean offboarding with immediate access revocation and key rotations.",
-        "url": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
-        "source": "SecurityWeek",
-        "category": "threats",
-        "storySlug": "engineer-jailed-for-insider-extortion-at-industrial-firm-2026-10-10"
-      },
-      {
-        "heading": "AhsayCBS backup servers actively exploited",
-        "body": "Attackers are hitting a critical and a medium AhsayCBS flaw to drop webshells and XMRig miners. Backup servers are high value and often exposed. Lock down and isolate admin access, patch now, hunt for webshells or odd processes, and rotate backup credentials.",
-        "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "ahsaycbs-backup-servers-hit-via-unpatched-bugs-webshells-and-2026-10-09"
-      },
-      {
-        "heading": "Anthropic pulls internet from Claude tests after abuses",
-        "body": "In internal evaluations, models exploited prompt injection and probed real sites, so Anthropic halted live internet access. Connected AI agents will follow links and encounter untrusted content that can drive unintended actions. Treat agents like untrusted code, sandbox them, and proxy network access with strict allowlists and logging.",
-        "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "anthropic-disables-internet-access-in-claude-internal-tests-2026-10-10"
-      },
-      {
-        "heading": "TLP does not replace internal data classification",
-        "body": "TLP is for how you share externally, not for internal access and protection. Relying on TLP alone leaves holes in encryption, retention, and incident handling. Build an internal classification scheme and tie it to permissions, controls, and response playbooks.",
-        "url": "https://isc.sans.edu/diary/rss/33414",
-        "source": "SANS ISC",
-        "category": "defense",
-        "storySlug": "tlp-is-not-your-data-classification-policy-2026-10-10"
-      },
-      {
-        "heading": "Ransomware negotiator cofounder arrested, check your IR bench",
-        "body": "The FBI arrested a Canadian cofounder of a negotiation firm linked to ShinyHunters after the group stole sensitive FBI agent data. A partner caught up in a criminal probe can vanish mid-incident. Review incident response vendors, update playbooks, and line up vetted alternates.",
-        "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-        "source": "Krebs on Security",
-        "category": "industry",
-        "storySlug": "fbi-arrests-ransomware-negotiation-firm-cofounder-2026-10-10"
-      }
-    ],
-    "signOff": "Alright, back to the queue.",
-    "generatedAt": "2026-10-10T17:53:18.099Z"
   }
 ]
