@@ -1,5 +1,61 @@
 [
   {
+    "slug": "cisa-sonicwall-sonicos-mfa-bypass-added-to-kev-patch-now-2026-11-09",
+    "title": "CISA: SonicWall SonicOS MFA bypass added to KEV, patch now",
+    "originalTitle": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+    "summary": "Patch affected SonicWall SonicOS devices now, CISA added CVE-2026-19868 to KEV after reports of MFA bypass exploitation, and lock down management access while monitoring auth logs.",
+    "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-09T06:05:24.000Z",
+    "fetchedAt": "2026-11-09T06:17:40.067Z"
+  },
+  {
+    "slug": "open-source-gateway-fences-ai-agents-in-chat-apps-2026-11-09",
+    "title": "Open-source gateway fences AI agents in chat apps",
+    "originalTitle": "Wirken: Open-source AI agent gateway",
+    "summary": "If your clients run AI agents in chat, put them behind Wirken to restrict network and file access so a compromised agent cannot exfiltrate secrets or run commands.",
+    "url": "https://www.helpnetsecurity.com/2026/11/09/wirken-open-source-ai-agent-gateway/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-09T06:00:12.000Z",
+    "fetchedAt": "2026-11-09T06:17:40.067Z"
+  },
+  {
+    "slug": "msp-buyers-want-recovery-and-ai-risk-help-survey-says-2026-11-09",
+    "title": "MSP buyers want recovery and AI risk help, survey says",
+    "originalTitle": "Companies seeking an MSP doubt their ability to spot cyberattacks",
+    "summary": "Tune your MSP pitch to emphasize incident recovery, AI risk management, and plain-language impact explanations, as most buyers doubt their own attack detection and already outsource security.",
+    "url": "https://www.helpnetsecurity.com/2026/11/09/barracuda-msp-cybersecurity-services-expectations-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "msp-channel",
+    "publishedAt": "2026-11-09T06:00:05.000Z",
+    "fetchedAt": "2026-11-09T06:17:40.067Z"
+  },
+  {
+    "slug": "stolen-creds-used-in-8-minutes-rmm-tools-abused-2026-11-09",
+    "title": "Stolen creds used in 8 minutes, RMM tools abused",
+    "originalTitle": "An average of 8 minutes is all hackers need to log in with stolen credentials",
+    "summary": "Assume stolen credentials will be used within minutes, enforce MFA and conditional access, monitor for infostealers, and lock down or monitor signed RMM tools that attackers repurpose for persistence.",
+    "url": "https://www.helpnetsecurity.com/2026/11/09/elastic-businesses-remote-access-attacks-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-09T05:00:39.000Z",
+    "fetchedAt": "2026-11-09T06:17:40.067Z"
+  },
+  {
     "slug": "scans-spike-for-sshole-ssh-vuln-cve-2026-123158-2026-11-08",
     "title": "Scans spike for 'sshole' SSH vuln CVE-2026-123158",
     "originalTitle": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
@@ -2956,52 +3012,5 @@
     "category": "threats",
     "publishedAt": "2026-10-26T07:49:46.000Z",
     "fetchedAt": "2026-10-26T12:54:20.261Z"
-  },
-  {
-    "slug": "malicious-downloads-file-can-hijack-ai-coding-agents-2026-10-26",
-    "title": "Malicious Downloads file can hijack AI coding agents",
-    "originalTitle": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-    "summary": "Lock down agent permissions and avoid running coding agents in untrusted folders, a planted AGENTS.md in Downloads can trick them into installing malware or leaking tokens.",
-    "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/26/ai-coding-agents-malware-openai-codex/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-26T06:03:48.000Z",
-    "fetchedAt": "2026-10-26T12:54:20.261Z"
-  },
-  {
-    "slug": "google-open-sources-plugin-to-catch-ai-coding-agent-mistakes-2026-10-26",
-    "title": "Google open-sources plugin to catch AI coding agent mistakes",
-    "originalTitle": "Google open-sources the Elephant-Goldfish Model plugin its engineers use to catch AI coding mistakes",
-    "summary": "Adopt Google's Elephant-Goldfish plugin to force AI coding agents to write and defend design docs, improving code safety by pitting fresh models against flawed plans before any code ships.",
-    "url": "https://www.helpnetsecurity.com/2026/10/26/google-elephant-goldfish-model-plugin/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-26T04:25:59.000Z",
-    "fetchedAt": "2026-10-26T04:41:02.350Z"
-  },
-  {
-    "slug": "openssl-4-1-0-adds-dtls-1-3-known-bugs-mean-caution-2026-10-25",
-    "title": "OpenSSL 4.1.0 adds DTLS 1.3, known bugs mean caution",
-    "originalTitle": "OpenSSL 4.1.0: What’s new, what’s removed, and what’s still broken",
-    "summary": "Hold production upgrades or disable DTLS 1.3, OpenSSL 4.1.0 ships with documented DTLS flaws that can misparse traffic and break listeners, so test thoroughly and watch for fixes.",
-    "url": "https://www.helpnetsecurity.com/2026/10/26/openssl-4-1-0-released/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-25T23:33:35.000Z",
-    "fetchedAt": "2026-10-26T04:41:02.350Z"
   }
 ]
