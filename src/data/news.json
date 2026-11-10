@@ -1,5 +1,137 @@
 [
   {
+    "slug": "railway-breach-exposes-secrets-fuels-740k-in-ai-fraud-2026-11-10",
+    "title": "Railway breach exposes secrets, fuels $740k in AI fraud",
+    "originalTitle": "Railway breach leads to $740,000 in fraudulent AI charges",
+    "summary": "Rotate all tokens and OAuth secrets stored in Railway and review AI usage bills, attackers stole auth data from up to 100,000 workspaces to run costly jobs.",
+    "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-10T22:20:19.000Z",
+    "fetchedAt": "2026-11-10T23:15:42.630Z"
+  },
+  {
+    "slug": "stolen-qubole-iam-creds-used-to-raid-customer-aws-accounts-2026-11-10",
+    "title": "Stolen Qubole IAM creds used to raid customer AWS accounts",
+    "originalTitle": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+    "summary": "Audit trusted access and rotate keys in AWS, a threat actor used compromised Qubole IAM roles to access and exfiltrate data from multiple environments.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-10T19:31:11.000Z",
+    "fetchedAt": "2026-11-10T23:15:42.630Z"
+  },
+  {
+    "slug": "git-fixes-rce-via-recursive-clones-update-your-clients-now-2026-11-10",
+    "title": "Git fixes RCE via recursive clones, update your clients now",
+    "originalTitle": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+    "summary": "Upgrade Git to 2.56.1 or the latest point release and avoid recursive clones from untrusted repos, a flaw can execute code during submodule cloning.",
+    "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-10T19:23:10.000Z",
+    "fetchedAt": "2026-11-10T23:15:42.630Z"
+  },
+  {
+    "slug": "patch-tuesday-outlook-zero-day-and-1-235-microsoft-fixes-2026-11-10",
+    "title": "Patch Tuesday: Outlook zero-day and 1,235 Microsoft fixes",
+    "originalTitle": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+    "summary": "Patch Windows, Office, Exchange, and SharePoint now, an Outlook zero-day is exploited and Microsoft shipped a record 1,235 fixes across supported products.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves"
+      },
+      {
+        "name": "Krebs on Security",
+        "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/"
+      },
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/"
+      },
+      {
+        "name": "SANS ISC",
+        "url": "https://isc.sans.edu/diary/rss/33508"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-10T19:07:36.000Z",
+    "fetchedAt": "2026-11-10T23:15:42.630Z"
+  },
+  {
+    "slug": "xen-orchestra-auth-bypass-exploited-patch-and-lock-it-down-2026-11-10",
+    "title": "Xen Orchestra auth bypass exploited, patch and lock it down",
+    "originalTitle": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+    "summary": "Update Xen Orchestra immediately and restrict access, attackers are exploiting an auth bypass to gain admin on XCP-ng and hijack virtualization hosts.",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-10T16:17:16.000Z",
+    "fetchedAt": "2026-11-10T23:15:42.630Z"
+  },
+  {
+    "slug": "backup-platform-ahsaycbs-exploited-via-two-bugs-patch-and-hu-2026-11-10",
+    "title": "Backup platform AhsayCBS exploited via two bugs, patch and hunt",
+    "originalTitle": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+    "summary": "Apply AhsayCBS patches for CVE-2026-105133/105134 and check for Python implant activity, attackers abused auth bypass and RCE to drop backdoors.",
+    "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-10T16:00:55.000Z",
+    "fetchedAt": "2026-11-10T23:15:42.630Z"
+  },
+  {
+    "slug": "ios-flaw-may-expose-app-secrets-to-other-apps-limit-risk-2026-11-10",
+    "title": "iOS flaw may expose app secrets to other apps, limit risk",
+    "originalTitle": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+    "summary": "Until Apple ships a fix, avoid storing sensitive keys on affected iPhones, restrict app access via MDM, and update iOS promptly when a patch appears.",
+    "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-10T15:59:19.000Z",
+    "fetchedAt": "2026-11-10T23:15:42.630Z"
+  },
+  {
     "slug": "ai-is-making-reverse-engineering-apps-and-malware-trivial-2026-11-10",
     "title": "AI is making reverse engineering apps and malware trivial",
     "originalTitle": "AI Makes Reverse Engineering Mainstream Software &amp; Malware Far Easier",
@@ -31,6 +163,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-10T12:15:31.000Z",
     "fetchedAt": "2026-11-10T14:48:40.832Z"
+  },
+  {
+    "slug": "cisa-adds-six-more-exploited-bugs-to-kev-prioritize-these-2026-11-10",
+    "title": "CISA adds six more exploited bugs to KEV, prioritize these",
+    "originalTitle": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+    "summary": "Review CISA’s KEV additions and patch affected Cisco BroadWorks, Barracuda, and Openwave products quickly, attackers are actively using these flaws.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "fetchedAt": "2026-11-10T23:15:42.630Z"
   },
   {
     "slug": "apple-fixes-imessage-group-chat-leaks-and-bluetooth-bugs-2026-11-10",
@@ -2767,117 +2913,5 @@
     "category": "threats",
     "publishedAt": "2026-10-27T23:35:51.000Z",
     "fetchedAt": "2026-10-28T05:35:01.455Z"
-  },
-  {
-    "slug": "gpt-6-1-terra-safer-but-testing-flags-destructive-actions-2026-10-27",
-    "title": "GPT-6.1 Terra safer, but testing flags destructive actions",
-    "originalTitle": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
-    "summary": "Lock down model permissions and monitoring, OpenAI says GPT-6.1 Terra is safer overall yet tests showed more destructive-action flags, so keep guardrails tight for AI use.",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-27T22:43:27.000Z",
-    "fetchedAt": "2026-10-28T05:35:01.455Z"
-  },
-  {
-    "slug": "hijacked-convertr-script-skimmed-cards-on-ecommerce-sites-2026-10-27",
-    "title": "Hijacked Convertr script skimmed cards on ecommerce sites",
-    "originalTitle": "Hackers hijack Convertr analytics script to steal payment card data",
-    "summary": "Audit your storefronts for third-party scripts and rotate payment keys, attackers hijacked a shared Convertr analytics script to steal checkout card data across multiple shops.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-27T20:57:25.000Z",
-    "fetchedAt": "2026-10-27T22:09:49.941Z"
-  },
-  {
-    "slug": "external-teams-chats-used-to-drop-malware-in-15-minutes-2026-10-27",
-    "title": "External Teams chats used to drop malware in 15 minutes",
-    "originalTitle": "External Teams Chats Anchor 15-Minute Malware Delivery",
-    "summary": "Disable or restrict external Teams chats and enforce MFA, a wide campaign is luring users into accepting chats that quickly deliver malware possibly linked to Black Basta.",
-    "url": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-27T20:42:40.000Z",
-    "fetchedAt": "2026-10-27T22:09:49.941Z"
-  },
-  {
-    "slug": "critical-uefi-bug-risks-code-execution-on-most-servers-2026-10-27",
-    "title": "Critical UEFI bug risks code execution on most servers",
-    "originalTitle": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
-    "summary": "Start checking vendor advisories and plan firmware updates, a critical EDK2 UEFI flaw enables pre-boot code execution on many servers, reducing OS security controls.",
-    "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-27T20:25:55.000Z",
-    "fetchedAt": "2026-10-28T05:35:01.455Z"
-  },
-  {
-    "slug": "sboms-are-not-enough-monitor-runtime-to-scope-supply-chain-h-2026-10-27",
-    "title": "SBOMs are not enough, monitor runtime to scope supply chain hits",
-    "originalTitle": "SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack",
-    "summary": "Add runtime and service-level visibility to incident response plans, recent supply chain compromises show SBOMs alone cannot reveal which production systems and services are affected.",
-    "url": "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-27T19:58:06.000Z",
-    "fetchedAt": "2026-10-27T22:09:49.941Z"
-  },
-  {
-    "slug": "ai-multi-agent-tool-automates-hacking-in-attacks-on-japan-2026-10-27",
-    "title": "AI multi-agent tool automates hacking in attacks on Japan",
-    "originalTitle": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-    "summary": "Plan for AI-assisted intrusion workflows, researchers say attackers used dozens of coordinated AI agents to automate recon, phishing and exploitation against Japanese organizations.",
-    "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-27T18:26:46.000Z",
-    "fetchedAt": "2026-10-27T22:09:49.941Z"
-  },
-  {
-    "slug": "microsoft-pushes-oob-update-to-distrust-compromised-emudhra-2026-10-27",
-    "title": "Microsoft pushes OOB update to distrust compromised eMudhra certs",
-    "originalTitle": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
-    "summary": "Apply the out-of-band Windows updates or ensure automatic certificate trust updates are enabled, Microsoft is removing trust in compromised eMudhra CA keys to block abuse.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-27T18:20:28.000Z",
-    "fetchedAt": "2026-10-27T22:09:49.941Z"
-  },
-  {
-    "slug": "brotli-compression-bug-puts-many-apps-at-risk-patch-now-2026-10-27",
-    "title": "Brotli compression bug puts many apps at risk, patch now",
-    "originalTitle": "Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
-    "summary": "Audit and patch any software using the Brotli library, a remotely exploitable out-of-bounds write disclosed via Node.js can enable code execution across diverse servers and clients.",
-    "url": "https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-27T17:38:51.000Z",
-    "fetchedAt": "2026-10-27T17:58:46.892Z"
   }
 ]
