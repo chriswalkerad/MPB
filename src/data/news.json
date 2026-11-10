@@ -1,5 +1,155 @@
 [
   {
+    "slug": "ai-is-making-reverse-engineering-apps-and-malware-trivial-2026-11-10",
+    "title": "AI is making reverse engineering apps and malware trivial",
+    "originalTitle": "AI Makes Reverse Engineering Mainstream Software &amp; Malware Far Easier",
+    "summary": "Expect faster copycats and deeper malware analysis as researchers used AI agents to recreate Slack and Turla code from binaries, plan code obfuscation and IP controls.",
+    "url": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/10/slack-ai-reverse-engineering/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-10T13:00:00.000Z",
+    "fetchedAt": "2026-11-10T14:48:40.832Z"
+  },
+  {
+    "slug": "ios-sandbox-escape-puts-app-data-at-risk-no-patch-yet-2026-11-10",
+    "title": "iOS sandbox escape puts app data at risk, no patch yet",
+    "originalTitle": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+    "summary": "Avoid installing untrusted apps and tighten MDM app approvals as a public sandbox escape lets apps read other apps' files on iOS 26 and 27.",
+    "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-10T12:15:31.000Z",
+    "fetchedAt": "2026-11-10T14:48:40.832Z"
+  },
+  {
+    "slug": "apple-fixes-imessage-group-chat-leaks-and-bluetooth-bugs-2026-11-10",
+    "title": "Apple fixes iMessage group chat leaks and Bluetooth bugs",
+    "originalTitle": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+    "summary": "Push the latest Apple updates to fix flaws allowing unauthorized group chat access and insecure Bluetooth pairing on supported iPhone, iPad, and Mac devices.",
+    "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SANS ISC",
+        "url": "https://isc.sans.edu/diary/rss/33506"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-10T10:16:51.000Z",
+    "fetchedAt": "2026-11-10T14:48:40.832Z"
+  },
+  {
+    "slug": "attackers-now-exploiting-barracuda-esg-bugs-for-root-access-2026-11-10",
+    "title": "Attackers now exploiting Barracuda ESG bugs for root access",
+    "originalTitle": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+    "summary": "Patch Barracuda Email Security Gateways immediately and audit for compromise, active exploits grant root command execution on unpatched appliances.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-10T10:10:20.000Z",
+    "fetchedAt": "2026-11-10T14:48:40.832Z"
+  },
+  {
+    "slug": "turla-cereal-malware-hijacks-on-prem-exchange-to-steal-mail-2026-11-10",
+    "title": "Turla Cereal malware hijacks on-prem Exchange to steal mail",
+    "originalTitle": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+    "summary": "If you still run on-prem Exchange, monitor transport logs and IIS activity, Turla is implanting a .NET toolset to siphon emails without C2 infrastructure.",
+    "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/10/eset-turla-exchange-malware/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-10T10:04:32.000Z",
+    "fetchedAt": "2026-11-10T14:48:40.832Z"
+  },
+  {
+    "slug": "chrome-update-fixes-actively-exploited-xml-zero-day-2026-11-10",
+    "title": "Chrome update fixes actively exploited XML zero-day",
+    "originalTitle": "Google patches eighth Chrome zero-day exploited in attacks this year",
+    "summary": "Update Chrome now across Windows, macOS, and Linux to patch a use-after-free exploited in the wild, the eighth Chrome zero-day this year.",
+    "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-10T08:51:25.000Z",
+    "fetchedAt": "2026-11-10T14:48:40.832Z"
+  },
+  {
+    "slug": "n-able-takes-n-central-offline-after-33-zero-days-with-poc-2026-11-10",
+    "title": "N-able takes N-central offline after 33 zero-days with PoC",
+    "originalTitle": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+    "summary": "MSPs using N-central hosted are offline, on-prem customers should shut down servers until patches are available, flaws enable RCE and admin takeover.",
+    "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-10T06:44:36.000Z",
+    "fetchedAt": "2026-11-10T14:48:40.832Z"
+  },
+  {
+    "slug": "cisa-flags-openssh-freeswitch-ibm-faspex-flaws-under-active-2026-11-10",
+    "title": "CISA flags OpenSSH, FreeSWITCH, IBM Faspex flaws under active attack",
+    "originalTitle": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+    "summary": "Prioritize patching GPUStack, FreeSWITCH, OpenSSH, and IBM Aspera Faspex vulnerabilities added to KEV, agencies have three days and you should not wait either.",
+    "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-10T06:31:42.000Z",
+    "fetchedAt": "2026-11-10T14:48:40.832Z"
+  },
+  {
     "slug": "vanderbilt-hit-by-byod-ransomware-data-theft-claimed-2026-11-09",
     "title": "Vanderbilt hit by BYOD ransomware, data theft claimed",
     "originalTitle": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
@@ -2729,277 +2879,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-27T17:38:51.000Z",
     "fetchedAt": "2026-10-27T17:58:46.892Z"
-  },
-  {
-    "slug": "attackers-spam-inboxes-then-phish-on-teams-as-fake-it-suppor-2026-10-27",
-    "title": "Attackers spam inboxes then phish on Teams as fake IT support",
-    "originalTitle": "Hackers bury inboxes in spam then show up on Microsoft Teams posing as IT support",
-    "summary": "Lock down Teams external chats, train users, and tighten M365 policies, attackers flood email with spam then appear on Teams offering “help” to harvest credentials within minutes.",
-    "url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-teams-social-engineering-fake-it-help-desk/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-27T14:16:43.000Z",
-    "fetchedAt": "2026-10-27T17:58:46.892Z"
-  },
-  {
-    "slug": "tailscale-rushes-fixes-for-ssh-flaws-enabling-root-escalatio-2026-10-27",
-    "title": "Tailscale rushes fixes for SSH flaws enabling root escalation",
-    "originalTitle": "Tailscale warns of SSH flaws allowing root privilege escalation",
-    "summary": "Update to the latest Tailscale release and review SSH settings, multiple disclosed bugs can grant root access, steal credentials, or crash systems on unpatched deployments.",
-    "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-27T14:09:46.000Z",
-    "fetchedAt": "2026-10-27T17:58:46.892Z"
-  },
-  {
-    "slug": "apple-backports-fix-for-exploited-coregraphics-bug-to-older-2026-10-27",
-    "title": "Apple backports fix for exploited CoreGraphics bug to older devices",
-    "originalTitle": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-    "summary": "Update older iPhones and iPads immediately, Apple shipped a patch for a CoreGraphics out-of-bounds write exploited in the wild that enables code execution via malicious files.",
-    "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-27T13:59:09.000Z",
-    "fetchedAt": "2026-10-27T17:58:46.892Z"
-  },
-  {
-    "slug": "cisa-php-bugs-under-active-attack-patch-your-servers-now-2026-10-27",
-    "title": "CISA: PHP bugs under active attack, patch your servers now",
-    "originalTitle": "CISA warns of PHP bug exploitation attempts, gives federal agencies days to patch",
-    "summary": "Upgrade PHP to supported versions and reduce internet exposure, CISA added widely known PHP flaws to KEV and warned of ongoing exploitation with a short federal remediation window.",
-    "url": "https://therecord.media/php-vulnerabilities-cisa-kev",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-27T13:16:00.000Z",
-    "fetchedAt": "2026-10-27T17:58:46.892Z"
-  },
-  {
-    "slug": "hpe-fixes-dozens-of-critical-networking-bugs-including-rce-2026-10-27",
-    "title": "HPE fixes dozens of critical networking bugs, including RCE",
-    "originalTitle": "HPE Patches Dozens of Critical Flaws in Networking Products",
-    "summary": "Plan maintenance to patch HPE networking gear, eight max-severity flaws among many could enable remote code execution and authentication bypass if updates are not applied promptly.",
-    "url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-27T13:13:58.000Z",
-    "fetchedAt": "2026-10-27T17:58:46.892Z"
-  },
-  {
-    "slug": "update-microsoft-authenticator-for-android-token-theft-flaw-2026-10-27",
-    "title": "Update Microsoft Authenticator for Android, token theft flaw fixed",
-    "originalTitle": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-    "summary": "Force-update Authenticator for Android to 6.2606.4246 or later, CVE-2026-80097 allowed permissionless apps to impersonate trusted Microsoft apps and steal work account sign-in tokens.",
-    "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-27T12:09:50.000Z",
-    "fetchedAt": "2026-10-27T17:58:46.892Z"
-  },
-  {
-    "slug": "dreamhost-resets-email-and-ftp-passwords-after-unexplained-i-2026-10-27",
-    "title": "DreamHost resets email and FTP passwords after unexplained issue",
-    "originalTitle": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
-    "summary": "Reset any DreamHost credentials you manage and review access logs, the host triggered forced resets following an incident affecting some systems including webmail.",
-    "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-27T12:02:06.000Z",
-    "fetchedAt": "2026-10-27T17:58:46.892Z"
-  },
-  {
-    "slug": "cisa-adds-adobe-commerce-and-brotli-flaws-to-kev-patch-now-2026-10-27",
-    "title": "CISA adds Adobe Commerce and Brotli flaws to KEV, patch now",
-    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "summary": "Patch Adobe Commerce and Magento servers and update software using Google Brotli, both flaws are in CISA's KEV for active exploitation and require fast remediation.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-27T12:00:00.000Z",
-    "fetchedAt": "2026-10-27T22:09:49.941Z"
-  },
-  {
-    "slug": "apple-fixes-exploited-coregraphics-bug-backports-to-older-ip-2026-10-27",
-    "title": "Apple fixes exploited CoreGraphics bug, backports to older iPhones",
-    "originalTitle": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
-    "summary": "Update iPhones and Macs immediately, Apple shipped patches for an actively exploited CoreGraphics zero-day and hundreds of other flaws with fixes backported to older devices.",
-    "url": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-27T11:49:57.000Z",
-    "fetchedAt": "2026-10-27T12:05:32.063Z"
-  },
-  {
-    "slug": "stolen-github-tokens-used-to-plant-workflows-that-steal-secr-2026-10-27",
-    "title": "Stolen GitHub tokens used to plant workflows that steal secrets",
-    "originalTitle": "Private repos still leak secrets to Gheist, a stolen GitHub token campaign",
-    "summary": "Audit repos and rotate tokens, researchers found 13,500 malicious branches across 850 plus accounts where attackers used stolen tokens to exfiltrate repository secrets via CI workflows.",
-    "url": "https://www.helpnetsecurity.com/2026/10/27/gheist-github-token-abuse/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-27T10:58:07.000Z",
-    "fetchedAt": "2026-10-27T12:05:32.063Z"
-  },
-  {
-    "slug": "dreamhost-incident-forces-password-resets-email-and-ftp-logi-2026-10-27",
-    "title": "DreamHost incident forces password resets, email and FTP logins blocked",
-    "originalTitle": "DreamHost incident triggers password resets, locks customers out of email and FTP accounts",
-    "summary": "If you manage DreamHost sites reset credentials and verify access, a security incident triggered service disruptions and forced password resets for affected email and FTP accounts.",
-    "url": "https://www.helpnetsecurity.com/2026/10/27/dreamhost-incident-email-ftp-password-resets/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-27T10:19:08.000Z",
-    "fetchedAt": "2026-10-27T12:05:32.063Z"
-  },
-  {
-    "slug": "openai-compaction-bug-exposed-hidden-reasoning-text-to-users-2026-10-27",
-    "title": "OpenAI compaction bug exposed hidden reasoning text to users",
-    "originalTitle": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-    "summary": "Review AI app controls and data handling, researchers showed how to extract hidden chain of thought via conversation compaction proving LLM outputs and logs can leak sensitive information.",
-    "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-27T08:22:43.000Z",
-    "fetchedAt": "2026-10-27T12:05:32.063Z"
-  },
-  {
-    "slug": "cisa-php2shell-rce-bugs-under-attack-patch-by-thursday-2026-10-27",
-    "title": "CISA: PHP2Shell RCE bugs under attack, patch by Thursday",
-    "originalTitle": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
-    "summary": "Patch vulnerable PHP deployments now, CISA added two 9.2 CVSS PHP2Shell flaws to its KEV catalog and warned attacks are underway with a short federal remediation deadline.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-27T08:20:54.000Z",
-    "fetchedAt": "2026-10-27T12:05:32.063Z"
-  },
-  {
-    "slug": "attackers-hijack-dahua-ip-cameras-via-p2p-and-weak-auth-2026-10-27",
-    "title": "Attackers hijack Dahua IP cameras via P2P and weak auth",
-    "originalTitle": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
-    "summary": "Lock down or patch Dahua gear, Ukraine's CERT saw unauthorized access, configuration changes and new accounts through P2P features so disable P2P, rotate credentials and segment camera networks.",
-    "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-27T06:34:47.000Z",
-    "fetchedAt": "2026-10-27T12:05:32.063Z"
-  },
-  {
-    "slug": "update-microsoft-authenticator-on-android-flaw-let-apps-hija-2026-10-27",
-    "title": "Update Microsoft Authenticator on Android, flaw let apps hijack work access",
-    "originalTitle": "Microsoft Authenticator vulnerability let rogue Android apps steal work account access",
-    "summary": "Push the latest Authenticator update, a broker flaw allowed any Android app to silently take over Azure AD work accounts used by Teams and Outlook without user interaction.",
-    "url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-authenticator-vulnerability-patchedcve-2026-80097/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-27T06:14:22.000Z",
-    "fetchedAt": "2026-10-27T12:05:32.063Z"
-  },
-  {
-    "slug": "gpt-6-1-terra-can-operate-desktops-review-ai-controls-now-2026-10-27",
-    "title": "GPT-6.1 Terra can operate desktops, review AI controls now",
-    "originalTitle": "GPT-6.1 Terra meets OpenAI’s Critical cyber threshold, and it’s cheaper than GPT-5.6 Terra",
-    "summary": "OpenAI released a cheaper model that controls desktop software via ChatGPT and API, restrict high‑risk actions, audit API keys, and set clear client AI usage policies.",
-    "url": "https://www.helpnetsecurity.com/2026/10/27/gpt-6-1-terra-released/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [
-      {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-27T04:33:34.000Z",
-    "fetchedAt": "2026-10-27T04:58:40.901Z"
-  },
-  {
-    "slug": "apple-ships-fixes-for-304-flaws-update-macos-and-ios-now-2026-10-27",
-    "title": "Apple ships fixes for 304 flaws, update macOS and iOS now",
-    "originalTitle": "Apple Patches for October 2026, (Mon, Oct 26th)",
-    "summary": "Roll out October updates across iPhone, iPad, Mac, Watch and Apple TV to close hundreds of vulnerabilities and reduce enterprise risk in managed Apple fleets.",
-    "url": "https://isc.sans.edu/diary/rss/33458",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-27T02:09:55.000Z",
-    "fetchedAt": "2026-10-27T04:58:40.901Z"
-  },
-  {
-    "slug": "cyber-incident-forces-unm-hospital-patient-diversion-clinics-2026-10-27",
-    "title": "Cyber incident forces UNM Hospital patient diversion, clinics closed",
-    "originalTitle": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
-    "summary": "A cybersecurity issue disrupted University of New Mexico Health operations, validate downtime procedures, segment critical systems, and ensure tested offline backups for healthcare and other critical services.",
-    "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-27T01:30:00.000Z",
-    "fetchedAt": "2026-10-27T04:58:40.901Z"
   }
 ]
