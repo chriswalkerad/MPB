@@ -1,5 +1,99 @@
 [
   {
+    "slug": "vanderbilt-hit-by-byod-ransomware-data-theft-claimed-2026-11-09",
+    "title": "Vanderbilt hit by BYOD ransomware, data theft claimed",
+    "originalTitle": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+    "summary": "Expect possible data exposure and service disruption, and tighten BYOD controls, backups, and network segmentation to reduce ransomware blast radius across campus or enterprise devices.",
+    "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-09T23:52:12.000Z",
+    "fetchedAt": "2026-11-10T01:29:34.803Z"
+  },
+  {
+    "slug": "n-able-pulls-n-central-offline-after-30-zero-days-leak-2026-11-09",
+    "title": "N-able pulls N-central offline after 30+ zero-days leak",
+    "originalTitle": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+    "summary": "Shut down on-prem N-central immediately and limit access to hosted instances while awaiting vendor fixes, as public exploits could enable full takeover of RMM servers.",
+    "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-09T21:26:25.000Z",
+    "fetchedAt": "2026-11-10T01:29:34.803Z"
+  },
+  {
+    "slug": "actively-exploited-linux-ssh-bug-lets-attackers-log-in-2026-11-09",
+    "title": "Actively exploited Linux SSH bug lets attackers log in",
+    "originalTitle": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
+    "summary": "Patch affected SSH packages now, disable password authentication or restrict exposure, and hunt for unusual logins, as attackers are already abusing this vulnerability.",
+    "url": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-09T19:41:34.000Z",
+    "fetchedAt": "2026-11-10T01:29:34.803Z"
+  },
+  {
+    "slug": "retail-fridge-hacks-linked-to-iran-caused-fires-in-france-2026-11-09",
+    "title": "Retail fridge hacks linked to Iran caused fires in France",
+    "originalTitle": "France blames Iran for fridge cyberattacks, says some caused fires",
+    "summary": "Segment and monitor OT and smart appliances, change default credentials, and lock down remote access after attacks on refrigeration systems disrupted hundreds of stores.",
+    "url": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-09T18:45:00.000Z",
+    "fetchedAt": "2026-11-10T01:29:34.803Z"
+  },
+  {
+    "slug": "claude-office-party-bug-enables-code-execution-on-linux-2026-11-09",
+    "title": "Claude 'Office Party' bug enables code execution on Linux",
+    "originalTitle": "Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux",
+    "summary": "Disable or update the Office Party document tool and avoid running untrusted files, as attackers can abuse its temp files to execute code on endpoints.",
+    "url": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-09T18:08:30.000Z",
+    "fetchedAt": "2026-11-10T01:29:34.803Z"
+  },
+  {
+    "slug": "qubole-aws-access-abused-to-breach-customer-accounts-2026-11-09",
+    "title": "Qubole AWS access abused to breach customer accounts",
+    "originalTitle": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+    "summary": "If you use Qubole, rotate AWS keys and tokens, audit cross-account roles and CloudTrail, and trim third-party permissions after attackers pivoted via its credentials.",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-09T17:51:21.000Z",
+    "fetchedAt": "2026-11-10T01:29:34.803Z"
+  },
+  {
     "slug": "openssh-sshole-bug-is-being-exploited-patch-now-2026-11-09",
     "title": "OpenSSH 'SSHole' bug is being exploited, patch now",
     "originalTitle": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
@@ -59,6 +153,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-09T13:13:28.000Z",
     "fetchedAt": "2026-11-09T16:26:59.542Z"
+  },
+  {
+    "slug": "cisa-adds-four-exploited-vulns-to-kev-patch-now-2026-11-09",
+    "title": "CISA adds four exploited vulns to KEV, patch now",
+    "originalTitle": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "summary": "Prioritize remediation of newly listed KEVs, including flaws in OpenSSH, FreeSwitch, IBM Aspera Faspex, and GPUStack, to meet deadlines and cut active risk.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "fetchedAt": "2026-11-10T01:29:34.803Z"
   },
   {
     "slug": "deepfake-ceos-steal-129-million-tighten-payment-verification-2026-11-09",
@@ -2893,61 +3001,5 @@
     "category": "threats",
     "publishedAt": "2026-10-27T01:30:00.000Z",
     "fetchedAt": "2026-10-27T04:58:40.901Z"
-  },
-  {
-    "slug": "ai-security-benchmarks-are-partial-test-on-your-own-stack-2026-10-27",
-    "title": "AI security benchmarks are partial, test on your own stack",
-    "originalTitle": "So Many AI Security Benchmarks, But None Tell the Whole Story",
-    "summary": "Benchmarks miss real-world context, so validate models and guardrails against your code, data, and workflows before putting AI systems into production use.",
-    "url": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-27T00:26:50.000Z",
-    "fetchedAt": "2026-10-27T04:58:40.901Z"
-  },
-  {
-    "slug": "openai-ships-gpt-6-1-terra-faster-agents-at-half-the-price-2026-10-26",
-    "title": "OpenAI ships GPT-6.1 Terra, faster agents at half the price",
-    "originalTitle": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
-    "summary": "Expect user demand to jump, so review data controls, plugin scopes and tenant policies before enabling new agent features in GPT-6.1 Terra across client environments.",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-26T20:46:49.000Z",
-    "fetchedAt": "2026-10-26T22:38:03.443Z"
-  },
-  {
-    "slug": "953-magento-stores-hit-with-skimmer-hidden-in-cms-blocks-2026-10-26",
-    "title": "953 Magento stores hit with skimmer hidden in CMS blocks",
-    "originalTitle": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-    "summary": "If you run Magento, scan CMS blocks for injected code, patch and rotate keys, and add CSP or a WAF as a long-running campaign is stealing payment data.",
-    "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-26T18:12:22.000Z",
-    "fetchedAt": "2026-10-26T22:38:03.443Z"
-  },
-  {
-    "slug": "gheist-campaign-steals-github-tokens-to-loot-cloud-secrets-2026-10-26",
-    "title": "'Gheist' campaign steals GitHub tokens to loot cloud secrets",
-    "originalTitle": "'Gheist' Weaponizes GitHub Tokens to Steal Cloud Secrets",
-    "summary": "Audit GitHub tokens and PAT scopes, rotate credentials, and lock down CI secrets as a supply chain attack harvests repo tokens to exfiltrate cloud keys and data.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-26T18:01:40.000Z",
-    "fetchedAt": "2026-10-26T22:38:03.443Z"
   }
 ]
