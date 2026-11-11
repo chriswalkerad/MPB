@@ -1,5 +1,47 @@
 [
   {
+    "slug": "enisa-45-of-eu-it-providers-take-3-months-to-patch-criticals-2026-11-11",
+    "title": "ENISA: 45% of EU IT providers take 3+ months to patch criticals",
+    "originalTitle": "EU cyber scores look healthy, but 45% of surveyed IT providers take months to patch",
+    "summary": "Tighten patch SLAs and automation because ENISA reports nearly half of EU IT service providers delay critical fixes for months while exploits appear within days, putting client environments at risk.",
+    "url": "https://www.helpnetsecurity.com/2026/11/11/eu-enisa-cybersecurity-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-11-11T06:00:09.000Z",
+    "fetchedAt": "2026-11-11T06:06:58.322Z"
+  },
+  {
+    "slug": "report-many-enterprises-dismiss-unverified-vulns-most-are-re-2026-11-11",
+    "title": "Report: Many enterprises dismiss unverified vulns, most are real",
+    "originalTitle": "Nearly half of big firms shelve or close vulnerability findings they haven’t confirmed",
+    "summary": "Stop closing tickets blind because ProjectDiscovery found teams shelving unverified findings even though most checked issues were genuine, so tune scanners then validate and remediate high-confidence results faster.",
+    "url": "https://www.helpnetsecurity.com/2026/11/11/security-teams-vulnerability-backlog/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-11T05:30:30.000Z",
+    "fetchedAt": "2026-11-11T06:06:58.322Z"
+  },
+  {
+    "slug": "leaked-iphone-exploit-kits-spread-via-ads-hitting-work-phone-2026-11-11",
+    "title": "Leaked iPhone exploit kits spread via ads, hitting work phones",
+    "originalTitle": "An Instagram ad was all it took: Leaked exploit kits are hitting employees’ iPhones",
+    "summary": "Update iOS promptly and tighten mobile controls as attackers use leaked exploit chains delivered via ads and compromised sites to compromise employee iPhones used for work.",
+    "url": "https://www.helpnetsecurity.com/2026/11/11/iverify-iphone-exploit-kit-attacks-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-11T05:00:34.000Z",
+    "fetchedAt": "2026-11-11T06:06:58.322Z"
+  },
+  {
     "slug": "railway-breach-exposes-secrets-fuels-740k-in-ai-fraud-2026-11-10",
     "title": "Railway breach exposes secrets, fuels $740k in AI fraud",
     "originalTitle": "Railway breach leads to $740,000 in fraudulent AI charges",
@@ -2843,75 +2885,5 @@
     "category": "ai-security",
     "publishedAt": "2026-10-28T08:15:07.000Z",
     "fetchedAt": "2026-10-28T12:46:12.995Z"
-  },
-  {
-    "slug": "free-tool-tracks-blacklists-dns-ssl-and-email-records-2026-10-28",
-    "title": "Free tool tracks blacklists, DNS, SSL and email records",
-    "originalTitle": "AbuseBox: Open-source monitor for blacklists, DNS, SSL and email records",
-    "summary": "Use open-source AbuseBox to monitor domains and IPs against 60 DNSBLs, verify SPF, DKIM and DMARC, track certificate changes, and get alerts before customers see mail trouble.",
-    "url": "https://www.helpnetsecurity.com/2026/10/28/abusebox-open-source-ip-blacklist-monitoring/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-28T06:00:45.000Z",
-    "fetchedAt": "2026-10-28T12:46:12.995Z"
-  },
-  {
-    "slug": "magento-stores-hacked-via-polyshell-cisa-adds-bugs-to-kev-2026-10-28",
-    "title": "Magento stores hacked via PolyShell, CISA adds bugs to KEV",
-    "originalTitle": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "summary": "If you run Adobe Commerce or Magento, patch recent CVEs and hunt for PolyShell webshells, attackers have breached hundreds of stores and active exploit traffic is rising.",
-    "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-28T05:42:26.000Z",
-    "fetchedAt": "2026-10-28T12:46:12.995Z"
-  },
-  {
-    "slug": "nist-sets-deadlines-to-retire-quantum-vulnerable-crypto-2026-10-28",
-    "title": "NIST sets deadlines to retire quantum-vulnerable crypto",
-    "originalTitle": "NIST starts the countdown to retire quantum-vulnerable encryption",
-    "summary": "Begin inventorying your cryptography and vendors, NIST's roadmap for post-quantum migration sets faster timelines for sensitive systems and guidance for planning the shift.",
-    "url": "https://www.helpnetsecurity.com/2026/10/28/nist-post-quantum-cryptography-migration-roadmap/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-28T05:30:29.000Z",
-    "fetchedAt": "2026-10-28T05:35:01.455Z"
-  },
-  {
-    "slug": "most-breach-victims-were-exposed-by-a-vendor-report-finds-2026-10-28",
-    "title": "Most breach victims were exposed by a vendor, report finds",
-    "originalTitle": "Breach victims discover their data was held by companies they’ve never heard of",
-    "summary": "Tighten vendor risk and incident comms, Kroll says nearly 70 percent of breaches they handled came through outside suppliers, exposing customers of many organizations at once.",
-    "url": "https://www.helpnetsecurity.com/2026/10/28/kroll-third-party-data-breaches-insurance-claims-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-28T05:00:19.000Z",
-    "fetchedAt": "2026-10-28T05:35:01.455Z"
-  },
-  {
-    "slug": "gmo-cloud-desktop-breach-prompts-shutdown-warning-to-custome-2026-10-27",
-    "title": "GMO cloud desktop breach prompts shutdown warning to customers",
-    "originalTitle": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
-    "summary": "If you use GMO's Onamae Desktop Cloud, disconnect from the internet and shut down systems, attackers threaten a ransomware hit after breaching the provider.",
-    "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-27T23:35:51.000Z",
-    "fetchedAt": "2026-10-28T05:35:01.455Z"
   }
 ]
