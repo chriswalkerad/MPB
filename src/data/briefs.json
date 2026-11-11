@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-11",
+    "date": "2026-11-11",
+    "title": "Patch Sprint: Critical fixes, active exploits and AI gotchas",
+    "intro": "Vendors dropped a mountain of patches and a few bugs are already getting worked in the wild. If it has a login page or runs your stack, it probably needs attention today.",
+    "items": [
+      {
+        "heading": "Patch Tuesday: 1,259 fixes and an exploited Outlook bug",
+        "body": "Microsoft shipped fixes across Windows and Office, including an Outlook flaw that can expose NTLMv2 hashes. This is a fast track item for any environment with Outlook in play. Get the updates rolled out, prioritize Outlook endpoints, and keep an eye on auth logs for oddities.",
+        "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "microsoft-patch-tuesday-fixes-1-259-bugs-exploited-outlook-f-2026-11-11"
+      },
+      {
+        "heading": "N-central zero-days, hotfix now",
+        "body": "Zero-day bugs in N-central were publicly disclosed and N-able took hosted environments offline as a precaution. MSP tooling is high value, so assume interest from attackers. Apply the hotfixes immediately and review N-central logs for any signs of access or changes.",
+        "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "n-able-ships-hotfixes-for-n-central-zero-day-flaws-2026-11-11"
+      },
+      {
+        "heading": "Citrix and Ivanti critical fixes",
+        "body": "Critical flaws in Citrix and Ivanti products allow remote code execution and certificate tampering that can undermine hosts and trust chains. These are not patch-when-ready issues. Update now, audit certificate stores, and review admin activity for anything unexpected.",
+        "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "citrix-and-ivanti-push-critical-fixes-rce-and-tampering-risk-2026-11-11"
+      },
+      {
+        "heading": "Cisco BroadWorks actively exploited",
+        "body": "CISA says a Cisco BroadWorks flaw is under active exploitation. If BroadWorks is in your stack, move patching and mitigations to the front of the line, and update Openwave Webtop if present. Lock down exposure and comb access logs for anomalies.",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-cisco-broadworks-bug-is-under-attack-patch-now-2026-11-11"
+      },
+      {
+        "heading": "Barracuda exploits yield root",
+        "body": "Recently patched Barracuda appliance bugs are being exploited to bypass authorization and gain root. If you have affected devices, update without delay. After patching, audit for unauthorized accounts, configs, or persistence and be ready to escalate if anything looks off.",
+        "url": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "barracuda-bugs-now-exploited-attackers-can-get-root-2026-11-11"
+      },
+      {
+        "heading": "Fortinet pushes nearly 100 fixes",
+        "body": "Fortinet released nearly 100 fixes across FortiOS and multiple appliances, including high severity issues. Do not let this linger on the backlog. Schedule maintenance windows, prioritize internet facing gear, and get clusters updated in orderly fashion.",
+        "url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "fortinet-drops-nearly-100-security-fixes-across-products-2026-11-11"
+      },
+      {
+        "heading": "Railway breach burned AI API keys",
+        "body": "A breach at Railway exposed customer AI provider keys that were abused for about $740,000 in unauthorized spend. If you stored AI keys there, rotate them immediately and audit usage. Add spend alerts, move secrets out of project configs, and prune permissions to least privilege.",
+        "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "railway-breach-leaked-customer-ai-keys-740k-in-bogus-spend-2026-11-11"
+      },
+      {
+        "heading": "AI agents can be backdoored post deployment",
+        "body": "Microsoft demonstrated that small weight edits can implant hidden triggers in AI agents to execute attacker commands without retraining. Treat models like code with a supply chain. Enforce model signing and integrity checks, restrict access to model artifacts, and verify hashes at deploy time.",
+        "url": "https://www.helpnetsecurity.com/2026/11/11/microsoft-hidden-ai-backdoors-lazarus/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "microsoft-shows-ai-agents-can-be-backdoored-without-retraini-2026-11-11"
+      }
+    ],
+    "signOff": "Ship the patches, rotate the keys, pour the coffee.",
+    "generatedAt": "2026-11-11T20:14:04.122Z"
+  },
+  {
     "slug": "2026-11-10",
     "date": "2026-11-10",
     "title": "Zero-days surge, MSP tooling wobbles, AI turbocharges reversing",
@@ -2096,79 +2170,5 @@
     ],
     "signOff": "Patch what you can before the coffee gets cold.",
     "generatedAt": "2026-10-13T19:53:30.394Z"
-  },
-  {
-    "slug": "2026-10-12",
-    "date": "2026-10-12",
-    "title": "Patch party: edge gear, CI, and WordPress under fire",
-    "intro": "Busy day for urgent fixes and access hardening. Triage your perimeter and repos first, then mop up the web stack and plan some maintenance.",
-    "items": [
-      {
-        "heading": "SonicWall SMA 1000 CVSS 10 exploited",
-        "body": "A pre auth SSRF in SonicWall SMA 1000 appliances, CVE-2026-102255, is being used for unauthorized operations. If you manage these boxes, patch immediately or restrict egress as a temporary brake. Expect post exploitation activity, so review logs and watch for odd outbound requests.",
-        "url": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "sonicwall-sma-1000-cvss-10-bug-exploited-patch-now-2026-10-12"
-      },
-      {
-        "heading": "GitLab max severity RCE, update now",
-        "body": "A maximum severity flaw in GitLab’s CI CD Regular Expression Compiler enables remote code execution on vulnerable instances. Get your GitLab to the latest fixed release, then audit runners, pipeline credentials, and recent jobs for abuse. If you must delay, restrict external access and tighten tokens and webhooks.",
-        "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "gitlab-rce-bug-patch-immediately-2026-10-12"
-      },
-      {
-        "heading": "Bricksforge plugin RCE actively abused",
-        "body": "CVE-2026-85097 in the Bricksforge WordPress plugin lets unauthenticated attackers upload and run PHP. Patch or disable the plugin right away and hunt for webshells or unexpected files under wp content. Rotate admin creds and review recent logins for odd IPs.",
-        "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "bricksforge-wordpress-plugin-rce-exploited-in-the-wild-2026-10-12"
-      },
-      {
-        "heading": "AvisLoader goes P2P with ClickFix delivery",
-        "body": "A new loader dubbed AvisLoader uses ClickFix delivery and encrypted peer to peer C2 to resist takedowns and run commands remotely. Harden email and browser defenses, and hunt for LNK based persistence artifacts on endpoints. Monitor for unusual P2P traffic and block suspicious LNK execution.",
-        "url": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "new-avisloader-malware-uses-p2p-c2-and-clickfix-delivery-2026-10-12"
-      },
-      {
-        "heading": "AI assisted site breaches scale up",
-        "body": "Researchers say the group CyberXero used Anthropic Claude Code to automate targeting of WordPress and e commerce sites, stealing over 628,000 records. Expect more automated initial access, so cut the low hanging fruit. Keep CMS and plugins patched, enforce MFA on admin, add rate limits and WAF rules, and watch for bot like patterns.",
-        "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "attackers-tap-claude-powered-automation-to-breach-sites-2026-10-12"
-      },
-      {
-        "heading": "Cheap Androids with baked in malware",
-        "body": "Researchers found low cost Android phones shipping with firmware level malware that activates on first boot and cannot be removed. For BYOD, block unknown brand devices and require MDM enrollment before access. Pre approve known good models and quarantine anything that fails compliance.",
-        "url": "https://www.helpnetsecurity.com/2026/10/12/midnight-mimosa-malware-cheap-android-phones/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "budget-android-phones-ship-with-unremovable-malware-2026-10-12"
-      },
-      {
-        "heading": "Windows 11 23H2 support ends in 30 days",
-        "body": "Windows 11 23H2 Enterprise, Education, and IoT Enterprise stop getting security updates next month. Plan upgrade windows now, test critical apps, and schedule reboots. Flag stragglers in your RMM so you are not babysitting end of life hosts next patch Tuesday.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
-        "source": "BleepingComputer",
-        "category": "defense",
-        "storySlug": "windows-11-23h2-hits-end-of-support-in-30-days-2026-10-12"
-      },
-      {
-        "heading": "Let’s Encrypt trims cert validity to 64 days",
-        "body": "Starting February 2027, Let’s Encrypt certificates will default to 64 day lifetimes. Make sure ACME renewals are fully automated and alerting is in place. Shorter lifetimes mean less manual maintenance, but failed renewals will bite faster.",
-        "url": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
-        "source": "SecurityWeek",
-        "category": "defense",
-        "storySlug": "let-s-encrypt-cuts-cert-lifetimes-to-64-days-automate-renewa-2026-10-12"
-      }
-    ],
-    "signOff": "Alright, go fix the edge first, then the blogs.",
-    "generatedAt": "2026-10-12T21:45:48.180Z"
   }
 ]
