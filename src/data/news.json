@@ -1,5 +1,136 @@
 [
   {
+    "slug": "chrome-and-firefox-ship-fixes-for-180-vulnerabilities-2026-11-12",
+    "title": "Chrome and Firefox ship fixes for 180+ vulnerabilities",
+    "originalTitle": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
+    "summary": "Push Chrome 157 and Firefox 160 to all endpoints today, dozens of high risk bugs include code execution and sandbox escape that attackers often weaponize quickly.",
+    "url": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-12T13:42:09.000Z",
+    "fetchedAt": "2026-11-12T15:06:57.791Z"
+  },
+  {
+    "slug": "microsoft-warns-of-windows-updates-hurting-sql-server-2026-11-12",
+    "title": "Microsoft warns of Windows updates hurting SQL Server",
+    "originalTitle": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+    "summary": "If SQL Server performance or stability degraded after October updates, follow Microsoft guidance to uninstall affected patches or apply workarounds while a fix is developed.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-12T12:11:11.000Z",
+    "fetchedAt": "2026-11-12T15:06:57.791Z"
+  },
+  {
+    "slug": "amd-turin-vm-flaw-can-leak-data-across-processes-in-gcp-2026-11-12",
+    "title": "AMD Turin VM flaw can leak data across processes in GCP",
+    "originalTitle": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+    "summary": "Patch guest OS images and restart AMD Turin VMs, Google mitigated cross VM leakage but intra VM side channels persist until guests are updated.",
+    "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-12T12:09:14.000Z",
+    "fetchedAt": "2026-11-12T15:06:57.791Z"
+  },
+  {
+    "slug": "new-n-central-exploits-hit-even-patched-servers-2026-11-12",
+    "title": "New N-central exploits hit even patched servers",
+    "originalTitle": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+    "summary": "If the Legacy API is enabled and exposed, new exploits enable root RCE and Windows SYSTEM, disable the Legacy API, restrict exposure, apply N-able guidance and patches, and audit access logs.",
+    "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-12T11:51:43.000Z",
+    "fetchedAt": "2026-11-12T15:06:57.791Z"
+  },
+  {
+    "slug": "node-js-fixes-http-2-bugs-that-crash-servers-and-leak-data-2026-11-12",
+    "title": "Node.js fixes HTTP/2 bugs that crash servers and leak data",
+    "originalTitle": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+    "summary": "Upgrade Node.js to 22.23.5, 24.22.3 or 26.13.1, unauthenticated clients could crash HTTP/2 servers and leak responses from other connections.",
+    "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-12T08:20:37.000Z",
+    "fetchedAt": "2026-11-12T15:06:57.791Z"
+  },
+  {
+    "slug": "massive-github-ci-secret-stealer-hits-60-000-repos-2026-11-12",
+    "title": "Massive GitHub CI secret stealer hits 60,000 repos",
+    "originalTitle": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+    "summary": "Revoke suspect tokens, check Actions runs since November 10 for the wfx-loot payload, rotate cloud credentials, and enforce 2FA and least privilege across your GitHub organizations.",
+    "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/12/wfx-loot-github-actions-secret-stealer/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-12T06:42:47.000Z",
+    "fetchedAt": "2026-11-12T15:06:57.791Z"
+  },
+  {
+    "slug": "critical-apache-http-2-flaw-enables-remote-code-execution-2026-11-12",
+    "title": "Critical Apache HTTP/2 flaw enables remote code execution",
+    "originalTitle": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+    "summary": "Patch Apache HTTP Server to 2.4.71 anywhere HTTP/2 is enabled, CVE-2026-119618 allows unauthenticated remote code execution via mod_http2.",
+    "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-12T05:12:26.000Z",
+    "fetchedAt": "2026-11-12T15:06:57.791Z"
+  },
+  {
+    "slug": "screenconnect-campaign-drops-rogue-clients-via-extension-byp-2026-11-12",
+    "title": "ScreenConnect campaign drops rogue clients via extension bypass",
+    "originalTitle": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+    "summary": "Disable unneeded extensions, review ConnectWise advisory, audit for unauthorized ScreenConnect clients and sessions, rotate credentials, update servers, and restrict access to known IPs.",
+    "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-12T04:39:48.000Z",
+    "fetchedAt": "2026-11-12T15:06:57.791Z"
+  },
+  {
     "slug": "active-screenconnect-attacks-hit-msps-push-rogue-remote-tool-2026-11-11",
     "title": "Active ScreenConnect attacks hit MSPs, push rogue remote tools",
     "originalTitle": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
@@ -2712,201 +2843,5 @@
     "category": "ai-security",
     "publishedAt": "2026-10-29T15:20:29.000Z",
     "fetchedAt": "2026-10-29T22:42:52.009Z"
-  },
-  {
-    "slug": "patch-linux-kernels-fragnesia-is-being-chained-to-root-serve-2026-10-29",
-    "title": "Patch Linux kernels, Fragnesia is being chained to root servers",
-    "originalTitle": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
-    "summary": "Patch affected Linux kernels and PHP components now, attackers are chaining PHP2Shell with the Fragnesia kernel bug to seize root on servers and firewalls, so harden web apps and review logs for LFI-to-root pivots.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Record",
-        "url": "https://therecord.media/php2shell-successful-exploitation-reports-emerge"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/29/php2shell-fragnesia-vmware-esx-zero-day/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-29T13:59:48.000Z",
-    "fetchedAt": "2026-10-29T22:42:52.009Z"
-  },
-  {
-    "slug": "adobe-veeam-juniper-ship-critical-fixes-schedule-updates-2026-10-29",
-    "title": "Adobe, Veeam, Juniper ship critical fixes, schedule updates",
-    "originalTitle": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
-    "summary": "Schedule emergency maintenance, Adobe, Veeam, and Juniper released fixes for critical code execution and auth bypass bugs, so update endpoints, backup servers, and networking gear before attackers weaponize them.",
-    "url": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-29T13:42:52.000Z",
-    "fetchedAt": "2026-10-29T22:42:52.009Z"
-  },
-  {
-    "slug": "cisa-adds-gitlab-and-cisco-asa-ftd-flaws-to-kev-patch-fast-2026-10-29",
-    "title": "CISA adds GitLab and Cisco ASA/FTD flaws to KEV, patch fast",
-    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "summary": "Update GitLab CE/EE and Cisco Secure Firewall ASA/FTD now, CISA added both actively exploited flaws to KEV, so apply vendor fixes, limit public exposure, and monitor for crashes, service resets, and odd account activity.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-29T12:00:00.000Z",
-    "fetchedAt": "2026-10-29T22:42:52.009Z"
-  },
-  {
-    "slug": "update-telegram-for-android-voice-call-bug-allowed-remote-co-2026-10-29",
-    "title": "Update Telegram for Android, voice-call bug allowed remote code exec",
-    "originalTitle": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-    "summary": "A now-fixed flaw let attackers run code when a user answered a Telegram call, push version 12.10.4 to Android devices and limit exposure to untrusted callers.",
-    "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-29T11:39:18.000Z",
-    "fetchedAt": "2026-10-29T12:55:28.985Z"
-  },
-  {
-    "slug": "26k-valid-cloud-and-ai-keys-found-exposed-in-public-gitee-re-2026-10-29",
-    "title": "26k valid cloud and AI keys found exposed in public Gitee repos",
-    "originalTitle": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-    "summary": "Secret sprawl is still rampant, scan repos for leaked credentials, rotate any exposed keys, and enforce pre-commit secret detection across developer workflows.",
-    "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-29T11:33:15.000Z",
-    "fetchedAt": "2026-10-29T12:55:28.985Z"
-  },
-  {
-    "slug": "patch-now-cisco-asa-and-ftd-ssl-vpn-zero-day-crashes-firewal-2026-10-29",
-    "title": "Patch now: Cisco ASA and FTD SSL VPN zero-day crashes firewalls",
-    "originalTitle": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
-    "summary": "Attackers are crashing Cisco ASA and FTD devices via CVE-2026-76418 in the SSL VPN, update to fixed releases, restrict remote access, and monitor for unexpected reloads.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-29T11:10:13.000Z",
-    "fetchedAt": "2026-10-29T12:55:28.985Z"
-  },
-  {
-    "slug": "github-debuts-npm-package-firewall-to-block-malicious-instal-2026-10-29",
-    "title": "GitHub debuts npm package firewall to block malicious installs",
-    "originalTitle": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-    "summary": "GitHub’s new package firewall, in public preview, can block suspicious npm packages at install time, consider enabling it to cut supply chain risk.",
-    "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-29T10:26:33.000Z",
-    "fetchedAt": "2026-10-29T12:55:28.985Z"
-  },
-  {
-    "slug": "attackers-probing-gitlab-cvss-10-flaw-patch-immediately-2026-10-29",
-    "title": "Attackers probing GitLab CVSS 10 flaw, patch immediately",
-    "originalTitle": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-    "summary": "After GitLab fixed CVE-2026-97229, attackers targeted Alpine Linux’s GitLab, so upgrade to patched releases, audit CI configurations, and review logs for suspicious jobs.",
-    "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-29T09:05:39.000Z",
-    "fetchedAt": "2026-10-29T12:55:28.985Z"
-  },
-  {
-    "slug": "cisco-sd-wan-attacks-stole-ipsec-keys-to-decrypt-site-to-sit-2026-10-29",
-    "title": "Cisco SD-WAN attacks stole IPSec keys to decrypt site-to-site traffic",
-    "originalTitle": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-    "summary": "Cisco Talos says attackers abused a now-patched SD-WAN flaw to plant KeyDrift malware and copy encryption keys, so patch, rotate keys, and hunt for related indicators.",
-    "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-29T08:24:22.000Z",
-    "fetchedAt": "2026-10-29T12:55:28.985Z"
-  },
-  {
-    "slug": "cisa-adds-vmware-esx-logging-bypass-to-kev-patch-and-audit-n-2026-10-29",
-    "title": "CISA adds VMware ESX logging bypass to KEV, patch and audit now",
-    "originalTitle": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-    "summary": "A China-linked actor abused CVE-2026-41709 to reduce ESX audit visibility, update to fixed builds, review out-of-band logs, and tighten admin access to hosts.",
-    "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-29T06:22:33.000Z",
-    "fetchedAt": "2026-10-29T12:55:28.985Z"
-  },
-  {
-    "slug": "active-exploitation-of-pan-os-php2shell-flaws-on-internet-ex-2026-10-29",
-    "title": "Active exploitation of PAN-OS PHP2Shell flaws on internet-exposed UIs",
-    "originalTitle": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-    "summary": "If your Palo Alto Networks management interface is exposed, patch the PHP2Shell bugs now, lock it behind VPN or ACLs, and check logs for signs of compromise.",
-    "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-29T05:50:17.000Z",
-    "fetchedAt": "2026-10-29T12:55:28.985Z"
-  },
-  {
-    "slug": "stolen-school-staff-logins-are-fueling-cross-district-k-12-a-2026-10-29",
-    "title": "Stolen school staff logins are fueling cross‑district K-12 attacks",
-    "originalTitle": "Stolen staff logins are spreading attacks between K-12 school districts",
-    "summary": "MS-ISAC reports 808 K-12 members with staff credentials on dark markets, so enforce MFA, disable stale accounts, and monitor for leaked logins to stop lateral attacks.",
-    "url": "https://www.helpnetsecurity.com/2026/10/29/cis-k-12-cybersecurity/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-29T05:00:01.000Z",
-    "fetchedAt": "2026-10-29T05:42:00.806Z"
   }
 ]
