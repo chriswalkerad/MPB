@@ -1,5 +1,141 @@
 [
   {
+    "slug": "sckit-worm-rides-screenconnect-jumps-from-clients-to-msps-2026-11-12",
+    "title": "SCKit worm rides ScreenConnect, jumps from clients to MSPs",
+    "originalTitle": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+    "summary": "Patch ScreenConnect to the latest release, isolate technician endpoints, audit logs for SCKit activity, and tighten support session policies because attackers are pivoting from customer devices into MSP networks.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html"
+      },
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-12T22:53:10.000Z",
+    "fetchedAt": "2026-11-12T23:34:43.319Z"
+  },
+  {
+    "slug": "4-800-github-accounts-hijacked-to-plant-secrets-stealing-mal-2026-11-12",
+    "title": "4,800 GitHub accounts hijacked to plant secrets-stealing malware",
+    "originalTitle": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+    "summary": "Enforce hardware-backed 2FA, rotate tokens and secrets, and review recent PRs and commits, as attackers used thousands of hijacked accounts to push credential-stealing code.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-12T22:25:30.000Z",
+    "fetchedAt": "2026-11-12T23:34:43.319Z"
+  },
+  {
+    "slug": "microsoft-365-outage-knocks-outlook-teams-copilot-offline-2026-11-12",
+    "title": "Microsoft 365 outage knocks Outlook, Teams, Copilot offline",
+    "originalTitle": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+    "summary": "Plan for SaaS continuity and client communications, as a widespread Microsoft 365 outage disrupted Outlook, Exchange Online, Teams, and Copilot due to failed server health checks.",
+    "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
+      }
+    ],
+    "category": "industry",
+    "publishedAt": "2026-11-12T20:55:30.000Z",
+    "fetchedAt": "2026-11-12T23:34:43.319Z"
+  },
+  {
+    "slug": "n-able-n-central-zero-day-4everable2shell-under-active-explo-2026-11-12",
+    "title": "N-able N-central zero-day '4EverAble2Shell' under active exploit",
+    "originalTitle": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+    "summary": "Apply N-able guidance immediately, restrict external access to N-central, monitor for miner processes, and consider temporary service isolation as attackers exploit the 4EverAble2Shell zero-day.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-12T19:51:16.000Z",
+    "fetchedAt": "2026-11-12T23:34:43.319Z"
+  },
+  {
+    "slug": "critical-apache-http-2-rce-patch-mod-http2-now-2026-11-12",
+    "title": "Critical Apache HTTP/2 RCE, patch mod_http2 now",
+    "originalTitle": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+    "summary": "Update Apache HTTP Server or disable HTTP/2, as CVE-2026-119618 allows unauthenticated remote code execution on servers with mod_http2 enabled.",
+    "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-12T19:12:55.000Z",
+    "fetchedAt": "2026-11-12T23:34:43.319Z"
+  },
+  {
+    "slug": "anthropic-offers-self-hosted-claude-agents-to-keep-creds-on-2026-11-12",
+    "title": "Anthropic offers self-hosted Claude Agents to keep creds on-prem",
+    "originalTitle": "Self-hosted Claude Managed Agents keeps agent credentials in your environment",
+    "summary": "Advise AI-curious clients to pilot self-hosted agents that keep credentials and session data in their cloud or on-prem, reducing data leakage and compliance risk.",
+    "url": "https://www.helpnetsecurity.com/2026/11/12/anthropic-self-hosted-claude-managed-agents/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-12T18:07:00.000Z",
+    "fetchedAt": "2026-11-12T23:34:43.319Z"
+  },
+  {
+    "slug": "new-windows-signdrop-zero-day-grants-system-via-clfs-2026-11-12",
+    "title": "New Windows 'SignDrop' zero-day grants SYSTEM via CLFS",
+    "originalTitle": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
+    "summary": "Treat this local privilege escalation as exploitable in the wild, reduce local admin rights, enable EDR detections, and deploy Microsoft's fix as soon as available.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-12T16:04:00.000Z",
+    "fetchedAt": "2026-11-12T23:34:43.319Z"
+  },
+  {
+    "slug": "citrix-fixes-netscaler-auth-bypass-and-dos-bugs-patch-now-2026-11-12",
+    "title": "Citrix fixes NetScaler auth bypass and DoS bugs, patch now",
+    "originalTitle": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+    "summary": "Patch NetScaler ADC, Gateway, and Console releases now and check for compromise indicators, as Citrix disclosed critical flaws including an authentication bypass.",
+    "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-12T15:38:49.000Z",
+    "fetchedAt": "2026-11-12T23:34:43.319Z"
+  },
+  {
     "slug": "chrome-and-firefox-ship-fixes-for-180-vulnerabilities-2026-11-12",
     "title": "Chrome and Firefox ship fixes for 180+ vulnerabilities",
     "originalTitle": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
@@ -2782,66 +2918,5 @@
     "category": "threats",
     "publishedAt": "2026-10-30T04:14:59.000Z",
     "fetchedAt": "2026-10-30T05:41:30.355Z"
-  },
-  {
-    "slug": "patch-cisco-sd-wan-now-auth-bypass-exploited-in-the-wild-2026-10-29",
-    "title": "Patch Cisco SD-WAN now, auth bypass exploited in the wild",
-    "originalTitle": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-    "summary": "Patch Cisco Catalyst SD-WAN Controllers immediately, attackers are abusing CVE-2026-20127 for authentication bypass to deploy the KeyDrift malware framework, so audit configs, restrict management access, and hunt for IOCs.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-29T18:38:26.000Z",
-    "fetchedAt": "2026-10-29T22:42:52.009Z"
-  },
-  {
-    "slug": "319-chrome-extensions-hijacked-searches-for-13-4m-users-purg-2026-10-29",
-    "title": "319 Chrome extensions hijacked searches for 13.4M users, purge them",
-    "originalTitle": "Chrome extensions with 13.4 million installs caught hijacking searches",
-    "summary": "Audit and purge Chrome extensions, 319 add-ons with 13.4 million installs hijacked searches via tracking servers, so enforce allowlists, remove risky extensions, and reset affected browser profiles and policies.",
-    "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-29T16:10:31.000Z",
-    "fetchedAt": "2026-10-29T22:42:52.009Z"
-  },
-  {
-    "slug": "critical-linux-tcp-bug-allows-remote-root-patch-kernels-now-2026-10-29",
-    "title": "Critical Linux TCP bug allows remote root, patch kernels now",
-    "originalTitle": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-    "summary": "Update Linux kernels promptly, CVE-2026-98432 in TCP code scores 9.8 and enables unauthenticated remote code execution, so patch distros, reduce exposed services, and watch for anomalous network traffic.",
-    "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-29T15:57:05.000Z",
-    "fetchedAt": "2026-10-29T22:42:52.009Z"
-  },
-  {
-    "slug": "fake-chatgpt-and-claude-desktop-apps-drop-miners-block-them-2026-10-29",
-    "title": "Fake ChatGPT and Claude desktop apps drop miners, block them",
-    "originalTitle": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-    "summary": "Block unauthorized AI desktop apps, attackers are pushing fake ChatGPT and Claude installers from GitHub to drop Yoba loaders and miners, so allow only official clients, verify signatures, and hunt for miner artifacts.",
-    "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/29/fake-chatgpt-claude-apps-github-yoba-malware-cryptominer/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-29T15:20:29.000Z",
-    "fetchedAt": "2026-10-29T22:42:52.009Z"
   }
 ]
