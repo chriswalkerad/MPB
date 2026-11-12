@@ -1,5 +1,108 @@
 [
   {
+    "slug": "active-screenconnect-attacks-hit-msps-push-rogue-remote-tool-2026-11-11",
+    "title": "Active ScreenConnect attacks hit MSPs, push rogue remote tools",
+    "originalTitle": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+    "summary": "Audit and lock down ScreenConnect now, attackers are abusing compromised MSP servers to push rogue remote clients into customer environments and gain persistent access.",
+    "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-11T22:56:21.000Z",
+    "fetchedAt": "2026-11-12T00:37:39.063Z"
+  },
+  {
+    "slug": "notion-fireworks-ai-breach-exposed-ai-chat-transcripts-2026-11-11",
+    "title": "Notion: Fireworks AI breach exposed AI chat transcripts",
+    "originalTitle": "Notion says Fireworks breach exposed customer AI chat transcripts",
+    "summary": "Review Notion AI usage and sanitize prompts, a breach at provider Fireworks exposed some Notion AI chat transcripts from a small number of customer workspaces.",
+    "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-11T20:54:20.000Z",
+    "fetchedAt": "2026-11-12T00:37:39.063Z"
+  },
+  {
+    "slug": "n-able-pulls-n-central-offline-to-fix-33-flaws-releases-hotf-2026-11-11",
+    "title": "N-able pulls N-central offline to fix 33 flaws, releases hotfix",
+    "originalTitle": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
+    "summary": "Apply N-able's hotfix and restrict exposure, public exploits for 33 N-central flaws allow attacker takeover of platforms and downstream customer environments.",
+    "url": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-11T20:05:18.000Z",
+    "fetchedAt": "2026-11-12T00:37:39.063Z"
+  },
+  {
+    "slug": "critical-zoom-for-windows-flaw-allows-unauthenticated-privil-2026-11-11",
+    "title": "Critical Zoom for Windows flaw allows unauthenticated privilege escalation",
+    "originalTitle": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+    "summary": "Update Zoom Workplace for Windows immediately, a critical improper input validation flaw allows unauthenticated users to escalate privileges to SYSTEM on vulnerable machines.",
+    "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-11T16:12:46.000Z",
+    "fetchedAt": "2026-11-12T00:37:39.063Z"
+  },
+  {
+    "slug": "xen-orchestra-auth-bypass-exploited-to-take-over-xcp-ng-host-2026-11-11",
+    "title": "Xen Orchestra auth bypass exploited to take over XCP-ng hosts",
+    "originalTitle": "Critical Xen Orchestra Flaws Exploited in Attacks",
+    "summary": "Patch Xen Orchestra now and restrict access, attackers are exploiting an authentication bypass to execute code as admin and seize control of XCP-ng hosts.",
+    "url": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-11T15:42:47.000Z",
+    "fetchedAt": "2026-11-12T00:37:39.063Z"
+  },
+  {
+    "slug": "attackers-weaponize-antifox-ai-agents-to-steal-aws-secrets-2026-11-11",
+    "title": "Attackers weaponize AntiFox AI agents to steal AWS secrets",
+    "originalTitle": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+    "summary": "Lock down cloud credentials and rotate keys, attackers are running AntiFox AI agents on Alibaba Cloud to harvest AWS secrets then pivot across compromised environments.",
+    "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-11T15:34:27.000Z",
+    "fetchedAt": "2026-11-12T00:37:39.063Z"
+  },
+  {
+    "slug": "git-patches-six-bugs-including-code-execution-on-clone-2026-11-11",
+    "title": "Git patches six bugs including code execution on clone",
+    "originalTitle": "Git fixes six vulnerabilities, including code execution during recursive clones",
+    "summary": "Update Git on developer machines and CI runners now, specially crafted repositories can trigger code execution, file writes or memory corruption during clone and other operations.",
+    "url": "https://www.helpnetsecurity.com/2026/11/11/git-project-security-updates/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-11T14:26:12.000Z",
+    "fetchedAt": "2026-11-12T00:37:39.063Z"
+  },
+  {
     "slug": "citrix-and-ivanti-push-critical-fixes-rce-and-tampering-risk-2026-11-11",
     "title": "Citrix and Ivanti push critical fixes, RCE and tampering risks",
     "originalTitle": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
@@ -2805,47 +2908,5 @@
     "category": "threats",
     "publishedAt": "2026-10-29T05:00:01.000Z",
     "fetchedAt": "2026-10-29T05:42:00.806Z"
-  },
-  {
-    "slug": "microsoft-wants-entra-id-on-passkeys-sms-voice-retire-by-202-2026-10-28",
-    "title": "Microsoft wants Entra ID on passkeys, SMS/voice retire by 2027",
-    "originalTitle": "Microsoft urges Entra ID admins to migrate users to passkeys",
-    "summary": "Start migrating users to phishing-resistant passkeys and FIDO2 now to avoid sign-in disruptions and reduce MFA fatigue and SIM swap risk.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-28T14:48:32.000Z",
-    "fetchedAt": "2026-10-28T22:31:58.924Z"
-  },
-  {
-    "slug": "compromised-camera-management-app-is-a-gateway-into-networks-2026-10-28",
-    "title": "Compromised camera management app is a gateway into networks",
-    "originalTitle": "Compromised camera management software gives attackers a way into corporate networks",
-    "summary": "Audit and isolate camera systems, rotate credentials, and update or remove the affected software, Huntress traced multiple SMB intrusions to a tampered camera management tool.",
-    "url": "https://www.helpnetsecurity.com/2026/10/28/compromised-camera-management-software-initial-access/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-28T14:43:23.000Z",
-    "fetchedAt": "2026-10-28T22:31:58.924Z"
-  },
-  {
-    "slug": "fake-openai-bots-are-scraping-for-exposed-credentials-2026-10-28",
-    "title": "Fake OpenAI bots are scraping for exposed credentials",
-    "originalTitle": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
-    "summary": "Block unknown crawler user-agents and review web logs for botlike scanning, attackers are spoofing AI agents to harvest secrets from code and documents.",
-    "url": "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-28T14:37:52.000Z",
-    "fetchedAt": "2026-10-28T22:31:58.924Z"
   }
 ]
