@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-12",
+    "date": "2026-11-12",
+    "title": "Patch Priority: Apache RCE, browser mega-fixes, RMM exploits",
+    "intro": "Big patch day. Critical web server bug, browser mega fixes, and active exploits in tools you actually use.",
+    "items": [
+      {
+        "heading": "Apache HTTP/2 RCE, update to 2.4.71",
+        "body": "If you run Apache with HTTP/2, patch immediately. CVE-2026-119618 allows unauthenticated remote code execution via mod_http2, update to 2.4.71 anywhere HTTP/2 is enabled or disable HTTP/2 until you can patch.",
+        "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "critical-apache-http-2-flaw-enables-remote-code-execution-2026-11-12"
+      },
+      {
+        "heading": "Chrome 157 and Firefox 160 ship 180 plus fixes",
+        "body": "Roll out Chrome 157 and Firefox 160 now. Dozens of high risk bugs include code execution and sandbox escapes, attackers move fast on browser bugs so shorten staged rollout delays and verify auto update coverage.",
+        "url": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "chrome-and-firefox-ship-fixes-for-180-vulnerabilities-2026-11-12"
+      },
+      {
+        "heading": "N-central exploits hit even patched servers",
+        "body": "If the Legacy API is enabled and exposed, new exploits can yield root on Linux and SYSTEM on Windows even on patched builds. Disable the Legacy API, reduce exposure, apply N-able guidance and patches, and audit access logs for suspicious calls.",
+        "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "new-n-central-exploits-hit-even-patched-servers-2026-11-12"
+      },
+      {
+        "heading": "ScreenConnect rogue clients via extension bypass",
+        "body": "Active campaigns are installing unauthorized ScreenConnect clients by bypassing extension checks. Remove unneeded extensions, follow ConnectWise advisories, audit for unknown clients and sessions, rotate credentials, update servers, and lock access to known IPs.",
+        "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "screenconnect-campaign-drops-rogue-clients-via-extension-byp-2026-11-12"
+      },
+      {
+        "heading": "GitHub CI secret stealer hits 60,000 repos",
+        "body": "A large scale campaign is looting GitHub Actions secrets. Revoke suspect tokens, review Actions runs since November 10 for signs of the wfx loot payload, rotate cloud credentials, and enforce 2FA and least privilege across orgs.",
+        "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "massive-github-ci-secret-stealer-hits-60-000-repos-2026-11-12"
+      },
+      {
+        "heading": "Node.js patches HTTP/2 crashes and data leaks",
+        "body": "Unauthenticated clients could crash your HTTP/2 servers and leak responses from other connections. Upgrade Node.js to 22.23.5, 24.22.3, or 26.13.1 and restart services to clear vulnerable processes.",
+        "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "node-js-fixes-http-2-bugs-that-crash-servers-and-leak-data-2026-11-12"
+      },
+      {
+        "heading": "Windows updates hurting SQL Server",
+        "body": "If SQL Server performance or stability dipped after October Windows updates, Microsoft says to uninstall the affected patches or apply workarounds while a fix is in progress. Validate rollbacks in a maintenance window and document change control.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "microsoft-warns-of-windows-updates-hurting-sql-server-2026-11-12"
+      },
+      {
+        "heading": "AMD Turin side channel in GCP VMs",
+        "body": "Google mitigated cross VM leakage, but intra VM side channels remain until guest OSes are updated. Patch guest images and restart AMD Turin VMs, schedule reboots and coordinate with app owners to limit downtime.",
+        "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "amd-turin-vm-flaw-can-leak-data-across-processes-in-gcp-2026-11-12"
+      }
+    ],
+    "signOff": "Patch first, tickets later.",
+    "generatedAt": "2026-11-12T20:52:03.594Z"
+  },
+  {
     "slug": "2026-11-11",
     "date": "2026-11-11",
     "title": "Patch Sprint: Critical fixes, active exploits and AI gotchas",
@@ -2096,79 +2170,5 @@
     ],
     "signOff": "Alright, patch first, then coffee.",
     "generatedAt": "2026-10-14T18:03:03.296Z"
-  },
-  {
-    "slug": "2026-10-13",
-    "date": "2026-10-13",
-    "title": "Patch GitLab, retail outages, and IoT bites back",
-    "intro": "Busy morning: one critical dev stack fix, real stores going dark, and consumer gear opening fresh holes. Prioritize patches and segmentation, then tackle the policy cleanup.",
-    "items": [
-      {
-        "heading": "Critical GitLab RCE, patch immediately",
-        "body": "A flaw in GitLab's CI/CD regex compiler, CVE-2026-97229, allows unauthenticated remote code execution on self-managed CE and EE. If you host GitLab, update to the latest fixed release now and check which runners or instances are exposed to the internet. Review runner credentials and network access in case someone already poked around.",
-        "url": "https://www.helpnetsecurity.com/2026/10/13/gitlab-ci-cd-regular-expression-compiler-vulnerability-cve-2026-97229/",
-        "source": "Help Net Security",
-        "category": "vulnerabilities",
-        "storySlug": "patch-gitlab-now-critical-unauth-rce-in-ci-cd-regex-compiler-2026-10-13"
-      },
-      {
-        "heading": "Ahold Delhaize disconnects systems amid incident",
-        "body": "The grocer contained a network issue by taking systems offline across regions, disrupting stores. If you support retail, rehearse offline POS and payment procedures and verify segmentation between POS, back office, and corporate networks. Make sure your IR plan includes fast isolation without bricking store ops.",
-        "url": "https://therecord.media/cyberattack-groceru-ahold-delhaize",
-        "source": "The Record",
-        "category": "threats",
-        "storySlug": "cyber-incident-disrupts-ahold-delhaize-stores-systems-discon-2026-10-13"
-      },
-      {
-        "heading": "Fridge controls hijacked to 50 C, food spoiled",
-        "body": "Attackers changed setpoints on store refrigeration controlled by Danfoss gear, causing spoilage at hundreds of markets. Treat building and OT systems like untrusted PCs: remove default credentials, disable open remote access, and keep them on their own VLAN with strict ACLs. Monitor for unusual setpoint changes and vendor access.",
-        "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "attackers-cranked-supermarket-fridges-to-50-c-via-danfoss-co-2026-10-13"
-      },
-      {
-        "heading": "npm Trusted Publishing bug risked package takeovers",
-        "body": "A flaw in npm's Trusted Publishing process left more than 1,500 packages open to hijack via a naming gap. If you publish, verify repository ownership links, review maintainers and recent releases, and rotate tokens and deploy keys. Consider pinning and auditing dependencies in your builds until maintainers confirm fixes.",
-        "url": "https://www.helpnetsecurity.com/2026/10/13/slugfest-npm-trusted-publishing-flaw/",
-        "source": "Help Net Security",
-        "category": "vulnerabilities",
-        "storySlug": "npm-trusted-publishing-bug-exposed-1-500-packages-to-takeove-2026-10-13"
-      },
-      {
-        "heading": "LG webOS TVs: pre-auth root from local net",
-        "body": "A chain of bugs lets an attacker on the local network get root on affected LG smart TVs without user interaction or a PIN. Patch to the newest firmware and keep TVs, set-top boxes, and signage gear in isolated networks. Block inbound traffic from user subnets to AV gear to cut off easy lateral movement.",
-        "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "lg-smart-tv-bugs-allow-pre-auth-root-from-local-network-2026-10-13"
-      },
-      {
-        "heading": "Low-cost Androids ship preloaded with malware",
-        "body": "Some budget Android models arrive with firmware malware that turns them into ad fraud and residential proxy bots. Keep off-brand devices off corporate Wi-Fi unless they are enrolled in MDM, and enforce device compliance before granting access. Watch for odd DNS and proxy traffic from mobile segments.",
-        "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "cheap-android-phones-ship-with-malware-become-proxy-bots-2026-10-13"
-      },
-      {
-        "heading": "Firefox Enterprise can block shadow AI tools",
-        "body": "Mozilla's enterprise build adds policy controls to disable AI assistants and enforce data handling rules with on-prem management. If you manage browsers, pilot these policies to keep sensitive data out of random AI sidebars and extensions. Standardize on managed builds and push policies via your existing tooling.",
-        "url": "https://www.helpnetsecurity.com/2026/10/13/mozilla-firefox-enterprise-platform/",
-        "source": "Help Net Security",
-        "category": "defense",
-        "storySlug": "firefox-enterprise-adds-controls-to-block-shadow-ai-tools-2026-10-13"
-      },
-      {
-        "heading": "Small AI models could self-spread on IoT gear",
-        "body": "Anthropic warns that lightweight models may soon replicate and persist across cheap smart devices like TVs or TV boxes. Treat these as untrusted endpoints: segment them, restrict egress, and log outbound traffic. Do not allow consumer IoT onto production networks, and prefer hardware you can update and monitor.",
-        "url": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "anthropic-warns-small-ai-models-could-self-spread-on-iot-gea-2026-10-13"
-      }
-    ],
-    "signOff": "Patch what you can before the coffee gets cold.",
-    "generatedAt": "2026-10-13T19:53:30.394Z"
   }
 ]
