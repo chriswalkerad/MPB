@@ -1,5 +1,140 @@
 [
   {
+    "slug": "postgresql-fixes-22-year-old-rce-rebuild-c-extensions-2026-11-13",
+    "title": "PostgreSQL fixes 22-year-old RCE, rebuild C extensions",
+    "originalTitle": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+    "summary": "Patch PostgreSQL and rebuild any C-language extensions, CVE-2026-6460 lets authenticated users execute code on the server and requires rebuilding extensions for full protection.",
+    "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-13T16:53:08.000Z",
+    "fetchedAt": "2026-11-13T19:38:33.191Z"
+  },
+  {
+    "slug": "windows-zero-day-signdrop-grants-system-rights-2026-11-13",
+    "title": "Windows zero-day SignDrop grants System rights",
+    "originalTitle": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+    "summary": "Prepare to rapidly deploy Microsoft's fix and monitor for abuse, a public SignDrop exploit gives local users SYSTEM via CLFS and Defender behavior to escalate privileges.",
+    "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-13T16:26:32.000Z",
+    "fetchedAt": "2026-11-13T19:38:33.191Z"
+  },
+  {
+    "slug": "ai-agent-changed-vendor-banking-via-email-lock-it-down-2026-11-13",
+    "title": "AI agent changed vendor banking via email, lock it down",
+    "originalTitle": "How one AI agent exposed five critical enterprise security gaps",
+    "summary": "Restrict AI agents' tool access and approvals, Token Security shows agents can be tricked to alter vendor bank details via email and shares practical guardrails to prevent it.",
+    "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-13T15:01:11.000Z",
+    "fetchedAt": "2026-11-13T19:38:33.191Z"
+  },
+  {
+    "slug": "november-windows-patches-break-complex-document-printing-2026-11-13",
+    "title": "November Windows patches break complex document printing",
+    "originalTitle": "Microsoft says November security updates cause printing issues",
+    "summary": "Warn help desks and test before broad rollout, Microsoft says November updates can break printing for complex formatted documents and is investigating workarounds and a fix.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-11-13T12:27:40.000Z",
+    "fetchedAt": "2026-11-13T19:38:33.191Z"
+  },
+  {
+    "slug": "check-point-gateways-hacked-zero-day-root-esxi-wiped-2026-11-13",
+    "title": "Check Point gateways hacked, zero-day root, ESXi wiped",
+    "originalTitle": "Check Point warns of zero-day flaw exploited for root access",
+    "summary": "Install Check Point emergency hotfixes, attackers chained PHP2Shell bugs with a Gaia OS zero-day to gain root, drop a TSGA backdoor, and wipe VMware ESXi hosts.",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-13T10:44:22.000Z",
+    "fetchedAt": "2026-11-13T19:38:33.191Z"
+  },
+  {
+    "slug": "citrix-fixes-10-critical-netscaler-bugs-update-now-2026-11-13",
+    "title": "Citrix fixes 10 critical NetScaler bugs, update now",
+    "originalTitle": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+    "summary": "Update NetScaler ADC/Gateway appliances to the latest builds immediately, ten critical flaws could trigger denial of service or unexpected behavior on widely deployed edge devices.",
+    "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-13T09:36:56.000Z",
+    "fetchedAt": "2026-11-13T19:38:33.191Z"
+  },
+  {
+    "slug": "november-updates-trigger-windows-activation-and-licensing-fa-2026-11-13",
+    "title": "November updates trigger Windows activation and licensing failures",
+    "originalTitle": "Microsoft confirms Windows activation failures after November updates",
+    "summary": "Expect 0x80041008 activation errors after Patch Tuesday, Microsoft confirmed the issue so hold rollouts or plan rollback for affected machines pending a corrective update.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-11-13T09:36:18.000Z",
+    "fetchedAt": "2026-11-13T19:38:33.191Z"
+  },
+  {
+    "slug": "n-central-zero-day-exploited-within-hours-patch-now-2026-11-13",
+    "title": "N-central zero-day exploited within hours, patch now",
+    "originalTitle": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+    "summary": "Patch or mitigate N-able N-central immediately, a new 4EverAble2Shell flaw enables unauthenticated RCE to root and is being actively exploited hours after public PoC release.",
+    "url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-13T07:20:50.000Z",
+    "fetchedAt": "2026-11-13T19:38:33.191Z"
+  },
+  {
     "slug": "fbi-warns-of-fake-zoom-calls-using-stolen-video-clips-2026-11-13",
     "title": "FBI warns of fake Zoom calls using stolen video clips",
     "originalTitle": "Stolen webcam clips of 900+ victims feed North Korea’s $400 million fake Zoom scheme",
@@ -2721,216 +2856,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-30T21:09:46.000Z",
     "fetchedAt": "2026-10-30T22:15:41.981Z"
-  },
-  {
-    "slug": "teamviewer-bug-lets-controlled-pcs-attack-the-controller-2026-10-30",
-    "title": "TeamViewer bug lets controlled PCs attack the controller",
-    "originalTitle": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
-    "summary": "Update TeamViewer on all platforms now, a fixed flaw let a compromised host crash or execute code against the viewer machine, so treat remote hosts as untrusted until patched.",
-    "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-30T15:17:28.000Z",
-    "fetchedAt": "2026-10-30T22:15:41.981Z"
-  },
-  {
-    "slug": "trojanized-claude-code-extension-backdoored-cursor-users-2026-10-30",
-    "title": "Trojanized Claude Code extension backdoored Cursor users",
-    "originalTitle": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-    "summary": "A trojanized Claude Code extension on Cursor briefly backdoored up to 5,000 developers, remove it, rotate SSH keys, audit ~/.ssh and startup scripts, and rebuild if persistence is found.",
-    "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-30T14:36:54.000Z",
-    "fetchedAt": "2026-10-30T22:15:41.981Z"
-  },
-  {
-    "slug": "dead-projects-live-risk-abandoned-domains-bite-it-teams-2026-10-30",
-    "title": "Dead projects, live risk: abandoned domains bite IT teams",
-    "originalTitle": "Undead Software Projects Continue to Raise Security Risks",
-    "summary": "Abandoned software and expired domains are being hijacked to ship malware via auto-update channels, so inventory update URLs, pin package sources, and block outbound to unknown hosts.",
-    "url": "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-30T14:10:37.000Z",
-    "fetchedAt": "2026-10-30T22:15:41.981Z"
-  },
-  {
-    "slug": "attackers-hammer-new-wordpress-core-rce-update-now-2026-10-30",
-    "title": "Attackers hammer new WordPress core RCE, update now",
-    "originalTitle": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-    "summary": "Exploit attempts against a newly patched WordPress core RCE spiked to tens of thousands within 24 hours, so update core immediately and check for unexpected admins, file changes, and webshells.",
-    "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-30T14:08:14.000Z",
-    "fetchedAt": "2026-10-30T22:15:41.981Z"
-  },
-  {
-    "slug": "cisa-warns-gitlab-critical-bug-is-under-attack-2026-10-30",
-    "title": "CISA warns GitLab critical bug is under attack",
-    "originalTitle": "CISA says max severity GitLab flaw now exploited in the wild",
-    "summary": "With this critical GitLab bug now exploited in the wild, upgrade to the fixed releases immediately, revoke tokens and session cookies, and review logs for admin or pipeline abuse.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-30T13:00:32.000Z",
-    "fetchedAt": "2026-10-30T22:15:41.981Z"
-  },
-  {
-    "slug": "new-wordpress-rce-under-attack-unauthenticated-attempts-spot-2026-10-30",
-    "title": "New WordPress RCE under attack, unauthenticated attempts spotted",
-    "originalTitle": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
-    "summary": "Patch or disable the vulnerable WordPress component immediately and add WAF rules, attackers are already exploiting an unauthenticated race condition to achieve remote code execution.",
-    "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-30T12:04:13.000Z",
-    "fetchedAt": "2026-10-30T12:58:34.062Z"
-  },
-  {
-    "slug": "ivanti-connect-secure-flaws-land-in-cisa-kev-patch-now-2026-10-30",
-    "title": "Ivanti Connect Secure flaws land in CISA KEV, patch now",
-    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "summary": "CISA added two Ivanti Connect Secure flaws to KEV following active exploitation, patch or apply mitigations immediately, reduce internet exposure, hunt for compromise, and rotate admin and SSO credentials.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-30T12:00:00.000Z",
-    "fetchedAt": "2026-10-30T22:15:41.981Z"
-  },
-  {
-    "slug": "microsoft-fixes-windows-11-always-on-vpn-breakage-from-septe-2026-10-30",
-    "title": "Microsoft fixes Windows 11 Always On VPN breakage from September patches",
-    "originalTitle": "Microsoft finally fixes VPN issues caused by September updates",
-    "summary": "Install the latest Windows 11 updates and retest Always On VPN, Microsoft has finally resolved the connection failures introduced by the September 2026 security patches.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-30T11:20:26.000Z",
-    "fetchedAt": "2026-10-30T12:58:34.062Z"
-  },
-  {
-    "slug": "drupal-commerce-flaw-exploited-patch-and-audit-orders-now-2026-10-30",
-    "title": "Drupal Commerce flaw exploited, patch and audit orders now",
-    "originalTitle": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-    "summary": "Patch the highly critical Commerce Core authorization bypass now, then audit and cancel fraudulent orders, as attackers are actively exploiting it to view and modify store orders.",
-    "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-30T10:16:07.000Z",
-    "fetchedAt": "2026-10-30T12:58:34.062Z"
-  },
-  {
-    "slug": "polymarket-drained-via-compromised-web-tool-hijacking-logged-2026-10-30",
-    "title": "Polymarket drained via compromised web tool hijacking logged-in users",
-    "originalTitle": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
-    "summary": "Treat this as a Magecart-style supply chain incident, log out users and rotate tokens, as malicious third-party code hijacked logged-in sessions and drained over $2 million from Polymarket.",
-    "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "The Record",
-        "url": "https://therecord.media/polymarket-confirms-cyberattack-third-party"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-30T09:41:36.000Z",
-    "fetchedAt": "2026-10-30T12:58:34.062Z"
-  },
-  {
-    "slug": "trojanized-claude-code-update-planted-persistent-ssh-backdoo-2026-10-30",
-    "title": "Trojanized Claude Code update planted persistent SSH backdoor",
-    "originalTitle": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-    "summary": "If you installed update 2.1.313 of the Claude Code extension from Cursor, remove it, rotate SSH keys, and reinstall from a trusted store because it planted a persistent backdoor.",
-    "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-10-30T08:55:47.000Z",
-    "fetchedAt": "2026-10-30T12:58:34.062Z"
-  },
-  {
-    "slug": "teamviewer-bug-could-let-hosts-hijack-support-techs-update-n-2026-10-30",
-    "title": "TeamViewer bug could let hosts hijack support techs, update now",
-    "originalTitle": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
-    "summary": "Update TeamViewer to the latest release and tighten session permissions because CVE-2026-111585 lets a malicious host execute code on a support technician's machine.",
-    "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-30T08:44:49.000Z",
-    "fetchedAt": "2026-10-30T12:58:34.062Z"
-  },
-  {
-    "slug": "cisa-gitlab-rce-and-cisco-firewall-bug-under-active-attack-2026-10-30",
-    "title": "CISA: GitLab RCE and Cisco firewall bug under active attack",
-    "originalTitle": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-    "summary": "Prioritize patching GitLab CE or EE for CVE-2026-97229 and the Cisco firewall DoS flaw now, CISA added both to KEV after confirmed active exploitation.",
-    "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-30T07:27:05.000Z",
-    "fetchedAt": "2026-10-30T12:58:34.062Z"
   }
 ]
