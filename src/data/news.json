@@ -1,5 +1,80 @@
 [
   {
+    "slug": "fbi-warns-of-fake-zoom-calls-using-stolen-video-clips-2026-11-13",
+    "title": "FBI warns of fake Zoom calls using stolen video clips",
+    "originalTitle": "Stolen webcam clips of 900+ victims feed North Korea’s $400 million fake Zoom scheme",
+    "summary": "Warn staff to verify video call invites and identities, FBI says North Korean actors use stolen webcam clips in fake Zoom and Teams calls to social-engineer crypto and open-source targets.",
+    "url": "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-13T06:30:30.000Z",
+    "fetchedAt": "2026-11-13T06:36:25.184Z"
+  },
+  {
+    "slug": "teams-meeting-ploy-abuses-device-code-login-for-token-theft-2026-11-13",
+    "title": "Teams meeting ploy abuses device code login for token theft",
+    "originalTitle": "How attackers turned a Teams meeting booking into a device code phishing trap",
+    "summary": "Block or monitor the device code flow and train users to never enter codes from unsolicited prompts, attackers are using fake Teams bookings to steal session tokens.",
+    "url": "https://www.helpnetsecurity.com/2026/11/13/microsoft-teams-device-code-phishing/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-13T06:15:48.000Z",
+    "fetchedAt": "2026-11-13T06:36:25.184Z"
+  },
+  {
+    "slug": "fake-it-hires-reached-onboarding-exposing-data-sprawl-2026-11-13",
+    "title": "Fake IT hires reached onboarding, exposing data sprawl",
+    "originalTitle": "Suspected North Korean IT workers reached onboarding at companies with open data",
+    "summary": "Tighten hiring vetting and access controls, Material Security tracked suspected North Korean personas reaching onboarding at multiple firms, exposing massive data sprawl and potential exfiltration risk.",
+    "url": "https://www.helpnetsecurity.com/2026/11/13/north-korean-it-workers-onboarding/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-13T06:00:22.000Z",
+    "fetchedAt": "2026-11-13T06:36:25.184Z"
+  },
+  {
+    "slug": "active-exploits-hit-n-able-n-central-patch-and-lock-down-now-2026-11-13",
+    "title": "Active exploits hit N-able N-central, patch and lock down now",
+    "originalTitle": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+    "summary": "N-able MSPs should patch N-central and limit exposure now, active exploits are hitting 4EverAble2Shell and Agent2Shell, with infections reported and features temporarily restricted while full fixes roll out.",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-13T05:43:28.000Z",
+    "fetchedAt": "2026-11-13T06:36:25.184Z"
+  },
+  {
+    "slug": "mac-infostealer-downthedrain-rides-fake-clickfix-campaign-2026-11-13",
+    "title": "Mac infostealer DownTheDRAIN rides fake ClickFix campaign",
+    "originalTitle": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+    "summary": "Update Mac EDR and block untrusted installers, SANS ISC reports a ClickFix-themed campaign delivering DownTheDRAIN infostealer to steal credentials and data from macOS systems.",
+    "url": "https://isc.sans.edu/diary/rss/33518",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-13T03:41:41.000Z",
+    "fetchedAt": "2026-11-13T06:36:25.184Z"
+  },
+  {
     "slug": "sckit-worm-rides-screenconnect-jumps-from-clients-to-msps-2026-11-12",
     "title": "SCKit worm rides ScreenConnect, jumps from clients to MSPs",
     "originalTitle": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
@@ -2857,66 +2932,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-30T07:27:05.000Z",
     "fetchedAt": "2026-10-30T12:58:34.062Z"
-  },
-  {
-    "slug": "impostor-it-help-desks-are-getting-remote-access-with-just-n-2026-10-30",
-    "title": "Impostor IT help desks are getting remote access with just names and emails",
-    "originalTitle": "Fake IT help desk callers got by on little more than names and email addresses",
-    "summary": "Train staff to verify callers, enforce help desk callbacks, and restrict remote tools because attackers using only names and emails are convincing employees to open remote access sessions.",
-    "url": "https://www.helpnetsecurity.com/2026/10/30/cisco-talos-it-help-desk-vishing/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-30T06:30:26.000Z",
-    "fetchedAt": "2026-10-30T12:58:34.062Z"
-  },
-  {
-    "slug": "fake-stores-reappear-hours-after-takedowns-1-200-lookalike-d-2026-10-30",
-    "title": "Fake stores reappear hours after takedowns, 1,200 lookalike domains",
-    "originalTitle": "Scammers rebuild fake shopping sites within hours of a takedown",
-    "summary": "Expect fake shopping sites to respawn within hours, so pre block lookalike domains, tighten brand monitoring, and train users before holiday shopping scams spike.",
-    "url": "https://www.helpnetsecurity.com/2026/10/30/akamai-fake-account-abuse-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-30T05:30:26.000Z",
-    "fetchedAt": "2026-10-30T05:41:30.355Z"
-  },
-  {
-    "slug": "smart-tvs-and-plugs-are-soft-targets-isolate-and-limit-their-2026-10-30",
-    "title": "Smart TVs and plugs are soft targets, isolate and limit their chatter",
-    "originalTitle": "Smart TVs can harbor unpatched security flaws and track what you watch",
-    "summary": "Keep smart TVs and smart plugs off the corporate LAN, put them on an IoT VLAN, block telemetry, disable tracking features, and patch or replace models that cannot update.",
-    "url": "https://www.helpnetsecurity.com/2026/10/30/bitdefender-smart-tvs-vulnerabilities-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-30T05:00:27.000Z",
-    "fetchedAt": "2026-10-30T05:41:30.355Z"
-  },
-  {
-    "slug": "binance-breach-triggers-massive-asset-freezes-review-key-and-2026-10-30",
-    "title": "Binance breach triggers massive asset freezes, review key and admin controls",
-    "originalTitle": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-    "summary": "Treat centralized exchanges as high risk targets, enforce strong key management and admin segmentation, and plan incident response since attackers will launder funds even when some assets are frozen.",
-    "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-10-30T04:14:59.000Z",
-    "fetchedAt": "2026-10-30T05:41:30.355Z"
   }
 ]
