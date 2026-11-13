@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-13",
+    "date": "2026-11-13",
+    "title": "RMM zero-day, edge patches, and Patch Tuesday gotchas",
+    "intro": "Active exploits are hitting MSP tooling and edge boxes, while Patch Tuesday shipped a few surprises. Prioritize the fires, then roll the rest with care.",
+    "items": [
+      {
+        "heading": "N-central zero-day under active exploit",
+        "body": "A new 4EverAble2Shell flaw in N-able N-central allows unauthenticated remote code execution to root, and attackers began exploiting it within hours of a public proof of concept. Patch or apply available mitigations immediately, restrict exposure of management interfaces, and comb logs for unusual activity on your RMM servers.",
+        "url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "n-central-zero-day-exploited-within-hours-patch-now-2026-11-13"
+      },
+      {
+        "heading": "Check Point gateways chained and ESXi wiped",
+        "body": "Attackers chained PHP2Shell bugs with a Gaia OS zero-day to gain root on Check Point gateways, deployed a TSGA backdoor, and wiped VMware ESXi hosts. Install the vendor’s emergency hotfixes now, audit gateways for persistence, and verify hypervisor backups and recovery plans.",
+        "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "check-point-gateways-hacked-zero-day-root-esxi-wiped-2026-11-13"
+      },
+      {
+        "heading": "Citrix NetScaler ships 10 critical fixes",
+        "body": "Citrix released updates for NetScaler ADC and Gateway addressing ten critical flaws that could cause denial of service or unexpected behavior on widely deployed edge devices. Update to the latest builds without delay and schedule a maintenance window to minimize disruption.",
+        "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "citrix-fixes-10-critical-netscaler-bugs-update-now-2026-11-13"
+      },
+      {
+        "heading": "Windows SignDrop LPE goes public",
+        "body": "A public SignDrop exploit lets local users escalate to SYSTEM by abusing CLFS and Defender behavior. Prepare to deploy Microsoft’s fix rapidly, tighten monitoring for privilege escalation attempts, and review local admin rights on endpoints and servers.",
+        "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+        "source": "Ars Technica",
+        "category": "vulnerabilities",
+        "storySlug": "windows-zero-day-signdrop-grants-system-rights-2026-11-13"
+      },
+      {
+        "heading": "November updates break complex printing",
+        "body": "Microsoft says this month’s updates can break printing for complex, heavily formatted documents. Warn help desks, test in a pilot ring before broad rollout, and track Microsoft’s workarounds and forthcoming fix.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+        "source": "BleepingComputer",
+        "category": "industry",
+        "storySlug": "november-windows-patches-break-complex-document-printing-2026-11-13"
+      },
+      {
+        "heading": "Patch Tuesday triggers activation failures",
+        "body": "Some systems are throwing 0x80041008 activation and licensing errors after the latest Windows updates. Hold wider deployment or plan rollback for affected machines until Microsoft ships a corrective update, and keep impacted users productive with temporary workarounds.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+        "source": "BleepingComputer",
+        "category": "industry",
+        "storySlug": "november-updates-trigger-windows-activation-and-licensing-fa-2026-11-13"
+      },
+      {
+        "heading": "PostgreSQL patches 22-year-old RCE",
+        "body": "CVE-2026-6460 allows authenticated users to execute code on the server, and full protection requires both patching PostgreSQL and rebuilding any C-language extensions. Patch clusters, rebuild impacted extensions, and review who has authenticated access to those databases.",
+        "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "postgresql-fixes-22-year-old-rce-rebuild-c-extensions-2026-11-13"
+      },
+      {
+        "heading": "AI agent altered vendor banking via email",
+        "body": "Token Security showed an AI agent can be tricked via email to change vendor bank details, then offered practical guardrails to stop it. Lock down agents’ tool access and require approvals for sensitive actions, and run adversarial tests against any agent that touches finance or procurement.",
+        "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "ai-agent-changed-vendor-banking-via-email-lock-it-down-2026-11-13"
+      }
+    ],
+    "signOff": "Patch fast, test printing, move on.",
+    "generatedAt": "2026-11-13T20:30:35.997Z"
+  },
+  {
     "slug": "2026-11-12",
     "date": "2026-11-12",
     "title": "Patch Priority: Apache RCE, browser mega-fixes, RMM exploits",
@@ -2096,79 +2170,5 @@
     ],
     "signOff": "Triage the patches, brief the users, then get coffee while it all reboots.",
     "generatedAt": "2026-10-15T17:48:06.263Z"
-  },
-  {
-    "slug": "2026-10-14",
-    "date": "2026-10-14",
-    "title": "Patch Pileup, VPN Fix, and Fakes Everywhere",
-    "intro": "It is one of those mornings: patch fast, then check remote access. A little takedown news in the mix, plus deepfakes and mobile malware trying to crash your queue.",
-    "items": [
-      {
-        "heading": "Patch Ivanti Connect Secure now",
-        "body": "An authentication bypass in Ivanti Connect Secure is being exploited and attackers are scanning widely. Update to the latest release immediately, restrict external exposure, rotate admin creds, and review logs for unusual admin or configuration activity.",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "patch-now-ivanti-connect-secure-zero-day-is-being-exploited-2026-10-14"
-      },
-      {
-        "heading": "Windows update restores Always On VPN",
-        "body": "September patches broke some Always On VPN connections. Install the latest Windows updates to restore service, verify remote users can reconnect, and watch for stubborn tunnel failures in your monitoring.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
-        "source": "BleepingComputer",
-        "category": "defense",
-        "storySlug": "microsoft-fixes-windows-vpn-breakage-from-september-updates-2026-10-14"
-      },
-      {
-        "heading": "Update curl, HTTP/2 upload bug enables RCE",
-        "body": "A malicious server can corrupt memory during HTTP/2 uploads in curl and libcurl, and a public proof of concept shows client code execution. Update to 8.23.0 wherever curl or libcurl is used, from endpoints to servers and build images, and rebuild anything that bundles it.",
-        "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "update-curl-now-http-2-upload-bug-can-run-code-on-clients-2026-10-14"
-      },
-      {
-        "heading": "Big OT patch day: Siemens, Rockwell, ABB",
-        "body": "Siemens published 17 advisories, Rockwell fixed ArmorBlock issues, and ABB issued guidance. Schedule downtime to apply updates, lock down any exposed OT interfaces, and monitor for probing or unauthenticated access attempts.",
-        "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixe-2026-10-14"
-      },
-      {
-        "heading": "Microsoft hits major phishing kit operators",
-        "body": "Microsoft and partners seized domains tied to top Chinese-language phishing platforms responsible for more than a billion messages. Expect only a breather, update blocklists, tune detections, and watch for infrastructure shifts and copycats.",
-        "url": "https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms",
-        "source": "The Record",
-        "category": "threats",
-        "storySlug": "microsoft-disrupts-phishing-kits-behind-1b-messages-2026-10-14"
-      },
-      {
-        "heading": "DOJ dismantles 40 plus North Korea laptop farms",
-        "body": "Prosecutors charged 14 and seized 187 laptops used to land remote jobs at more than 70 US companies using stolen identities and ghost work setups. Tighten hiring and device policies, require managed hardware and identity verification, and flag geolocation and access anomalies.",
-        "url": "https://www.helpnetsecurity.com/2026/10/14/north-korean-it-workers-laptop-farms-arrests/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "feds-bust-40-laptop-farms-helping-north-korean-it-workers-2026-10-14"
-      },
-      {
-        "heading": "Android trojan replaces banking apps with fakes",
-        "body": "The Hirudo malware swaps legitimate banking apps with modified versions that bypass in-app checks to steal credentials and funds. Lock down BYOD, block sideloading, enforce MDM restrictions, and remind users to install only from trusted stores.",
-        "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "new-android-trojan-swaps-your-banking-app-with-a-patched-fak-2026-10-14"
-      },
-      {
-        "heading": "Run a deepfake drill for support and finance",
-        "body": "Before a cloned voice hits your help desk, stage a short exercise and bake in call back verification and shared secrets. Document no exception procedures for payment changes and privileged access requests, then practice them.",
-        "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
-        "source": "The Hacker News",
-        "category": "defense",
-        "storySlug": "run-a-deepfake-drill-before-a-cloned-voice-hits-your-help-de-2026-10-14"
-      }
-    ],
-    "signOff": "Alright, patch first, then coffee.",
-    "generatedAt": "2026-10-14T18:03:03.296Z"
   }
 ]
