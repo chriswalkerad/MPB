@@ -1,5 +1,47 @@
 [
   {
+    "slug": "fbi-artex-tool-chains-attacks-to-admin-in-under-three-hours-2026-11-13",
+    "title": "FBI: Artex tool chains attacks to admin in under three hours",
+    "originalTitle": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
+    "summary": "Pull the FBI flash, update detections and harden MFA, conditional access and lateral movement controls, attackers are automating kill chains to admin in under three hours with Artex.",
+    "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-13T21:32:00.000Z",
+    "fetchedAt": "2026-11-14T06:14:06.475Z"
+  },
+  {
+    "slug": "android-arcticrat-now-uses-ai-to-profile-victims-finances-2026-11-13",
+    "title": "Android ArcticRAT now uses AI to profile victims’ finances",
+    "originalTitle": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
+    "summary": "Lock down Android BYOD with MDM, block sideloading and unknown sources, ArcticRAT now uses AI to triage stolen data and can take full device control.",
+    "url": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-13T20:20:27.000Z",
+    "fetchedAt": "2026-11-14T06:14:06.475Z"
+  },
+  {
+    "slug": "trezor-finds-tampered-safe-5-wallets-at-reseller-fix-release-2026-11-13",
+    "title": "Trezor finds tampered Safe 5 wallets at reseller, fix released",
+    "originalTitle": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+    "summary": "If anyone bought a Trezor Safe 5 from CryptoBilis, stop using it, update firmware, move funds and treat the recovery phrase as compromised due to cellular exfiltration implants.",
+    "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-13T19:38:36.000Z",
+    "fetchedAt": "2026-11-14T06:14:06.475Z"
+  },
+  {
     "slug": "postgresql-fixes-22-year-old-rce-rebuild-c-extensions-2026-11-13",
     "title": "PostgreSQL fixes 22-year-old RCE, rebuild C extensions",
     "originalTitle": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
@@ -64,6 +106,20 @@
     "category": "industry",
     "publishedAt": "2026-11-13T12:27:40.000Z",
     "fetchedAt": "2026-11-13T19:38:33.191Z"
+  },
+  {
+    "slug": "cisa-adds-actively-exploited-check-point-and-unrealircd-flaw-2026-11-13",
+    "title": "CISA adds actively exploited Check Point and UnrealIRCd flaws",
+    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "summary": "Patch Check Point and UnrealIRCd systems now, both flaws are on CISA’s KEV for active exploitation, prioritize internet-facing devices and audit logs for signs of compromise.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-13T12:00:00.000Z",
+    "fetchedAt": "2026-11-14T06:14:06.475Z"
   },
   {
     "slug": "check-point-gateways-hacked-zero-day-root-esxi-wiped-2026-11-13",
@@ -2814,47 +2870,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-31T08:27:43.000Z",
     "fetchedAt": "2026-10-31T12:19:56.628Z"
-  },
-  {
-    "slug": "malicious-chatgpt-share-links-could-read-your-chats-2026-10-31",
-    "title": "Malicious ChatGPT share links could read your chats",
-    "originalTitle": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-    "summary": "Train staff to avoid unknown ChatGPT share links and review sharing settings, a now-fixed bug let attackers run code in sessions and read private conversations.",
-    "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-31T05:33:41.000Z",
-    "fetchedAt": "2026-10-31T12:19:56.628Z"
-  },
-  {
-    "slug": "anthropic-cursor-extension-backdoored-for-12-hours-2026-10-30",
-    "title": "Anthropic Cursor extension backdoored for 12 hours",
-    "originalTitle": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-    "summary": "A compromised Anthropic extension on the Cursor marketplace was live for about 12 hours, so audit developer endpoints, remove the package, rotate API keys, and monitor for suspicious activity.",
-    "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-30T21:09:54.000Z",
-    "fetchedAt": "2026-10-31T05:33:44.560Z"
-  },
-  {
-    "slug": "critical-linux-mptcp-bug-enables-remote-root-on-servers-2026-10-30",
-    "title": "Critical Linux MPTCP bug enables remote root on servers",
-    "originalTitle": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-    "summary": "If you run Linux servers with MPTCP listeners, patch affected kernels right away or disable MPTCP, unauthenticated attackers can gain remote root via network requests.",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-30T21:09:46.000Z",
-    "fetchedAt": "2026-10-30T22:15:41.981Z"
   }
 ]
