@@ -1,5 +1,33 @@
 [
   {
+    "slug": "actively-exploited-unrealircd-bug-enables-server-command-inj-2026-11-14",
+    "title": "Actively exploited UnrealIRCd bug enables server command injection",
+    "originalTitle": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+    "summary": "CISA says attackers are exploiting CVE-2026-114713 in UnrealIRCd, update servers immediately and hunt for signs of post-exploitation.",
+    "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-14T12:38:35.000Z",
+    "fetchedAt": "2026-11-14T13:28:57.278Z"
+  },
+  {
+    "slug": "apple-details-secure-exclaves-shielding-iphone-camera-and-mi-2026-11-14",
+    "title": "Apple details Secure Exclaves shielding iPhone camera and mic data",
+    "originalTitle": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+    "summary": "Apple outlined hardware isolation for ambient sensor data on new iPhones and HomeView, MSPs should review privacy policies and app access requests.",
+    "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-14T11:00:00.000Z",
+    "fetchedAt": "2026-11-14T13:28:57.278Z"
+  },
+  {
     "slug": "fbi-artex-tool-chains-attacks-to-admin-in-under-three-hours-2026-11-13",
     "title": "FBI: Artex tool chains attacks to admin in under three hours",
     "originalTitle": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
@@ -2814,61 +2842,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-10-31T15:35:11.000Z",
     "fetchedAt": "2026-10-31T21:29:42.957Z"
-  },
-  {
-    "slug": "chainalysis-breach-tied-to-agentic-attacks-exposes-customer-2026-10-31",
-    "title": "Chainalysis breach tied to agentic attacks exposes customer data",
-    "originalTitle": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
-    "summary": "Alert affected users and expect targeted phishing, attackers accessed internal tools and exposed customer names emails and roles, review AI agent permissions logging and isolation controls.",
-    "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-10-31T12:50:09.000Z",
-    "fetchedAt": "2026-10-31T21:29:42.957Z"
-  },
-  {
-    "slug": "chainalysis-breach-exposed-customer-identity-data-2026-10-31",
-    "title": "Chainalysis breach exposed customer identity data",
-    "originalTitle": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
-    "summary": "Warn users and watch for phishing, an external actor accessed Chainalysis customer identity data though investigation content, authentication credentials, and session tokens were not accessed.",
-    "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-31T12:01:56.000Z",
-    "fetchedAt": "2026-10-31T12:19:56.628Z"
-  },
-  {
-    "slug": "wireshark-5-0-release-candidate-lands-2026-10-31",
-    "title": "Wireshark 5.0 release candidate lands",
-    "originalTitle": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
-    "summary": "Test Wireshark 5.0 release candidate in labs before rollout, a major update is near and expect changes to dissectors, plugins, capture workflows, and training materials.",
-    "url": "https://isc.sans.edu/diary/rss/33476",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-10-31T10:52:53.000Z",
-    "fetchedAt": "2026-10-31T12:19:56.628Z"
-  },
-  {
-    "slug": "ivanti-connect-secure-chain-grants-unauthenticated-root-patc-2026-10-31",
-    "title": "Ivanti Connect Secure chain grants unauthenticated root, patch now",
-    "originalTitle": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-    "summary": "Patch Ivanti Connect Secure immediately and hunt for compromise, attackers are chaining multiple flaws for unauthenticated root access and CISA has added them to the KEV list.",
-    "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-31T08:27:43.000Z",
-    "fetchedAt": "2026-10-31T12:19:56.628Z"
   }
 ]
