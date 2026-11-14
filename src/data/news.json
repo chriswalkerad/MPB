@@ -1,5 +1,19 @@
 [
   {
+    "slug": "cursor-breach-let-attackers-push-malicious-claude-code-exten-2026-11-14",
+    "title": "Cursor breach let attackers push malicious Claude Code extension",
+    "originalTitle": "Cursor confirms security breach led to malicious Claude Code extension",
+    "summary": "If your teams use Cursor, remove the Claude Code extension, audit developer endpoints and API keys, and monitor for suspicious activity, attackers pushed a malicious build via a marketplace breach.",
+    "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-14T17:27:25.000Z",
+    "fetchedAt": "2026-11-14T22:19:02.240Z"
+  },
+  {
     "slug": "actively-exploited-unrealircd-bug-enables-server-command-inj-2026-11-14",
     "title": "Actively exploited UnrealIRCd bug enables server command injection",
     "originalTitle": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
@@ -2814,33 +2828,5 @@
     "category": "ai-security",
     "publishedAt": "2026-10-31T23:15:22.000Z",
     "fetchedAt": "2026-11-01T05:56:57.793Z"
-  },
-  {
-    "slug": "northflank-breach-abused-customer-ai-api-keys-2026-10-31",
-    "title": "Northflank breach abused customer AI API keys",
-    "originalTitle": "Northflank security breach leads to abuse of customers' AI API keys",
-    "summary": "Rotate and reissue all credentials and secrets stored in Northflank, audit API usage for abuse, and remove stored secrets from shared build and hosting systems.",
-    "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-10-31T18:01:12.000Z",
-    "fetchedAt": "2026-10-31T21:29:42.957Z"
-  },
-  {
-    "slug": "android-sms-of-death-poc-released-patch-devices-now-2026-10-31",
-    "title": "Android SMS of Death PoC released, patch devices now",
-    "originalTitle": "New Android SMS of Death exploit can remotely crash unpatched phones",
-    "summary": "Install the latest Android security update across your fleet, this bug lets attackers crash phones or disrupt cellular service with a single malicious text message.",
-    "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-10-31T15:35:11.000Z",
-    "fetchedAt": "2026-10-31T21:29:42.957Z"
   }
 ]
