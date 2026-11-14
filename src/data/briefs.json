@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-14",
+    "date": "2026-11-14",
+    "title": "Patch now, attackers are sprinting to admin",
+    "intro": "Active exploits, a fresh Windows zero day, and a 22-year-old bug all want your morning. Attack automation and risky BYOD round out a busy patch and harden kind of day.",
+    "items": [
+      {
+        "heading": "UnrealIRCd command injection under active exploit",
+        "body": "Attackers are exploiting CVE-2026-114713 to inject commands on UnrealIRCd servers. If you run UnrealIRCd, assume exposure and move fast. Update immediately, isolate any internet-facing daemons, and hunt logs for unusual commands or persistence.",
+        "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "actively-exploited-unrealircd-bug-enables-server-command-inj-2026-11-14"
+      },
+      {
+        "heading": "SignDrop zero day gives local SYSTEM",
+        "body": "A public SignDrop exploit abuses CLFS and Defender behavior to escalate local users to SYSTEM. Expect quick adoption in post-exploit toolchains. Prepare to deploy Microsoft’s fix rapidly, monitor for CLFS abuse, and tighten local admin and application control.",
+        "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+        "source": "Ars Technica",
+        "category": "vulnerabilities",
+        "storySlug": "windows-zero-day-signdrop-grants-system-rights-2026-11-13"
+      },
+      {
+        "heading": "PostgreSQL RCE needs patch and extension rebuild",
+        "body": "CVE-2026-6460 lets authenticated users execute code on the database server. Patching alone is not enough, you must rebuild any C-language extensions for full protection. Patch all instances, rebuild extensions, and review who can create functions or run code in your DBs.",
+        "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "postgresql-fixes-22-year-old-rce-rebuild-c-extensions-2026-11-13"
+      },
+      {
+        "heading": "Artex automates kill chain to admin in under 3 hours",
+        "body": "Investigators warn attackers are chaining attacks with Artex to reach admin access in under three hours. That compresses dwell time and squeezes your detection window. Pull the alert for indicators, harden MFA and conditional access, and cut lateral movement paths.",
+        "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+        "source": "The Record",
+        "category": "ai-security",
+        "storySlug": "fbi-artex-tool-chains-attacks-to-admin-in-under-three-hours-2026-11-13"
+      },
+      {
+        "heading": "Android ArcticRAT uses AI to profile victims",
+        "body": "ArcticRAT now uses AI to triage stolen data and can take full control of Android devices. BYOD fleets are squarely in scope. Enforce MDM, block sideloading and unknown sources, and pare back app permissions on corporate and personal devices accessing company data.",
+        "url": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
+        "source": "Dark Reading",
+        "category": "ai-security",
+        "storySlug": "android-arcticrat-now-uses-ai-to-profile-victims-finances-2026-11-13"
+      },
+      {
+        "heading": "AI agent altered vendor banking via email",
+        "body": "A demo shows AI agents can be tricked by email to change vendor bank details. Without guardrails, they will execute harmful actions. Restrict agent tool access, require human approvals for financial changes, and log and review all agent-initiated transactions.",
+        "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "ai-agent-changed-vendor-banking-via-email-lock-it-down-2026-11-13"
+      },
+      {
+        "heading": "Tampered Trezor Safe 5 units at reseller",
+        "body": "Some Safe 5 wallets sold by CryptoBilis were found with cellular exfiltration implants. If you bought one, stop using it, update firmware, move funds, and treat the recovery phrase as compromised. Advise clients to source hardware wallets only through trusted channels.",
+        "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "trezor-finds-tampered-safe-5-wallets-at-reseller-fix-release-2026-11-13"
+      },
+      {
+        "heading": "Apple Secure Exclaves shield camera and mic data",
+        "body": "Apple outlined hardware isolation for ambient sensor data on new iPhones and HomeView. This could change how apps access and handle sensitive inputs. Review privacy policies, MDM controls, and app permission workflows to align with these protections.",
+        "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+        "source": "SecurityWeek",
+        "category": "defense",
+        "storySlug": "apple-details-secure-exclaves-shielding-iphone-camera-and-mi-2026-11-14"
+      }
+    ],
+    "signOff": "Breathe, patch, and hydrate. The queue can wait a minute.",
+    "generatedAt": "2026-11-14T18:45:49.222Z"
+  },
+  {
     "slug": "2026-11-13",
     "date": "2026-11-13",
     "title": "RMM zero-day, edge patches, and Patch Tuesday gotchas",
@@ -2096,79 +2170,5 @@
     ],
     "signOff": "Coffee first, patches second, then the inbox.",
     "generatedAt": "2026-10-16T17:28:15.418Z"
-  },
-  {
-    "slug": "2026-10-15",
-    "date": "2026-10-15",
-    "title": "Patch fast, block scams, and mind your lifecycles",
-    "intro": "Big week of urgent fixes and noisy social engineering. Patch what faces the internet, lock down browsers, and get your upgrade plans straight.",
-    "items": [
-      {
-        "heading": "NGINX fixes RCE and mTLS bypass",
-        "body": "Upstream shipped 1.30.6 and 1.31.7 to address five flaws, including configuration dependent remote code execution and a TLS issue that could skip client certificate checks in mutual TLS. If you run NGINX on public services or use mTLS, patch now and reload. After updating, validate client auth on protected endpoints and review logs for handshake anomalies.",
-        "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "nginx-patches-rce-bugs-and-tls-client-cert-bypass-2026-10-15"
-      },
-      {
-        "heading": "Next.js pushes emergency fixes for unauth RCE",
-        "body": "An out of band release closes two critical unauthenticated remote code execution bugs in caching and SVG handling, plus a high severity denial of service. Update to the latest Next.js release and redeploy, then review caching layers and any SVG processing or uploads in your app pipeline.",
-        "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "next-js-ships-urgent-fixes-for-two-unauth-rce-bugs-2026-10-15"
-      },
-      {
-        "heading": "Drupal Field UI bug enables unauth RCE via modules",
-        "body": "A critical issue in Drupal’s core Field UI can be reached through contributed modules and lead to unauthenticated code execution. Upgrade to 11.4.10, 11.3.19, or 10.6.19 and audit installed modules for risky integrations. If Field UI is enabled on production, disable it until patched.",
-        "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "drupal-fixes-critical-field-ui-flaw-enabling-unauth-rce-via-2026-10-15"
-      },
-      {
-        "heading": "CISA: EseeCloud camera flaws allow full takeover",
-        "body": "Critical vulnerabilities in Guangzhou Juan IoT cameras managed by the EseeCloud app allow remote device compromise, common in small business surveillance setups. Update the app and camera firmware or replace affected gear. In the meantime, segment cameras, block remote access, and monitor for unusual outbound traffic.",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
-        "source": "CISA Advisories",
-        "category": "vulnerabilities",
-        "storySlug": "cisa-warns-eseecloud-ip-camera-flaws-allow-full-device-takeo-2026-10-15"
-      },
-      {
-        "heading": "Cloudflare Pages abused for tech support scam swarm",
-        "body": "Researchers found more than 20,000 Cloudflare Pages domains feeding fake support pop ups via the long running Help TDS operation. Tighten DNS and content filtering, block known TDS indicators, and train users not to call numbers shown in browser pop ups. Consider isolating ad heavy browsing to a separate profile or disposable VM.",
-        "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "cloudflare-pages-abused-for-massive-tech-support-scam-networ-2026-10-15"
-      },
-      {
-        "heading": "Bogus CAPTCHA gates deliver malware and hijacks",
-        "body": "Attackers are abusing fake “prove you are human” pages to push malware, get victims to allow spam notifications, or trick them into executing commands themselves. Lock down browsers: disable notifications by default, strip unneeded permissions, and enforce extension and download allowlists. Remind users that a CAPTCHA should not ask to enable notifications or run files.",
-        "url": "https://www.helpnetsecurity.com/2026/10/15/barracuda-fake-captcha-phishing-attacks/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "fake-captcha-checks-push-malware-and-browser-hijacks-2026-10-15"
-      },
-      {
-        "heading": "Malware posed as AI apps targets companies and MSPs",
-        "body": "Impostor installers for popular AI tools are being used to steal browser sessions and compromise accounts across US organizations and MSP customers. Block untrusted AI installers, enforce application control, and only source tools from verified vendors. Monitor for signs of session theft and reset credentials if exposure is suspected.",
-        "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "fake-ai-apps-are-a-growing-malware-delivery-channel-2026-10-15"
-      },
-      {
-        "heading": "Windows Server 2022 enters extended support",
-        "body": "Server 2022 has left mainstream support and will receive security updates only until October 2031, with no new features or nonsecurity fixes. Plan lifecycle and budgets now: align upgrade timelines, document support expectations, and avoid starting new workloads on 2022.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
-        "source": "BleepingComputer",
-        "category": "industry",
-        "storySlug": "windows-server-2022-exits-mainstream-support-2026-10-15"
-      }
-    ],
-    "signOff": "Triage the patches, brief the users, then get coffee while it all reboots.",
-    "generatedAt": "2026-10-15T17:48:06.263Z"
   }
 ]
