@@ -1,10 +1,4 @@
 {
-  "https://www.helpnetsecurity.com/2026/10/16/new-infosec-products-of-the-week-october-16-2026/": "2026-10-16T04:26:31.653Z",
-  "https://www.helpnetsecurity.com/2026/10/16/fastfetch-2-70-0-released/": "2026-10-16T04:26:31.653Z",
-  "https://isc.sans.edu/diary/rss/33432": "2026-10-16T04:26:31.653Z",
-  "https://isc.sans.edu/diary/rss/33430": "2026-10-16T04:26:31.653Z",
-  "https://www.darkreading.com/cybersecurity-operations/sector-2026-reveals-a-rapidly-shifting-cybersecurity-landscape": "2026-10-16T04:26:31.653Z",
-  "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud": "2026-10-16T04:26:31.653Z",
   "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/": "2026-10-16T11:17:53.806Z",
   "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/": "2026-10-16T11:17:53.806Z",
   "https://www.helpnetsecurity.com/2026/10/16/arch-linux-aur-malware-yay-paru/": "2026-10-16T11:17:53.806Z",
@@ -1421,5 +1415,7 @@
   "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/": "2026-11-14T13:28:57.278Z",
   "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/": "2026-11-14T22:19:02.240Z",
   "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/": "2026-11-14T22:19:02.240Z",
-  "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/": "2026-11-14T22:19:02.240Z"
+  "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/": "2026-11-14T22:19:02.240Z",
+  "https://simonwillison.net/2026/Nov/14/datasette-llm/": "2026-11-15T06:21:32.379Z",
+  "https://simonwillison.net/2026/Nov/14/datasette-vega/": "2026-11-15T06:21:32.379Z"
 }
