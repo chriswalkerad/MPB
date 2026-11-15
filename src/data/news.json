@@ -1,5 +1,52 @@
 [
   {
+    "slug": "fbi-artex-ai-used-in-attacks-linked-to-connectwise-breach-2026-11-15",
+    "title": "FBI: ARTEX AI used in attacks, linked to ConnectWise breach",
+    "originalTitle": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+    "summary": "FBI says attackers are using the ARTEX AI pentesting framework and tied it to a ConnectWise supply chain hit, audit M365 tenants, restrict OAuth apps, and rotate API keys now.",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-15T18:29:53.000Z",
+    "fetchedAt": "2026-11-15T18:47:51.500Z"
+  },
+  {
+    "slug": "yara-x-1-23-0-brings-fixes-update-your-detection-stack-2026-11-15",
+    "title": "YARA-X 1.23.0 brings fixes, update your detection stack",
+    "originalTitle": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
+    "summary": "YARA-X 1.23.0 fixes 16 bugs and adds 4 improvements, update your detection pipelines and test rules for compatibility to avoid surprises in production.",
+    "url": "https://isc.sans.edu/diary/rss/33496",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-15T18:17:27.000Z",
+    "fetchedAt": "2026-11-15T18:47:51.500Z"
+  },
+  {
+    "slug": "cursor-blames-stolen-fireworks-ai-key-for-trojanized-claude-2026-11-15",
+    "title": "Cursor blames stolen Fireworks AI key for trojanized Claude Code",
+    "originalTitle": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+    "summary": "Cursor says a leaked Fireworks AI key let attackers publish a trojanized Claude Code extension, remove it, verify publisher signatures, rotate shared keys, and lock down marketplace permissions.",
+    "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/15/week-in-review-secret-stealer-hits-github-repos-claude-code-turned-into-remote-controlled-implant/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-15T08:22:04.000Z",
+    "fetchedAt": "2026-11-15T18:47:51.500Z"
+  },
+  {
     "slug": "cursor-breach-let-attackers-push-malicious-claude-code-exten-2026-11-14",
     "title": "Cursor breach let attackers push malicious Claude Code extension",
     "originalTitle": "Cursor confirms security breach led to malicious Claude Code extension",
@@ -2744,75 +2791,5 @@
     "category": "ai-security",
     "publishedAt": "2026-11-02T05:00:46.000Z",
     "fetchedAt": "2026-11-02T05:56:36.304Z"
-  },
-  {
-    "slug": "gitlab-rce-attempts-hit-alpine-linux-update-and-rotate-secre-2026-11-01",
-    "title": "GitLab RCE attempts hit Alpine Linux, update and rotate secrets",
-    "originalTitle": "Alpine Linux rebuilds GitLab after attempted RCE attack",
-    "summary": "Update GitLab to the fixed release immediately, audit for compromise, rotate passwords and tokens, attacks attempted against Alpine's instance show active exploitation.",
-    "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-01T15:11:21.000Z",
-    "fetchedAt": "2026-11-01T21:58:52.129Z"
-  },
-  {
-    "slug": "chatgpt-adds-work-features-check-settings-and-data-controls-2026-11-01",
-    "title": "ChatGPT adds Work features, check settings and data controls",
-    "originalTitle": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
-    "summary": "Prepare for clients asking about ChatGPT Work, review tenant controls, SSO and data retention to prevent sensitive data leakage as usage limits expand.",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-01T13:53:11.000Z",
-    "fetchedAt": "2026-11-01T21:58:52.129Z"
-  },
-  {
-    "slug": "how-to-extract-embedded-files-from-onenote-for-analysis-2026-11-01",
-    "title": "How to extract embedded files from OneNote for analysis",
-    "originalTitle": "OneNote File Extraction, (Sun, Nov 1st)",
-    "summary": "Use this SANS tool and process to pull embedded content from .one files, handy for investigating OneNote-delivered malware and triaging suspicious notes in IR.",
-    "url": "https://isc.sans.edu/diary/rss/33478",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-11-01T09:12:23.000Z",
-    "fetchedAt": "2026-11-01T13:15:30.210Z"
-  },
-  {
-    "slug": "critical-lxd-microcloud-bug-lets-attackers-impersonate-trust-2026-11-01",
-    "title": "Critical LXD, MicroCloud bug lets attackers impersonate trusted clients",
-    "originalTitle": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-    "summary": "Update LXD and MicroCloud to fixed releases, restrict access to the HTTPS API and rotate client certs, a CVSS 10 flaw allows login without a private key.",
-    "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-01T08:51:31.000Z",
-    "fetchedAt": "2026-11-01T13:15:30.210Z"
-  },
-  {
-    "slug": "polymarket-hack-tied-to-hijacked-third-party-script-2-7m-sto-2026-11-01",
-    "title": "Polymarket hack tied to hijacked third-party script, $2.7M stolen",
-    "originalTitle": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
-    "summary": "Audit and self-host critical scripts, enable CSP and Subresource Integrity, attackers replaced a performance script with malware that drained signed-in traders' funds.",
-    "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-01T07:25:40.000Z",
-    "fetchedAt": "2026-11-01T13:15:30.210Z"
   }
 ]
