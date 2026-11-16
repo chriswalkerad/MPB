@@ -1,5 +1,141 @@
 [
   {
+    "slug": "project-zero-shrinking-disclosure-window-to-30-days-2026-11-16",
+    "title": "Project Zero shrinking disclosure window to 30 days",
+    "originalTitle": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+    "summary": "Plan for faster patch cycles, Google will drop its 90+30 policy to fixed 60 days in 2027 and 30 days in 2028 in response to AI-accelerated exploitation.",
+    "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/16/google-project-zero-disclosure-policy/"
+      }
+    ],
+    "category": "industry",
+    "publishedAt": "2026-11-16T21:31:44.000Z",
+    "fetchedAt": "2026-11-16T21:58:10.323Z"
+  },
+  {
+    "slug": "barracuda-cloud-breach-tied-to-artex-ai-attack-2026-11-16",
+    "title": "Barracuda cloud breach tied to ARTEX AI attack",
+    "originalTitle": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+    "summary": "If you run Barracuda services, review incident guidance, rotate cloud keys, and audit access logs as attackers used a stolen key and AI tooling to break in.",
+    "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/barracuda-hacked-amid-surge-in-artex-powered-cyberattacks/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-16T19:57:13.000Z",
+    "fetchedAt": "2026-11-16T21:58:10.323Z"
+  },
+  {
+    "slug": "google-autonomous-ai-attacks-are-here-speed-up-defenses-2026-11-16",
+    "title": "Google: autonomous AI attacks are here, speed up defenses",
+    "originalTitle": "Google warns that fully-automated AI attacks are coming soon",
+    "summary": "Expect agentic AI frameworks to find and exploit bugs fast, so tighten patch SLAs, monitor for automation patterns, and lock down exposed developer and AI tooling.",
+    "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-16T14:00:00.000Z",
+    "fetchedAt": "2026-11-16T21:58:10.323Z"
+  },
+  {
+    "slug": "litellm-starlette-cves-probed-unauth-rce-chain-exists-2026-11-16",
+    "title": "LiteLLM/Starlette CVEs probed, unauth RCE chain exists",
+    "originalTitle": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
+    "summary": "Patch or pull internet exposure now, scans for CVE-2026-42271 and CVE-2026-48710 are active and can be chained to remote code execution without authentication.",
+    "url": "https://isc.sans.edu/diary/rss/33522",
+    "source": {
+      "name": "SANS ISC"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-16T13:11:04.000Z",
+    "fetchedAt": "2026-11-16T21:58:10.323Z"
+  },
+  {
+    "slug": "windows-server-2016-hits-end-of-support-in-60-days-2026-11-16",
+    "title": "Windows Server 2016 hits end of support in 60 days",
+    "originalTitle": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+    "summary": "Schedule migrations and upgrades now, security updates stop in two months for Server 2016, leaving workloads exposed and noncompliant if you miss the deadline.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-11-16T12:53:18.000Z",
+    "fetchedAt": "2026-11-16T21:58:10.323Z"
+  },
+  {
+    "slug": "noisytcp-bug-can-crash-linux-web-and-ssh-servers-2026-11-16",
+    "title": "NoisyTCP bug can crash Linux web and SSH servers",
+    "originalTitle": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+    "summary": "Prioritize kernel updates or mitigations, an 11-year-old Linux flaw lets remote attackers crash Nginx, Apache, and SSH on default configs across most distros.",
+    "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-16T09:30:04.000Z",
+    "fetchedAt": "2026-11-16T21:58:10.323Z"
+  },
+  {
+    "slug": "install-microsoft-s-oob-updates-to-fix-windows-activation-bu-2026-11-16",
+    "title": "Install Microsoft’s OOB updates to fix Windows activation bugs",
+    "originalTitle": "Microsoft pushes Windows emergency updates to fix activation failures",
+    "summary": "If recent Patch Tuesday broke licensing or activation, deploy Microsoft’s out-of-band fixes today to restore activation and prevent service disruptions on managed endpoints.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-16T08:26:52.000Z",
+    "fetchedAt": "2026-11-16T21:58:10.323Z"
+  },
+  {
+    "slug": "phishers-piggybacked-the-global-m365-outage-to-steal-mail-2026-11-16",
+    "title": "Phishers piggybacked the global M365 outage to steal mail",
+    "originalTitle": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
+    "summary": "Warn users now, attackers are sending Microsoft 365 outage lures that threaten message deletion, so block and report emails and verify status via the admin portal.",
+    "url": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-16T08:15:12.000Z",
+    "fetchedAt": "2026-11-16T21:58:10.323Z"
+  },
+  {
     "slug": "ory-hydra-an-open-source-oauth2-oidc-server-for-your-stack-2026-11-16",
     "title": "Ory Hydra, an open-source OAuth2/OIDC server for your stack",
     "originalTitle": "Ory Hydra: Open-source OAuth 2.0 server and OpenID Connect provider",
@@ -2595,196 +2731,5 @@
     "category": "defense",
     "publishedAt": "2026-11-02T22:27:24.000Z",
     "fetchedAt": "2026-11-03T00:55:50.877Z"
-  },
-  {
-    "slug": "chinese-hackers-automate-attacks-with-artex-ai-framework-2026-11-02",
-    "title": "Chinese hackers automate attacks with ARTEX AI framework",
-    "originalTitle": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
-    "summary": "Expect AI-driven recon and exploit chaining at scale, a Chinese group used the open-source ARTEX multi-agent tool against 200 organizations, so reduce exposure and tighten controls.",
-    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-02T21:40:14.000Z",
-    "fetchedAt": "2026-11-03T00:55:50.877Z"
-  },
-  {
-    "slug": "byod-ransomware-group-claims-michigan-state-incident-2026-11-02",
-    "title": "BYOD ransomware group claims Michigan State incident",
-    "originalTitle": "Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
-    "summary": "Prepare for follow-on attacks and data leaks, the gang behind recent hospital hits says it breached MSU, prompting campus-wide containment and showing education remains a soft target.",
-    "url": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-02T19:54:00.000Z",
-    "fetchedAt": "2026-11-03T00:55:50.877Z"
-  },
-  {
-    "slug": "abrigo-s-sageworks-suffers-outage-after-suspected-cyberattac-2026-11-02",
-    "title": "Abrigo’s Sageworks suffers outage after suspected cyberattack",
-    "originalTitle": "Fintech platform Sageworks taken offline after suspected cyberattack",
-    "summary": "Alert banking clients and plan workarounds, Abrigo restored most Sageworks functions but borrower-facing features remain down after detecting irregular activity in its environment.",
-    "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-02T19:00:45.000Z",
-    "fetchedAt": "2026-11-03T00:55:50.877Z"
-  },
-  {
-    "slug": "google-kills-1-3m-device-android-tv-botnet-blames-box-maker-2026-11-02",
-    "title": "Google kills 1.3M-device Android TV botnet, blames box maker",
-    "originalTitle": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-    "summary": "Audit and segment any cheap Android TV boxes on corporate or home-office networks, Google says a vendor shipped firmware backdoors used for ad fraud and proxying.",
-    "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/11/02/xcpe-botnet-android-backdoor/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-02T18:16:34.000Z",
-    "fetchedAt": "2026-11-03T00:55:50.877Z"
-  },
-  {
-    "slug": "ivanti-connect-secure-bugs-under-active-exploit-patch-now-2026-11-02",
-    "title": "Ivanti Connect Secure bugs under active exploit, patch now",
-    "originalTitle": "CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
-    "summary": "Patch all Ivanti Connect Secure appliances immediately and hunt for compromise, CISA added two newly exploited flaws used in chains to gain access to VPN gateways.",
-    "url": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-02T15:58:08.000Z",
-    "fetchedAt": "2026-11-03T00:55:50.877Z"
-  },
-  {
-    "slug": "microsoft-fixes-windows-smart-app-control-activation-issue-2026-11-02",
-    "title": "Microsoft fixes Windows Smart App Control activation issue",
-    "originalTitle": "Microsoft fixes Smart App Control broken by October Windows update",
-    "summary": "Install the latest Windows 11 updates or re-enable Smart App Control, Microsoft fixed an October issue that blocked activation of this application control feature.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-11-02T13:57:29.000Z",
-    "fetchedAt": "2026-11-02T15:42:41.301Z"
-  },
-  {
-    "slug": "hackers-hijack-supermarket-freezers-across-europe-again-2026-11-02",
-    "title": "Hackers hijack supermarket freezers across Europe again",
-    "originalTitle": "Second wave of suspected cyberattacks hits supermarket freezers across Europe",
-    "summary": "Segment and harden building and OT systems, attackers twice remotely changed supermarket freezer temperatures across Europe causing spoilage and showing the risk of insecure remote access.",
-    "url": "https://therecord.media/cyberattack-grocery-freezers-europe",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/11/02/european-supermarkets-refrigeration-units-cyberattacks/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-02T13:00:00.000Z",
-    "fetchedAt": "2026-11-02T15:42:41.301Z"
-  },
-  {
-    "slug": "gitlab-rce-exploited-in-the-wild-thousands-still-unpatched-2026-11-02",
-    "title": "GitLab RCE exploited in the wild, thousands still unpatched",
-    "originalTitle": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
-    "summary": "Patch your GitLab to the latest release and restrict internet exposure, a max severity RCE is actively exploited and over 1,000 servers remain unpatched.",
-    "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-02T12:47:00.000Z",
-    "fetchedAt": "2026-11-02T15:42:41.301Z"
-  },
-  {
-    "slug": "malicious-claude-code-extension-pushed-via-cursor-ide-2026-11-02",
-    "title": "Malicious Claude Code extension pushed via Cursor IDE",
-    "originalTitle": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
-    "summary": "Audit developer extensions and remove suspicious ones, a malicious Claude Code extension delivered via Cursor performed host recon and attempted a reverse SSH tunnel.",
-    "url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-02T11:29:39.000Z",
-    "fetchedAt": "2026-11-02T15:42:41.301Z"
-  },
-  {
-    "slug": "synology-warns-of-c3rb3r-ransomware-hitting-nas-devices-2026-11-02",
-    "title": "Synology warns of C3RB3R ransomware hitting NAS devices",
-    "originalTitle": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
-    "summary": "Update Synology NAS devices now and lock down remote access, C3RB3R ransomware is actively targeting them and will encrypt data if devices are exposed.",
-    "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-02T11:28:42.000Z",
-    "fetchedAt": "2026-11-02T15:42:41.301Z"
-  },
-  {
-    "slug": "attackers-pose-as-it-on-teams-abuse-ad-cs-to-steal-data-2026-11-02",
-    "title": "Attackers pose as IT on Teams, abuse AD CS to steal data",
-    "originalTitle": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-    "summary": "Disable or vet external Teams chats and harden AD CS templates, attackers posed as IT support to gain remote control then minted certificates to access privileged accounts.",
-    "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-02T11:08:45.000Z",
-    "fetchedAt": "2026-11-02T15:42:41.301Z"
-  },
-  {
-    "slug": "ivanti-connect-secure-hit-with-chained-zero-days-patch-now-2026-11-02",
-    "title": "Ivanti Connect Secure hit with chained zero-days, patch now",
-    "originalTitle": "Ivanti patches two more Connect Secure zero-days chained in attacks",
-    "summary": "Patch Ivanti Connect Secure immediately, two new flaws are being chained in zero-day attacks since October, so prioritize updating gateways and checking for compromise.",
-    "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-02T09:33:26.000Z",
-    "fetchedAt": "2026-11-02T15:42:41.301Z"
   }
 ]
