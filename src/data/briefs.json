@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-16",
+    "date": "2026-11-16",
+    "title": "AI speeds offense, patch windows shrink, fix the fires",
+    "intro": "Two internet-facing bugs are getting hammered, AI is shortening your patch runway, and Microsoft dropped both a fix and a deadline. Triage fast and keep an eye on anything exposed.",
+    "items": [
+      {
+        "heading": "Unauth RCE in LiteLLM and Starlette probed",
+        "body": "Scans for CVE-2026-42271 and CVE-2026-48710 are active, and the bugs can be chained into unauthenticated remote code execution. If you expose LiteLLM or Starlette to the internet, patch immediately or take them off the public web. Review logs for probing and lock down any admin interfaces.",
+        "url": "https://isc.sans.edu/diary/rss/33522",
+        "source": "SANS ISC",
+        "category": "vulnerabilities",
+        "storySlug": "litellm-starlette-cves-probed-unauth-rce-chain-exists-2026-11-16"
+      },
+      {
+        "heading": "NoisyTCP can crash Linux web and SSH servers",
+        "body": "An 11-year-old Linux TCP bug lets remote attackers crash services like Nginx, Apache, and SSH on default configs across most distributions. Expect stability hits if you delay, so prioritize kernel updates or vendor mitigations. Reduce exposure where you can until patched.",
+        "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "noisytcp-bug-can-crash-linux-web-and-ssh-servers-2026-11-16"
+      },
+      {
+        "heading": "Barracuda cloud breach involves stolen key and AI tooling",
+        "body": "Barracuda reports a cloud breach where attackers used a stolen key and AI tooling to gain access. If you run Barracuda services, follow the incident guidance, rotate cloud keys, and audit access logs for suspicious activity. Treat credentials as compromised until proven otherwise.",
+        "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "barracuda-cloud-breach-tied-to-artex-ai-attack-2026-11-16"
+      },
+      {
+        "heading": "Deploy OOB fixes for Windows activation issues",
+        "body": "Recent Patch Tuesday changes broke some Windows licensing and activation. Microsoft has issued out-of-band updates to restore activation and prevent service disruption. Push these updates now to clean up endpoints before users start filing tickets.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "install-microsoft-s-oob-updates-to-fix-windows-activation-bu-2026-11-16"
+      },
+      {
+        "heading": "M365 outage phish pushes message deletion scare",
+        "body": "Attackers are sending Microsoft 365 outage-themed emails that threaten message deletion to lure clicks. Warn users to ignore the bait, block and report these messages, and verify service status only via the admin portal. Tune filters for the current lures.",
+        "url": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "phishers-piggybacked-the-global-m365-outage-to-steal-mail-2026-11-16"
+      },
+      {
+        "heading": "Project Zero cuts disclosure window to 60 then 30 days",
+        "body": "Google Project Zero will move from 90 plus 30 days to a fixed 60-day window in 2027 and 30 days in 2028. The shift responds to AI-accelerated exploitation, meaning vendors and customers must move faster. Tighten patch SLAs and line up maintenance windows ahead of the change.",
+        "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+        "source": "BleepingComputer",
+        "category": "industry",
+        "storySlug": "project-zero-shrinking-disclosure-window-to-30-days-2026-11-16"
+      },
+      {
+        "heading": "Google says autonomous AI attacks are arriving",
+        "body": "Google warns that autonomous agentic AI frameworks can find and exploit bugs fast. Expect more automation in recon and exploitation, and adjust defenses accordingly. Speed up patching, watch for automation patterns in telemetry, and lock down exposed developer and AI tooling.",
+        "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "google-autonomous-ai-attacks-are-here-speed-up-defenses-2026-11-16"
+      },
+      {
+        "heading": "Windows Server 2016 loses support in 60 days",
+        "body": "Windows Server 2016 reaches end of support in 60 days, after which security updates stop. That leaves workloads exposed and can push you out of compliance. Schedule migrations and upgrades now while you still have runway.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+        "source": "BleepingComputer",
+        "category": "industry",
+        "storySlug": "windows-server-2016-hits-end-of-support-in-60-days-2026-11-16"
+      }
+    ],
+    "signOff": "Back to the queue. Patch early, breathe often.",
+    "generatedAt": "2026-11-16T22:55:36.503Z"
+  },
+  {
     "slug": "2026-11-15",
     "date": "2026-11-15",
     "title": "AI tool abuse, supply chain hits, and one bug on fire",
@@ -2080,79 +2154,5 @@
     ],
     "signOff": "Patch fast, review logs faster, and may your backups restore on the first try.",
     "generatedAt": "2026-10-18T16:34:52.698Z"
-  },
-  {
-    "slug": "2026-10-17",
-    "date": "2026-10-17",
-    "title": "Supply chains on fire, patch and audit now",
-    "intro": "Attackers are walking through vendors, update channels, and plugins to land in your tenants. Triage backups and auth first, then knock out the urgent patches.",
-    "items": [
-      {
-        "heading": "ConnectWise Cloud Backup abused to hit M365",
-        "body": "ConnectWise pulled the plug on Cloud Backup after attackers leveraged application identities to pivot into customer Microsoft 365 tenants. If you use this integration, treat those app identities as burned: rotate every secret and certificate, and comb tenant audit logs for suspicious access.",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "connectwise-cloud-backup-breach-hits-microsoft-365-tenants-2026-10-17"
-      },
-      {
-        "heading": "173 tenants accessed via ConnectWise credential",
-        "body": "Follow on reporting says a compromised ConnectWise Microsoft 365 credential was used to get into 173 tenants. Lock it down by auditing app consents and sign ins, revoking tokens, rotating any ConnectWise related credentials, and enforcing Conditional Access policies.",
-        "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "hackers-use-connectwise-backup-credential-to-enter-173-m365-2026-10-17"
-      },
-      {
-        "heading": "AOMEI Backupper update channel hijacked",
-        "body": "Attackers intermittently served a backdoored update by hijacking AOMEI Backupper update infrastructure between May and July. Inventory any systems with this product, isolate and investigate, and if you see indicators of compromise block egress or reimage as needed.",
-        "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "aomei-backupper-updates-briefly-served-a-backdoor-via-hijack-2026-10-16"
-      },
-      {
-        "heading": "Critical Drupal RCE, patch immediately",
-        "body": "Drupal shipped fixes for two critical bugs that enable remote code execution, with a warning that exploitation is likely soon. Update all supported core versions now and monitor for post patch probing.",
-        "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "drupal-fixes-critical-rce-patch-now-2026-10-17"
-      },
-      {
-        "heading": "Magento BlockStrap RCE, max severity",
-        "body": "A critical flaw in the BlockStrap component of Adobe Commerce and Magento allows arbitrary PHP execution on servers. If you run Magento stores with BlockStrap, patch without delay and limit admin and plugin access until updates land.",
-        "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "critical-magento-blockstrap-bug-allows-remote-code-execution-2026-10-16"
-      },
-      {
-        "heading": "Malicious npm imgdecode drops shellcode",
-        "body": "The imgdecode package on npm was part of a MALFEX campaign, hiding a Windows native addon that fetched and ran shellcode. If it shows up in your dependency tree, purge it from builds, lock down registries, and review Windows build agents for odd network or process activity.",
-        "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "malicious-npm-imgdecode-package-loads-shellcode-2026-10-17"
-      },
-      {
-        "heading": "Fake ChatGPT and Claude installers lure devs",
-        "body": "Malvertising and ClickFix style prompts are pushing fake installers for popular AI tools to developers and enterprise staff. Enforce allowlisted install sources, block ad delivered downloads, and train users to only pull installers from vendor sites.",
-        "url": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
-        "source": "Dark Reading",
-        "category": "ai-security",
-        "storySlug": "fake-chatgpt-and-claude-installers-are-snaring-developers-2026-10-16"
-      },
-      {
-        "heading": "AI assistants proved they can hack in tests",
-        "body": "In controlled tests, OpenAI models with browsing and tools were able to drain a crypto wallet and breach sites. If you plan to enable these features, assume they can perform real intrusion steps, sandbox execution, restrict actions, and log everything.",
-        "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-        "source": "Ars Technica",
-        "category": "ai-security",
-        "storySlug": "openai-models-hacked-a-crypto-wallet-and-breached-sites-in-t-2026-10-16"
-      }
-    ],
-    "signOff": "Backups, builds, and CMSes do not patch themselves. See you after tickets.",
-    "generatedAt": "2026-10-17T16:28:30.905Z"
   }
 ]
