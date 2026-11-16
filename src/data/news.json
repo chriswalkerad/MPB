@@ -1,5 +1,33 @@
 [
   {
+    "slug": "ory-hydra-an-open-source-oauth2-oidc-server-for-your-stack-2026-11-16",
+    "title": "Ory Hydra, an open-source OAuth2/OIDC server for your stack",
+    "originalTitle": "Ory Hydra: Open-source OAuth 2.0 server and OpenID Connect provider",
+    "summary": "Use Hydra to issue and validate tokens with OAuth2 and OpenID Connect, integrating with your existing identity instead of building a server from scratch.",
+    "url": "https://www.helpnetsecurity.com/2026/11/16/ory-hydra-oauth-server-open-source/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-16T06:00:29.000Z",
+    "fetchedAt": "2026-11-16T06:20:35.330Z"
+  },
+  {
+    "slug": "ai-flags-99-flaws-in-legacy-tcp-ip-stacks-replace-or-isolate-2026-11-16",
+    "title": "AI flags 99 flaws in legacy TCP/IP stacks, replace or isolate",
+    "originalTitle": "AI uncovers flaws in discontinued devices with no vendor left to patch them",
+    "summary": "Audit and segment or replace end-of-life gear, researchers used AI to uncover 99 vulnerabilities across 10 TCP/IP stacks in discontinued devices.",
+    "url": "https://www.helpnetsecurity.com/2026/11/16/forescout-ai-models-vulnerability-research/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-16T05:00:22.000Z",
+    "fetchedAt": "2026-11-16T06:20:35.330Z"
+  },
+  {
     "slug": "fbi-artex-ai-used-in-attacks-linked-to-connectwise-breach-2026-11-15",
     "title": "FBI: ARTEX AI used in attacks, linked to ConnectWise breach",
     "originalTitle": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
@@ -2758,38 +2786,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-02T09:33:26.000Z",
     "fetchedAt": "2026-11-02T15:42:41.301Z"
-  },
-  {
-    "slug": "new-volta-infostealer-uses-ai-to-pick-the-richest-targets-2026-11-02",
-    "title": "New VOLTA infostealer uses AI to pick the richest targets",
-    "originalTitle": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-    "summary": "Expect infostealers to use AI to prioritize victims and loot, deploy EDR and tighten browser and credential hygiene to reduce the value of what these tools steal.",
-    "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/11/02/ai-powered-infostealer-volta-victim-profiling/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-11-02T05:51:07.000Z",
-    "fetchedAt": "2026-11-02T15:42:41.301Z"
-  },
-  {
-    "slug": "ransomware-crew-used-ai-agents-to-reach-domain-admin-2026-11-02",
-    "title": "Ransomware crew used AI agents to reach domain admin",
-    "originalTitle": "Ransomware gang talked AI agents into doing much of its dirty work",
-    "summary": "Lock down AI tools on endpoints and servers, Sophos reports Aur0ra ransomware leveraged coding agents to steal credentials and escalate to domain admin.",
-    "url": "https://www.helpnetsecurity.com/2026/11/02/aur0ra-ransomware-ai-agents/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-02T05:00:46.000Z",
-    "fetchedAt": "2026-11-02T05:56:36.304Z"
   }
 ]
