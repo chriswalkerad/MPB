@@ -22460,5 +22460,23 @@
     "url": "https://cybersecuritysummit.com/summits/",
     "source": "Cybersecurity Summit",
     "description": "This virtual event centers on identity and access challenges across modern environments. Good fit for practitioners tightening IAM controls without crushing UX."
+  },
+  {
+    "name": "The Future of Cybersecurity & Operating Enterprise AI at Scale",
+    "slug": "the-future-of-cybersecurity-operating-enterprise-ai-at-scale-2026",
+    "date": "2026-11-17T17:30:00",
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Los Angeles",
+    "state": "CA",
+    "region": "west-coast",
+    "cost": "",
+    "tags": [
+      "AI & Machine Learning",
+      "Networking & Career"
+    ],
+    "url": "https://www.meetup.com/issa-la/events/317388125/",
+    "source": "ISSA LA (Meetup)",
+    "description": "ISSA-LA hosts an evening program on the future of cybersecurity and running enterprise AI, with speakers and plenty of peer networking over dinner. Bring your questions on AI risk, governance, and real-world operations."
   }
 ]
