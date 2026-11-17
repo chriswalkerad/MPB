@@ -1,5 +1,141 @@
 [
   {
+    "slug": "google-ai-agents-are-automating-live-intrusions-2026-11-17",
+    "title": "Google: AI agents are automating live intrusions",
+    "originalTitle": "Chinese state group developing automated attack tool for cyber espionage, Google says",
+    "summary": "Assume attackers will chain autonomous AI tools into your kill chain, restrict agent permissions, monitor automation, and patch quickly as weaponization speed increases.",
+    "url": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/17/ai-powered-cyberattacks-gtig-report/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-17T18:50:00.000Z",
+    "fetchedAt": "2026-11-17T20:51:49.612Z"
+  },
+  {
+    "slug": "fireworks-breach-ripples-cursor-and-uber-data-exposed-2026-11-17",
+    "title": "Fireworks breach ripples: Cursor and Uber data exposed",
+    "originalTitle": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
+    "summary": "Review third party AI integrations, rotate credentials and audit access, a compromised Fireworks key let attackers pull Cursor data and exposed nearly 150,000 Uber driver records.",
+    "url": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-17T18:38:37.000Z",
+    "fetchedAt": "2026-11-17T20:51:49.612Z"
+  },
+  {
+    "slug": "oracle-ships-java-fixes-critical-openjdk-rce-reported-2026-11-17",
+    "title": "Oracle ships Java fixes, critical OpenJDK RCE reported",
+    "originalTitle": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+    "summary": "Apply today's Java SE updates across endpoints and servers, and track reports of CVE-2026-114938 in OpenJDK for potential RCE risk in downstream stacks.",
+    "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-17T15:17:36.000Z",
+    "fetchedAt": "2026-11-17T20:51:49.612Z"
+  },
+  {
+    "slug": "phishing-kits-now-replay-microsoft-365-sessions-2026-11-17",
+    "title": "Phishing kits now replay Microsoft 365 sessions",
+    "originalTitle": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+    "summary": "Harden M365 against token theft, Huntress shows kits like EvilTokens replaying captured session cookies and provides detection and containment guidance defenders can apply now.",
+    "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-17T15:01:11.000Z",
+    "fetchedAt": "2026-11-17T20:51:49.612Z"
+  },
+  {
+    "slug": "screenconnect-servers-hit-in-month-long-exploit-campaign-2026-11-17",
+    "title": "ScreenConnect servers hit in month-long exploit campaign",
+    "originalTitle": "MSP ScreenConnect Servers Targeted in Month-Long Campaign",
+    "summary": "If you run ScreenConnect, patch CVE-2026-84869 and audit guest-pushed files, over 688,000 exploit requests hit 40 plus servers in active attacks.",
+    "url": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-17T13:24:43.000Z",
+    "fetchedAt": "2026-11-17T20:51:49.612Z"
+  },
+  {
+    "slug": "n-able-patches-17-n-central-zero-days-kills-legacy-apis-2026-11-17",
+    "title": "N-able patches 17 N-central zero-days, kills legacy APIs",
+    "originalTitle": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
+    "summary": "Patch N-central immediately and remove deprecated API dependencies, these zero-days are being exploited and legacy interfaces increase blast radius for MSP environments.",
+    "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-17T12:28:45.000Z",
+    "fetchedAt": "2026-11-17T20:51:49.612Z"
+  },
+  {
+    "slug": "apple-adds-tighter-macos-app-permissions-for-ai-agents-2026-11-17",
+    "title": "Apple adds tighter macOS app permissions for AI agents",
+    "originalTitle": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+    "summary": "Plan for macOS 27.3 changes, Device Control and Full Disk Access are split with more transparency so admins can limit AI agent data access by design.",
+    "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/17/apple-macos-app-permission-changes/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-17T11:07:31.000Z",
+    "fetchedAt": "2026-11-17T20:51:49.612Z"
+  },
+  {
+    "slug": "optimizely-flaw-used-to-plant-malware-on-major-sites-2026-11-17",
+    "title": "Optimizely flaw used to plant malware on major sites",
+    "originalTitle": "Optimizely Vulnerability Exploited to Serve Malware on Major Websites",
+    "summary": "If your site uses Optimizely Web, rotate keys, update scripts and review recent web traffic for injected JavaScript that served malware to visitors.",
+    "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/17/optimizely-vulnerability-malicious-javascript/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-17T10:22:20.000Z",
+    "fetchedAt": "2026-11-17T20:51:49.612Z"
+  },
+  {
     "slug": "screenconnect-attacks-continue-patch-to-26-6-5-now-2026-11-17",
     "title": "ScreenConnect attacks continue, patch to 26.6.5 now",
     "originalTitle": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
@@ -2573,182 +2709,5 @@
     "category": "threats",
     "publishedAt": "2026-11-03T22:18:50.000Z",
     "fetchedAt": "2026-11-03T23:17:29.191Z"
-  },
-  {
-    "slug": "llmjacking-stolen-ai-keys-stick-victims-with-six-figure-clou-2026-11-03",
-    "title": "LLMjacking: stolen AI keys stick victims with six-figure cloud bills",
-    "originalTitle": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
-    "summary": "Lock down AI API keys with least privilege, budgets, and alerts, rotate exposed keys, and monitor spikes, stolen access is causing six-figure daily cloud bills.",
-    "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html"
-      },
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/11/03/llmjacking-stolen-ai-access-cloud-bills/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-11-03T18:51:04.000Z",
-    "fetchedAt": "2026-11-03T23:17:29.191Z"
-  },
-  {
-    "slug": "msecure-urges-password-2fa-passkey-resets-after-suspicious-a-2026-11-03",
-    "title": "mSecure urges password, 2FA, passkey resets after suspicious activity",
-    "originalTitle": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-    "summary": "If you use mSecure, change your master password, reset 2FA and passkeys, and watch for reuse alerts after the company reported suspicious activity.",
-    "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-03T18:46:38.000Z",
-    "fetchedAt": "2026-11-03T23:17:29.191Z"
-  },
-  {
-    "slug": "grocery-fridges-hacked-across-europe-highlight-ot-remote-acc-2026-11-03",
-    "title": "Grocery fridges hacked across Europe highlight OT remote access risks",
-    "originalTitle": "British businesses caught in Europe-wide supermarket fridge attacks",
-    "summary": "Lock down vendor remote access, enforce MFA, kill default creds, and segment IoT and OT networks, attackers remotely defrosted supermarket fridges across Europe again.",
-    "url": "https://therecord.media/british-businesses-caught-in-europe-wide-supermarket-fridge-attacks",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-03T17:43:00.000Z",
-    "fetchedAt": "2026-11-03T23:17:29.191Z"
-  },
-  {
-    "slug": "binance-breach-tied-to-fake-interviews-tampered-homebrew-ai-2026-11-03",
-    "title": "Binance breach tied to fake interviews, tampered Homebrew, AI abuse",
-    "originalTitle": "Binance CEO says ‘months-long campaign’ led to $6.3 billion theft as N. Korea denies responsibility",
-    "summary": "Train staff on recruiter-lure malware and restrict dev tooling installs, Binance says fake interviews, tampered Homebrew, and AI use enabled a $6.3 billion theft.",
-    "url": "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-03T16:42:00.000Z",
-    "fetchedAt": "2026-11-03T23:17:29.191Z"
-  },
-  {
-    "slug": "patch-now-barracuda-flaws-let-attackers-gain-root-on-devices-2026-11-03",
-    "title": "Patch now: Barracuda flaws let attackers gain root on devices",
-    "originalTitle": "Barracuda warns of critical flaws allowing root access to devices",
-    "summary": "Patch affected Barracuda appliances now, restrict management exposure, and hunt for post-exploitation, chained flaws can bypass auth and run commands as root.",
-    "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-03T15:06:16.000Z",
-    "fetchedAt": "2026-11-03T23:17:29.191Z"
-  },
-  {
-    "slug": "3am-ransomware-hits-uk-schools-shows-off-ai-style-attack-loo-2026-11-03",
-    "title": "3AM ransomware hits UK schools, shows off AI-style attack loops",
-    "originalTitle": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-    "summary": "Lock down unmanaged hosts and monitor command patterns, a 3AM affiliate encrypted 37 machines in a UK school estate using iterative, AI-like command tweaks during the breach.",
-    "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-03T14:00:00.000Z",
-    "fetchedAt": "2026-11-03T14:06:22.534Z"
-  },
-  {
-    "slug": "node-red-auth-flaw-under-active-exploit-bots-and-backdoors-d-2026-11-03",
-    "title": "Node-RED auth flaw under active exploit, bots and backdoors deployed",
-    "originalTitle": "Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115)",
-    "summary": "Patch Node-RED, enforce authentication, and remove public exposure, attackers are actively exploiting CVE-2026-58115 to install Linux bots and backdoors.",
-    "url": "https://www.helpnetsecurity.com/2026/11/03/node-red-cve-2026-58115-exploitation/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-03T12:59:51.000Z",
-    "fetchedAt": "2026-11-03T23:17:29.191Z"
-  },
-  {
-    "slug": "node-red-under-fire-critical-flaw-exploited-to-drop-bots-and-2026-11-03",
-    "title": "Node-RED under fire, critical flaw exploited to drop bots and shells",
-    "originalTitle": "Critical Node-RED Flaw Exploited in Attacks",
-    "summary": "Update Node-RED and block internet exposure, attackers from a single IP are exploiting a critical bug to deploy Linux malware and webshells on vulnerable instances.",
-    "url": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-03T12:10:19.000Z",
-    "fetchedAt": "2026-11-03T14:06:22.534Z"
-  },
-  {
-    "slug": "cisa-adds-actively-exploited-wordpress-core-bug-to-kev-2026-11-03",
-    "title": "CISA adds actively exploited WordPress core bug to KEV",
-    "originalTitle": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "summary": "Update WordPress Core today and review admin access, CISA added an actively exploited TOCTOU race condition to KEV that attackers are abusing.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-03T12:00:00.000Z",
-    "fetchedAt": "2026-11-03T23:17:29.191Z"
-  },
-  {
-    "slug": "critical-linux-tcp-rce-patched-in-rhel-ubuntu-fixes-pending-2026-11-03",
-    "title": "Critical Linux TCP RCE patched in RHEL, Ubuntu fixes pending",
-    "originalTitle": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-    "summary": "Patch RHEL kernels now, enroll Ubuntu LTS in proposed updates or apply mitigations, a 9.8 CVSS bug in IPv4 TCP allows remote code execution without auth on exposed systems.",
-    "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-03T11:23:53.000Z",
-    "fetchedAt": "2026-11-03T14:06:22.534Z"
   }
 ]
