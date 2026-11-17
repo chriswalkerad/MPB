@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-17",
+    "date": "2026-11-17",
+    "title": "AI agents join the kill chain, patch piles grow",
+    "intro": "Attackers are leaning on automation while hammering remote tools, and vendors are shipping fixes you cannot skip. Prioritize identity hardening and patch cycles before tickets start flying.",
+    "items": [
+      {
+        "heading": "N-central zero-days exploited, legacy APIs axed",
+        "body": "N-able pushed fixes for 17 zero-days in N-central and is retiring old APIs. Active exploitation means MSP tenants are at risk if you lag. Patch N-central now, remove dependencies on deprecated interfaces, and audit for suspicious use of those legacy endpoints.",
+        "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "n-able-patches-17-n-central-zero-days-kills-legacy-apis-2026-11-17"
+      },
+      {
+        "heading": "ScreenConnect exploited for a month",
+        "body": "Attackers have been probing and exploiting CVE-2026-84869 in ScreenConnect, with over 688,000 exploit requests hitting more than 40 servers. Remote management tooling is a prime pivot, so exposure here is costly. Patch immediately and review guest-pushed files and recent sessions for tampering.",
+        "url": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "screenconnect-servers-hit-in-month-long-exploit-campaign-2026-11-17"
+      },
+      {
+        "heading": "M365 session cookies replayed by kits",
+        "body": "Huntress reports kits like EvilTokens can reuse captured Microsoft 365 session cookies to bypass logins. If an attacker gets a token, MFA does not help after the fact. Lock down token theft paths, enforce reauthentication on risky sessions, kill active sessions on suspect accounts, and follow the shared detection and containment guidance.",
+        "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "phishing-kits-now-replay-microsoft-365-sessions-2026-11-17"
+      },
+      {
+        "heading": "Java updates out, OpenJDK RCE reported",
+        "body": "Oracle released Java SE updates, and there are reports of a critical OpenJDK CVE-2026-114938 that could enable remote code execution in downstream stacks. Java is everywhere, from endpoints to servers, so delay increases blast radius. Stage, test, and roll out the updates across fleets and track any vendor advisories tied to this CVE.",
+        "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "oracle-ships-java-fixes-critical-openjdk-rce-reported-2026-11-17"
+      },
+      {
+        "heading": "Fireworks key breach exposes Cursor, Uber data",
+        "body": "A compromised Fireworks key let attackers pull Cursor data and exposed nearly 150,000 Uber driver records. Third party AI integrations can quietly become your weakest link. Inventory these connections, rotate credentials, tighten scopes, and review access logs for unusual pulls through AI services.",
+        "url": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
+        "source": "Dark Reading",
+        "category": "ai-security",
+        "storySlug": "fireworks-breach-ripples-cursor-and-uber-data-exposed-2026-11-17"
+      },
+      {
+        "heading": "AI agents now in live intrusions",
+        "body": "Google is seeing attackers chain autonomous AI agents into real intrusion workflows. That speeds up recon and exploitation and shortens your window to detect. Restrict what agents can touch, monitor automation closely, and tighten patch SLAs as weaponization accelerates.",
+        "url": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
+        "source": "The Record",
+        "category": "ai-security",
+        "storySlug": "google-ai-agents-are-automating-live-intrusions-2026-11-17"
+      },
+      {
+        "heading": "Optimizely flaw used to plant malware",
+        "body": "An Optimizely Web issue let attackers inject JavaScript to serve malware to site visitors. If your web properties rely on these scripts, you may have unknowingly delivered payloads. Rotate keys, update Optimizely scripts, and comb recent web traffic and content delivery logs for anomalies.",
+        "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
+        "source": "SecurityWeek",
+        "category": "threats",
+        "storySlug": "optimizely-flaw-used-to-plant-malware-on-major-sites-2026-11-17"
+      },
+      {
+        "heading": "macOS tightens app permissions for AI agents",
+        "body": "Apple’s macOS 27.3 splits Device Control and Full Disk Access with more transparent prompts. That helps limit what AI agents can reach by design. Test updated profiles in your MDM, adjust permissions to least privilege, and plan rollout to keep AI-assist tools from overreaching.",
+        "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "apple-adds-tighter-macos-app-permissions-for-ai-agents-2026-11-17"
+      }
+    ],
+    "signOff": "Patch first, caffeinate second.",
+    "generatedAt": "2026-11-17T21:48:19.782Z"
+  },
+  {
     "slug": "2026-11-16",
     "date": "2026-11-16",
     "title": "AI speeds offense, patch windows shrink, fix the fires",
@@ -2088,71 +2162,5 @@
     ],
     "signOff": "Back to the queue, keep printers calm and firewalls calmer.",
     "generatedAt": "2026-10-19T19:21:44.378Z"
-  },
-  {
-    "slug": "2026-10-18",
-    "date": "2026-10-18",
-    "title": "ConnectWise fallout, urgent patches, sneaky payloads",
-    "intro": "Busy morning: ConnectWise halted Cloud Backup after attackers abused its Microsoft 365 app IDs, and there are fresh critical fixes plus a nasty npm package. Here is what to triage first.",
-    "items": [
-      {
-        "heading": "ConnectWise M365 access used against 173 tenants",
-        "body": "Attackers used a compromised ConnectWise Microsoft 365 credential to enter 173 tenants. If you manage affected orgs, audit app consents and sign ins, revoke tokens, rotate ConnectWise credentials, and enforce Conditional Access to limit fallout.",
-        "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "hackers-use-connectwise-backup-credential-to-enter-173-m365-2026-10-17"
-      },
-      {
-        "heading": "ConnectWise halts Cloud Backup amid app ID abuse",
-        "body": "Threat actors abused ConnectWise application identities to access customers, so the company stopped Cloud Backup. MSPs should revoke any ConnectWise M365 app consents, rotate secrets, and audit tenant activity now, and plan for Cloud Backup disruption while you clean up.",
-        "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "connectwise-halts-cloud-backup-after-m365-app-ids-abused-2026-10-18"
-      },
-      {
-        "heading": "SiteGuard WAF flaw enables root",
-        "body": "Attackers are exploiting a SiteGuard Server Edition weakness to gain SYSTEM or root. Apply the vendor mitigation immediately, restrict access to admin endpoints, and hunt for any suspicious command execution as high privilege.",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "attackers-exploit-siteguard-waf-flaw-for-root-access-2026-10-18"
-      },
-      {
-        "heading": "Drupal ships critical RCE fixes",
-        "body": "Two critical flaws allow remote code execution and maintainers say exploitation is likely soon. Update all supported Drupal cores immediately and schedule emergency maintenance to get this done today.",
-        "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "drupal-fixes-critical-rce-patch-now-2026-10-17"
-      },
-      {
-        "heading": "Malicious npm package 'imgdecode' drops shellcode",
-        "body": "A MALFEX campaign snuck an npm package that uses a Windows native addon to download and run shellcode. Block and purge imgdecode from builds, search repos and lockfiles for any reference, and rotate any secrets that may have been exposed on build agents.",
-        "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "malicious-npm-imgdecode-package-loads-shellcode-2026-10-17"
-      },
-      {
-        "heading": "YARA to spot VBA macros hidden in DWG",
-        "body": "Attackers tuck orphaned VBA projects inside AutoCAD drawings to deliver malware. If you handle DWG files, drop this YARA rule into your scanning pipeline and quarantine hits for manual review.",
-        "url": "https://isc.sans.edu/diary/rss/33434",
-        "source": "SANS ISC",
-        "category": "defense",
-        "storySlug": "yara-rule-to-catch-vba-macros-hidden-in-dwg-files-2026-10-18"
-      },
-      {
-        "heading": "Cyber hiring dips, AI security demand spikes",
-        "body": "Expect tighter hiring and more client questions on AI security. Reskill teams toward AI risk, model security, and prompt safety to keep your offerings relevant.",
-        "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
-        "source": "SecurityWeek",
-        "category": "industry",
-        "storySlug": "cybersecurity-jobs-down-26-percent-ai-security-demand-up-2026-10-18"
-      }
-    ],
-    "signOff": "Patch fast, review logs faster, and may your backups restore on the first try.",
-    "generatedAt": "2026-10-18T16:34:52.698Z"
   }
 ]
