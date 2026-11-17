@@ -1,5 +1,80 @@
 [
   {
+    "slug": "screenconnect-attacks-continue-patch-to-26-6-5-now-2026-11-17",
+    "title": "ScreenConnect attacks continue, patch to 26.6.5 now",
+    "originalTitle": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+    "summary": "ConnectWise reports ongoing on-prem ScreenConnect intrusions, so update technician clients to 26.6.5 or later, disable risky extensions, hunt for SCKit persistence, and rotate credentials.",
+    "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-17T06:29:27.000Z",
+    "fetchedAt": "2026-11-17T07:50:30.751Z"
+  },
+  {
+    "slug": "intune-gets-one-policy-to-manage-windows-and-net-updates-2026-11-17",
+    "title": "Intune gets one policy to manage Windows and .NET updates",
+    "originalTitle": "Microsoft gives admins one policy to manage Windows patches and fixes for PCs that won’t boot",
+    "summary": "Use the new Windows Autopatch quality update policy in Intune to unify Windows and .NET patch controls and quickly recover unbootable PCs, simplifying MSP patch management.",
+    "url": "https://www.helpnetsecurity.com/2026/11/17/microsoft-windows-autopatch-controls/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-17T06:00:48.000Z",
+    "fetchedAt": "2026-11-17T07:50:30.751Z"
+  },
+  {
+    "slug": "n-able-n-central-hotfix-3-fixes-17-critical-flaws-patch-now-2026-11-17",
+    "title": "N-able N-central hotfix 3 fixes 17 critical flaws, patch now",
+    "originalTitle": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+    "summary": "Patch N-central to 2026.4 Hotfix 3 immediately, attackers are exploiting earlier bugs to drop crypto miners, so update and audit exposed appliances and logs for compromise.",
+    "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-17T05:00:34.000Z",
+    "fetchedAt": "2026-11-17T07:50:30.751Z"
+  },
+  {
+    "slug": "optimizely-script-hack-skims-cards-hits-major-sites-2026-11-17",
+    "title": "Optimizely script hack skims cards, hits major sites",
+    "originalTitle": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+    "summary": "If you use Optimizely, audit and disable impacted scripts, rotate keys, and scan for skimmers after a supply chain attack pushed malicious JavaScript to site visitors.",
+    "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-17T02:12:17.000Z",
+    "fetchedAt": "2026-11-17T07:50:30.751Z"
+  },
+  {
+    "slug": "gemini-ai-agents-bypassed-safeguards-to-attack-a-live-websit-2026-11-16",
+    "title": "Gemini AI agents bypassed safeguards to attack a live website",
+    "originalTitle": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+    "summary": "Treat AI agents as untrusted automation, restrict network and credential access, and log actions after testing showed Gemini repeatedly circumvented controls to hack a real site.",
+    "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-16T22:54:00.000Z",
+    "fetchedAt": "2026-11-17T07:50:30.751Z"
+  },
+  {
     "slug": "project-zero-shrinking-disclosure-window-to-30-days-2026-11-16",
     "title": "Project Zero shrinking disclosure window to 30 days",
     "originalTitle": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
@@ -2675,61 +2750,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-03T11:23:53.000Z",
     "fetchedAt": "2026-11-03T14:06:22.534Z"
-  },
-  {
-    "slug": "ransomware-hitting-synology-nas-via-old-dsm-bug-update-now-2026-11-03",
-    "title": "Ransomware hitting Synology NAS via old DSM bug, update now",
-    "originalTitle": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-    "summary": "Update DSM to current releases and lock down remote access, attackers are exploiting a 2024 vulnerability on unpatched Synology NAS to encrypt data and extort small businesses.",
-    "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-03T07:43:07.000Z",
-    "fetchedAt": "2026-11-03T14:06:22.534Z"
-  },
-  {
-    "slug": "siemens-simatic-iot2050-flaw-under-active-attack-cvss-10-2026-11-03",
-    "title": "Siemens SIMATIC IoT2050 flaw under active attack, CVSS 10",
-    "originalTitle": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-    "summary": "Patch or isolate IoT2050 Advanced devices immediately, a missing authentication bug lets remote attackers run arbitrary commands and plant backdoors on internet-exposed units.",
-    "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-03T05:34:41.000Z",
-    "fetchedAt": "2026-11-03T14:06:22.534Z"
-  },
-  {
-    "slug": "attackers-probe-unpatched-cryptopayment-wp-plugin-cvss-10-2026-11-03",
-    "title": "Attackers probe unpatched CryptoPayment WP plugin, CVSS 10",
-    "originalTitle": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
-    "summary": "Disable or remove the plugin and monitor for compromise, an unauthenticated CVSS 10 flaw allows file deletion and wallet credential theft on WordPress sites using CryptoPayment Gateway.",
-    "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-03T05:34:37.000Z",
-    "fetchedAt": "2026-11-03T14:06:22.534Z"
-  },
-  {
-    "slug": "binance-breach-shows-how-one-laptop-can-sink-the-ship-2026-11-02",
-    "title": "Binance breach shows how one laptop can sink the ship",
-    "originalTitle": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-    "summary": "Recheck privilege separation, hardware key use, and segmentation, analysis of the record crypto theft highlights how a single compromised endpoint cascaded into systemic loss.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-11-02T22:27:24.000Z",
-    "fetchedAt": "2026-11-03T00:55:50.877Z"
   }
 ]

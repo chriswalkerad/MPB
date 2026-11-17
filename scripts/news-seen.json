@@ -1,6 +1,4 @@
 {
-  "https://simonwillison.net/2026/Oct/17/document-currentscript/": "2026-10-18T04:26:03.808Z",
-  "https://simonwillison.net/2026/Oct/17/web-edit/": "2026-10-18T04:26:03.808Z",
   "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html": "2026-10-18T10:59:07.156Z",
   "https://www.helpnetsecurity.com/2026/10/18/week-in-review-hidden-implant-in-ledger-wallets-linked-to-93m-theft-1500-npm-packages-exposed/": "2026-10-18T10:59:07.156Z",
   "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/": "2026-10-18T15:49:28.513Z",
@@ -1427,5 +1425,22 @@
   "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html": "2026-11-16T21:58:10.323Z",
   "https://www.helpnetsecurity.com/2026/11/16/cloudflare-kitesurf-open-source/": "2026-11-16T21:58:10.323Z",
   "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html": "2026-11-16T21:58:10.323Z",
-  "https://www.helpnetsecurity.com/2026/11/16/google-project-zero-disclosure-policy/": "2026-11-16T21:58:10.323Z"
+  "https://www.helpnetsecurity.com/2026/11/16/google-project-zero-disclosure-policy/": "2026-11-16T21:58:10.323Z",
+  "https://therecord.media/uber-says-150000-impacted-third-party-breach": "2026-11-17T07:50:30.751Z",
+  "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/": "2026-11-17T07:50:30.751Z",
+  "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html": "2026-11-17T07:50:30.751Z",
+  "https://www.helpnetsecurity.com/2026/11/17/peter-stockli-github-ai-security-audits/": "2026-11-17T07:50:30.751Z",
+  "https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/": "2026-11-17T07:50:30.751Z",
+  "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html": "2026-11-17T07:50:30.751Z",
+  "https://www.helpnetsecurity.com/2026/11/17/cybersecurity-seed-funding-deals/": "2026-11-17T07:50:30.751Z",
+  "https://simonwillison.net/2026/Nov/17/go-proverbs/": "2026-11-17T07:50:30.751Z",
+  "https://www.helpnetsecurity.com/2026/11/17/microsoft-windows-autopatch-controls/": "2026-11-17T07:50:30.751Z",
+  "https://www.helpnetsecurity.com/2026/11/17/palo-alto-networks-ai-cloud-security-risks-report/": "2026-11-17T07:50:30.751Z",
+  "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html": "2026-11-17T07:50:30.751Z",
+  "https://www.helpnetsecurity.com/2026/11/17/cybersecurity-jobs-available-right-now-november-17-2026/": "2026-11-17T07:50:30.751Z",
+  "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/": "2026-11-17T07:50:30.751Z",
+  "https://isc.sans.edu/diary/rss/33524": "2026-11-17T07:50:30.751Z",
+  "https://simonwillison.net/2026/Nov/16/llm/": "2026-11-17T07:50:30.751Z",
+  "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/": "2026-11-17T07:50:30.751Z",
+  "https://www.darkreading.com/vulnerabilities-threats/google-project-zero-bug-disclosure-deadlines": "2026-11-17T07:50:30.751Z"
 }
