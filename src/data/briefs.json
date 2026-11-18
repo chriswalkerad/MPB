@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-18",
+    "date": "2026-11-18",
+    "title": "Fix it fast: NGINX, Puppet, F5, Roller, Java, PyPI",
+    "intro": "Big patch day. RCEs and active exploits across core web and infra, plus a package hijack and a vendor breach.",
+    "items": [
+      {
+        "heading": "NGINX HTTP/2 RCE, update now",
+        "body": "Unauthenticated remote code execution in NGINX when HTTP/2 is enabled is as bad as it sounds. Patch to 1.31.9 or 1.30.7, or disable HTTP/2 on internet-facing proxies if you cannot patch immediately. Review web server telemetry for crashes or odd child process behavior that could hint at probing or exploitation.",
+        "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "nginx-http-2-flaw-allows-unauthenticated-rce-update-now-2026-11-18"
+      },
+      {
+        "heading": "Puppet Server RCE is being exploited",
+        "body": "A critical Puppet Server flaw is under active attack and is listed in CISA KEV, which means it is in the playbooks. Upgrade to the fixed releases now, restrict inbound access, revoke any untrusted agent certificates, and comb logs for anomalous agent activity. If your config management is owned, your fleet is on the line.",
+        "url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "critical-puppet-server-rce-is-exploited-patch-immediately-2026-11-18"
+      },
+      {
+        "heading": "F5 BIG-IP bugs can crash traffic",
+        "body": "Critical BIG-IP issues can crash the Traffic Management Microkernel and may open paths to code execution. Update to vendor-fixed versions, review iRules and APM policies that could trigger the flaws, and reduce exposure of management and data plane services. An unplanned TMM restart is an outage you do not need today.",
+        "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "f5-big-ip-critical-bugs-can-crash-traffic-patch-asap-2026-11-18"
+      },
+      {
+        "heading": "PyPI hijack targets cloud credentials",
+        "body": "The Microsoft Agent Framework package on PyPI was hijacked to steal cloud tokens. Pin to 1.26.3 or later, purge 1.26.1 and 1.26.2 from build systems, rotate Azure, GitHub, and Azure DevOps credentials, and audit developer endpoints for signs of credential theft. Treat CI, runners, and dev laptops as potentially exposed.",
+        "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "microsoft-agent-framework-pypi-hijacked-to-steal-cloud-creds-2026-11-18"
+      },
+      {
+        "heading": "Apache Roller RCE under active use",
+        "body": "Attackers are exploiting a remote code execution flaw in Apache Roller. Patch to the fixed release, disable the XML-RPC endpoint if you cannot patch, and hunt for webshells and unusual Roller process activity on exposed servers. If Roller is internet-facing, move it to the front of your queue.",
+        "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "apache-roller-rce-is-being-exploited-patch-now-2026-11-18"
+      },
+      {
+        "heading": "Supply-chain hit on Irish credit unions",
+        "body": "A vendor breach has impacted 40 plus Irish credit unions. If you support Wellington IT or affected unions, assume member data exposure, rotate credentials, enable fraud monitoring, and demand indicators, key resets, and incident details from the vendor. Tighten access and watch for odd login or payment activity.",
+        "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "supply-chain-breach-hits-40-irish-credit-unions-2026-11-18"
+      },
+      {
+        "heading": "OpenJDK Java4Shell needs patching",
+        "body": "There is a Java vulnerability, CVE-2026-114938, that needs updates across Oracle and OpenJDK builds. Prioritize internet-facing Java apps and test high-risk services, even if exploitation depends on specific CPUs and conditions. Get patches queued so this does not become your next emergency.",
+        "url": "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "patch-java4shell-openjdk-flaw-across-servers-and-apps-2026-11-18"
+      },
+      {
+        "heading": "TPM lockout bypass weakens short PINs",
+        "body": "Researchers showed they can bypass TPM lockout and brute force Windows Hello and BitLocker PINs with simple hardware tricks. Treat short PINs as weak, enforce 8 plus digit or alphanumeric PINs, enable chassis intrusion alerts, and protect physical access. If an attacker gets the box on a bench, short PINs will not save you.",
+        "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "researchers-bypass-tpm-lockout-brute-force-hello-and-bitlock-2026-11-18"
+      }
+    ],
+    "signOff": "Patch what you can now, then grab coffee and watch the logs.",
+    "generatedAt": "2026-11-18T21:27:39.776Z"
+  },
+  {
     "slug": "2026-11-17",
     "date": "2026-11-17",
     "title": "AI agents join the kill chain, patch piles grow",
@@ -2088,79 +2162,5 @@
     ],
     "signOff": "Patch first, tickets second.",
     "generatedAt": "2026-10-20T18:00:43.467Z"
-  },
-  {
-    "slug": "2026-10-19",
-    "date": "2026-10-19",
-    "title": "Exploits in the Wild, Patch Pains, and Leaky AI Keys",
-    "intro": "Busy morning: active exploits against Plex and Fortinet, Exchange patch headaches, and fresh moves in AI security. Triage first, patch smart, and keep an eye on your keys.",
-    "items": [
-      {
-        "heading": "Plex2Shell exploited within hours",
-        "body": "Attackers are chaining the new Plex2Shell to drop miners and proxyware on exposed Plex Media Server. If you run Plex, update immediately and pull it off the internet where possible. Hunt for unwanted processes and lock external access behind a VPN or reverse proxy with authentication.",
-        "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
-        "source": "SecurityWeek",
-        "category": "threats",
-        "storySlug": "new-plex2shell-exploits-hit-plex-servers-within-hours-2026-10-19"
-      },
-      {
-        "heading": "FortiOS flaw used to plant FortiGate implant",
-        "body": "A Fortinet vulnerability is being used to deploy a stealthy device implant on internet exposed FortiGate. Patch FortiOS now and assume persistence if the device was exposed. Review logs and configs, rotate credentials, and plan for a rebuild if you find signs of tampering.",
-        "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
-        "source": "SecurityWeek",
-        "category": "threats",
-        "storySlug": "fortinet-bug-exploited-to-plant-stealthy-fortigate-implant-2026-10-19"
-      },
-      {
-        "heading": "October Windows Server update breaks Exchange",
-        "body": "Some on prem Exchange servers are seeing OWA login failures and mail flow issues after this month's Windows Server patches. Follow Microsoft guidance before rollout and stage in test first. If already impacted, use the documented mitigations or rollback guidance and monitor queues.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
-        "source": "BleepingComputer",
-        "category": "industry",
-        "storySlug": "october-windows-server-patches-break-exchange-logins-and-mai-2026-10-19"
-      },
-      {
-        "heading": "Broadcom Wi-Fi flaw gives nearby root",
-        "body": "A setup flaw in Broadcom based routers lets anyone within radio range execute code as root. Until vendors ship firmware, disable Wi-Fi onboarding features and lock down admin access. Treat management interfaces as wired only and segment guest networks.",
-        "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "broadcom-wi-fi-flaw-lets-nearby-attackers-root-many-routers-2026-10-19"
-      },
-      {
-        "heading": "OpenCode breach may have exposed AI provider keys",
-        "body": "OpenCode Console users who stored OpenAI, Anthropic, or Google AI keys should assume those tokens were exposed. Rotate keys, audit usage for abuse, and eliminate long lived tokens. Update secrets handling to use scoped, short lived credentials and remove any hardcoded keys.",
-        "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "opencode-breach-may-have-exposed-your-openai-or-anthropic-ke-2026-10-19"
-      },
-      {
-        "heading": "Malicious npm packages drop stealers, hijack AI agent traffic",
-        "body": "A fake Web3 accelerator lured developers into installing npm packages that deployed info stealers and backdoors on macOS and Windows, and meddled with AI agent traffic. Audit your npm dependencies and developer workstations now. Lock down registries, pin versions, and monitor for abnormal dev tool network activity.",
-        "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "malicious-npm-packages-spread-stealers-hijack-ai-agent-traff-2026-10-19"
-      },
-      {
-        "heading": "Ransomware crews harass employees’ families",
-        "body": "Per Semperis, attackers are contacting relatives at 37 percent of victim organizations to increase extortion pressure. Update incident response playbooks to cover personal harassment and coordinate HR and legal. Provide staff guidance and a point of contact for threats, and control data exposure that enables doxing.",
-        "url": "https://www.helpnetsecurity.com/2026/10/19/semperis-ransomware-employee-safety-report/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "ransomware-gangs-target-employees-families-for-extortion-2026-10-19"
-      },
-      {
-        "heading": "ATT&CK v20 adds AI abuse and new detections",
-        "body": "MITRE released ATT&CK v20 with 15 new detection strategies across Enterprise and ICS, including AI abuse and MFA bypass techniques backed by fresh analytics. Update your control mappings and detection content to align. Brief your analysts and tune coverage in SIEM and EDR.",
-        "url": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
-        "source": "SecurityWeek",
-        "category": "defense",
-        "storySlug": "mitre-att-ck-v20-adds-ai-abuse-and-new-detection-content-2026-10-19"
-      }
-    ],
-    "signOff": "Back to the queue, keep printers calm and firewalls calmer.",
-    "generatedAt": "2026-10-19T19:21:44.378Z"
   }
 ]
