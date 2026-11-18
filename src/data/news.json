@@ -1,5 +1,88 @@
 [
   {
+    "slug": "compromised-pypi-package-steals-cloud-creds-on-python-startu-2026-11-18",
+    "title": "Compromised PyPI package steals cloud creds on Python startup",
+    "originalTitle": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+    "summary": "If your builds pulled agent-framework 1.26.1 or 1.26.2 from PyPI, assume cloud credentials are compromised, remove the package, rotate all keys, and audit CI runners immediately.",
+    "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-18T06:45:26.000Z",
+    "fetchedAt": "2026-11-18T07:20:39.075Z"
+  },
+  {
+    "slug": "bubbleloader-hides-in-trusted-windows-apps-to-drop-malware-2026-11-18",
+    "title": "BubbleLoader hides in trusted Windows apps to drop malware",
+    "originalTitle": "BubbleLoader malware turns copies of WinRAR and Windows Media Player into carriers",
+    "summary": "Block trojanized installers and enforce application control, BubbleLoader patches program entry points and hides payloads in PNGs to turn WinRAR, Media Player and other apps into malware droppers.",
+    "url": "https://www.helpnetsecurity.com/2026/11/18/winrar-bubbleloader-malware/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-18T06:00:03.000Z",
+    "fetchedAt": "2026-11-18T07:20:39.075Z"
+  },
+  {
+    "slug": "optimizely-hack-turned-178-major-websites-into-malware-traps-2026-11-18",
+    "title": "Optimizely hack turned 178 major websites into malware traps",
+    "originalTitle": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+    "summary": "Review and temporarily disable risky third-party tags, Optimizely’s breach injected credential-stealing malware into 178 high-traffic sites, underscoring CSP, SRI and vendor access hygiene.",
+    "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+    "source": {
+      "name": "Krebs on Security"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks"
+      },
+      {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/"
+      },
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/optimizely-malicious-code-customer-sites"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-18T02:52:04.000Z",
+    "fetchedAt": "2026-11-18T07:20:39.075Z"
+  },
+  {
+    "slug": "secrets-in-docker-images-are-stolen-within-seconds-of-upload-2026-11-17",
+    "title": "Secrets in Docker images are stolen within seconds of upload",
+    "originalTitle": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+    "summary": "Never bake secrets into container images, attackers harvest exposed cloud keys from public Docker Hub within seconds, so scan before publishing, rotate credentials, and lock tokens to minimal scopes.",
+    "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-17T21:27:17.000Z",
+    "fetchedAt": "2026-11-18T07:20:39.075Z"
+  },
+  {
+    "slug": "themailer-uses-ai-to-supercharge-phishing-at-scale-2026-11-17",
+    "title": "TheMailer uses AI to supercharge phishing at scale",
+    "originalTitle": "'TheMailer' Phishing Kit Puts AI in the Driver's Seat",
+    "summary": "Expect more convincing and evasive email lures, the TheMailer kit lets criminals plug in AI models to personalize phish at scale, so tighten email security, MFA and user training.",
+    "url": "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-17T20:58:13.000Z",
+    "fetchedAt": "2026-11-18T07:20:39.075Z"
+  },
+  {
     "slug": "google-ai-agents-are-automating-live-intrusions-2026-11-17",
     "title": "Google: AI agents are automating live intrusions",
     "originalTitle": "Chinese state group developing automated attack tool for cyber espionage, Google says",
@@ -96,6 +179,29 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-17T12:28:45.000Z",
     "fetchedAt": "2026-11-17T20:51:49.612Z"
+  },
+  {
+    "slug": "patch-java4shell-now-rce-risk-for-jira-jenkins-keycloak-2026-11-17",
+    "title": "Patch Java4Shell now: RCE risk for Jira, Jenkins, Keycloak",
+    "originalTitle": "Critical Java Vulnerability Requires Immediate Patching",
+    "summary": "Prioritize patching OpenJDK CVE-2026-114938 across servers and apps, pre-auth RCE via the HotSpot Base64 decoder exposes widely used tools like Jira, Jenkins, Keycloak and Confluence.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "fetchedAt": "2026-11-18T07:20:39.075Z"
   },
   {
     "slug": "apple-adds-tighter-macos-app-permissions-for-ai-agents-2026-11-17",
@@ -2634,80 +2740,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-04T07:46:15.000Z",
     "fetchedAt": "2026-11-04T14:26:49.078Z"
-  },
-  {
-    "slug": "trim-container-images-to-cut-vulnerabilities-without-breakin-2026-11-04",
-    "title": "Trim container images to cut vulnerabilities without breaking apps",
-    "originalTitle": "Secure your containers without breaking what works",
-    "summary": "Reduce attack surface by removing unused packages and tools from base images, then add needed components at build time, preserving functionality while shrinking patch workload.",
-    "url": "https://www.helpnetsecurity.com/2026/11/04/rapidfort-runtime-container-profiling/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-11-04T06:00:34.000Z",
-    "fetchedAt": "2026-11-04T06:10:40.649Z"
-  },
-  {
-    "slug": "nist-releases-no-it-small-business-cyber-guide-you-can-hand-2026-11-04",
-    "title": "NIST releases no-IT small business cyber guide you can hand clients",
-    "originalTitle": "NIST publishes cybersecurity guide for businesses too small to have IT staff",
-    "summary": "Share NIST’s new plain-language guide with microbusiness clients, it covers passwords, backups, phishing, and device basics for owners without IT staff, aligning advice to practical steps.",
-    "url": "https://www.helpnetsecurity.com/2026/11/04/nist-small-business-cybersecurity-guide/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-11-04T05:00:23.000Z",
-    "fetchedAt": "2026-11-04T06:10:40.649Z"
-  },
-  {
-    "slug": "anthropic-open-sources-proofs-to-verify-ai-model-responses-2026-11-04",
-    "title": "Anthropic open-sources proofs to verify AI model responses",
-    "originalTitle": "Anthropic open-sources FlashProve, its provable inference prototype for MoE models",
-    "summary": "Evaluate FlashProve to verify hosted model outputs, it provides cryptographic proofs a specific model produced a response, helping with audit trails, supply chain trust, and regulated AI use.",
-    "url": "https://www.helpnetsecurity.com/2026/11/04/anthropic-flashprove-provable-inference/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-04T04:36:14.000Z",
-    "fetchedAt": "2026-11-04T06:10:40.649Z"
-  },
-  {
-    "slug": "69gb-breach-shows-how-fast-sql-backups-can-be-stolen-2026-11-04",
-    "title": "69GB breach shows how fast SQL backups can be stolen",
-    "originalTitle": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
-    "summary": "Lock down SQL Server backups and egress, attackers exfiltrated 69GB of government data in under 30 minutes, highlighting backup access controls, encryption, and outbound monitoring.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-04T02:00:00.000Z",
-    "fetchedAt": "2026-11-04T06:10:40.649Z"
-  },
-  {
-    "slug": "cpguard-update-server-hijacked-to-backdoor-customer-linux-se-2026-11-03",
-    "title": "cPGuard update server hijacked to backdoor customer Linux servers",
-    "originalTitle": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
-    "summary": "If you run cPGuard, audit for a malicious update, rotate credentials, and install the fixed release, attackers hijacked its autoupdate to drop a backdoor and steal data.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-03T22:18:50.000Z",
-    "fetchedAt": "2026-11-03T23:17:29.191Z"
   }
 ]
