@@ -1,5 +1,89 @@
 [
   {
+    "slug": "shadow-iot-is-sneaking-into-ot-even-game-consoles-on-prod-ne-2026-11-19",
+    "title": "Shadow IoT is sneaking into OT, even game consoles on prod nets",
+    "originalTitle": "Game consoles and Teslas are slipping past OT network segmentation",
+    "summary": "Claroty found consumer gadgets on hospital and factory networks, audit segments, enforce NAC and guest VLANs, block unknown MACs and remove nonbusiness devices from production networks.",
+    "url": "https://www.helpnetsecurity.com/2026/11/19/slipping-past-ot-network-segmentation/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-19T05:30:09.000Z",
+    "fetchedAt": "2026-11-19T07:18:07.445Z"
+  },
+  {
+    "slug": "your-ai-automations-carry-employee-access-you-are-not-auditi-2026-11-19",
+    "title": "Your AI automations carry employee access you are not auditing",
+    "originalTitle": "AI agents inherit employee access, and nobody’s watching how they use it",
+    "summary": "Inventory and monitor AI agents in CRMs, project tools and automation platforms that run on creator credentials, restrict scopes, rotate tokens, log actions and gate sensitive data access.",
+    "url": "https://www.helpnetsecurity.com/2026/11/19/ai-agents-employee-credentials-nudge-security-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-19T05:00:37.000Z",
+    "fetchedAt": "2026-11-19T07:18:07.445Z"
+  },
+  {
+    "slug": "emergency-php-security-fixes-land-nov-19-update-fast-2026-11-19",
+    "title": "Emergency PHP security fixes land Nov 19, update fast",
+    "originalTitle": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+    "summary": "Plan immediate updates for all supported PHP versions as critical vulnerabilities are being patched November 19, test business apps, monitor vendor advisories and apply fixes quickly on internet exposed servers.",
+    "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-19T04:33:46.000Z",
+    "fetchedAt": "2026-11-19T07:18:07.445Z"
+  },
+  {
+    "slug": "initial-access-brokers-go-quiet-expect-fewer-early-warnings-2026-11-18",
+    "title": "Initial access brokers go quiet, expect fewer early warnings",
+    "originalTitle": "Ransomware access brokers are moving their deals off public forums",
+    "summary": "With access sales moving off public forums, expect less early warning, tighten detection for VPN anomalies, webshells and RDP, harden MFA and block common initial access paths.",
+    "url": "https://www.helpnetsecurity.com/2026/11/19/ransomware-access-brokers-cybercrime/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-18T23:28:20.000Z",
+    "fetchedAt": "2026-11-19T07:18:07.445Z"
+  },
+  {
+    "slug": "stolen-cloud-data-fuels-convincing-vendor-impersonation-atta-2026-11-18",
+    "title": "Stolen cloud data fuels convincing vendor impersonation attacks",
+    "originalTitle": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
+    "summary": "Attackers reuse stolen emails and documents to convincingly impersonate vendors after breaches, verify requests out of band, tighten identity protections and restrict shared cloud data exposure.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-18T21:59:46.000Z",
+    "fetchedAt": "2026-11-19T07:18:07.445Z"
+  },
+  {
+    "slug": "deepfake-tesla-livestream-scam-snags-millions-train-users-no-2026-11-18",
+    "title": "Deepfake Tesla livestream scam snags millions, train users now",
+    "originalTitle": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+    "summary": "Attackers used an AI Elon Musk in a massive livestream to steal crypto, refresh user awareness and filters for fake streams and giveaway scams, block related domains.",
+    "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-18T20:49:32.000Z",
+    "fetchedAt": "2026-11-19T07:18:07.445Z"
+  },
+  {
     "slug": "supply-chain-breach-hits-40-irish-credit-unions-2026-11-18",
     "title": "Supply-chain breach hits 40+ Irish credit unions",
     "originalTitle": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
@@ -73,6 +157,20 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-18T12:28:30.000Z",
     "fetchedAt": "2026-11-18T20:27:29.242Z"
+  },
+  {
+    "slug": "cisa-adds-four-actively-exploited-bugs-patch-these-now-2026-11-18",
+    "title": "CISA adds four actively exploited bugs, patch these now",
+    "originalTitle": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "summary": "Patch Synology DSM, BerriAI LiteLLM, Apache Axis and Vanderbilt products now, CISA added these to KEV for active exploitation, prioritize internet exposed systems and verify mitigations.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-18T12:00:00.000Z",
+    "fetchedAt": "2026-11-19T07:18:07.445Z"
   },
   {
     "slug": "patch-java4shell-openjdk-flaw-across-servers-and-apps-2026-11-18",
@@ -2571,89 +2669,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-05T09:18:29.000Z",
     "fetchedAt": "2026-11-05T19:54:10.436Z"
-  },
-  {
-    "slug": "dnsfilter-shadow-ai-surging-invest-in-discovery-and-policy-2026-11-05",
-    "title": "DNSFilter: Shadow AI surging, invest in discovery and policy",
-    "originalTitle": "Companies are spending more on AI governance and getting less control",
-    "summary": "Prioritize discovering unsanctioned AI tools and enforcing policy, a DNSFilter report says AI governance spend is rising while uncontrolled AI use keeps spreading.",
-    "url": "https://www.helpnetsecurity.com/2026/11/05/dnsfilter-shadow-ai-cost-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-05T05:30:14.000Z",
-    "fetchedAt": "2026-11-05T06:38:37.160Z"
-  },
-  {
-    "slug": "cisa-actively-exploited-apple-bug-added-to-kev-patch-now-2026-11-05",
-    "title": "CISA: Actively exploited Apple bug added to KEV, patch now",
-    "originalTitle": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-    "summary": "Patch Apple devices now, CISA says CVE-2024-27834 is under active exploitation and is being used to drop info-stealers, so update iOS, iPadOS and macOS fast.",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-05T05:17:04.000Z",
-    "fetchedAt": "2026-11-05T06:38:37.160Z"
-  },
-  {
-    "slug": "krebs-white-house-devices-ran-residential-proxies-block-thes-2026-11-05",
-    "title": "Krebs: White House devices ran residential proxies, block these apps",
-    "originalTitle": "Want to Rent an Internet Address at the White House?",
-    "summary": "Lock down app installs and block residential proxy software, Krebs found staff devices exposing corporate IPs to rental networks that can be abused and leak data.",
-    "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
-    "source": {
-      "name": "Krebs on Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-05T04:36:17.000Z",
-    "fetchedAt": "2026-11-05T06:38:37.160Z"
-  },
-  {
-    "slug": "openai-pipeline-mass-generates-linux-lpe-exploits-patch-fast-2026-11-05",
-    "title": "OpenAI pipeline mass-generates Linux LPE exploits, patch faster",
-    "originalTitle": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-    "summary": "Assume local privilege escalation exploits will surface faster, tighten least privilege, speed kernel patching and watch for exploit chains turning local bugs into full compromise.",
-    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-05T04:31:16.000Z",
-    "fetchedAt": "2026-11-05T06:38:37.160Z"
-  },
-  {
-    "slug": "critical-rails-active-storage-bug-enables-file-write-via-ima-2026-11-04",
-    "title": "Critical Rails Active Storage bug enables file write via images",
-    "originalTitle": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
-    "summary": "Patch Rails Active Storage immediately or disable ImageMagick variant processing, a bug lets attackers read sensitive files and write arbitrary files via crafted image uploads.",
-    "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-04T21:48:18.000Z",
-    "fetchedAt": "2026-11-04T23:38:07.656Z"
-  },
-  {
-    "slug": "zyxel-fixes-exploited-zero-day-on-gs1900-switches-patch-now-2026-11-04",
-    "title": "Zyxel fixes exploited zero-day on GS1900 switches, patch now",
-    "originalTitle": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-    "summary": "Update firmware to the fixed release, rotate credentials, disable remote management, and check for exfiltrated configs on GS1900 switches hit by an exploited zero-day.",
-    "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-04T20:58:19.000Z",
-    "fetchedAt": "2026-11-04T23:38:07.656Z"
   }
 ]
