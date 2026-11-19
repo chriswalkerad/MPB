@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-19",
+    "date": "2026-11-19",
+    "title": "Zero days and PoCs are flying, patch and isolate now",
+    "intro": "Attackers are burning new bugs and public PoCs are doing the rounds. If it faces the internet or manages fleets, patch it and pull management behind a VPN.",
+    "items": [
+      {
+        "heading": "vCenter zero day under active attack",
+        "body": "Broadcom shipped vCenter fixes after reports of an authentication bypass being exploited. Patch immediately, block external access to the vCenter UI and APIs, and comb recent logs for suspicious sessions and changes.",
+        "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "vmware-vcenter-zero-day-exploited-patch-now-2026-11-19"
+      },
+      {
+        "heading": "Puppet Enterprise RCE is in the wild",
+        "body": "CISA says a critical remote code execution flaw in Puppet Enterprise is being exploited. Update your automation servers without delay and restrict console access, because a hit here can ripple across your endpoint fleet. Audit recent runs and credentials for tampering.",
+        "url": "https://www.helpnetsecurity.com/2026/11/19/puppet-enterprise-vulnerability-cve-2026-115731-exploited/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "puppet-enterprise-rce-is-being-exploited-patch-and-restrict-2026-11-19"
+      },
+      {
+        "heading": "Cisco Expressway exploited after PoC drop",
+        "body": "A Cisco Expressway flaw is now being abused soon after proof of concept code became public. Apply the fixes and keep Expressway off the open internet, and review logs for signs attackers staged for lateral movement.",
+        "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "cisco-expressway-flaw-exploited-after-poc-apply-fixes-and-is-2026-11-19"
+      },
+      {
+        "heading": "F5 patches NGINX2Root, PoCs available",
+        "body": "F5 released patches for critical NGINX bugs dubbed NGINX2Root, and public exploits are already circulating. Under certain configurations unauthenticated code execution is possible, so update fast and limit exposure of admin and management paths.",
+        "url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "f5-fixes-critical-nginx2root-bugs-pocs-out-update-fast-2026-11-19"
+      },
+      {
+        "heading": "PHP ships critical RCE fixes",
+        "body": "The PHP project issued new releases to close several bugs that enable unauthenticated remote code execution. Update all PHP runtimes and review session handling to mitigate phpAfterShell style abuse, including tightening session storage and cookie settings.",
+        "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "php-ships-fixes-for-critical-rces-update-and-harden-sessions-2026-11-19"
+      },
+      {
+        "heading": "Drupal fixes critical installer takeover",
+        "body": "Drupal core now patches a critical installer flaw that could let unauthenticated attackers reinstall and seize control of a site. Update immediately and disable or remove any internet facing installer scripts before exploits spread.",
+        "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "drupal-patches-critical-installer-rce-update-before-exploits-2026-11-19"
+      },
+      {
+        "heading": "N-able Mail Assure management disruption",
+        "body": "N-able disabled Mail Assure management interfaces after a cloud server breach, so expect downtime for policy management. Validate email security settings and monitor for unexpected changes as access is restored.",
+        "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "n-able-cloud-breach-disrupts-mail-assure-management-for-msps-2026-11-19"
+      },
+      {
+        "heading": "CISA adds actively exploited bugs to KEV",
+        "body": "CISA added LiteLLM, Synology DSM, Apache Axis and REDCap issues to the Known Exploited Vulnerabilities list. Treat them as already exploited, patch or mitigate now, and lock down AI proxy deployments to reduce risk of LLMjacking and credential theft.",
+        "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "cisa-adds-litellm-and-other-exploited-bugs-to-kev-patch-now-2026-11-19"
+      }
+    ],
+    "signOff": "Patch what you can today, isolate what you cannot.",
+    "generatedAt": "2026-11-19T21:38:41.552Z"
+  },
+  {
     "slug": "2026-11-18",
     "date": "2026-11-18",
     "title": "Fix it fast: NGINX, Puppet, F5, Roller, Java, PyPI",
@@ -2088,79 +2162,5 @@
     ],
     "signOff": "See you after the reboot.",
     "generatedAt": "2026-10-21T18:06:48.534Z"
-  },
-  {
-    "slug": "2026-10-20",
-    "date": "2026-10-20",
-    "title": "Patch sprint, supply chain stings, and AI abuse",
-    "intro": "Live exploits, hijacked tools, and a retail outage. Patch fast, rotate creds, and keep a closer eye on automation.",
-    "items": [
-      {
-        "heading": "FortiSIEM unauth RCE PoC drops",
-        "body": "A public exploit for CVE-2026-106173 enables unauthenticated remote code execution on FortiSIEM. Patch immediately and restrict or geofence management interfaces until you can confirm no unauthorized access. Add detections for unusual system activity on the SIEM host and back up configs before changes.",
-        "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "fortisiem-unauth-rce-poc-drops-patch-now-2026-10-20"
-      },
-      {
-        "heading": "Ransomware abusing Palo Alto VPN auth bypass",
-        "body": "Threat actors are still exploiting CVE-2026-0257 in PAN-OS and Prisma Access to bypass authentication. Verify you are fully patched, audit VPN portals, revoke suspicious accounts and tokens, and rotate credentials to cut off lingering sessions. Watch for long lived connections and unexpected admin logins.",
-        "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "ransomware-crews-still-abusing-palo-alto-vpn-auth-bypass-2026-10-20"
-      },
-      {
-        "heading": "Cyberattack hits Ahold Delhaize stores",
-        "body": "A cyberattack disrupted store services across Europe and the US including payments and back office systems. If you support retail clients, expect service calls and align on incident runbooks and payment fallbacks. Validate store network segmentation and vendor dependencies to limit blast radius.",
-        "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "cyberattack-disrupts-ahold-delhaize-stores-across-us-and-eur-2026-10-20"
-      },
-      {
-        "heading": "AI pen test tool weaponized for mass breaches",
-        "body": "Attackers repurposed Cairn, an AI pentest tool, to run autonomous agents against more than 1,200 sites. Lock down internet facing apps, rate limit and throttle automation, and monitor for bot like patterns. Run targeted hunts for scripted probing and tighten WAF rules where you see abuse.",
-        "url": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
-        "source": "Dark Reading",
-        "category": "ai-security",
-        "storySlug": "attackers-weaponize-ai-pen-test-tool-cairn-for-mass-breaches-2026-10-20"
-      },
-      {
-        "heading": "AOMEI Backupper updates hijacked",
-        "body": "AOMEI Backupper updates were briefly hijacked to deliver the ShinyRoad backdoor. Identify installs from April to July, scan and reimage if needed, and validate update provenance going forward. Block egress for backup hosts and pin versions while you verify integrity.",
-        "url": "https://therecord.media/aomei-yet-to-notify-customers-hijack-software",
-        "source": "The Record",
-        "category": "threats",
-        "storySlug": "aomei-backupper-updates-briefly-hijacked-to-push-backdoor-2026-10-20"
-      },
-      {
-        "heading": "OVHcloud CLI releases backdoored",
-        "body": "Certain ovhcli releases were backdoored to siphon developer secrets. Purge compromised binaries, reinstall from clean sources, and immediately rotate every API key, token, and credential that may have been exposed. Review CI pipelines and developer laptops for misuse.",
-        "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "ovhcloud-cli-releases-backdoored-to-steal-developer-secrets-2026-10-20"
-      },
-      {
-        "heading": "Go revokes CA intermediates, rebuild apps",
-        "body": "Go is revoking eight intermediate CA keys, and programs built with older toolchains will reject TLS chains that include them. Update to Go 1.27.3 or 1.26.10 and rebuild binaries to keep connections working. Alert app teams and watch for sudden certificate errors in logs.",
-        "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "go-update-revokes-eight-ca-intermediates-rebuild-your-apps-2026-10-20"
-      },
-      {
-        "heading": "Microsoft adds dynamic permissions for AI agents",
-        "body": "Microsoft is rolling out dynamic permissions and risk scoring to keep AI agents in check. Treat agents like insiders, scope tasks narrowly, and rely on auto tightening when behavior drifts or risk rises. If you are piloting AI workflows, plan policy and monitoring now.",
-        "url": "https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/",
-        "source": "SecurityWeek",
-        "category": "ai-security",
-        "storySlug": "microsoft-adds-dynamic-permissions-to-rein-in-risky-ai-agent-2026-10-20"
-      }
-    ],
-    "signOff": "Patch first, tickets second.",
-    "generatedAt": "2026-10-20T18:00:43.467Z"
   }
 ]
