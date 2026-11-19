@@ -1,5 +1,149 @@
 [
   {
+    "slug": "vmware-vcenter-zero-day-exploited-patch-now-2026-11-19",
+    "title": "VMware vCenter zero-day exploited, patch now",
+    "originalTitle": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+    "summary": "If you run vCenter, install Broadcom’s patches immediately, block external access to the UI and APIs, and hunt for signs of auth bypass exploitation in recent logs.",
+    "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-19T19:21:06.000Z",
+    "fetchedAt": "2026-11-19T20:30:35.540Z"
+  },
+  {
+    "slug": "php-ships-fixes-for-critical-rces-update-and-harden-sessions-2026-11-19",
+    "title": "PHP ships fixes for critical RCEs, update and harden sessions",
+    "originalTitle": "PHP security updates fix 18 flaws, including critical RCE bugs",
+    "summary": "Update to the latest PHP releases today, several critical bugs enable unauthenticated remote code execution, and review session settings to mitigate phpAfterShell-style abuse.",
+    "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-19T16:28:23.000Z",
+    "fetchedAt": "2026-11-19T20:30:35.540Z"
+  },
+  {
+    "slug": "cisco-expressway-flaw-exploited-after-poc-apply-fixes-and-is-2026-11-19",
+    "title": "Cisco Expressway flaw exploited after PoC, apply fixes and isolate",
+    "originalTitle": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+    "summary": "Apply Cisco’s fixes and isolate Expressway from the internet, attackers began exploiting the flaw soon after a PoC dropped, with evidence of lateral movement prep.",
+    "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-19T13:12:20.000Z",
+    "fetchedAt": "2026-11-19T20:30:35.540Z"
+  },
+  {
+    "slug": "drupal-patches-critical-installer-rce-update-before-exploits-2026-11-19",
+    "title": "Drupal patches critical installer RCE, update before exploits spread",
+    "originalTitle": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+    "summary": "Update Drupal core immediately, a critical installer flaw can let unauthenticated attackers reinstall and take over sites, and internet-facing installers should be disabled.",
+    "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-19T13:08:08.000Z",
+    "fetchedAt": "2026-11-19T20:30:35.540Z"
+  },
+  {
+    "slug": "puppet-enterprise-rce-is-being-exploited-patch-and-restrict-2026-11-19",
+    "title": "Puppet Enterprise RCE is being exploited, patch and restrict access",
+    "originalTitle": "Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
+    "summary": "Patch Puppet Enterprise and restrict console access, CISA says a critical RCE is being exploited, so prioritize updates on servers managing your endpoint fleet.",
+    "url": "https://www.helpnetsecurity.com/2026/11/19/puppet-enterprise-vulnerability-cve-2026-115731-exploited/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-19T13:07:41.000Z",
+    "fetchedAt": "2026-11-19T20:30:35.540Z"
+  },
+  {
+    "slug": "f5-fixes-critical-nginx2root-bugs-pocs-out-update-fast-2026-11-19",
+    "title": "F5 fixes critical NGINX2Root bugs, PoCs out, update fast",
+    "originalTitle": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
+    "summary": "Patch NGINX now, PoC exploits are public and under certain configurations unauthenticated attackers can execute code, so update packages and limit exposure of management paths.",
+    "url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-19T10:26:51.000Z",
+    "fetchedAt": "2026-11-19T20:30:35.540Z"
+  },
+  {
+    "slug": "n-able-cloud-breach-disrupts-mail-assure-management-for-msps-2026-11-19",
+    "title": "N-able cloud breach disrupts Mail Assure management for MSPs",
+    "originalTitle": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+    "summary": "Expect management downtime in Mail Assure and validate email security policies, N-able disabled interfaces after a cloud server breach and recommends monitoring for suspicious changes.",
+    "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-19T09:31:26.000Z",
+    "fetchedAt": "2026-11-19T20:30:35.540Z"
+  },
+  {
+    "slug": "cisa-adds-litellm-and-other-exploited-bugs-to-kev-patch-now-2026-11-19",
+    "title": "CISA adds LiteLLM and other exploited bugs to KEV, patch now",
+    "originalTitle": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+    "summary": "Treat LiteLLM, Synology DSM, Apache Axis and REDCap flaws as exploited, patch or mitigate now, especially AI proxy deployments that can enable LLMjacking and credential theft.",
+    "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-19T08:00:00.000Z",
+    "fetchedAt": "2026-11-19T20:30:35.540Z"
+  },
+  {
     "slug": "shadow-iot-is-sneaking-into-ot-even-game-consoles-on-prod-ne-2026-11-19",
     "title": "Shadow IoT is sneaking into OT, even game consoles on prod nets",
     "originalTitle": "Game consoles and Teslas are slipping past OT network segmentation",
@@ -2515,159 +2659,5 @@
     "category": "threats",
     "publishedAt": "2026-11-05T21:30:30.000Z",
     "fetchedAt": "2026-11-06T06:35:04.454Z"
-  },
-  {
-    "slug": "free-program-auto-revokes-1-4m-exposed-api-keys-2026-11-05",
-    "title": "Free program auto-revokes 1.4M exposed API keys",
-    "originalTitle": "Nearly 1.5 million exposed secrets targeted in new revocation program",
-    "summary": "Truffle Security will coordinate revocation of 1.4 million still-valid exposed secrets, enroll and strengthen secret scanning, key rotation, and least-privilege access across repos and CI.",
-    "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-11-05T20:15:08.000Z",
-    "fetchedAt": "2026-11-06T06:35:04.454Z"
-  },
-  {
-    "slug": "feds-warn-harden-cooling-systems-after-supermarket-hacks-2026-11-05",
-    "title": "Feds warn: harden cooling systems after supermarket hacks",
-    "originalTitle": "Harden cooling systems now, feds warn critical infrastructure operators amid attacks",
-    "summary": "Lock down and segment building and refrigeration controllers, change default credentials, and restrict remote access as attackers target cooling systems causing outages.",
-    "url": "https://therecord.media/cyberattacks-refrigeration-cisa-fbi",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-05T19:15:00.000Z",
-    "fetchedAt": "2026-11-05T19:54:10.436Z"
-  },
-  {
-    "slug": "openssh-bug-lets-logins-on-password-disabled-alpine-accounts-2026-11-05",
-    "title": "OpenSSH bug lets logins on password‑disabled Alpine accounts",
-    "originalTitle": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
-    "summary": "Patch musl-based Linux systems like Alpine now, an oversized password can bypass disabled password authentication and allow logins that put containers and servers at risk.",
-    "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-05T17:45:29.000Z",
-    "fetchedAt": "2026-11-05T19:54:10.436Z"
-  },
-  {
-    "slug": "trojanized-cwp-web-server-backdoors-linux-hosts-2026-11-05",
-    "title": "Trojanized CWP web server backdoors Linux hosts",
-    "originalTitle": "Hackers backdoor Linux servers using trojanized CWP web server",
-    "summary": "Verify and reinstall cwpsrv from trusted sources and audit servers, attackers are shipping a trojanized Control Web Panel web server that plants the CWPdoor backdoor.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-05T16:24:26.000Z",
-    "fetchedAt": "2026-11-05T19:54:10.436Z"
-  },
-  {
-    "slug": "digicert-breach-exposes-customer-data-and-identity-documents-2026-11-05",
-    "title": "DigiCert breach exposes customer data and identity documents",
-    "originalTitle": "DigiCert data breach exposes customer information, identity documents",
-    "summary": "Review certificate enrollments and watch for fraud, a misconfigured system let intruders access DigiCert customer details and uploaded identity verification documents.",
-    "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-05T16:12:46.000Z",
-    "fetchedAt": "2026-11-05T19:54:10.436Z"
-  },
-  {
-    "slug": "cisco-watchguard-ship-fixes-sonicwall-gms-flaws-left-unpatch-2026-11-05",
-    "title": "Cisco, WatchGuard ship fixes, SonicWall GMS flaws left unpatched",
-    "originalTitle": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
-    "summary": "Update Cisco UCS Central and WatchGuard devices immediately, and retire or isolate SonicWall GMS and Analyzer since the vendor will not fix reported vulnerabilities.",
-    "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-05T12:33:49.000Z",
-    "fetchedAt": "2026-11-05T19:54:10.436Z"
-  },
-  {
-    "slug": "fbi-and-cisa-attackers-targeting-industrial-refrigeration-sy-2026-11-05",
-    "title": "FBI and CISA: attackers targeting industrial refrigeration systems",
-    "originalTitle": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
-    "summary": "If you run or service cold chain gear, lock down remote access, change default credentials, segment networks, and patch monitoring systems immediately.",
-    "url": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "fetchedAt": "2026-11-06T06:35:04.454Z"
-  },
-  {
-    "slug": "cisa-lists-pqc-questions-to-start-asking-your-vendors-now-2026-11-05",
-    "title": "CISA lists PQC questions to start asking your vendors now",
-    "originalTitle": "Post-Quantum Questions to Ask Your Vendors",
-    "summary": "Use the new CISA, NSA, and ACSC checklist to assess vendor readiness for post-quantum crypto, inventory impacted systems, and plan migration timelines before deadlines hit.",
-    "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "fetchedAt": "2026-11-06T06:35:04.454Z"
-  },
-  {
-    "slug": "zyxel-gs1900-switches-still-exploitable-install-new-firmware-2026-11-05",
-    "title": "Zyxel GS1900 switches still exploitable, install new firmware now",
-    "originalTitle": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
-    "summary": "Apply the latest GS1900 firmware immediately, earlier patches missed the in-the-wild zero-day that allows unauthenticated command execution via the web interface.",
-    "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/11/05/zyxel-cve-2026-107441-exploit/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-05T10:56:41.000Z",
-    "fetchedAt": "2026-11-05T19:54:10.436Z"
-  },
-  {
-    "slug": "ghostmap-android-flaw-can-force-persistent-boot-loops-2026-11-05",
-    "title": "GhostMap Android flaw can force persistent boot loops",
-    "originalTitle": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
-    "summary": "Block untrusted app installs and push updates, a no-permission app can trigger endless reboots that may require device wipes to recover.",
-    "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-05T09:18:29.000Z",
-    "fetchedAt": "2026-11-05T19:54:10.436Z"
   }
 ]
