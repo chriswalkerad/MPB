@@ -1,5 +1,123 @@
 [
   {
+    "slug": "attackers-use-ai-tool-cairn-to-probe-targets-and-find-zero-d-2026-11-20",
+    "title": "Attackers use AI tool Cairn to probe targets and find zero days",
+    "originalTitle": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+    "summary": "Prepare for faster recon and unknown bug hunting, researchers say a China-linked actor used the open source Cairn agent to persistently attack universities and likely discover a zero day.",
+    "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-20T17:30:00.000Z",
+    "fetchedAt": "2026-11-20T20:08:04.450Z"
+  },
+  {
+    "slug": "whatsapp-fixes-android-flaw-abused-to-boost-scam-credibility-2026-11-20",
+    "title": "WhatsApp fixes Android flaw abused to boost scam credibility",
+    "originalTitle": "WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign",
+    "summary": "Update WhatsApp and WhatsApp Business on Android, Meta patched CVE-2026-23871 that may have been exploited to make scam messages appear more legitimate via ad-reply URL validation issues.",
+    "url": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-20T16:01:02.000Z",
+    "fetchedAt": "2026-11-20T20:08:04.450Z"
+  },
+  {
+    "slug": "n-able-breach-knocks-mail-assure-and-spamexperts-offline-2026-11-20",
+    "title": "N-able breach knocks Mail Assure and SpamExperts offline",
+    "originalTitle": "N-able says recent security breach led to major service outage",
+    "summary": "MSPs using N-able's email filtering should reset credentials and watch for phishing, attackers hit a server causing global outages for Mail Assure and SpamExperts Hosted Cloud.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/"
+      }
+    ],
+    "category": "msp-channel",
+    "publishedAt": "2026-11-20T13:18:36.000Z",
+    "fetchedAt": "2026-11-20T20:08:04.450Z"
+  },
+  {
+    "slug": "patch-vcenter-now-zero-day-auth-bypass-exploited-since-septe-2026-11-20",
+    "title": "Patch vCenter now, zero-day auth bypass exploited since September",
+    "originalTitle": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)",
+    "summary": "Admins should urgently apply Broadcom's vCenter fix for CVE-2026-123890, a 9.8 auth bypass exploited for months that grants unauthenticated admin access.",
+    "url": "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "CISA Advisories",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-20T12:30:19.000Z",
+    "fetchedAt": "2026-11-20T20:08:04.450Z"
+  },
+  {
+    "slug": "f5-issues-emergency-patches-for-critical-big-ip-rce-flaws-2026-11-20",
+    "title": "F5 issues emergency patches for critical BIG-IP RCE flaws",
+    "originalTitle": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+    "summary": "Patch internet-facing BIG-IP now to prevent RCE and DoS, five critical vulnerabilities are fixed and these devices are frequent targets.",
+    "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-20T10:57:43.000Z",
+    "fetchedAt": "2026-11-20T20:08:04.450Z"
+  },
+  {
+    "slug": "sonicwall-gen-6-firewalls-won-t-get-fixes-retire-them-now-2026-11-20",
+    "title": "SonicWall Gen 6 firewalls won't get fixes, retire them now",
+    "originalTitle": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+    "summary": "Replace any internet-facing SonicWall Gen 6 appliances immediately, the vendor says unsupported devices will not receive security patches and are prime targets for automated attacks.",
+    "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-20T10:38:22.000Z",
+    "fetchedAt": "2026-11-20T20:08:04.450Z"
+  },
+  {
+    "slug": "cisco-expressway-bug-under-active-exploit-get-it-off-the-int-2026-11-20",
+    "title": "Cisco Expressway bug under active exploit, get it off the internet",
+    "originalTitle": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+    "summary": "If you run Cisco Expressway, patch CVE-2026-76466 and restrict exposure now, attackers are already using PoC code to breach devices and pivot inside networks.",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-20T10:32:50.000Z",
+    "fetchedAt": "2026-11-20T20:08:04.450Z"
+  },
+  {
     "slug": "more-prompt-injection-data-made-models-easier-to-hijack-2026-11-20",
     "title": "More prompt-injection data made models easier to hijack",
     "originalTitle": "Your AI red team may be finding the same prompt injection thousands of times",
@@ -2570,122 +2688,5 @@
     "category": "ai-security",
     "publishedAt": "2026-11-06T20:24:19.000Z",
     "fetchedAt": "2026-11-07T05:53:43.562Z"
-  },
-  {
-    "slug": "digicert-reports-breach-of-internal-business-system-2026-11-06",
-    "title": "DigiCert reports breach of internal business system",
-    "originalTitle": "Certificate authority DigiCert reports data breach involving business customer info",
-    "summary": "Expect targeted phishing against certificate buyers after names and contact details of business customers were accessed, though DigiCert says certificate issuance systems were not impacted.",
-    "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-06T18:56:00.000Z",
-    "fetchedAt": "2026-11-06T19:20:19.420Z"
-  },
-  {
-    "slug": "fake-github-security-tools-drop-backdoors-verify-before-you-2026-11-06",
-    "title": "Fake GitHub security tools drop backdoors, verify before you run",
-    "originalTitle": "Fake security tools on GitHub push backdoors and infostealers",
-    "summary": "Security pros and developers should scrutinize maintainers and build scripts, as malicious GitHub projects are delivering backdoors and info stealers disguised as defensive tools.",
-    "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-06T18:46:52.000Z",
-    "fetchedAt": "2026-11-06T19:20:19.420Z"
-  },
-  {
-    "slug": "qnap-nas-under-attack-via-plex2shell-update-plex-now-2026-11-06",
-    "title": "QNAP NAS under attack via Plex2Shell, update Plex now",
-    "originalTitle": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-    "summary": "QNAP says hackers are exploiting Plex2Shell, so update Plex Media Server from the QNAP App Center, remove vulnerable builds, and keep NAS services off the public internet.",
-    "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-06T17:04:23.000Z",
-    "fetchedAt": "2026-11-06T19:20:19.420Z"
-  },
-  {
-    "slug": "wordpress-sites-can-be-hit-during-patching-block-web-during-2026-11-06",
-    "title": "WordPress sites can be hit during patching, block web during updates",
-    "originalTitle": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-    "summary": "To avoid exploitation while a fix is installing for an actively abused flaw, put sites in maintenance mode or block web access until the update fully completes.",
-    "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-06T16:08:38.000Z",
-    "fetchedAt": "2026-11-06T19:20:19.420Z"
-  },
-  {
-    "slug": "chainalysis-breach-exposed-all-customer-credentials-and-toke-2026-11-06",
-    "title": "Chainalysis breach exposed all customer credentials and tokens",
-    "originalTitle": "Chainalysis says breach exposed credentials for all customers",
-    "summary": "Rotate passwords, API keys, and tokens tied to Chainalysis services now, as the company says all user credentials and live tokens were exposed during an ongoing investigation.",
-    "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-06T14:17:07.000Z",
-    "fetchedAt": "2026-11-06T19:20:19.420Z"
-  },
-  {
-    "slug": "openssh-sshole-lets-logins-on-musl-systems-patch-now-2026-11-06",
-    "title": "OpenSSH 'SSHole' lets logins on musl systems, patch now",
-    "originalTitle": "OpenSSH flaw exploited in the wild just hours after disclosure (CVE-2026-123158)",
-    "summary": "If you run OpenSSH on musl-based Linux without PAM, update to 10.6p2 and disable password logins where possible, attackers are already exploiting CVE-2026-123158.",
-    "url": "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-06T12:49:41.000Z",
-    "fetchedAt": "2026-11-06T19:20:19.420Z"
-  },
-  {
-    "slug": "d-link-dgs-3130-switches-hit-by-zero-days-apply-mitigations-2026-11-06",
-    "title": "D-Link DGS-3130 switches hit by zero-days, apply mitigations",
-    "originalTitle": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
-    "summary": "With no patches yet for multiple DGS-3130 flaws, restrict and segment management access, disable remote admin, use strong ACLs, and monitor for unusual logins or config changes.",
-    "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-06T12:37:22.000Z",
-    "fetchedAt": "2026-11-06T19:20:19.420Z"
   }
 ]
