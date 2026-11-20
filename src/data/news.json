@@ -1,5 +1,94 @@
 [
   {
+    "slug": "more-prompt-injection-data-made-models-easier-to-hijack-2026-11-20",
+    "title": "More prompt-injection data made models easier to hijack",
+    "originalTitle": "Your AI red team may be finding the same prompt injection thousands of times",
+    "summary": "Do not overfit defenses to one corpus, vary attack techniques, test with independent red teams, and add runtime guards for model outputs and tool use.",
+    "url": "https://www.helpnetsecurity.com/2026/11/20/ai-prompt-injection-red-team/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-20T06:30:20.000Z",
+    "fetchedAt": "2026-11-20T07:06:59.094Z"
+  },
+  {
+    "slug": "ai-agents-are-in-prod-api-keys-and-permissions-are-a-mess-2026-11-20",
+    "title": "AI agents are in prod, API keys and permissions are a mess",
+    "originalTitle": "AI agent API security hasn’t caught up with agents already running in production",
+    "summary": "Inventory AI agents, move keys to a managed secrets store, enforce least privilege and rotation, and monitor agent API calls before a prompt goes sideways.",
+    "url": "https://www.helpnetsecurity.com/2026/11/20/ai-agent-api-security-production/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-20T05:30:11.000Z",
+    "fetchedAt": "2026-11-20T07:06:59.094Z"
+  },
+  {
+    "slug": "new-windows-fastunlock-trick-runs-apps-on-a-locked-pc-2026-11-20",
+    "title": "New Windows FastUnlock trick runs apps on a locked PC",
+    "originalTitle": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+    "summary": "Until Microsoft ships a fix, lock down physical access, enable full disk encryption, block removable media, and log off instead of locking on shared systems.",
+    "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-20T05:30:01.000Z",
+    "fetchedAt": "2026-11-20T07:06:59.094Z"
+  },
+  {
+    "slug": "patch-vcenter-now-auth-bypass-zero-day-exploited-since-septe-2026-11-20",
+    "title": "Patch vCenter now, auth bypass zero-day exploited since September",
+    "originalTitle": "VMware patches vCenter zero-day exploited in attacks since September",
+    "summary": "Update vCenter Server immediately, a critical authentication bypass has been exploited in the wild since September, restrict vCenter exposure, review logs, and rotate credentials.",
+    "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-20T00:26:25.000Z",
+    "fetchedAt": "2026-11-20T07:06:59.094Z"
+  },
+  {
+    "slug": "update-asus-control-center-express-hard-coded-key-enables-ta-2026-11-19",
+    "title": "Update ASUS Control Center Express, hard-coded key enables takeover",
+    "originalTitle": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+    "summary": "Upgrade to 1.7.29 now, three critical bugs including a hard-coded encryption key allow remote admin takeover of the console and managed devices, audit access and rotate credentials.",
+    "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-19T21:15:59.000Z",
+    "fetchedAt": "2026-11-20T07:06:59.094Z"
+  },
+  {
+    "slug": "patch-php-now-november-release-fixes-multiple-critical-rce-b-2026-11-19",
+    "title": "Patch PHP now, November release fixes multiple critical RCE bugs",
+    "originalTitle": "Critical PHP Flaws Allow Code Execution, But Don't Panic 'PHP2Shell'-Style",
+    "summary": "Apply the latest PHP updates across servers promptly, several critical vulnerabilities can lead to code execution depending on configuration, test and roll out patches to all supported versions.",
+    "url": "https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-19T19:57:31.000Z",
+    "fetchedAt": "2026-11-20T07:06:59.094Z"
+  },
+  {
     "slug": "vmware-vcenter-zero-day-exploited-patch-now-2026-11-19",
     "title": "VMware vCenter zero-day exploited, patch now",
     "originalTitle": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
@@ -2598,66 +2687,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-06T12:37:22.000Z",
     "fetchedAt": "2026-11-06T19:20:19.420Z"
-  },
-  {
-    "slug": "barracuda-esg-bugs-allow-root-without-login-patch-asap-2026-11-06",
-    "title": "Barracuda ESG bugs allow root without login, patch ASAP",
-    "originalTitle": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
-    "summary": "Update Barracuda Email Security Gateway appliances immediately, as an auth bypass chained to command injection can grant unauthenticated root access, then audit for suspicious restore or diagnostic activity.",
-    "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-06T05:39:10.000Z",
-    "fetchedAt": "2026-11-06T19:20:19.420Z"
-  },
-  {
-    "slug": "ai-voice-and-avatar-scams-siphoned-129m-from-finance-teams-2026-11-06",
-    "title": "AI voice and avatar scams siphoned $129M from finance teams",
-    "originalTitle": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
-    "summary": "Prosecutors say AI voice and video impersonations tricked accounting teams into sending $129 million, require out-of-band verification and tightened approvals for any payment or wire requests.",
-    "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-06T03:03:29.000Z",
-    "fetchedAt": "2026-11-06T06:35:04.454Z"
-  },
-  {
-    "slug": "openssh-bug-lets-logins-on-alpine-patch-to-10-6p2-now-2026-11-05",
-    "title": "OpenSSH bug lets logins on Alpine, patch to 10.6p2 now",
-    "originalTitle": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
-    "summary": "Alpine Linux servers running OpenSSH can allow password authentication bypass with long passwords, update to OpenSSH 10.6p2 and fixed Alpine packages now and review SSH auth settings.",
-    "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-05T23:09:36.000Z",
-    "fetchedAt": "2026-11-06T06:35:04.454Z"
-  },
-  {
-    "slug": "fake-ai-event-invites-are-stealing-m365-and-google-accounts-2026-11-05",
-    "title": "Fake AI event invites are stealing M365 and Google accounts",
-    "originalTitle": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
-    "summary": "Attackers are sending fake OpenAI or SpaceX event invites to steal Microsoft and Google credentials and sessions, train users and enforce phishing-resistant MFA and session protections.",
-    "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-05T21:30:30.000Z",
-    "fetchedAt": "2026-11-06T06:35:04.454Z"
   }
 ]
