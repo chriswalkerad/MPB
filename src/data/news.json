@@ -1,5 +1,61 @@
 [
   {
+    "slug": "ransomware-recovery-firm-indicted-for-paying-hackers-marking-2026-11-21",
+    "title": "Ransomware recovery firm indicted for paying hackers, marking up keys",
+    "originalTitle": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+    "summary": "Demand transparency from any ransomware recovery service, a federal indictment says RansomwareHelp bought keys from attackers then billed victims for fake cryptographic work.",
+    "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+    "source": {
+      "name": "Krebs on Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-21T00:36:39.000Z",
+    "fetchedAt": "2026-11-21T06:59:33.178Z"
+  },
+  {
+    "slug": "attackers-hitting-vmware-vcenter-zero-day-take-vcenter-off-t-2026-11-20",
+    "title": "Attackers hitting VMware vCenter zero-day, take vCenter off the internet",
+    "originalTitle": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+    "summary": "Lock down vCenter now, restrict admin access, enforce MFA, monitor for compromise, and apply all recent VMware patches, reports warn of active zero-day targeting management servers.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-20T21:03:27.000Z",
+    "fetchedAt": "2026-11-21T06:59:33.178Z"
+  },
+  {
+    "slug": "ai-prompts-aren-t-private-canaries-show-secrets-leak-across-2026-11-20",
+    "title": "AI prompts aren't private, canaries show secrets leak across tools",
+    "originalTitle": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+    "summary": "Do not paste sensitive data into AI assistants, a 2 million canary test shows prompts and outputs propagate across vendors, breaking privacy and compliance controls.",
+    "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+    "source": {
+      "name": "Ars Technica"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-20T20:59:08.000Z",
+    "fetchedAt": "2026-11-21T06:59:33.178Z"
+  },
+  {
+    "slug": "lawmakers-warn-on-chinese-open-weight-ai-check-your-model-su-2026-11-20",
+    "title": "Lawmakers warn on Chinese open-weight AI, check your model supply chain",
+    "originalTitle": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+    "summary": "Inventory where your AI models and weights come from, House leaders warn U.S. firms using cheaper Chinese open weights risk data exposure and national security compliance issues.",
+    "url": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-20T20:25:00.000Z",
+    "fetchedAt": "2026-11-21T06:59:33.178Z"
+  },
+  {
     "slug": "attackers-use-ai-tool-cairn-to-probe-targets-and-find-zero-d-2026-11-20",
     "title": "Attackers use AI tool Cairn to probe targets and find zero days",
     "originalTitle": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
@@ -2613,80 +2669,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-07T10:16:23.000Z",
     "fetchedAt": "2026-11-07T12:54:42.076Z"
-  },
-  {
-    "slug": "claude-code-don-t-ask-again-saved-secrets-to-repos-1-122-lea-2026-11-07",
-    "title": "Claude Code 'Don't Ask Again' saved secrets to repos, 1,122 leaks",
-    "originalTitle": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-    "summary": "Audit your repos and rotate keys, Claude Code can save approved commands with plaintext passwords and API keys in project settings files that often get committed publicly.",
-    "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-07T06:44:17.000Z",
-    "fetchedAt": "2026-11-07T12:54:42.076Z"
-  },
-  {
-    "slug": "sonicwall-ssl-vpn-mfa-bypass-exploited-patch-sonicos-now-2026-11-07",
-    "title": "SonicWall SSL-VPN MFA bypass exploited, patch SonicOS now",
-    "originalTitle": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-    "summary": "Prioritize installing SonicOS updates, an actively exploited SSL-VPN flaw allows MFA bypass and remote access, now on CISA's KEV list and hitting exposed firewalls.",
-    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "CISA Advisories",
-        "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-07T00:00:55.000Z",
-    "fetchedAt": "2026-11-07T05:53:43.562Z"
-  },
-  {
-    "slug": "workos-breach-tied-to-ai-agent-rotate-keys-and-audit-access-2026-11-06",
-    "title": "WorkOS breach tied to AI agent, rotate keys and audit access",
-    "originalTitle": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-    "summary": "If you or your vendors use WorkOS, review the incident notice, rotate API keys and SSO secrets, and audit access after an AI agent accessed customer data.",
-    "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-06T22:27:25.000Z",
-    "fetchedAt": "2026-11-07T05:53:43.562Z"
-  },
-  {
-    "slug": "chainalysis-says-customer-tokens-and-credentials-stolen-rota-2026-11-06",
-    "title": "Chainalysis says customer tokens and credentials stolen, rotate now",
-    "originalTitle": "Chainalysis says hackers stole credentials and tokens for all of its customers",
-    "summary": "If you rely on Chainalysis, assume compromise and immediately rotate all API keys, OAuth tokens, and passwords, with logging review, after a multifront attack stole customer credentials.",
-    "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-06T20:56:41.000Z",
-    "fetchedAt": "2026-11-07T05:53:43.562Z"
-  },
-  {
-    "slug": "openai-unveils-gpt-6-cyber-massive-bug-finds-in-firefox-linu-2026-11-06",
-    "title": "OpenAI unveils GPT-6 Cyber, massive bug finds in Firefox, Linux",
-    "originalTitle": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-    "summary": "Expect a wave of AI-discovered bugs and exploit POCs, validate vendor advisories and prioritize patches, as OpenAI's GPT-6 Cyber claims massive findings in Firefox and Linux.",
-    "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-06T20:24:19.000Z",
-    "fetchedAt": "2026-11-07T05:53:43.562Z"
   }
 ]
