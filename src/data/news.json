@@ -1,5 +1,80 @@
 [
   {
+    "slug": "microsoft-entra-connect-health-bug-exposed-admin-emails-tena-2026-11-21",
+    "title": "Microsoft Entra Connect Health bug exposed admin emails, tenant configs",
+    "originalTitle": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+    "summary": "Audit Entra Connect Health and rotate credentials now, Microsoft says attackers exploited a flaw to access administrator email addresses and tenant configuration data.",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-21T18:01:58.000Z",
+    "fetchedAt": "2026-11-21T19:09:41.509Z"
+  },
+  {
+    "slug": "badbox-botnet-resurges-via-infected-android-tv-boxes-2026-11-21",
+    "title": "BADBOX botnet resurges via infected Android TV boxes",
+    "originalTitle": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+    "summary": "Avoid and isolate unvetted Android TV boxes on corporate networks, BADBOX malware is driving 40 billion daily ad requests from infected devices.",
+    "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-21T15:17:27.000Z",
+    "fetchedAt": "2026-11-21T19:09:41.509Z"
+  },
+  {
+    "slug": "attackers-ai-agents-found-zero-day-in-monai-label-gained-roo-2026-11-21",
+    "title": "Attackers' AI agents found zero day in MONAI Label, gained root",
+    "originalTitle": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+    "summary": "Patch or isolate MONAI Label instances, Amazon reports AI agents used a zero day in default setups to write outside storage and gain root on a server.",
+    "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-21T12:08:50.000Z",
+    "fetchedAt": "2026-11-21T19:09:41.509Z"
+  },
+  {
+    "slug": "critical-gpgme-bug-could-leak-app-data-via-malicious-openpgp-2026-11-21",
+    "title": "Critical GPGME bug could leak app data via malicious OpenPGP keys",
+    "originalTitle": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+    "summary": "Update GPGME to 2.3.0 and avoid importing untrusted keys, a memory bug triggered by long user IDs can expose data in apps using GnuPG.",
+    "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-21T11:05:53.000Z",
+    "fetchedAt": "2026-11-21T19:09:41.509Z"
+  },
+  {
+    "slug": "patch-now-actively-exploited-vmware-vcenter-cisco-expressway-2026-11-21",
+    "title": "Patch now: actively exploited VMware vCenter, Cisco Expressway, Apache Roller",
+    "originalTitle": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+    "summary": "Prioritize vendor fixes and mitigations, CISA added these bugs to its Known Exploited Vulnerabilities list indicating confirmed in-the-wild attacks.",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-21T08:49:13.000Z",
+    "fetchedAt": "2026-11-21T19:09:41.509Z"
+  },
+  {
     "slug": "ransomware-recovery-firm-indicted-for-paying-hackers-marking-2026-11-21",
     "title": "Ransomware recovery firm indicted for paying hackers, marking up keys",
     "originalTitle": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
@@ -2627,47 +2702,5 @@
     "category": "threats",
     "publishedAt": "2026-11-08T15:43:08.000Z",
     "fetchedAt": "2026-11-08T21:59:21.074Z"
-  },
-  {
-    "slug": "service-provider-breach-drives-133m-fraud-at-cr-dit-mutuel-a-2026-11-07",
-    "title": "Service provider breach drives $133M fraud at Crédit Mutuel Arkéa",
-    "originalTitle": "Hackers pull off $133 million French bank heist via service provider",
-    "summary": "Audit third-party integrations and transaction controls, a service provider compromise let attackers push $133 million in fraudulent transfers at Crédit Mutuel Arkéa before systems were suspended.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-07T15:25:35.000Z",
-    "fetchedAt": "2026-11-07T21:46:01.105Z"
-  },
-  {
-    "slug": "fake-gift-card-giveaways-steal-data-and-money-via-bogus-veri-2026-11-07",
-    "title": "Fake gift card giveaways steal data and money via bogus verification",
-    "originalTitle": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
-    "summary": "Warn users and block known domains, CTM360 found large campaigns impersonating brands and celebrities that harvest personal data and trigger paid subscriptions without delivering rewards.",
-    "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-07T14:10:19.000Z",
-    "fetchedAt": "2026-11-07T21:46:01.105Z"
-  },
-  {
-    "slug": "sonicwall-fixes-exploited-sonicos-bug-that-weakens-vpn-mfa-2026-11-07",
-    "title": "SonicWall fixes exploited SonicOS bug that weakens VPN MFA",
-    "originalTitle": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-    "summary": "Patch SonicOS immediately, an actively exploited flaw lets attackers bypass SAML checks and MFA on VPNs using other login method credentials, then review auth settings and logs.",
-    "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-07T10:16:23.000Z",
-    "fetchedAt": "2026-11-07T12:54:42.076Z"
   }
 ]
