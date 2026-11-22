@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-22",
+    "date": "2026-11-22",
+    "title": "Backdoored routers, upload RCEs, and leaky AI",
+    "intro": "Busy patch day with active exploitation and messy fallout. Tighten network edges, harden upload paths, and treat AI like a chatty intern.",
+    "items": [
+      {
+        "heading": "Patch GL.iNet cloud flaw now",
+        "body": "Attackers are abusing a cloud-side issue to backdoor GL.iNet routers and KVM devices. If you manage these, kill cloud remote management, update firmware, rotate credentials, and sweep for persistence. This is live fire, prioritize edge gear before the workday traffic hits.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "patch-gl-inet-cloud-flaw-routers-and-kvms-backdoored-2026-11-22"
+      },
+      {
+        "heading": "Ghostscript upload bug enables sandbox escape",
+        "body": "Crafted file uploads can trigger command execution when Ghostscript or ImageMagick processes PS or PDF content. Update to patched builds and block or isolate PS/PDF handling for untrusted uploads. If your app converts user files, assume exposure and move the converters behind tight sandboxes.",
+        "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "patch-ghostscript-now-sandbox-escape-rce-via-file-uploads-2026-11-22"
+      },
+      {
+        "heading": "Rackspace Spot breach exposed K8s secrets",
+        "body": "Stolen credentials let attackers access customer clusters, exposing Kubernetes secrets and tokens. Rotate everything tied to Rackspace Spot, hunt for rogue deployments, and clamp down API keys with MFA. If you federate access, review trust relationships and audit cluster activity now.",
+        "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "rackspace-spot-breach-exposed-customer-kubernetes-secrets-2026-11-21"
+      },
+      {
+        "heading": "Entra Connect Health data exposure",
+        "body": "Microsoft reports a flaw let attackers access administrator email addresses and tenant configuration data. Audit Entra Connect Health usage, rotate credentials, and review access logs for odd pulls. Treat exposed emails as targets for phishing and tighten conditional access.",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "microsoft-entra-connect-health-bug-exposed-admin-emails-tena-2026-11-21"
+      },
+      {
+        "heading": "Cleverbridge breach: full card data stolen",
+        "body": "The e-commerce platform says card numbers and CVVs were taken. Assume any payment data processed via Cleverbridge is compromised, notify affected customers, monitor for fraud, and prep for chargebacks. Coordinate with banks and adjust fraud rules to cut losses.",
+        "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "cleverbridge-breach-exposes-card-numbers-and-cvvs-2026-11-22"
+      },
+      {
+        "heading": "Debian Ubuntu rsyslog timestamp gotchas",
+        "body": "Dropping a directive in early 2023 changed syslog timestamp formats, breaking some SIEM parsers and correlations. Review rsyslog configs and normalize formats, then test parser behavior end to end. Fixing this now beats discovering gaps during incident response.",
+        "url": "https://isc.sans.edu/diary/rss/33530",
+        "source": "SANS ISC",
+        "category": "defense",
+        "storySlug": "check-rsyslog-timestamp-formats-on-debian-and-ubuntu-2026-11-22"
+      },
+      {
+        "heading": "OpenRouter ejects hosts over prompt theft",
+        "body": "Months of prompt leakage were traced to certain AI hosting providers, and three routes were cut. Assume prompts can leak, audit which routes your apps use, and strip sensitive data from prompts. For anything confidential, prefer self-hosted or well-vetted inference.",
+        "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+        "source": "The Hacker News",
+        "category": "ai-security",
+        "storySlug": "openrouter-drops-3-ai-hosts-after-months-of-prompt-theft-2026-11-22"
+      },
+      {
+        "heading": "Signal clamps assistants from grabbing chats",
+        "body": "Signal added controls to stop Siri and Android assistants like Gemini from capturing chat content. Have privacy-minded users update, enable screenshot blocking on iOS, and tweak the new Android settings. This reduces accidental data exposure from convenience features.",
+        "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "signal-blocks-siri-and-android-assistants-from-capturing-cha-2026-11-22"
+      }
+    ],
+    "signOff": "Patch, rotate, and keep an eye on the logs before the tickets start flying.",
+    "generatedAt": "2026-11-22T20:23:10.534Z"
+  },
+  {
     "slug": "2026-11-21",
     "date": "2026-11-21",
     "title": "vCenter under fire, Entra leak, and AI data spills",
@@ -2088,79 +2162,5 @@
     ],
     "signOff": "Ship the patches, script the help desk, and on to the next ticket.",
     "generatedAt": "2026-10-24T16:38:51.519Z"
-  },
-  {
-    "slug": "2026-10-23",
-    "date": "2026-10-23",
-    "title": "Edge under fire: zero days, stolen creds, urgent patches",
-    "intro": "Busy morning: active exploits at the edge, unpatched RCEs, and session hijacks. Triage the perimeter, then mop up the rest.",
-    "items": [
-      {
-        "heading": "70k creds lifted from FortiGate and GlobalProtect",
-        "body": "Attackers hit exposed Fortinet FortiGate and Palo Alto GlobalProtect devices and walked off with over 70,000 credentials. If your clients run these, assume compromise is possible. Audit appliance integrity, rotate all relevant secrets, and dig for lateral movement before it digs into you.",
-        "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-        "source": "The Hacker News",
-        "category": "threats",
-        "storySlug": "campaign-hits-fortigate-and-globalprotect-70k-creds-stolen-2026-10-23"
-      },
-      {
-        "heading": "VeloCloud Orchestrator zero day, exploit in the wild",
-        "body": "A critical SQL injection in VMware VeloCloud Orchestrator is being exploited to grab operator level access. If you run VCO, treat it as high risk until fixed. Restrict internet exposure immediately and apply VMware’s mitigations now.",
-        "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "velocloud-orchestrator-hit-by-third-zero-day-exploit-in-the-2026-10-23"
-      },
-      {
-        "heading": "Unpatched PHP RCE, mitigation only for now",
-        "body": "There is a new PHP remote code execution bug with no patch yet, especially risky on internet facing hosts with non default configs. Do not wait for a release. Apply the PHP team’s mitigations and reduce exposure wherever PHP is reachable from the outside.",
-        "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "unpatched-php-rce-apply-mitigations-now-2026-10-23"
-      },
-      {
-        "heading": "ArubaOS mega patch: eight critical flaws fixed",
-        "body": "HPE shipped fixes for 72 ArubaOS issues, including eight max severity auth bypass and code execution flaws. Treat this as an emergency change window. Patch controllers, gateways, and APs across client networks and verify access control still behaves as expected.",
-        "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "patch-arubaos-now-eight-critical-auth-bypass-and-rce-2026-10-23"
-      },
-      {
-        "heading": "Microsoft 365 session replay hit 79 orgs",
-        "body": "Over ten weeks, attackers replayed stolen Microsoft 365 sessions to get in without passwords. Assume cached tokens are not your friend. Revoke all sessions, hunt for stealthy inbox rules, and tighten conditional access before the next replay.",
-        "url": "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "stolen-sessions-let-attackers-into-79-microsoft-365-orgs-2026-10-23"
-      },
-      {
-        "heading": "AI aided APT probed ConnectWise environments",
-        "body": "China linked actors used the Artex AI pentest tool to target hundreds of ConnectWise instances and gain privileged access. Treat admin interfaces like crown jewels. Lock down and monitor ConnectWise admin portals, and make sure EDR and logging coverage is tight.",
-        "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
-        "source": "SecurityWeek",
-        "category": "threats",
-        "storySlug": "apt-used-ai-pentest-tool-to-hit-connectwise-hundreds-targete-2026-10-23"
-      },
-      {
-        "heading": "Pillow EPS handling bug allows RCE",
-        "body": "CVE-2026-112900 lets crafted EPS filenames trigger Ghostscript and run commands when apps process untrusted images. If you handle uploads or transform images, this matters. Update Pillow now or disable EPS support immediately.",
-        "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "pillow-image-library-bug-enables-rce-via-crafted-eps-files-2026-10-23"
-      },
-      {
-        "heading": "Microsoft drafting watchdogs for risky AI agents",
-        "body": "Microsoft is building guardian agents to monitor and contain AI agents and is pushing for admin like treatment of agent privileges. Expect more logging and pre approval for risky actions. Start treating agent credentials and workflows like high privilege accounts.",
-        "url": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
-        "source": "Dark Reading",
-        "category": "ai-security",
-        "storySlug": "microsoft-plans-watchdogs-for-risky-ai-agents-2026-10-23"
-      }
-    ],
-    "signOff": "Patch fast, watch the edge, carry on.",
-    "generatedAt": "2026-10-23T17:54:09.322Z"
   }
 ]
