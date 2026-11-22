@@ -1,5 +1,47 @@
 [
   {
+    "slug": "openrouter-drops-3-ai-hosts-after-months-of-prompt-theft-2026-11-22",
+    "title": "OpenRouter drops 3 AI hosts after months of prompt theft",
+    "originalTitle": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+    "summary": "Assume prompts may leak at AI hosting providers, review OpenRouter routes, avoid sensitive data in prompts, and consider self-hosted or vetted inference after months-long prompt theft was uncovered.",
+    "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-22T05:06:55.000Z",
+    "fetchedAt": "2026-11-22T06:39:43.856Z"
+  },
+  {
+    "slug": "patch-ghostscript-now-sandbox-escape-rce-via-file-uploads-2026-11-22",
+    "title": "Patch Ghostscript now, sandbox-escape RCE via file uploads",
+    "originalTitle": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+    "summary": "If your stack uses Ghostscript or ImageMagick to process uploads, update to patched builds and block PS/PDF processing for untrusted files, crafted uploads can execute commands server-side.",
+    "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-22T05:03:41.000Z",
+    "fetchedAt": "2026-11-22T06:39:43.856Z"
+  },
+  {
+    "slug": "rackspace-spot-breach-exposed-customer-kubernetes-secrets-2026-11-21",
+    "title": "Rackspace Spot breach exposed customer Kubernetes secrets",
+    "originalTitle": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+    "summary": "Using Rackspace Spot, rotate Kubernetes secrets and tokens, hunt for rogue deployments, lock down API keys, and enforce MFA after attackers used stolen credentials to access customer clusters.",
+    "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-21T22:59:58.000Z",
+    "fetchedAt": "2026-11-22T06:39:43.856Z"
+  },
+  {
     "slug": "microsoft-entra-connect-health-bug-exposed-admin-emails-tena-2026-11-21",
     "title": "Microsoft Entra Connect Health bug exposed admin emails, tenant configs",
     "originalTitle": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
