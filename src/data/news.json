@@ -1,5 +1,166 @@
 [
   {
+    "slug": "openrouter-drops-ai-providers-after-prompt-and-secret-leaks-2026-11-23",
+    "title": "OpenRouter drops AI providers after prompt and secret leaks",
+    "originalTitle": "OpenRouter drops AI providers over leaked prompts and secrets",
+    "summary": "Review any AI integrations and vendor data policies, OpenRouter removed three model providers for violating handling rules and exposing user prompts and credentials.",
+    "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-23T20:00:20.000Z",
+    "fetchedAt": "2026-11-23T23:49:31.219Z"
+  },
+  {
+    "slug": "microsoft-azure-apim-classic-flaw-used-to-steal-api-secrets-2026-11-23",
+    "title": "Microsoft: Azure APIM Classic flaw used to steal API secrets",
+    "originalTitle": "Microsoft Azure flaw exploited to steal customers' API credentials",
+    "summary": "Rotate keys and migrate off APIM Classic tiers, attackers exploited an Azure API Management bug to grab stored credentials, impacting energy and other sectors.",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/"
+      },
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/norway-microsoft-cyberattack-equinor"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-23T19:42:20.000Z",
+    "fetchedAt": "2026-11-23T23:49:31.219Z"
+  },
+  {
+    "slug": "crowdstrike-buying-zscaler-for-43-9b-reshapes-security-stack-2026-11-23",
+    "title": "CrowdStrike buying Zscaler for $43.9B reshapes security stacks",
+    "originalTitle": "CrowdStrike to purchase Zscaler for $43.9 billion",
+    "summary": "Expect platform consolidation questions from clients and procurement changes, the deal combines endpoint and zero trust portfolios with big AI ambitions.",
+    "url": "https://therecord.media/crowdstrike-zscaler",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/23/crowdstrike-zscaler-43-9-billion-acquisition/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/crowdstrike-to-acquire-zscaler-in-43-9-billion-deal/"
+      }
+    ],
+    "category": "msp-channel",
+    "publishedAt": "2026-11-23T17:14:00.000Z",
+    "fetchedAt": "2026-11-23T23:49:31.219Z"
+  },
+  {
+    "slug": "n-able-patches-critical-mail-assure-flaw-found-during-breach-2026-11-23",
+    "title": "N-able patches critical Mail Assure flaw found during breach",
+    "originalTitle": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+    "summary": "If you run Mail Assure or SpamExperts, patch now, restrict API access, and review logs, CISA added the SSRF bug to KEV after confirmed exploitation.",
+    "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
+      },
+      {
+        "name": "CISA Advisories",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-23T15:06:49.000Z",
+    "fetchedAt": "2026-11-23T23:49:31.219Z"
+  },
+  {
+    "slug": "gl-inet-cloud-breach-pushed-malware-to-routers-and-kvms-2026-11-23",
+    "title": "GL.iNet cloud breach pushed malware to routers and KVMs",
+    "originalTitle": "GL.iNet cloud compromise hits routers and KVMs, older backdoors also found",
+    "summary": "Disconnect affected devices from GoodCloud, flash clean firmware, and rotate credentials, attackers abused the vendor’s cloud to install malware on customer hardware.",
+    "url": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-23T15:05:50.000Z",
+    "fetchedAt": "2026-11-23T23:49:31.219Z"
+  },
+  {
+    "slug": "screenconnect-bug-let-attackers-hijack-msp-tech-pcs-2026-11-23",
+    "title": "ScreenConnect bug let attackers hijack MSP tech PCs",
+    "originalTitle": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+    "summary": "Update ScreenConnect clients and servers immediately and audit guest session activity, a critical client flaw is being exploited to run payloads on technicians' machines.",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-23T12:41:04.000Z",
+    "fetchedAt": "2026-11-23T23:49:31.219Z"
+  },
+  {
+    "slug": "cisco-expressway-zero-click-rce-is-under-active-attack-2026-11-23",
+    "title": "Cisco Expressway zero click RCE is under active attack",
+    "originalTitle": "Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)",
+    "summary": "Patch Expressway to the latest releases and hunt for signs of compromise, attackers are exploiting CVE-2026-76466 to breach internal networks.",
+    "url": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-23T12:26:10.000Z",
+    "fetchedAt": "2026-11-23T23:49:31.219Z"
+  },
+  {
+    "slug": "entra-connect-health-api-bug-exposed-tenant-contact-and-conf-2026-11-23",
+    "title": "Entra Connect Health API bug exposed tenant contact and config data",
+    "originalTitle": "Attackers exploited Microsoft Entra Connect Health flaw to access tenant data",
+    "summary": "Check your tenant for unusual API access and update as advised, Microsoft says attackers read technical contact emails and configuration via the Connect Health API flaw.",
+    "url": "https://www.helpnetsecurity.com/2026/11/23/microsoft-entra-connect-health-vulnerability-tenant-data/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-23T10:34:01.000Z",
+    "fetchedAt": "2026-11-23T23:49:31.219Z"
+  },
+  {
     "slug": "open-source-ai-pen-test-tool-aims-to-kill-false-positives-2026-11-23",
     "title": "Open-source AI pen test tool aims to kill false positives",
     "originalTitle": "Xalgorix: Open-source AI penetration testing tool",
@@ -2575,197 +2736,5 @@
     "category": "threats",
     "publishedAt": "2026-11-09T23:52:12.000Z",
     "fetchedAt": "2026-11-10T01:29:34.803Z"
-  },
-  {
-    "slug": "n-able-pulls-n-central-offline-after-30-zero-days-leak-2026-11-09",
-    "title": "N-able pulls N-central offline after 30+ zero-days leak",
-    "originalTitle": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-    "summary": "Shut down on-prem N-central immediately and limit access to hosted instances while awaiting vendor fixes, as public exploits could enable full takeover of RMM servers.",
-    "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-09T21:26:25.000Z",
-    "fetchedAt": "2026-11-10T01:29:34.803Z"
-  },
-  {
-    "slug": "actively-exploited-linux-ssh-bug-lets-attackers-log-in-2026-11-09",
-    "title": "Actively exploited Linux SSH bug lets attackers log in",
-    "originalTitle": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
-    "summary": "Patch affected SSH packages now, disable password authentication or restrict exposure, and hunt for unusual logins, as attackers are already abusing this vulnerability.",
-    "url": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-09T19:41:34.000Z",
-    "fetchedAt": "2026-11-10T01:29:34.803Z"
-  },
-  {
-    "slug": "retail-fridge-hacks-linked-to-iran-caused-fires-in-france-2026-11-09",
-    "title": "Retail fridge hacks linked to Iran caused fires in France",
-    "originalTitle": "France blames Iran for fridge cyberattacks, says some caused fires",
-    "summary": "Segment and monitor OT and smart appliances, change default credentials, and lock down remote access after attacks on refrigeration systems disrupted hundreds of stores.",
-    "url": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-09T18:45:00.000Z",
-    "fetchedAt": "2026-11-10T01:29:34.803Z"
-  },
-  {
-    "slug": "claude-office-party-bug-enables-code-execution-on-linux-2026-11-09",
-    "title": "Claude 'Office Party' bug enables code execution on Linux",
-    "originalTitle": "Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux",
-    "summary": "Disable or update the Office Party document tool and avoid running untrusted files, as attackers can abuse its temp files to execute code on endpoints.",
-    "url": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-09T18:08:30.000Z",
-    "fetchedAt": "2026-11-10T01:29:34.803Z"
-  },
-  {
-    "slug": "qubole-aws-access-abused-to-breach-customer-accounts-2026-11-09",
-    "title": "Qubole AWS access abused to breach customer accounts",
-    "originalTitle": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-    "summary": "If you use Qubole, rotate AWS keys and tokens, audit cross-account roles and CloudTrail, and trim third-party permissions after attackers pivoted via its credentials.",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-09T17:51:21.000Z",
-    "fetchedAt": "2026-11-10T01:29:34.803Z"
-  },
-  {
-    "slug": "openssh-sshole-bug-is-being-exploited-patch-now-2026-11-09",
-    "title": "OpenSSH 'SSHole' bug is being exploited, patch now",
-    "originalTitle": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
-    "summary": "Patch OpenSSH immediately and disable password logins where possible, attackers are exploiting the SSHole auth bypass to run commands, steal creds, and persist on Linux hosts.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-09T16:04:57.000Z",
-    "fetchedAt": "2026-11-09T16:26:59.542Z"
-  },
-  {
-    "slug": "ai-assistant-plug-in-abused-to-breach-german-web-host-2026-11-09",
-    "title": "AI assistant plug-in abused to breach German web host",
-    "originalTitle": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
-    "summary": "Audit and restrict any AI assistant integrations, attackers leveraged a customer assistant interface to gain access to accounts and exfiltrate data from a hosting provider.",
-    "url": "https://therecord.media/cyberattack-germany-ai-mittwald",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-09T14:15:00.000Z",
-    "fetchedAt": "2026-11-09T16:26:59.542Z"
-  },
-  {
-    "slug": "pypi-adds-security-tab-to-show-release-attestations-2026-11-09",
-    "title": "PyPI adds Security tab to show release attestations",
-    "originalTitle": "PyPI makes release attestations easier to find with new security tab",
-    "summary": "Developers should use the new Security tab to verify package provenance and adopt release attestations, making it easier to spot tampered files and reduce supply chain risk.",
-    "url": "https://www.helpnetsecurity.com/2026/11/09/pypi-security-tab-release-attestations/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-11-09T13:23:29.000Z",
-    "fetchedAt": "2026-11-09T16:26:59.542Z"
-  },
-  {
-    "slug": "qnap-nas-hit-by-plex2shell-exploits-update-plex-media-server-2026-11-09",
-    "title": "QNAP NAS hit by Plex2Shell exploits, update Plex Media Server",
-    "originalTitle": "Plex2Shell Exploited Against QNAP NAS Users",
-    "summary": "Update or disable Plex Media Server on QNAP NAS immediately, a four-bug chain is being used to gain code execution and compromise devices exposed to the internet.",
-    "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-09T13:13:28.000Z",
-    "fetchedAt": "2026-11-09T16:26:59.542Z"
-  },
-  {
-    "slug": "cisa-adds-four-exploited-vulns-to-kev-patch-now-2026-11-09",
-    "title": "CISA adds four exploited vulns to KEV, patch now",
-    "originalTitle": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "summary": "Prioritize remediation of newly listed KEVs, including flaws in OpenSSH, FreeSwitch, IBM Aspera Faspex, and GPUStack, to meet deadlines and cut active risk.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "fetchedAt": "2026-11-10T01:29:34.803Z"
-  },
-  {
-    "slug": "deepfake-ceos-steal-129-million-tighten-payment-verification-2026-11-09",
-    "title": "Deepfake CEOs steal $129 million, tighten payment verification",
-    "originalTitle": "Trio accused of using deepfake CEOs and bogus lawyers to scam businesses out of $129 million",
-    "summary": "Reinforce out-of-band verification, separation of duties, and spending limits, attackers used deepfake executives and bogus attorneys to trick employees into wiring large transfers.",
-    "url": "https://www.helpnetsecurity.com/2026/11/09/deepfake-ceo-fraud-129-million-indictment/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-09T11:47:43.000Z",
-    "fetchedAt": "2026-11-09T16:26:59.542Z"
-  },
-  {
-    "slug": "sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-mfa-fix-fa-2026-11-09",
-    "title": "SonicWall SSL-VPN flaw lets attackers bypass SAML MFA, fix fast",
-    "originalTitle": "Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868)",
-    "summary": "Install SonicOS patches now, the exploited bug allows attackers with valid credentials to bypass SAML-enforced MFA on SSL-VPN portals and there is no workaround.",
-    "url": "https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-09T10:30:25.000Z",
-    "fetchedAt": "2026-11-09T16:26:59.542Z"
-  },
-  {
-    "slug": "ai-advances-make-rsa-1024-cheaper-to-break-retire-weak-keys-2026-11-09",
-    "title": "AI advances make RSA-1024 cheaper to break, retire weak keys",
-    "originalTitle": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
-    "summary": "Inventory systems and devices for legacy 1024-bit RSA and SHA-1, migrate to modern crypto like RSA-2048 or ECDSA, as AI-assisted techniques lower signature forgery costs.",
-    "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-09T08:35:50.000Z",
-    "fetchedAt": "2026-11-09T16:26:59.542Z"
   }
 ]
