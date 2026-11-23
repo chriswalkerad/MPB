@@ -1,5 +1,75 @@
 [
   {
+    "slug": "open-source-ai-pen-test-tool-aims-to-kill-false-positives-2026-11-23",
+    "title": "Open-source AI pen test tool aims to kill false positives",
+    "originalTitle": "Xalgorix: Open-source AI penetration testing tool",
+    "summary": "If you are exploring AI for security testing, Xalgorix uses a second agent to re-exploit findings, cutting false positives and flagging uncertain results for human review.",
+    "url": "https://www.helpnetsecurity.com/2026/11/23/xalgorix-ai-penetration-testing-tool/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-23T06:30:08.000Z",
+    "fetchedAt": "2026-11-23T07:28:32.264Z"
+  },
+  {
+    "slug": "black-friday-scams-started-early-with-fewer-obvious-tells-2026-11-23",
+    "title": "Black Friday scams started early with fewer obvious tells",
+    "originalTitle": "Black Friday scams started earlier this year without the usual red flags",
+    "summary": "Warn users that fake deals are already spreading via Facebook groups and Google Sites, often without holiday keywords or lookalike domains, tighten filters and block new domains aggressively.",
+    "url": "https://www.helpnetsecurity.com/2026/11/23/black-friday-scams-doppel-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-23T06:00:16.000Z",
+    "fetchedAt": "2026-11-23T07:28:32.264Z"
+  },
+  {
+    "slug": "cobit-7-arrives-with-ai-risk-scenarios-for-governance-2026-11-23",
+    "title": "COBIT 7 arrives with AI risk scenarios for governance",
+    "originalTitle": "COBIT 7 adds AI risk scenarios to ISACA’s governance framework",
+    "summary": "Update your governance playbooks, COBIT 7 adds practical AI risk scenarios and tools your clients will ask about, aligning technology controls with measurable business value.",
+    "url": "https://www.helpnetsecurity.com/2026/11/23/isaca-cobit-7-released/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-11-23T05:30:49.000Z",
+    "fetchedAt": "2026-11-23T07:28:32.264Z"
+  },
+  {
+    "slug": "google-guardrails-can-block-risky-ai-agent-tool-calls-2026-11-23",
+    "title": "Google guardrails can block risky AI agent tool calls",
+    "originalTitle": "Google’s semantic governance policies can block an AI agent’s tool call before it runs",
+    "summary": "If you are building AI agents, Google Gemini now supports semantic policies that inspect tool calls and block rule-breaking actions at the gateway before anything runs.",
+    "url": "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-23T00:27:25.000Z",
+    "fetchedAt": "2026-11-23T07:28:32.264Z"
+  },
+  {
+    "slug": "debian-13-8-ships-kernel-and-browser-security-fixes-patch-no-2026-11-22",
+    "title": "Debian 13.8 ships kernel and browser security fixes, patch now",
+    "originalTitle": "Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list",
+    "summary": "Patch Debian trixie systems, this point release rolls up security fixes for the kernel, Chromium, Firefox ESR and more, plus 122 bugfixes across packages.",
+    "url": "https://www.helpnetsecurity.com/2026/11/23/debian-13-8-released/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-22T23:05:09.000Z",
+    "fetchedAt": "2026-11-23T07:28:32.264Z"
+  },
+  {
     "slug": "patch-gl-inet-cloud-flaw-routers-and-kvms-backdoored-2026-11-22",
     "title": "Patch GL.iNet cloud flaw, routers and KVMs backdoored",
     "originalTitle": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
@@ -2697,80 +2767,5 @@
     "category": "ai-security",
     "publishedAt": "2026-11-09T08:35:50.000Z",
     "fetchedAt": "2026-11-09T16:26:59.542Z"
-  },
-  {
-    "slug": "attackers-target-refrigeration-controllers-patch-and-lock-do-2026-11-09",
-    "title": "Attackers target refrigeration controllers, patch and lock down",
-    "originalTitle": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
-    "summary": "If you support supermarkets or cold storage, remove internet exposure, update firmware, enforce strong credentials, and monitor for setpoint changes or odd traffic per US warnings.",
-    "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/11/09/copeland-xweb-refrigeration-controllers-spam-botnet/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-09T06:15:10.000Z",
-    "fetchedAt": "2026-11-09T16:26:59.542Z"
-  },
-  {
-    "slug": "cisa-sonicwall-sonicos-mfa-bypass-added-to-kev-patch-now-2026-11-09",
-    "title": "CISA: SonicWall SonicOS MFA bypass added to KEV, patch now",
-    "originalTitle": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-    "summary": "Patch affected SonicWall SonicOS devices now, CISA added CVE-2026-19868 to KEV after reports of MFA bypass exploitation, and lock down management access while monitoring auth logs.",
-    "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-09T06:05:24.000Z",
-    "fetchedAt": "2026-11-09T06:17:40.067Z"
-  },
-  {
-    "slug": "open-source-gateway-fences-ai-agents-in-chat-apps-2026-11-09",
-    "title": "Open-source gateway fences AI agents in chat apps",
-    "originalTitle": "Wirken: Open-source AI agent gateway",
-    "summary": "If your clients run AI agents in chat, put them behind Wirken to restrict network and file access so a compromised agent cannot exfiltrate secrets or run commands.",
-    "url": "https://www.helpnetsecurity.com/2026/11/09/wirken-open-source-ai-agent-gateway/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-09T06:00:12.000Z",
-    "fetchedAt": "2026-11-09T06:17:40.067Z"
-  },
-  {
-    "slug": "msp-buyers-want-recovery-and-ai-risk-help-survey-says-2026-11-09",
-    "title": "MSP buyers want recovery and AI risk help, survey says",
-    "originalTitle": "Companies seeking an MSP doubt their ability to spot cyberattacks",
-    "summary": "Tune your MSP pitch to emphasize incident recovery, AI risk management, and plain-language impact explanations, as most buyers doubt their own attack detection and already outsource security.",
-    "url": "https://www.helpnetsecurity.com/2026/11/09/barracuda-msp-cybersecurity-services-expectations-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "msp-channel",
-    "publishedAt": "2026-11-09T06:00:05.000Z",
-    "fetchedAt": "2026-11-09T06:17:40.067Z"
-  },
-  {
-    "slug": "stolen-creds-used-in-8-minutes-rmm-tools-abused-2026-11-09",
-    "title": "Stolen creds used in 8 minutes, RMM tools abused",
-    "originalTitle": "An average of 8 minutes is all hackers need to log in with stolen credentials",
-    "summary": "Assume stolen credentials will be used within minutes, enforce MFA and conditional access, monitor for infostealers, and lock down or monitor signed RMM tools that attackers repurpose for persistence.",
-    "url": "https://www.helpnetsecurity.com/2026/11/09/elastic-businesses-remote-access-attacks-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-09T05:00:39.000Z",
-    "fetchedAt": "2026-11-09T06:17:40.067Z"
   }
 ]
