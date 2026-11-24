@@ -1,5 +1,71 @@
 [
   {
+    "slug": "2026-11-24",
+    "date": "2026-11-24",
+    "title": "Hijacked consoles, stolen keys, and clickless RCE",
+    "intro": "Attackers are lifting secrets and riding your remote tools. Tighten up before the first coffee cools.",
+    "items": [
+      {
+        "heading": "ScreenConnect client bug let attackers hijack tech PCs",
+        "body": "A critical flaw in ScreenConnect clients is being exploited to run payloads on technicians' machines. Update both servers and all deployed clients immediately, then audit guest session activity and restrict who can initiate or elevate sessions. If you see odd tool execution or new persistence on tech endpoints, assume compromise and reimage.",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+        "source": "The Hacker News",
+        "category": "vulnerabilities",
+        "storySlug": "screenconnect-bug-let-attackers-hijack-msp-tech-pcs-2026-11-23"
+      },
+      {
+        "heading": "Azure APIM Classic exploited to steal API secrets",
+        "body": "Microsoft reports attackers abused an Azure API Management Classic bug to grab stored credentials, with impacts noted across sectors including energy. Rotate all keys and tokens tied to APIM Classic, migrate off Classic tiers, and comb logs for unusual key use. Lock down where secrets are stored and minimize long‑lived keys.",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "microsoft-azure-apim-classic-flaw-used-to-steal-api-secrets-2026-11-23"
+      },
+      {
+        "heading": "Cisco Expressway zero click RCE under active attack",
+        "body": "CVE-2026-76466 is being exploited to compromise Cisco Expressway, no user interaction required. Patch to the latest releases now, limit external exposure, and hunt for signs of lateral movement from the appliance. If patching is delayed, isolate and increase monitoring for anomalous processes and connections.",
+        "url": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "cisco-expressway-zero-click-rce-is-under-active-attack-2026-11-23"
+      },
+      {
+        "heading": "N-able Mail Assure SSRF exploited, patch now",
+        "body": "A critical SSRF in Mail Assure and SpamExperts was found during a breach and is on CISA's KEV list. Patch immediately, restrict API access by IP and key scope, and review recent logs for suspicious API calls. If you provide this as a service, notify customers and rotate credentials tied to the platform.",
+        "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "n-able-patches-critical-mail-assure-flaw-found-during-breach-2026-11-23"
+      },
+      {
+        "heading": "GL.iNet cloud breach pushed malware via GoodCloud",
+        "body": "Attackers abused GL.iNet's GoodCloud to push malware to customer routers and KVMs. Disconnect affected devices from the cloud, flash clean firmware, and rotate all credentials. Treat the management account as compromised and validate that downstream networks did not inherit the malware.",
+        "url": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/",
+        "source": "Help Net Security",
+        "category": "threats",
+        "storySlug": "gl-inet-cloud-breach-pushed-malware-to-routers-and-kvms-2026-11-23"
+      },
+      {
+        "heading": "Entra Connect Health API exposed tenant contact and config data",
+        "body": "Microsoft says attackers accessed tenant technical contact emails and configuration via an Entra Connect Health API flaw. Check your tenant for unusual API access, follow Microsoft's update guidance, and rotate any exposed contacts or service credentials. Expect targeted phishing using those contacts, add extra verification on change requests.",
+        "url": "https://www.helpnetsecurity.com/2026/11/23/microsoft-entra-connect-health-vulnerability-tenant-data/",
+        "source": "Help Net Security",
+        "category": "vulnerabilities",
+        "storySlug": "entra-connect-health-api-bug-exposed-tenant-contact-and-conf-2026-11-23"
+      },
+      {
+        "heading": "OpenRouter drops AI vendors after prompt and secret leaks",
+        "body": "OpenRouter removed three model providers for mishandling data and exposing user prompts and credentials. Review any AI integrations, strip secrets from prompts, and enforce vendor data retention and redaction policies. If a model needs credentials, proxy them through your systems and log access.",
+        "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+        "source": "BleepingComputer",
+        "category": "ai-security",
+        "storySlug": "openrouter-drops-ai-providers-after-prompt-and-secret-leaks-2026-11-23"
+      }
+    ],
+    "signOff": "Alright, tickets await.",
+    "generatedAt": "2026-11-24T00:57:07.117Z"
+  },
+  {
     "slug": "2026-11-22",
     "date": "2026-11-22",
     "title": "Backdoored routers, upload RCEs, and leaky AI",
@@ -2088,79 +2154,5 @@
     ],
     "signOff": "Patch what you can before the first call, then keep an eye on the logs.",
     "generatedAt": "2026-10-25T17:04:55.136Z"
-  },
-  {
-    "slug": "2026-10-24",
-    "date": "2026-10-24",
-    "title": "Live exploits, bootkits, and AI cons: patch and prepare",
-    "intro": "Active exploits are hitting collaboration and SD WAN gear, a core compression bug needs fixes, and a new bootkit is abusing Secure Boot again. Meanwhile AI is fueling both attacks and defenses, so tune your controls before the rush.",
-    "items": [
-      {
-        "heading": "CISA flags Collabora CODE and Arista VeloCloud under attack",
-        "body": "CISA added critical flaws in Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator to the Known Exploited list, which means attackers are already on them. Treat these as top of the stack for patching and mitigations. If you cannot patch today, restrict exposure, apply vendor workarounds, and watch for signs of compromise.",
-        "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "cisa-collabora-code-and-arista-velocloud-flaws-are-being-exp-2026-10-24"
-      },
-      {
-        "heading": "Patch the Brotli decoder, everywhere",
-        "body": "A memory corruption bug, CVE-2026-111497, in Brotli decompression impacts Node, Bun, Python packages, and Envoy. Crafted compressed data can corrupt memory and may enable code execution. Patch across affected stacks or disable Brotli decompression until updates are in.",
-        "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "patch-brotli-decoder-flaw-affecting-node-bun-python-envoy-2026-10-24"
-      },
-      {
-        "heading": "BlackX bootkit revives Baton Drop to dodge Secure Boot",
-        "body": "A new BlackX UEFI bootkit uses the old Baton Drop route to slip past Secure Boot, gaining very early persistence and dulling antivirus defenses. This is a firmware level problem, not a simple cleanup. Ensure Secure Boot updates and DBX revocations are applied fleetwide and pull firmware updates from your OEMs.",
-        "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "new-blackx-uefi-bootkit-bypasses-secure-boot-via-baton-drop-2026-10-24"
-      },
-      {
-        "heading": "Attackers are phoning your help desk to get access",
-        "body": "With AI voice and polished scripts, attackers are social engineering password and MFA resets without touching malware or exploits. If your verification steps are weak, they will walk in the front door. Tighten identity checks for resets, require out of band verification, and log plus review help desk changes.",
-        "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
-        "source": "Dark Reading",
-        "category": "threats",
-        "storySlug": "attackers-are-just-calling-your-help-desk-and-getting-in-2026-10-23"
-      },
-      {
-        "heading": "LiteLLM package pipeline was poisoned via leaked key",
-        "body": "A leaked LiteLLM master key let attackers push a malicious release through the project's pipeline. If you use it, pin and verify package versions, rotate GitHub tokens, and rebuild from trusted sources. Inventory where it is deployed and roll back anything suspicious.",
-        "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "litellm-master-key-leak-let-attackers-poison-python-package-2026-10-24"
-      },
-      {
-        "heading": "Teams adds AI phishing detection in early November",
-        "body": "Microsoft plans AI driven scanning of Teams messages to catch phishing starting in early November. Prep tenants now, review privacy and admin controls, and update training since lures are moving into chat. Make sure your alerting and response playbooks cover Teams.",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "teams-is-getting-ai-phishing-detection-in-november-2026-10-23"
-      },
-      {
-        "heading": "Cheap AI is scaling real attacks fast",
-        "body": "Open models and agents are letting attackers automate full kill chains for pocket change. Expect more frequent and more competent intrusion attempts. Rate limit, monitor, and lock down admin interfaces to cut off easy wins.",
-        "url": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
-        "source": "Dark Reading",
-        "category": "ai-security",
-        "storySlug": "cheap-ai-tools-are-scaling-real-attacks-fast-2026-10-23"
-      },
-      {
-        "heading": "Google AI may mine Gmail and Photos for ad targeting",
-        "body": "Google says AI features in Search or Gemini can draw on Gmail and Photos data to target ads. That is a privacy and compliance headache for many orgs. Review and lock down Google data sharing settings or disable AI personalization for your tenants.",
-        "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "google-ai-features-may-use-gmail-and-photos-data-for-targete-2026-10-24"
-      }
-    ],
-    "signOff": "Ship the patches, script the help desk, and on to the next ticket.",
-    "generatedAt": "2026-10-24T16:38:51.519Z"
   }
 ]
