@@ -22478,5 +22478,114 @@
     "url": "https://www.meetup.com/issa-la/events/317388125/",
     "source": "ISSA LA (Meetup)",
     "description": "ISSA-LA hosts an evening program on the future of cybersecurity and running enterprise AI, with speakers and plenty of peer networking over dinner. Bring your questions on AI risk, governance, and real-world operations."
+  },
+  {
+    "name": "2026.12.02/0x0091",
+    "slug": "2026-12-02-0x0091",
+    "date": "2026-12-02T19:00:00",
+    "type": "meetup",
+    "format": "in-person",
+    "city": "Dallas",
+    "state": "TX",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://www.meetup.com/dallas-hackers-association/events/317531585/",
+    "source": "Dallas Hackers Association (Meetup)",
+    "description": "Monthly Dallas Hackers Association meetup with 10 minute firetalks and Q&A. Bring a story, a tool, or just listen and meet the local offensive and defensive crowd."
+  },
+  {
+    "name": "ISSA Los Angeles Winter Gala",
+    "slug": "issa-los-angeles-winter-gala-2026",
+    "date": "2026-12-15T18:00:00",
+    "type": "chapter",
+    "format": "in-person",
+    "city": "Los Angeles",
+    "state": "CA",
+    "region": "west-coast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career",
+      "After Party"
+    ],
+    "url": "https://www.meetup.com/issa-la/events/317488452/",
+    "source": "ISSA LA (Meetup)",
+    "description": "ISSA-LA's end of year gala with a featured speaker, networking, food and drinks. Tickets are required via Eventbrite."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Dallas 2027",
+    "slug": "the-official-cybersecurity-summit-dallas-2027",
+    "date": "2027-03-23T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Dallas",
+    "state": "TX",
+    "region": "southwest",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "A full day of talks, panels and solution showcases for security leaders and practitioners, with CPEs on the table. If you work in DFW and want tactical updates without fluff, this is your day."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Hartford 2027",
+    "slug": "the-official-cybersecurity-summit-hartford-2027",
+    "date": "2027-05-04T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Hartford",
+    "state": "CT",
+    "region": "northeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Regional cybersecurity conference featuring practitioner led sessions, panels and time to meet solution providers, CPEs included. A solid one day tune up for security teams in Connecticut and beyond."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Pittsburgh 2027",
+    "slug": "the-official-cybersecurity-summit-pittsburgh-2027",
+    "date": "2027-05-26T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "region": "northeast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "One day cybersecurity summit with keynotes, panels and vendor sessions plus CPEs. Good mix of strategy and tactics for practitioners around Pittsburgh."
+  },
+  {
+    "name": "The Official Cybersecurity Summit: Portland 2027",
+    "slug": "the-official-cybersecurity-summit-portland-2027",
+    "date": "2027-08-25T08:00:00",
+    "type": "conference",
+    "format": "in-person",
+    "city": "Portland",
+    "state": "OR",
+    "region": "west-coast",
+    "cost": "",
+    "tags": [
+      "Community & General",
+      "Networking & Career"
+    ],
+    "url": "https://cybersecuritysummit.com/summits/",
+    "source": "Cybersecurity Summit",
+    "description": "Full day summit bringing CISOs and practitioners together for sessions, panels and solution briefings, with CPEs available. A compact way to reset your security roadmap before fall."
   }
 ]
