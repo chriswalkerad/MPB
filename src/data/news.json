@@ -1,5 +1,80 @@
 [
   {
+    "slug": "google-cloud-ciso-says-agentic-ai-will-reshape-the-soc-fast-2026-11-24",
+    "title": "Google Cloud CISO says agentic AI will reshape the SOC fast",
+    "originalTitle": "Google Cloud CISO talks agentic AI security and the future of the SOC",
+    "summary": "Plan for automated response and guardrails, attackers already use agents to move in minutes, so codify playbooks, tune containment, and rethink junior analyst workflows.",
+    "url": "https://www.helpnetsecurity.com/2026/11/24/chris-betz-google-agentic-ai-security/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-24T07:00:16.000Z",
+    "fetchedAt": "2026-11-24T09:48:36.560Z"
+  },
+  {
+    "slug": "ransomware-gangs-hit-a-record-pace-as-fewer-victims-pay-2026-11-24",
+    "title": "Ransomware gangs hit a record pace as fewer victims pay",
+    "originalTitle": "Ransomware gangs keep multiplying, even as fewer victims pay",
+    "summary": "Expect more leak-site shaming and repeat extortion, tighten backups, MFA, and vendor access, and rehearse your no-pay plan as gangs list a record number of victims.",
+    "url": "https://www.helpnetsecurity.com/2026/11/24/check-point-ransomware-attacks-q3-2026-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-24T06:30:26.000Z",
+    "fetchedAt": "2026-11-24T09:48:36.560Z"
+  },
+  {
+    "slug": "openai-and-cisco-release-shirudo-to-shield-linux-while-you-p-2026-11-24",
+    "title": "OpenAI and Cisco release Shirudo to shield Linux while you patch",
+    "originalTitle": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+    "summary": "Shirudo lets AI agents deploy temporary eBPF protections on running Linux to block specific exploit behaviors, buying time to test and roll out patches without reboots.",
+    "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/"
+      }
+    ],
+    "category": "ai-security",
+    "publishedAt": "2026-11-24T06:02:57.000Z",
+    "fetchedAt": "2026-11-24T09:48:36.560Z"
+  },
+  {
+    "slug": "cisa-n-able-mailassure-ssrf-is-being-exploited-patch-now-2026-11-24",
+    "title": "CISA: N-able MailAssure SSRF is being exploited, patch now",
+    "originalTitle": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+    "summary": "If you run MailAssure, patch immediately, rotate LDAP credentials, restrict its network access, and check logs, CISA says attackers are exploiting an SSRF flaw.",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-24T06:02:45.000Z",
+    "fetchedAt": "2026-11-24T09:48:36.560Z"
+  },
+  {
+    "slug": "delegate-passwords-without-losing-control-2026-11-24",
+    "title": "Delegate passwords without losing control",
+    "originalTitle": "How IT can delegate password management without losing control",
+    "summary": "Use a business password manager with shared collections, role-based access, approvals and audit logs, enforce SSO and MFA, and keep IT visibility even when departments self procure.",
+    "url": "https://www.helpnetsecurity.com/2026/11/24/passwork-enterprise-password-management/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-24T05:30:07.000Z",
+    "fetchedAt": "2026-11-24T09:48:36.560Z"
+  },
+  {
     "slug": "openrouter-drops-ai-providers-after-prompt-and-secret-leaks-2026-11-23",
     "title": "OpenRouter drops AI providers after prompt and secret leaks",
     "originalTitle": "OpenRouter drops AI providers over leaked prompts and secrets",
@@ -2656,85 +2731,5 @@
     "category": "threats",
     "publishedAt": "2026-11-10T10:04:32.000Z",
     "fetchedAt": "2026-11-10T14:48:40.832Z"
-  },
-  {
-    "slug": "chrome-update-fixes-actively-exploited-xml-zero-day-2026-11-10",
-    "title": "Chrome update fixes actively exploited XML zero-day",
-    "originalTitle": "Google patches eighth Chrome zero-day exploited in attacks this year",
-    "summary": "Update Chrome now across Windows, macOS, and Linux to patch a use-after-free exploited in the wild, the eighth Chrome zero-day this year.",
-    "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-10T08:51:25.000Z",
-    "fetchedAt": "2026-11-10T14:48:40.832Z"
-  },
-  {
-    "slug": "n-able-takes-n-central-offline-after-33-zero-days-with-poc-2026-11-10",
-    "title": "N-able takes N-central offline after 33 zero-days with PoC",
-    "originalTitle": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-    "summary": "MSPs using N-central hosted are offline, on-prem customers should shut down servers until patches are available, flaws enable RCE and admin takeover.",
-    "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-10T06:44:36.000Z",
-    "fetchedAt": "2026-11-10T14:48:40.832Z"
-  },
-  {
-    "slug": "cisa-flags-openssh-freeswitch-ibm-faspex-flaws-under-active-2026-11-10",
-    "title": "CISA flags OpenSSH, FreeSWITCH, IBM Faspex flaws under active attack",
-    "originalTitle": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-    "summary": "Prioritize patching GPUStack, FreeSWITCH, OpenSSH, and IBM Aspera Faspex vulnerabilities added to KEV, agencies have three days and you should not wait either.",
-    "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-10T06:31:42.000Z",
-    "fetchedAt": "2026-11-10T14:48:40.832Z"
-  },
-  {
-    "slug": "vanderbilt-hit-by-byod-ransomware-data-theft-claimed-2026-11-09",
-    "title": "Vanderbilt hit by BYOD ransomware, data theft claimed",
-    "originalTitle": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-    "summary": "Expect possible data exposure and service disruption, and tighten BYOD controls, backups, and network segmentation to reduce ransomware blast radius across campus or enterprise devices.",
-    "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Record",
-        "url": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-09T23:52:12.000Z",
-    "fetchedAt": "2026-11-10T01:29:34.803Z"
   }
 ]
