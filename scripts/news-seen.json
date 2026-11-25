@@ -1,9 +1,4 @@
 {
-  "https://www.helpnetsecurity.com/2026/10/26/reddit-r-opensource-ai-ban/": "2026-10-26T04:41:02.350Z",
-  "https://www.helpnetsecurity.com/2026/10/26/google-elephant-goldfish-model-plugin/": "2026-10-26T04:41:02.350Z",
-  "https://isc.sans.edu/diary/rss/33456": "2026-10-26T04:41:02.350Z",
-  "https://www.helpnetsecurity.com/2026/10/26/openssl-4-1-0-released/": "2026-10-26T04:41:02.350Z",
-  "https://simonwillison.net/2026/Oct/25/seam-cutter/": "2026-10-26T04:41:02.350Z",
   "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/": "2026-10-26T12:54:20.261Z",
   "https://therecord.media/litellm-hackers-ai-malware": "2026-10-26T12:54:20.261Z",
   "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/": "2026-10-26T12:54:20.261Z",
@@ -1466,5 +1461,20 @@
   "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html": "2026-11-24T22:22:03.847Z",
   "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/": "2026-11-24T22:22:03.847Z",
   "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/": "2026-11-24T22:22:03.847Z",
-  "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html": "2026-11-24T22:22:03.847Z"
+  "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html": "2026-11-24T22:22:03.847Z",
+  "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide": "2026-11-25T08:25:01.994Z",
+  "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/": "2026-11-25T08:25:01.994Z",
+  "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/": "2026-11-25T08:25:01.994Z",
+  "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/": "2026-11-25T08:25:01.994Z",
+  "https://www.helpnetsecurity.com/2026/11/25/idunno-anticsrf-rce-cve-2026-131914-exploited/": "2026-11-25T08:25:01.994Z",
+  "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html": "2026-11-25T08:25:01.994Z",
+  "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html": "2026-11-25T08:25:01.994Z",
+  "https://www.helpnetsecurity.com/2026/11/25/vulncheck-credential-harvesting-exploitat-records/": "2026-11-25T08:25:01.994Z",
+  "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html": "2026-11-25T08:25:01.994Z",
+  "https://www.helpnetsecurity.com/2026/11/25/gputaskman-open-source-gpu-task-manager/": "2026-11-25T08:25:01.994Z",
+  "https://www.helpnetsecurity.com/2026/11/25/isc2-systems-security-certified-practitioner-sscp-certification/": "2026-11-25T08:25:01.994Z",
+  "https://www.helpnetsecurity.com/2026/11/25/mcafee-holiday-shopping-scams-report/": "2026-11-25T08:25:01.994Z",
+  "https://isc.sans.edu/diary/rss/33554": "2026-11-25T08:25:01.994Z",
+  "https://simonwillison.net/2026/Nov/24/llm-inflection-points/": "2026-11-25T08:25:01.994Z",
+  "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/": "2026-11-25T08:25:01.994Z"
 }

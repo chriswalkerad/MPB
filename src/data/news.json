@@ -1,5 +1,89 @@
 [
   {
+    "slug": "palo-alto-patches-fragnesia-bug-letting-attackers-root-firew-2026-11-25",
+    "title": "Palo Alto patches Fragnesia bug letting attackers root firewalls",
+    "originalTitle": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+    "summary": "Patch Palo Alto Networks firewalls now, a Fragnesia flaw chained with PHP2Shell is being exploited to gain root on devices, with AI-assisted attacks already observed.",
+    "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-25T08:12:24.000Z",
+    "fetchedAt": "2026-11-25T08:25:01.994Z"
+  },
+  {
+    "slug": "actively-exploited-drupal-core-rce-lands-in-cisa-kev-2026-11-25",
+    "title": "Actively exploited Drupal core RCE lands in CISA KEV",
+    "originalTitle": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+    "summary": "Update Drupal core within CISA's three-day window, a newly exploited RCE found by Anthropic's scanner is in KEV and is being used in attacks.",
+    "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-25T08:01:06.000Z",
+    "fetchedAt": "2026-11-25T08:25:01.994Z"
+  },
+  {
+    "slug": "abandoned-anticsrf-library-puts-old-asp-net-apps-at-rce-risk-2026-11-25",
+    "title": "Abandoned AntiCsrf library puts old ASP.NET apps at RCE risk",
+    "originalTitle": "Exploited: Abandoned Idunno.AntiCsrf library opens legacy ASP.NET apps to RCE (CVE-2026-131914)",
+    "summary": "Audit legacy ASP.NET apps for Idunno.AntiCsrf and remove or patch, CISA says the abandoned library's deserialization flaw is being exploited for remote code execution.",
+    "url": "https://www.helpnetsecurity.com/2026/11/25/idunno-anticsrf-rce-cve-2026-131914-exploited/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-25T07:22:32.000Z",
+    "fetchedAt": "2026-11-25T08:25:01.994Z"
+  },
+  {
+    "slug": "ai-driven-campaign-hits-24-check-point-management-servers-2026-11-25",
+    "title": "AI-driven campaign hits 24 Check Point management servers",
+    "originalTitle": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+    "summary": "Harden and monitor Check Point Security Management servers, an AI-assisted campaign has compromised 24 management servers across 22 organizations to pivot deeper into networks.",
+    "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-25T06:50:19.000Z",
+    "fetchedAt": "2026-11-25T08:25:01.994Z"
+  },
+  {
+    "slug": "vishing-crews-hijack-cloud-accounts-for-data-theft-and-extor-2026-11-25",
+    "title": "Vishing crews hijack cloud accounts for data theft and extortion",
+    "originalTitle": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+    "summary": "Train staff and lock down helpdesk processes, Unit 42 reports vishing-led cloud account takeovers targeting US, UK and Australian firms for data theft and extortion.",
+    "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-25T06:37:06.000Z",
+    "fetchedAt": "2026-11-25T08:25:01.994Z"
+  },
+  {
+    "slug": "wordpress-blocks-six-backdoored-wp-connect-plugins-2026-11-25",
+    "title": "WordPress blocks six backdoored WP Connect plugins",
+    "originalTitle": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+    "summary": "Remove or audit WP Connect plugins, WordPress blocked six backdoored releases that would have enabled arbitrary code execution after the developer's account was compromised.",
+    "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-25T06:21:12.000Z",
+    "fetchedAt": "2026-11-25T08:25:01.994Z"
+  },
+  {
     "slug": "rackspace-kills-spot-cloud-after-breach-of-customer-k8s-clus-2026-11-24",
     "title": "Rackspace kills Spot cloud after breach of customer K8s clusters",
     "originalTitle": "Rackspace shuts down Spot cloud platform after security breach",
@@ -2552,89 +2636,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-11T10:12:08.000Z",
     "fetchedAt": "2026-11-11T14:13:38.234Z"
-  },
-  {
-    "slug": "microsoft-patch-tuesday-fixes-1-259-bugs-exploited-outlook-f-2026-11-11",
-    "title": "Microsoft Patch Tuesday fixes 1,259 bugs, exploited Outlook flaw",
-    "originalTitle": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-    "summary": "Patch Windows and Office now, an Outlook flaw can expose NTLMv2 hashes and Microsoft shipped fixes for over a thousand vulnerabilities across its stack.",
-    "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-11T08:17:53.000Z",
-    "fetchedAt": "2026-11-11T14:13:38.234Z"
-  },
-  {
-    "slug": "barracuda-bugs-now-exploited-attackers-can-get-root-2026-11-11",
-    "title": "Barracuda bugs now exploited, attackers can get root",
-    "originalTitle": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
-    "summary": "Update impacted Barracuda appliances without delay, recently patched bugs are being exploited to bypass authorization and gain root access to devices.",
-    "url": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-11T07:53:51.000Z",
-    "fetchedAt": "2026-11-11T14:13:38.234Z"
-  },
-  {
-    "slug": "railway-breach-leaked-customer-ai-keys-740k-in-bogus-spend-2026-11-11",
-    "title": "Railway breach leaked customer AI keys, $740K in bogus spend",
-    "originalTitle": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-    "summary": "Rotate any AI provider keys stored in Railway and audit usage, stolen secrets were abused to rack up about $740,000 in unauthorized spend.",
-    "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-11T07:49:04.000Z",
-    "fetchedAt": "2026-11-11T14:13:38.234Z"
-  },
-  {
-    "slug": "enisa-45-of-eu-it-providers-take-3-months-to-patch-criticals-2026-11-11",
-    "title": "ENISA: 45% of EU IT providers take 3+ months to patch criticals",
-    "originalTitle": "EU cyber scores look healthy, but 45% of surveyed IT providers take months to patch",
-    "summary": "Tighten patch SLAs and automation because ENISA reports nearly half of EU IT service providers delay critical fixes for months while exploits appear within days, putting client environments at risk.",
-    "url": "https://www.helpnetsecurity.com/2026/11/11/eu-enisa-cybersecurity-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-11-11T06:00:09.000Z",
-    "fetchedAt": "2026-11-11T06:06:58.322Z"
-  },
-  {
-    "slug": "report-many-enterprises-dismiss-unverified-vulns-most-are-re-2026-11-11",
-    "title": "Report: Many enterprises dismiss unverified vulns, most are real",
-    "originalTitle": "Nearly half of big firms shelve or close vulnerability findings they haven’t confirmed",
-    "summary": "Stop closing tickets blind because ProjectDiscovery found teams shelving unverified findings even though most checked issues were genuine, so tune scanners then validate and remediate high-confidence results faster.",
-    "url": "https://www.helpnetsecurity.com/2026/11/11/security-teams-vulnerability-backlog/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-11-11T05:30:30.000Z",
-    "fetchedAt": "2026-11-11T06:06:58.322Z"
-  },
-  {
-    "slug": "leaked-iphone-exploit-kits-spread-via-ads-hitting-work-phone-2026-11-11",
-    "title": "Leaked iPhone exploit kits spread via ads, hitting work phones",
-    "originalTitle": "An Instagram ad was all it took: Leaked exploit kits are hitting employees’ iPhones",
-    "summary": "Update iOS promptly and tighten mobile controls as attackers use leaked exploit chains delivered via ads and compromised sites to compromise employee iPhones used for work.",
-    "url": "https://www.helpnetsecurity.com/2026/11/11/iverify-iphone-exploit-kit-attacks-report/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-11T05:00:34.000Z",
-    "fetchedAt": "2026-11-11T06:06:58.322Z"
   }
 ]
