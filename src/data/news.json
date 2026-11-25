@@ -1,5 +1,141 @@
 [
   {
+    "slug": "1password-breach-via-hacked-github-account-steals-customer-d-2026-11-25",
+    "title": "1Password breach via hacked GitHub account steals customer data",
+    "originalTitle": "1Password customer data stolen after employee GitHub account breach",
+    "summary": "Rotate client secrets and watch for phishing, 1Password says an employee’s GitHub was compromised and malicious code hit backend systems to exfiltrate some customer data.",
+    "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-25T21:33:33.000Z",
+    "fetchedAt": "2026-11-25T21:38:38.767Z"
+  },
+  {
+    "slug": "fake-net-job-tests-push-malicious-nuget-packages-to-devs-2026-11-25",
+    "title": "Fake .NET job tests push malicious NuGet packages to devs",
+    "originalTitle": "Attackers Target .NET Developers With Poisoned Job Assessments",
+    "summary": "Warn dev teams and audit NuGet deps, attackers seeded 13 packages in a phony recruitment campaign to drop malware and pivot from developer machines to wider environments.",
+    "url": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+    "source": {
+      "name": "Dark Reading"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-25T15:48:04.000Z",
+    "fetchedAt": "2026-11-25T21:38:38.767Z"
+  },
+  {
+    "slug": "geoserver-flaws-probed-for-rce-chains-attackers-are-poking-n-2026-11-25",
+    "title": "GeoServer flaws probed for RCE chains, attackers are poking now",
+    "originalTitle": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+    "summary": "If you expose GeoServer, patch the latest release and lock down access, researchers see active probing of two high severity bugs that enable unauthenticated file reads and code execution.",
+    "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-25T15:27:36.000Z",
+    "fetchedAt": "2026-11-25T21:38:38.767Z"
+  },
+  {
+    "slug": "fincen-takes-systems-offline-after-cyber-incident-filing-dea-2026-11-25",
+    "title": "FinCEN takes systems offline after cyber incident, filing deadlines extended",
+    "originalTitle": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
+    "summary": "Tell financial clients to check extensions, the U.S. Treasury’s FinCEN disconnected some systems after unauthorized access and is granting extra time for impacted Bank Secrecy Act filings.",
+    "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
+      }
+    ],
+    "category": "industry",
+    "publishedAt": "2026-11-25T13:39:21.000Z",
+    "fetchedAt": "2026-11-25T21:38:38.767Z"
+  },
+  {
+    "slug": "cisa-adds-10-exploited-bugs-to-kev-retail-danfoss-controller-2026-11-25",
+    "title": "CISA adds 10 exploited bugs to KEV, retail Danfoss controllers included",
+    "originalTitle": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+    "summary": "Prioritize patching KEV additions, including multiple Danfoss AK-SM controller flaws used by grocers and HPE enterprise bugs, as CISA confirms active exploitation across common infrastructure.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "fetchedAt": "2026-11-25T21:38:38.767Z"
+  },
+  {
+    "slug": "leaked-aws-keys-are-abused-in-seconds-docker-decoy-study-sho-2026-11-25",
+    "title": "Leaked AWS keys are abused in seconds, Docker decoy study shows",
+    "originalTitle": "Bots exploited leaked AWS key from Docker image in under 8 seconds",
+    "summary": "Lock CI/CD secrets and enable key guards, researchers found bots exploited cloud credentials from public Docker images in under eight seconds, proving instant exposure requires automated revocation.",
+    "url": "https://www.helpnetsecurity.com/2026/11/25/docker-aws-key-exposure-bots/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-25T11:22:32.000Z",
+    "fetchedAt": "2026-11-25T21:38:38.767Z"
+  },
+  {
+    "slug": "critical-drupal-rce-under-active-attack-patch-now-2026-11-25",
+    "title": "Critical Drupal RCE under active attack, patch now",
+    "originalTitle": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+    "summary": "If you run Drupal, apply the Fail2Install fix immediately, attackers are hijacking unpatched sites via an installer flaw that allows remote code execution without authentication.",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html"
+      }
+    ],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-25T10:10:20.000Z",
+    "fetchedAt": "2026-11-25T21:38:38.767Z"
+  },
+  {
+    "slug": "november-microsoft-patches-trigger-authentication-issues-for-2026-11-25",
+    "title": "November Microsoft patches trigger authentication issues for some customers",
+    "originalTitle": "Microsoft confirms authentication issues after November updates",
+    "summary": "Expect login failures after November updates, Microsoft acknowledged auth problems tied to a recent RCE fix, so plan workarounds and test rollbacks or mitigations where needed.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-11-25T09:02:57.000Z",
+    "fetchedAt": "2026-11-25T21:38:38.767Z"
+  },
+  {
     "slug": "palo-alto-patches-fragnesia-bug-letting-attackers-root-firew-2026-11-25",
     "title": "Palo Alto patches Fragnesia bug letting attackers root firewalls",
     "originalTitle": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
@@ -2463,178 +2599,5 @@
     "category": "threats",
     "publishedAt": "2026-11-11T22:56:21.000Z",
     "fetchedAt": "2026-11-12T00:37:39.063Z"
-  },
-  {
-    "slug": "notion-fireworks-ai-breach-exposed-ai-chat-transcripts-2026-11-11",
-    "title": "Notion: Fireworks AI breach exposed AI chat transcripts",
-    "originalTitle": "Notion says Fireworks breach exposed customer AI chat transcripts",
-    "summary": "Review Notion AI usage and sanitize prompts, a breach at provider Fireworks exposed some Notion AI chat transcripts from a small number of customer workspaces.",
-    "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-11T20:54:20.000Z",
-    "fetchedAt": "2026-11-12T00:37:39.063Z"
-  },
-  {
-    "slug": "n-able-pulls-n-central-offline-to-fix-33-flaws-releases-hotf-2026-11-11",
-    "title": "N-able pulls N-central offline to fix 33 flaws, releases hotfix",
-    "originalTitle": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
-    "summary": "Apply N-able's hotfix and restrict exposure, public exploits for 33 N-central flaws allow attacker takeover of platforms and downstream customer environments.",
-    "url": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-11T20:05:18.000Z",
-    "fetchedAt": "2026-11-12T00:37:39.063Z"
-  },
-  {
-    "slug": "critical-zoom-for-windows-flaw-allows-unauthenticated-privil-2026-11-11",
-    "title": "Critical Zoom for Windows flaw allows unauthenticated privilege escalation",
-    "originalTitle": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-    "summary": "Update Zoom Workplace for Windows immediately, a critical improper input validation flaw allows unauthenticated users to escalate privileges to SYSTEM on vulnerable machines.",
-    "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-11T16:12:46.000Z",
-    "fetchedAt": "2026-11-12T00:37:39.063Z"
-  },
-  {
-    "slug": "xen-orchestra-auth-bypass-exploited-to-take-over-xcp-ng-host-2026-11-11",
-    "title": "Xen Orchestra auth bypass exploited to take over XCP-ng hosts",
-    "originalTitle": "Critical Xen Orchestra Flaws Exploited in Attacks",
-    "summary": "Patch Xen Orchestra now and restrict access, attackers are exploiting an authentication bypass to execute code as admin and seize control of XCP-ng hosts.",
-    "url": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-11T15:42:47.000Z",
-    "fetchedAt": "2026-11-12T00:37:39.063Z"
-  },
-  {
-    "slug": "attackers-weaponize-antifox-ai-agents-to-steal-aws-secrets-2026-11-11",
-    "title": "Attackers weaponize AntiFox AI agents to steal AWS secrets",
-    "originalTitle": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-    "summary": "Lock down cloud credentials and rotate keys, attackers are running AntiFox AI agents on Alibaba Cloud to harvest AWS secrets then pivot across compromised environments.",
-    "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-11-11T15:34:27.000Z",
-    "fetchedAt": "2026-11-12T00:37:39.063Z"
-  },
-  {
-    "slug": "git-patches-six-bugs-including-code-execution-on-clone-2026-11-11",
-    "title": "Git patches six bugs including code execution on clone",
-    "originalTitle": "Git fixes six vulnerabilities, including code execution during recursive clones",
-    "summary": "Update Git on developer machines and CI runners now, specially crafted repositories can trigger code execution, file writes or memory corruption during clone and other operations.",
-    "url": "https://www.helpnetsecurity.com/2026/11/11/git-project-security-updates/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-11T14:26:12.000Z",
-    "fetchedAt": "2026-11-12T00:37:39.063Z"
-  },
-  {
-    "slug": "citrix-and-ivanti-push-critical-fixes-rce-and-tampering-risk-2026-11-11",
-    "title": "Citrix and Ivanti push critical fixes, RCE and tampering risks",
-    "originalTitle": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
-    "summary": "Update Citrix and Ivanti products ASAP, critical flaws enable remote code execution and certificate tampering that can let attackers compromise hosts and trust chains.",
-    "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-11T13:37:19.000Z",
-    "fetchedAt": "2026-11-11T14:13:38.234Z"
-  },
-  {
-    "slug": "n-able-ships-hotfixes-for-n-central-zero-day-flaws-2026-11-11",
-    "title": "N-able ships hotfixes for N-central zero-day flaws",
-    "originalTitle": "N-able releases security hotfixes for zero-day vulnerabilities",
-    "summary": "Patch N-central immediately, zero-day bugs were publicly disclosed and N-able took hosted environments offline, apply the hotfixes and review logs for compromise.",
-    "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-11T12:32:27.000Z",
-    "fetchedAt": "2026-11-11T14:13:38.234Z"
-  },
-  {
-    "slug": "fortinet-drops-nearly-100-security-fixes-across-products-2026-11-11",
-    "title": "Fortinet drops nearly 100 security fixes across products",
-    "originalTitle": "Fortinet Patches Nearly 100 Vulnerabilities",
-    "summary": "Schedule Fortinet updates quickly, nearly 100 vulnerabilities across FortiOS and appliances include high severity bugs that could lead to compromise if left unpatched.",
-    "url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-11T12:10:14.000Z",
-    "fetchedAt": "2026-11-11T14:13:38.234Z"
-  },
-  {
-    "slug": "microsoft-shows-ai-agents-can-be-backdoored-without-retraini-2026-11-11",
-    "title": "Microsoft shows AI agents can be backdoored without retraining",
-    "originalTitle": "Microsoft researchers demonstrate hidden backdoor technique for AI agents",
-    "summary": "Treat AI models like code, small weight edits can implant hidden triggers that make agents run attacker commands, enforce model signing, integrity checks and strict access controls.",
-    "url": "https://www.helpnetsecurity.com/2026/11/11/microsoft-hidden-ai-backdoors-lazarus/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-11-11T10:55:54.000Z",
-    "fetchedAt": "2026-11-11T14:13:38.234Z"
-  },
-  {
-    "slug": "cisa-cisco-broadworks-bug-is-under-attack-patch-now-2026-11-11",
-    "title": "CISA: Cisco BroadWorks bug is under attack, patch now",
-    "originalTitle": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-    "summary": "If you run Cisco BroadWorks, patch and mitigate immediately, CISA says the flaw is being exploited, and update Openwave Webtop if present.",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-11T10:12:08.000Z",
-    "fetchedAt": "2026-11-11T14:13:38.234Z"
   }
 ]
