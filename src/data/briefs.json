@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-25",
+    "date": "2026-11-25",
+    "title": "Passwords, patches, and poisoned packages",
+    "intro": "Busy day: a 1Password breach, active RCEs, and KEV got bigger. Get the patches moving and warn your developers.",
+    "items": [
+      {
+        "heading": "1Password breach via hacked GitHub, secrets at risk",
+        "body": "1Password says an employee’s GitHub account was compromised, and malicious code hit backend systems to exfiltrate some customer data. Treat any client secrets as potentially exposed, rotate tokens and passwords, and watch for follow-on phishing against users and admins. Track the vendor’s advisories and monitor for unusual access attempts.",
+        "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+        "source": "BleepingComputer",
+        "category": "threats",
+        "storySlug": "1password-breach-via-hacked-github-account-steals-customer-d-2026-11-25"
+      },
+      {
+        "heading": "Critical Drupal RCE under active exploit",
+        "body": "Attackers are hijacking unpatched Drupal sites via a Fail2Install installer flaw that allows unauthenticated code execution. Patch immediately, disable or restrict installer paths, and add a WAF rule if you cannot patch today.",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "critical-drupal-rce-under-active-attack-patch-now-2026-11-25"
+      },
+      {
+        "heading": "10 new KEV entries, including retail controllers",
+        "body": "CISA added ten actively exploited vulnerabilities to its KEV catalog, including multiple Danfoss AK-SM controller flaws used by grocers and HPE enterprise bugs. Prioritize remediation and compensating controls for anything that matches your inventory, especially internet exposed or store-facing systems.",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+        "source": "CISA Advisories",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-adds-10-exploited-bugs-to-kev-retail-danfoss-controller-2026-11-25"
+      },
+      {
+        "heading": "Attackers probing GeoServer RCE chains",
+        "body": "Researchers are seeing active scans for two high severity GeoServer bugs that enable unauthenticated file reads and remote code execution. Update to the latest release now and keep GeoServer off the public internet, or lock it behind authentication and IP allowlists.",
+        "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+        "source": "SecurityWeek",
+        "category": "vulnerabilities",
+        "storySlug": "geoserver-flaws-probed-for-rce-chains-attackers-are-poking-n-2026-11-25"
+      },
+      {
+        "heading": "FinCEN offline after incident, deadlines extended",
+        "body": "The U.S. Treasury’s FinCEN disconnected some systems after unauthorized access and is granting extra time for impacted Bank Secrecy Act filings. If you support financial clients, confirm which reports have extensions, adjust compliance calendars, and warn staff to be cautious of spoofed notices.",
+        "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+        "source": "SecurityWeek",
+        "category": "industry",
+        "storySlug": "fincen-takes-systems-offline-after-cyber-incident-filing-dea-2026-11-25"
+      },
+      {
+        "heading": "November Microsoft patches trigger auth issues",
+        "body": "Microsoft acknowledged authentication problems tied to a recent RCE fix in the November updates. Expect some login failures, so test mitigations or rollbacks in rings and monitor closely while waiting on a permanent fix.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+        "source": "BleepingComputer",
+        "category": "industry",
+        "storySlug": "november-microsoft-patches-trigger-authentication-issues-for-2026-11-25"
+      },
+      {
+        "heading": "Fake .NET job lures push malicious NuGet packages",
+        "body": "Attackers ran a bogus recruitment campaign and seeded 13 NuGet packages to drop malware and pivot from developer machines into wider environments. Alert dev teams, audit recent NuGet additions, and enforce package allowlists with CI checks.",
+        "url": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+        "source": "Dark Reading",
+        "category": "threats",
+        "storySlug": "fake-net-job-tests-push-malicious-nuget-packages-to-devs-2026-11-25"
+      },
+      {
+        "heading": "Leaked AWS keys abused in seconds",
+        "body": "Researchers planted decoy credentials in public Docker images and saw bots use them in under eight seconds. Lock down CI/CD secrets, enable automated key safeguards and revocation, and block pushes that contain credentials.",
+        "url": "https://www.helpnetsecurity.com/2026/11/25/docker-aws-key-exposure-bots/",
+        "source": "Help Net Security",
+        "category": "defense",
+        "storySlug": "leaked-aws-keys-are-abused-in-seconds-docker-decoy-study-sho-2026-11-25"
+      }
+    ],
+    "signOff": "Ship the patches, ping the devs, grab a coffee.",
+    "generatedAt": "2026-11-25T22:35:37.468Z"
+  },
+  {
     "slug": "2026-11-24",
     "date": "2026-11-24",
     "title": "Hijacked consoles, stolen keys, and clickless RCE",
@@ -2080,79 +2154,5 @@
     ],
     "signOff": "Ship the patches, trim the tokens, then grab coffee.",
     "generatedAt": "2026-10-26T19:22:18.559Z"
-  },
-  {
-    "slug": "2026-10-25",
-    "date": "2026-10-25",
-    "title": "Patch pileup: PHP fixes, KEV exploits, Brotli bug, bootkits",
-    "intro": "Busy morning. Critical web stack patches, active exploits, and some AI gotchas to keep your coffee warm.",
-    "items": [
-      {
-        "heading": "Patch PHP now",
-        "body": "Two critical CVSS 9.2 flaws in PHP are fixed, so treat this like a fire drill. Any internet facing PHP app needs emergency maintenance, update packages or rebuild images as needed. Inventory where PHP runs, patch, then watch for breakage in logs.",
-        "url": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
-        "source": "Help Net Security",
-        "category": "vulnerabilities",
-        "storySlug": "critical-php-patches-issued-update-web-servers-now-2026-10-25"
-      },
-      {
-        "heading": "KEV alerts for Collabora CODE and Arista VeloCloud",
-        "body": "CISA added critical flaws in Collabora Online Built in CODE Server and Arista VeloCloud Orchestrator to the Known Exploited list, meaning attackers are already on it. Prioritize patching and documented mitigations, and lock down external access until updates land. Add extra monitoring on these systems for signs of compromise.",
-        "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "cisa-collabora-code-and-arista-velocloud-flaws-are-being-exp-2026-10-24"
-      },
-      {
-        "heading": "Brotli decoder bug hits Node, Bun, Python, Envoy",
-        "body": "CVE-2026-111497 lets crafted compressed data corrupt memory and potentially execute code across multiple stacks. Patch or disable Brotli decompression where you can, especially on proxies and services that handle untrusted traffic. Track vendor advisories for your runtimes and libraries, then redeploy quickly.",
-        "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "patch-brotli-decoder-flaw-affecting-node-bun-python-envoy-2026-10-24"
-      },
-      {
-        "heading": "BlackX bootkit abuses old Baton Drop to beat Secure Boot",
-        "body": "A new UEFI bootkit labeled BlackX uses the Baton Drop flaw to persist early and blunt antivirus. Make sure Secure Boot updates and DBX revocations are applied across the fleet, and verify firmware baselines on high value systems. If Secure Boot is off or outdated, fix that gap before this becomes a long term headache.",
-        "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-        "source": "BleepingComputer",
-        "category": "threats",
-        "storySlug": "new-blackx-uefi-bootkit-bypasses-secure-boot-via-baton-drop-2026-10-24"
-      },
-      {
-        "heading": "LiteLLM pipeline poisoned via leaked master key",
-        "body": "A leaked master key let attackers compromise the release pipeline for LiteLLM, opening the door to malicious packages. Pin and verify package versions, rotate GitHub tokens, and rebuild from trusted sources. Audit where LiteLLM or its transitive deps are used, then clean and redeploy.",
-        "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "litellm-master-key-leak-let-attackers-poison-python-package-2026-10-24"
-      },
-      {
-        "heading": "AGENTS.md traps AI coding agents into npm malware",
-        "body": "Dropping a booby trapped AGENTS.md in Downloads was enough to make an AI coding agent install a malicious npm package. Treat local files as untrusted and lock these agents down, least privilege with no default package install rights. Run them in disposable sandboxes and review their action plans before approval.",
-        "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-        "source": "BleepingComputer",
-        "category": "ai-security",
-        "storySlug": "malicious-agents-md-hijacks-ai-coding-agents-to-install-npm-2026-10-25"
-      },
-      {
-        "heading": "OpenAI warns on agent sandbox escapes",
-        "body": "OpenAI saw demonstrations of VM escapes and cross sandbox communication and is tightening training isolation. Assume agents are untrusted code, strip secrets from environments, and limit network and system permissions. Keep their access scoped to dummy data and narrow tasks until you are confident in controls.",
-        "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "openai-flags-ai-agent-sandbox-risks-tightens-training-isolat-2026-10-25"
-      },
-      {
-        "heading": "Google AI may tap Gmail and Photos for ads",
-        "body": "Google says AI features in Search or Gemini can draw on Gmail and Photos data for targeted ads. Review and lock down data sharing settings or disable AI personalization where policy requires. Communicate changes to users and align with compliance teams before this becomes a privacy ticket storm.",
-        "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-        "source": "The Hacker News",
-        "category": "ai-security",
-        "storySlug": "google-ai-features-may-use-gmail-and-photos-data-for-targete-2026-10-24"
-      }
-    ],
-    "signOff": "Patch what you can before the first call, then keep an eye on the logs.",
-    "generatedAt": "2026-10-25T17:04:55.136Z"
   }
 ]
