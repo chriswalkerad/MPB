@@ -1,5 +1,117 @@
 [
   {
+    "slug": "drupal-patch-now-site-takeover-bug-under-active-exploit-2026-11-26",
+    "title": "Drupal: patch now, site takeover bug under active exploit",
+    "originalTitle": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+    "summary": "Update Drupal core immediately and remediate incomplete installations, attackers are actively exploiting a highly critical bug that can enable full site takeover.",
+    "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-26T07:02:34.000Z",
+    "fetchedAt": "2026-11-26T08:09:23.972Z"
+  },
+  {
+    "slug": "cisa-adds-mitel-juniper-vates-danfoss-bugs-to-kev-patch-now-2026-11-26",
+    "title": "CISA adds Mitel, Juniper, Vates, Danfoss bugs to KEV, patch now",
+    "originalTitle": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+    "summary": "Prioritize patching or mitigations for newly exploited flaws in Mitel MiCollab, Juniper, Vates, and Danfoss, and reduce internet exposure for any affected devices.",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-26T06:44:46.000Z",
+    "fetchedAt": "2026-11-26T08:09:23.972Z"
+  },
+  {
+    "slug": "proxmox-9-3-adds-san-snapshots-eases-ransomware-recovery-2026-11-26",
+    "title": "Proxmox 9.3 adds SAN snapshots, eases ransomware recovery",
+    "originalTitle": "Proxmox 9.3 adds production snapshots for SAN-backed VMs",
+    "summary": "If you run Proxmox on SAN-backed LVM, enable and test the new production snapshots so you can snapshot before risky changes and speed ransomware recovery.",
+    "url": "https://www.helpnetsecurity.com/2026/11/26/proxmox-9-3-adds-production-snapshots-for-san-backed-vms/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-26T06:07:23.000Z",
+    "fetchedAt": "2026-11-26T08:09:23.972Z"
+  },
+  {
+    "slug": "4-400-fake-shopping-domains-primed-for-holiday-scams-2026-11-26",
+    "title": "4,400+ fake shopping domains primed for holiday scams",
+    "originalTitle": "More than 4,400 malicious domains are waiting for holiday shoppers",
+    "summary": "Tighten DNS filtering, user training, and email controls now, thousands of fake shopping domains are primed to impersonate retailers and fuel payment fraud and account takeover.",
+    "url": "https://www.helpnetsecurity.com/2026/11/26/fortinet-holiday-shopping-cyber-threats-report/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-26T06:00:53.000Z",
+    "fetchedAt": "2026-11-26T08:09:23.972Z"
+  },
+  {
+    "slug": "google-locks-down-workspace-ai-agents-mandates-gated-access-2026-11-26",
+    "title": "Google locks down Workspace AI agents, mandates gated access",
+    "originalTitle": "Google mandates MCP or CLI access for Workspace AI agents starting February 2027",
+    "summary": "Inventory any Workspace AI agents, plan dedicated identities and human approvals, and prepare to route agent access via approved interfaces like MCP or CLI ahead of Google's February 2027 enforcement.",
+    "url": "https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-26T05:30:05.000Z",
+    "fetchedAt": "2026-11-26T08:09:23.972Z"
+  },
+  {
+    "slug": "1password-discloses-breach-of-backend-systems-vaults-unaffec-2026-11-26",
+    "title": "1Password discloses breach of backend systems, vaults unaffected",
+    "originalTitle": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+    "summary": "Review 1Password admin logs and integrations, enforce phishing-resistant MFA, and monitor vendor advisories after attackers accessed some backend systems and customer information.",
+    "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-26T04:20:22.000Z",
+    "fetchedAt": "2026-11-26T08:09:23.972Z"
+  },
+  {
+    "slug": "malicious-nuget-packages-target-net-devs-via-fake-assessment-2026-11-26",
+    "title": "Malicious NuGet packages target .NET devs via fake assessments",
+    "originalTitle": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+    "summary": "Block unvetted NuGet sources and scan build agents, 13 malicious packages masqueraded as UI controls and executed payloads when projects were built or run.",
+    "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-26T03:48:52.000Z",
+    "fetchedAt": "2026-11-26T08:09:23.972Z"
+  },
+  {
+    "slug": "palo-alto-warns-pan-os-devices-hit-via-fragnesia-php2shell-2026-11-25",
+    "title": "Palo Alto warns: PAN-OS devices hit via Fragnesia, PHP2Shell",
+    "originalTitle": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+    "summary": "Immediately block public access to PAN-OS management interfaces, apply available fixes, and hunt for activity chaining Fragnesia with PHP2Shell exploits on your devices.",
+    "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-25T22:05:09.000Z",
+    "fetchedAt": "2026-11-26T08:09:23.972Z"
+  },
+  {
     "slug": "1password-breach-via-hacked-github-account-steals-customer-d-2026-11-25",
     "title": "1Password breach via hacked GitHub account steals customer data",
     "originalTitle": "1Password customer data stolen after employee GitHub account breach",
@@ -2529,75 +2641,5 @@
     "category": "vulnerabilities",
     "publishedAt": "2026-11-12T08:20:37.000Z",
     "fetchedAt": "2026-11-12T15:06:57.791Z"
-  },
-  {
-    "slug": "massive-github-ci-secret-stealer-hits-60-000-repos-2026-11-12",
-    "title": "Massive GitHub CI secret stealer hits 60,000 repos",
-    "originalTitle": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
-    "summary": "Revoke suspect tokens, check Actions runs since November 10 for the wfx-loot payload, rotate cloud credentials, and enforce 2FA and least privilege across your GitHub organizations.",
-    "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/"
-      },
-      {
-        "name": "Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/11/12/wfx-loot-github-actions-secret-stealer/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-12T06:42:47.000Z",
-    "fetchedAt": "2026-11-12T15:06:57.791Z"
-  },
-  {
-    "slug": "critical-apache-http-2-flaw-enables-remote-code-execution-2026-11-12",
-    "title": "Critical Apache HTTP/2 flaw enables remote code execution",
-    "originalTitle": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-    "summary": "Patch Apache HTTP Server to 2.4.71 anywhere HTTP/2 is enabled, CVE-2026-119618 allows unauthenticated remote code execution via mod_http2.",
-    "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-12T05:12:26.000Z",
-    "fetchedAt": "2026-11-12T15:06:57.791Z"
-  },
-  {
-    "slug": "screenconnect-campaign-drops-rogue-clients-via-extension-byp-2026-11-12",
-    "title": "ScreenConnect campaign drops rogue clients via extension bypass",
-    "originalTitle": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-    "summary": "Disable unneeded extensions, review ConnectWise advisory, audit for unauthorized ScreenConnect clients and sessions, rotate credentials, update servers, and restrict access to known IPs.",
-    "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-12T04:39:48.000Z",
-    "fetchedAt": "2026-11-12T15:06:57.791Z"
-  },
-  {
-    "slug": "active-screenconnect-attacks-hit-msps-push-rogue-remote-tool-2026-11-11",
-    "title": "Active ScreenConnect attacks hit MSPs, push rogue remote tools",
-    "originalTitle": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-    "summary": "Audit and lock down ScreenConnect now, attackers are abusing compromised MSP servers to push rogue remote clients into customer environments and gain persistent access.",
-    "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-11T22:56:21.000Z",
-    "fetchedAt": "2026-11-12T00:37:39.063Z"
   }
 ]
