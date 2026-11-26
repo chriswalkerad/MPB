@@ -1,5 +1,122 @@
 [
   {
+    "slug": "fake-paid-interviews-steal-google-and-okta-logins-2026-11-26",
+    "title": "Fake paid interviews steal Google and Okta logins",
+    "originalTitle": "Fake paid expert interviews impersonate brands to steal Google logins",
+    "summary": "Train users to distrust paid interview invites, attackers impersonate major brands to steal Google Workspace and Okta credentials via webinar lures, so enforce phishing-resistant MFA and monitor OAuth app grants.",
+    "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-26T17:15:27.000Z",
+    "fetchedAt": "2026-11-26T21:27:13.686Z"
+  },
+  {
+    "slug": "remus-malware-steals-gmail-via-fake-google-sheets-extension-2026-11-26",
+    "title": "Remus malware steals Gmail via fake Google Sheets extension",
+    "originalTitle": "Remus malware steals Gmail messages via fake Google Sheets extension",
+    "summary": "Block unapproved Chrome extensions and audit email access, Remus infostealer uses a malicious Google Sheets extension to exfiltrate Gmail messages and evade detection.",
+    "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-26T15:23:28.000Z",
+    "fetchedAt": "2026-11-26T21:27:13.686Z"
+  },
+  {
+    "slug": "juniper-session-smart-conductor-rce-exploited-patch-now-2026-11-26",
+    "title": "Juniper Session Smart Conductor RCE exploited, patch now",
+    "originalTitle": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+    "summary": "Patch CVE-2026-103406 immediately, attackers are exploiting a critical bug in Juniper Session Smart Conductor to run commands as root, restrict management access and check for compromise.",
+    "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-26T13:04:06.000Z",
+    "fetchedAt": "2026-11-26T21:27:13.686Z"
+  },
+  {
+    "slug": "sys01-spies-on-gmail-outlook-via-forced-browser-management-2026-11-26",
+    "title": "SYS01 spies on Gmail, Outlook via forced browser management",
+    "originalTitle": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+    "summary": "Halt malvertising infections and lock down Chrome policies, new SYS01 variant enrolls browsers into enterprise management to force-install a data-stealing extension targeting Gmail and Outlook.",
+    "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-26T11:50:17.000Z",
+    "fetchedAt": "2026-11-26T21:27:13.686Z"
+  },
+  {
+    "slug": "mitel-micollab-zero-days-exploited-in-extortion-attacks-2026-11-26",
+    "title": "Mitel MiCollab zero-days exploited in extortion attacks",
+    "originalTitle": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+    "summary": "Review Mitel advisories and isolate vulnerable MiCollab servers, attackers exploited previously unknown flaws, likely with AI tooling, in a suspected extortion campaign.",
+    "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-26T11:35:25.000Z",
+    "fetchedAt": "2026-11-26T21:27:13.686Z"
+  },
+  {
+    "slug": "data-recovery-exec-charged-with-secretly-paying-ransomware-g-2026-11-26",
+    "title": "Data recovery exec charged with secretly paying ransomware gangs",
+    "originalTitle": "Data recovery firm co-founder accused of cashing in on ransomware victims",
+    "summary": "Vet any data recovery partners, prosecutors say a firm paid ransoms while denying it to victims, raising legal, ethical and negotiation risks for incident response.",
+    "url": "https://www.helpnetsecurity.com/2026/11/26/ransomware-recovery-fraud-florida-firm-co-founder-charged/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-11-26T09:59:07.000Z",
+    "fetchedAt": "2026-11-26T21:27:13.686Z"
+  },
+  {
+    "slug": "drupal-installer-patch-left-a-gap-now-under-attack-2026-11-26",
+    "title": "Drupal installer patch left a gap, now under attack",
+    "originalTitle": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+    "summary": "Update Drupal again now, a previous installer fix left some sites takeover-ready and attacks are underway, disable installer files and review access logs.",
+    "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-26T09:12:26.000Z",
+    "fetchedAt": "2026-11-26T21:27:13.686Z"
+  },
+  {
+    "slug": "1password-breach-exposes-customer-data-vaults-reportedly-saf-2026-11-26",
+    "title": "1Password breach exposes customer data, vaults reportedly safe",
+    "originalTitle": "1Password Breach Exposes Customer Data, Internal Source Code",
+    "summary": "Expect phishing and check your account alerts, a hijacked employee GitHub account let an attacker steal some customer names and emails plus source code, no vault access reported.",
+    "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-26T08:32:10.000Z",
+    "fetchedAt": "2026-11-26T21:27:13.686Z"
+  },
+  {
     "slug": "drupal-patch-now-site-takeover-bug-under-active-exploit-2026-11-26",
     "title": "Drupal: patch now, site takeover bug under active exploit",
     "originalTitle": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
@@ -2467,179 +2584,5 @@
     "category": "threats",
     "publishedAt": "2026-11-12T22:25:30.000Z",
     "fetchedAt": "2026-11-12T23:34:43.319Z"
-  },
-  {
-    "slug": "microsoft-365-outage-knocks-outlook-teams-copilot-offline-2026-11-12",
-    "title": "Microsoft 365 outage knocks Outlook, Teams, Copilot offline",
-    "originalTitle": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
-    "summary": "Plan for SaaS continuity and client communications, as a widespread Microsoft 365 outage disrupted Outlook, Exchange Online, Teams, and Copilot due to failed server health checks.",
-    "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
-      }
-    ],
-    "category": "industry",
-    "publishedAt": "2026-11-12T20:55:30.000Z",
-    "fetchedAt": "2026-11-12T23:34:43.319Z"
-  },
-  {
-    "slug": "n-able-n-central-zero-day-4everable2shell-under-active-explo-2026-11-12",
-    "title": "N-able N-central zero-day '4EverAble2Shell' under active exploit",
-    "originalTitle": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-    "summary": "Apply N-able guidance immediately, restrict external access to N-central, monitor for miner processes, and consider temporary service isolation as attackers exploit the 4EverAble2Shell zero-day.",
-    "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-12T19:51:16.000Z",
-    "fetchedAt": "2026-11-12T23:34:43.319Z"
-  },
-  {
-    "slug": "critical-apache-http-2-rce-patch-mod-http2-now-2026-11-12",
-    "title": "Critical Apache HTTP/2 RCE, patch mod_http2 now",
-    "originalTitle": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-    "summary": "Update Apache HTTP Server or disable HTTP/2, as CVE-2026-119618 allows unauthenticated remote code execution on servers with mod_http2 enabled.",
-    "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-12T19:12:55.000Z",
-    "fetchedAt": "2026-11-12T23:34:43.319Z"
-  },
-  {
-    "slug": "anthropic-offers-self-hosted-claude-agents-to-keep-creds-on-2026-11-12",
-    "title": "Anthropic offers self-hosted Claude Agents to keep creds on-prem",
-    "originalTitle": "Self-hosted Claude Managed Agents keeps agent credentials in your environment",
-    "summary": "Advise AI-curious clients to pilot self-hosted agents that keep credentials and session data in their cloud or on-prem, reducing data leakage and compliance risk.",
-    "url": "https://www.helpnetsecurity.com/2026/11/12/anthropic-self-hosted-claude-managed-agents/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-12T18:07:00.000Z",
-    "fetchedAt": "2026-11-12T23:34:43.319Z"
-  },
-  {
-    "slug": "new-windows-signdrop-zero-day-grants-system-via-clfs-2026-11-12",
-    "title": "New Windows 'SignDrop' zero-day grants SYSTEM via CLFS",
-    "originalTitle": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
-    "summary": "Treat this local privilege escalation as exploitable in the wild, reduce local admin rights, enable EDR detections, and deploy Microsoft's fix as soon as available.",
-    "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-12T16:04:00.000Z",
-    "fetchedAt": "2026-11-12T23:34:43.319Z"
-  },
-  {
-    "slug": "citrix-fixes-netscaler-auth-bypass-and-dos-bugs-patch-now-2026-11-12",
-    "title": "Citrix fixes NetScaler auth bypass and DoS bugs, patch now",
-    "originalTitle": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-    "summary": "Patch NetScaler ADC, Gateway, and Console releases now and check for compromise indicators, as Citrix disclosed critical flaws including an authentication bypass.",
-    "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-12T15:38:49.000Z",
-    "fetchedAt": "2026-11-12T23:34:43.319Z"
-  },
-  {
-    "slug": "chrome-and-firefox-ship-fixes-for-180-vulnerabilities-2026-11-12",
-    "title": "Chrome and Firefox ship fixes for 180+ vulnerabilities",
-    "originalTitle": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
-    "summary": "Push Chrome 157 and Firefox 160 to all endpoints today, dozens of high risk bugs include code execution and sandbox escape that attackers often weaponize quickly.",
-    "url": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-12T13:42:09.000Z",
-    "fetchedAt": "2026-11-12T15:06:57.791Z"
-  },
-  {
-    "slug": "microsoft-warns-of-windows-updates-hurting-sql-server-2026-11-12",
-    "title": "Microsoft warns of Windows updates hurting SQL Server",
-    "originalTitle": "Microsoft: Recent Windows updates cause SQL Server performance issues",
-    "summary": "If SQL Server performance or stability degraded after October updates, follow Microsoft guidance to uninstall affected patches or apply workarounds while a fix is developed.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "defense",
-    "publishedAt": "2026-11-12T12:11:11.000Z",
-    "fetchedAt": "2026-11-12T15:06:57.791Z"
-  },
-  {
-    "slug": "amd-turin-vm-flaw-can-leak-data-across-processes-in-gcp-2026-11-12",
-    "title": "AMD Turin VM flaw can leak data across processes in GCP",
-    "originalTitle": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-    "summary": "Patch guest OS images and restart AMD Turin VMs, Google mitigated cross VM leakage but intra VM side channels persist until guests are updated.",
-    "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-12T12:09:14.000Z",
-    "fetchedAt": "2026-11-12T15:06:57.791Z"
-  },
-  {
-    "slug": "new-n-central-exploits-hit-even-patched-servers-2026-11-12",
-    "title": "New N-central exploits hit even patched servers",
-    "originalTitle": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-    "summary": "If the Legacy API is enabled and exposed, new exploits enable root RCE and Windows SYSTEM, disable the Legacy API, restrict exposure, apply N-able guidance and patches, and audit access logs.",
-    "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-12T11:51:43.000Z",
-    "fetchedAt": "2026-11-12T15:06:57.791Z"
-  },
-  {
-    "slug": "node-js-fixes-http-2-bugs-that-crash-servers-and-leak-data-2026-11-12",
-    "title": "Node.js fixes HTTP/2 bugs that crash servers and leak data",
-    "originalTitle": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
-    "summary": "Upgrade Node.js to 22.23.5, 24.22.3 or 26.13.1, unauthenticated clients could crash HTTP/2 servers and leak responses from other connections.",
-    "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-12T08:20:37.000Z",
-    "fetchedAt": "2026-11-12T15:06:57.791Z"
   }
 ]
