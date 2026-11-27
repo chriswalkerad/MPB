@@ -1,5 +1,122 @@
 [
   {
+    "slug": "unpatched-cacti-zero-day-with-public-exploit-allows-rce-2026-11-27",
+    "title": "Unpatched Cacti zero-day with public exploit allows RCE",
+    "originalTitle": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+    "summary": "If you run Cacti, restrict access and monitor now, a public proof-of-concept enables unauthenticated remote code execution while a patch is pending.",
+    "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-27T17:06:13.000Z",
+    "fetchedAt": "2026-11-27T21:11:33.939Z"
+  },
+  {
+    "slug": "sap-confirms-cyber-incident-amid-reports-of-source-code-acce-2026-11-27",
+    "title": "SAP confirms cyber incident amid reports of source code access",
+    "originalTitle": "Software giant SAP confirms cyber incident amid reports of source code breach",
+    "summary": "Tell SAP stakeholders to monitor advisories and tighten change controls, a breach of development infrastructure could lead to supply chain risk or malicious updates.",
+    "url": "https://therecord.media/sap-germany-cyberattack-github",
+    "source": {
+      "name": "The Record"
+    },
+    "altSources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/"
+      }
+    ],
+    "category": "threats",
+    "publishedAt": "2026-11-27T13:15:00.000Z",
+    "fetchedAt": "2026-11-27T21:11:33.939Z"
+  },
+  {
+    "slug": "cisa-adds-actively-exploited-geoserver-and-drupal-bugs-to-ke-2026-11-27",
+    "title": "CISA adds actively exploited GeoServer and Drupal bugs to KEV",
+    "originalTitle": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "summary": "Prioritize patching GeoServer and Drupal instances, CISA says these flaws are under active exploitation, so treat them as emergency change tickets for internet-exposed systems.",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "source": {
+      "name": "CISA Advisories"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "fetchedAt": "2026-11-27T21:11:33.939Z"
+  },
+  {
+    "slug": "malicious-microsoft-store-app-delivered-vinci-rat-via-signed-2026-11-27",
+    "title": "Malicious Microsoft Store app delivered Vinci RAT via signed installer",
+    "originalTitle": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+    "summary": "Block unsolicited Store app installs and hunt for Vinci RAT, attackers used a Microsoft-signed “Snipping-Tool.exe” to gain remote control on victims’ systems.",
+    "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-27T11:49:34.000Z",
+    "fetchedAt": "2026-11-27T21:11:33.939Z"
+  },
+  {
+    "slug": "wsus-is-being-removed-from-windows-server-2028-plan-your-mov-2026-11-27",
+    "title": "WSUS is being removed from Windows Server 2028, plan your move",
+    "originalTitle": "Microsoft removes WSUS server role in Windows Server 2028",
+    "summary": "Inventory your WSUS dependencies and start migration plans to Windows Update for Business, Intune, or third-party patching before Windows Server 2028 lands without WSUS.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "industry",
+    "publishedAt": "2026-11-27T11:18:36.000Z",
+    "fetchedAt": "2026-11-27T21:11:33.939Z"
+  },
+  {
+    "slug": "china-and-north-korea-adopt-artex-ai-pentesting-framework-2026-11-27",
+    "title": "China and North Korea adopt ARTEX AI pentesting framework",
+    "originalTitle": "Chinese and North Korean state hackers add ARTEX AI framework to their arsenal",
+    "summary": "Expect faster, automated intrusion chains, tune detections for rapid multi-step exploitation and harden exposed services as state actors operationalize AI-driven tooling.",
+    "url": "https://www.helpnetsecurity.com/2026/11/27/artex-ai-pentest-framework-china-north-korea-state-hackers/",
+    "source": {
+      "name": "Help Net Security"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-27T11:06:57.000Z",
+    "fetchedAt": "2026-11-27T21:11:33.939Z"
+  },
+  {
+    "slug": "official-q-dir-and-desktopok-installers-trojanized-deliverin-2026-11-27",
+    "title": "Official Q-Dir and DesktopOK installers trojanized, delivering RATs",
+    "originalTitle": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+    "summary": "Stop using recent SoftwareOK downloads, reimage or thoroughly cleanse machines that ran them, and rotate credentials, the site’s installers were tampered to push remote access malware.",
+    "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-27T09:29:30.000Z",
+    "fetchedAt": "2026-11-27T21:11:33.939Z"
+  },
+  {
+    "slug": "microsoft-ships-emergency-hotpatch-to-fix-windows-server-202-2026-11-27",
+    "title": "Microsoft ships emergency hotpatch to fix Windows Server 2025 crashes",
+    "originalTitle": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+    "summary": "Apply the new hotpatch or roll back the faulty update after testing, Microsoft issued an out-of-band fix for Server 2025 systems crashing after November’s hotpatch.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "defense",
+    "publishedAt": "2026-11-27T09:08:16.000Z",
+    "fetchedAt": "2026-11-27T21:11:33.939Z"
+  },
+  {
     "slug": "critical-nfs-bug-lets-remote-users-get-root-on-linux-servers-2026-11-27",
     "title": "Critical NFS bug lets remote users get root on Linux servers",
     "originalTitle": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
@@ -2365,168 +2482,5 @@
     "category": "ai-security",
     "publishedAt": "2026-11-13T21:32:00.000Z",
     "fetchedAt": "2026-11-14T06:14:06.475Z"
-  },
-  {
-    "slug": "android-arcticrat-now-uses-ai-to-profile-victims-finances-2026-11-13",
-    "title": "Android ArcticRAT now uses AI to profile victims’ finances",
-    "originalTitle": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
-    "summary": "Lock down Android BYOD with MDM, block sideloading and unknown sources, ArcticRAT now uses AI to triage stolen data and can take full device control.",
-    "url": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
-    "source": {
-      "name": "Dark Reading"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-13T20:20:27.000Z",
-    "fetchedAt": "2026-11-14T06:14:06.475Z"
-  },
-  {
-    "slug": "trezor-finds-tampered-safe-5-wallets-at-reseller-fix-release-2026-11-13",
-    "title": "Trezor finds tampered Safe 5 wallets at reseller, fix released",
-    "originalTitle": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
-    "summary": "If anyone bought a Trezor Safe 5 from CryptoBilis, stop using it, update firmware, move funds and treat the recovery phrase as compromised due to cellular exfiltration implants.",
-    "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-13T19:38:36.000Z",
-    "fetchedAt": "2026-11-14T06:14:06.475Z"
-  },
-  {
-    "slug": "postgresql-fixes-22-year-old-rce-rebuild-c-extensions-2026-11-13",
-    "title": "PostgreSQL fixes 22-year-old RCE, rebuild C extensions",
-    "originalTitle": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-    "summary": "Patch PostgreSQL and rebuild any C-language extensions, CVE-2026-6460 lets authenticated users execute code on the server and requires rebuilding extensions for full protection.",
-    "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-13T16:53:08.000Z",
-    "fetchedAt": "2026-11-13T19:38:33.191Z"
-  },
-  {
-    "slug": "windows-zero-day-signdrop-grants-system-rights-2026-11-13",
-    "title": "Windows zero-day SignDrop grants System rights",
-    "originalTitle": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
-    "summary": "Prepare to rapidly deploy Microsoft's fix and monitor for abuse, a public SignDrop exploit gives local users SYSTEM via CLFS and Defender behavior to escalate privileges.",
-    "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
-    "source": {
-      "name": "Ars Technica"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/"
-      }
-    ],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-13T16:26:32.000Z",
-    "fetchedAt": "2026-11-13T19:38:33.191Z"
-  },
-  {
-    "slug": "ai-agent-changed-vendor-banking-via-email-lock-it-down-2026-11-13",
-    "title": "AI agent changed vendor banking via email, lock it down",
-    "originalTitle": "How one AI agent exposed five critical enterprise security gaps",
-    "summary": "Restrict AI agents' tool access and approvals, Token Security shows agents can be tricked to alter vendor bank details via email and shares practical guardrails to prevent it.",
-    "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"
-      }
-    ],
-    "category": "ai-security",
-    "publishedAt": "2026-11-13T15:01:11.000Z",
-    "fetchedAt": "2026-11-13T19:38:33.191Z"
-  },
-  {
-    "slug": "november-windows-patches-break-complex-document-printing-2026-11-13",
-    "title": "November Windows patches break complex document printing",
-    "originalTitle": "Microsoft says November security updates cause printing issues",
-    "summary": "Warn help desks and test before broad rollout, Microsoft says November updates can break printing for complex formatted documents and is investigating workarounds and a fix.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-11-13T12:27:40.000Z",
-    "fetchedAt": "2026-11-13T19:38:33.191Z"
-  },
-  {
-    "slug": "cisa-adds-actively-exploited-check-point-and-unrealircd-flaw-2026-11-13",
-    "title": "CISA adds actively exploited Check Point and UnrealIRCd flaws",
-    "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "summary": "Patch Check Point and UnrealIRCd systems now, both flaws are on CISA’s KEV for active exploitation, prioritize internet-facing devices and audit logs for signs of compromise.",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": {
-      "name": "CISA Advisories"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "fetchedAt": "2026-11-14T06:14:06.475Z"
-  },
-  {
-    "slug": "check-point-gateways-hacked-zero-day-root-esxi-wiped-2026-11-13",
-    "title": "Check Point gateways hacked, zero-day root, ESXi wiped",
-    "originalTitle": "Check Point warns of zero-day flaw exploited for root access",
-    "summary": "Install Check Point emergency hotfixes, attackers chained PHP2Shell bugs with a Gaia OS zero-day to gain root, drop a TSGA backdoor, and wipe VMware ESXi hosts.",
-    "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/"
-      },
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-13T10:44:22.000Z",
-    "fetchedAt": "2026-11-13T19:38:33.191Z"
-  },
-  {
-    "slug": "citrix-fixes-10-critical-netscaler-bugs-update-now-2026-11-13",
-    "title": "Citrix fixes 10 critical NetScaler bugs, update now",
-    "originalTitle": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
-    "summary": "Update NetScaler ADC/Gateway appliances to the latest builds immediately, ten critical flaws could trigger denial of service or unexpected behavior on widely deployed edge devices.",
-    "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-13T09:36:56.000Z",
-    "fetchedAt": "2026-11-13T19:38:33.191Z"
-  },
-  {
-    "slug": "november-updates-trigger-windows-activation-and-licensing-fa-2026-11-13",
-    "title": "November updates trigger Windows activation and licensing failures",
-    "originalTitle": "Microsoft confirms Windows activation failures after November updates",
-    "summary": "Expect 0x80041008 activation errors after Patch Tuesday, Microsoft confirmed the issue so hold rollouts or plan rollback for affected machines pending a corrective update.",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "industry",
-    "publishedAt": "2026-11-13T09:36:18.000Z",
-    "fetchedAt": "2026-11-13T19:38:33.191Z"
   }
 ]
