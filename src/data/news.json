@@ -1,5 +1,75 @@
 [
   {
+    "slug": "critical-nfs-bug-lets-remote-users-get-root-on-linux-servers-2026-11-27",
+    "title": "Critical NFS bug lets remote users get root on Linux servers",
+    "originalTitle": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+    "summary": "Admins running NFS on Linux should patch or restrict NFS to trusted networks immediately, a 12-year-old bug CVE-2026-99362 allows remote attackers to gain root.",
+    "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+    "source": {
+      "name": "BleepingComputer"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-27T08:06:58.000Z",
+    "fetchedAt": "2026-11-27T08:19:58.141Z"
+  },
+  {
+    "slug": "hex-pm-warns-of-possible-breach-after-server-command-executi-2026-11-27",
+    "title": "Hex.pm warns of possible breach after server command execution flaw",
+    "originalTitle": "Hex Package Manager Warns of Potential Data Breach",
+    "summary": "Treat Elixir dependencies as potentially at risk, a flaw let attackers run commands on hex.pm servers, with read access unlogged and tampering still under review.",
+    "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-27T07:44:49.000Z",
+    "fetchedAt": "2026-11-27T08:19:58.141Z"
+  },
+  {
+    "slug": "sap-probes-github-breach-after-stolen-tokens-used-to-copy-co-2026-11-27",
+    "title": "SAP probes GitHub breach after stolen tokens used to copy code",
+    "originalTitle": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+    "summary": "Expect advisories and update watchlists, attackers used stolen SAP employee tokens to copy and alter source code on GitHub, monitor for downstream fixes and potential malicious commits.",
+    "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+    "source": {
+      "name": "SecurityWeek"
+    },
+    "altSources": [],
+    "category": "threats",
+    "publishedAt": "2026-11-27T07:36:14.000Z",
+    "fetchedAt": "2026-11-27T08:19:58.141Z"
+  },
+  {
+    "slug": "switzerland-says-ai-assisted-attacks-breached-critical-infra-2026-11-27",
+    "title": "Switzerland says AI-assisted attacks breached critical infrastructure",
+    "originalTitle": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+    "summary": "Prepare for AI-augmented intrusion tradecraft, Swiss authorities confirmed multiple attacks using AI agents, including two successful breaches of critical infrastructure with limited disruption.",
+    "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "ai-security",
+    "publishedAt": "2026-11-27T06:04:20.000Z",
+    "fetchedAt": "2026-11-27T08:19:58.141Z"
+  },
+  {
+    "slug": "unpatched-cacti-zero-day-allows-rce-via-guest-access-2026-11-27",
+    "title": "Unpatched Cacti zero-day allows RCE via guest access",
+    "originalTitle": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+    "summary": "If you expose Cacti, disable guest access, restrict to VPN, monitor for compromise, a new zero-day enables remote code execution in four HTTP requests.",
+    "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+    "source": {
+      "name": "The Hacker News"
+    },
+    "altSources": [],
+    "category": "vulnerabilities",
+    "publishedAt": "2026-11-27T05:48:20.000Z",
+    "fetchedAt": "2026-11-27T08:19:58.141Z"
+  },
+  {
     "slug": "fake-paid-interviews-steal-google-and-okta-logins-2026-11-26",
     "title": "Fake paid interviews steal Google and Okta logins",
     "originalTitle": "Fake paid expert interviews impersonate brands to steal Google logins",
@@ -2458,131 +2528,5 @@
     "category": "industry",
     "publishedAt": "2026-11-13T09:36:18.000Z",
     "fetchedAt": "2026-11-13T19:38:33.191Z"
-  },
-  {
-    "slug": "n-central-zero-day-exploited-within-hours-patch-now-2026-11-13",
-    "title": "N-central zero-day exploited within hours, patch now",
-    "originalTitle": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
-    "summary": "Patch or mitigate N-able N-central immediately, a new 4EverAble2Shell flaw enables unauthenticated RCE to root and is being actively exploited hours after public PoC release.",
-    "url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
-    "source": {
-      "name": "SecurityWeek"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-13T07:20:50.000Z",
-    "fetchedAt": "2026-11-13T19:38:33.191Z"
-  },
-  {
-    "slug": "fbi-warns-of-fake-zoom-calls-using-stolen-video-clips-2026-11-13",
-    "title": "FBI warns of fake Zoom calls using stolen video clips",
-    "originalTitle": "Stolen webcam clips of 900+ victims feed North Korea’s $400 million fake Zoom scheme",
-    "summary": "Warn staff to verify video call invites and identities, FBI says North Korean actors use stolen webcam clips in fake Zoom and Teams calls to social-engineer crypto and open-source targets.",
-    "url": "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-13T06:30:30.000Z",
-    "fetchedAt": "2026-11-13T06:36:25.184Z"
-  },
-  {
-    "slug": "teams-meeting-ploy-abuses-device-code-login-for-token-theft-2026-11-13",
-    "title": "Teams meeting ploy abuses device code login for token theft",
-    "originalTitle": "How attackers turned a Teams meeting booking into a device code phishing trap",
-    "summary": "Block or monitor the device code flow and train users to never enter codes from unsolicited prompts, attackers are using fake Teams bookings to steal session tokens.",
-    "url": "https://www.helpnetsecurity.com/2026/11/13/microsoft-teams-device-code-phishing/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-13T06:15:48.000Z",
-    "fetchedAt": "2026-11-13T06:36:25.184Z"
-  },
-  {
-    "slug": "fake-it-hires-reached-onboarding-exposing-data-sprawl-2026-11-13",
-    "title": "Fake IT hires reached onboarding, exposing data sprawl",
-    "originalTitle": "Suspected North Korean IT workers reached onboarding at companies with open data",
-    "summary": "Tighten hiring vetting and access controls, Material Security tracked suspected North Korean personas reaching onboarding at multiple firms, exposing massive data sprawl and potential exfiltration risk.",
-    "url": "https://www.helpnetsecurity.com/2026/11/13/north-korean-it-workers-onboarding/",
-    "source": {
-      "name": "Help Net Security"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-13T06:00:22.000Z",
-    "fetchedAt": "2026-11-13T06:36:25.184Z"
-  },
-  {
-    "slug": "active-exploits-hit-n-able-n-central-patch-and-lock-down-now-2026-11-13",
-    "title": "Active exploits hit N-able N-central, patch and lock down now",
-    "originalTitle": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
-    "summary": "N-able MSPs should patch N-central and limit exposure now, active exploits are hitting 4EverAble2Shell and Agent2Shell, with infections reported and features temporarily restricted while full fixes roll out.",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
-    "source": {
-      "name": "The Hacker News"
-    },
-    "altSources": [],
-    "category": "vulnerabilities",
-    "publishedAt": "2026-11-13T05:43:28.000Z",
-    "fetchedAt": "2026-11-13T06:36:25.184Z"
-  },
-  {
-    "slug": "mac-infostealer-downthedrain-rides-fake-clickfix-campaign-2026-11-13",
-    "title": "Mac infostealer DownTheDRAIN rides fake ClickFix campaign",
-    "originalTitle": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
-    "summary": "Update Mac EDR and block untrusted installers, SANS ISC reports a ClickFix-themed campaign delivering DownTheDRAIN infostealer to steal credentials and data from macOS systems.",
-    "url": "https://isc.sans.edu/diary/rss/33518",
-    "source": {
-      "name": "SANS ISC"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-13T03:41:41.000Z",
-    "fetchedAt": "2026-11-13T06:36:25.184Z"
-  },
-  {
-    "slug": "sckit-worm-rides-screenconnect-jumps-from-clients-to-msps-2026-11-12",
-    "title": "SCKit worm rides ScreenConnect, jumps from clients to MSPs",
-    "originalTitle": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
-    "summary": "Patch ScreenConnect to the latest release, isolate technician endpoints, audit logs for SCKit activity, and tighten support session policies because attackers are pivoting from customer devices into MSP networks.",
-    "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html"
-      },
-      {
-        "name": "The Record",
-        "url": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool"
-      }
-    ],
-    "category": "threats",
-    "publishedAt": "2026-11-12T22:53:10.000Z",
-    "fetchedAt": "2026-11-12T23:34:43.319Z"
-  },
-  {
-    "slug": "4-800-github-accounts-hijacked-to-plant-secrets-stealing-mal-2026-11-12",
-    "title": "4,800 GitHub accounts hijacked to plant secrets-stealing malware",
-    "originalTitle": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
-    "summary": "Enforce hardware-backed 2FA, rotate tokens and secrets, and review recent PRs and commits, as attackers used thousands of hijacked accounts to push credential-stealing code.",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
-    "source": {
-      "name": "BleepingComputer"
-    },
-    "altSources": [],
-    "category": "threats",
-    "publishedAt": "2026-11-12T22:25:30.000Z",
-    "fetchedAt": "2026-11-12T23:34:43.319Z"
   }
 ]
