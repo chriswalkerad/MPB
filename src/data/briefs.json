@@ -1,5 +1,79 @@
 [
   {
+    "slug": "2026-11-27",
+    "date": "2026-11-27",
+    "title": "RCEs and RATs: urgent patches, poisoned installers, and a hotfix",
+    "intro": "Public exploits and active abuse make today a patch-first day. Also, watch your software supply chain and a fresh Microsoft hotpatch for crashing servers.",
+    "items": [
+      {
+        "heading": "Unpatched Cacti zero day with public exploit",
+        "body": "A proof of concept is out that enables unauthenticated remote code execution on Cacti, and there is no patch yet. If you run Cacti, lock it behind VPN or IP allow lists and watch logs for unusual commands or new processes. Keep monitoring for the vendor fix and be ready to deploy fast.",
+        "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+        "source": "BleepingComputer",
+        "category": "vulnerabilities",
+        "storySlug": "unpatched-cacti-zero-day-with-public-exploit-allows-rce-2026-11-27"
+      },
+      {
+        "heading": "GeoServer and Drupal bugs land on CISA KEV",
+        "body": "CISA says both products have flaws under active exploitation. Treat any internet exposed instances as emergency change tickets, patch first, isolate or disable services if you cannot patch immediately. Confirm your external attack surface so you do not miss a stray test box.",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+        "source": "CISA Advisories",
+        "category": "vulnerabilities",
+        "storySlug": "cisa-adds-actively-exploited-geoserver-and-drupal-bugs-to-ke-2026-11-27"
+      },
+      {
+        "heading": "Q-Dir and DesktopOK installers trojanized",
+        "body": "Official downloads were tampered with to push remote access malware. Stop using recent SoftwareOK installers, reimage or thoroughly cleanse any machines that ran them, and rotate credentials used on those systems. Pull the software from your portals until clean installers are verified.",
+        "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "official-q-dir-and-desktopok-installers-trojanized-deliverin-2026-11-27"
+      },
+      {
+        "heading": "Malicious Store app pushed Vinci RAT via signed installer",
+        "body": "Attackers abused a Microsoft signed Snipping-Tool.exe to deliver Vinci RAT through a rogue Store app. Block unsolicited Microsoft Store app installs via policy and hunt for Vinci RAT activity in your fleet. Pay attention to signed binaries executing from user space or odd directories.",
+        "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+        "source": "The Hacker News",
+        "category": "threats",
+        "storySlug": "malicious-microsoft-store-app-delivered-vinci-rat-via-signed-2026-11-27"
+      },
+      {
+        "heading": "SAP confirms incident, possible source code access",
+        "body": "SAP acknowledged a cyber event amid reports its development infrastructure was accessed, raising supply chain concerns. Tell SAP stakeholders to monitor advisories closely, tighten change controls, and scrutinize updates before rollout. Keep a contingency plan for rapid rollback of any risky changes.",
+        "url": "https://therecord.media/sap-germany-cyberattack-github",
+        "source": "The Record",
+        "category": "threats",
+        "storySlug": "sap-confirms-cyber-incident-amid-reports-of-source-code-acce-2026-11-27"
+      },
+      {
+        "heading": "Emergency hotpatch fixes Windows Server 2025 crashes",
+        "body": "Microsoft released an out of band hotpatch after some Server 2025 systems crashed following November’s hotpatch. Test, then apply the new hotpatch, or roll back the faulty update if needed. Document which clusters or hosts were affected to avoid repeat surprises.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+        "source": "BleepingComputer",
+        "category": "defense",
+        "storySlug": "microsoft-ships-emergency-hotpatch-to-fix-windows-server-202-2026-11-27"
+      },
+      {
+        "heading": "WSUS is going away in Windows Server 2028",
+        "body": "WSUS will not be included in Windows Server 2028. Inventory WSUS dependencies now and plan migrations to Windows Update for Business, Intune, or third party patching. Start pilot groups and reporting so you are not rebuilding patch management on a deadline.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+        "source": "BleepingComputer",
+        "category": "industry",
+        "storySlug": "wsus-is-being-removed-from-windows-server-2028-plan-your-mov-2026-11-27"
+      },
+      {
+        "heading": "State actors tap AI pentesting tool ARTEX",
+        "body": "Reports say China and North Korea are adopting the ARTEX AI pentesting framework. Expect faster, automated intrusion chains, so tune detections for rapid multi step exploitation and harden exposed services. Validate rate limits, auth, and segmentation on anything internet reachable.",
+        "url": "https://www.helpnetsecurity.com/2026/11/27/artex-ai-pentest-framework-china-north-korea-state-hackers/",
+        "source": "Help Net Security",
+        "category": "ai-security",
+        "storySlug": "china-and-north-korea-adopt-artex-ai-pentesting-framework-2026-11-27"
+      }
+    ],
+    "signOff": "Good luck out there, and may your hotpatches stick on the first try.",
+    "generatedAt": "2026-11-27T22:00:47.154Z"
+  },
+  {
     "slug": "2026-11-26",
     "date": "2026-11-26",
     "title": "Active exploits on your edge, browser traps in your inbox",
@@ -2080,79 +2154,5 @@
     ],
     "signOff": "Patch, verify, breathe. On to the tickets.",
     "generatedAt": "2026-10-28T18:53:19.988Z"
-  },
-  {
-    "slug": "2026-10-27",
-    "date": "2026-10-27",
-    "title": "Patch pileup and identity traps across your stack",
-    "intro": "Busy patch day across libraries, network gear, and auth apps, plus a Teams phish trick targeting M365 tenants. If you only have time for a few moves, start with anything internet facing and broadly deployed.",
-    "items": [
-      {
-        "heading": "Brotli compression bug needs urgent patching",
-        "body": "A remotely exploitable out of bounds write in the Brotli compression library, disclosed via Node.js, can lead to code execution in software that uses it on both servers and clients. Inventory where Brotli is bundled in your stack and pull in upstream fixes fast. If you cannot patch immediately, evaluate disabling Brotli where optional and limit untrusted inputs hitting affected services.",
-        "url": "https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/",
-        "source": "Help Net Security",
-        "category": "vulnerabilities",
-        "storySlug": "brotli-compression-bug-puts-many-apps-at-risk-patch-now-2026-10-27"
-      },
-      {
-        "heading": "HPE ships fixes for critical networking flaws",
-        "body": "HPE released updates for dozens of networking product vulnerabilities, including eight max severity issues that enable remote code execution and authentication bypass. Plan maintenance windows to patch switches and appliances promptly. Until updated, restrict management access and keep control planes isolated.",
-        "url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
-        "source": "SecurityWeek",
-        "category": "vulnerabilities",
-        "storySlug": "hpe-fixes-dozens-of-critical-networking-bugs-including-rce-2026-10-27"
-      },
-      {
-        "heading": "CISA flags PHP bugs under active exploitation",
-        "body": "CISA added widely known PHP flaws to the KEV list and warned they are being exploited, with a short federal remediation window. Upgrade to supported PHP versions and patch any internet exposed PHP applications. Reduce exposure by limiting direct internet access and placing apps behind strict controls while you remediate.",
-        "url": "https://therecord.media/php-vulnerabilities-cisa-kev",
-        "source": "The Record",
-        "category": "vulnerabilities",
-        "storySlug": "cisa-php-bugs-under-active-attack-patch-your-servers-now-2026-10-27"
-      },
-      {
-        "heading": "Tailscale SSH flaws allow root escalation",
-        "body": "Multiple Tailscale SSH bugs could grant root access, steal credentials, or crash systems on unpatched deployments. Update to the latest Tailscale release immediately and review SSH settings and policy. Audit who can access hosts over Tailscale and temporarily tighten access until updates are verified.",
-        "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-        "source": "BleepingComputer",
-        "category": "vulnerabilities",
-        "storySlug": "tailscale-rushes-fixes-for-ssh-flaws-enabling-root-escalatio-2026-10-27"
-      },
-      {
-        "heading": "Android Authenticator token theft bug fixed",
-        "body": "On Android, CVE-2026-80097 allowed unprivileged apps to impersonate trusted Microsoft apps and steal work account sign in tokens. Microsoft fixed this in Authenticator 6.2606.4246 or later, push the update via MDM and verify compliance. Check sign in logs for anomalies around the update window.",
-        "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "update-microsoft-authenticator-for-android-token-theft-flaw-2026-10-27"
-      },
-      {
-        "heading": "Apple patches exploited CoreGraphics flaw on older devices",
-        "body": "Apple backported a fix for an out of bounds write in CoreGraphics that has been exploited in the wild, allowing code execution via malicious files. Update older iPhones and iPads as soon as possible. Remind users to avoid opening unknown attachments until updates are installed.",
-        "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-        "source": "The Hacker News",
-        "category": "vulnerabilities",
-        "storySlug": "apple-backports-fix-for-exploited-coregraphics-bug-to-older-2026-10-27"
-      },
-      {
-        "heading": "Teams phish: spam distraction then fake IT support",
-        "body": "Attackers are flooding inboxes with noise, then jumping into Microsoft Teams posing as IT to harvest credentials within minutes. Lock down external messaging in Teams, tighten M365 policies, and coach users that IT will not ask for passwords in chat. Monitor for unusual external chat requests and sudden Teams prompts.",
-        "url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-teams-social-engineering-fake-it-help-desk/",
-        "source": "Help Net Security",
-        "category": "threats",
-        "storySlug": "attackers-spam-inboxes-then-phish-on-teams-as-fake-it-suppor-2026-10-27"
-      },
-      {
-        "heading": "DreamHost forces email and FTP password resets",
-        "body": "DreamHost triggered forced resets after an incident affecting some systems including webmail. If you manage any DreamHost accounts, rotate credentials and review access logs for suspicious activity. If those passwords were reused elsewhere, change them there too.",
-        "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
-        "source": "SecurityWeek",
-        "category": "threats",
-        "storySlug": "dreamhost-resets-email-and-ftp-passwords-after-unexplained-i-2026-10-27"
-      }
-    ],
-    "signOff": "Patch what you can now, queue the rest, and keep an eye on tokens and Teams chats.",
-    "generatedAt": "2026-10-27T18:43:18.324Z"
   }
 ]
