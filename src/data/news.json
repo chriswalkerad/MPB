@@ -2468,19 +2468,5 @@
     "category": "defense",
     "publishedAt": "2026-11-14T11:00:00.000Z",
     "fetchedAt": "2026-11-14T13:28:57.278Z"
-  },
-  {
-    "slug": "fbi-artex-tool-chains-attacks-to-admin-in-under-three-hours-2026-11-13",
-    "title": "FBI: Artex tool chains attacks to admin in under three hours",
-    "originalTitle": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
-    "summary": "Pull the FBI flash, update detections and harden MFA, conditional access and lateral movement controls, attackers are automating kill chains to admin in under three hours with Artex.",
-    "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
-    "source": {
-      "name": "The Record"
-    },
-    "altSources": [],
-    "category": "ai-security",
-    "publishedAt": "2026-11-13T21:32:00.000Z",
-    "fetchedAt": "2026-11-14T06:14:06.475Z"
   }
 ]
